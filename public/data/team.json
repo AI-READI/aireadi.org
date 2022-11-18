@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Bonnie Green",
+    "title": "CEO & Web Developer",
+    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
+    "modules": ["ethics", "tools"],
+    "social": {
+      "facebook": "https://www.facebook.com",
+      "twitter": "https://www.twitter.com",
+      "github": "https://www.github.com",
+      "website": "https://www.dribbble.com"
+    }
+  },
+  {
+    "name": "Roberta Casas",
+    "title": "Senior Front-end Developer",
+    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png",
+    "modules": ["ethics", "tools"],
+    "social": {
+      "facebook": "https://www.facebook.com",
+      "twitter": "https://www.twitter.com",
+      "github": "https://www.github.com",
+      "website": "https://www.dribbble.com"
+    }
+  },
+  {
+    "name": "Michael Gough",
+    "title": "CTO",
+    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png",
+    "modules": ["teaming", "tools"],
+    "social": {
+      "facebook": "https://www.facebook.com",
+      "twitter": "https://www.twitter.com",
+      "github": "https://www.github.com",
+      "website": "https://www.dribbble.com"
+    }
+  },
+  {
+    "name": "Sofia McGuire",
+    "title": "Marketing & Sales",
+    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png",
+    "modules": ["skills"],
+    "social": {
+      "facebook": "https://www.facebook.com",
+      "twitter": "https://www.twitter.com",
+      "github": "https://www.github.com",
+      "website": "https://www.dribbble.com"
+    }
+  },
+  {
+    "name": "Helene Engels",
+    "title": "Web Designer",
+    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/helene-engels.png",
+    "modules": ["ethics", "skills"],
+    "social": {
+      "facebook": "https://www.facebook.com",
+      "twitter": "https://www.twitter.com",
+      "github": "https://www.github.com",
+      "website": "https://www.dribbble.com"
+    }
+  },
+  {
+    "name": "Joseph Mcfall",
+    "title": "Graphic Designer",
+    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png",
+    "modules": ["data"],
+    "social": {
+      "facebook": "https://www.facebook.com",
+      "twitter": "https://www.twitter.com",
+      "github": "https://www.github.com",
+      "website": "https://www.dribbble.com"
+    }
+  },
+  {
+    "name": "Leslie Livingston",
+    "title": "React Developer",
+    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/thomas-lean.png",
+    "modules": ["skills"],
+    "social": {
+      "facebook": "https://www.facebook.com",
+      "twitter": "https://www.twitter.com",
+      "github": "https://www.github.com",
+      "website": "https://www.dribbble.com"
+    }
+  },
+  {
+    "name": "Neil Sims",
+    "title": "Vue.js Developer",
+    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/neil-sims.png",
+    "modules": ["ethics", "standards"],
+    "social": {
+      "facebook": "https://www.facebook.com",
+      "twitter": "https://www.twitter.com",
+      "github": "https://www.github.com",
+      "website": "https://www.dribbble.com"
+    }
+  }
+]
