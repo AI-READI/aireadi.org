@@ -1,4 +1,4 @@
-name: name: Build frontend and deploy to Azure Static Web Apps (mango-meadow_0badb3f10)
+name: Build frontend and deploy to Azure Static Web Apps (mango-meadow_0badb3f10)
 
 on:
   push:
