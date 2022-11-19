@@ -36,10 +36,15 @@ export default function HomePage() {
             header='Creating AI-ready datasets for the future'
             text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
           />
-          <HeadingWithDescription
-            heading='Powering innovation at 200,000+ companies worldwide'
-            text='Track work across the enterprise through an open, collaborative platform. Link issues across Jira and ingest data from other software development tools, so your IT support and operations teams have richer contextual information to rapidly respond to requests, incidents, and changes.'
-          />
+          <HeadingWithDescription heading='Powering innovation at 200,000+ companies worldwide'>
+            <p className='mb-4 font-normal'>
+              Track work across the enterprise through an open, collaborative
+              platform. Link issues across Jira and ingest data from other
+              software development tools, so your IT support and operations
+              teams have richer contextual information to rapidly respond to
+              requests, incidents, and changes.
+            </p>
+          </HeadingWithDescription>
           <ImagesWithHeadingAndDescription />
           <FeatureList />
           <FaqList />
