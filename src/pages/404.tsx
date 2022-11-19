@@ -40,3 +40,21 @@ export default function NotFoundPage() {
     </Layout>
   );
 }
+
+import { GetStaticProps } from 'next';
+export const getStaticProps: GetStaticProps = async () => {
+  const environment = process.env.NODE_ENV;
+
+  if (environment === 'production') {
+    return {
+      redirect: {
+        permanent: false,
+        destination: '/comingsoon',
+      },
+    };
+  }
+
+  return {
+    props: {},
+  };
+};
