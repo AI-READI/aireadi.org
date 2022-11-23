@@ -19,6 +19,7 @@
       "~/*": ["./public/*"]
     },
     "incremental": true,
+    "types": ["node", "jest"],
     "typeRoots": ["./src/types"]
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

@@ -2,7 +2,7 @@
   "name": "aireadi.org",
   "version": "0.0.1",
   "private": true,
-  "typings": "main.d.ts",
+  "typings": "index.d.ts",
   "scripts": {
     "dev": "next dev",
     "build": "next build && rm -rf ./.next/cache",
@@ -55,6 +55,7 @@
     "@tailwindcss/typography": "^0.5.8",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
+    "@types/jest": "^29.2.3",
     "@types/react": "^18.0.25",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
     "@typescript-eslint/parser": "^5.42.0",

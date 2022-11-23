@@ -2,7 +2,6 @@
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 
 import SideImage from '@/components/content/SideImage';
-import HeroImageBackground from '@/components/hero/HeroImageBackground';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 
@@ -20,10 +19,6 @@ export default function HomePage() {
         <main>
           <SkipNavContent />
 
-          <HeroImageBackground
-            header='Creating AI-ready datasets for the future'
-            text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-          />
           <SideImage
             header='Creating AI-ready datasets for the future'
             text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'

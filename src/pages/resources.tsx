@@ -29,8 +29,11 @@ export default function HomePage() {
           <SkipNavContent />
 
           <HeroImageBackground
-            header='Creating AI-ready datasets for the future'
-            text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title='Creating AI-ready datasets for the future'
+            tagline='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            showButtons
+            primaryButton='Get Started'
+            secondaryButton='Learn More'
           />
           <SideImage
             header='Creating AI-ready datasets for the future'
