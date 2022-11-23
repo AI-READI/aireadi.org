@@ -2,10 +2,10 @@ import Button from '@/components/buttons/Button';
 
 export default function HeroImageBackground({
   heading,
-  children,
+  text,
 }: {
   heading: React.ReactNode;
-  children: React.ReactNode;
+  text: React.ReactNode;
 }) {
   return (
     <section className=''>
@@ -13,8 +13,7 @@ export default function HeroImageBackground({
         <h2 className='mb-4 text-4xl font-bold tracking-tight text-gray-900 '>
           {heading}
         </h2>
-
-        {children}
+        <p className='mb-4 font-normal'>{text}</p>
 
         <Button>Learn more</Button>
       </div>

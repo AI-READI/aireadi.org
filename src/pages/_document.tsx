@@ -25,9 +25,9 @@ class MyDocument extends Document {
           />
         </Head>
         <body
-          className={
+          className={`!font-primary ${
             process.env.NODE_ENV === 'development' ? 'debug-screens' : ''
-          }
+          }`}
         >
           <Main />
           <NextScript />

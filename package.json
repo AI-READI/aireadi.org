@@ -1,23 +1,22 @@
 {
-  "name": "aireadi.org",
+  "name": "ts-nextjs-tailwind-starter",
   "version": "0.1.0",
   "private": true,
+  "typings": "main.d.ts",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && rm -rf ./.next/cache",
+    "build": "next build",
     "start": "next start",
-    "lint": "eslint --ignore-path .gitignore \"./**/*.+(ts|js|tsx)\"",
+    "lint": "next lint",
     "lint:fix": "eslint src --fix && yarn format",
     "lint:strict": "eslint --max-warnings=0 src",
     "typecheck": "tsc --noEmit --incremental false",
     "test:watch": "jest --watch",
     "test": "jest",
-    "format": "prettier --ignore-path .gitignore \"./**/*.+(ts|js|tsx)\" --write",
+    "format": "prettier -w .",
     "format:check": "prettier -c .",
     "postbuild": "next-sitemap --config next-sitemap.config.js",
-    "commit": "cz",
-    "prepare": "husky install",
-    "semantic-release": "semantic-release"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.11",
@@ -48,7 +47,6 @@
   "devDependencies": {
     "@commitlint/cli": "^16.3.0",
     "@commitlint/config-conventional": "^16.2.4",
-    "@fairdataihub/config": "^2.2.1",
     "@svgr/webpack": "^6.5.1",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.8",
@@ -66,7 +64,6 @@
     "husky": "^7.0.4",
     "jest": "^27.5.1",
     "lint-staged": "^12.5.0",
-    "megasanjay-devmoji": "^1.2.1",
     "next-router-mock": "^0.7.4",
     "next-sitemap": "^2.5.28",
     "postcss": "^8.4.18",
@@ -77,14 +74,12 @@
     "typescript": "^4.8.4"
   },
   "lint-staged": {
-    "./**/*.{ts,js,jsx,tsx}": [
-      "yarn lint --fix",
-      "yarn format"
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint --max-warnings=0",
+      "prettier -w"
+    ],
+    "**/*.{json,css,scss,md}": [
+      "prettier -w"
     ]
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
   }
 }

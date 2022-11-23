@@ -106,7 +106,7 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className=' bg-indigo-700 font-primary'>
+    <footer className=' bg-indigo-700 '>
       <div className='mx-auto max-w-screen-lg  p-4 sm:p-6'>
         <div className='md:flex md:justify-between'>
           <div className='mb-6 md:mb-0'>

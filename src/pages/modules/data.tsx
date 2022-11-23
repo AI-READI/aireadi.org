@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 
-import HeroImageBackground from '@/components/content/ImageBackground';
 import SideImage from '@/components/content/SideImage';
+import HeroImageBackground from '@/components/hero/HeroImageBackground';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 
@@ -67,21 +67,3 @@ export default function HomePage() {
     </>
   );
 }
-
-import { GetStaticProps } from 'next';
-export const getStaticProps: GetStaticProps = async () => {
-  const environment = process.env.NODE_ENV;
-
-  if (environment === 'production') {
-    return {
-      redirect: {
-        permanent: false,
-        destination: '/comingsoon',
-      },
-    };
-  }
-
-  return {
-    props: {},
-  };
-};

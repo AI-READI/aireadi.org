@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
     dirs: ['src'],
@@ -7,7 +8,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
 
-  // Uncomment to add domain whitelist
+  // Uncoment to add domain whitelist
   // images: {
   //   domains: [
   //     'res.cloudinary.com',
