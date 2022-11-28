@@ -1,10 +1,10 @@
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 
+import SideImage from '@/components/content/ContentSideImage';
 import FaqList from '@/components/content/FaqList';
 import FeatureList from '@/components/content/FeatureList';
 import HeadingWithDescription from '@/components/content/HeadingWithDescription';
 import ImagesWithHeadingAndDescription from '@/components/content/ImagesWithHeadingAndDescription';
-import SideImage from '@/components/content/SideImage';
 import StatsText from '@/components/content/StatsText';
 import HeroCroppedImage from '@/components/hero/HeroCroppedImage';
 import HeroImageBackground from '@/components/hero/HeroImageBackground';
@@ -32,12 +32,20 @@ export default function HomePage() {
 
           <HeroImageBackground
             title='Creating AI-ready datasets for the future'
+            image='lady-microscope-hero'
             tagline='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             showButtons
             primaryButton='Get Started'
             secondaryButton='Learn More'
           />
-          <HeroCroppedImage />
+          <HeroCroppedImage
+            title='Creating AI-ready datasets for the future'
+            image='https://tinyurl.com/yeyjvptc'
+            tagline='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            showButtons
+            primaryButton='Get Started'
+            secondaryButton='Learn More'
+          />
           <SideImage
             header='Creating AI-ready datasets for the future'
             text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'

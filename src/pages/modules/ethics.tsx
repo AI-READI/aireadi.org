@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 
-import SideImage from '@/components/content/SideImage';
+import SideImage from '@/components/content/ContentSideImage';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 

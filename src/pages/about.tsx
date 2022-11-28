@@ -1,10 +1,10 @@
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 
+import HeroSideImage from '@/components/content/ContentSideImage';
 import FaqList from '@/components/content/FaqList';
 import FeatureList from '@/components/content/FeatureList';
 import HeadingWithDescription from '@/components/content/HeadingWithDescription';
 import ImagesWithHeadingAndDescription from '@/components/content/ImagesWithHeadingAndDescription';
-import HeroSideImage from '@/components/content/SideImage';
 import HeroCroppedImage from '@/components/hero/HeroCroppedImage';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';

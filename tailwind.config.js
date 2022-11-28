@@ -9,6 +9,12 @@ module.exports = {
       fontFamily: {
         primary: ['Inter', ...fontFamily.sans],
       },
+
+      backgroundImage: {
+        'lady-microscope-hero':
+          "url('https://images.unsplash.com/photo-1583912086096-8c60d75a53f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80')",
+      },
+
       colors: {
         primary: {
           // Customize it on globals.css :root
@@ -25,6 +31,7 @@ module.exports = {
         },
         dark: '#222222',
       },
+
       keyframes: {
         flicker: {
           '0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100%': {
@@ -46,6 +53,7 @@ module.exports = {
           },
         },
       },
+
       animation: {
         flicker: 'flicker 3s linear infinite',
         shimmer: 'shimmer 1.3s linear infinite',

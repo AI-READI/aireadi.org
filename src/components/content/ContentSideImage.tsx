@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Button from '@/components/buttons/Button';
 
-export default function HeroSideImage({
+export default function ContentSideImage({
   header,
   text,
 }: {
