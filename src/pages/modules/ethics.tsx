@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 
-import SideImage from '@/components/content/ContentSideImage';
+import SideImage from '@/components/hero/HeroSideImage';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 
@@ -20,8 +20,12 @@ export default function HomePage() {
           <SkipNavContent />
 
           <SideImage
-            header='Creating AI-ready datasets for the future'
-            text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title='Creating AI-ready datasets for the future'
+            image='https://images.unsplash.com/photo-1528553688096-8e0735356dae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2325&q=80'
+            tagline='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            showButtons
+            primaryButton='Get Started'
+            secondaryButton='Learn More'
           />
 
           <section className='bg-white '>

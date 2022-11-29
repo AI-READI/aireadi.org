@@ -1,11 +1,11 @@
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 
-import SideImage from '@/components/content/ContentSideImage';
+import HeadingWithDescription from '@/components/content/ContentHeadingDescription';
+import ImagesWithHeadingAndDescription from '@/components/content/ContentWithImages';
 import FaqList from '@/components/content/FaqList';
 import FeatureList from '@/components/content/FeatureList';
-import HeadingWithDescription from '@/components/content/HeadingWithDescription';
-import ImagesWithHeadingAndDescription from '@/components/content/ImagesWithHeadingAndDescription';
 import HeroImageBackground from '@/components/hero/HeroImageBackground';
+import SideImage from '@/components/hero/HeroSideImage';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 /**
@@ -33,17 +33,32 @@ export default function HomePage() {
             tagline='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             showButtons
             primaryButton='Get Started'
+            image='lady-microscope-hero'
             secondaryButton='Learn More'
           />
           <SideImage
-            header='Creating AI-ready datasets for the future'
-            text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            title='Creating AI-ready datasets for the future'
+            image='https://images.unsplash.com/photo-1528553688096-8e0735356dae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2325&q=80'
+            tagline='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            showButtons
+            primaryButton='Get Started'
+            secondaryButton='Learn More'
           />
           <HeadingWithDescription
-            heading='Powering innovation at 200,000+ companies worldwide'
+            title='Powering innovation at 200,000+ companies worldwide'
             text='Track work across the enterprise through an open, collaborative platform. Link issues across Jira and ingest data from other software development tools, so your IT support and operations teams have richer contextual information to rapidly respond to requests, incidents, and changes.'
+            showButtons
+            primaryButton='Get Started'
           />
-          <ImagesWithHeadingAndDescription />
+          <ImagesWithHeadingAndDescription
+            title="We didn't reinvent the wheel"
+            text={[
+              'We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.',
+              'We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.',
+            ]}
+            image1='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png'
+            image2='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png'
+          />
           <FeatureList />
           <FaqList />
         </main>

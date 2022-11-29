@@ -1,21 +1,23 @@
 import Button from '@/components/buttons/Button';
 
-export default function HeroImageBackground({
-  heading,
+export default function ContentHeadingDescription({
+  title,
   text,
-}: {
-  heading: React.ReactNode;
-  text: React.ReactNode;
-}) {
+  showButtons = false,
+  primaryButton,
+}: TextContent) {
   return (
     <section className=''>
       <div className='mx-auto max-w-screen-xl py-8 px-4 text-gray-500 sm:text-lg  lg:py-16 lg:px-6'>
         <h2 className='mb-4 text-4xl font-bold tracking-tight text-gray-900 '>
-          {heading}
+          {title}
         </h2>
         <p className='mb-4 font-normal'>{text}</p>
-
-        <Button>Learn more</Button>
+        {showButtons && (
+          <div className='py-4'>
+            {primaryButton && <Button>{primaryButton}</Button>}
+          </div>
+        )}
       </div>
     </section>
   );
