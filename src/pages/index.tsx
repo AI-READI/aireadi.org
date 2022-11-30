@@ -56,21 +56,29 @@ export default function HomePage() {
             primaryButton='Learn more about the study'
           />
           <SideImage
-            title='Creating AI-ready datasets for the future'
+            title='Ethical, FAIR, AI-ready data sharing'
             image='https://images.unsplash.com/photo-1528553688096-8e0735356dae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2325&q=80'
-            tagline='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            tagline='The resulting dataset will be curated and shared following ethical and FAIR (Findable, Accessible, Interoperable, and Reusable) principles such that it is ready for future AI/ML-driven analysis. The data will be shared periodically through our dedicated web platform called fairhub.io. We will aim to make as much of the data as possible openly available to maximize discoveries.'
             showButtons
-            primaryButton='Get Started'
-            secondaryButton='Learn More'
+            // primaryButton='Get Started'
+            secondaryButton='View our data'
           />
           <ImagesWithHeadingAndDescription
-            title="We didn't reinvent the wheel"
+            title='Tools and best practices to help future data generation project'
             text={[
-              'We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.',
-              'We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.',
+              'We will develop and openly share tools, standards, and guidelines so that future data generation projects can follow our approach for sharing ethical, FAIR, and AI-ready datasets.',
+              'Learn more about our tools and guidelines',
             ]}
             image1='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png'
             image2='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png'
+          />
+          <SideImage
+            title='Community engagement'
+            image='https://images.unsplash.com/photo-1528553688096-8e0735356dae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2325&q=80'
+            tagline='Community members will be engaged along the way to ensure their suggestions and concerns regarding data collection, management, and sharing are addressed.'
+            showButtons
+            // primaryButton='Get Started'
+            secondaryButton='Learn More'
           />
           <FeatureList />
           <StatsText />
