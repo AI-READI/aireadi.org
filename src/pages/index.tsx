@@ -31,20 +31,29 @@ export default function HomePage() {
           <SkipNavContent />
 
           <HeroImageBackground
-            title='Creating AI-ready datasets for the future'
+            title='Artificial Intelligence Ready and Equitable Atlas for Diabetes Insights (AI-READI)'
             image='lady-microscope-hero'
-            tagline='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            tagline='Generating a flagship AI-ready and ethically-sourced dataset to support future AI-driven discoveries in diabetes'
             showButtons
-            primaryButton='Get Started'
-            secondaryButton='Learn More'
+            primaryButton='Enroll in the study'
+            secondaryButton='Join our mentorship program'
+          />
+          <HeadingWithDescription
+            title='Generating data, best practices, and tools to boost future AI-driven research in diabetes'
+            text="AI-READI is one of the data generation projects funded by the National
+            Institutes of Health (NIH)'s Bridge2AI Program. The AI-READI project seeks to create and share a flagship 
+            ethically-sourced dataset of type 2 diabetes mellitus (T2DM) that is agnostic to existing classification criteria or biases.
+            The data will be optimized for future artificial intelligence/machine learning (AI/ML) analysis that could provide critical insights into T2DM 
+            and especially shade light on the salutogenic pathways from diabetes to return to health."
+            showButtons
+            primaryButton='Learn more about Bridge2AI'
           />
           <HeroCroppedImage
-            title='Creating AI-ready datasets for the future'
+            title='Equitable, multimodal data collection'
             image='https://tinyurl.com/yeyjvptc'
-            tagline='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            tagline='The project will aim to collect data from 4,000 participants. To ensure the data is population-representative, the 4,000 participants will be balanced for three factors: disease severity, race/ethnicity, and sex. Various data types will be collected from each participant, including vitals, electrocardiogram, glucose monitoring, physical activity, ophthalmic evaluation, etc.'
             showButtons
-            primaryButton='Get Started'
-            secondaryButton='Learn More'
+            primaryButton='Learn more about the study'
           />
           <SideImage
             title='Creating AI-ready datasets for the future'
@@ -53,12 +62,6 @@ export default function HomePage() {
             showButtons
             primaryButton='Get Started'
             secondaryButton='Learn More'
-          />
-          <HeadingWithDescription
-            title='Powering innovation at 200,000+ companies worldwide'
-            text='Track work across the enterprise through an open, collaborative platform. Link issues across Jira and ingest data from other software development tools, so your IT support and operations teams have richer contextual information to rapidly respond to requests, incidents, and changes.'
-            showButtons
-            primaryButton='Get Started'
           />
           <ImagesWithHeadingAndDescription
             title="We didn't reinvent the wheel"
