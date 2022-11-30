@@ -2,7 +2,6 @@ import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 
 import HeadingWithDescription from '@/components/content/ContentHeadingDescription';
 import ImagesWithHeadingAndDescription from '@/components/content/ContentWithImages';
-import FaqList from '@/components/content/FaqList';
 import FeatureList from '@/components/content/FeatureList';
 import StatsText from '@/components/content/StatsText';
 import HeroCroppedImage from '@/components/hero/HeroCroppedImage';
@@ -80,9 +79,9 @@ export default function HomePage() {
             // primaryButton='Get Started'
             secondaryButton='Learn More'
           />
-          <FeatureList />
           <StatsText />
-          <FaqList />
+          <FeatureList />
+          {/* <FaqList /> */}
         </main>
       </Layout>
     </>
