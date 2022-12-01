@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 
 import Button from '@/components/buttons/Button';
@@ -5,7 +6,6 @@ import ImagesWithHeadingAndDescription from '@/components/content/ContentWithIma
 import FeatureList from '@/components/content/FeatureList';
 import StatsText from '@/components/content/StatsText';
 import HeroCroppedImage from '@/components/hero/HeroCroppedImage';
-import SideImage from '@/components/hero/HeroSideImage';
 import Layout from '@/components/layout/Layout';
 import ButtonLink from '@/components/links/ButtonLink';
 import Seo from '@/components/Seo';
@@ -94,14 +94,37 @@ export default function HomePage() {
             showButtons
             primaryButton='Learn more about the study'
           />
-          <SideImage
-            title='Ethical, FAIR, AI-ready data sharing'
-            image='https://images.unsplash.com/photo-1528553688096-8e0735356dae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2325&q=80'
-            tagline='The resulting dataset will be curated and shared following ethical and FAIR (Findable, Accessible, Interoperable, and Reusable) principles such that it is ready for future AI/ML-driven analysis. The data will be shared periodically through our dedicated web platform called fairhub.io. We will aim to make as much of the data as possible openly available to maximize discoveries.'
-            showButtons
-            // primaryButton='Get Started'
-            secondaryButton='View our data'
-          />
+
+          <section className='flex justify-center'>
+            <div className=' flex max-w-screen-xl flex-col items-center justify-between px-4 py-8 md:py-16 lg:flex-row'>
+              <div className='max-w-2xl px-5'>
+                <h1 className='mb-4 text-5xl font-extrabold tracking-tight xl:text-6xl'>
+                  Ethical, FAIR, AI-ready data sharing
+                </h1>
+                <p className='mb-6 text-gray-700 sm:mb-8 sm:text-xl md:text-lg'>
+                  The resulting dataset will be curated and shared following
+                  ethical and FAIR (Findable, Accessible, Interoperable, and
+                  Reusable) principles such that it is ready for future
+                  AI/ML-driven analysis. The data will be shared periodically
+                  through our dedicated web platform called fairhub.io. We will
+                  aim to make as much of the data as possible openly available
+                  to maximize discoveries.
+                </p>
+
+                <div className='relative flex space-x-4'>
+                  <Button variant='outline'> Learn more </Button>
+                </div>
+              </div>
+              <div className='px-5 md:mt-0'>
+                <img
+                  className='rounded-lg'
+                  src='https://images.unsplash.com/photo-1528553688096-8e0735356dae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2325&q=80'
+                  alt='mockup'
+                />
+              </div>
+            </div>
+          </section>
+
           <ImagesWithHeadingAndDescription
             title='Tools and best practices to help future data generation project'
             text={[
@@ -111,17 +134,35 @@ export default function HomePage() {
             image1='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png'
             image2='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png'
           />
-          <SideImage
-            title='Community engagement'
-            image='https://images.unsplash.com/photo-1528553688096-8e0735356dae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2325&q=80'
-            tagline='Community members will be engaged along the way to ensure their suggestions and concerns regarding data collection, management, and sharing are addressed.'
-            showButtons
-            // primaryButton='Get Started'
-            secondaryButton='Learn More'
-          />
+
+          <section className='flex justify-center'>
+            <div className=' flex max-w-screen-xl flex-col-reverse items-center justify-between px-4 py-8 md:py-16 lg:flex-row-reverse'>
+              <div className='max-w-2xl px-5'>
+                <h1 className='mb-4 text-5xl font-extrabold tracking-tight xl:text-6xl'>
+                  Community engagement
+                </h1>
+                <p className='mb-6 text-gray-700 sm:mb-8 sm:text-xl md:text-lg'>
+                  Community members will be engaged along the way to ensure
+                  their suggestions and concerns regarding data collection,
+                  management, and sharing are addressed.
+                </p>
+
+                <div className='relative flex space-x-4'>
+                  <Button variant='outline'> Learn more </Button>
+                </div>
+              </div>
+              <div className='px-5 md:mt-0'>
+                <img
+                  className='rounded-lg'
+                  src='https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+                  alt='mockup'
+                />
+              </div>
+            </div>
+          </section>
+
           <StatsText />
           <FeatureList />
-          {/* <FaqList /> */}
         </main>
       </Layout>
     </>
