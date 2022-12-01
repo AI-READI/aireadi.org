@@ -30,7 +30,7 @@ export default function HomePage() {
 
           <HeroImageBackground
             title='Creating AI-ready datasets for the future'
-            image='lady-microscope-hero'
+            image='home-hero-image'
             tagline='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             showButtons
             primaryButton='Get Started'

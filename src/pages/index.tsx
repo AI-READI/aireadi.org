@@ -1,13 +1,13 @@
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 
-import HeadingWithDescription from '@/components/content/ContentHeadingDescription';
+import Button from '@/components/buttons/Button';
 import ImagesWithHeadingAndDescription from '@/components/content/ContentWithImages';
 import FeatureList from '@/components/content/FeatureList';
 import StatsText from '@/components/content/StatsText';
 import HeroCroppedImage from '@/components/hero/HeroCroppedImage';
-import HeroImageBackground from '@/components/hero/HeroImageBackground';
 import SideImage from '@/components/hero/HeroSideImage';
 import Layout from '@/components/layout/Layout';
+import ButtonLink from '@/components/links/ButtonLink';
 import Seo from '@/components/Seo';
 /**
  * SVGR Support
@@ -29,24 +29,64 @@ export default function HomePage() {
         <main>
           <SkipNavContent />
 
-          <HeroImageBackground
-            title='Artificial Intelligence Ready and Equitable Atlas for Diabetes Insights (AI-READI)'
-            image='lady-microscope-hero'
-            tagline='Generating a flagship AI-ready and ethically-sourced dataset to support future AI-driven discoveries in diabetes'
-            showButtons
-            primaryButton='Enroll in the study'
-            secondaryButton='Join our mentorship program'
-          />
-          <HeadingWithDescription
-            title='Generating data, best practices, and tools to boost future AI-driven research in diabetes'
-            text="AI-READI is one of the data generation projects funded by the National
-            Institutes of Health (NIH)'s Bridge2AI Program. The AI-READI project seeks to create and share a flagship 
-            ethically-sourced dataset of type 2 diabetes mellitus (T2DM) that is agnostic to existing classification criteria or biases.
-            The data will be optimized for future artificial intelligence/machine learning (AI/ML) analysis that could provide critical insights into T2DM 
-            and especially shade light on the salutogenic pathways from diabetes to return to health."
-            showButtons
-            primaryButton='Learn more about Bridge2AI'
-          />
+          <section
+            className={`relative flex h-[60vh] w-full items-center justify-center text-white before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-home-hero-image before:bg-cover before:bg-center before:bg-no-repeat before:brightness-[0.4] before:content-[''] md:h-[40vh]`}
+          >
+            <div className='mx-auto grid max-w-screen-2xl px-6 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0'>
+              <div className='mr-auto place-self-center lg:col-span-8'>
+                <h1 className='relative pb-5 text-4xl font-black sm:text-5xl md:text-6xl'>
+                  Artificial Intelligence Ready and Equitable Atlas for Diabetes
+                  Insights (AI-READI)
+                </h1>
+
+                <p className='relative pb-5 text-xl font-medium sm:text-2xl'>
+                  Generating a flagship AI-ready and ethically-sourced dataset
+                  to support future AI-driven discoveries in diabetes
+                </p>
+
+                <div className='relative flex space-x-4'>
+                  <ButtonLink href='/study' variant='primary'>
+                    Enroll in the study
+                  </ButtonLink>
+                  <ButtonLink
+                    href='/mentorship'
+                    variant='outline'
+                    className='bg-slate-100'
+                  >
+                    Join our mentorship program
+                  </ButtonLink>
+                  <ButtonLink href='/data' variant='dark'>
+                    View our data
+                  </ButtonLink>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className='bg-sky-100/50'>
+            <div className='mx-auto flex max-w-screen-xl flex-col items-center  py-8 px-4 text-gray-500 sm:text-lg lg:py-16 lg:px-6'>
+              <h2 className='mb-5 text-center text-4xl font-bold tracking-tight text-gray-900 md:text-5xl'>
+                Generating data, best practices, and tools to boost future
+                AI-driven research in diabetes
+              </h2>
+              <p className='mb-4 text-center font-normal'>
+                AI-READI is one of the data generation projects funded by the
+                National Institutes of Health (NIH)'s Bridge2AI Program. The
+                AI-READI project seeks to create and share a flagship
+                ethically-sourced dataset of type 2 diabetes mellitus (T2DM)
+                that is agnostic to existing classification criteria or biases.
+                The data will be optimized for future artificial
+                intelligence/machine learning (AI/ML) analysis that could
+                provide critical insights into T2DM and especially shade light
+                on the salutogenic pathways from diabetes to return to health.
+              </p>
+
+              <div className='py-4'>
+                <Button>Learn more about Bridge2AI</Button>
+              </div>
+            </div>
+          </section>
+
           <HeroCroppedImage
             title='Equitable, multimodal data collection'
             image='https://tinyurl.com/yeyjvptc'

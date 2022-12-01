@@ -79,8 +79,8 @@ const footerLinks = [
         href: '/integrations',
       },
       {
-        title: 'SAML SSO',
-        href: '/saml-sso',
+        title: 'Components',
+        href: '/components',
       },
     ],
   },

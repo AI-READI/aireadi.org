@@ -31,7 +31,7 @@ import { FcBiotech } from 'react-icons/fc';
 import UnstyledLink from '@/components/links/UnstyledLink';
 
 const links = [
-  { href: '/about', label: 'About' },
+  { href: '/', label: 'Home' },
   {
     href: '',
     label: 'Modules',

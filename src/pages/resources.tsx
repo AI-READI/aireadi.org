@@ -33,7 +33,7 @@ export default function HomePage() {
             tagline='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             showButtons
             primaryButton='Get Started'
-            image='lady-microscope-hero'
+            image='home-hero-image'
             secondaryButton='Learn More'
           />
           <SideImage
