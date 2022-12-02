@@ -14,6 +14,10 @@ import { TbArrowNarrowRight } from 'react-icons/tb';
 import Button from '@/components/buttons/Button';
 import Layout from '@/components/layout/Layout';
 import ButtonLink from '@/components/links/ButtonLink';
+import LottieAnimation from '@/components/lotties';
+
+import searchingLottie from '~/lotties/searching.json';
+import webLottie from '~/lotties/web.json';
 
 /**
  * SVGR Support
@@ -35,7 +39,7 @@ export default function HomePage() {
           <section
             className={`relative flex h-[60vh] w-full items-center justify-center text-white before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-home-hero-image before:bg-cover before:bg-center before:bg-no-repeat before:brightness-[0.4] before:content-[''] md:h-[40vh]`}
           >
-            <div className='mx-auto grid max-w-screen-2xl px-6 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0'>
+            <div className='mx-auto grid max-w-screen-2xl px-6 py-16 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0'>
               <div className='mr-auto place-self-center lg:col-span-8'>
                 <h1 className='relative pb-5 text-4xl font-black sm:text-5xl md:text-6xl'>
                   Artificial Intelligence Ready and Equitable Atlas for Diabetes
@@ -66,7 +70,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='py-8'>
+          <section className='py-16'>
             <div className='mx-auto flex max-w-screen-xl flex-col items-center px-4 text-gray-500 sm:text-lg lg:px-6'>
               <h2 className='mb-5 text-center text-4xl font-bold tracking-tight text-gray-900 md:text-5xl'>
                 Generating data, best practices, and tools to boost future
@@ -90,7 +94,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='bg-slate-50 py-8'>
+          <section className='bg-slate-50 py-16'>
             <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center justify-between px-4 lg:flex-row-reverse'>
               <div className='px-5 lg:max-w-2xl'>
                 <h1 className='mb-4 text-5xl font-bold tracking-tight'>
@@ -113,17 +117,17 @@ export default function HomePage() {
                   </Button>
                 </div>
               </div>
-              <div className='px-5 py-5 md:mt-0'>
-                <img
-                  className='rounded-lg'
-                  src='https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80'
-                  alt='mockup'
+              <div className='flex w-full items-center justify-center px-5 py-5'>
+                <LottieAnimation
+                  animationData={searchingLottie}
+                  width={250}
+                  height={250}
                 />
               </div>
             </div>
           </section>
 
-          <section className='py-8 '>
+          <section className='py-16 '>
             <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row'>
               <div className='max-w-2xl px-5'>
                 <h1 className='mb-4 text-5xl font-bold tracking-tight'>
@@ -143,17 +147,17 @@ export default function HomePage() {
                   <Button variant='outline'> Learn more </Button>
                 </div>
               </div>
-              <div className='px-5 md:mt-0'>
-                <img
-                  className='rounded-lg'
-                  src='https://images.unsplash.com/photo-1528553688096-8e0735356dae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2325&q=80'
-                  alt='mockup'
+              <div className='flex w-full items-center justify-center px-5 py-5'>
+                <LottieAnimation
+                  animationData={webLottie}
+                  width={250}
+                  height={250}
                 />
               </div>
             </div>
           </section>
 
-          <section className='bg-slate-50 py-8'>
+          <section className='bg-slate-50 py-16'>
             <div className='mx-auto max-w-screen-xl items-center gap-16 px-4 lg:grid lg:grid-cols-2 lg:px-6'>
               <div className='font-normal sm:text-lg'>
                 <h1 className='mb-4 text-5xl font-bold tracking-tight'>
@@ -188,7 +192,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='py-8 '>
+          <section className='py-16 '>
             <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center justify-between px-4 lg:flex-row-reverse'>
               <div className='px-5 lg:max-w-2xl'>
                 <h1 className='mb-4 text-5xl font-bold tracking-tight'>
@@ -214,7 +218,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='py-8 '>
+          <section className='py-16 '>
             <div className='px-8'>
               <div className='m-2 mx-auto max-w-screen-xl rounded-lg bg-slate-100 p-8  text-center'>
                 <h1 className='mb-2 text-5xl font-bold tracking-tight'>
@@ -249,7 +253,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='bg-slate-50 py-8'>
+          <section className='bg-slate-50 py-16'>
             <div className='mx-auto max-w-screen-xl px-4 lg:px-6'>
               <div className='mb-8 lg:mb-16'>
                 <h1 className='mb-2 text-center text-5xl font-bold tracking-tight'>
@@ -297,7 +301,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='py-8 pb-16 '>
+          <section className='py-16 pb-16 '>
             <div className='mx-auto max-w-screen-xl px-4 lg:px-6'>
               <div className='g:mb-16 mb-8 text-center'>
                 <h1 className='mb-2 text-5xl font-bold tracking-tight'>
