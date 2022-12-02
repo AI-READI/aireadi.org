@@ -1,10 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
+import { Stack, StackDivider } from '@chakra-ui/react';
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
+import parse from 'html-react-parser';
 
 import Button from '@/components/buttons/Button';
 import FeatureList from '@/components/content/FeatureList';
 import Layout from '@/components/layout/Layout';
 import ButtonLink from '@/components/links/ButtonLink';
+
 /**
  * SVGR Support
  * Caveat: No React Props Type.
@@ -56,8 +59,8 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='bg-sky-100/50'>
-            <div className='mx-auto flex max-w-screen-xl flex-col items-center py-8 px-4 text-gray-500 sm:text-lg lg:py-16 lg:px-6'>
+          <section className=' py-8 sm:py-16'>
+            <div className='mx-auto flex max-w-screen-xl flex-col items-center px-4 text-gray-500 sm:text-lg lg:px-6'>
               <h2 className='mb-5 text-center text-4xl font-bold tracking-tight text-gray-900 md:text-5xl'>
                 Generating data, best practices, and tools to boost future
                 AI-driven research in diabetes
@@ -80,8 +83,8 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='flex justify-center'>
-            <div className=' flex max-w-screen-xl flex-col items-center justify-between px-4 py-8 md:py-16 lg:flex-row'>
+          <section className='py-8 sm:py-16'>
+            <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row'>
               <div className='max-w-2xl px-5'>
                 <h1 className='mb-4 text-5xl font-bold tracking-tight'>
                   Ethical, FAIR, AI-ready data sharing
@@ -110,8 +113,8 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='bg-white'>
-            <div className='mx-auto max-w-screen-xl items-center gap-16 py-8 px-4 lg:grid lg:grid-cols-2 lg:py-16 lg:px-6'>
+          <section className=' py-8 sm:py-16'>
+            <div className='mx-auto max-w-screen-xl items-center gap-16 px-4 lg:grid lg:grid-cols-2 lg:px-6'>
               <div className='font-normal text-gray-500 sm:text-lg'>
                 <h2 className='mb-4 text-4xl font-bold tracking-tight text-gray-900 '>
                   Tools and best practices to help future data generation
@@ -145,8 +148,8 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='flex justify-center'>
-            <div className=' flex max-w-screen-xl flex-col-reverse items-center justify-between px-4 py-8 md:py-16 lg:flex-row-reverse'>
+          <section className='py-8 sm:py-16'>
+            <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center justify-between px-4 lg:flex-row-reverse'>
               <div className='px-5 lg:max-w-2xl'>
                 <h1 className='mb-4 text-5xl font-bold tracking-tight'>
                   Community engagement
@@ -171,31 +174,37 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='bg-white '>
-            <div className='mx-auto max-w-screen-xl py-8 px-4 sm:py-16 lg:px-6'>
-              <h1 className='mb-4 text-center text-5xl font-bold tracking-tight'>
-                Snapshot of the AI-READI project
-              </h1>
+          <section className='py-8 sm:py-16'>
+            <div className='px-8'>
+              <div className='m-2 mx-auto max-w-screen-xl rounded-lg bg-slate-100 p-8  text-center'>
+                <h1 className='mb-2 text-5xl font-bold tracking-tight'>
+                  Snapshot of the AI-READI project
+                </h1>
 
-              <p className='mb-4 text-center text-2xl font-medium text-slate-600'>
-                Some key numbers from the project
-              </p>
+                <p className='mb-12 text-2xl font-medium text-slate-600'>
+                  Some key numbers from the project
+                </p>
 
-              <div className='flex flex-col space-x-4 pt-8 text-left md:flex-row md:divide-x-2'>
-                {StatsList.map((stat) => (
-                  <div
-                    key={stat.heading}
-                    className='flex flex-col items-center justify-center space-y-3 p-3 text-center'
-                  >
-                    <dt className='text-5xl font-bold text-sky-600'>
-                      {stat.heading}
-                    </dt>
+                <Stack
+                  direction={['column', 'column', 'column', 'row']}
+                  spacing='24px'
+                  divider={<StackDivider borderColor='gray.200' />}
+                >
+                  {StatsList.map((stat) => (
+                    <div
+                      key={stat.heading}
+                      className='flex flex-col items-center justify-start space-y-3 p-3 text-center'
+                    >
+                      <dt className='text-5xl font-bold text-sky-600'>
+                        {stat.heading}
+                      </dt>
 
-                    <dd className=' text-lg font-medium text-slate-700'>
-                      {stat.text}
-                    </dd>
-                  </div>
-                ))}
+                      <dd className='text-xl font-medium text-gray-700'>
+                        {parse(stat.text)}
+                      </dd>
+                    </div>
+                  ))}
+                </Stack>
               </div>
             </div>
           </section>
@@ -214,7 +223,7 @@ const StatsList = [
   },
   {
     heading: '15+',
-    text: 'Data types to be collected (vitals, electrocardiogram, etc.)',
+    text: 'Data types to be collected <br /> (vitals, electrocardiogram, etc.)',
   },
   {
     heading: '8',
