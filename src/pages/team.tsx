@@ -31,9 +31,7 @@ export default function TeamPage() {
                   Our Team
                 </h2>
                 <p className=' font-normal text-gray-500 sm:text-xl lg:mb-16'>
-                  Meet the people behind the scenes who make it all happen. We
-                  are a small team of scientists and engineers who are
-                  passionate about making the world a better place.
+                  Meet the people behind the scenes who make it all happen.
                 </p>
               </div>
               <div className='grid grid-cols-1 gap-6 lg:grid-cols-2'>

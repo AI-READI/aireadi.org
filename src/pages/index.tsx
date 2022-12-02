@@ -66,7 +66,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='py-16'>
+          <section className='pt-16 pb-8'>
             <div className='mx-auto flex max-w-screen-xl flex-col items-center px-4 text-gray-500 sm:text-lg lg:px-6'>
               <h2 className='mb-5 text-center text-4xl font-bold tracking-tight text-gray-900 md:text-5xl'>
                 Generating data, best practices, and tools to boost future
@@ -90,20 +90,43 @@ export default function HomePage() {
             </div>
           </section>
 
+          <section className='pt-4 pb-16'>
+            <div className='px-8'>
+              <div className='m-2 mx-auto max-w-screen-xl rounded-lg bg-slate-100 p-8  text-center'>
+                <h1 className='mb-2 text-5xl font-bold tracking-tight'>
+                  Snapshot of the AI-READI project
+                </h1>
+
+                <p className='mb-12 text-2xl font-medium text-slate-600'>
+                  Some key numbers from the project
+                </p>
+
+                <Stack
+                  direction={['column', 'column', 'column', 'row']}
+                  spacing='24px'
+                  divider={<StackDivider borderColor='gray.200' />}
+                >
+                  {StatsList.map((stat) => (
+                    <div
+                      key={stat.heading}
+                      className='flex flex-col items-center justify-start space-y-3 p-3 text-center'
+                    >
+                      <dt className='text-5xl font-bold text-sky-600'>
+                        {stat.heading}
+                      </dt>
+
+                      <dd className='text-xl font-medium text-gray-700'>
+                        {parse(stat.text)}
+                      </dd>
+                    </div>
+                  ))}
+                </Stack>
+              </div>
+            </div>
+          </section>
+
           <section className='bg-slate-50 py-16'>
             <div className='mx-auto max-w-screen-xl items-center gap-16 px-4 lg:grid lg:grid-cols-2 lg:px-6'>
-              <div className='mt-8 grid grid-cols-2 gap-4'>
-                <img
-                  className='w-full rounded-lg'
-                  src='https://images.unsplash.com/photo-1632054229795-4097870879b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2018&q=80'
-                  alt='office content 1'
-                />
-                <img
-                  className='mt-4 w-full rounded-lg lg:mt-10'
-                  src='https://images.unsplash.com/photo-1631815587646-b85a1bb027e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80'
-                  alt='office content 2'
-                />
-              </div>
               <div className='font-normal sm:text-lg'>
                 <h1 className='mb-4 text-5xl font-bold tracking-tight'>
                   Tools and best practices to help future data generation
@@ -123,6 +146,19 @@ export default function HomePage() {
                 <div className='relative flex space-x-4'>
                   <Button variant='outline'>Learn more about the study</Button>
                 </div>
+              </div>
+
+              <div className='mt-8 grid grid-cols-2 gap-4'>
+                <img
+                  className='w-full rounded-lg'
+                  src='https://images.unsplash.com/photo-1632054229795-4097870879b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2018&q=80'
+                  alt='office content 1'
+                />
+                <img
+                  className='mt-4 w-full rounded-lg lg:mt-10'
+                  src='https://images.unsplash.com/photo-1631815587646-b85a1bb027e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80'
+                  alt='office content 2'
+                />
               </div>
             </div>
           </section>
@@ -223,41 +259,6 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='py-16 '>
-            <div className='px-8'>
-              <div className='m-2 mx-auto max-w-screen-xl rounded-lg bg-slate-100 p-8  text-center'>
-                <h1 className='mb-2 text-5xl font-bold tracking-tight'>
-                  Snapshot of the AI-READI project
-                </h1>
-
-                <p className='mb-12 text-2xl font-medium text-slate-600'>
-                  Some key numbers from the project
-                </p>
-
-                <Stack
-                  direction={['column', 'column', 'column', 'row']}
-                  spacing='24px'
-                  divider={<StackDivider borderColor='gray.200' />}
-                >
-                  {StatsList.map((stat) => (
-                    <div
-                      key={stat.heading}
-                      className='flex flex-col items-center justify-start space-y-3 p-3 text-center'
-                    >
-                      <dt className='text-5xl font-bold text-sky-600'>
-                        {stat.heading}
-                      </dt>
-
-                      <dd className='text-xl font-medium text-gray-700'>
-                        {parse(stat.text)}
-                      </dd>
-                    </div>
-                  ))}
-                </Stack>
-              </div>
-            </div>
-          </section>
-
           <section className='bg-slate-50 py-16'>
             <div className='mx-auto max-w-screen-xl px-4 lg:px-6'>
               <div className='mb-8 lg:mb-16'>
@@ -318,15 +319,15 @@ export default function HomePage() {
                 </p>
               </div>
 
-              <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-4'>
+              <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-5'>
                 {LogosList.map((logo, index) => (
                   <Link
                     href={logo.href}
                     key={index}
                     passHref
-                    className='mt-2 flex h-[100px] items-center justify-center rounded-lg bg-gray-100 grayscale transition-all hover:bg-gray-200 md:mt-0'
+                    className='mt-2 flex h-[120px] items-center justify-center rounded-lg bg-gray-100 p-2 transition-all hover:bg-gray-200 md:mt-0'
                   >
-                    <img src={logo.image} alt='' className='h-10' />
+                    <img src={logo.image} alt='' className='h-12' />
                   </Link>
                 ))}
               </div>
@@ -400,12 +401,52 @@ const FeaturesList = [
 ];
 
 const LogosList = [
-  { image: 'https://cdn.svgporn.com/logos/bubble.svg', href: '/' },
-  { image: 'https://cdn.svgporn.com/logos/coda.svg', href: '/' },
-  { image: 'https://cdn.svgporn.com/logos/harness.svg', href: '/' },
-  { image: 'https://cdn.svgporn.com/logos/jetbrains-space.svg', href: '/' },
-  { image: 'https://cdn.svgporn.com/logos/ktor.svg', href: '/' },
-  { image: 'https://cdn.svgporn.com/logos/lateral.svg', href: '/' },
-  { image: 'https://cdn.svgporn.com/logos/microsoft.svg', href: '/' },
-  { image: 'https://cdn.svgporn.com/logos/calibre.svg', href: '/' },
+  {
+    image:
+      'https://fairdataihub.org/_next/image?url=%2Fimages%2Fcollaborators%2Fcalmi-logo.png&w=256&q=75',
+    href: '/',
+  },
+  {
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/University_of_Washington_signature.svg/1280px-University_of_Washington_signature.svg.png',
+    href: '/',
+  },
+  {
+    image:
+      'https://logos-download.com/wp-content/uploads/2019/06/Oregon_Health__Science_University_Logo_full.png',
+    href: '/',
+  },
+  {
+    image:
+      'https://1000logos.net/wp-content/uploads/2022/07/Johns-Hopkins-University-Logo.png',
+    href: '/',
+  },
+  {
+    image: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/UCSD_logo.png',
+    href: '/',
+  },
+  {
+    image:
+      'https://branding.web-resources.upenn.edu/sites/default/files/styles/card_3x2/public/2022-03/UniversityofPennsylvania_FullLogo_RGB-4_0.png?h=ab080a2f&itok=tu_jMFEm',
+    href: '/',
+  },
+  {
+    image:
+      'https://logos-world.net/wp-content/uploads/2021/10/Stanford-Symbol.png',
+    href: '/',
+  },
+  {
+    image:
+      'https://nativebio.org/wp-content/uploads/2020/12/NBDC_web_logo_transparent_340x156.png',
+    href: '/',
+  },
+  {
+    image:
+      'https://www.uab.edu/toolkit/images/downloads/logos/core/centered/UAB-color-with-R-centered_FullColor.png',
+    href: '/',
+  },
+  {
+    image: 'https://cdn.svgporn.com/logos/microsoft.svg',
+    href: '/',
+  },
 ];
