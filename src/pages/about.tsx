@@ -5,7 +5,7 @@ import ImagesWithHeadingAndDescription from '@/components/content/ContentWithIma
 import FaqList from '@/components/content/FaqList';
 import FeatureList from '@/components/content/FeatureList';
 import HeroCroppedImage from '@/components/hero/HeroCroppedImage';
-import HeroSideImage from '@/components/hero/HeroSideImage';
+import SideImage from '@/components/hero/HeroSideImage';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 /**
@@ -29,14 +29,13 @@ export default function HomePage() {
           <SkipNavContent />
 
           <HeroCroppedImage
-            title='Creating AI-ready datasets for the future'
+            title='Equitable, multimodal data collection'
             image='https://tinyurl.com/yeyjvptc'
-            tagline='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            tagline='The project will aim to collect data from 4,000 participants. To ensure the data is population-representative, the 4,000 participants will be balanced for three factors: disease severity, race/ethnicity, and sex. Various data types will be collected from each participant, including vitals, electrocardiogram, glucose monitoring, physical activity, ophthalmic evaluation, etc.'
             showButtons
-            primaryButton='Get Started'
-            secondaryButton='Learn More'
+            primaryButton='Learn more about the study'
           />
-          <HeroSideImage
+          <SideImage
             title='Creating AI-ready datasets for the future'
             image='https://images.unsplash.com/photo-1528553688096-8e0735356dae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2325&q=80'
             tagline='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
