@@ -218,15 +218,26 @@ export default function HomePage() {
 
           <section className='py-8 sm:py-16'>
             <div className='mx-auto max-w-screen-xl px-4 lg:px-6'>
-              <div className='g:mb-16 mb-8'>
+              <div className='mb-8 lg:mb-16'>
                 <h1 className='mb-2 text-center text-5xl font-bold tracking-tight'>
                   AI-READI Team
                 </h1>
 
-                <p className='mb-12 text-center text-2xl font-medium text-slate-600'>
+                <p className='mb-4 text-center text-2xl font-medium text-slate-600'>
                   The project team is structured into six modules, each leading
-                  a key aspect. Meet our team
+                  a key aspect.
                 </p>
+
+                <div className='relative flex justify-center space-x-4'>
+                  <Link
+                    href='/team'
+                    passHref
+                    className='flex w-max items-end space-x-1 text-base font-medium text-sky-700 transition-all hover:text-sky-500'
+                  >
+                    <span className=''>Meet our team</span>
+                    <TbArrowNarrowRight size={20} />
+                  </Link>
+                </div>
               </div>
 
               <div className='gap-x-8 md:grid md:grid-cols-2 md:gap-12 lg:grid-cols-3'>
