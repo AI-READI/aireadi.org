@@ -85,7 +85,12 @@ export default function HomePage() {
               </p>
 
               <div className='py-4'>
-                <Button>Learn more about Bridge2AI</Button>
+                <ButtonLink
+                  href='https://commonfund.nih.gov/bridge2ai'
+                  variant='outline'
+                >
+                  Learn more about Bridge2AI
+                </ButtonLink>
               </div>
             </div>
           </section>
@@ -143,7 +148,9 @@ export default function HomePage() {
                 </p>
 
                 <div className='relative flex space-x-4'>
-                  <Button variant='outline'>Learn more about the study</Button>
+                  <ButtonLink href='/study' variant='outline'>
+                    Learn more about the study
+                  </ButtonLink>
                 </div>
               </div>
 
@@ -178,14 +185,9 @@ export default function HomePage() {
                   to maximize discoveries.
                 </p>
 
-                <a
-                  className='relative flex space-x-4'
-                  href='https://fairhub.io'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <Button variant='outline'> View our data </Button>
-                </a>
+                <ButtonLink href='https://fairhub.io' variant='outline'>
+                  View our data
+                </ButtonLink>
               </div>
               <div className='flex w-full items-center justify-center px-5 py-5'>
                 <img
