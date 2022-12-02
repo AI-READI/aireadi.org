@@ -2,9 +2,16 @@
 import { Stack, StackDivider } from '@chakra-ui/react';
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 import parse from 'html-react-parser';
+import Link from 'next/link';
+import { AiFillDatabase } from 'react-icons/ai';
+import { BsTools } from 'react-icons/bs';
+import { FaPencilRuler } from 'react-icons/fa';
+import { GoLaw } from 'react-icons/go';
+import { MdReduceCapacity } from 'react-icons/md';
+import { RiTeamFill } from 'react-icons/ri';
+import { TbArrowNarrowRight } from 'react-icons/tb';
 
 import Button from '@/components/buttons/Button';
-import FeatureList from '@/components/content/FeatureList';
 import Layout from '@/components/layout/Layout';
 import ButtonLink from '@/components/links/ButtonLink';
 
@@ -115,13 +122,13 @@ export default function HomePage() {
 
           <section className=' py-8 sm:py-16'>
             <div className='mx-auto max-w-screen-xl items-center gap-16 px-4 lg:grid lg:grid-cols-2 lg:px-6'>
-              <div className='font-normal text-gray-500 sm:text-lg'>
-                <h2 className='mb-4 text-4xl font-bold tracking-tight text-gray-900 '>
+              <div className='font-normal sm:text-lg'>
+                <h1 className='mb-4 text-5xl font-bold tracking-tight'>
                   Tools and best practices to help future data generation
                   project
-                </h2>
+                </h1>
 
-                <p className='mb-4'>
+                <p className='mb-6 text-gray-700 sm:mb-8 sm:text-xl md:text-lg'>
                   We will develop and openly share tools, standards, and
                   guidelines so that future data generation projects can follow
                   our approach for sharing ethical, FAIR, and AI-ready datasets.
@@ -209,7 +216,69 @@ export default function HomePage() {
             </div>
           </section>
 
-          <FeatureList />
+          <section className='py-8 sm:py-16'>
+            <div className='mx-auto max-w-screen-xl px-4 lg:px-6'>
+              <div className='g:mb-16 mb-8'>
+                <h1 className='mb-2 text-center text-5xl font-bold tracking-tight'>
+                  AI-READI Team
+                </h1>
+
+                <p className='mb-12 text-center text-2xl font-medium text-slate-600'>
+                  The project team is structured into six modules, each leading
+                  a key aspect. Meet our team
+                </p>
+              </div>
+
+              <div className='gap-x-8 md:grid md:grid-cols-2 md:gap-12 lg:grid-cols-3'>
+                {FeaturesList.map((feature) => (
+                  <div key={feature.title} className='mt-12 md:mt-0'>
+                    <div className='mb-2 flex h-10 w-10 items-center justify-center rounded-lg bg-sky-600 text-white md:mb-4 lg:h-12 lg:w-12'>
+                      {feature.icon}
+                    </div>
+                    <h3 className='text-lg font-semibold'>{feature.title}</h3>
+                    <p className='font-normal text-gray-500 md:pb-3'>
+                      {feature.description}
+                    </p>
+                    <Link
+                      href={feature.href}
+                      passHref
+                      className='flex w-max items-end space-x-1 text-base font-medium text-sky-700 transition-all hover:text-sky-500'
+                    >
+                      <span className=''>Read more</span>
+                      <TbArrowNarrowRight size={20} />
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          <section className='py-8 sm:py-16'>
+            <div className='mx-auto max-w-screen-xl px-4 lg:px-6'>
+              <div className='g:mb-16 mb-8 text-center'>
+                <h1 className='mb-2 text-5xl font-bold tracking-tight'>
+                  AI-READI Members
+                </h1>
+
+                <p className='te mb-6 text-lg text-gray-700 sm:mb-8'>
+                  The following organizations are part of the AI-READI project
+                </p>
+              </div>
+
+              <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-4'>
+                {LogosList.map((logo, index) => (
+                  <Link
+                    href={logo.href}
+                    key={index}
+                    passHref
+                    className='mt-2 flex h-[100px] items-center justify-center rounded-lg bg-gray-100 grayscale transition-all hover:bg-gray-200 md:mt-0'
+                  >
+                    <img src={logo.image} alt='' className='h-10' />
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
         </main>
       </Layout>
     </>
@@ -233,4 +302,57 @@ const StatsList = [
     heading: '50+',
     text: 'Team members',
   },
+];
+
+const FeaturesList = [
+  {
+    title: 'Data Acquisition',
+    description: 'Collecting data across multiple sites',
+    icon: <AiFillDatabase size={20} />,
+    href: '/modules/data',
+  },
+  {
+    title: 'Ethics',
+    description:
+      'Establishing ethical guidelines for sharing AI-ready datasets',
+    icon: <GoLaw size={20} />,
+    href: '/modules/ethics',
+  },
+  {
+    title: 'Standards',
+    description:
+      'Establishing standards for preparing and sharing AI-ready datasets',
+    icon: <FaPencilRuler size={20} />,
+    href: '/modules/standards',
+  },
+  {
+    title: 'Teaming',
+    description: 'Bringing together multidiciplinary teams',
+    icon: <RiTeamFill size={20} />,
+    href: '/modules/teaming',
+  },
+  {
+    title: 'Tools',
+    description:
+      'Developing tools and software for managing, curating, and sharing AI-ready datasets',
+    icon: <BsTools size={20} />,
+    href: '/modules/tools',
+  },
+  {
+    title: 'Skills & Workforce Development',
+    description: 'Developing a diverse AI/ML-biomedical research workforce',
+    icon: <MdReduceCapacity size={20} />,
+    href: '/modules/skills',
+  },
+];
+
+const LogosList = [
+  { image: 'https://cdn.svgporn.com/logos/bubble.svg', href: '/' },
+  { image: 'https://cdn.svgporn.com/logos/coda.svg', href: '/' },
+  { image: 'https://cdn.svgporn.com/logos/harness.svg', href: '/' },
+  { image: 'https://cdn.svgporn.com/logos/jetbrains-space.svg', href: '/' },
+  { image: 'https://cdn.svgporn.com/logos/ktor.svg', href: '/' },
+  { image: 'https://cdn.svgporn.com/logos/lateral.svg', href: '/' },
+  { image: 'https://cdn.svgporn.com/logos/microsoft.svg', href: '/' },
+  { image: 'https://cdn.svgporn.com/logos/calibre.svg', href: '/' },
 ];
