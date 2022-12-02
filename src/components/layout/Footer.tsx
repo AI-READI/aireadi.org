@@ -49,7 +49,7 @@ const footerLinks = [
       },
       {
         title: 'GitHub',
-        href: '/github',
+        href: '/components',
       },
       {
         title: 'Contact Us',
