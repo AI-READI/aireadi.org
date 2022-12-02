@@ -208,7 +208,7 @@ export default function HomePage() {
                   <Button variant='outline'> Learn more </Button>
                 </div>
               </div>
-              <div className='px-5 py-5 md:mt-0'>
+              <div className='flex w-full items-center justify-center px-5 py-5'>
                 <img
                   className='rounded-lg'
                   src='https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
