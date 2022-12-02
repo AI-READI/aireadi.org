@@ -58,7 +58,7 @@ export default function HomePage() {
                   >
                     Join our mentorship program
                   </ButtonLink>
-                  <ButtonLink href='/data' variant='dark'>
+                  <ButtonLink href='https://fairhub.io' variant='dark'>
                     View our data
                   </ButtonLink>
                 </div>
@@ -91,12 +91,26 @@ export default function HomePage() {
           </section>
 
           <section className='bg-slate-50 py-16'>
-            <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center justify-between px-4 lg:flex-row-reverse'>
-              <div className='px-5 lg:max-w-2xl'>
+            <div className='mx-auto max-w-screen-xl items-center gap-16 px-4 lg:grid lg:grid-cols-2 lg:px-6'>
+              <div className='mt-8 grid grid-cols-2 gap-4'>
+                <img
+                  className='w-full rounded-lg'
+                  src='https://images.unsplash.com/photo-1632054229795-4097870879b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2018&q=80'
+                  alt='office content 1'
+                />
+                <img
+                  className='mt-4 w-full rounded-lg lg:mt-10'
+                  src='https://images.unsplash.com/photo-1631815587646-b85a1bb027e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80'
+                  alt='office content 2'
+                />
+              </div>
+              <div className='font-normal sm:text-lg'>
                 <h1 className='mb-4 text-5xl font-bold tracking-tight'>
-                  Equitable, multimodal data collection
+                  Tools and best practices to help future data generation
+                  project
                 </h1>
-                <p className='mb-6 text-lg text-gray-700 sm:mb-8'>
+
+                <p className='mb-6 text-gray-700 sm:mb-8 sm:text-xl md:text-lg'>
                   The project will aim to collect data from 4,000 participants.
                   To ensure the data is population-representative, the 4,000
                   participants will be balanced for three factors: disease
@@ -107,24 +121,14 @@ export default function HomePage() {
                 </p>
 
                 <div className='relative flex space-x-4'>
-                  <Button variant='outline'>
-                    {' '}
-                    Learn more about the study{' '}
-                  </Button>
+                  <Button variant='outline'>Learn more about the study</Button>
                 </div>
-              </div>
-              <div className='flex w-full items-center justify-center px-5 py-5'>
-                <img
-                  className='rounded-lg'
-                  src='https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80'
-                  alt='mockup'
-                />
               </div>
             </div>
           </section>
 
           <section className='py-16 '>
-            <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row'>
+            <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center justify-between px-4 lg:flex-row-reverse'>
               <div className='max-w-2xl px-5'>
                 <h1 className='mb-4 text-5xl font-bold tracking-tight'>
                   Ethical, FAIR, AI-ready data sharing
