@@ -14,10 +14,6 @@ import { TbArrowNarrowRight } from 'react-icons/tb';
 import Button from '@/components/buttons/Button';
 import Layout from '@/components/layout/Layout';
 import ButtonLink from '@/components/links/ButtonLink';
-import LottieAnimation from '@/components/lotties';
-
-import searchingLottie from '~/lotties/searching.json';
-import webLottie from '~/lotties/web.json';
 
 /**
  * SVGR Support
@@ -118,10 +114,10 @@ export default function HomePage() {
                 </div>
               </div>
               <div className='flex w-full items-center justify-center px-5 py-5'>
-                <LottieAnimation
-                  animationData={searchingLottie}
-                  width={250}
-                  height={250}
+                <img
+                  className='rounded-lg'
+                  src='https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80'
+                  alt='mockup'
                 />
               </div>
             </div>
@@ -143,15 +139,20 @@ export default function HomePage() {
                   to maximize discoveries.
                 </p>
 
-                <div className='relative flex space-x-4'>
-                  <Button variant='outline'> Learn more </Button>
-                </div>
+                <a
+                  className='relative flex space-x-4'
+                  href='https://fairhub.io'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <Button variant='outline'> View our data </Button>
+                </a>
               </div>
               <div className='flex w-full items-center justify-center px-5 py-5'>
-                <LottieAnimation
-                  animationData={webLottie}
-                  width={250}
-                  height={250}
+                <img
+                  className='rounded-lg'
+                  src='https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'
+                  alt='mockup'
                 />
               </div>
             </div>
