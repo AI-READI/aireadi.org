@@ -129,8 +129,7 @@ export default function HomePage() {
             <div className='mx-auto max-w-screen-xl items-center gap-16 px-4 lg:grid lg:grid-cols-2 lg:px-6'>
               <div className='font-normal sm:text-lg'>
                 <h1 className='mb-4 text-5xl font-bold tracking-tight'>
-                  Tools and best practices to help future data generation
-                  project
+                  Equitable, multimodal data collection
                 </h1>
 
                 <p className='mb-6 text-gray-700 sm:mb-8 sm:text-xl md:text-lg'>
