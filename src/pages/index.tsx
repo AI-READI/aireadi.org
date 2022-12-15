@@ -135,7 +135,7 @@ export default function HomePage() {
           </section>
 
           <section className='bg-slate-50 py-16'>
-            <div className='mx-auto flex max-w-screen-xl flex-col items-center gap-16 px-8'>
+            <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center gap-16 px-8 md:flex-col'>
               <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
                 <img
                   className='w-full rounded-lg'
@@ -178,12 +178,12 @@ export default function HomePage() {
           </section>
 
           <section className='py-16 '>
-            <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row-reverse'>
-              <div className='max-w-2xl px-5'>
+            <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between space-y-2 px-4 lg:flex-row-reverse'>
+              <div className='px-5 lg:max-w-2xl'>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
                   Ethical, FAIR, AI-ready data sharing
                 </h1>
-                <p className='mb-6 text-gray-700 sm:mb-8 sm:text-xl md:text-lg'>
+                <p className='mb-6 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
                   The resulting dataset will be curated and shared following
                   ethical and FAIR (Findable, Accessible, Interoperable, and
                   Reusable) principles such that it is ready for future
@@ -213,7 +213,7 @@ export default function HomePage() {
                   project
                 </h1>
 
-                <p className='mb-6 text-lg font-normal text-gray-700 sm:mb-8'>
+                <p className='mb-6 text-lg font-normal text-gray-700 sm:mb-4'>
                   We will develop and openly share tools, standards, and
                   guidelines so that future data generation projects can follow
                   our approach for sharing ethical, FAIR, and AI-ready datasets.
@@ -240,13 +240,13 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='py-16 '>
+          <section className='bg-sky-50 py-16'>
             <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row-reverse'>
               <div className='px-5 lg:max-w-2xl'>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
                   Community engagement
                 </h1>
-                <p className='mb-6 text-lg text-gray-700 sm:mb-8'>
+                <p className='mb-6 text-lg text-gray-700 sm:mb-4'>
                   Community members will be engaged along the way to ensure
                   their suggestions and concerns regarding data collection,
                   management, and sharing are addressed.
@@ -266,13 +266,13 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='py-16 '>
+          <section className='py-16'>
             <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row'>
               <div className='px-5 lg:max-w-2xl'>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
                   Advancing our understanding of team science
                 </h1>
-                <p className='mb-6 text-lg text-gray-700 sm:mb-8'>
+                <p className='mb-6 text-lg text-gray-700 sm:mb-4'>
                   Couple of sentences relevant to this section.
                 </p>
 
@@ -308,7 +308,7 @@ export default function HomePage() {
                   <Link
                     href='/team'
                     passHref
-                    className='flex w-max items-center text-xl font-semibold text-sky-700 transition-all hover:text-sky-500'
+                    className='flex w-max items-center space-x-1 text-xl font-semibold text-sky-700 transition-all hover:text-sky-500'
                   >
                     <span className=''>Meet our team</span>
                     <TbArrowNarrowRight size={20} />
