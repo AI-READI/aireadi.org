@@ -53,7 +53,10 @@ export default function TeamPage() {
                       <h3 className=' text-xl font-bold tracking-tight text-gray-900'>
                         <a href='#'>{member.name}</a>
                       </h3>
-                      <span className=' text-gray-500'>{member.title}</span>
+                      <div>
+                        <p className=' text-gray-500'>{member.title}</p>
+                        <p className=' text-gray-500'>{member.affiliation}</p>
+                      </div>
                       <p className=' mt-3 mb-4 font-light text-gray-500'>
                         {member.caption}
                       </p>
