@@ -76,12 +76,11 @@ export default function HomePage() {
                 AI-READI is one of the data generation projects funded by the
                 National Institutes of Health (NIH)'s Bridge2AI Program. The
                 AI-READI project seeks to create and share a flagship
-                ethically-sourced dataset of type 2 diabetes mellitus (T2DM)
-                that is agnostic to existing classification criteria or biases.
-                The data will be optimized for future artificial
-                intelligence/machine learning (AI/ML) analysis that could
-                provide critical insights into T2DM and especially shade light
-                on the salutogenic pathways from diabetes to return to health.
+                ethically-sourced dataset of type 2 diabetes. The data will be
+                optimized for future artificial intelligence/machine learning
+                (AI/ML) analysis that could provide critical insights and
+                especially shade light on the salutogenic pathways from diabetes
+                to return to health.
               </p>
 
               <div className='py-4'>
@@ -138,13 +137,13 @@ export default function HomePage() {
                 </h1>
 
                 <p className='mb-6 text-gray-700 sm:mb-8 sm:text-xl md:text-lg'>
-                  The project will aim to collect data from 4,000 participants.
-                  To ensure the data is population-representative, the 4,000
-                  participants will be balanced for three factors: disease
-                  severity, race/ethnicity, and sex. Various data types will be
-                  collected from each participant, including vitals,
-                  electrocardiogram, glucose monitoring, physical activity,
-                  ophthalmic evaluation, etc.
+                  The project will aim to collect data from 4,000 participants
+                  across three sites: the University of Alabama at Birmingham
+                  (UAB), the University of California San Diego (UCSD), and the
+                  University of Washington (UW). To ensure the data is
+                  population-representative, the 4,000 participants will be
+                  balanced for three factors: disease severity, ethnicity, and
+                  sex.
                 </p>
 
                 <div className='relative flex space-x-4'>
@@ -180,9 +179,7 @@ export default function HomePage() {
                   ethical and FAIR (Findable, Accessible, Interoperable, and
                   Reusable) principles such that it is ready for future
                   AI/ML-driven analysis. The data will be shared periodically
-                  through our dedicated web platform called fairhub.io. We will
-                  aim to make as much of the data as possible openly available
-                  to maximize discoveries.
+                  through our dedicated web platform called fairhub.io.
                 </p>
 
                 <ButtonLink href='https://fairhub.io' variant='outline'>
@@ -255,6 +252,38 @@ export default function HomePage() {
                   className='rounded-lg'
                   src='https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
                   alt='mockup'
+                />
+              </div>
+            </div>
+          </section>
+
+          <section className='bg-slate-50 py-16'>
+            <div className='mx-auto max-w-screen-xl items-center gap-16 px-4 lg:grid lg:grid-cols-2 lg:px-6'>
+              <div className='font-normal sm:text-lg'>
+                <h1 className='mb-4 text-5xl font-bold tracking-tight'>
+                  Advancing our understanding of team science
+                </h1>
+
+                <p className='mb-6 text-gray-700 sm:mb-8 sm:text-xl md:text-lg'>
+                  Couple of sentences relevant to this section.
+                </p>
+
+                <div className='relative flex space-x-4'>
+                  <Button variant='outline'>
+                    Learn more about our tools and guidelines
+                  </Button>
+                </div>
+              </div>
+              <div className='mt-8 grid grid-cols-2 gap-4'>
+                <img
+                  className='w-full rounded-lg'
+                  src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png'
+                  alt='office content 1'
+                />
+                <img
+                  className='mt-4 w-full rounded-lg lg:mt-10'
+                  src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png'
+                  alt='office content 2'
                 />
               </div>
             </div>
