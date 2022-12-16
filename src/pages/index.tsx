@@ -69,7 +69,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='pt-16 pb-8'>
+          <section className='hidden pt-16 pb-8'>
             <div className='mx-auto flex max-w-screen-xl flex-col items-center px-8 text-gray-500 lg:px-6'>
               <h2 className='mb-5 max-w-screen-lg text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
                 Generating data, best practices, and tools to boost future
@@ -135,7 +135,7 @@ export default function HomePage() {
                 </div>
                 <div className='flex  w-full items-center justify-center px-5 py-5'>
                   <img
-                    className='h-[400px] rounded-lg'
+                    className='h-[300px] rounded-lg'
                     src='https://fairdataihub.org/_next/image?url=%2Fimages%2Fhero%2Faireadi-logo.png&w=1200&q=75'
                     alt='mockup'
                   />
