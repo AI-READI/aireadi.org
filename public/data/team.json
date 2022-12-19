@@ -2,7 +2,8 @@
   {
     "name": "Bonnie Green",
     "title": "CEO & Web Developer",
-    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "affiliation": "Flowbite",
+    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet",
     "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
     "modules": ["ethics", "tools"],
     "social": {
@@ -15,6 +16,7 @@
   {
     "name": "Roberta Casas",
     "title": "Senior Front-end Developer",
+    "affiliation": "Flowbite",
     "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png",
     "modules": ["ethics", "tools"],
@@ -28,6 +30,7 @@
   {
     "name": "Michael Gough",
     "title": "CTO",
+    "affiliation": "Flowbite",
     "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
     "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png",
     "modules": ["teaming", "tools"],
@@ -41,6 +44,7 @@
   {
     "name": "Sofia McGuire",
     "title": "Marketing & Sales",
+    "affiliation": "Flowbite",
     "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png",
     "modules": ["skills"],
@@ -54,6 +58,7 @@
   {
     "name": "Helene Engels",
     "title": "Web Designer",
+    "affiliation": "Flowbite",
     "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/helene-engels.png",
     "modules": ["ethics", "skills"],
@@ -67,6 +72,7 @@
   {
     "name": "Joseph Mcfall",
     "title": "Graphic Designer",
+    "affiliation": "Flowbite",
     "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png",
     "modules": ["data"],
@@ -80,6 +86,7 @@
   {
     "name": "Leslie Livingston",
     "title": "React Developer",
+    "affiliation": "Flowbite",
     "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/thomas-lean.png",
     "modules": ["skills"],
@@ -93,6 +100,7 @@
   {
     "name": "Neil Sims",
     "title": "Vue.js Developer",
+    "affiliation": "Flowbite",
     "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/neil-sims.png",
     "modules": ["ethics", "standards"],

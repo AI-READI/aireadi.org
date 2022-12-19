@@ -3,7 +3,7 @@ import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 import HeadingWithDescription from '@/components/content/ContentHeadingDescription';
 import FaqList from '@/components/content/FaqList';
 import FeatureList from '@/components/content/FeatureList';
-import SideImage from '@/components/hero/HeroSideImage';
+import HeroCroppedImage from '@/components/hero/HeroCroppedImage';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 /**
@@ -26,13 +26,12 @@ export default function HomePage() {
         <main>
           <SkipNavContent />
 
-          <SideImage
-            title='Creating AI-ready datasets for the future'
-            image='https://images.unsplash.com/photo-1528553688096-8e0735356dae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2325&q=80'
-            tagline='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+          <HeroCroppedImage
+            title='Equitable, multimodal data collection'
+            image='https://tinyurl.com/yeyjvptc'
+            tagline='The project will aim to collect data from 4,000 participants. To ensure the data is population-representative, the 4,000 participants will be balanced for three factors: disease severity, race/ethnicity, and sex. Various data types will be collected from each participant, including vitals, electrocardiogram, glucose monitoring, physical activity, ophthalmic evaluation, etc.'
             showButtons
-            primaryButton='Get Started'
-            secondaryButton='Learn More'
+            primaryButton='Learn more about the study'
           />
           <HeadingWithDescription
             title='Powering innovation at 200,000+ companies worldwide'

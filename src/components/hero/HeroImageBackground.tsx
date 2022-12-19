@@ -30,21 +30,23 @@ export default function HeroImageBackground({
     // <Container className='relative flex h-[70vh] w-full items-center justify-center  text-white sm:h-[40vh]'>
     <section
       className={
-        `relative flex h-[70vh] w-full items-center justify-center text-white sm:h-[40vh] ` +
-        (image === 'lady-microscope-hero'
-          ? 'before:bg-lady-microscope-hero'
+        `relative flex h-[60vh] w-full items-center justify-center text-white md:h-[40vh] ` +
+        (image === 'home-hero-image'
+          ? 'before:bg-home-hero-image'
           : 'before:bg-hero-image') +
-        ` before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-cover before:bg-center before:bg-no-repeat before:brightness-50 before:content-['']`
+        ` before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-cover before:bg-center before:bg-no-repeat before:brightness-[0.4] before:content-['']`
       }
     >
-      <div className='mx-auto grid max-w-screen-xl px-6 py-8  lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0'>
-        <div className='mr-auto place-self-center lg:col-span-7'>
-          <h1 className='relative pb-5 text-5xl font-black sm:text-6xl'>
+      <div className='mx-auto grid max-w-screen-2xl px-6 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0'>
+        <div className='mr-auto place-self-center lg:col-span-8'>
+          <h1 className='relative pb-5 text-4xl font-black sm:text-5xl md:text-6xl'>
             {title}
           </h1>
 
           {tagline && (
-            <p className='relative pb-5 text-2xl font-medium'>{tagline}</p>
+            <p className='relative pb-5 text-xl font-medium sm:text-2xl'>
+              {tagline}
+            </p>
           )}
 
           {showButtons && (

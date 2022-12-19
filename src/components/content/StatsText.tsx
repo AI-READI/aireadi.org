@@ -1,19 +1,19 @@
 const StatsList = [
   {
-    heading: '$76 billion',
-    text: 'Money saved by companies using our platform',
+    heading: '4,000',
+    text: 'Participants anticipated in the study',
   },
   {
-    heading: '600+',
-    text: 'Datasets listed on our platform',
+    heading: '15+',
+    text: 'Data types to be collected (vitals, electrocardiogram, etc.)',
   },
   {
-    heading: '90 million',
-    text: `Registered users who trust us`,
+    heading: '8',
+    text: `Research institutions involved`,
   },
   {
-    heading: '<0.10%',
-    text: 'False positive rate',
+    heading: '50+',
+    text: 'Team members',
   },
 ];
 
@@ -22,11 +22,10 @@ export default function StatsText() {
     <section className='bg-white '>
       <div className='mx-auto max-w-screen-xl py-8 px-4 sm:py-16 lg:px-6'>
         <h2 className='mb-4 text-4xl font-bold tracking-tight'>
-          Sign up for our newsletter
+          Snapshot of the AI-READI project
         </h2>
         <p className='max-w-screen-md text-2xl font-light text-slate-600'>
-          Stay up to date with the roadmap progress, announcements and exclusive
-          discounts feel free to sign up with your email.
+          Some key numbers from the project
         </p>
         <div className='grid pt-8 text-left md:grid-cols-4 md:gap-8'>
           {StatsList.map((stat) => (
