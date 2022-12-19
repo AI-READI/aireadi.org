@@ -1,8 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 
-import HeroImageBackground from '@/components/content/ImageBackground';
-import SideImage from '@/components/content/SideImage';
+import HeroCroppedImage from '@/components/hero/HeroCroppedImage';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 
@@ -20,13 +19,12 @@ export default function HomePage() {
         <main>
           <SkipNavContent />
 
-          <HeroImageBackground
-            header='Creating AI-ready datasets for the future'
-            text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-          />
-          <SideImage
-            header='Creating AI-ready datasets for the future'
-            text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+          <HeroCroppedImage
+            title='Equitable, multimodal data collection'
+            image='https://tinyurl.com/yeyjvptc'
+            tagline='The project will aim to collect data from 4,000 participants. To ensure the data is population-representative, the 4,000 participants will be balanced for three factors: disease severity, ethnicity, and sex. Various data types will be collected from each participant, including vitals, electrocardiogram, glucose monitoring, physical activity, ophthalmic evaluation, etc.'
+            showButtons
+            primaryButton='Learn more about the study'
           />
 
           <section className='bg-white '>
@@ -67,21 +65,3 @@ export default function HomePage() {
     </>
   );
 }
-
-import { GetStaticProps } from 'next';
-export const getStaticProps: GetStaticProps = async () => {
-  const environment = process.env.NODE_ENV;
-
-  if (environment === 'production') {
-    return {
-      redirect: {
-        permanent: false,
-        destination: '/comingsoon',
-      },
-    };
-  }
-
-  return {
-    props: {},
-  };
-};

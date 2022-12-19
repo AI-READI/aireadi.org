@@ -22,8 +22,8 @@ export default function HomePage() {
                 Contact Us
               </h2>
               <p className='mb-8 text-center font-light text-gray-500  sm:text-xl lg:mb-16'>
-                Got a technical issue? Want to send feedback about a beta
-                feature? Need details about something else? Let us know.
+                Have a question about our project? Want more information about
+                our study? <br /> Need help using our data? Let us know!
               </p>
               <form action='#' className='space-y-8'>
                 <div>
@@ -71,21 +71,3 @@ export default function HomePage() {
     </>
   );
 }
-
-import { GetStaticProps } from 'next';
-export const getStaticProps: GetStaticProps = async () => {
-  const environment = process.env.NODE_ENV;
-
-  if (environment === 'production') {
-    return {
-      redirect: {
-        permanent: false,
-        destination: '/comingsoon',
-      },
-    };
-  }
-
-  return {
-    props: {},
-  };
-};

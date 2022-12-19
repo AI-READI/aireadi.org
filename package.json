@@ -1,7 +1,8 @@
 {
   "name": "aireadi.org",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
+  "typings": "index.d.ts",
   "scripts": {
     "dev": "next dev",
     "build": "next build && rm -rf ./.next/cache",
@@ -15,8 +16,8 @@
     "format": "prettier --ignore-path .gitignore \"./**/*.+(ts|js|tsx)\" --write",
     "format:check": "prettier -c .",
     "postbuild": "next-sitemap --config next-sitemap.config.js",
-    "commit": "cz",
     "prepare": "husky install",
+    "commit": "cz",
     "semantic-release": "semantic-release"
   },
   "dependencies": {
@@ -27,6 +28,7 @@
     "@emotion/styled": "^11",
     "clsx": "^1.2.1",
     "framer-motion": "^6",
+    "html-react-parser": "^3.0.4",
     "next": "^13.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -42,6 +44,7 @@
     "remark": "^14.0.2",
     "remark-parse": "^10.0.1",
     "remark-rehype": "^10.1.0",
+    "sib-api-v3-sdk": "^8.4.2",
     "tailwind-merge": "^1.7.0",
     "unified": "^10.1.2"
   },
@@ -54,6 +57,7 @@
     "@tailwindcss/typography": "^0.5.8",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
+    "@types/jest": "^29.2.3",
     "@types/react": "^18.0.25",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
     "@typescript-eslint/parser": "^5.42.0",
@@ -80,6 +84,9 @@
     "./**/*.{ts,js,jsx,tsx}": [
       "yarn lint --fix",
       "yarn format"
+    ],
+    "**/*.{json,css,scss,md}": [
+      "prettier -w"
     ]
   },
   "config": {

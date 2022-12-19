@@ -88,4 +88,7 @@
   .animated-underline:focus-visible {
     background-size: 0 2px, 100% 2px;
   }
+  .hero-cropped-clip-path {
+    clip-path: polygon(7% 0, 100% 0%, 100% 100%, 0% 100%);
+  }
 }

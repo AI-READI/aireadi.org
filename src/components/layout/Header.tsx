@@ -31,7 +31,7 @@ import { FcBiotech } from 'react-icons/fc';
 import UnstyledLink from '@/components/links/UnstyledLink';
 
 const links = [
-  { href: '/about', label: 'About' },
+  { href: '/', label: 'Home' },
   {
     href: '',
     label: 'Modules',
@@ -126,42 +126,44 @@ export default function Header() {
             ))}
           </div>
 
-          <div className='flex space-x-2 md:hidden '>
+          <div className='mr-2 md:hidden'>
             <IconButton
               aria-label='Open Menu'
               icon={<HamburgerIcon />}
               onClick={onOpen}
             />
 
-            <Menu>
-              <MenuButton as={Button} colorScheme='pink'>
-                <HamburgerIcon />
-              </MenuButton>
+            <div className='hidden'>
+              <Menu>
+                <MenuButton as={Button} colorScheme='pink'>
+                  <HamburgerIcon />
+                </MenuButton>
 
-              <MenuList>
-                {links.map((link) => (
-                  <Fragment key={link.href}>
-                    <MenuGroup title={link.sublinks ? link.label : ''}>
-                      <Link href={link.href} passHref>
-                        <MenuItem>{link.label}</MenuItem>
-                      </Link>
+                <MenuList>
+                  {links.map((link) => (
+                    <Fragment key={link.href}>
+                      <MenuGroup title={link.sublinks ? link.label : ''}>
+                        <Link href={link.href} passHref>
+                          <MenuItem>{link.label}</MenuItem>
+                        </Link>
 
-                      {link.sublinks &&
-                        link.sublinks.map((sublink) => (
-                          <LinkBox key={sublink.href}>
-                            <LinkOverlay
-                              href={sublink.href ? sublink.href : undefined}
-                            >
-                              <MenuItem>{sublink.label}</MenuItem>
-                            </LinkOverlay>
-                          </LinkBox>
-                        ))}
-                    </MenuGroup>
-                    <MenuDivider />
-                  </Fragment>
-                ))}
-              </MenuList>
-            </Menu>
+                        {link.sublinks &&
+                          link.sublinks.map((sublink) => (
+                            <LinkBox key={sublink.href}>
+                              <LinkOverlay
+                                href={sublink.href ? sublink.href : undefined}
+                              >
+                                <MenuItem>{sublink.label}</MenuItem>
+                              </LinkOverlay>
+                            </LinkBox>
+                          ))}
+                      </MenuGroup>
+                      <MenuDivider />
+                    </Fragment>
+                  ))}
+                </MenuList>
+              </Menu>
+            </div>
           </div>
 
           <Drawer isOpen={isOpen} placement='top' onClose={onClose}>
