@@ -71,6 +71,8 @@ This repository is automatically deployed to [Azure](https://azure.microsoft.com
 - https://yellow-mud-0c2b16f10-<BRANCH_NAME>.centralus.2.azurestaticapps.net/
 - https://yellow-mud-0c2b16f10-<GITHUB_PR_NUMBER>.centralus.2.azurestaticapps.net/
 
+**Note:** All punctuation in the branch name will be removed when creating the URL.
+
 The `production` branch is automatically deployed to the following URL: https://aireadi.org
 
 ## Contributing

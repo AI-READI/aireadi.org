@@ -27,10 +27,10 @@ export default function TeamPage() {
           <section className=' bg-white'>
             <div className='mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6 '>
               <div className='mx-auto mb-8 max-w-screen-sm text-center lg:mb-16'>
-                <h2 className=' mb-4 text-5xl font-extrabold tracking-tight text-gray-900'>
+                <h1 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>
                   Our Team
-                </h2>
-                <p className=' font-normal text-gray-500 sm:text-xl lg:mb-16'>
+                </h1>
+                <p className='mb-6 text-xl font-medium text-slate-600 sm:mb-8'>
                   Meet the people behind the scenes who make it all happen.
                 </p>
               </div>
