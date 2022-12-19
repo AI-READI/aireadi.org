@@ -320,7 +320,12 @@ export default function HomePage() {
                   Advancing our understanding of team science
                 </h1>
                 <p className='mb-6 text-lg text-gray-700 sm:mb-4'>
-                  Couple of sentences relevant to this section.
+                  We will support the AI-READI project by applying team science
+                  to promote transdisciplinary collaboration across
+                  disciplinary, hierarchical, demographic, and other boundaries.
+                  In doing so, we aim to advance our understanding of teaming in
+                  the context of multi-team systems involving multidisciplinary
+                  scientists, trainees, and communities.
                 </p>
 
                 <div className='relative flex space-x-4'>
