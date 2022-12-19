@@ -64,9 +64,22 @@ import { Button } from '@/components/Button';
 import avatar from '@/public/avatar.png';
 ```
 
-## Note
+# Deployment
 
-This branch is a work in progress. We are actively working on improving the website.
+This repository is automatically deployed to [Azure](https://azure.microsoft.com/en-us/) on every push to the repository. If you need to reference a specific branch or pull request, you can do so by using the following URL pattern:
+
+- https://yellow-mud-0c2b16f10-<BRANCH_NAME>.centralus.2.azurestaticapps.net/
+- https://yellow-mud-0c2b16f10-<GITHUB_PR_NUMBER>.centralus.2.azurestaticapps.net/
+
+The `production` branch is automatically deployed to the following URL: https://aireadi.org
+
+## Contributing
+
+<a href="https://github.com/AI-READI/aireadi.org/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=AI-READI/aireadi.org" />
+</a>
+
+Contributions are always welcome!
 
 ## License
 
