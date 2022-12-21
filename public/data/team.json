@@ -1,114 +1,109 @@
 [
   {
-    "name": "Bonnie Green",
-    "title": "CEO & Web Developer",
-    "affiliation": "Flowbite",
-    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet",
-    "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
-    "modules": ["ethics", "tools"],
+    "name": "Erik Benton",
+    "role": "Research Engineer, Sr",
+    "department": "Oregon Clinical & Translational Research Institue",
+    "organization": "Oregon Health & Science University",
+    "location": "Portland, OR",
+    "caption": "A curious, thoughtful engineer and technical leader providing guidance and support for the fairhub.io and tools projects.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/f3ca4446-1e61-4d14-959c-18c94b118609/esb_headshot.jpg",
+    "modules": ["tools"],
     "social": {
-      "facebook": "https://www.facebook.com",
-      "twitter": "https://www.twitter.com",
-      "github": "https://www.github.com",
-      "website": "https://www.dribbble.com"
+      "linkedin": "https://www.linkedin.com/in/erikbenton",
+      "github": "https://www.github.com/kirenotneb",
+      "website": "http://www.notneb.net/"
     }
   },
   {
-    "name": "Roberta Casas",
-    "title": "Senior Front-end Developer",
-    "affiliation": "Flowbite",
-    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png",
-    "modules": ["ethics", "tools"],
-    "social": {
-      "facebook": "https://www.facebook.com",
-      "twitter": "https://www.twitter.com",
-      "github": "https://www.github.com",
-      "website": "https://www.dribbble.com"
-    }
-  },
-  {
-    "name": "Michael Gough",
-    "title": "CTO",
-    "affiliation": "Flowbite",
-    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-    "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png",
-    "modules": ["teaming", "tools"],
-    "social": {
-      "facebook": "https://www.facebook.com",
-      "twitter": "https://www.twitter.com",
-      "github": "https://www.github.com",
-      "website": "https://www.dribbble.com"
-    }
-  },
-  {
-    "name": "Sofia McGuire",
-    "title": "Marketing & Sales",
-    "affiliation": "Flowbite",
-    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png",
-    "modules": ["skills"],
-    "social": {
-      "facebook": "https://www.facebook.com",
-      "twitter": "https://www.twitter.com",
-      "github": "https://www.github.com",
-      "website": "https://www.dribbble.com"
-    }
-  },
-  {
-    "name": "Helene Engels",
-    "title": "Web Designer",
-    "affiliation": "Flowbite",
-    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/helene-engels.png",
+    "name": "Camille Nebeker",
+    "role": "Associate Professor",
+    "department": "School of Public Health and Human Longevity Science",
+    "organization": "University of California, San Diego",
+    "location": "San Diego, CA",
+    "caption": "I co-founded and direct UC San Diego ReCODE Health center, which provides education and consultation services to guide consideration of the ethical, legal and social implications of digital/AI health research. For AI-READI, our Ethical and Trustworthy AI team will foster awareness of ethical and responsible practices (e.g., risk assessment, informed consent, return of results) across all modules.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/badc122e-00c8-43c7-94af-f92fef51c44c/Nebeker-Camille.jpg",
     "modules": ["ethics", "skills"],
     "social": {
-      "facebook": "https://www.facebook.com",
-      "twitter": "https://www.twitter.com",
-      "github": "https://www.github.com",
-      "website": "https://www.dribbble.com"
+      "twitter": "https://twitter.com/cnebeker",
+      "website": "https://profiles.ucsd.edu/camille.nebeker"
     }
   },
   {
-    "name": "Joseph Mcfall",
-    "title": "Graphic Designer",
-    "affiliation": "Flowbite",
-    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png",
-    "modules": ["data"],
+    "name": "Brittany York",
+    "role": "Project Manager",
+    "department": "Herbert Wertheim School of Public Health and Human Longevity Science",
+    "organization": "University of California, San Diego",
+    "location": "San Diego, CA",
+    "caption": "Brittany York is a Project Manager for the ETAI module. She joined UC San Diego in 2011 working on federally funded research projects related to physical activity, sedentary behavior, and chronic disease prevention.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/dcdf3817-d38c-4aa6-9910-0cf02c1386b9/brittanyyork.jpg",
+    "modules": ["ethics"],
+    "social": {}
+  },
+  {
+    "name": "Sally Baxter",
+    "role": "Assistant Professor",
+    "department": "Viterbi Family Department of Ophthalmology and Shiley Eye Institute",
+    "organization": "University of California, San Diego",
+    "location": "San Diego, CA",
+    "caption": "I'm an Assistant Professor of Ophthalmology and Biomedical Informatics at UCSD, and for this project I am serving as the Module PI for the Skills and Workforce Development Module and the Co-Site PI for the Data Acquisition Module at UCSD.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/82b0f3ca-154a-40fa-b27b-441704edf2f1/Sally-Baxter-black-top.jpg",
+    "modules": ["data", "skills"],
     "social": {
-      "facebook": "https://www.facebook.com",
-      "twitter": "https://www.twitter.com",
-      "github": "https://www.github.com",
-      "website": "https://www.dribbble.com"
+      "twitter": "https://twitter.com/SallyLiuBaxter",
+      "website": "https://profiles.ucsd.edu/sally.baxter"
     }
   },
   {
-    "name": "Leslie Livingston",
-    "title": "React Developer",
-    "affiliation": "Flowbite",
-    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/thomas-lean.png",
+    "name": "Sara Singer",
+    "role": "Professor",
+    "department": "Medicine and Organizational Behavior",
+    "organization": "Stanford University School of Medicine and Graduate School of Business",
+    "location": "Stanford, CA",
+    "caption": "Principal Investigator for the AI-READI Teaming Module, more generally I study teams and organizations to understand how leaders and policymakers can improve the safety, quality, equity of health and health care delivery through changes in institutional culture, leadership, organization design, and team dynamics.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/d9640bf6-82b0-4252-8ff6-b1dce353594b/SaraSinger-3081-1.jpg",
+    "modules": ["teaming"],
+    "social": {
+      "website": "gsb.stanford.edu/faculty-research/faculty/sara-singer"
+    }
+  },
+  {
+    "name": "Debra Mathews",
+    "role": "Associate Professor",
+    "department": "Berman Institute of Bioethics, Dept of Genetic Medicine",
+    "organization": "Johns Hopkins University",
+    "location": "Baltimore, MD",
+    "caption": "I'm a human geneticist by training, but all of my work is on ethical and policy issues raised by emerging technologies, including genetics, neuroscience, regenerative medicine, synthetic biology, and AI, including through work with the ETAI module of AI-READI.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/fed84ab7-bbed-48c0-b5d6-d66122181994/DJHM_large-2-of-2-.jpg",
+    "modules": ["ethics"],
+    "social": {
+      "website": "https://bioethics.jhu.edu/people/profile/debra-mathews/"
+    }
+  },
+  {
+    "name": "Victoria Patronilo",
+    "role": "Program Coordinator",
+    "department": "Ophthalmology",
+    "organization": "University of California, San Diego",
+    "location": "San Diego, CA",
+    "caption": "I am helping coordinate the AI-READI internship program with the skills and workforce development module.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/8c3195ad-8da2-4de3-89bb-ca1c7e1c9d3e/Screen-Shot-2022-11-08-at-1.20.53-PM.png",
     "modules": ["skills"],
-    "social": {
-      "facebook": "https://www.facebook.com",
-      "twitter": "https://www.twitter.com",
-      "github": "https://www.github.com",
-      "website": "https://www.dribbble.com"
-    }
+    "social": {}
   },
   {
-    "name": "Neil Sims",
-    "title": "Vue.js Developer",
-    "affiliation": "Flowbite",
-    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "image": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/neil-sims.png",
-    "modules": ["ethics", "standards"],
+    "name": "Benjamin Cordier",
+    "role": "Senior Computational Biologist",
+    "department": "Knight Cancer Institute",
+    "organization": "Oregon Health & Science University",
+    "location": "Portland, OR",
+    "caption": "I'm a computational scientist experienced in algorithm design, model development, and interactive data visualization. As part of AI-READI, I'll be building tools to enable the harmonization, comprehension, and reuse of data by researchers.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/cf77e2f2-a045-4127-bf9a-e3eece098c86/image1-bw.jpeg",
+    "modules": ["data", "tools"],
     "social": {
-      "facebook": "https://www.facebook.com",
-      "twitter": "https://www.twitter.com",
-      "github": "https://www.github.com",
-      "website": "https://www.dribbble.com"
+      "twitter": "https://twitter.com/bacordier",
+      "website": "https://www.benjamincordier.com",
+      "github": "https://www.github.com/greenstick",
+      "linkedin": "https://www.linkedin.com/in/benjamin-cordier-phd"
     }
   }
 ]

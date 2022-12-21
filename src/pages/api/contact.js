@@ -36,14 +36,14 @@ export default function handler(req, res) {
     sendSmtpEmail = {
       to: [
         {
-          email: 'howell.nitzsche@ethereal.email',
-          name: 'Howell Nitzsche',
+          email: 'talon22@ethereal.email',
+          name: 'Talon Beahan',
         },
       ],
       templateId: 1,
       params: {
-        name: 'Howell',
-        surname: 'Nitzsche',
+        name: 'Talon',
+        surname: 'Beahan',
         email,
       },
       headers: {
