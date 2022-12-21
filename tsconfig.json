@@ -33,7 +33,9 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/pages/api/contact.js",
-    "src/pages/api/contact.js"
+    "src/pages/api/contact.js",
+    "src/pages/contarct.jsx",
+    "src/pages/contarct.jsx"
   ],
   "exclude": ["node_modules"],
   "moduleResolution": ["node_modules", ".next", "node"]
