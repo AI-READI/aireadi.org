@@ -1,5 +1,6 @@
 [
   {
+    "id": "erikbenton",
     "name": "Erik Benton",
     "role": "Research Engineer, Sr",
     "department": "Oregon Clinical & Translational Research Institue",
@@ -15,6 +16,7 @@
     }
   },
   {
+    "id": "camillenebeker",
     "name": "Camille Nebeker",
     "role": "Associate Professor",
     "department": "School of Public Health and Human Longevity Science",
@@ -29,6 +31,7 @@
     }
   },
   {
+    "id": "brittanyyork",
     "name": "Brittany York",
     "role": "Project Manager",
     "department": "Herbert Wertheim School of Public Health and Human Longevity Science",
@@ -40,6 +43,7 @@
     "social": {}
   },
   {
+    "id": "sallybaxter",
     "name": "Sally Baxter",
     "role": "Assistant Professor",
     "department": "Viterbi Family Department of Ophthalmology and Shiley Eye Institute",
@@ -54,6 +58,7 @@
     }
   },
   {
+    "id": "sarasinger",
     "name": "Sara Singer",
     "role": "Professor",
     "department": "Medicine and Organizational Behavior",
@@ -67,6 +72,7 @@
     }
   },
   {
+    "id": "debramathews",
     "name": "Debra Mathews",
     "role": "Associate Professor",
     "department": "Berman Institute of Bioethics, Dept of Genetic Medicine",
@@ -80,6 +86,7 @@
     }
   },
   {
+    "id": "victoriapatronilo",
     "name": "Victoria Patronilo",
     "role": "Program Coordinator",
     "department": "Ophthalmology",
@@ -91,6 +98,7 @@
     "social": {}
   },
   {
+    "id": "benjamincordier",
     "name": "Benjamin Cordier",
     "role": "Senior Computational Biologist",
     "department": "Knight Cancer Institute",

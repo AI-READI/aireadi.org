@@ -43,6 +43,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                 <div
                   className='flex w-full flex-col items-start overflow-hidden rounded-lg bg-gray-50 shadow-lg md:flex-row'
                   key={member.name}
+                  id={member.id}
                 >
                   <div className='relative h-full min-h-[500px] w-full md:min-h-fit md:w-2/5 '>
                     <Image
