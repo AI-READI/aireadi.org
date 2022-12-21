@@ -1,10 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
+import { Divider } from '@chakra-ui/react';
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 import { InferGetStaticPropsType } from 'next';
 import Image from 'next/image';
 import { getPlaiceholder } from 'plaiceholder';
 import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from 'react-icons/ai';
-import { BiBuildingHouse } from 'react-icons/bi';
+import { BiBuildingHouse, BiNetworkChart } from 'react-icons/bi';
 import { BsGlobe } from 'react-icons/bs';
 import { IoSchoolSharp } from 'react-icons/io5';
 import { MdLocationOn } from 'react-icons/md';
@@ -13,6 +14,25 @@ import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 
 import TEAM_JSON from '~/data/team.json';
+
+const getModule = (module: string) => {
+  switch (module) {
+    case 'ethics':
+      return 'Ethics';
+    case 'data':
+      return 'Data';
+    case 'skills':
+      return 'Skills and Workforce Development';
+    case 'tools':
+      return 'Tools';
+    case 'standards':
+      return 'Standards';
+    case 'teaming':
+      return 'Teaming';
+    default:
+      return 'Unknown';
+  }
+};
 
 const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
   TeamMembers,
@@ -64,6 +84,8 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                     <p className='font-semibold'>{member.role}</p>
 
+                    <Divider className='my-1' />
+
                     <div className='my-2'>
                       <div className='my-1 flex items-start font-medium text-gray-600'>
                         <div className='mt-1 h-[20px] w-[20px]'>
@@ -80,14 +102,36 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                       </div>
                     </div>
 
-                    <p className='mt-3 mb-2 px-1 text-lg md:text-base'>
+                    <div className='mb-3 flex items-center font-semibold text-slate-600'>
+                      <MdLocationOn size={20} />
+                      <p className='ml-2 '>{member.location}</p>
+                    </div>
+
+                    <Divider />
+
+                    <p className='mt-3 mb-1 px-1 text-lg md:text-base'>
                       {member.caption}
                     </p>
 
-                    <div className='mb-3 flex items-center font-semibold text-sky-700'>
-                      <MdLocationOn size={20} />
-                      <p className='ml-1 '>{member.location}</p>
+                    <Divider className='my-2' />
+
+                    <div className='flex space-x-2'>
+                      <BiNetworkChart size={25} />
+                      <div className='divide-x-2'>
+                        {member.modules.map((module) => (
+                          <a
+                            href={`/modules/${module}`}
+                            key={module}
+                            rel='noopener noreferrer'
+                            className='pl-1 text-sm font-medium text-gray-500 transition-all hover:text-sky-600'
+                          >
+                            <span className=''> {getModule(module)} </span>
+                          </a>
+                        ))}
+                      </div>
                     </div>
+
+                    <Divider className='my-2' />
 
                     <ul className='flex space-x-3  sm:mt-0'>
                       {'twitter' in member.social && (
