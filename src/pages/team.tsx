@@ -144,6 +144,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                             href={member.social.twitter}
                             rel='noopener noreferrer'
                             target='_blank'
+                            className='cursor-newtab'
                           >
                             <AiOutlineTwitter size={25} />
                             <span className='sr-only'> Twitter page </span>
@@ -157,8 +158,9 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                             href={member.social.mastodon}
                             rel='noopener noreferrer'
                             target='_blank'
+                            className='cursor-newtab'
                           >
-                            <BsMastodon size={25} />
+                            <BsMastodon size={20} />
                             <span className='sr-only'> mastodon page </span>
                           </a>
                         </li>
@@ -170,6 +172,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                             href={member.social.github}
                             rel='noopener noreferrer'
                             target='_blank'
+                            className='cursor-newtab'
                           >
                             <AiFillGithub size={25} />
                             <span className='sr-only'> Github page </span>
@@ -183,6 +186,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                             href={member.social.linkedin}
                             rel='noopener noreferrer'
                             target='_blank'
+                            className='cursor-newtab'
                           >
                             <AiFillLinkedin size={25} />
                             <span className='sr-only'> Linkedin </span>
@@ -196,6 +200,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                             href={member.social.profiles}
                             rel='noopener noreferrer'
                             target='_blank'
+                            className='cursor-newtab'
                           >
                             <HiUserGroup size={20} />
                             <span className='sr-only'> website </span>
@@ -209,6 +214,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                             href={member.social.medprofile}
                             rel='noopener noreferrer'
                             target='_blank'
+                            className='cursor-newtab'
                           >
                             <FaHospitalUser size={20} />
                             <span className='sr-only'> website </span>
@@ -222,6 +228,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                             href={member.social.website}
                             rel='noopener noreferrer'
                             target='_blank'
+                            className='cursor-newtab'
                           >
                             <BsGlobe size={20} />
                             <span className='sr-only'> website </span>

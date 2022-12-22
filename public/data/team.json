@@ -55,7 +55,7 @@
     "modules": ["data", "skills"],
     "social": {
       "twitter": "https://twitter.com/SallyLiuBaxter",
-      "website": "https://profiles.ucsd.edu/sally.baxter"
+      "profiles": "https://profiles.ucsd.edu/sally.baxter"
     }
   },
   {
@@ -176,6 +176,22 @@
     "social": {}
   },
   {
+    "id": "sanjaysoundarajan",
+    "name": "Sanjay Soundarajan",
+    "role": "Front End Developer",
+    "department": "FAIR Data Innovations Hub",
+    "organization": "California Medical Innovations Institute",
+    "location": "San Diego, CA",
+    "caption": "I am a front end developer with experience in building web applications and data visualization tools. I am excited to be a part of the Tools module and help build tools that will help researchers and clinicians better understand and use data.",
+    "image": "https://fairdataihub.org/images/people/sanjay-full.jpg",
+    "modules": ["tools"],
+    "social": {
+      "website": "https://sanjaysoundarajan.dev",
+      "github": "https://www.github.com/megasanjay",
+      "twitter": "https://twitter.com/megasanjay"
+    }
+  },
+  {
     "id": "josephyracheta",
     "name": "Joseph Yracheta",
     "role": "Executive Director",
@@ -190,7 +206,7 @@
     }
   },
   {
-    "id": "josephyracheta",
+    "id": "lindazangwill",
     "name": "Linda Zangwill",
     "role": "Professor",
     "department": "Ophthalmology",
