@@ -11,6 +11,7 @@ import { FaHospitalUser } from 'react-icons/fa';
 import { HiUserGroup } from 'react-icons/hi';
 import { IoSchoolSharp } from 'react-icons/io5';
 import { MdLocationOn } from 'react-icons/md';
+import { RiInstagramFill } from 'react-icons/ri';
 
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
@@ -170,6 +171,20 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                           >
                             <BsMastodon size={20} />
                             <span className='sr-only'> mastodon page </span>
+                          </a>
+                        </li>
+                      )}
+
+                      {'instagram' in member.social && (
+                        <li className='flex items-center justify-center text-gray-500 transition-all hover:text-sky-600'>
+                          <a
+                            href={member.social.instagram}
+                            rel='noopener noreferrer'
+                            target='_blank'
+                            className='cursor-newtab'
+                          >
+                            <RiInstagramFill size={20} />
+                            <span className='sr-only'> instagram page </span>
                           </a>
                         </li>
                       )}
