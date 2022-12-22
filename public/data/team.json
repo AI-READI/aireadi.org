@@ -134,6 +134,48 @@
     }
   },
   {
+    "id": "cynthiaowsley",
+    "name": "Cynthia Owsley",
+    "role": "Nathan E. Miles Endowed Chair of Ophthalmology",
+    "department": "Department of Ophthalmology & Visual Sciences",
+    "organization": "University of Alabama at Birmingham",
+    "location": "Birmingham, AL",
+    "caption": "I am MPI on the Data Acquisition Module since I have a great deal of experience in recruiting, enrolling and supervising large sample studies of adults using detailed protocols, including variables such as vision, cognition and retinal imaging.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/37b364f2-0a5d-40e8-842a-bc47edb6d7c9/Owsley-higher-res.jpg",
+    "modules": ["data"],
+    "social": {
+      "website": "https://www.uab.edu/medicine/ophthalmology/faculty/owsley"
+    }
+  },
+  {
+    "id": "katiecrist",
+    "name": "Katie Crist",
+    "role": "Assistant Project Scientist",
+    "department": "Urban Studies & Planning Department",
+    "organization": "University of California, San Diego",
+    "location": "San Diego, CA",
+    "caption": "Dr. Crist's research is focused on how behavioral and built environment interventions impact physical activity and health. She brings her experience using wearable technologies to monitor behaviors and environmental exposures to the ETAI module.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/c292548d-aeb8-4966-be7a-ecd1a31c779d/Bio-pic-2.jpg",
+    "modules": ["ethics"],
+    "social": {
+      "website": "https://trolleystudy.ucsd.edu/home",
+      "linkedin": "https://www.linkedin.com/in/katiecristphd/",
+      "profiles": "https://profiles.ucsd.edu/katie.crist"
+    }
+  },
+  {
+    "id": "abigaillucero",
+    "name": "Abigail Lucero",
+    "role": "Project Manager",
+    "department": "Casey Eye Institute",
+    "organization": "Oregon Health & Science University",
+    "location": "Portland, OR",
+    "caption": "I'm a Project Manager in support of the innovative and committed team in the Tools module.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/4307d499-3024-466a-9f25-ad4acbb89c72/ABIGAIL-LUCERO.jpg",
+    "modules": ["tools"],
+    "social": {}
+  },
+  {
     "id": "zionyhaust",
     "name": "Ziony Haust",
     "role": "Photographer",
