@@ -7,6 +7,8 @@ import { getPlaiceholder } from 'plaiceholder';
 import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from 'react-icons/ai';
 import { BiBuildingHouse, BiNetworkChart } from 'react-icons/bi';
 import { BsGlobe } from 'react-icons/bs';
+import { FaHospitalUser } from 'react-icons/fa';
+import { HiUserGroup } from 'react-icons/hi';
 import { IoSchoolSharp } from 'react-icons/io5';
 import { MdLocationOn } from 'react-icons/md';
 
@@ -169,6 +171,32 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                           >
                             <AiFillLinkedin size={25} />
                             <span className='sr-only'> Linkedin </span>
+                          </a>
+                        </li>
+                      )}
+
+                      {'profiles' in member.social && (
+                        <li className='flex items-center justify-center text-gray-500 transition-all hover:text-sky-600'>
+                          <a
+                            href={member.social.profiles}
+                            rel='noopener noreferrer'
+                            target='_blank'
+                          >
+                            <HiUserGroup size={20} />
+                            <span className='sr-only'> website </span>
+                          </a>
+                        </li>
+                      )}
+
+                      {'medprofile' in member.social && (
+                        <li className='flex items-center justify-center text-gray-500 transition-all hover:text-sky-600'>
+                          <a
+                            href={member.social.medprofile}
+                            rel='noopener noreferrer'
+                            target='_blank'
+                          >
+                            <FaHospitalUser size={20} />
+                            <span className='sr-only'> website </span>
                           </a>
                         </li>
                       )}

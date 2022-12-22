@@ -27,7 +27,8 @@
     "modules": ["ethics", "skills"],
     "social": {
       "twitter": "https://twitter.com/cnebeker",
-      "website": "https://profiles.ucsd.edu/camille.nebeker"
+      "profiles": "https://profiles.ucsd.edu/camille.nebeker",
+      "website": "https://recode.health"
     }
   },
   {
@@ -68,7 +69,9 @@
     "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/d9640bf6-82b0-4252-8ff6-b1dce353594b/SaraSinger-3081-1.jpg",
     "modules": ["teaming"],
     "social": {
-      "website": "gsb.stanford.edu/faculty-research/faculty/sara-singer"
+      "website": "https://www.gsb.stanford.edu/faculty-research/faculty/sara-singer",
+      "medprofile": "https://med.stanford.edu/sarasinger.html",
+      "profiles": "https://profiles.stanford.edu/sara-singer"
     }
   },
   {
