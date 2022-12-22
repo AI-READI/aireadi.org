@@ -17,23 +17,45 @@ import Seo from '@/components/Seo';
 
 import TEAM_JSON from '~/data/team.json';
 
-const getModule = (module: string) => {
-  switch (module) {
-    case 'ethics':
-      return 'Ethics';
-    case 'data':
-      return 'Data';
-    case 'skills':
-      return 'Skills and Workforce Development';
-    case 'tools':
-      return 'Tools';
-    case 'standards':
-      return 'Standards';
-    case 'teaming':
-      return 'Teaming';
-    default:
-      return 'Unknown';
-  }
+const ModulesSection = ({ modules }: { modules: string[] }) => {
+  const getModule = (module: string) => {
+    switch (module) {
+      case 'ethics':
+        return 'Ethics';
+      case 'data':
+        return 'Data';
+      case 'skills':
+        return 'Skills and Workforce Development';
+      case 'tools':
+        return 'Tools';
+      case 'standards':
+        return 'Standards';
+      case 'teaming':
+        return 'Teaming';
+      case 'administration':
+        return 'Administration';
+      default:
+        return 'Unknown';
+    }
+  };
+
+  return (
+    <div className='flex space-x-2'>
+      <BiNetworkChart size={25} />
+      <div className='divide-x-2'>
+        {modules.map((module) => (
+          <a
+            href={`/modules${module !== 'administration' ? '/' + module : ''}`}
+            key={module}
+            rel='noopener noreferrer'
+            className='pl-1 text-sm font-medium text-gray-500 transition-all hover:text-sky-600'
+          >
+            <span className=''> {getModule(module)} </span>
+          </a>
+        ))}
+      </div>
+    </div>
+  );
 };
 
 const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
@@ -119,21 +141,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                     <Divider className='my-2' />
 
-                    <div className='flex space-x-2'>
-                      <BiNetworkChart size={25} />
-                      <div className='divide-x-2'>
-                        {member.modules.map((module) => (
-                          <a
-                            href={`/modules/${module}`}
-                            key={module}
-                            rel='noopener noreferrer'
-                            className='pl-1 text-sm font-medium text-gray-500 transition-all hover:text-sky-600'
-                          >
-                            <span className=''> {getModule(module)} </span>
-                          </a>
-                        ))}
-                      </div>
-                    </div>
+                    <ModulesSection modules={member.modules} />
 
                     <Divider className='my-2' />
 

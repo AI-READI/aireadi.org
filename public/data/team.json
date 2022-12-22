@@ -219,12 +219,38 @@
     "department": "Ophthalmology",
     "organization": "University of California, San Diego",
     "location": "United States",
-    "caption": " am a Professor at the Viterbi Family Department of Ophthalmology at UCSD conducting clinical and computational research with a focus on glaucoma.  I am co-PI with Dr. Sally Baxter on the Skills and Workforce Development Module and am also site PI (with Dr. Sally Baxter as co-PI) on the Data module.",
+    "caption": "I am a Professor at the Viterbi Family Department of Ophthalmology at UCSD conducting clinical and computational research with a focus on glaucoma.  I am co-PI with Dr. Sally Baxter on the Skills and Workforce Development Module and am also site PI (with Dr. Sally Baxter as co-PI) on the Data module.",
     "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/01c1a6b7-f3bd-4fbd-af82-050f5f656fce/SEC_LindaZangwilo0196-cropped.jpg",
     "modules": ["data", "skills"],
     "social": {
       "website": ["https://shileyeye.ucsd.edu/faculty/linda-zangwill"]
     }
+  },
+  {
+    "id": "missytakahashi",
+    "name": "Missy Takahashi",
+    "role": "Lab Manager",
+    "department": "Ophthalmology",
+    "organization": "University of Washington",
+    "location": "Bellevue, WA",
+    "caption": "I am the research lab manager at the University of Washington for Drs. Aaron and Cecilia Lee, who were awarded the AI-READI grant. I am working with the data module on study start-up as well as providing other administrative and logistical support.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/b8c470d2-99d9-4b5f-8003-afe193f210d5/1671744959646.jpg",
+    "modules": ["data", "administration"],
+    "social": {
+      "website": ["https://comp.ophthalmology.uw.edu/about/"]
+    }
+  },
+  {
+    "id": "dawnmatthies",
+    "name": "Dawn Matthies",
+    "role": "Project Manager",
+    "department": "Dept. of Ophthalmology and Visual Sciences",
+    "organization": "University of Alabama at Birmingham",
+    "location": "Birmingham, AL",
+    "caption": "I serve as the project manager for the Data Acquisition module, responsible for coordinating communication between our three data sites and supporting the development of the protocol, its implementation, and data collection.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/9b436c39-c2df-436f-835e-3b80995b0264/Screenshot-2022-12-22-at-3.43.09-PM.png",
+    "modules": ["data"],
+    "social": {}
   },
   {
     "id": "zionyhaust",
