@@ -61,10 +61,6 @@ const links = [
     label: 'Data',
   },
   {
-    href: '/resources',
-    label: 'Resources',
-  },
-  {
     href: '/publications',
     label: 'Publications',
   },
