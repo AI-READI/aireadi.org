@@ -222,19 +222,23 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                         </li>
                       )}
 
-                      {'website' in member.social && (
-                        <li className='flex items-center justify-center text-gray-500 transition-all hover:text-sky-600'>
-                          <a
-                            href={member.social.website}
-                            rel='noopener noreferrer'
-                            target='_blank'
-                            className='cursor-newtab'
+                      {'website' in member.social &&
+                        member.social.website?.map((website: string) => (
+                          <li
+                            className='flex items-center justify-center text-gray-500 transition-all hover:text-sky-600'
+                            key={website}
                           >
-                            <BsGlobe size={20} />
-                            <span className='sr-only'> website </span>
-                          </a>
-                        </li>
-                      )}
+                            <a
+                              href={website}
+                              rel='noopener noreferrer'
+                              target='_blank'
+                              className='cursor-newtab'
+                            >
+                              <BsGlobe size={20} />
+                              <span className='sr-only'> website </span>
+                            </a>
+                          </li>
+                        ))}
                     </ul>
                   </div>
                 </div>

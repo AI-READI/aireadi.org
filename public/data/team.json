@@ -12,7 +12,7 @@
     "social": {
       "linkedin": "https://www.linkedin.com/in/erikbenton",
       "github": "https://www.github.com/kirenotneb",
-      "website": "http://www.notneb.net/"
+      "website": ["http://www.notneb.net/"]
     }
   },
   {
@@ -28,7 +28,7 @@
     "social": {
       "twitter": "https://twitter.com/cnebeker",
       "profiles": "https://profiles.ucsd.edu/camille.nebeker",
-      "website": "https://recode.health"
+      "website": ["https://recode.health"]
     }
   },
   {
@@ -69,7 +69,9 @@
     "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/d9640bf6-82b0-4252-8ff6-b1dce353594b/SaraSinger-3081-1.jpg",
     "modules": ["teaming"],
     "social": {
-      "website": "https://www.gsb.stanford.edu/faculty-research/faculty/sara-singer",
+      "website": [
+        "https://www.gsb.stanford.edu/faculty-research/faculty/sara-singer"
+      ],
       "medprofile": "https://med.stanford.edu/sarasinger.html",
       "profiles": "https://profiles.stanford.edu/sara-singer"
     }
@@ -85,7 +87,7 @@
     "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/fed84ab7-bbed-48c0-b5d6-d66122181994/DJHM_large-2-of-2-.jpg",
     "modules": ["ethics"],
     "social": {
-      "website": "https://bioethics.jhu.edu/people/profile/debra-mathews/"
+      "website": ["https://bioethics.jhu.edu/people/profile/debra-mathews/"]
     }
   },
   {
@@ -112,7 +114,7 @@
     "modules": ["data", "tools"],
     "social": {
       "twitter": "https://twitter.com/bacordier",
-      "website": "https://www.benjamincordier.com",
+      "website": ["https://www.benjamincordier.com"],
       "github": "https://www.github.com/greenstick",
       "linkedin": "https://www.linkedin.com/in/benjamin-cordier-phd"
     }
@@ -129,7 +131,7 @@
     "modules": ["tools"],
     "social": {
       "mastodon": "https://dair-community.social/@wondermixtape",
-      "website": "http://www.biodevlab.org/",
+      "website": ["http://www.biodevlab.org/"],
       "github": "https://www.github.com/biodev"
     }
   },
@@ -144,7 +146,7 @@
     "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/37b364f2-0a5d-40e8-842a-bc47edb6d7c9/Owsley-higher-res.jpg",
     "modules": ["data"],
     "social": {
-      "website": "https://www.uab.edu/medicine/ophthalmology/faculty/owsley"
+      "website": ["https://www.uab.edu/medicine/ophthalmology/faculty/owsley"]
     }
   },
   {
@@ -158,7 +160,7 @@
     "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/c292548d-aeb8-4966-be7a-ecd1a31c779d/Bio-pic-2.jpg",
     "modules": ["ethics"],
     "social": {
-      "website": "https://trolleystudy.ucsd.edu/home",
+      "website": ["https://trolleystudy.ucsd.edu/home"],
       "linkedin": "https://www.linkedin.com/in/katiecristphd/",
       "profiles": "https://profiles.ucsd.edu/katie.crist"
     }
@@ -186,7 +188,7 @@
     "image": "https://fairdataihub.org/images/people/sanjay-full.jpg",
     "modules": ["tools"],
     "social": {
-      "website": "https://sanjaysoundarajan.dev",
+      "website": ["https://sanjaysoundarajan.dev"],
       "github": "https://www.github.com/megasanjay",
       "twitter": "https://twitter.com/megasanjay"
     }
@@ -201,7 +203,12 @@
     "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/9b1eb978-9db6-4be5-9991-2661746a414b/Labcoat.jpg",
     "modules": ["ethics", "teaming", "tools"],
     "social": {
-      "website": "http://nativebio.org",
+      "website": [
+        "http://nativebio.org",
+        "http://odum.unc.edu/senahd-2022/",
+        "http://indigidata.nativebio.org/",
+        "http://publichealth.jhu.edu/departments/environmental-health-and-engineering/about/diversity-and-equity-initiatives/indigenous-peoples"
+      ],
       "twitter": "http://twitter.com/NativeBio"
     }
   },
@@ -216,7 +223,7 @@
     "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/01c1a6b7-f3bd-4fbd-af82-050f5f656fce/SEC_LindaZangwilo0196-cropped.jpg",
     "modules": ["data", "skills"],
     "social": {
-      "website": "https://shileyeye.ucsd.edu/faculty/linda-zangwill"
+      "website": ["https://shileyeye.ucsd.edu/faculty/linda-zangwill"]
     }
   },
   {
@@ -230,7 +237,7 @@
     "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
     "modules": ["standards"],
     "social": {
-      "website": "https://unsplash.com/@aionyhaust"
+      "website": ["https://unsplash.com/@aionyhaust"]
     }
   }
 ]
