@@ -176,6 +176,35 @@
     "social": {}
   },
   {
+    "id": "josephyracheta",
+    "name": "Joseph Yracheta",
+    "role": "Executive Director",
+    "department": "",
+    "organization": "Native Bio-Data Consortium",
+    "location": "Eagle Butte, SD",
+    "caption": "I am a 56-year-old, well-rounded academic scientist specializing in Indigenous and Marginalized group concerns on the Big Data Era.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/9b1eb978-9db6-4be5-9991-2661746a414b/Labcoat.jpg",
+    "modules": ["ethics", "teaming", "tools"],
+    "social": {
+      "website": "http://nativebio.org",
+      "twitter": "http://twitter.com/NativeBio"
+    }
+  },
+  {
+    "id": "josephyracheta",
+    "name": "Linda Zangwill",
+    "role": "Professor",
+    "department": "Ophthalmology",
+    "organization": "University of California, San Diego",
+    "location": "United States",
+    "caption": " am a Professor at the Viterbi Family Department of Ophthalmology at UCSD conducting clinical and computational research with a focus on glaucoma.  I am co-PI with Dr. Sally Baxter on the Skills and Workforce Development Module and am also site PI (with Dr. Sally Baxter as co-PI) on the Data module.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/01c1a6b7-f3bd-4fbd-af82-050f5f656fce/SEC_LindaZangwilo0196-cropped.jpg",
+    "modules": ["data", "skills"],
+    "social": {
+      "website": "https://shileyeye.ucsd.edu/faculty/linda-zangwill"
+    }
+  },
+  {
     "id": "zionyhaust",
     "name": "Ziony Haust",
     "role": "Photographer",
