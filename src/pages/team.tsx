@@ -89,12 +89,14 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                     <Divider className='my-1' />
 
                     <div className='my-2'>
-                      <div className='my-1 flex items-start font-medium text-gray-600'>
-                        <div className='mt-1 h-[20px] w-[20px]'>
-                          <IoSchoolSharp size={20} />
+                      {member.department && (
+                        <div className='my-1 flex items-start font-medium text-gray-600'>
+                          <div className='mt-1 h-[20px] w-[20px]'>
+                            <IoSchoolSharp size={20} />
+                          </div>
+                          <p className='ml-2'>{member.department}</p>
                         </div>
-                        <p className='ml-2'>{member.department}</p>
-                      </div>
+                      )}
 
                       <div className='my-1 flex items-start font-semibold text-sky-700'>
                         <div className='mt-1 h-[20px] w-[20px]'>
