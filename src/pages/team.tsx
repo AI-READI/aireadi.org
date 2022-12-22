@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { getPlaiceholder } from 'plaiceholder';
 import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from 'react-icons/ai';
 import { BiBuildingHouse, BiNetworkChart } from 'react-icons/bi';
-import { BsGlobe } from 'react-icons/bs';
+import { BsGlobe, BsMastodon } from 'react-icons/bs';
 import { FaHospitalUser } from 'react-icons/fa';
 import { HiUserGroup } from 'react-icons/hi';
 import { IoSchoolSharp } from 'react-icons/io5';
@@ -145,6 +145,19 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                           >
                             <AiOutlineTwitter size={25} />
                             <span className='sr-only'> Twitter page </span>
+                          </a>
+                        </li>
+                      )}
+
+                      {'mastodon' in member.social && (
+                        <li className='flex items-center justify-center text-gray-500 transition-all hover:text-sky-600'>
+                          <a
+                            href={member.social.mastodon}
+                            rel='noopener noreferrer'
+                            target='_blank'
+                          >
+                            <BsMastodon size={25} />
+                            <span className='sr-only'> mastodon page </span>
                           </a>
                         </li>
                       )}

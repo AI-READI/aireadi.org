@@ -24,10 +24,10 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
         <SkipNavContent />
 
         <HeroCroppedImage
-          title='Equitable, multimodal data collection'
-          image='https://tinyurl.com/yeyjvptc'
-          tagline='The project will aim to collect data from 4,000 participants. To ensure the data is population-representative, the 4,000 participants will be balanced for three factors: disease severity, race/ethnicity, and sex. Various data types will be collected from each participant, including vitals, electrocardiogram, glucose monitoring, physical activity, ophthalmic evaluation, etc.'
-          showButtons
+          title='Data Acquisition'
+          image='https://images.unsplash.com/photo-1640158615573-cd28feb1bf4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80'
+          tagline='Collecting data across multiple sites.'
+          showButtons={false}
           primaryButton='Learn more about the study'
         />
 
@@ -55,6 +55,8 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                         src={member.image}
                         alt={member.name + ' image'}
                         fill
+                        placeholder='blur'
+                        blurDataURL={member.blurDataURL}
                         className='h-full w-full rounded-lg object-cover '
                         sizes='(max-width: 768px) 100vw, 50vw'
                       />

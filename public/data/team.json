@@ -118,6 +118,22 @@
     }
   },
   {
+    "id": "shannonmcweeney",
+    "name": "Shannon McWeeney",
+    "role": "Professor and Chief Data Officer",
+    "department": "Knight Cancer Institute",
+    "organization": "Oregon Health & Science University",
+    "location": "Portland, OR",
+    "caption": "M-PI of the Tools Module focused on data equity, accessibility and patient engagement.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/a35828c8-9b33-403c-b012-54a68662e201/shannon.jpg",
+    "modules": ["tools"],
+    "social": {
+      "mastodon": "https://dair-community.social/@wondermixtape",
+      "website": "http://www.biodevlab.org/",
+      "github": "https://www.github.com/biodev"
+    }
+  },
+  {
     "id": "zionyhaust",
     "name": "Ziony Haust",
     "role": "Photographer",
