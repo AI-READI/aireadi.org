@@ -215,6 +215,17 @@ export const getStaticProps = async () => {
     })
   ).then((values) => values);
 
+  // sort by name
+  TeamMembers.sort((a, b) => {
+    if (a.name < b.name) {
+      return -1;
+    }
+    if (a.name > b.name) {
+      return 1;
+    }
+    return 0;
+  });
+
   return {
     props: {
       TeamMembers,
