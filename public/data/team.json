@@ -253,6 +253,21 @@
     "social": {}
   },
   {
+    "id": "samanthahurst",
+    "name": "Samantha Hurst",
+    "role": "Project Scientist",
+    "department": "Herbert Wertheim School of Public Health",
+    "organization": "University of California, San Diego",
+    "location": "San Diego, CA",
+    "caption": "I am a medical anthropologist centered in a public health research space.  I am an MPI in the ETAI module and the liaison and Chair for the three regional Advisory Boards supporting AI-READI data collection.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/fe4a33b6-fb99-4300-9cef-6279b6f11527/_DSM2864.jpg",
+    "modules": ["ethics", "skills"],
+    "social": {
+      "twitter": "https://twitter.com/SammHurstPhD",
+      "instagram": "https://www.instagram.com/samm_hurst/"
+    }
+  },
+  {
     "id": "zionyhaust",
     "name": "Ziony Haust",
     "role": "Photographer",
