@@ -1,6 +1,6 @@
 [
   {
-    "id": "erikbenton",
+    "id": "Erik-Benton",
     "name": "Erik Benton",
     "role": "Research Engineer, Sr",
     "department": "Oregon Clinical & Translational Research Institue",
@@ -16,7 +16,7 @@
     }
   },
   {
-    "id": "camillenebeker",
+    "id": "Camille-Nebeker",
     "name": "Camille Nebeker",
     "role": "Associate Professor",
     "department": "School of Public Health and Human Longevity Science",
@@ -32,7 +32,7 @@
     }
   },
   {
-    "id": "brittanyyork",
+    "id": "Brittany-York",
     "name": "Brittany York",
     "role": "Project Manager",
     "department": "Herbert Wertheim School of Public Health and Human Longevity Science",
@@ -44,7 +44,7 @@
     "social": {}
   },
   {
-    "id": "sallybaxter",
+    "id": "Sally-Baxter",
     "name": "Sally Baxter",
     "role": "Assistant Professor",
     "department": "Viterbi Family Department of Ophthalmology and Shiley Eye Institute",
@@ -59,7 +59,7 @@
     }
   },
   {
-    "id": "sarasinger",
+    "id": "Sara-Singer",
     "name": "Sara Singer",
     "role": "Professor",
     "department": "Medicine and Organizational Behavior",
@@ -77,7 +77,7 @@
     }
   },
   {
-    "id": "debramathews",
+    "id": "Debra-Mathews",
     "name": "Debra Mathews",
     "role": "Associate Professor",
     "department": "Berman Institute of Bioethics, Dept of Genetic Medicine",
@@ -91,7 +91,7 @@
     }
   },
   {
-    "id": "victoriapatronilo",
+    "id": "Victoria-Patronilo",
     "name": "Victoria Patronilo",
     "role": "Program Coordinator",
     "department": "Ophthalmology",
@@ -103,7 +103,7 @@
     "social": {}
   },
   {
-    "id": "benjamincordier",
+    "id": "Benjamin-Cordier",
     "name": "Benjamin Cordier",
     "role": "Senior Computational Biologist",
     "department": "Knight Cancer Institute",
@@ -120,7 +120,7 @@
     }
   },
   {
-    "id": "shannonmcweeney",
+    "id": "Shannon-McWeeney",
     "name": "Shannon McWeeney",
     "role": "Professor and Chief Data Officer",
     "department": "Knight Cancer Institute",
@@ -136,7 +136,7 @@
     }
   },
   {
-    "id": "cynthiaowsley",
+    "id": "Cynthia-Owsley",
     "name": "Cynthia Owsley",
     "role": "Nathan E. Miles Endowed Chair of Ophthalmology",
     "department": "Department of Ophthalmology & Visual Sciences",
@@ -150,7 +150,7 @@
     }
   },
   {
-    "id": "katiecrist",
+    "id": "Katie-Crist",
     "name": "Katie Crist",
     "role": "Assistant Project Scientist",
     "department": "Urban Studies & Planning Department",
@@ -166,7 +166,7 @@
     }
   },
   {
-    "id": "abigaillucero",
+    "id": "Abigail-Lucero",
     "name": "Abigail Lucero",
     "role": "Project Manager",
     "department": "Casey Eye Institute",
@@ -178,7 +178,7 @@
     "social": {}
   },
   {
-    "id": "sanjaysoundarajan",
+    "id": "Sanjay-Soundarajan",
     "name": "Sanjay Soundarajan",
     "role": "Front End Developer",
     "department": "FAIR Data Innovations Hub",
@@ -194,7 +194,7 @@
     }
   },
   {
-    "id": "josephyracheta",
+    "id": "Joseph-Yracheta",
     "name": "Joseph Yracheta",
     "role": "Executive Director",
     "organization": "Native Bio-Data Consortium",
@@ -213,7 +213,7 @@
     }
   },
   {
-    "id": "lindazangwill",
+    "id": "Linda-Zangwill",
     "name": "Linda Zangwill",
     "role": "Professor",
     "department": "Ophthalmology",
@@ -227,7 +227,7 @@
     }
   },
   {
-    "id": "missytakahashi",
+    "id": "Missy-Takahashi",
     "name": "Missy Takahashi",
     "role": "Lab Manager",
     "department": "Ophthalmology",
@@ -241,7 +241,7 @@
     }
   },
   {
-    "id": "dawnmatthies",
+    "id": "Dawn-Matthies",
     "name": "Dawn Matthies",
     "role": "Project Manager",
     "department": "Dept. of Ophthalmology and Visual Sciences",
@@ -253,7 +253,7 @@
     "social": {}
   },
   {
-    "id": "samanthahurst",
+    "id": "Samantha-Hurst",
     "name": "Samantha Hurst",
     "role": "Project Scientist",
     "department": "Herbert Wertheim School of Public Health",
@@ -268,7 +268,7 @@
     }
   },
   {
-    "id": "bhaveshpatel",
+    "id": "Bhavesh-Patel",
     "name": "Bhavesh Patel",
     "role": "Associate Research Professor",
     "department": "FAIR Data Innovations Hub",
@@ -284,7 +284,7 @@
     }
   },
   {
-    "id": "qiluyu",
+    "id": "Qilu-Yu",
     "name": "Qilu Yu",
     "role": "Biostatistician",
     "department": "Office of Clinical and Regulatory Affairs",
@@ -298,7 +298,7 @@
     }
   },
   {
-    "id": "zionyhaust",
+    "id": "Ziony-Haust",
     "name": "Ziony Haust",
     "role": "Photographer",
     "department": "Creative and Marketing",
