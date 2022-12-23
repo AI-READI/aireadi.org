@@ -24,7 +24,7 @@ const ModulesSection = ({ modules }: { modules: string[] }) => {
       case 'ethics':
         return 'Ethics';
       case 'data':
-        return 'Data';
+        return 'Data Acquisition';
       case 'skills':
         return 'Skills and Workforce Development';
       case 'tools':
@@ -44,12 +44,14 @@ const ModulesSection = ({ modules }: { modules: string[] }) => {
     <div className='flex space-x-2'>
       <BiNetworkChart size={25} />
       <div className='divide-x-2'>
-        {modules.map((module) => (
+        {modules.map((module, index) => (
           <a
             href={`/modules${module !== 'administration' ? '/' + module : ''}`}
             key={module}
             rel='noopener noreferrer'
-            className='pl-1 text-sm font-medium text-gray-500 transition-all hover:text-sky-600'
+            className={`${
+              index === 0 ? '' : 'pl-1'
+            } text-sm font-medium text-gray-500 transition-all hover:text-sky-600`}
           >
             <span className=''> {getModule(module)} </span>
           </a>

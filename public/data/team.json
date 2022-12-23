@@ -268,6 +268,36 @@
     }
   },
   {
+    "id": "bhaveshpatel",
+    "name": "Bhavesh Patel",
+    "role": "Associate Research Professor",
+    "department": "FAIR Data Innovations Hub",
+    "organization": "California Medical Innovations Institute",
+    "location": "San Diego, CA",
+    "caption": "I am an M-PI for the Tools module, leading the development of fairhub.io through my expertise in FAIR data practices and development of research software.",
+    "image": "https://fairdataihub.org/images/people/bhavesh-full.jpg",
+    "modules": ["tools"],
+    "social": {
+      "website": ["https://fairdataihub.org"],
+      "linkedin": "https://www.linkedin.com/in/bvhpatel",
+      "twitter": "https://twitter.com/fairdataihub"
+    }
+  },
+  {
+    "id": "qiluyu",
+    "name": "Qilu Yu",
+    "role": "Biostatistician",
+    "department": "Office of Clinical and Regulatory Affairs",
+    "organization": "National Center for Complementary and Integrative Health",
+    "location": "Bethesda, MD",
+    "caption": "I am the lead biostatistician at the National Center for Complementary and Integrative Health, NIH, working as a project scientist for the AI-READI project.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/a679a2a3-a045-42f1-8b1e-5b067aedb8d1/Yu_Qilu_DSC_1865_square.jpg",
+    "modules": ["ethics", "data", "skills", "tools", "standards", "teaming"],
+    "social": {
+      "website": ["https://www.nccih.nih.gov/about/staff/qilu-yu"]
+    }
+  },
+  {
     "id": "zionyhaust",
     "name": "Ziony Haust",
     "role": "Photographer",
