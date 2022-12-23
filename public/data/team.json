@@ -338,6 +338,20 @@
     "social": {}
   },
   {
+    "id": "Virginia-de-Sa",
+    "name": "Virginia de Sa",
+    "role": "Professor",
+    "department": "Cognitive Science and Halicioglu Data Science Institute",
+    "organization": "University of California, San Diego",
+    "location": "San Diego, CA",
+    "caption": "I'm a Professor in Cognitive Science, and Associate Director of the Halicioglu Data Science Institute at UC San Diego studying vision and learning in humans and machines as well as brain-computer interfaces.  For this project I am developing  machine learning training.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/f15534eb-9af8-4504-8493-32032b424225/deSa_large.jpg",
+    "modules": ["skills"],
+    "social": {
+      "website": ["https://pages.ucsd.edu/~desa/"]
+    }
+  },
+  {
     "id": "Ziony-Haust",
     "name": "Ziony Haust",
     "role": "Photographer",
