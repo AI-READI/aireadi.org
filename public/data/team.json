@@ -298,6 +298,46 @@
     }
   },
   {
+    "id": "T. Y. Alvin-Liu",
+    "name": "T. Y. Alvin Liu",
+    "role": "Director of the Wilmer Precision Ophthalmology Center of Excellence",
+    "department": "Wilmer Eye Institute",
+    "organization": "Johns Hopkins University",
+    "location": "Baltimore, MD",
+    "caption": "Contact PI for the ETAI Module",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/a2d5aa0f-6177-49d0-a741-3b9fe1eb5b1c/JB1_2073.JPG",
+    "modules": ["ethics"],
+    "social": {}
+  },
+  {
+    "id": "Megan-Collins",
+    "name": "Megan Collins",
+    "role": "Associate Professor",
+    "department": "Wilmer Eye Institute / Berman Institute",
+    "organization": "Johns Hopkins University",
+    "location": "Baltimore, MD",
+    "caption": "I am a pediatric ophthalmologist and medical ethicist interested in health equity and access to care.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/5f21358d-ae5c-4241-939b-2bdbf485a80d/_Collins-photo.jpg",
+    "modules": ["ethics"],
+    "social": {
+      "website": [
+        "https://www.hopkinsmedicine.org/profiles/details/megan-collins"
+      ]
+    }
+  },
+  {
+    "id": "Nicole-Ehrhardt",
+    "name": "Nicole Ehrhardt",
+    "role": "Assistant Professor of Medicine",
+    "department": "Dept. of Medicine/ Division Endocrinology",
+    "organization": "Diabetes Institute University of Washington",
+    "location": "Seattle, WA",
+    "caption": "Dr Ehrhardt is an adult Endocrinologist at the University of Washington Diabetes Institute. Her research is focused on use of real-time continuous glucose monitoring ",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/aca2f4ee-27a5-420b-80ac-385640f823ee/newheadshot.jpg",
+    "modules": ["administration", "tools"],
+    "social": {}
+  },
+  {
     "id": "Ziony-Haust",
     "name": "Ziony Haust",
     "role": "Photographer",
