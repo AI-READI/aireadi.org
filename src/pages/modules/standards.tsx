@@ -1,9 +1,12 @@
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 import { InferGetStaticPropsType } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 import { getPlaiceholder } from 'plaiceholder';
+import { TbArrowNarrowRight } from 'react-icons/tb';
 
 import HeroCroppedImage from '@/components/hero/HeroCroppedImage';
+import ResourcesItemIcon from '@/components/icons/ResourcesItemIcon';
 import Layout from '@/components/layout/Layout';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
@@ -31,7 +34,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
           primaryButton='Learn more about the study'
         />
 
-<section className='bg-white'>
+        <section className='bg-white'>
           <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-6 py-8 px-4 text-left md:grid-cols-2 lg:py-16 lg:px-6'>
             <div>
               <h2 className='mb-4 text-3xl font-extrabold tracking-tight sm:text-4xl'>
@@ -105,10 +108,65 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
             </div>
           </div>
         </section>
+
+        <section className='bg-white'>
+          <div className='mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6'>
+            <div className='mx-auto mb-6 max-w-screen-sm text-center lg:mb-8'>
+              <h2 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>
+                Resources
+              </h2>
+
+              <p className='mb-4 text-xl font-medium text-slate-600'>
+                A collection of resources to help you get started.
+              </p>
+            </div>
+
+            <ul>
+              {Resources.map((resource) => (
+                <li
+                  className='mb-8 flex items-start space-x-4'
+                  key={resource.title}
+                >
+                  <ResourcesItemIcon type={resource.type} />
+                  <div className='pt-2'>
+                    <p className='text-xl font-medium'>{resource.title}</p>
+                    <p className='pt-1 text-lg font-normal text-gray-700'>
+                      {resource.description}
+                    </p>
+
+                    <Link
+                      href={resource.link}
+                      passHref
+                      className='flex w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+                    >
+                      <span className=''>Read more</span>
+                      <TbArrowNarrowRight size={20} />
+                    </Link>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
       </main>
     </Layout>
   </>
 );
+
+const Resources = [
+  {
+    title: 'Data Acquisition Module',
+    description: 'A collection of resources to help you get started.',
+    link: '/data',
+    type: 'publication',
+  },
+  {
+    title: 'Github',
+    description: 'A collection of resources to help you get started.',
+    link: '/data',
+    type: 'github',
+  },
+];
 
 export const getStaticProps = async () => {
   let TeamMembers = await Promise.all(
