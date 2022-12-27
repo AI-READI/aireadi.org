@@ -352,6 +352,20 @@
     }
   },
   {
+    "id": "Jennifer-Li-Pook-Than",
+    "name": "Jennifer Li-Pook-Than",
+    "role": "Senior Research Associate",
+    "department": "Genetics Department, School of Medicine",
+    "organization": "Stanford University",
+    "location": "Palo Alto, CA",
+    "caption": "Expertise in Big-Omics Precision Health Science and Advocacy for the Indigenous and Diverse Populations; AI-READI PEDP Lead.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/c559c54f-3df4-40a1-89dd-5c8272e85c37/1-JLPT.JPG",
+    "modules": ["Teaming"],
+    "social": {
+      "website": ["https://med.stanford.edu/sphere.html"]
+    }
+  },
+  {
     "id": "Ziony-Haust",
     "name": "Ziony Haust",
     "role": "Photographer",
