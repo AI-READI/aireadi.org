@@ -31,6 +31,36 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
           primaryButton='Learn more about the study'
         />
 
+        <section className='bg-white'>
+          <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-6 py-8 px-4 text-left md:grid-cols-2 lg:py-16 lg:px-6'>
+            <div>
+              <h2 className='mb-4 text-3xl font-extrabold tracking-tight sm:text-4xl'>
+                Overview of the Ethics Module
+              </h2>
+              <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
+                Empower Developers, IT Ops, and business teams to collaborate at
+                high velocity. Respond to changes and deliver great customer and
+                employee service experiences fast.
+              </p>
+            </div>
+            <div>
+              <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
+                Track work across the enterprise through an open, collaborative
+                platform. Link issues across Jira and ingest data from other
+                software development tools, so your IT support and operations
+                teams have richer contextual information to rapidly respond to
+                requests, incidents, and changes.
+              </p>
+              <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
+                Deliver great service experiences fast - without the complexity
+                of traditional ITSM solutions. Accelerate critical development
+                work, eliminate toil, and deploy changes with ease, with a
+                complete audit trail for every change.
+              </p>
+            </div>
+          </div>
+        </section>
+
         <section className='bg-white '>
           <div className='mx-auto max-w-screen-xl py-8 px-4 text-center lg:py-16 lg:px-6'>
             <div className='mx-auto mb-6 max-w-screen-sm lg:mb-8'>
