@@ -40,8 +40,8 @@ const links = [
       { href: '/modules/teaming', label: 'Teaming' },
       { href: '/modules/standards', label: 'Standards' },
       { href: '/modules/tools', label: 'Tools' },
-      { href: '/modules/data', label: 'Data' },
-      { href: '/modules/skills', label: 'Skills' },
+      { href: '/modules/data', label: 'Data Acquisition' },
+      { href: '/modules/skills', label: 'Skills and Workforce Development' },
     ],
   },
   {
