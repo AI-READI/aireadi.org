@@ -67,6 +67,46 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
           </div>
         </section>
 
+        <section className='bg-white'>
+          <div className='mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6'>
+            <div className='mx-auto mb-6 max-w-screen-sm text-center lg:mb-8'>
+              <h2 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>
+                Resources
+              </h2>
+
+              <p className='mb-4 text-xl font-medium text-slate-600'>
+                A collection of resources to help you get started.
+              </p>
+            </div>
+
+            <ul>
+              {Resources.map((resource) => (
+                <li
+                  className='mb-8 flex items-start space-x-4'
+                  key={resource.title}
+                >
+                  <ResourcesItemIcon type={resource.type} />
+                  <div className='pt-2'>
+                    <p className='text-xl font-medium'>{resource.title}</p>
+                    <p className='pt-1 text-lg font-normal text-gray-700'>
+                      {resource.description}
+                    </p>
+
+                    <Link
+                      href={resource.link}
+                      passHref
+                      className='flex w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+                    >
+                      <span className=''>Read more</span>
+                      <TbArrowNarrowRight size={20} />
+                    </Link>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+
         <section className='bg-white '>
           <div className='mx-auto max-w-screen-xl py-8 px-4 text-center lg:py-16 lg:px-6'>
             <div className='mx-auto mb-6 max-w-screen-sm lg:mb-8'>
@@ -121,46 +161,6 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                 </motion.div>
               ))}
             </motion.div>
-          </div>
-        </section>
-
-        <section className='bg-white'>
-          <div className='mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6'>
-            <div className='mx-auto mb-6 max-w-screen-sm text-center lg:mb-8'>
-              <h2 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>
-                Resources
-              </h2>
-
-              <p className='mb-4 text-xl font-medium text-slate-600'>
-                A collection of resources to help you get started.
-              </p>
-            </div>
-
-            <ul>
-              {Resources.map((resource) => (
-                <li
-                  className='mb-8 flex items-start space-x-4'
-                  key={resource.title}
-                >
-                  <ResourcesItemIcon type={resource.type} />
-                  <div className='pt-2'>
-                    <p className='text-xl font-medium'>{resource.title}</p>
-                    <p className='pt-1 text-lg font-normal text-gray-700'>
-                      {resource.description}
-                    </p>
-
-                    <Link
-                      href={resource.link}
-                      passHref
-                      className='flex w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
-                    >
-                      <span className=''>Read more</span>
-                      <TbArrowNarrowRight size={20} />
-                    </Link>
-                  </div>
-                </li>
-              ))}
-            </ul>
           </div>
         </section>
       </main>
