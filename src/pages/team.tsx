@@ -84,7 +84,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                 Our Team
               </h1>
               <p className='mb-6 text-xl font-medium text-slate-600 sm:mb-8'>
-                Meet the people behind the scenes who make it all happen.
+                Meet the people behind the scenes who make it all happen
               </p>
             </div>
 
@@ -119,7 +119,11 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                       {member.name}
                     </h3>
 
-                    <p className='font-semibold'>{member.role}</p>
+                    {member.roles.map((role, index) => (
+                      <p className='font-semibold' key={index}>
+                        {role}
+                      </p>
+                    ))}
 
                     <Divider className='my-1' />
 

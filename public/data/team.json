@@ -2,7 +2,7 @@
   {
     "id": "Erik-Benton",
     "name": "Erik Benton",
-    "role": "Research Engineer, Sr",
+    "roles": ["Research Engineer, Sr"],
     "department": "Oregon Clinical & Translational Research Institue",
     "organization": "Oregon Health & Science University",
     "location": "Portland, OR",
@@ -18,7 +18,7 @@
   {
     "id": "Camille-Nebeker",
     "name": "Camille Nebeker",
-    "role": "Associate Professor",
+    "roles": ["Associate Professor"],
     "department": "School of Public Health and Human Longevity Science",
     "organization": "University of California, San Diego",
     "location": "San Diego, CA",
@@ -34,7 +34,7 @@
   {
     "id": "Brittany-York",
     "name": "Brittany York",
-    "role": "Project Manager",
+    "roles": ["Project Manager"],
     "department": "Herbert Wertheim School of Public Health and Human Longevity Science",
     "organization": "University of California, San Diego",
     "location": "San Diego, CA",
@@ -46,7 +46,7 @@
   {
     "id": "Sally-Baxter",
     "name": "Sally Baxter",
-    "role": "Assistant Professor",
+    "roles": ["Assistant Professor"],
     "department": "Viterbi Family Department of Ophthalmology and Shiley Eye Institute",
     "organization": "University of California, San Diego",
     "location": "San Diego, CA",
@@ -61,7 +61,7 @@
   {
     "id": "Sara-Singer",
     "name": "Sara Singer",
-    "role": "Professor",
+    "roles": ["Professor"],
     "department": "Medicine and Organizational Behavior",
     "organization": "Stanford University School of Medicine and Graduate School of Business",
     "location": "Stanford, CA",
@@ -79,7 +79,7 @@
   {
     "id": "Debra-Mathews",
     "name": "Debra Mathews",
-    "role": "Associate Professor",
+    "roles": ["Associate Professor"],
     "department": "Berman Institute of Bioethics, Dept of Genetic Medicine",
     "organization": "Johns Hopkins University",
     "location": "Baltimore, MD",
@@ -93,7 +93,7 @@
   {
     "id": "Victoria-Patronilo",
     "name": "Victoria Patronilo",
-    "role": "Program Coordinator",
+    "roles": ["Program Coordinator"],
     "department": "Ophthalmology",
     "organization": "University of California, San Diego",
     "location": "San Diego, CA",
@@ -105,7 +105,7 @@
   {
     "id": "Benjamin-Cordier",
     "name": "Benjamin Cordier",
-    "role": "Senior Computational Biologist",
+    "roles": ["Senior Computational Biologist"],
     "department": "Knight Cancer Institute",
     "organization": "Oregon Health & Science University",
     "location": "Portland, OR",
@@ -122,7 +122,7 @@
   {
     "id": "Shannon-McWeeney",
     "name": "Shannon McWeeney",
-    "role": "Professor and Chief Data Officer",
+    "roles": ["Professor and Chief Data Officer"],
     "department": "Knight Cancer Institute",
     "organization": "Oregon Health & Science University",
     "location": "Portland, OR",
@@ -138,7 +138,7 @@
   {
     "id": "Cynthia-Owsley",
     "name": "Cynthia Owsley",
-    "role": "Nathan E. Miles Endowed Chair of Ophthalmology",
+    "roles": ["Nathan E. Miles Endowed Chair of Ophthalmology"],
     "department": "Department of Ophthalmology & Visual Sciences",
     "organization": "University of Alabama at Birmingham",
     "location": "Birmingham, AL",
@@ -152,7 +152,7 @@
   {
     "id": "Katie-Crist",
     "name": "Katie Crist",
-    "role": "Assistant Project Scientist",
+    "roles": ["Assistant Project Scientist"],
     "department": "Urban Studies & Planning Department",
     "organization": "University of California, San Diego",
     "location": "San Diego, CA",
@@ -168,7 +168,7 @@
   {
     "id": "Abigail-Lucero",
     "name": "Abigail Lucero",
-    "role": "Project Manager",
+    "roles": ["Project Manager"],
     "department": "Casey Eye Institute",
     "organization": "Oregon Health & Science University",
     "location": "Portland, OR",
@@ -180,7 +180,7 @@
   {
     "id": "Sanjay-Soundarajan",
     "name": "Sanjay Soundarajan",
-    "role": "Front End Developer",
+    "roles": ["Front End Developer"],
     "department": "FAIR Data Innovations Hub",
     "organization": "California Medical Innovations Institute",
     "location": "San Diego, CA",
@@ -196,7 +196,7 @@
   {
     "id": "Joseph-Yracheta",
     "name": "Joseph Yracheta",
-    "role": "Executive Director",
+    "roles": ["Executive Director"],
     "organization": "Native Bio-Data Consortium",
     "location": "Eagle Butte, SD",
     "caption": "I am a 56-year-old, well-rounded academic scientist specializing in Indigenous and Marginalized group concerns on the Big Data Era.",
@@ -215,7 +215,7 @@
   {
     "id": "Linda-Zangwill",
     "name": "Linda Zangwill",
-    "role": "Professor",
+    "roles": ["Professor"],
     "department": "Ophthalmology",
     "organization": "University of California, San Diego",
     "location": "United States",
@@ -229,7 +229,7 @@
   {
     "id": "Missy-Takahashi",
     "name": "Missy Takahashi",
-    "role": "Lab Manager",
+    "roles": ["Lab Manager"],
     "department": "Ophthalmology",
     "organization": "University of Washington",
     "location": "Bellevue, WA",
@@ -243,7 +243,7 @@
   {
     "id": "Dawn-Matthies",
     "name": "Dawn Matthies",
-    "role": "Project Manager",
+    "roles": ["Project Manager"],
     "department": "Dept. of Ophthalmology and Visual Sciences",
     "organization": "University of Alabama at Birmingham",
     "location": "Birmingham, AL",
@@ -255,7 +255,7 @@
   {
     "id": "Samantha-Hurst",
     "name": "Samantha Hurst",
-    "role": "Project Scientist",
+    "roles": ["Project Scientist"],
     "department": "Herbert Wertheim School of Public Health",
     "organization": "University of California, San Diego",
     "location": "San Diego, CA",
@@ -270,7 +270,7 @@
   {
     "id": "Bhavesh-Patel",
     "name": "Bhavesh Patel",
-    "role": "Associate Research Professor",
+    "roles": ["Associate Research Professor"],
     "department": "FAIR Data Innovations Hub",
     "organization": "California Medical Innovations Institute",
     "location": "San Diego, CA",
@@ -286,7 +286,7 @@
   {
     "id": "Qilu-Yu",
     "name": "Qilu Yu",
-    "role": "Biostatistician",
+    "roles": ["Biostatistician"],
     "department": "Office of Clinical and Regulatory Affairs",
     "organization": "National Center for Complementary and Integrative Health",
     "location": "Bethesda, MD",
@@ -300,7 +300,9 @@
   {
     "id": "T. Y. Alvin-Liu",
     "name": "T. Y. Alvin Liu",
-    "role": "Director of the Wilmer Precision Ophthalmology Center of Excellence",
+    "roles": [
+      "Director of the Wilmer Precision Ophthalmology Center of Excellence"
+    ],
     "department": "Wilmer Eye Institute",
     "organization": "Johns Hopkins University",
     "location": "Baltimore, MD",
@@ -312,7 +314,7 @@
   {
     "id": "Megan-Collins",
     "name": "Megan Collins",
-    "role": "Associate Professor",
+    "roles": ["Associate Professor"],
     "department": "Wilmer Eye Institute / Berman Institute",
     "organization": "Johns Hopkins University",
     "location": "Baltimore, MD",
@@ -328,7 +330,7 @@
   {
     "id": "Nicole-Ehrhardt",
     "name": "Nicole Ehrhardt",
-    "role": "Assistant Professor of Medicine",
+    "roles": ["Assistant Professor of Medicine"],
     "department": "Dept. of Medicine/ Division Endocrinology",
     "organization": "Diabetes Institute University of Washington",
     "location": "Seattle, WA",
@@ -340,7 +342,7 @@
   {
     "id": "Virginia-de-Sa",
     "name": "Virginia de Sa",
-    "role": "Professor",
+    "roles": ["Professor"],
     "department": "Cognitive Science and Halicioglu Data Science Institute",
     "organization": "University of California, San Diego",
     "location": "San Diego, CA",
@@ -354,7 +356,7 @@
   {
     "id": "Jennifer-Li-Pook-Than",
     "name": "Jennifer Li-Pook-Than",
-    "role": "Senior Research Associate",
+    "roles": ["Senior Research Associate"],
     "department": "Genetics Department, School of Medicine",
     "organization": "Stanford University",
     "location": "Palo Alto, CA",
@@ -368,7 +370,10 @@
   {
     "id": "Aaron-Lee",
     "name": "Aaron Lee",
-    "role": "Associate Professor in Ophthalmology, C. Dan and Irene Hunter Endowed Professorship",
+    "roles": [
+      "Associate Professor in Ophthalmology",
+      "C. Dan and Irene Hunter Endowed Professorship"
+    ],
     "department": "Department of Ophthalmology",
     "organization": "University of Washington",
     "location": "Seattle, WA",
@@ -384,7 +389,10 @@
   {
     "id": "Cecilia-Lee",
     "name": "Cecilia Lee",
-    "role": "Associate Professor, Klorfine Family Endowed Chair Director of Clinical Research",
+    "roles": [
+      "Associate Professor",
+      "Klorfine Family Endowed Chair Director of Clinical Research"
+    ],
     "department": "Department of Ophthalmology",
     "organization": "University of Washington",
     "location": "Seattle, WA",
@@ -398,7 +406,7 @@
   {
     "id": "Julia-Owen",
     "name": "Julia Owen",
-    "role": "Program Manager",
+    "roles": ["Program Manager"],
     "department": "Department of Opthalmology",
     "organization": "University of Washington",
     "location": "Seattle, WA",
@@ -410,7 +418,7 @@
   {
     "id": "Ziony-Haust",
     "name": "Ziony Haust",
-    "role": "Photographer",
+    "roles": ["Photographer"],
     "department": "Creative and Marketing",
     "organization": "Canon Kazakhstan",
     "location": "Nowhere, NO",
