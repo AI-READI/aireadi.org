@@ -360,10 +360,52 @@
     "location": "Palo Alto, CA",
     "caption": "Expertise in Big-Omics Precision Health Science and Advocacy for the Indigenous and Diverse Populations; AI-READI PEDP Lead.",
     "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/c559c54f-3df4-40a1-89dd-5c8272e85c37/1-JLPT.JPG",
-    "modules": ["Teaming"],
+    "modules": ["teaming"],
     "social": {
       "website": ["https://med.stanford.edu/sphere.html"]
     }
+  },
+  {
+    "id": "Aaron-Lee",
+    "name": "Aaron Lee",
+    "role": "Associate Professor in Ophthalmology, C. Dan and Irene Hunter Endowed Professorship",
+    "department": "Department of Ophthalmology",
+    "organization": "University of Washington",
+    "location": "Seattle, WA",
+    "caption": "TBA",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/e73a5c67-9050-4e0d-87ea-30344b7cb652/Dr-Aaron-Y-Lee-headshot-2019---high-res.jpg",
+    "modules": ["standards", "teaming"],
+    "social": {
+      "website": ["https://comp.ophthalmology.uw.edu/"],
+      "twitter": "https://twitter.com/aaronylee",
+      "linkedin": "https://www.linkedin.com/in/aaron-y-lee-md-msci-a102b87/"
+    }
+  },
+  {
+    "id": "Cecilia-Lee",
+    "name": "Cecilia Lee",
+    "role": "Associate Professor, Klorfine Family Endowed Chair Director of Clinical Research",
+    "department": "Department of Ophthalmology",
+    "organization": "University of Washington",
+    "location": "Seattle, WA",
+    "caption": "TBA",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/20f216ab-7cc5-4aa5-a133-14f9ce0506b7/Photo-Dr-Cecilia-S-Lee.jpeg",
+    "modules": ["data"],
+    "social": {
+      "website": ["https://comp.ophthalmology.uw.edu/"]
+    }
+  },
+  {
+    "id": "Julia-Owen",
+    "name": "Julia Owen",
+    "role": "Program Manager",
+    "department": "Department of Opthalmology",
+    "organization": "University of Washington",
+    "location": "Seattle, WA",
+    "caption": "I am the overall Program Manager for the AI-READI project, as well as a Project Manager on the Standards module.",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/026e5f76-4e36-4ee9-adc8-f3a0e774fe61/Owen_profilepicture.JPG",
+    "modules": ["standards", "administration"],
+    "social": {}
   },
   {
     "id": "Ziony-Haust",
