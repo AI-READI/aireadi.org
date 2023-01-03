@@ -150,13 +150,18 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                         />
                       </div>
 
-                      <h3 className='pt-4 text-2xl font-extrabold text-slate-800'>
+                      <h3 className='pt-4 pb-1 text-2xl font-extrabold text-slate-800'>
                         {member.name}
                       </h3>
 
-                      <p className='pb-4 pt-1 text-base font-semibold text-slate-600'>
-                        {member.role}
-                      </p>
+                      {member.roles.map((role, index) => (
+                        <p
+                          className='text-sm font-medium text-slate-600'
+                          key={index}
+                        >
+                          {role}
+                        </p>
+                      ))}
                     </div>
                   </UnstyledLink>{' '}
                 </motion.div>
