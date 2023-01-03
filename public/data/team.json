@@ -414,19 +414,5 @@
     "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/026e5f76-4e36-4ee9-adc8-f3a0e774fe61/Owen_profilepicture.JPG",
     "modules": ["standards", "administration"],
     "social": {}
-  },
-  {
-    "id": "Ziony-Haust",
-    "name": "Ziony Haust",
-    "roles": ["Photographer"],
-    "department": "Creative and Marketing",
-    "organization": "Canon Kazakhstan",
-    "location": "Nowhere, NO",
-    "caption": "I'm the Van Gouh of photography. Terrible attitude, great work.",
-    "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
-    "modules": ["standards"],
-    "social": {
-      "website": ["https://unsplash.com/@aionyhaust"]
-    }
   }
 ]
