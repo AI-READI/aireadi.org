@@ -38,6 +38,8 @@ const ModulesSection = ({ modules }: { modules: string[] }) => {
         return 'Teaming';
       case 'administration':
         return 'Administration';
+      case 'pedp':
+        return 'Plan for Enhancing Diverse Perspectives';
       default:
         return 'Unknown';
     }

@@ -42,6 +42,10 @@ const links = [
       { href: '/modules/tools', label: 'Tools' },
       { href: '/modules/data', label: 'Data Acquisition' },
       { href: '/modules/skills', label: 'Skills and Workforce Development' },
+      {
+        href: '/modules/pedp',
+        label: 'Plan for Enhancing Diverse Perspectives',
+      },
     ],
   },
   {
