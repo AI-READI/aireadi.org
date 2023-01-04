@@ -2,9 +2,7 @@ import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 import { motion } from 'framer-motion';
 import { InferGetStaticPropsType } from 'next';
 import Image from 'next/image';
-import Link from 'next/link';
 import { getPlaiceholder } from 'plaiceholder';
-import { TbArrowNarrowRight } from 'react-icons/tb';
 
 import HeroCroppedImage from '@/components/hero/HeroCroppedImage';
 import ResourcesItemIcon from '@/components/icons/ResourcesItemIcon';
@@ -44,24 +42,23 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                 Overview of the Tools Module
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Empower Developers, IT Ops, and business teams to collaborate at
-                high velocity. Respond to changes and deliver great customer and
-                employee service experiences fast.
+                EThe Tools module is developing fairhub.io, a platform for
+                easily managing, preparing, and sharing FAIR and AI-ready
+                datasets.
               </p>
             </div>
             <div>
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Track work across the enterprise through an open, collaborative
-                platform. Link issues across Jira and ingest data from other
-                software development tools, so your IT support and operations
-                teams have richer contextual information to rapidly respond to
-                requests, incidents, and changes.
+                Leveraging a partnership with Microsoft, fairhub.io will be
+                developed using Azure Cloud Services. The platform will include
+                convenient tools to track clinical and biomedical data
+                collection, prepare and share FAIR data, and conveniently access
+                data for future AI/ML analysis.
               </p>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Deliver great service experiences fast - without the complexity
-                of traditional ITSM solutions. Accelerate critical development
-                work, eliminate toil, and deploy changes with ease, with a
-                complete audit trail for every change.
+                In addition, the Tools module will support the effort of the
+                Data Acquisition module by setting up and managing additional
+                tools such REDCap.
               </p>
             </div>
           </div>
@@ -73,10 +70,6 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
               <h2 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>
                 Resources
               </h2>
-
-              <p className='mb-4 text-xl font-medium text-slate-600'>
-                A collection of resources to help you get started.
-              </p>
             </div>
 
             <ul>
@@ -87,19 +80,15 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                 >
                   <ResourcesItemIcon type={resource.type} />
                   <div className='pt-2'>
-                    <p className='text-xl font-medium'>{resource.title}</p>
+                    <UnstyledLink
+                      href={resource.link}
+                      className='flex w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+                    >
+                      <p className='text-xl font-medium'>{resource.title}</p>
+                    </UnstyledLink>
                     <p className='pt-1 text-lg font-normal text-gray-700'>
                       {resource.description}
                     </p>
-
-                    <Link
-                      href={resource.link}
-                      passHref
-                      className='flex w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
-                    >
-                      <span className=''>Read more</span>
-                      <TbArrowNarrowRight size={20} />
-                    </Link>
                   </div>
                 </li>
               ))}
@@ -126,7 +115,6 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
               viewport={{ once: true }}
               className='grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-8'
             >
-              {' '}
               {TeamMembers.map((member) => (
                 <motion.div
                   variants={FramerItem}
@@ -163,7 +151,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                         </p>
                       ))}
                     </div>
-                  </UnstyledLink>{' '}
+                  </UnstyledLink>
                 </motion.div>
               ))}
             </motion.div>
@@ -176,15 +164,16 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
 const Resources = [
   {
-    title: 'Data Acquisition Module',
-    description: 'A collection of resources to help you get started.',
-    link: '/data',
-    type: 'publication',
+    title: 'The fairhub.io platform',
+    description: 'Link to the fairhub.io platform',
+    link: 'https://fairhub.io',
+    type: 'website',
   },
   {
-    title: 'Github',
-    description: 'A collection of resources to help you get started.',
-    link: '/data',
+    title: 'AI-READI GitHub organization of the AI-READI project',
+    description:
+      'GitHub organization of the AI-READI project where all the tools are developed from',
+    link: 'https://github.com/AI-READI',
     type: 'github',
   },
 ];
