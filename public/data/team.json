@@ -414,5 +414,17 @@
     "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/026e5f76-4e36-4ee9-adc8-f3a0e774fe61/Owen_profilepicture.JPG",
     "modules": ["standards", "administration"],
     "social": {}
+  },
+  {
+    "id": "Kate-Watkins",
+    "name": "Kate Watkins",
+    "roles": ["Project Manager"],
+    "department": "Primary Care & Population Health at Stanford Medicine ",
+    "organization": "Stanford University",
+    "location": "San Francisco, CA",
+    "caption": "I serve as the project manager for the Teaming module. ",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/cf8cbc4c-d880-4471-944a-d7c56377ca83/thumbnail_IMG-0612.jpg",
+    "modules": ["teaming"],
+    "social": {}
   }
 ]
