@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
+import { Divider } from '@chakra-ui/react';
 import Link from 'next/link';
-import { AiFillGithub, AiOutlineDribbble } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
 
 const footerLinks = [
   {
@@ -79,7 +80,7 @@ export default function Footer() {
     <footer className=' bg-sky-600 '>
       <div className='mx-auto max-w-screen-xl  p-4 sm:p-6'>
         <div className='md:flex md:justify-between'>
-          <div className='mb-6 flex max-w-md flex-col md:mb-0'>
+          <div className='mb-6 flex flex-col md:mb-0 md:max-w-md lg:max-w-2xl'>
             <a href='https://aireadi.org/' className='flex items-center'>
               <img
                 src='https://flowbite.com/docs/images/logo.svg'
@@ -90,11 +91,34 @@ export default function Footer() {
                 AI-READI
               </span>
             </a>
-            <span className='pt-3 text-lg font-semibold text-white'>
+            <span className='pt-3 pb-2 text-lg font-semibold text-white'>
               Artificial Intelligence Ready and Equitable Atlas for Diabetes
               Insights
             </span>
+
+            <Divider orientation='horizontal' />
+
+            <div className='flex flex-col pt-6 lg:flex-row '>
+              <img
+                src='https://github.com/AI-READI/Bridge2AI-logo/blob/main/logo-color-upscaled.png?raw=true'
+                className='h-auto w-[250px]'
+                alt='FlowBite Logo'
+              />
+              <div className='flex flex-col justify-start'>
+                <p className='pt-2 text-sm font-medium text-slate-100'>
+                  This project is funded by the NIH under award number
+                  1OT2OD032644.
+                </p>
+                <p className='pt-1 text-sm font-medium text-slate-100'>
+                  The content is solely the responsibility of the authors and
+                  does not necessarily represent the official views of the NIH.
+                </p>
+              </div>
+            </div>
+
+            <Divider orientation='horizontal' className='py-4 md:hidden' />
           </div>
+
           <div className='grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6'>
             {footerLinks.map((footerLink) => (
               <div key={footerLink.title}>
@@ -128,13 +152,12 @@ export default function Footer() {
             . All Rights Reserved.
           </span>
           <div className='mt-4 flex space-x-6 sm:mt-0 sm:justify-center'>
-            <a href='#' className='text-sky-50 hover:text-gray-400'>
+            <a
+              href='https://github.com/AI-READI'
+              className='text-sky-50 hover:text-slate-300'
+            >
               <AiFillGithub size={30} />
               <span className='sr-only'>GitHub account</span>
-            </a>
-            <a href='#' className='text-sky-50 hover:text-gray-400'>
-              <AiOutlineDribbble size={30} />
-              <span className='sr-only'>Dribble account</span>
             </a>
           </div>
         </div>
