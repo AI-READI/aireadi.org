@@ -36,7 +36,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
         />
 
         <section className='bg-white'>
-          <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-6 py-8 px-4 text-left md:grid-cols-2 lg:py-16 lg:px-6'>
+          <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-10 py-8 px-4 text-left md:grid-cols-2 lg:py-16 lg:px-6'>
             <div>
               <h2 className='mb-4 text-3xl font-extrabold tracking-tight sm:text-4xl'>
                 Overview of the Plan for Enhancing Diverse Perspectives

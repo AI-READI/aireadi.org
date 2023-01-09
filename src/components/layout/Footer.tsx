@@ -107,11 +107,9 @@ export default function Footer() {
               <div className='flex flex-col justify-start'>
                 <p className='pt-2 text-sm font-medium text-slate-100'>
                   This project is funded by the NIH under award number
-                  1OT2OD032644.
-                </p>
-                <p className='pt-1 text-sm font-medium text-slate-100'>
-                  The content is solely the responsibility of the authors and
-                  does not necessarily represent the official views of the NIH.
+                  1OT2OD032644. The content on this website is solely the
+                  responsibility of the authors and does not necessarily
+                  represent the official views of the NIH.
                 </p>
               </div>
             </div>

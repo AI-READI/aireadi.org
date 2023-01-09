@@ -36,36 +36,50 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
         />
 
         <section className='bg-white'>
-          <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-6 py-8 px-4 text-left md:grid-cols-2 lg:py-16 lg:px-6'>
+          <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-10 py-8 px-4 text-left md:grid-cols-2 lg:py-16 lg:px-6'>
             <div>
               <h2 className='mb-4 text-3xl font-extrabold tracking-tight sm:text-4xl'>
                 Overview of the Ethics Module
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Empower Developers, IT Ops, and business teams to collaborate at
-                high velocity. Respond to changes and deliver great customer and
-                employee service experiences fast.
+                The goal of the ETAI module is to establish a culture of ethical
+                inquiry throughout the data generation project team.
+              </p>
+              <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
+                ETAI will have continuous interactions with the other five
+                modules within AI-READI and with the Bridge2AI Center. The
+                Ethics module is responsible for:
               </p>
             </div>
             <div>
-              <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Track work across the enterprise through an open, collaborative
-                platform. Link issues across Jira and ingest data from other
-                software development tools, so your IT support and operations
-                teams have richer contextual information to rapidly respond to
-                requests, incidents, and changes.
-              </p>
-              <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Deliver great service experiences fast - without the complexity
-                of traditional ITSM solutions. Accelerate critical development
-                work, eliminate toil, and deploy changes with ease, with a
-                complete audit trail for every change.
-              </p>
+              <ul className='mb-3 list-disc text-lg font-normal text-gray-700'>
+                <li>
+                  Developing an in-depth needs assessment of each module on
+                  their understanding of the unique ethical, legal and social
+                  implications (ELSIs) of big data research.
+                </li>
+                <li>
+                  Delivering educational activities tailored for each module to
+                  improve their grasp of ELSIs.
+                </li>
+                <li>
+                  Developing Community Intercultural Partnership Councils;
+                  Members will be asked to help to develop accessible informed
+                  consent and patient recruitment communications, and to
+                  identify barriers to participation that can be addressed in
+                  the protocol.
+                </li>
+                <li>
+                  Seeking ways to establish pathways for partnership with the
+                  Native American tribes to identify facilitators and barriers
+                  to data acquisition and usage.
+                </li>
+              </ul>
             </div>
           </div>
         </section>
 
-        <section className='bg-white'>
+        <section className='hidden bg-white'>
           <div className='mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6'>
             <div className='mx-auto mb-6 max-w-screen-sm text-center lg:mb-8'>
               <h2 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>

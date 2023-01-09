@@ -36,31 +36,43 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
         />
 
         <section className='bg-white'>
-          <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-6 py-8 px-4 text-left md:grid-cols-2 lg:py-16 lg:px-6'>
+          <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-10 py-8 px-4 text-left md:grid-cols-2 lg:py-16 lg:px-6'>
             <div>
               <h2 className='mb-4 text-3xl font-extrabold tracking-tight sm:text-4xl'>
-                Overview of the Skills Module
+                Overview of the Skills & Workforce Development Module
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Empower Developers, IT Ops, and business teams to collaborate at
-                high velocity. Respond to changes and deliver great customer and
-                employee service experiences fast.
+                The overall objective of the AI-READI Skills and Workforce
+                Development Module is to develop and deploy training and career
+                development activities for individuals from diverse backgrounds
+                who will effectively contribute to translational AI research,
+                particularly in the biomedical/clinical domain.
               </p>
             </div>
             <div>
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Track work across the enterprise through an open, collaborative
-                platform. Link issues across Jira and ingest data from other
-                software development tools, so your IT support and operations
-                teams have richer contextual information to rapidly respond to
-                requests, incidents, and changes.
+                To achieve this objective, our module is engaged in the
+                following aims:
               </p>
-              <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Deliver great service experiences fast - without the complexity
-                of traditional ITSM solutions. Accelerate critical development
-                work, eliminate toil, and deploy changes with ease, with a
-                complete audit trail for every change.
-              </p>
+              <ul className='mb-3 list-disc text-lg font-normal text-gray-700'>
+                <li>
+                  Design and implement a structured, yearlong mentored research
+                  internship program to facilitate exposure to skills in AI and
+                  data science for post-baccalaureate students, medical
+                  students, pre-doctoral students, postdoctoral fellows, and
+                  other health care professionals wanting to gain AI expertise.
+                </li>
+                <li>
+                  Deploy training and skills development activities for
+                  researchers at all levels using the flagship datasets,
+                  spanning ethics, tools, and standards.
+                </li>
+                <li>
+                  Increase the range of perspectives by creating a diverse
+                  research team and encouraging broad exposure to AI-READI
+                  dataset from a variety of individuals.
+                </li>
+              </ul>
             </div>
           </div>
         </section>
@@ -166,16 +178,11 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
 const Resources = [
   {
-    title: 'Data Acquisition Module',
-    description: 'A collection of resources to help you get started.',
-    link: '/data',
-    type: 'publication',
-  },
-  {
-    title: 'Github',
-    description: 'A collection of resources to help you get started.',
-    link: '/data',
-    type: 'github',
+    title: 'AI-READI Internship Program',
+    description:
+      'One component of AI-READI is the Skills and Workforce Development Module, which includes the development of a yearlong mentored research internship program aimed at diversifying the future workforce at the intersection of data science/AI and the biomedical sciences and clinical research.',
+    link: 'https://shileyeye.ucsd.edu/research/ai_readi',
+    type: 'website',
   },
 ];
 

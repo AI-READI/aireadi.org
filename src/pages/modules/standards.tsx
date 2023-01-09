@@ -36,31 +36,42 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
         />
 
         <section className='bg-white'>
-          <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-6 py-8 px-4 text-left md:grid-cols-2 lg:py-16 lg:px-6'>
+          <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-10 py-8 px-4 text-left md:grid-cols-2 lg:py-16 lg:px-6'>
             <div>
               <h2 className='mb-4 text-3xl font-extrabold tracking-tight sm:text-4xl'>
                 Overview of the Standards Module
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Empower Developers, IT Ops, and business teams to collaborate at
-                high velocity. Respond to changes and deliver great customer and
-                employee service experiences fast.
-              </p>
-            </div>
-            <div>
-              <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Track work across the enterprise through an open, collaborative
-                platform. Link issues across Jira and ingest data from other
-                software development tools, so your IT support and operations
-                teams have richer contextual information to rapidly respond to
-                requests, incidents, and changes.
+                The goal of the Standards module is to establish a set of
+                formatting requirements for the different types of data that
+                will be collected for the AI-READI dataset.
               </p>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Deliver great service experiences fast - without the complexity
-                of traditional ITSM solutions. Accelerate critical development
-                work, eliminate toil, and deploy changes with ease, with a
-                complete audit trail for every change.
+                The Standards Module works to streamline the development of AI
+                models for researchers who access the AI-READI dataset.
+                Standardized data will facilitate data sharing as well as
+                evaluation and reproducibility of study results.
               </p>
+            </div>
+            <div className=''>
+              <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
+                The Standards Module is responsible for:
+              </p>
+              <ul className='list mb-3 list-disc text-lg font-normal text-gray-700'>
+                <li>
+                  Selecting data standards that are at the cutting edge of open
+                  source data sharing.
+                </li>
+                <li>
+                  Working with the data acquisition module to better understand
+                  the types of data being generated from the various collection
+                  sources.
+                </li>
+                <li>
+                  Coordinating with the Tools module to implement the selected
+                  standards in the online platform.
+                </li>
+              </ul>
             </div>
           </div>
         </section>
