@@ -12,6 +12,7 @@ const nextConfig = {
       'storage.googleapis.com',
       'images.unsplash.com',
       'fairdataihub.org',
+      'ucarecdn.com',
     ],
   },
 

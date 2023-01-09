@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { Divider } from '@chakra-ui/react';
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
-import { motion } from 'framer-motion';
 import { InferGetStaticPropsType } from 'next';
 import Image from 'next/image';
 import { getPlaiceholder } from 'plaiceholder';
@@ -16,8 +15,6 @@ import { RiInstagramFill } from 'react-icons/ri';
 
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
-
-import { FramerContainer, FramerItem } from '@/utils/framer';
 
 import TEAM_JSON from '~/data/team.json';
 
@@ -90,16 +87,9 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
               </p>
             </div>
 
-            <motion.div
-              variants={FramerContainer}
-              initial='hidden'
-              whileInView='show'
-              viewport={{ once: true }}
-              className='grid grid-cols-1 gap-6 lg:grid-cols-2'
-            >
+            <div className='grid grid-cols-1 gap-6 lg:grid-cols-2'>
               {TeamMembers.map((member) => (
-                <motion.div
-                  variants={FramerItem}
+                <div
                   className='flex w-full flex-col items-start overflow-hidden rounded-lg bg-gray-50 shadow-lg md:flex-row'
                   key={member.name}
                   id={member.id}
@@ -282,9 +272,9 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                         ))}
                     </ul>
                   </div>
-                </motion.div>
+                </div>
               ))}
-            </motion.div>
+            </div>
           </div>
         </section>
       </main>
