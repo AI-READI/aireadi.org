@@ -462,5 +462,17 @@
     "social": {
       "website": ["www.kadijaferryman.com"]
     }
+  },
+  {
+    "id": "Summer-Zhu",
+    "name": "Summer Zhu",
+    "roles": ["MPH Candidate"],
+    "department": "Herbert Wertheim School of Public Health and Human Longevity Science",
+    "organization": "University of California, San Diego",
+    "location": "San Diego, CA",
+    "caption": "Summer Zhu is a Master of Public Health student at UCSD. She helps with the development of the three regional Advisory Boards. ",
+    "image": "https://ucarecdn.com/cf80b7f6-aec5-4627-a4a5-4d23a674a697/",
+    "modules": ["ethics"],
+    "social": {}
   }
 ]
