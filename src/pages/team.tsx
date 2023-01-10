@@ -152,7 +152,9 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                     <ModulesSection modules={member.modules} />
 
-                    <Divider className='my-2' />
+                    {Object.keys(member.social).length > 0 && (
+                      <Divider className='my-2' />
+                    )}
 
                     <ul className='flex space-x-3  sm:mt-0'>
                       {'twitter' in member.social && (
