@@ -131,7 +131,9 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                       <div className='relative mx-auto mb-2 min-h-[250px] w-full'>
                         <Image
                           src={`${member.image}${
-                            member.crop && member.crop != '' ? member.crop : ''
+                            member.moduleImageParams != ''
+                              ? member.moduleImageParams
+                              : ''
                           }`}
                           alt={member.name + ' image'}
                           fill
