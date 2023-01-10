@@ -5,34 +5,20 @@ import { AiFillGithub } from 'react-icons/ai';
 
 const footerLinks = [
   {
-    title: 'Modules',
+    title: 'Legal',
     links: [
       {
-        title: 'Ethics',
-        href: '/ethics',
+        title: 'Privacy Policy',
+        href: '/privacy',
       },
+
       {
-        title: 'Teaming',
-        href: '/teaming',
-      },
-      {
-        title: 'Standards',
-        href: '/standards',
-      },
-      {
-        title: 'Data',
-        href: '/data',
-      },
-      {
-        title: 'Tools',
-        href: '/tools',
-      },
-      {
-        title: 'Skills',
-        href: '/skills',
+        title: 'Cookie Policy',
+        href: '/cookies',
       },
     ],
   },
+
   {
     title: 'Resources',
     links: [
@@ -60,16 +46,17 @@ const footerLinks = [
   },
 
   {
-    title: 'Legal',
+    title: 'Modules',
     links: [
+      { href: '/modules/ethics', title: 'Ethics' },
+      { href: '/modules/teaming', title: 'Teaming' },
+      { href: '/modules/standards', title: 'Standards' },
+      { href: '/modules/tools', title: 'Tools' },
+      { href: '/modules/data', title: 'Data Acquisition' },
+      { href: '/modules/skills', title: 'Skills and Workforce Development' },
       {
-        title: 'Privacy Policy',
-        href: '/privacy',
-      },
-
-      {
-        title: 'Cookie Policy',
-        href: '/cookies',
+        href: '/modules/pedp',
+        title: 'Plan for Enhancing Diverse Perspectives',
       },
     ],
   },
@@ -78,9 +65,9 @@ const footerLinks = [
 export default function Footer() {
   return (
     <footer className=' bg-sky-600 '>
-      <div className='mx-auto max-w-screen-xl  p-4 sm:p-6'>
-        <div className='md:flex md:justify-between'>
-          <div className='mb-6 flex flex-col md:mb-0 md:max-w-md lg:max-w-2xl'>
+      <div className='mx-auto max-w-screen-xl p-4 sm:p-6'>
+        <div className='space-x-12 md:flex md:justify-between'>
+          <div className='mb-6 flex flex-col md:mb-0 md:max-w-md lg:max-w-xl'>
             <a href='https://aireadi.org/' className='flex items-center'>
               <img
                 src='https://flowbite.com/docs/images/logo.svg'
@@ -119,7 +106,7 @@ export default function Footer() {
 
           <div className='grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6'>
             {footerLinks.map((footerLink) => (
-              <div key={footerLink.title}>
+              <div key={footerLink.title} className='w-auto'>
                 <h3 className='mb-3 text-xl font-semibold text-blue-50 '>
                   {footerLink.title}
                 </h3>
@@ -127,7 +114,7 @@ export default function Footer() {
                   {footerLink.links.map((link) => (
                     <li key={link.title}>
                       <Link href={link.href} passHref>
-                        <span className='text-lg font-medium text-gray-50 transition-all hover:text-gray-300'>
+                        <span className='text-base font-medium text-gray-50 transition-all hover:text-gray-300'>
                           {link.title}
                         </span>
                       </Link>
