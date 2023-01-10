@@ -137,7 +137,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                           fill
                           placeholder='blur'
                           blurDataURL={member.blurDataURL}
-                          className='h-full w-full rounded-lg object-cover object-center'
+                          className='h-full w-full rounded-lg object-cover object-top'
                           sizes='(max-width: 768px) 100vw, 50vw'
                         />
                       </div>

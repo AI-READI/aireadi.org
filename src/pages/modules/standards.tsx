@@ -139,14 +139,16 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                       className='h-full cursor-pointer rounded-lg border-solid bg-slate-100 px-4 py-4 transition-all hover:bg-sky-100'
                       key={member.name}
                     >
-                      <div className='relative mx-auto mb-2 min-h-[350px] w-full'>
+                      <div className='relative mx-auto mb-2 min-h-[250px] w-full'>
                         <Image
-                          src={member.image}
+                          src={`${member.image}${
+                            member.crop && member.crop != '' ? member.crop : ''
+                          }`}
                           alt={member.name + ' image'}
                           fill
                           placeholder='blur'
                           blurDataURL={member.blurDataURL}
-                          className='h-full w-full rounded-lg object-cover '
+                          className='h-full w-full rounded-lg object-cover object-top'
                           sizes='(max-width: 768px) 100vw, 50vw'
                         />
                       </div>
