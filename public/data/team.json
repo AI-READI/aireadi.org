@@ -127,7 +127,8 @@
     "organization": "Oregon Health & Science University",
     "location": "Portland, OR",
     "caption": "M-PI of the Tools Module focused on data equity, accessibility and patient engagement.",
-    "image": "https://ucarecdn.com/848fea87-6f6c-4772-99ab-58aff8d07315/-/crop/face/200px170p/",
+    "image": "https://ucarecdn.com/848fea87-6f6c-4772-99ab-58aff8d07315/",
+    "crop": "-/crop/face/200px170p/",
     "modules": ["tools"],
     "social": {
       "mastodon": "https://dair-community.social/@wondermixtape",
@@ -275,7 +276,8 @@
     "organization": "California Medical Innovations Institute",
     "location": "San Diego, CA",
     "caption": "I am an M-PI for the Tools module, leading the development of fairhub.io through my expertise in FAIR data practices and development of research software.",
-    "image": "https://fairdataihub.org/images/people/bhavesh-full.jpg",
+    "image": "https://ucarecdn.com/b36da179-1c47-4fa9-9e9b-9001ffc9b869/",
+    "crop": "-/crop/face/200px200p/",
     "modules": ["tools"],
     "social": {
       "website": ["https://fairdataihub.org"],
@@ -335,7 +337,8 @@
     "organization": "Diabetes Institute University of Washington",
     "location": "Seattle, WA",
     "caption": "Dr Ehrhardt is an adult Endocrinologist at the University of Washington Diabetes Institute. Her research is focused on use of real-time continuous glucose monitoring ",
-    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/aca2f4ee-27a5-420b-80ac-385640f823ee/newheadshot.jpg",
+    "image": "https://ucarecdn.com/8101f543-a136-40f9-adcb-8bad871f10f6/",
+    "crop": "-/crop/face/200px200p/",
     "modules": ["administration", "tools"],
     "social": {}
   },
@@ -426,5 +429,19 @@
     "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/cf8cbc4c-d880-4471-944a-d7c56377ca83/thumbnail_IMG-0612.jpg",
     "modules": ["teaming"],
     "social": {}
+  },
+  {
+    "id": "Kadija-Ferryman",
+    "name": "Kadija Ferryman",
+    "roles": ["Core Faculty"],
+    "department": "Berman Institute of Bioethics",
+    "organization": "Johns Hopkins University",
+    "location": "NY",
+    "caption": "I'm an anthropologist and faculty member at Johns Hopkins and I'm a module co-PI of the ETAI module. ",
+    "image": "https://storage.googleapis.com/tally-response-assets/PA3Q9l/8b44423d-82e7-447a-9ff6-099f34eeb4f3/DataDec19th-9785.jpg",
+    "modules": ["ethics"],
+    "social": {
+      "website": ["www.kadijaferryman.com"]
+    }
   }
 ]

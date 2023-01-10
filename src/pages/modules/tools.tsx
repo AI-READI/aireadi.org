@@ -82,9 +82,11 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                   <div className='pt-2'>
                     <UnstyledLink
                       href={resource.link}
-                      className='flex w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+                      className='flex w-full items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
                     >
-                      <p className='text-xl font-medium'>{resource.title}</p>
+                      <p className='break-normal text-xl font-medium'>
+                        {resource.title}
+                      </p>
                     </UnstyledLink>
                     <p className='pt-1 text-lg font-normal text-gray-700'>
                       {resource.description}
@@ -126,14 +128,16 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                       className='h-full cursor-pointer rounded-lg border-solid bg-slate-100 px-4 py-4 transition-all hover:bg-sky-100'
                       key={member.name}
                     >
-                      <div className='relative mx-auto mb-2 min-h-[350px] w-full'>
+                      <div className='relative mx-auto mb-2 min-h-[250px] w-full'>
                         <Image
-                          src={member.image}
+                          src={`${member.image}${
+                            member.crop && member.crop != '' ? member.crop : ''
+                          }`}
                           alt={member.name + ' image'}
                           fill
                           placeholder='blur'
                           blurDataURL={member.blurDataURL}
-                          className='h-full w-full rounded-lg object-cover '
+                          className='h-full w-full rounded-lg object-cover object-center'
                           sizes='(max-width: 768px) 100vw, 50vw'
                         />
                       </div>
