@@ -116,7 +116,6 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
               viewport={{ once: true }}
               className='grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-8'
             >
-              {' '}
               {TeamMembers.map((member) => (
                 <motion.div
                   variants={FramerItem}

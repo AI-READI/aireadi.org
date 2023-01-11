@@ -40,7 +40,7 @@ export default function HeroWithCroppedImage({
         <Container className='lg:hero-cropped-clip-path p-4 lg:col-span-5 lg:mt-0 lg:flex lg:p-0'>
           <img
             src={image}
-            className='lga:rounded-none rounded-lg'
+            className='rounded-lg lg:rounded-none'
             alt='mockup'
           />
         </Container>
