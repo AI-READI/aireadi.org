@@ -474,5 +474,20 @@
     "image": "https://ucarecdn.com/cf80b7f6-aec5-4627-a4a5-4d23a674a697/",
     "modules": ["ethics"],
     "social": {}
+  },
+  {
+    "id": "Aydan-Gasimova",
+    "name": "Aydan Gasimova",
+    "roles": ["Web Developer"],
+    "department": "FAIR Data Innovations Hub",
+    "organization": "California Medical Innovations Institute",
+    "location": "San Diego, CA",
+    "caption": "I'm Web Developer with practical experience developing dynamic front-end web applications. I am elated to build tools that will help researchers and clinicians better use data.",
+    "image": "https://ucarecdn.com/b860b61b-a9a9-41fa-bf22-009d556c5ea9/",
+    "moduleImageParams": "-/crop/face/200px150p/",
+    "modules": ["tools"],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/aydan-gasimova-a98b7521b/"
+    }
   }
 ]

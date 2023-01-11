@@ -52,10 +52,6 @@ const links = [
     title: 'Study',
   },
   {
-    href: '/mentorship',
-    title: 'Mentorship Program',
-  },
-  {
     href: '/data',
     title: 'Data',
   },
