@@ -489,5 +489,20 @@
     "social": {
       "linkedin": "https://www.linkedin.com/in/aydan-gasimova-a98b7521b/"
     }
+  },
+  {
+    "id": "Michael-Snyder",
+    "name": "Michael Snyder",
+    "roles": ["Professor and Chair"],
+    "department": "Genetics",
+    "organization": "Stanford University",
+    "location": "Stanford, CA",
+    "caption": "Our laboratory is expert in big data (omics and wearables) and has invented omics technoloiges (E.g. RNA-Seq, ChIP-Chip (now Chip-Seq), NGS Paired-End sequencing). I participate in the teaming module.",
+    "image": "https://ucarecdn.com/c79202cd-c698-4aaf-812d-4692ebf21377/",
+    "moduleImageParams": "-/crop/face/200px150p/",
+    "modules": ["teaming", "skills"],
+    "social": {
+      "website": ["https://med.stanford.edu/snyderlab.html/members5.html"]
+    }
   }
 ]
