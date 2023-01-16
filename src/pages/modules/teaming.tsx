@@ -116,7 +116,6 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
               viewport={{ once: true }}
               className='grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-8'
             >
-              {' '}
               {TeamMembers.map((member) => (
                 <motion.div
                   variants={FramerItem}
@@ -128,7 +127,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                       className='h-full cursor-pointer rounded-lg border-solid bg-slate-100 px-4 py-4 transition-all hover:bg-sky-100'
                       key={member.name}
                     >
-                      <div className='relative mx-auto mb-2 min-h-[250px] w-full'>
+                      <div className='relative mx-auto mb-2 min-h-[350px] w-full sm:min-h-[250px]'>
                         <Image
                           src={`${member.image}${
                             member.moduleImageParams != ''

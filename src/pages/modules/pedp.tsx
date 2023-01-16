@@ -127,7 +127,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                       className='h-full cursor-pointer rounded-lg border-solid bg-slate-100 px-4 py-4 transition-all hover:bg-sky-100'
                       key={member.name}
                     >
-                      <div className='relative mx-auto mb-2 min-h-[250px] w-full'>
+                      <div className='relative mx-auto mb-2 min-h-[350px] w-full sm:min-h-[250px]'>
                         <Image
                           src={`${member.image}${
                             member.moduleImageParams != ''
