@@ -2,6 +2,7 @@
   {
     "id": "Erik-Benton",
     "name": "Erik Benton",
+    "pronoun": "",
     "roles": ["Research Engineer, Sr"],
     "department": "Oregon Clinical & Translational Research Institue",
     "organization": "Oregon Health & Science University",
@@ -19,6 +20,7 @@
   {
     "id": "Camille-Nebeker",
     "name": "Camille Nebeker",
+    "pronoun": "",
     "roles": ["Associate Professor"],
     "department": "School of Public Health and Human Longevity Science",
     "organization": "University of California, San Diego",
@@ -36,6 +38,7 @@
   {
     "id": "Brittany-York",
     "name": "Brittany York",
+    "pronoun": "",
     "roles": ["Project Manager"],
     "department": "Herbert Wertheim School of Public Health and Human Longevity Science",
     "organization": "University of California, San Diego",
@@ -48,6 +51,7 @@
   {
     "id": "Sally-Baxter",
     "name": "Sally Baxter",
+    "pronoun": "",
     "roles": ["Assistant Professor"],
     "department": "Viterbi Family Department of Ophthalmology and Shiley Eye Institute",
     "organization": "University of California, San Diego",
@@ -64,6 +68,7 @@
   {
     "id": "Sara-Singer",
     "name": "Sara Singer",
+    "pronoun": "",
     "roles": ["Professor"],
     "department": "Medicine and Organizational Behavior",
     "organization": "Stanford University School of Medicine and Graduate School of Business",
@@ -83,6 +88,7 @@
   {
     "id": "Debra-Mathews",
     "name": "Debra Mathews",
+    "pronoun": "",
     "roles": ["Associate Professor"],
     "department": "Berman Institute of Bioethics, Dept of Genetic Medicine",
     "organization": "Johns Hopkins University",
@@ -97,6 +103,7 @@
   {
     "id": "Victoria-Patronilo",
     "name": "Victoria Patronilo",
+    "pronoun": "",
     "roles": ["Program Coordinator"],
     "department": "Ophthalmology",
     "organization": "University of California, San Diego",
@@ -110,6 +117,7 @@
   {
     "id": "Benjamin-Cordier",
     "name": "Benjamin Cordier",
+    "pronoun": "",
     "roles": ["Senior Computational Biologist"],
     "department": "Knight Cancer Institute",
     "organization": "Oregon Health & Science University",
@@ -128,6 +136,7 @@
   {
     "id": "Shannon-McWeeney",
     "name": "Shannon McWeeney",
+    "pronoun": "",
     "roles": ["Professor and Chief Data Officer"],
     "department": "Knight Cancer Institute",
     "organization": "Oregon Health & Science University",
@@ -145,6 +154,7 @@
   {
     "id": "Cynthia-Owsley",
     "name": "Cynthia Owsley",
+    "pronoun": "",
     "roles": ["Nathan E. Miles Endowed Chair of Ophthalmology"],
     "department": "Department of Ophthalmology & Visual Sciences",
     "organization": "University of Alabama at Birmingham",
@@ -159,6 +169,7 @@
   {
     "id": "Katie-Crist",
     "name": "Katie Crist",
+    "pronoun": "",
     "roles": ["Assistant Project Scientist"],
     "department": "Urban Studies & Planning Department",
     "organization": "University of California, San Diego",
@@ -176,6 +187,7 @@
   {
     "id": "Abigail-Lucero",
     "name": "Abigail Lucero",
+    "pronoun": "",
     "roles": ["Project Manager"],
     "department": "Casey Eye Institute",
     "organization": "Oregon Health & Science University",
@@ -188,6 +200,7 @@
   {
     "id": "Sanjay-Soundarajan",
     "name": "Sanjay Soundarajan",
+    "pronoun": "he/him",
     "roles": ["Front End Developer"],
     "department": "FAIR Data Innovations Hub",
     "organization": "California Medical Innovations Institute",
@@ -205,6 +218,7 @@
   {
     "id": "Joseph-Yracheta",
     "name": "Joseph Yracheta",
+    "pronoun": "",
     "roles": ["Executive Director"],
     "organization": "Native Bio-Data Consortium",
     "location": "Eagle Butte, SD",
@@ -225,6 +239,7 @@
   {
     "id": "Linda-Zangwill",
     "name": "Linda Zangwill",
+    "pronoun": "",
     "roles": ["Professor"],
     "department": "Ophthalmology",
     "organization": "University of California, San Diego",
@@ -239,6 +254,7 @@
   {
     "id": "Missy-Takahashi",
     "name": "Missy Takahashi",
+    "pronoun": "",
     "roles": ["Lab Manager"],
     "department": "Ophthalmology",
     "organization": "University of Washington",
@@ -254,6 +270,7 @@
   {
     "id": "Dawn-Matthies",
     "name": "Dawn Matthies",
+    "pronoun": "",
     "roles": ["Project Manager"],
     "department": "Dept. of Ophthalmology and Visual Sciences",
     "organization": "University of Alabama at Birmingham",
@@ -266,6 +283,7 @@
   {
     "id": "Samantha-Hurst",
     "name": "Samantha Hurst",
+    "pronoun": "",
     "roles": ["Project Scientist"],
     "department": "Herbert Wertheim School of Public Health",
     "organization": "University of California, San Diego",
@@ -282,6 +300,7 @@
   {
     "id": "Bhavesh-Patel",
     "name": "Bhavesh Patel",
+    "pronoun": "he/him",
     "roles": ["Associate Research Professor"],
     "department": "FAIR Data Innovations Hub",
     "organization": "California Medical Innovations Institute",
@@ -299,6 +318,7 @@
   {
     "id": "Qilu-Yu",
     "name": "Qilu Yu",
+    "pronoun": "",
     "roles": ["Biostatistician"],
     "department": "Office of Clinical and Regulatory Affairs",
     "organization": "National Center for Complementary and Integrative Health",
@@ -314,6 +334,7 @@
   {
     "id": "T-Y-Alvin-Liu",
     "name": "T. Y. Alvin Liu",
+    "pronoun": "",
     "roles": [
       "Director of the Wilmer Precision Ophthalmology Center of Excellence"
     ],
@@ -329,6 +350,7 @@
   {
     "id": "Megan-Collins",
     "name": "Megan Collins",
+    "pronoun": "",
     "roles": ["Associate Professor"],
     "department": "Wilmer Eye Institute / Berman Institute",
     "organization": "Johns Hopkins University",
@@ -346,6 +368,7 @@
   {
     "id": "Nicole-Ehrhardt",
     "name": "Nicole Ehrhardt",
+    "pronoun": "",
     "roles": ["Assistant Professor of Medicine"],
     "department": "Dept. of Medicine/ Division Endocrinology",
     "organization": "Diabetes Institute University of Washington",
@@ -359,6 +382,7 @@
   {
     "id": "Virginia-de-Sa",
     "name": "Virginia de Sa",
+    "pronoun": "",
     "roles": ["Professor"],
     "department": "Cognitive Science and Halicioglu Data Science Institute",
     "organization": "University of California, San Diego",
@@ -373,6 +397,7 @@
   {
     "id": "Jennifer-Li-Pook-Than",
     "name": "Jennifer Li-Pook-Than",
+    "pronoun": "",
     "roles": ["Senior Research Associate"],
     "department": "Genetics Department, School of Medicine",
     "organization": "Stanford University",
@@ -388,6 +413,7 @@
   {
     "id": "Aaron-Lee",
     "name": "Aaron Lee",
+    "pronoun": "",
     "roles": [
       "Associate Professor in Ophthalmology",
       "C. Dan and Irene Hunter Endowed Professorship"
@@ -408,6 +434,7 @@
   {
     "id": "Cecilia-Lee",
     "name": "Cecilia Lee",
+    "pronoun": "",
     "roles": [
       "Associate Professor",
       "Klorfine Family Endowed Chair Director of Clinical Research"
@@ -425,6 +452,7 @@
   {
     "id": "Julia-Owen",
     "name": "Julia Owen",
+    "pronoun": "",
     "roles": ["Program Manager"],
     "department": "Department of Opthalmology",
     "organization": "University of Washington",
@@ -438,6 +466,7 @@
   {
     "id": "Kate-Watkins",
     "name": "Kate Watkins",
+    "pronoun": "",
     "roles": ["Project Manager"],
     "department": "Primary Care & Population Health at Stanford Medicine ",
     "organization": "Stanford University",
@@ -451,6 +480,7 @@
   {
     "id": "Kadija-Ferryman",
     "name": "Kadija Ferryman",
+    "pronoun": "",
     "roles": ["Core Faculty"],
     "department": "Berman Institute of Bioethics",
     "organization": "Johns Hopkins University",
@@ -466,6 +496,7 @@
   {
     "id": "Summer-Zhu",
     "name": "Summer Zhu",
+    "pronoun": "",
     "roles": ["MPH Candidate"],
     "department": "Herbert Wertheim School of Public Health and Human Longevity Science",
     "organization": "University of California, San Diego",
@@ -478,6 +509,7 @@
   {
     "id": "Aydan-Gasimova",
     "name": "Aydan Gasimova",
+    "pronoun": "she/her",
     "roles": ["Web Developer"],
     "department": "FAIR Data Innovations Hub",
     "organization": "California Medical Innovations Institute",
@@ -493,6 +525,7 @@
   {
     "id": "Michael-Snyder",
     "name": "Michael Snyder",
+    "pronoun": "",
     "roles": ["Professor and Chair"],
     "department": "Genetics",
     "organization": "Stanford University",
