@@ -45,6 +45,7 @@
     "location": "San Diego, CA",
     "caption": "Brittany York is a Project Manager for the ETAI module. She joined UC San Diego in 2011 working on federally funded research projects related to physical activity, sedentary behavior, and chronic disease prevention.",
     "image": "https://ucarecdn.com/87c5d4a5-4814-4e6b-9134-7624fd9a5182/",
+    "moduleImageParams": "",
     "modules": ["ethics"],
     "social": {}
   },
@@ -95,6 +96,7 @@
     "location": "Baltimore, MD",
     "caption": "I'm a human geneticist by training, but all of my work is on ethical and policy issues raised by emerging technologies, including genetics, neuroscience, regenerative medicine, synthetic biology, and AI, including through work with the ETAI module of AI-READI.",
     "image": "https://ucarecdn.com/4f24eb91-9978-4c78-a893-dff0a72fbcad/-/crop/face/200px150p/",
+    "moduleImageParams": "",
     "modules": ["ethics"],
     "social": {
       "website": ["https://bioethics.jhu.edu/people/profile/debra-mathews/"]
@@ -161,6 +163,7 @@
     "location": "Birmingham, AL",
     "caption": "I am MPI on the Data Acquisition Module since I have a great deal of experience in recruiting, enrolling and supervising large sample studies of adults using detailed protocols, including variables such as vision, cognition and retinal imaging.",
     "image": "https://ucarecdn.com/06e29b2a-b695-4047-852e-37ef9db5c233/",
+    "moduleImageParams": "",
     "modules": ["data"],
     "social": {
       "website": ["https://www.uab.edu/medicine/ophthalmology/faculty/owsley"]
@@ -194,6 +197,7 @@
     "location": "Portland, OR",
     "caption": "I'm a Project Manager in support of the innovative and committed team in the Tools module.",
     "image": "https://ucarecdn.com/afc112d5-7a40-4963-8ad5-af05274ee55b/",
+    "moduleImageParams": "",
     "modules": ["tools"],
     "social": {}
   },
@@ -246,6 +250,7 @@
     "location": "United States",
     "caption": "I am a Professor at the Viterbi Family Department of Ophthalmology at UCSD conducting clinical and computational research with a focus on glaucoma.  I am co-PI with Dr. Sally Baxter on the Skills and Workforce Development Module and am also site PI (with Dr. Sally Baxter as co-PI) on the Data module.",
     "image": "https://ucarecdn.com/5557fa68-a482-40f6-a2c9-d6607910c651/",
+    "moduleImageParams": "",
     "modules": ["data", "skills"],
     "social": {
       "website": ["https://shileyeye.ucsd.edu/faculty/linda-zangwill"]
@@ -277,6 +282,7 @@
     "location": "Birmingham, AL",
     "caption": "I serve as the project manager for the Data Acquisition module, responsible for coordinating communication between our three data sites and supporting the development of the protocol, its implementation, and data collection.",
     "image": "https://ucarecdn.com/b674fcda-0793-4b54-9fb0-4ef8509d926a/",
+    "moduleImageParams": "",
     "modules": ["data"],
     "social": {}
   },
@@ -389,6 +395,7 @@
     "location": "San Diego, CA",
     "caption": "I'm a Professor in Cognitive Science, and Associate Director of the Halicioglu Data Science Institute at UC San Diego studying vision and learning in humans and machines as well as brain-computer interfaces.  For this project I am developing  machine learning training.",
     "image": "https://ucarecdn.com/35f10f51-bd79-4c6f-af2e-65816ed8ed44/",
+    "moduleImageParams": "",
     "modules": ["skills"],
     "social": {
       "website": ["https://pages.ucsd.edu/~desa/"]
@@ -444,6 +451,7 @@
     "location": "Seattle, WA",
     "caption": "TBA",
     "image": "https://ucarecdn.com/d1296592-db72-4e64-8df1-4d58bde34242/",
+    "moduleImageParams": "",
     "modules": ["data"],
     "social": {
       "website": ["https://comp.ophthalmology.uw.edu/"]
@@ -503,6 +511,7 @@
     "location": "San Diego, CA",
     "caption": "Summer Zhu is a Master of Public Health student at UCSD. She helps with the development of the three regional Advisory Boards. ",
     "image": "https://ucarecdn.com/cf80b7f6-aec5-4627-a4a5-4d23a674a697/",
+    "moduleImageParams": "",
     "modules": ["ethics"],
     "social": {}
   },
