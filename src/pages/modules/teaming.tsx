@@ -23,7 +23,7 @@ const TeamingModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
         <HeroCroppedImage
           title='Teaming'
           image='https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
-          tagline='Bringing together multidisciplinary teams.'
+          tagline='Applying and advancing team science while transforming our AI-READI project from a multidisciplinary endeavor into a high-performing, interdisciplinary collaboration.'
           showButtons={false}
           primaryButton='Learn more about the study'
         />
@@ -35,24 +35,22 @@ const TeamingModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 Overview of the Teaming Module
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Empower Developers, IT Ops, and business teams to collaborate at
-                high velocity. Respond to changes and deliver great customer and
-                employee service experiences fast.
+                The Teaming module is working across AI-READI modules to develop
+                an effective multi-team system, capable of achieving individual
+                module, AI-READI, and Bridge2AI goals to create and share a
+                flagship, ethically sourced, dataset for Type 2 diabetes.
               </p>
             </div>
             <div>
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Track work across the enterprise through an open, collaborative
-                platform. Link issues across Jira and ingest data from other
-                software development tools, so your IT support and operations
-                teams have richer contextual information to rapidly respond to
-                requests, incidents, and changes.
-              </p>
-              <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Deliver great service experiences fast - without the complexity
-                of traditional ITSM solutions. Accelerate critical development
-                work, eliminate toil, and deploy changes with ease, with a
-                complete audit trail for every change.
+                We are applying team science by recognizing boundaries and
+                interaction patterns of our multi-team system; and analyzing and
+                intervening on interaction patterns to promote teaming. We are
+                advancing team science by leveraging quantitative and
+                qualitative methods to develop new understanding about teaming
+                across disciplinary and community interfaces. We also support
+                AI-READI’s committee charged with achieving our Plan for
+                Enhancing Diverse Perspectives.
               </p>
             </div>
           </div>
@@ -98,16 +96,11 @@ const TeamingModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
 
 const Resources = [
   {
-    title: 'Data Acquisition Module',
-    description: 'A collection of resources to help you get started.',
-    link: '/data',
-    type: 'publication',
-  },
-  {
-    title: 'Github',
-    description: 'A collection of resources to help you get started.',
-    link: '/data',
-    type: 'github',
+    title: 'Multi-team system baseline questionnaire',
+    description:
+      'You are invited to participate in a questionnaire about how individuals, teams, and systems of teams collaborate and coordinate to create an ethically sourced dataset for use with artificial intelligence.',
+    link: 'https://stanforduniversity.qualtrics.com/jfe/form/SV_2rz7byaK1HPwX9c',
+    type: 'survey',
   },
 ];
 
