@@ -1,22 +1,103 @@
-# aireadi.org
+<div align="center">
 
-## Project setup
+<img src="https://github.com/AI-READI/AI-READI-logo/blob/main/logo/png/option2.png?raw=true" alt="logo" width="200" height="auto" />
 
-Make sure to install the dependencies.
+<br />
 
-```bash
+<h1>aireadi.org</h1>
+
+<p>
+Website of the AI-READI project
+</p>
+
+<p>
+  <a href="https://github.com/AI-READI/aireadi.org/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/AI-READI/aireadi.org.svg?style=flat-square" alt="contributors" />
+  </a>
+  <a href="https://github.com/AI-READI/aireadi.org/stargazers">
+    <img src="https://img.shields.io/github/stars/AI-READI/aireadi.org.svg?style=flat-square" alt="stars" />
+  </a>
+  <a href="https://github.com/AI-READI/aireadi.org/issues/">
+    <img src="https://img.shields.io/github/issues/AI-READI/aireadi.org.svg?style=flat-square" alt="open issues" />
+  </a>
+  <a href="https://github.com/AI-READI/aireadi.org/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/AI-READI/aireadi.org.svg?style=flat-square" alt="license" />
+  </a>
+  <!-- <a href="https://doi.org/10.5281/zenodo.6407300">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6407300.svg" alt="doi" />
+  </a> -->
+  <a href="https://fairdataihub.org/fairshare">
+    <img src="https://raw.githubusercontent.com/fairdataihub/FAIRshare/main/badge.svg" alt="Curated with FAIRshare" />
+  </a>
+</p>
+   
+<h4>
+    <a href="https://dev.aireadi.org">Documentation</a>
+  <span> · </span>
+    <a href="https://github.com/AI-READI/aireadi.org/blob/main/CHANGELOG.md">Changelog</a>
+  <span> · </span>
+    <a href="https://github.com/AI-READI/aireadi.org/issues/">Report Bug</a>
+  <span> · </span>
+    <a href="https://dev.aireadi.org/contact">Request Feature</a>
+  </h4>
+</div>
+
+<br />
+
+---
+
+## Description
+
+This repository contains the source code of the AI-READI website. The website is built with [Next.js](https://nextjs.org/), a React framework for static and server-rendered applications.
+
+## Getting started
+
+### ⚠️ Prerequisites
+
+This project uses [`Yarn`](https://yarnpkg.com/) as package manager.
+
+#### Requirements
+
+- Node.js >= 12.22.0
+- Yarn 1 (Classic)
+
+```sh
+npm install --global yarn
+```
+
+If you already have a `Anaconda` environment on your machine, you can install the dependencies with:
+
+```sh
+conda install -c conda-forge yarn nodejs
+```
+
+### Run locally
+
+Clone the project
+
+```sh
+https://github.com/AI-READI/dev.fairhub.io.git
+```
+
+Go to the project directory
+
+```sh
+cd dev.fairhub.io
+```
+
+Install dependencies
+
+```sh
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+Start the server
 
-Start the development server on http://localhost:3000
-
-```bash
+```sh
 yarn dev
 ```
 
-### Compiles and minifies for production
+### Build locally
 
 Use this step to build a local production version of the site. Use `start` to preview the local build.
 
@@ -25,14 +106,30 @@ yarn build
 yarn start
 ```
 
-## Documentation
+# Deployment
+
+This repository is automatically deployed to [Azure](https://azure.microsoft.com/en-us/) on every push to the repository. If you need to reference a specific branch or pull request, you can do so by using the following URL pattern:
+
+- https://yellow-mud-0c2b16f10-<BRANCH_NAME>.centralus.2.azurestaticapps.net/
+- https://yellow-mud-0c2b16f10-<GITHUB_PR_NUMBER>.centralus.2.azurestaticapps.net/
+
+**Note:** All punctuation in the branch name will be removed when creating the URL.
+
+The `production` branch is automatically deployed to the following URL: https://aireadi.org
+
+## Contributing
+
+<a href="https://github.com/AI-READI/aireadi.org/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=AI-READI/aireadi.org" />
+</a>
+
+Contributions are always welcome!
+
+If you are interested in reporting/fixing issues and contributing directly to the code base, please see [CONTRIBUTING.md](CONTRIBUTING.md) for more information on what we're looking for and how to get started.
+
+For any developmental standards to follow, add them directly to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 We recommend to look at the [documentation](https://nextjs.org/docs/getting-started).
-
-### Requirements
-
-- Node.js >= 12.22.0
-- Yarn 1 (Classic)
 
 ### Directory Structure
 
@@ -64,25 +161,35 @@ import { Button } from '@/components/Button';
 import avatar from '@/public/avatar.png';
 ```
 
-# Deployment
+## Issues and Feedback
 
-This repository is automatically deployed to [Azure](https://azure.microsoft.com/en-us/) on every push to the repository. If you need to reference a specific branch or pull request, you can do so by using the following URL pattern:
-
-- https://yellow-mud-0c2b16f10-<BRANCH_NAME>.centralus.2.azurestaticapps.net/
-- https://yellow-mud-0c2b16f10-<GITHUB_PR_NUMBER>.centralus.2.azurestaticapps.net/
-
-**Note:** All punctuation in the branch name will be removed when creating the URL.
-
-The `production` branch is automatically deployed to the following URL: https://aireadi.org
-
-## Contributing
-
-<a href="https://github.com/AI-READI/aireadi.org/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=AI-READI/aireadi.org" />
-</a>
-
-Contributions are always welcome!
+To report any issues with the software, suggest improvements, or request a new feature, please open a new issue via the [Issues](https://github.com/AI-READI/aireadi.org/issues) tab. Provide adequate information (operating system, steps leading to error, screenshots) so we can help you efficiently.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more information.
+This work is licensed under
+[MIT](https://opensource.org/licenses/mit). See [LICENSE](https://github.com/AI-READI/aireadi.org/blob/main/LICENSE) for more information.
+
+<a href="https://aireadi.org" >
+  <img src="https://www.channelfutures.com/files/2017/04/3_0.png" height="30" />
+</a>
+
+## Acknowledgements
+
+This project is funded by the NIH under award number 1OT2OD032644. The content is solely the responsibility of the authors and does not necessarily represent the official views of the NIH.
+
+Add any other acknowledgements here.
+
+<br />
+
+---
+
+<br />
+
+<div align="center">
+
+<a href="https://aireadi.org">
+  <img src="https://github.com/AI-READI/AI-READI-logo/raw/main/logo/png/option2.png" height="200" />
+</a>
+
+</div>

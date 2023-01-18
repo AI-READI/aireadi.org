@@ -27,10 +27,6 @@ const footerLinks = [
         href: '/study',
       },
       {
-        title: 'Resources',
-        href: '/resources',
-      },
-      {
         title: 'Publications',
         href: '/publications',
       },
