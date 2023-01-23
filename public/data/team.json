@@ -546,5 +546,22 @@
     "social": {
       "website": ["https://med.stanford.edu/snyderlab.html/members5.html"]
     }
+  },
+  {
+    "id": "Aaron-Cohen",
+    "name": "Aaron Cohen",
+    "pronoun": "",
+    "roles": ["Professor"],
+    "department": "Department of Medical Informatics and Clinical Epidemiology",
+    "organization": "Oregon Health & Science University",
+    "location": "Portland, Oregon",
+    "caption": "I am leading the OMOP implementation of the Tools module.",
+    "image": "https://ucarecdn.com/75db407a-f54a-4d20-bf7f-df0f69da4f7e/",
+    "moduleImageParams": "-/crop/face/200px130p/",
+    "modules": ["tools"],
+    "social": {
+      "website": ["https://dmice.ohsu.edu/cohenaa/"],
+      "linkedin": "https://www.linkedin.com/in/aaron-cohen-b526541/"
+    }
   }
 ]
