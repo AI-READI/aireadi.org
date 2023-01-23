@@ -35,6 +35,10 @@ const footerLinks = [
         href: '/components',
       },
       {
+        title: 'Twitter',
+        href: '/comingsoon',
+      },
+      {
         title: 'Contact Us',
         href: '/contact',
       },

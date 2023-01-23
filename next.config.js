@@ -16,6 +16,16 @@ const nextConfig = {
     ],
   },
 
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/comingsoon',
+        permanent: false,
+      },
+    ];
+  },
+
   // SVGR
   webpack(config) {
     config.module.rules.push({
