@@ -14,63 +14,54 @@ import {
   DrawerHeader,
   DrawerOverlay,
   IconButton,
-  LinkBox,
-  LinkOverlay,
   Menu,
   MenuButton,
-  MenuDivider,
-  MenuGroup,
   MenuItem,
   MenuList,
   useDisclosure,
 } from '@chakra-ui/react';
 import Link from 'next/link';
-import { Fragment } from 'react';
 import { FcBiotech } from 'react-icons/fc';
 
 import UnstyledLink from '@/components/links/UnstyledLink';
 
 const links = [
-  { href: '/', label: 'Home' },
+  { href: '/', title: 'Home' },
   {
     href: '',
-    label: 'Modules',
+    title: 'Modules',
     sublinks: [
-      { href: '/modules/ethics', label: 'Ethics' },
-      { href: '/modules/teaming', label: 'Teaming' },
-      { href: '/modules/standards', label: 'Standards' },
-      { href: '/modules/tools', label: 'Tools' },
-      { href: '/modules/data', label: 'Data' },
-      { href: '/modules/skills', label: 'Skills' },
+      { href: '/modules/data', title: 'Data Acquisition' },
+      { href: '/modules/ethics', title: 'Ethics' },
+      {
+        href: '/modules/pedp',
+        title: 'Plan for Enhancing Diverse Perspectives',
+      },
+      { href: '/modules/skills', title: 'Skills and Workforce Development' },
+      { href: '/modules/standards', title: 'Standards' },
+      { href: '/modules/teaming', title: 'Teaming' },
+      { href: '/modules/tools', title: 'Tools' },
     ],
   },
   {
     href: '/team',
-    label: 'Team',
+    title: 'Team',
   },
   {
     href: '/study',
-    label: 'Study',
-  },
-  {
-    href: '/mentorship',
-    label: 'Mentorship Program',
+    title: 'Study',
   },
   {
     href: '/data',
-    label: 'Data',
-  },
-  {
-    href: '/resources',
-    label: 'Resources',
+    title: 'Data',
   },
   {
     href: '/publications',
-    label: 'Publications',
+    title: 'Publications',
   },
   {
     href: '/contact',
-    label: 'Contact Us',
+    title: 'Contact Us',
   },
 ];
 
@@ -109,7 +100,7 @@ export default function Header() {
                     rightIcon={link.sublinks ? <ChevronDownIcon /> : null}
                     className='!flex !items-center !px-2 !py-1'
                   >
-                    <span className='text-sm lg:text-base'>{link.label}</span>
+                    <span className='text-sm lg:text-base'>{link.title}</span>
                   </MenuButton>
                 </ConditionalWrapper>
 
@@ -117,7 +108,7 @@ export default function Header() {
                   <MenuList>
                     {link.sublinks.map((sublink) => (
                       <Link key={sublink.href} href={sublink.href} passHref>
-                        <MenuItem>{sublink.label}</MenuItem>
+                        <MenuItem>{sublink.title}</MenuItem>
                       </Link>
                     ))}
                   </MenuList>
@@ -132,38 +123,6 @@ export default function Header() {
               icon={<HamburgerIcon />}
               onClick={onOpen}
             />
-
-            <div className='hidden'>
-              <Menu>
-                <MenuButton as={Button} colorScheme='pink'>
-                  <HamburgerIcon />
-                </MenuButton>
-
-                <MenuList>
-                  {links.map((link) => (
-                    <Fragment key={link.href}>
-                      <MenuGroup title={link.sublinks ? link.label : ''}>
-                        <Link href={link.href} passHref>
-                          <MenuItem>{link.label}</MenuItem>
-                        </Link>
-
-                        {link.sublinks &&
-                          link.sublinks.map((sublink) => (
-                            <LinkBox key={sublink.href}>
-                              <LinkOverlay
-                                href={sublink.href ? sublink.href : undefined}
-                              >
-                                <MenuItem>{sublink.label}</MenuItem>
-                              </LinkOverlay>
-                            </LinkBox>
-                          ))}
-                      </MenuGroup>
-                      <MenuDivider />
-                    </Fragment>
-                  ))}
-                </MenuList>
-              </Menu>
-            </div>
           </div>
 
           <Drawer isOpen={isOpen} placement='top' onClose={onClose}>
@@ -177,12 +136,12 @@ export default function Header() {
               <DrawerBody>
                 <Accordion allowToggle={true}>
                   {links.map((link) => (
-                    <AccordionItem key={link.label}>
+                    <AccordionItem key={link.title}>
                       <Link href={link.href} passHref>
                         <h2>
                           <AccordionButton>
                             <Box flex='1' textAlign='left'>
-                              {link.label}
+                              {link.title}
                             </Box>
 
                             {link.sublinks && <AccordionIcon />}
@@ -200,7 +159,7 @@ export default function Header() {
                               <h3>
                                 <AccordionButton>
                                   <Box flex='1' textAlign='left'>
-                                    {sublink.label}
+                                    {sublink.title}
                                   </Box>
                                 </AccordionButton>
                               </h3>

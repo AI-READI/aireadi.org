@@ -16,14 +16,16 @@ export default function HeroWithCroppedImage({
   secondaryButton,
 }: HeroContent) {
   return (
-    <section className='mx-auto grid font-primary lg:grid-cols-12 lg:gap-8 xl:gap-0'>
-      <div className='mx-auto place-self-center py-20 px-6 lg:col-span-7 xl:px-0'>
-        <h1 className='mb-4 max-w-2xl pb-5 text-5xl font-extrabold leading-none tracking-tight sm:text-6xl'>
+    <section className='mx-auto grid max-w-screen-xl py-8 font-primary lg:grid-cols-12 lg:gap-8 xl:gap-0'>
+      <div className='mx-auto place-self-center py-2 px-6 lg:col-span-6 xl:px-0'>
+        <h1 className='relative pb-2 text-4xl font-black sm:text-5xl '>
           {title}
         </h1>
-        <p className=' mb-6 max-w-2xl font-medium text-gray-500 md:mb-8  md:text-xl'>
+
+        <p className='relative pb-5 text-xl font-medium sm:text-2xl'>
           {tagline}
         </p>
+
         {showButtons && (
           <div className='relative flex space-x-4'>
             {primaryButton && <Button>{primaryButton}</Button>}

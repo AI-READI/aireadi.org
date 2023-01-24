@@ -9,7 +9,7 @@ import Seo from '@/components/Seo';
 
 import ModuleMembersFilter from '@/utils/moduleMembersFilter';
 
-const ToolsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
+const PedpModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
   <>
     <SkipNavLink>Skip to content</SkipNavLink>
 
@@ -21,9 +21,9 @@ const ToolsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
         <SkipNavContent />
 
         <HeroCroppedImage
-          title='Tools'
-          image='https://images.unsplash.com/photo-1629904869392-ae2a682d4d01?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1752&q=80'
-          tagline='Developing tools and software for managing, curating, and sharing AI-ready datasets.'
+          title='Plan for Enhancing Diverse Perspectives'
+          image='https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+          tagline='Add tagline here.'
           showButtons={false}
           primaryButton='Learn more about the study'
         />
@@ -32,26 +32,27 @@ const ToolsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
           <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-10 py-8 px-4 text-left md:grid-cols-2 lg:py-16 lg:px-6'>
             <div>
               <h2 className='mb-4 text-3xl font-extrabold tracking-tight sm:text-4xl'>
-                Overview of the Tools Module
+                Overview of the Plan for Enhancing Diverse Perspectives
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                EThe Tools module is developing fairhub.io, a platform for
-                easily managing, preparing, and sharing FAIR and AI-ready
-                datasets.
+                Empower Developers, IT Ops, and business teams to collaborate at
+                high velocity. Respond to changes and deliver great customer and
+                employee service experiences fast.
               </p>
             </div>
             <div>
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Leveraging a partnership with Microsoft, fairhub.io will be
-                developed using Azure Cloud Services. The platform will include
-                convenient tools to track clinical and biomedical data
-                collection, prepare and share FAIR data, and conveniently access
-                data for future AI/ML analysis.
+                Track work across the enterprise through an open, collaborative
+                platform. Link issues across Jira and ingest data from other
+                software development tools, so your IT support and operations
+                teams have richer contextual information to rapidly respond to
+                requests, incidents, and changes.
               </p>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                In addition, the Tools module will support the effort of the
-                Data Acquisition module by setting up and managing additional
-                tools such REDCap.
+                Deliver great service experiences fast - without the complexity
+                of traditional ITSM solutions. Accelerate critical development
+                work, eliminate toil, and deploy changes with ease, with a
+                complete audit trail for every change.
               </p>
             </div>
           </div>
@@ -75,11 +76,9 @@ const ToolsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                   <div className='pt-2'>
                     <UnstyledLink
                       href={resource.link}
-                      className='flex w-full items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+                      className='flex w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
                     >
-                      <p className='break-normal text-xl font-medium'>
-                        {resource.title}
-                      </p>
+                      <p className='text-xl font-medium'>{resource.title}</p>
                     </UnstyledLink>
                     <p className='pt-1 text-lg font-normal text-gray-700'>
                       {resource.description}
@@ -99,22 +98,21 @@ const ToolsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
 
 const Resources = [
   {
-    title: 'The fairhub.io platform',
-    description: 'Link to the fairhub.io platform',
-    link: 'https://fairhub.io',
-    type: 'website',
+    title: 'Data Acquisition Module',
+    description: 'A collection of resources to help you get started.',
+    link: '/data',
+    type: 'publication',
   },
   {
-    title: 'GitHub organization of the AI-READI project',
-    description:
-      'GitHub organization of the AI-READI project where all the tools are developed from',
-    link: 'https://github.com/AI-READI',
+    title: 'Github',
+    description: 'A collection of resources to help you get started.',
+    link: '/data',
     type: 'github',
   },
 ];
 
 export const getStaticProps = async () => {
-  const TeamMembers = await ModuleMembersFilter('tools');
+  const TeamMembers = await ModuleMembersFilter('pedp');
 
   return {
     props: {
@@ -123,4 +121,4 @@ export const getStaticProps = async () => {
   };
 };
 
-export default ToolsModule;
+export default PedpModule;

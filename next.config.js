@@ -1,5 +1,4 @@
 /** @type {import('next').NextConfig} */
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
     dirs: ['src'],
@@ -8,12 +7,24 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
 
-  // Uncomment to add domain whitelist
-  // images: {
-  //   domains: [
-  //     'res.cloudinary.com',
-  //   ],
-  // },
+  images: {
+    domains: [
+      'storage.googleapis.com',
+      'images.unsplash.com',
+      'fairdataihub.org',
+      'ucarecdn.com',
+    ],
+  },
+
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/comingsoon',
+        permanent: false,
+      },
+    ];
+  },
 
   // SVGR
   webpack(config) {

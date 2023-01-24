@@ -30,7 +30,7 @@ const FeaturesList = [
   },
   {
     title: 'Teaming',
-    description: 'Bringing together multidiciplinary teams',
+    description: 'Bringing together multidisciplinary teams',
     icon: <RiTeamFill size={20} />,
     href: '/modules/teaming',
   },
