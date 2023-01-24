@@ -28,7 +28,7 @@ export default function NotFoundPage() {
 
   return (
     <>
-      <Seo templateTitle='Not Found' />
+      <Seo templateTitle='AI-READI - Under Construction' />
 
       <main>
         <section className='flex h-full '>
