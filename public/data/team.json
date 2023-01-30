@@ -492,7 +492,7 @@
     "roles": ["Core Faculty"],
     "department": "Berman Institute of Bioethics",
     "organization": "Johns Hopkins University",
-    "location": "NY",
+    "location": "New York, NY",
     "caption": "I'm an anthropologist and faculty member at Johns Hopkins and I'm a module co-PI of the ETAI module. ",
     "image": "https://ucarecdn.com/ac519d4c-2f0d-49a7-abb5-2187e5c9b100/",
     "moduleImageParams": "-/crop/face/200px170p/",
@@ -562,6 +562,22 @@
     "social": {
       "website": ["https://dmice.ohsu.edu/cohenaa/"],
       "linkedin": "https://www.linkedin.com/in/aaron-cohen-b526541/"
+    }
+  },
+  {
+    "id": "Christopher-Chute",
+    "name": "Christopher Chute",
+    "pronoun": "",
+    "roles": ["Professor and CRIO"],
+    "department": "",
+    "organization": "Johns Hopkins University",
+    "location": "Baltimore, MD",
+    "caption": " Dr. Chute is the Bloomberg Distinguished Professor of Health Informatics, Professor of Medicine, Public Health, and Nursing at Johns Hopkins University, and Chief Research Information Officer for Johns Hopkins Medicine. His current research focuses on translating basic science information to clinical practice, how we classify dysfunctional phenotypes (disease), and the harmonization and rendering of real-world clinical data including electronic health records to support data inferencing.",
+    "image": "https://ucarecdn.com/243bf4b0-4229-459f-b24e-9d2d4fd50aeb/",
+    "moduleImageParams": "-/crop/face/180px140p/",
+    "modules": ["standards"],
+    "social": {
+      "website": ["https://en.wikipedia.org/wiki/Christopher_G._Chute"]
     }
   }
 ]
