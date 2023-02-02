@@ -579,5 +579,22 @@
     "social": {
       "website": ["https://en.wikipedia.org/wiki/Christopher_G._Chute"]
     }
+  },
+  {
+    "id": "Wei-Chun-Lin",
+    "name": "Wei-Chun Lin",
+    "pronoun": "",
+    "roles": ["Informatician 3"],
+    "department": "Casey Eye Institute",
+    "organization": "Oregon Health & Science University",
+    "location": "Portland, OR",
+    "caption": "I'm a data scientist experienced in ML model development and application. I will be working on creating tools for image quality assessment based on image quality index and CNN models.",
+    "image": "https://ucarecdn.com/bb48308f-a3c3-45c0-970f-1943a83d7d96/",
+    "moduleImageParams": "-/crop/face/190px185p/",
+    "modules": ["tools"],
+    "social": {
+      "twitter": "https://twitter.com/WEICHUNLIN04",
+      "linkedin": "https://www.linkedin.com/in/wei-chun-lin-or/"
+    }
   }
 ]
