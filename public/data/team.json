@@ -596,5 +596,22 @@
       "twitter": "https://twitter.com/WEICHUNLIN04",
       "linkedin": "https://www.linkedin.com/in/wei-chun-lin-or/"
     }
+  },
+  {
+    "id": "Stephanie-Hong",
+    "name": "Stephanie Hong",
+    "pronoun": "she/her",
+    "roles": ["Senior Healthcare Informatics Analyst"],
+    "department": "General Internal Medicine/ Bioinformatics and Data Science",
+    "organization": "Johns Hopkins University School of Medicine",
+    "location": "Baltimore, MD",
+    "caption": "I participate in standards module.  My work focus on data harmonization and rendering of real-world clinical data to support data validation and data inferencing.",
+    "image": "https://ucarecdn.com/03b1aba4-ad21-4b22-a7b2-e0872c6ad401/",
+    "moduleImageParams": "-/crop/face/200px150p/",
+    "modules": ["standards"],
+    "social": {
+      "github": "https://github.com/stephanieshong",
+      "linkedin": "https://www.linkedin.com/in/stephanie-s-hong-315766a/"
+    }
   }
 ]
