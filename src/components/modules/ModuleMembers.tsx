@@ -57,14 +57,18 @@ const ModuleMembers: React.FC<ComponentProps> = ({ Team }) => {
                     {member.name}
                   </h3>
 
-                  {member.roles.map((role, index) => (
+                  <p className='text-sm font-medium text-slate-600'>
+                    {member.roles[0]}
+                  </p>
+
+                  {/* {member.roles.map((role, index) => (
                     <p
                       className='text-sm font-medium text-slate-600'
                       key={index}
                     >
                       {role}
                     </p>
-                  ))}
+                  ))} */}
                 </div>
               </UnstyledLink>
             </motion.div>

@@ -76,7 +76,7 @@ const DataModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                   <div className='pt-2'>
                     <UnstyledLink
                       href={resource.link}
-                      className='flex w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+                      className='flex items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
                     >
                       <p className='text-xl font-medium'>{resource.title}</p>
                     </UnstyledLink>
