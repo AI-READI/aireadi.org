@@ -38,6 +38,10 @@ const footerLinks = [
       //   title: 'Components',
       //   href: '/components',
       // },
+      // {
+      //   title: 'Twitter',
+      //   href: '/comingsoon',
+      // },
       {
         title: 'Contact Us',
         href: '/contact',
@@ -48,16 +52,16 @@ const footerLinks = [
   {
     title: 'Modules',
     links: [
-      { href: '/modules/ethics', title: 'Ethics' },
-      { href: '/modules/teaming', title: 'Teaming' },
-      { href: '/modules/standards', title: 'Standards' },
-      { href: '/modules/tools', title: 'Tools' },
       { href: '/modules/data', title: 'Data Acquisition' },
-      { href: '/modules/skills', title: 'Skills and Workforce Development' },
+      { href: '/modules/ethics', title: 'Ethics' },
       {
         href: '/modules/pedp',
         title: 'Plan for Enhancing Diverse Perspectives',
       },
+      { href: '/modules/skills', title: 'Skills and Workforce Development' },
+      { href: '/modules/standards', title: 'Standards' },
+      { href: '/modules/teaming', title: 'Teaming' },
+      { href: '/modules/tools', title: 'Tools' },
     ],
   },
 ];

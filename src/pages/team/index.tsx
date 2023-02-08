@@ -107,8 +107,13 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                   </div>
 
                   <div className='w-full py-8 px-6 text-left md:w-3/5 md:p-4'>
-                    <h3 className='text-xl font-extrabold  text-gray-900'>
-                      {member.name}
+                    <h3 className='text-xl font-extrabold text-gray-900'>
+                      {member.name}{' '}
+                      {member.pronoun && (
+                        <span className='text-large font-medium text-gray-600'>
+                          ({member.pronoun})
+                        </span>
+                      )}
                     </h3>
 
                     {member.roles.map((role, index) => (

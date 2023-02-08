@@ -1,6 +1,6 @@
 # Cookie Policy
 
-Last revised on Feb 08, 2023.
+**Last updated February 08, 2023**
 
 ## What Are Cookies?
 
@@ -10,7 +10,7 @@ For more information, please visit [AllAboutCookies.org](https://www.allaboutcoo
 
 ## How We Use Cookies
 
-We do not use third-party cookies or send any information to third-parties. We do collect website usage information via the privacy focused, self hosted and open source [Umami](https://umami.is/) platform. Umami lets us gather the data we need while respecting your privacy. Umami does not collect any personal information, does not use cookies, does not track users across websites, and is GDPR compliant. All data collected is anonymized, making it impossible to identify any individual user. To see exactly what information we collect you can preview our public dashboard [here](https://umami.fairdataihub.org/share/IgtWDN0v/docs.sodaforsparc.io).
+We do not use third-party cookies or send any information to third-parties. We do collect website usage information via the privacy focused, self hosted and open source [Umami](https://umami.is/) platform. Umami lets us gather the data we need while respecting your privacy. Umami does not collect any personal information, does not use cookies, does not track users across websites, and is GDPR compliant. All data collected is anonymized, making it impossible to identify any individual user. To see exactly what information we collect you can preview our public dashboard [here](https://umami.fairdataihub.org/).
 
 ## Additional Information
 
@@ -20,6 +20,6 @@ When you access third party sites on our Sites, or when you are reading integrat
 
 Please feel free to contact us if you have any questions or complaints about AI-READI's Cookie Policy.
 
-**Contact form**: https://aireadi.org/contact-us
+**Contact form**: [aireadi.org/contact](https://aireadi.org/contact)
 
-**Email**: help@aireadi.org
+**Email**: [contact@aireadi.org](mailto:contact@aireadi.org)

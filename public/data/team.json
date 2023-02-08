@@ -2,6 +2,7 @@
   {
     "id": "Erik-Benton",
     "name": "Erik Benton",
+    "pronoun": "",
     "roles": ["Research Engineer, Sr"],
     "department": "Oregon Clinical & Translational Research Institue",
     "organization": "Oregon Health & Science University",
@@ -19,6 +20,7 @@
   {
     "id": "Camille-Nebeker",
     "name": "Camille Nebeker",
+    "pronoun": "",
     "roles": ["Associate Professor"],
     "department": "School of Public Health and Human Longevity Science",
     "organization": "University of California, San Diego",
@@ -36,18 +38,21 @@
   {
     "id": "Brittany-York",
     "name": "Brittany York",
+    "pronoun": "",
     "roles": ["Project Manager"],
     "department": "Herbert Wertheim School of Public Health and Human Longevity Science",
     "organization": "University of California, San Diego",
     "location": "San Diego, CA",
     "caption": "Brittany York is a Project Manager for the ETAI module. She joined UC San Diego in 2011 working on federally funded research projects related to physical activity, sedentary behavior, and chronic disease prevention.",
     "image": "https://ucarecdn.com/87c5d4a5-4814-4e6b-9134-7624fd9a5182/",
+    "moduleImageParams": "",
     "modules": ["ethics"],
     "social": {}
   },
   {
     "id": "Sally-Baxter",
     "name": "Sally Baxter",
+    "pronoun": "",
     "roles": ["Assistant Professor"],
     "department": "Viterbi Family Department of Ophthalmology and Shiley Eye Institute",
     "organization": "University of California, San Diego",
@@ -64,6 +69,7 @@
   {
     "id": "Sara-Singer",
     "name": "Sara Singer",
+    "pronoun": "",
     "roles": ["Professor"],
     "department": "Medicine and Organizational Behavior",
     "organization": "Stanford University School of Medicine and Graduate School of Business",
@@ -83,12 +89,14 @@
   {
     "id": "Debra-Mathews",
     "name": "Debra Mathews",
+    "pronoun": "",
     "roles": ["Associate Professor"],
     "department": "Berman Institute of Bioethics, Dept of Genetic Medicine",
     "organization": "Johns Hopkins University",
     "location": "Baltimore, MD",
     "caption": "I'm a human geneticist by training, but all of my work is on ethical and policy issues raised by emerging technologies, including genetics, neuroscience, regenerative medicine, synthetic biology, and AI, including through work with the ETAI module of AI-READI.",
     "image": "https://ucarecdn.com/4f24eb91-9978-4c78-a893-dff0a72fbcad/-/crop/face/200px150p/",
+    "moduleImageParams": "",
     "modules": ["ethics"],
     "social": {
       "website": ["https://bioethics.jhu.edu/people/profile/debra-mathews/"]
@@ -97,6 +105,7 @@
   {
     "id": "Victoria-Patronilo",
     "name": "Victoria Patronilo",
+    "pronoun": "",
     "roles": ["Program Coordinator"],
     "department": "Ophthalmology",
     "organization": "University of California, San Diego",
@@ -110,6 +119,7 @@
   {
     "id": "Benjamin-Cordier",
     "name": "Benjamin Cordier",
+    "pronoun": "",
     "roles": ["Senior Computational Biologist"],
     "department": "Knight Cancer Institute",
     "organization": "Oregon Health & Science University",
@@ -128,6 +138,7 @@
   {
     "id": "Shannon-McWeeney",
     "name": "Shannon McWeeney",
+    "pronoun": "",
     "roles": ["Professor and Chief Data Officer"],
     "department": "Knight Cancer Institute",
     "organization": "Oregon Health & Science University",
@@ -145,12 +156,14 @@
   {
     "id": "Cynthia-Owsley",
     "name": "Cynthia Owsley",
+    "pronoun": "",
     "roles": ["Nathan E. Miles Endowed Chair of Ophthalmology"],
     "department": "Department of Ophthalmology & Visual Sciences",
     "organization": "University of Alabama at Birmingham",
     "location": "Birmingham, AL",
     "caption": "I am MPI on the Data Acquisition Module since I have a great deal of experience in recruiting, enrolling and supervising large sample studies of adults using detailed protocols, including variables such as vision, cognition and retinal imaging.",
     "image": "https://ucarecdn.com/06e29b2a-b695-4047-852e-37ef9db5c233/",
+    "moduleImageParams": "",
     "modules": ["data"],
     "social": {
       "website": ["https://www.uab.edu/medicine/ophthalmology/faculty/owsley"]
@@ -159,6 +172,7 @@
   {
     "id": "Katie-Crist",
     "name": "Katie Crist",
+    "pronoun": "",
     "roles": ["Assistant Project Scientist"],
     "department": "Urban Studies & Planning Department",
     "organization": "University of California, San Diego",
@@ -176,18 +190,21 @@
   {
     "id": "Abigail-Lucero",
     "name": "Abigail Lucero",
+    "pronoun": "",
     "roles": ["Project Manager"],
     "department": "Casey Eye Institute",
     "organization": "Oregon Health & Science University",
     "location": "Portland, OR",
     "caption": "I'm a Project Manager in support of the innovative and committed team in the Tools module.",
     "image": "https://ucarecdn.com/afc112d5-7a40-4963-8ad5-af05274ee55b/",
+    "moduleImageParams": "",
     "modules": ["tools"],
     "social": {}
   },
   {
     "id": "Sanjay-Soundarajan",
     "name": "Sanjay Soundarajan",
+    "pronoun": "he/him",
     "roles": ["Front End Developer"],
     "department": "FAIR Data Innovations Hub",
     "organization": "California Medical Innovations Institute",
@@ -205,6 +222,7 @@
   {
     "id": "Joseph-Yracheta",
     "name": "Joseph Yracheta",
+    "pronoun": "",
     "roles": ["Executive Director"],
     "organization": "Native Bio-Data Consortium",
     "location": "Eagle Butte, SD",
@@ -225,12 +243,14 @@
   {
     "id": "Linda-Zangwill",
     "name": "Linda Zangwill",
+    "pronoun": "",
     "roles": ["Professor"],
     "department": "Ophthalmology",
     "organization": "University of California, San Diego",
     "location": "United States",
     "caption": "I am a Professor at the Viterbi Family Department of Ophthalmology at UCSD conducting clinical and computational research with a focus on glaucoma.  I am co-PI with Dr. Sally Baxter on the Skills and Workforce Development Module and am also site PI (with Dr. Sally Baxter as co-PI) on the Data module.",
     "image": "https://ucarecdn.com/5557fa68-a482-40f6-a2c9-d6607910c651/",
+    "moduleImageParams": "",
     "modules": ["data", "skills"],
     "social": {
       "website": ["https://shileyeye.ucsd.edu/faculty/linda-zangwill"]
@@ -239,6 +259,7 @@
   {
     "id": "Missy-Takahashi",
     "name": "Missy Takahashi",
+    "pronoun": "",
     "roles": ["Lab Manager"],
     "department": "Ophthalmology",
     "organization": "University of Washington",
@@ -254,18 +275,21 @@
   {
     "id": "Dawn-Matthies",
     "name": "Dawn Matthies",
+    "pronoun": "",
     "roles": ["Project Manager"],
     "department": "Dept. of Ophthalmology and Visual Sciences",
     "organization": "University of Alabama at Birmingham",
     "location": "Birmingham, AL",
     "caption": "I serve as the project manager for the Data Acquisition module, responsible for coordinating communication between our three data sites and supporting the development of the protocol, its implementation, and data collection.",
     "image": "https://ucarecdn.com/b674fcda-0793-4b54-9fb0-4ef8509d926a/",
+    "moduleImageParams": "",
     "modules": ["data"],
     "social": {}
   },
   {
     "id": "Samantha-Hurst",
     "name": "Samantha Hurst",
+    "pronoun": "",
     "roles": ["Project Scientist"],
     "department": "Herbert Wertheim School of Public Health",
     "organization": "University of California, San Diego",
@@ -282,6 +306,7 @@
   {
     "id": "Bhavesh-Patel",
     "name": "Bhavesh Patel",
+    "pronoun": "he/him",
     "roles": ["Associate Research Professor"],
     "department": "FAIR Data Innovations Hub",
     "organization": "California Medical Innovations Institute",
@@ -299,6 +324,7 @@
   {
     "id": "Qilu-Yu",
     "name": "Qilu Yu",
+    "pronoun": "",
     "roles": ["Biostatistician"],
     "department": "Office of Clinical and Regulatory Affairs",
     "organization": "National Center for Complementary and Integrative Health",
@@ -314,6 +340,7 @@
   {
     "id": "T-Y-Alvin-Liu",
     "name": "T. Y. Alvin Liu",
+    "pronoun": "",
     "roles": [
       "Director of the Wilmer Precision Ophthalmology Center of Excellence"
     ],
@@ -329,6 +356,7 @@
   {
     "id": "Megan-Collins",
     "name": "Megan Collins",
+    "pronoun": "",
     "roles": ["Associate Professor"],
     "department": "Wilmer Eye Institute / Berman Institute",
     "organization": "Johns Hopkins University",
@@ -346,6 +374,7 @@
   {
     "id": "Nicole-Ehrhardt",
     "name": "Nicole Ehrhardt",
+    "pronoun": "",
     "roles": ["Assistant Professor of Medicine"],
     "department": "Dept. of Medicine/ Division Endocrinology",
     "organization": "Diabetes Institute University of Washington",
@@ -359,12 +388,14 @@
   {
     "id": "Virginia-de-Sa",
     "name": "Virginia de Sa",
+    "pronoun": "",
     "roles": ["Professor"],
     "department": "Cognitive Science and Halicioglu Data Science Institute",
     "organization": "University of California, San Diego",
     "location": "San Diego, CA",
     "caption": "I'm a Professor in Cognitive Science, and Associate Director of the Halicioglu Data Science Institute at UC San Diego studying vision and learning in humans and machines as well as brain-computer interfaces.  For this project I am developing  machine learning training.",
     "image": "https://ucarecdn.com/35f10f51-bd79-4c6f-af2e-65816ed8ed44/",
+    "moduleImageParams": "",
     "modules": ["skills"],
     "social": {
       "website": ["https://pages.ucsd.edu/~desa/"]
@@ -373,6 +404,7 @@
   {
     "id": "Jennifer-Li-Pook-Than",
     "name": "Jennifer Li-Pook-Than",
+    "pronoun": "",
     "roles": ["Senior Research Associate"],
     "department": "Genetics Department, School of Medicine",
     "organization": "Stanford University",
@@ -388,6 +420,7 @@
   {
     "id": "Aaron-Lee",
     "name": "Aaron Lee",
+    "pronoun": "",
     "roles": [
       "Associate Professor in Ophthalmology",
       "C. Dan and Irene Hunter Endowed Professorship"
@@ -408,6 +441,7 @@
   {
     "id": "Cecilia-Lee",
     "name": "Cecilia Lee",
+    "pronoun": "",
     "roles": [
       "Associate Professor",
       "Klorfine Family Endowed Chair Director of Clinical Research"
@@ -417,6 +451,7 @@
     "location": "Seattle, WA",
     "caption": "TBA",
     "image": "https://ucarecdn.com/d1296592-db72-4e64-8df1-4d58bde34242/",
+    "moduleImageParams": "",
     "modules": ["data"],
     "social": {
       "website": ["https://comp.ophthalmology.uw.edu/"]
@@ -425,6 +460,7 @@
   {
     "id": "Julia-Owen",
     "name": "Julia Owen",
+    "pronoun": "",
     "roles": ["Program Manager"],
     "department": "Department of Opthalmology",
     "organization": "University of Washington",
@@ -438,6 +474,7 @@
   {
     "id": "Kate-Watkins",
     "name": "Kate Watkins",
+    "pronoun": "",
     "roles": ["Project Manager"],
     "department": "Primary Care & Population Health at Stanford Medicine ",
     "organization": "Stanford University",
@@ -451,10 +488,11 @@
   {
     "id": "Kadija-Ferryman",
     "name": "Kadija Ferryman",
+    "pronoun": "",
     "roles": ["Core Faculty"],
     "department": "Berman Institute of Bioethics",
     "organization": "Johns Hopkins University",
-    "location": "NY",
+    "location": "New York, NY",
     "caption": "I'm an anthropologist and faculty member at Johns Hopkins and I'm a module co-PI of the ETAI module. ",
     "image": "https://ucarecdn.com/ac519d4c-2f0d-49a7-abb5-2187e5c9b100/",
     "moduleImageParams": "-/crop/face/200px170p/",
@@ -466,18 +504,21 @@
   {
     "id": "Summer-Zhu",
     "name": "Summer Zhu",
+    "pronoun": "",
     "roles": ["MPH Candidate"],
     "department": "Herbert Wertheim School of Public Health and Human Longevity Science",
     "organization": "University of California, San Diego",
     "location": "San Diego, CA",
     "caption": "Summer Zhu is a Master of Public Health student at UCSD. She helps with the development of the three regional Advisory Boards. ",
     "image": "https://ucarecdn.com/cf80b7f6-aec5-4627-a4a5-4d23a674a697/",
+    "moduleImageParams": "",
     "modules": ["ethics"],
     "social": {}
   },
   {
     "id": "Aydan-Gasimova",
     "name": "Aydan Gasimova",
+    "pronoun": "she/her",
     "roles": ["Web Developer"],
     "department": "FAIR Data Innovations Hub",
     "organization": "California Medical Innovations Institute",
@@ -493,6 +534,7 @@
   {
     "id": "Michael-Snyder",
     "name": "Michael Snyder",
+    "pronoun": "",
     "roles": ["Professor and Chair"],
     "department": "Genetics",
     "organization": "Stanford University",
@@ -503,6 +545,89 @@
     "modules": ["teaming", "skills"],
     "social": {
       "website": ["https://med.stanford.edu/snyderlab.html/members5.html"]
+    }
+  },
+  {
+    "id": "Aaron-Cohen",
+    "name": "Aaron Cohen",
+    "pronoun": "",
+    "roles": ["Professor"],
+    "department": "Department of Medical Informatics and Clinical Epidemiology",
+    "organization": "Oregon Health & Science University",
+    "location": "Portland, Oregon",
+    "caption": "I am leading the OMOP implementation of the Tools module.",
+    "image": "https://ucarecdn.com/75db407a-f54a-4d20-bf7f-df0f69da4f7e/",
+    "moduleImageParams": "-/crop/face/200px130p/",
+    "modules": ["tools"],
+    "social": {
+      "website": ["https://dmice.ohsu.edu/cohenaa/"],
+      "linkedin": "https://www.linkedin.com/in/aaron-cohen-b526541/"
+    }
+  },
+  {
+    "id": "Christopher-Chute",
+    "name": "Christopher Chute",
+    "pronoun": "",
+    "roles": ["Professor and CRIO"],
+    "department": "",
+    "organization": "Johns Hopkins University",
+    "location": "Baltimore, MD",
+    "caption": " Dr. Chute is the Bloomberg Distinguished Professor of Health Informatics, Professor of Medicine, Public Health, and Nursing at Johns Hopkins University, and Chief Research Information Officer for Johns Hopkins Medicine. His current research focuses on translating basic science information to clinical practice, how we classify dysfunctional phenotypes (disease), and the harmonization and rendering of real-world clinical data including electronic health records to support data inferencing.",
+    "image": "https://ucarecdn.com/243bf4b0-4229-459f-b24e-9d2d4fd50aeb/",
+    "moduleImageParams": "-/crop/face/180px140p/",
+    "modules": ["standards"],
+    "social": {
+      "website": ["https://en.wikipedia.org/wiki/Christopher_G._Chute"]
+    }
+  },
+  {
+    "id": "Wei-Chun-Lin",
+    "name": "Wei-Chun Lin",
+    "pronoun": "",
+    "roles": ["Informatician 3"],
+    "department": "Casey Eye Institute",
+    "organization": "Oregon Health & Science University",
+    "location": "Portland, OR",
+    "caption": "I'm a data scientist experienced in ML model development and application. I will be working on creating tools for image quality assessment based on image quality index and CNN models.",
+    "image": "https://ucarecdn.com/bb48308f-a3c3-45c0-970f-1943a83d7d96/",
+    "moduleImageParams": "-/crop/face/190px185p/",
+    "modules": ["tools"],
+    "social": {
+      "twitter": "https://twitter.com/WEICHUNLIN04",
+      "linkedin": "https://www.linkedin.com/in/wei-chun-lin-or/"
+    }
+  },
+  {
+    "id": "Stephanie-Hong",
+    "name": "Stephanie Hong",
+    "pronoun": "she/her",
+    "roles": ["Senior Healthcare Informatics Analyst"],
+    "department": "General Internal Medicine/ Bioinformatics and Data Science",
+    "organization": "Johns Hopkins University School of Medicine",
+    "location": "Baltimore, MD",
+    "caption": "I participate in standards module.  My work focus on data harmonization and rendering of real-world clinical data to support data validation and data inferencing.",
+    "image": "https://ucarecdn.com/03b1aba4-ad21-4b22-a7b2-e0872c6ad401/",
+    "moduleImageParams": "-/crop/face/200px150p/",
+    "modules": ["standards"],
+    "social": {
+      "github": "https://github.com/stephanieshong",
+      "linkedin": "https://www.linkedin.com/in/stephanie-s-hong-315766a/"
+    }
+  },
+  {
+    "id": "Adrienne-Baer",
+    "name": "Adrienne Baer",
+    "pronoun": "",
+    "roles": ["PhD Student"],
+    "department": "Management Science & Engineering - Center for Work, Technology, and Organization",
+    "organization": "Stanford University",
+    "location": "Stanford, CA",
+    "caption": "I am a scholar of organizations and social change. As a researcher on the Teaming module, I use qualitative and quantitative methods to explore how our larger AI-READI team coordinates and collaborates in pursuit of technological and societal advancement.",
+    "image": "https://ucarecdn.com/d537c494-87c0-456d-aa17-4ced5ceca4ba/-/crop/face/200px170p/",
+    "moduleImageParams": "-/crop/face/180px140p/",
+    "modules": ["teaming"],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/adriennebaer/"
     }
   }
 ]

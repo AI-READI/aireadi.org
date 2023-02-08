@@ -1,6 +1,7 @@
 import { AiFillGithub } from 'react-icons/ai';
 import { FaLeanpub } from 'react-icons/fa';
 import { HiOutlineGlobe } from 'react-icons/hi';
+import { RiSurveyFill } from 'react-icons/ri';
 
 const ResourcesItemIcon: React.FC<{ type: string }> = ({ type }) => {
   return (
@@ -8,6 +9,7 @@ const ResourcesItemIcon: React.FC<{ type: string }> = ({ type }) => {
       {type === 'publication' && <FaLeanpub size={24} />}
       {type === 'github' && <AiFillGithub size={24} />}
       {type === 'website' && <HiOutlineGlobe size={24} />}
+      {type === 'survey' && <RiSurveyFill size={24} />}
     </div>
   );
 };

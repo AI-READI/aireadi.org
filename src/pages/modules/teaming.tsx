@@ -1,22 +1,15 @@
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
-import { motion } from 'framer-motion';
-import { InferGetStaticPropsType } from 'next';
-import Image from 'next/image';
-import { getPlaiceholder } from 'plaiceholder';
 
 import HeroCroppedImage from '@/components/hero/HeroCroppedImage';
 import ResourcesItemIcon from '@/components/icons/ResourcesItemIcon';
 import Layout from '@/components/layout/Layout';
 import UnstyledLink from '@/components/links/UnstyledLink';
+import ModuleMembers from '@/components/modules/ModuleMembers';
 import Seo from '@/components/Seo';
 
-import { FramerContainer, FramerItem } from '@/utils/framer';
+import ModuleMembersFilter from '@/utils/moduleMembersFilter';
 
-import TEAM_JSON from '~/data/team.json';
-
-const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
-  TeamMembers,
-}) => (
+const TeamingModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
   <>
     <SkipNavLink>Skip to content</SkipNavLink>
 
@@ -29,8 +22,8 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
         <HeroCroppedImage
           title='Teaming'
-          image='https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
-          tagline='Bringing together multidisciplinary teams.'
+          image='https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+          tagline='Applying and advancing team science while transforming our AI-READI project from a multidisciplinary endeavor into a high-performing, interdisciplinary collaboration.'
           showButtons={false}
           primaryButton='Learn more about the study'
         />
@@ -42,24 +35,22 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                 Overview of the Teaming Module
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Empower Developers, IT Ops, and business teams to collaborate at
-                high velocity. Respond to changes and deliver great customer and
-                employee service experiences fast.
+                The Teaming module is working across AI-READI modules to develop
+                an effective multi-team system, capable of achieving individual
+                module, AI-READI, and Bridge2AI goals to create and share a
+                flagship, ethically sourced, dataset for Type 2 diabetes.
               </p>
             </div>
             <div>
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Track work across the enterprise through an open, collaborative
-                platform. Link issues across Jira and ingest data from other
-                software development tools, so your IT support and operations
-                teams have richer contextual information to rapidly respond to
-                requests, incidents, and changes.
-              </p>
-              <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Deliver great service experiences fast - without the complexity
-                of traditional ITSM solutions. Accelerate critical development
-                work, eliminate toil, and deploy changes with ease, with a
-                complete audit trail for every change.
+                We are applying team science by recognizing boundaries and
+                interaction patterns of our multi-team system; and analyzing and
+                intervening on interaction patterns to promote teaming. We are
+                advancing team science by leveraging quantitative and
+                qualitative methods to develop new understanding about teaming
+                across disciplinary and community interfaces. We also support
+                AI-READI's committee charged with achieving our Plan for
+                Enhancing Diverse Perspectives.
               </p>
             </div>
           </div>
@@ -83,7 +74,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                   <div className='pt-2'>
                     <UnstyledLink
                       href={resource.link}
-                      className='flex w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+                      className='flex w-auto items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
                     >
                       <p className='text-xl font-medium'>{resource.title}</p>
                     </UnstyledLink>
@@ -97,71 +88,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
           </div>
         </section>
 
-        <section className='bg-white '>
-          <div className='mx-auto max-w-screen-xl py-8 px-4 text-center lg:py-16 lg:px-6'>
-            <div className='mx-auto mb-6 max-w-screen-sm lg:mb-8'>
-              <h2 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>
-                Module Members
-              </h2>
-
-              <p className='mb-4 text-xl font-medium text-slate-600'>
-                Meet the people behind the scenes who make it all happen.
-              </p>
-            </div>
-
-            <motion.div
-              variants={FramerContainer}
-              initial='hidden'
-              whileInView='show'
-              viewport={{ once: true }}
-              className='grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-8'
-            >
-              {TeamMembers.map((member) => (
-                <motion.div
-                  variants={FramerItem}
-                  key={member.id}
-                  id={member.id}
-                >
-                  <UnstyledLink href={`/team#${member.id}`} key={member.id}>
-                    <div
-                      className='h-full cursor-pointer rounded-lg border-solid bg-slate-100 px-4 py-4 transition-all hover:bg-sky-100'
-                      key={member.name}
-                    >
-                      <div className='relative mx-auto mb-2 min-h-[350px] w-full sm:min-h-[250px]'>
-                        <Image
-                          src={`${member.image}${
-                            member.moduleImageParams != ''
-                              ? member.moduleImageParams
-                              : ''
-                          }`}
-                          alt={member.name + ' image'}
-                          fill
-                          placeholder='blur'
-                          blurDataURL={member.blurDataURL}
-                          className='h-full w-full rounded-lg object-cover object-top'
-                          sizes='(max-width: 768px) 100vw, 50vw'
-                        />
-                      </div>
-
-                      <h3 className='pt-4 pb-1 text-2xl font-extrabold text-slate-800'>
-                        {member.name}
-                      </h3>
-
-                      {member.roles.map((role, index) => (
-                        <p
-                          className='text-sm font-medium text-slate-600'
-                          key={index}
-                        >
-                          {role}
-                        </p>
-                      ))}
-                    </div>
-                  </UnstyledLink>
-                </motion.div>
-              ))}
-            </motion.div>
-          </div>
-        </section>
+        <ModuleMembers Team={TeamMembers} />
       </main>
     </Layout>
   </>
@@ -169,52 +96,16 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
 const Resources = [
   {
-    title: 'Data Acquisition Module',
-    description: 'A collection of resources to help you get started.',
-    link: '/data',
-    type: 'publication',
-  },
-  {
-    title: 'Github',
-    description: 'A collection of resources to help you get started.',
-    link: '/data',
-    type: 'github',
+    title: 'Multi-team system baseline questionnaire',
+    description:
+      'You are invited to participate in a questionnaire about how individuals, teams, and systems of teams collaborate and coordinate to create an ethically sourced dataset for use with artificial intelligence.',
+    link: 'https://stanforduniversity.qualtrics.com/jfe/form/SV_2rz7byaK1HPwX9c',
+    type: 'survey',
   },
 ];
 
 export const getStaticProps = async () => {
-  let TeamMembers = await Promise.all(
-    TEAM_JSON.map(async (member) => {
-      const {
-        base64,
-        // eslint-disable-next-line unused-imports/no-unused-vars
-        img: { width, height, ...img },
-      } = await getPlaiceholder(member.image);
-
-      return {
-        ...img,
-        alt: `${member.name} profile picture`,
-        ...member,
-        blurDataURL: base64,
-      };
-    })
-  ).then((values) => values);
-
-  // only keep members in the standards module
-  TeamMembers = TeamMembers.filter((member) =>
-    member.modules.includes('teaming')
-  );
-
-  // sort by name
-  TeamMembers.sort((a, b) => {
-    if (a.name < b.name) {
-      return -1;
-    }
-    if (a.name > b.name) {
-      return 1;
-    }
-    return 0;
-  });
+  const TeamMembers = await ModuleMembersFilter('teaming');
 
   return {
     props: {
@@ -223,4 +114,4 @@ export const getStaticProps = async () => {
   };
 };
 
-export default TeamPage;
+export default TeamingModule;

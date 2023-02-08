@@ -8,6 +8,10 @@ import remarkParse from 'remark-parse';
 import remarkRehype from 'remark-rehype';
 import { unified } from 'unified';
 
+/**
+ * Converts markdown to HTML
+ * @param markdown Markdown string
+ */
 export default async function markdownToHtml(markdown: string) {
   const result = await unified()
     .use(remarkParse)
