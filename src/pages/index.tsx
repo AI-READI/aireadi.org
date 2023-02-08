@@ -51,18 +51,18 @@ export default function HomePage() {
 
               <div className='col-span-12'>
                 <div className='relative flex w-max flex-col space-y-2 sm:flex-row sm:space-y-0 sm:space-x-4'>
-                  <ButtonLink href='/study' variant='primary'>
+                  <ButtonLink href='https://fairhub.io' variant='primary'>
+                    View our data
+                  </ButtonLink>
+                  <ButtonLink href='/study' variant='dark' className='hidden'>
                     Enroll in the study
                   </ButtonLink>
                   <ButtonLink
                     href='/mentorship'
                     variant='outline'
-                    className='bg-slate-100'
+                    className='hidden bg-slate-100'
                   >
                     Join our mentorship program
-                  </ButtonLink>
-                  <ButtonLink href='https://fairhub.io' variant='dark'>
-                    View our data
                   </ButtonLink>
                 </div>
               </div>

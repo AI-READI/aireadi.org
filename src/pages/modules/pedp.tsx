@@ -30,7 +30,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
         <HeroCroppedImage
           title='Plan for Enhancing Diverse Perspectives'
           image='https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
-          tagline='Add tagline here.'
+          tagline='A cross disciplinary PEDP Committee focused on better understanding and finding tangible, equitable strategies to enhance diversity in the realm of AI/ML and health'
           showButtons={false}
           primaryButton='Learn more about the study'
         />
@@ -42,30 +42,39 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                 Overview of the Plan for Enhancing Diverse Perspectives
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Empower Developers, IT Ops, and business teams to collaborate at
-                high velocity. Respond to changes and deliver great customer and
-                employee service experiences fast.
+                An early outcome to gauge and enhance diverse perspectives is
+                the formation of the AI-READI PEDP Committee with
+                representative(s) from each module.
+              </p>
+              <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
+                Our mission is to reduce gaps in AI/ML health disparity.
               </p>
             </div>
             <div>
-              <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Track work across the enterprise through an open, collaborative
-                platform. Link issues across Jira and ingest data from other
-                software development tools, so your IT support and operations
-                teams have richer contextual information to rapidly respond to
-                requests, incidents, and changes.
-              </p>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Deliver great service experiences fast - without the complexity
-                of traditional ITSM solutions. Accelerate critical development
-                work, eliminate toil, and deploy changes with ease, with a
-                complete audit trail for every change.
+                The PEDP Committee approaches will include assessment and
+                understanding of current state AI/ML and precision health
+                approaches, and account for the inclusion of underrepresented
+                and traditionally underemphasized voices within- and between-
+                modules, and across skill levels, and among diverse communities.
               </p>
+              <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
+                Our PEDP Committee is focused on assessing inclusion and
+                equitable strategies to enhance diversity across three themes:
+              </p>
+              <ul className='list mb-3 list-disc text-lg font-normal text-gray-700'>
+                <li>Cross-discipline</li>
+                <li>Across skill levels</li>
+                <li>
+                  insights from diverse locations and populations (led by ETAI)
+                </li>
+              </ul>
+              <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'></p>
             </div>
           </div>
         </section>
 
-        <section className='bg-white'>
+        <section className='hidden bg-white'>
           <div className='mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6'>
             <div className='mx-auto mb-6 max-w-screen-sm text-center lg:mb-8'>
               <h2 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>

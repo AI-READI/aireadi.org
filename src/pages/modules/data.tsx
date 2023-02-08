@@ -30,7 +30,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
         <HeroCroppedImage
           title='Data Acquisition'
           image='https://images.unsplash.com/photo-1640158615573-cd28feb1bf4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80'
-          tagline='Collecting data across multiple sites.'
+          tagline='Develop and implement a protocol that will generate a diverse and ethically-sourced dataset for the study of type 2 diabetes.'
           showButtons={false}
           primaryButton='Learn more about the study'
         />
@@ -42,25 +42,31 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                 Overview of the Data Acquisition Module
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Empower Developers, IT Ops, and business teams to collaborate at
-                high velocity. Respond to changes and deliver great customer and
-                employee service experiences fast.
+                The University of Alabama at Birmingham (UAB) will oversee and
+                coordinate data acquisition activities over 3 sites: UAB,
+                University of California San Diego (UCSD) and University of
+                Washington (UW).
               </p>
             </div>
-            <div>
+            <div className=''>
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Track work across the enterprise through an open, collaborative
-                platform. Link issues across Jira and ingest data from other
-                software development tools, so your IT support and operations
-                teams have richer contextual information to rapidly respond to
-                requests, incidents, and changes.
+                Data is responsible for:
               </p>
-              <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Deliver great service experiences fast - without the complexity
-                of traditional ITSM solutions. Accelerate critical development
-                work, eliminate toil, and deploy changes with ease, with a
-                complete audit trail for every change.
-              </p>
+              <ul className='list mb-3 list-disc text-lg font-normal text-gray-700'>
+                <li>Determining all domains and variables for the dataset.</li>
+                <li>Developing the protocol.</li>
+                <li>Drafting the Manual of Procedures (MOP).</li>
+                <li>
+                  Implementing the protocol for data collection, starting with
+                  the hiring, training, and certification of Clinical Research
+                  Coordinators (CRCs), followed by the enrollment of
+                  participants and participant visits.
+                </li>
+                <li>
+                  Overseeing the biorepository storage of biospecimens at UAB
+                  for future ancillary studies.
+                </li>
+              </ul>
             </div>
           </div>
         </section>

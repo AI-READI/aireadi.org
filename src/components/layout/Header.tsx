@@ -47,14 +47,14 @@ const links = [
     href: '/team',
     title: 'Team',
   },
-  {
-    href: '/study',
-    title: 'Study',
-  },
-  {
-    href: '/data',
-    title: 'Data',
-  },
+  // {
+  //   href: '/study',
+  //   title: 'Study',
+  // },
+  // {
+  //   href: '/data',
+  //   title: 'Data',
+  // },
   {
     href: '/publications',
     title: 'Publications',

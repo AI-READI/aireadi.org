@@ -22,22 +22,22 @@ const footerLinks = [
   {
     title: 'Resources',
     links: [
-      {
-        title: 'Study',
-        href: '/study',
-      },
-      {
-        title: 'Resources',
-        href: '/resources',
-      },
+      // {
+      //   title: 'Study',
+      //   href: '/study',
+      // },
       {
         title: 'Publications',
         href: '/publications',
       },
       {
         title: 'GitHub',
-        href: '/components',
+        href: 'https://github.com/AI-READI',
       },
+      // {
+      //   title: 'Components',
+      //   href: '/components',
+      // },
       {
         title: 'Contact Us',
         href: '/contact',
