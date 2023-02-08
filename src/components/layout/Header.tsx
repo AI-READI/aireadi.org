@@ -21,7 +21,6 @@ import {
   useDisclosure,
 } from '@chakra-ui/react';
 import Link from 'next/link';
-import { FcBiotech } from 'react-icons/fc';
 
 import UnstyledLink from '@/components/links/UnstyledLink';
 
@@ -85,8 +84,12 @@ export default function Header() {
   return (
     <header className='sticky top-0 z-10 bg-white'>
       <div className='relative mx-auto flex h-14 max-w-screen-xl items-center justify-between'>
-        <UnstyledLink href='/' className='font-bold hover:text-gray-600'>
-          <FcBiotech size={30} />
+        <UnstyledLink
+          href='/'
+          className='pl-3 text-lg font-bold transition-all hover:text-sky-500'
+        >
+          {/* <FcBiotech size={30} /> */}
+          AI-READI
         </UnstyledLink>
 
         <nav>
@@ -130,10 +133,10 @@ export default function Header() {
             <DrawerContent>
               <DrawerCloseButton />
               <DrawerHeader>
-                <FcBiotech size={30} />
+                <div className='pl-3 text-lg font-bold '>AI-READI</div>
               </DrawerHeader>
 
-              <DrawerBody>
+              <DrawerBody className='!pb-0'>
                 <Accordion allowToggle={true}>
                   {links.map((link) => (
                     <AccordionItem key={link.title}>

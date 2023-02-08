@@ -40,7 +40,7 @@ export default function HomePage() {
               <div className='col-span-12 mr-auto place-self-center md:col-span-8'>
                 <h1 className='relative pb-5 text-4xl font-black sm:text-5xl '>
                   Artificial Intelligence Ready and Equitable Atlas for Diabetes
-                  Insights (AI-READI)
+                  Insights
                 </h1>
 
                 <p className='relative pb-5 text-xl font-medium sm:text-2xl'>
