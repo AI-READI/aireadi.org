@@ -187,7 +187,7 @@ export default function HomePage() {
                   sex.
                 </p>
 
-                <div className='relative flex space-x-4'>
+                <div className='hidden'>
                   <ButtonLink href='/study' variant='outline'>
                     Learn more about the study
                   </ButtonLink>
@@ -238,10 +238,10 @@ export default function HomePage() {
                   our approach for sharing ethical, FAIR, and AI-ready datasets.
                 </p>
 
-                <div className='relative flex space-x-4'>
-                  <Button variant='outline'>
+                <div>
+                  <ButtonLink href='/modules/tools' variant='outline'>
                     Learn more about our tools and guidelines
-                  </Button>
+                  </ButtonLink>
                 </div>
               </div>
               <div className='mt-8 grid grid-cols-2 gap-4'>
@@ -271,7 +271,7 @@ export default function HomePage() {
                   management, and sharing are addressed.
                 </p>
 
-                <div className='relative flex space-x-4'>
+                <div className='hidden'>
                   <Button variant='outline'> Learn more </Button>
                 </div>
               </div>
@@ -300,10 +300,10 @@ export default function HomePage() {
                   scientists, trainees, and communities.
                 </p>
 
-                <div className='relative flex space-x-4'>
-                  <Button variant='outline'>
-                    Learn more about our tools and guidelines
-                  </Button>
+                <div>
+                  <ButtonLink href='/modules/teaming' variant='outline'>
+                    Learn more about our team science approach
+                  </ButtonLink>
                 </div>
               </div>
               <div className='flex w-full items-center justify-center px-5 py-5'>
