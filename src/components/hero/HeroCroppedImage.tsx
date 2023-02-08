@@ -36,6 +36,7 @@ export default function HeroWithCroppedImage({
           </div>
         )}
       </div>
+      <div className='lg:col-span-1'></div>
       {image && (
         <Container className='lg:hero-cropped-clip-path p-4 lg:col-span-5 lg:mt-0 lg:flex lg:p-0'>
           <img
