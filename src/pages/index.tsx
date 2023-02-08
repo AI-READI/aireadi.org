@@ -76,7 +76,7 @@ export default function HomePage() {
                 AI-driven research in diabetes
               </h2>
               <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row'>
-                <div className='px-5 lg:max-w-2xl'>
+                <div className='md:px-5 lg:max-w-2xl'>
                   <ul className='mb-3 list-disc text-lg font-normal text-gray-700'>
                     <li>
                       AI-READI is one of the data generation projects of the
@@ -96,19 +96,20 @@ export default function HomePage() {
                     </li>
                   </ul>
 
-                  <div className='py-4'>
+                  <div className='lg:py-4'>
                     <ButtonLink
                       href='https://commonfund.nih.gov/bridge2ai'
                       variant='outline'
+                      className='text-center sm:text-left'
                     >
                       Learn more about Bridge2AI
                     </ButtonLink>
                   </div>
                 </div>
-                <div className='flex  w-full items-center justify-center px-5 py-5'>
+                <div className='flex w-full items-center justify-center px-5 py-5'>
                   <img
-                    className='h-[300px] rounded-lg'
-                    src='https://fairdataihub.org/_next/image?url=%2Fimages%2Fhero%2Faireadi-logo.png&w=1200&q=75'
+                    className='rounded-lg lg:h-[300px]'
+                    src='https://fairdataihub.org/images/hero/aireadi-logo.png'
                     alt='mockup'
                   />
                 </div>
