@@ -380,7 +380,7 @@ export default function HomePage() {
                 </p>
               </div>
 
-              <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-5'>
+              <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-4'>
                 {LogosList.map((logo, index) => (
                   <UnstyledLink href={logo.href} key={index}>
                     <div className='group relative mt-2 flex h-[120px] items-center justify-center rounded-lg bg-gray-50 p-2 transition-all hover:bg-gray-100 md:mt-0'>
@@ -392,7 +392,7 @@ export default function HomePage() {
                   </UnstyledLink>
                 ))}
               </div>
-              <div className='pt-2 text-xs text-slate-400'>
+              <div className='pt-2 text-center text-xs text-slate-400'>
                 Disclaimer: Opinions, interpretations, conclusions and
                 recommendations are those of the AI-READI project and are not
                 necessarily endorsed by the organizations mentioned on this
@@ -416,7 +416,7 @@ const StatsList = [
     text: 'Data types to be collected <br /> (vitals, electrocardiogram, etc.)',
   },
   {
-    heading: '8',
+    heading: '9',
     text: `Research institutions <br /> involved`,
   },
   {
@@ -499,12 +499,6 @@ const LogosList = [
   },
   {
     image:
-      'https://branding.web-resources.upenn.edu/sites/default/files/styles/card_3x2/public/2022-03/UniversityofPennsylvania_FullLogo_RGB-4_0.png?h=ab080a2f&itok=tu_jMFEm',
-    href: 'https://www.upenn.edu/',
-    caption: 'University of Pennsylvania',
-  },
-  {
-    image:
       'https://logos-world.net/wp-content/uploads/2021/10/Stanford-Symbol.png',
     href: 'https://www.stanford.edu/',
     caption: 'Stanford University',
@@ -520,10 +514,5 @@ const LogosList = [
       'https://www.uab.edu/toolkit/images/downloads/logos/core/centered/UAB-color-with-R-centered_FullColor.png',
     href: 'https://www.uab.edu/home/',
     caption: 'University of Alabama at Birmingham',
-  },
-  {
-    image: 'https://cdn.svgporn.com/logos/microsoft.svg',
-    href: 'https://azure.microsoft.com/en-us/',
-    caption: 'Microsoft',
   },
 ];
