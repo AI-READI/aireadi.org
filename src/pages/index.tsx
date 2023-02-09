@@ -11,7 +11,6 @@ import { MdReduceCapacity } from 'react-icons/md';
 import { RiTeamFill } from 'react-icons/ri';
 import { TbArrowNarrowRight } from 'react-icons/tb';
 
-import Button from '@/components/buttons/Button';
 import Layout from '@/components/layout/Layout';
 import ButtonLink from '@/components/links/ButtonLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
@@ -272,8 +271,10 @@ export default function HomePage() {
                   management, and sharing are addressed.
                 </p>
 
-                <div className='hidden'>
-                  <Button variant='outline'> Learn more </Button>
+                <div>
+                  <ButtonLink href='/modules/pedp' variant='outline'>
+                    Learn more about our plan for enhancing diversity
+                  </ButtonLink>
                 </div>
               </div>
               <div className='flex w-full items-center justify-center px-5 py-5'>
@@ -390,6 +391,12 @@ export default function HomePage() {
                     </div>
                   </UnstyledLink>
                 ))}
+              </div>
+              <div className='pt-2 text-xs text-slate-400'>
+                Disclaimer: Opinions, interpretations, conclusions and
+                recommendations are those of the AI-READI project and are not
+                necessarily endorsed by the organizations mentioned on this
+                website.
               </div>
             </div>
           </section>

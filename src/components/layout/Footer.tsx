@@ -89,19 +89,19 @@ export default function Footer() {
 
             <Divider orientation='horizontal' />
 
-            <div className='flex flex-col pt-6 lg:flex-row '>
-              <img
-                src='https://github.com/AI-READI/Bridge2AI-logo/blob/main/logo-color-upscaled.png?raw=true'
-                className='h-auto w-[250px]'
-                alt='FlowBite Logo'
-              />
-              <div className='flex flex-col justify-start'>
+            <div className='flex flex-col pt-6'>
+              <div className='flex flex-col justify-start '>
                 <p className='pt-2 text-sm font-medium text-sky-900'>
                   This project is funded by the NIH under award number
                   1OT2OD032644. The content on this website is solely the
                   responsibility of the authors and does not necessarily
                   represent the official views of the NIH.
                 </p>
+                <img
+                  src='https://github.com/AI-READI/Bridge2AI-logo/blob/main/logo-transparent.png?raw=true'
+                  className='h-auto w-[130px]'
+                  alt='FlowBite Logo'
+                />
               </div>
             </div>
 

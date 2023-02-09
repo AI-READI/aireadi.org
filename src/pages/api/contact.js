@@ -66,29 +66,5 @@ export default function handler(req, res) {
         res.status(400).json(response);
       }
     );
-
-    // function sendError(error) {
-    //   console.error(error);
-    //   const response = { success: false };
-    //   res.status(400).json(response);
-    // }
-
-    // sgMail
-    //   .send(ourmsg)
-    //   .then(() => {
-    //     sgMail
-    //       .send(usermsg)
-    //       .then(() => {
-    //         console.log(`Email sent`);
-    //         const response = { success: true };
-    //         res.status(200).json(response);
-    //       })
-    //       .catch((error) => {
-    //         sendError(error);
-    //       });
-    //   })
-    //   .catch((error) => {
-    //     sendError(error);
-    //   });
   }
 }
