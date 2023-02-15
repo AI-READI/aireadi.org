@@ -157,14 +157,14 @@ export default function HomePage() {
             <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center gap-16 px-8 md:flex-col'>
               <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
                 <img
-                  className='w-full rounded-lg'
-                  src='https://images.unsplash.com/photo-1656139789467-db3307d775ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
-                  alt='University of California, San Diego'
-                />
-                <img
                   className='w-full rounded-lg '
                   src='https://images.unsplash.com/photo-1649259406421-922f26d4c39a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
                   alt='University of Alabama at Birmingham'
+                />
+                <img
+                  className='w-full rounded-lg'
+                  src='https://images.unsplash.com/photo-1656139789467-db3307d775ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+                  alt='University of California, San Diego'
                 />
                 <img
                   className='w-full rounded-lg '
