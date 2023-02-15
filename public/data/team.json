@@ -449,9 +449,9 @@
     "department": "Department of Ophthalmology",
     "organization": "University of Washington",
     "location": "Seattle, WA",
-    "caption": "TBA",
-    "image": "https://ucarecdn.com/d1296592-db72-4e64-8df1-4d58bde34242/",
-    "moduleImageParams": "",
+    "caption": "I serve as the Program Director of the overall AI-READI project and the Site PI of the University of Washington clinical site for the Data Module. My interests include 'Big Data' research involving electronic medical records and non-invasive imaging datasets in retina. I am passionate about leveraging large datasets and next generation computational approaches to better understand deep connections between the eyes and other critical systemic diseases.",
+    "image": "https://ucarecdn.com/4d9dcdd5-42b7-4cd6-8f9a-f16e66b917a8/",
+    "moduleImageParams": "-/crop/face/200px150p/",
     "modules": ["data"],
     "social": {
       "website": ["https://comp.ophthalmology.uw.edu/"]
