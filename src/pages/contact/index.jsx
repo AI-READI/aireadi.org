@@ -22,7 +22,7 @@ export default function ContactUs() {
 
   const errorNotify = () =>
     toast.error(
-      ` Something went wrong! Please try again later or send us an email at contact@fairdataihub.org`,
+      ` Something went wrong! Please try again later or send us an email at contact@aireadi.org`,
       {
         position: `bottom-right`,
         autoClose: 5000,
