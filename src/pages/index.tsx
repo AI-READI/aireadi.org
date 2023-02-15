@@ -384,7 +384,11 @@ export default function HomePage() {
                 {LogosList.map((logo, index) => (
                   <UnstyledLink href={logo.href} key={index}>
                     <div className='group relative mt-2 flex h-[120px] items-center justify-center rounded-lg bg-gray-50 p-2 transition-all hover:bg-gray-100 md:mt-0'>
-                      <img src={logo.image} alt='' className='h-12' />
+                      <img
+                        src={logo.image}
+                        alt=''
+                        className={logo.imageHeight}
+                      />
                       <span className='absolute bottom-[-5px] text-sm font-medium text-slate-600 opacity-0 transition-all group-hover:bottom-1 group-hover:opacity-100 lg:text-xs'>
                         {logo.caption}
                       </span>
@@ -416,7 +420,7 @@ const StatsList = [
     text: 'Data types to be collected <br /> (vitals, electrocardiogram, etc.)',
   },
   {
-    heading: '9',
+    heading: '8',
     text: `Research institutions <br /> involved`,
   },
   {
@@ -471,47 +475,55 @@ const LogosList = [
   {
     image:
       'https://fairdataihub.org/_next/image?url=%2Fimages%2Fcollaborators%2Fcalmi-logo.png&w=256&q=75',
+    imageHeight: 'h-12',
     href: 'https://calmi2.org/',
     caption: 'California Medical Innovations Institute',
   },
   {
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/University_of_Washington_signature.svg/1280px-University_of_Washington_signature.svg.png',
+    imageHeight: 'h-12',
     href: 'https://www.washington.edu/',
     caption: 'University of Washington',
   },
   {
     image:
       'https://logos-download.com/wp-content/uploads/2019/06/Oregon_Health__Science_University_Logo_full.png',
+    imageHeight: 'h-12',
     href: 'https://www.ohsu.edu/',
     caption: 'Oregon Health & Science University',
   },
   {
     image:
       'https://1000logos.net/wp-content/uploads/2022/07/Johns-Hopkins-University-Logo.png',
+    imageHeight: 'h-12',
     href: 'https://www.jhu.edu/',
     caption: 'Johns Hopkins University',
   },
   {
     image: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/UCSD_logo.png',
+    imageHeight: 'h-8',
     href: 'https://ucsd.edu/',
     caption: 'University of California, San Diego',
   },
   {
     image:
       'https://logos-world.net/wp-content/uploads/2021/10/Stanford-Symbol.png',
+    imageHeight: 'h-12',
     href: 'https://www.stanford.edu/',
     caption: 'Stanford University',
   },
   {
     image:
       'https://nativebio.org/wp-content/uploads/2020/12/NBDC_web_logo_transparent_340x156.png',
+    imageHeight: 'h-12',
     href: 'https://nativebio.org/',
     caption: 'Native BioData Consortium',
   },
   {
     image:
       'https://www.uab.edu/toolkit/images/downloads/logos/core/centered/UAB-color-with-R-centered_FullColor.png',
+    imageHeight: 'h-12',
     href: 'https://www.uab.edu/home/',
     caption: 'University of Alabama at Birmingham',
   },
