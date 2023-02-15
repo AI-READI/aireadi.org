@@ -1,22 +1,4 @@
-import styled from '@emotion/styled';
-
 import Button from '@/components/buttons/Button';
-
-const Container = styled.section`
-  &:before {
-    content: '';
-    background-image: url(https://images.unsplash.com/photo-1583912086096-8c60d75a53f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    filter: brightness(0.4);
-  }
-`;
 
 export default function HeroImageBackground({
   title,
@@ -27,7 +9,6 @@ export default function HeroImageBackground({
   secondaryButton,
 }: HeroContent) {
   return (
-    // <Container className='relative flex h-[70vh] w-full items-center justify-center  text-white sm:h-[40vh]'>
     <section
       className={
         `relative flex h-[60vh] w-full items-center justify-center text-white md:h-[40vh] ` +
@@ -61,6 +42,5 @@ export default function HeroImageBackground({
         </div>
       </div>
     </section>
-    // </Container>
   );
 }
