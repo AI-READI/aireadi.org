@@ -30,7 +30,7 @@ Website of the AI-READI project
     <img src="https://raw.githubusercontent.com/fairdataihub/FAIRshare/main/badge.svg" alt="Curated with FAIRshare" />
   </a>
 </p>
-   
+
 <h4>
     <a href="https://dev.aireadi.org">Documentation</a>
   <span> · </span>
@@ -76,13 +76,13 @@ conda install -c conda-forge yarn nodejs
 Clone the project
 
 ```sh
-https://github.com/AI-READI/dev.fairhub.io.git
+https://github.com/AI-READI/aireadi.org.git
 ```
 
 Go to the project directory
 
 ```sh
-cd dev.fairhub.io
+cd aireadi.org
 ```
 
 Install dependencies
@@ -110,12 +110,12 @@ yarn start
 
 This repository is automatically deployed to [Azure](https://azure.microsoft.com/en-us/) on every push to the repository. If you need to reference a specific branch or pull request, you can do so by using the following URL pattern:
 
-- https://yellow-mud-0c2b16f10-<BRANCH_NAME>.centralus.2.azurestaticapps.net/
-- https://yellow-mud-0c2b16f10-<GITHUB_PR_NUMBER>.centralus.2.azurestaticapps.net/
+- <https://yellow-mud-0c2b16f10-<BRANCH_NAME>.centralus.2.azurestaticapps.net/>
+- <https://yellow-mud-0c2b16f10-<GITHUB_PR_NUMBER>.centralus.2.azurestaticapps.net/>
 
 **Note:** All punctuation in the branch name will be removed when creating the URL.
 
-The `production` branch is automatically deployed to the following URL: https://aireadi.org
+The `production` branch is automatically deployed to the following URL: <https://aireadi.org>
 
 ## Contributing
 
