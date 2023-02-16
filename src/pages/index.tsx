@@ -481,37 +481,10 @@ const LogosList = [
   },
   {
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/University_of_Washington_signature.svg/1280px-University_of_Washington_signature.svg.png',
-    imageHeight: 'h-12',
-    href: 'https://www.washington.edu/',
-    caption: 'University of Washington',
-  },
-  {
-    image:
-      'https://logos-download.com/wp-content/uploads/2019/06/Oregon_Health__Science_University_Logo_full.png',
-    imageHeight: 'h-12',
-    href: 'https://www.ohsu.edu/',
-    caption: 'Oregon Health & Science University',
-  },
-  {
-    image:
       'https://1000logos.net/wp-content/uploads/2022/07/Johns-Hopkins-University-Logo.png',
     imageHeight: 'h-12',
     href: 'https://www.jhu.edu/',
     caption: 'Johns Hopkins University',
-  },
-  {
-    image: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/UCSD_logo.png',
-    imageHeight: 'h-8',
-    href: 'https://ucsd.edu/',
-    caption: 'University of California, San Diego',
-  },
-  {
-    image:
-      'https://logos-world.net/wp-content/uploads/2021/10/Stanford-Symbol.png',
-    imageHeight: 'h-12',
-    href: 'https://www.stanford.edu/',
-    caption: 'Stanford University',
   },
   {
     image:
@@ -522,9 +495,36 @@ const LogosList = [
   },
   {
     image:
+      'https://cdn.freelogovectors.net/wp-content/uploads/2022/01/ohsu-logo-freelogovectors.net_.png',
+    imageHeight: 'h-12',
+    href: 'https://www.ohsu.edu/',
+    caption: 'Oregon Health & Science University',
+  },
+  {
+    image:
+      'https://logos-world.net/wp-content/uploads/2021/10/Stanford-Symbol.png',
+    imageHeight: 'h-12',
+    href: 'https://www.stanford.edu/',
+    caption: 'Stanford University',
+  },
+  {
+    image:
       'https://www.uab.edu/toolkit/images/downloads/logos/core/centered/UAB-color-with-R-centered_FullColor.png',
     imageHeight: 'h-12',
     href: 'https://www.uab.edu/home/',
     caption: 'University of Alabama at Birmingham',
+  },
+  {
+    image: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/UCSD_logo.png',
+    imageHeight: 'h-8',
+    href: 'https://ucsd.edu/',
+    caption: 'University of California, San Diego',
+  },
+  {
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/University_of_Washington_signature.svg/1280px-University_of_Washington_signature.svg.png',
+    imageHeight: 'h-12',
+    href: 'https://www.washington.edu/',
+    caption: 'University of Washington',
   },
 ];
