@@ -77,7 +77,7 @@
     "caption": "Principal Investigator for the AI-READI Teaming Module, more generally I study teams and organizations to understand how leaders and policymakers can improve the safety, quality, equity of health and health care delivery through changes in institutional culture, leadership, organization design, and team dynamics.",
     "image": "https://ucarecdn.com/1c5d4200-3c52-43da-aa5a-08de14bf2095/",
     "moduleImageParams": "-/crop/face/200px160p/",
-    "modules": ["teaming"],
+    "modules": ["teaming", "pedp"],
     "social": {
       "website": [
         "https://www.gsb.stanford.edu/faculty-research/faculty/sara-singer"
@@ -97,7 +97,7 @@
     "caption": "I'm a human geneticist by training, but all of my work is on ethical and policy issues raised by emerging technologies, including genetics, neuroscience, regenerative medicine, synthetic biology, and AI, including through work with the ETAI module of AI-READI.",
     "image": "https://ucarecdn.com/4f24eb91-9978-4c78-a893-dff0a72fbcad/-/crop/face/200px150p/",
     "moduleImageParams": "",
-    "modules": ["ethics"],
+    "modules": ["ethics", "pedp"],
     "social": {
       "website": ["https://bioethics.jhu.edu/people/profile/debra-mathews/"]
     }
@@ -180,7 +180,7 @@
     "caption": "Dr. Crist's research is focused on how behavioral and built environment interventions impact physical activity and health. She brings her experience using wearable technologies to monitor behaviors and environmental exposures to the ETAI module.",
     "image": "https://ucarecdn.com/7a30d83c-385a-4179-8785-c07ab0477180/",
     "moduleImageParams": "-/crop/face/200px140p/",
-    "modules": ["ethics"],
+    "modules": ["ethics", "pedp"],
     "social": {
       "website": ["https://trolleystudy.ucsd.edu/home"],
       "linkedin": "https://www.linkedin.com/in/katiecristphd/",
@@ -283,7 +283,7 @@
     "caption": "I serve as the project manager for the Data Acquisition module, responsible for coordinating communication between our three data sites and supporting the development of the protocol, its implementation, and data collection.",
     "image": "https://ucarecdn.com/b674fcda-0793-4b54-9fb0-4ef8509d926a/",
     "moduleImageParams": "",
-    "modules": ["data"],
+    "modules": ["data", "pedp"],
     "social": {}
   },
   {
@@ -297,7 +297,7 @@
     "caption": "I am a medical anthropologist centered in a public health research space.  I am an MPI in the ETAI module and the liaison and Chair for the three regional Advisory Boards supporting AI-READI data collection.",
     "image": "https://ucarecdn.com/2669ed05-21c2-4176-91c6-1153c589f760/",
     "moduleImageParams": "-/crop/face/200px200p/",
-    "modules": ["ethics", "skills"],
+    "modules": ["ethics", "skills", "pedp"],
     "social": {
       "twitter": "https://twitter.com/SammHurstPhD",
       "instagram": "https://www.instagram.com/samm_hurst/"
