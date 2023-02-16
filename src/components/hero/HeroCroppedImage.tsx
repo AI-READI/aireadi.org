@@ -11,6 +11,7 @@ export default function HeroWithCroppedImage({
   title,
   tagline,
   image,
+  imageAlt = 'Alt text',
   showButtons = false,
   primaryButton,
   secondaryButton,
@@ -42,7 +43,7 @@ export default function HeroWithCroppedImage({
           <img
             src={image}
             className='rounded-lg lg:rounded-none'
-            alt='mockup'
+            alt={imageAlt}
           />
         </Container>
       )}

@@ -47,7 +47,7 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 To achieve this objective, our module is engaged in the
                 following aims:
               </p>
-              <ul className='mb-3 list-disc text-lg font-normal text-gray-700'>
+              <ul className='mb-3 list-inside list-disc text-lg font-normal text-gray-700'>
                 <li>
                   Design and implement a structured, yearlong mentored research
                   internship program to facilitate exposure to skills in AI and

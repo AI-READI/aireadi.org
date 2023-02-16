@@ -22,7 +22,8 @@ const PedpModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
 
         <HeroCroppedImage
           title='Plan for Enhancing Diverse Perspectives'
-          image='https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+          image='/images/modules/pedp-hero.jpeg'
+          imageAlt='A group of people sitting around a table at the January 2023 All-Hands First Annual AI-READI Workshop'
           tagline='A cross disciplinary PEDP Committee focused on better understanding and finding tangible, equitable strategies to enhance diversity in the realm of AI/ML and health'
           showButtons={false}
           primaryButton='Learn more about the study'
@@ -35,31 +36,34 @@ const PedpModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 Overview of the Plan for Enhancing Diverse Perspectives
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
+                Our mission is to help ensure that AI-READI and the science we
+                design and conduct works to reduce health disparities caused or
+                perpetuated by AI/ML.
+              </p>
+              <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
                 An early outcome to gauge and enhance diverse perspectives is
                 the formation of the AI-READI PEDP Committee with
                 representative(s) from each module.
               </p>
-              <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Our mission is to reduce gaps in AI/ML health disparity.
-              </p>
             </div>
             <div>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                The PEDP Committee approaches will include assessment and
-                understanding of current state AI/ML and precision health
-                approaches, and account for the inclusion of underrepresented
-                and traditionally underemphasized voices within- and between-
-                modules, and across skill levels, and among diverse communities.
+                In its work, the PEDP Committee will assess the current state of
+                AI/ML and precision health approaches, and their impact on
+                health equity, and work with the modules to implement strategies
+                to enhance inclusion of underrepresented and traditionally
+                underemphasized voices at all stages of the project.
               </p>
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Our PEDP Committee is focused on assessing inclusion and
-                equitable strategies to enhance diversity across three themes:
+                Our PEDP Committee is particularly focused on diversity and
+                inclusion with regard to:
               </p>
-              <ul className='list mb-3 list-disc text-lg font-normal text-gray-700'>
-                <li>Cross-discipline</li>
-                <li>Across skill levels</li>
+              <ul className='list mb-3 list-inside list-disc text-lg font-normal text-gray-700'>
+                <li>Insights from a range of academic disciplines</li>
+                <li>Insights from a range of skill levels</li>
                 <li>
-                  insights from diverse locations and populations (led by ETAI)
+                  Insights from diverse geographies and populations (led by
+                  ETAI)
                 </li>
               </ul>
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'></p>

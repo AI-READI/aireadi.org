@@ -50,7 +50,7 @@ const StandardsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
                 The Standards Module is responsible for:
               </p>
-              <ul className='list mb-3 list-disc text-lg font-normal text-gray-700'>
+              <ul className='list mb-3 list-inside list-disc text-lg font-normal text-gray-700'>
                 <li>
                   Selecting data standards that are at the cutting edge of open
                   source data sharing.

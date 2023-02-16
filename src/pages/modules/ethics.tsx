@@ -48,7 +48,7 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
                 The ETAI module is responsible for:
               </p>
-              <ul className='mb-3 list-disc text-lg font-normal text-gray-700'>
+              <ul className='mb-3 list-inside list-disc text-lg font-normal text-gray-700'>
                 <li>
                   Developing an in-depth needs assessment of each module on
                   their understanding of the unique ethical, legal and social

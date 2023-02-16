@@ -45,7 +45,7 @@ const DataModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
                 Data is responsible for:
               </p>
-              <ul className='list mb-3 list-disc text-lg font-normal text-gray-700'>
+              <ul className='list mb-3 list-inside list-disc text-lg font-normal text-gray-700'>
                 <li>Determining all domains and variables for the dataset.</li>
                 <li>Developing the protocol.</li>
                 <li>Drafting the Manual of Procedures (MOP).</li>

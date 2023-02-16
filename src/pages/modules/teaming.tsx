@@ -44,10 +44,10 @@ const TeamingModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
             <div>
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
                 We are applying team science by recognizing boundaries and
-                interaction patterns of our multi-team system; and analyzing and
+                interaction patterns of our multi-team system, and analyzing and
                 intervening on interaction patterns to promote teaming. We are
                 advancing team science by leveraging quantitative and
-                qualitative methods to develop new understanding about teaming
+                qualitative methods to develop a new understanding of teaming
                 across disciplinary and community interfaces. We also support
                 AI-READI's committee charged with achieving our Plan for
                 Enhancing Diverse Perspectives.
