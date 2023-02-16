@@ -21,7 +21,7 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
         <SkipNavContent />
 
         <HeroCroppedImage
-          title='Ethics'
+          title='Ethical and Trustworthy Artificial Intelligence (ETAI)'
           image='https://images.unsplash.com/photo-1503551723145-6c040742065b-v2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
           tagline='Establishing ethical guidelines for sharing AI-ready datasets.'
           showButtons={false}
@@ -32,7 +32,8 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
           <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-10 py-8 px-4 text-left md:grid-cols-2 lg:py-16 lg:px-6'>
             <div>
               <h2 className='mb-4 text-3xl font-extrabold tracking-tight sm:text-4xl'>
-                Overview of the Ethics Module
+                Overview of the Ethical and Trustworthy Artificial Intelligence
+                (ETAI) Module
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
                 The goal of the ETAI module is to establish a culture of ethical
@@ -40,11 +41,13 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
               </p>
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
                 ETAI will have continuous interactions with the other five
-                modules within AI-READI and with the Bridge2AI Center. The
-                Ethics module is responsible for:
+                modules within AI-READI and with the Bridge2AI Center.
               </p>
             </div>
             <div>
+              <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
+                The ETAI module is responsible for:
+              </p>
               <ul className='mb-3 list-disc text-lg font-normal text-gray-700'>
                 <li>
                   Developing an in-depth needs assessment of each module on
