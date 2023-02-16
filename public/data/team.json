@@ -127,7 +127,7 @@
     "caption": "I'm a computational scientist experienced in algorithm design, model development, and interactive data visualization. As part of AI-READI, I'll be building tools to enable the harmonization, comprehension, and reuse of data by researchers.",
     "image": "https://ucarecdn.com/d098c63e-30d0-4818-8362-b4668291a335/",
     "moduleImageParams": "-/crop/face/200px150p/",
-    "modules": ["data", "tools"],
+    "modules": ["tools"],
     "social": {
       "twitter": "https://twitter.com/bacordier",
       "website": ["https://www.benjamincordier.com"],

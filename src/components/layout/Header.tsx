@@ -31,7 +31,10 @@ const links = [
     title: 'Modules',
     sublinks: [
       { href: '/modules/data', title: 'Data Acquisition' },
-      { href: '/modules/ethics', title: 'Ethics' },
+      {
+        href: '/modules/ethics',
+        title: 'Ethical and Trustworthy Artificial Intelligence',
+      },
       {
         href: '/modules/pedp',
         title: 'Plan for Enhancing Diverse Perspectives',

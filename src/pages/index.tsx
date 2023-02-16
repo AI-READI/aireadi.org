@@ -437,7 +437,7 @@ const FeaturesList = [
     href: '/modules/data',
   },
   {
-    title: 'Ethics',
+    title: 'Ethical and Trustworthy AI',
     description:
       'Establishing ethical guidelines for sharing AI-ready datasets',
     icon: <GoLaw size={20} />,

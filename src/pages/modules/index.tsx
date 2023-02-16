@@ -16,7 +16,7 @@ const Modules = [
     href: '/modules/data',
   },
   {
-    title: 'Ethics',
+    title: 'Ethical and Trustworthy Artificial Intelligence',
     image:
       'https://images.unsplash.com/photo-1673286900865-ab88ead9285b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80',
     tagline: 'Establishing ethical guidelines for sharing AI-ready datasets',
