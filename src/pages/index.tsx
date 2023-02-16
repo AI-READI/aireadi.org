@@ -475,35 +475,34 @@ const LogosList = [
   {
     image:
       'https://fairdataihub.org/_next/image?url=%2Fimages%2Fcollaborators%2Fcalmi-logo.png&w=256&q=75',
-    imageHeight: 'h-12',
+    imageHeight: 'h-14',
     href: 'https://calmi2.org/',
     caption: 'California Medical Innovations Institute',
   },
   {
     image:
       'https://1000logos.net/wp-content/uploads/2022/07/Johns-Hopkins-University-Logo.png',
-    imageHeight: 'h-12',
+    imageHeight: 'h-16',
     href: 'https://www.jhu.edu/',
     caption: 'Johns Hopkins University',
   },
   {
     image:
       'https://nativebio.org/wp-content/uploads/2020/12/NBDC_web_logo_transparent_340x156.png',
-    imageHeight: 'h-12',
+    imageHeight: 'h-14',
     href: 'https://nativebio.org/',
     caption: 'Native BioData Consortium',
   },
   {
-    image:
-      'https://cdn.freelogovectors.net/wp-content/uploads/2022/01/ohsu-logo-freelogovectors.net_.png',
-    imageHeight: 'h-12',
+    image: '/images/member-orgs/ohsu.png',
+    imageHeight: 'h-16',
     href: 'https://www.ohsu.edu/',
     caption: 'Oregon Health & Science University',
   },
   {
     image:
       'https://logos-world.net/wp-content/uploads/2021/10/Stanford-Symbol.png',
-    imageHeight: 'h-12',
+    imageHeight: 'h-16',
     href: 'https://www.stanford.edu/',
     caption: 'Stanford University',
   },
