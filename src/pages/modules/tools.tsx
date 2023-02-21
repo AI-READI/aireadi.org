@@ -35,9 +35,8 @@ const ToolsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 Overview of the Tools Module
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                EThe Tools module is developing fairhub.io, a platform for
-                easily managing, preparing, and sharing FAIR and AI-ready
-                datasets.
+                The Tools module is developing fairhub.io, a platform for easily
+                managing, preparing, and sharing FAIR and AI-ready datasets.
               </p>
             </div>
             <div>
