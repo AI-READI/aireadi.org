@@ -158,7 +158,7 @@ export default function HomePage() {
               <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
                 <img
                   className='w-full rounded-lg '
-                  src='https://images.unsplash.com/photo-1649259406421-922f26d4c39a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+                  src='https://ucarecdn.com/b6105868-0deb-49d6-bb1e-7f309654f5eb/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
                   alt='University of Alabama at Birmingham'
                 />
                 <img
@@ -389,7 +389,7 @@ export default function HomePage() {
                         alt=''
                         className={logo.imageHeight}
                       />
-                      <span className='absolute bottom-[-5px] text-sm font-medium text-slate-600 opacity-0 transition-all group-hover:bottom-1 group-hover:opacity-100 lg:text-xs'>
+                      <span className='pointer-events-none absolute bottom-[-5px] text-sm font-medium text-slate-600 opacity-0 transition-all group-hover:bottom-1 group-hover:opacity-100 lg:text-xs'>
                         {logo.caption}
                       </span>
                     </div>
@@ -508,8 +508,8 @@ const LogosList = [
   },
   {
     image:
-      'https://www.uab.edu/toolkit/images/downloads/logos/core/centered/UAB-color-with-R-centered_FullColor.png',
-    imageHeight: 'h-12',
+      'https://ucarecdn.com/91c68c74-82ad-49dc-9c31-0daf608b0685/-/resize/x216/-/quality/smart/-/format/auto/',
+    imageHeight: 'h-5',
     href: 'https://www.uab.edu/home/',
     caption: 'University of Alabama at Birmingham',
   },
