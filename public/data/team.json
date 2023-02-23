@@ -629,5 +629,22 @@
     "social": {
       "linkedin": "https://www.linkedin.com/in/adriennebaer/"
     }
+  },
+  {
+    "id": "Gerald-McGwin",
+    "name": "Gerald McGwin",
+    "pronoun": "",
+    "roles": ["Professor"],
+    "department": "Department of Epidemiology",
+    "organization": "University of Alabama at Birmingham",
+    "location": "Birmingham, Alabama",
+    "caption": "I am an epidemiologist and biostatistician at the University of Alabama at Birmingham and lead the data module in collaboration with Dr. Cynthia Owsley. ",
+    "image": "https://ucarecdn.com/94fcd491-2447-40d6-ae0b-a2733bcb2e05/",
+    "moduleImageParams": "-/crop/face/200px120p/",
+    "modules": ["data"],
+    "social": {
+      "website": ["https://www.uab.edu/medicine/ophthalmology/faculty/mcgwin"],
+      "profiles": "https://scholars.uab.edu/display/mcgwin"
+    }
   }
 ]
