@@ -432,14 +432,15 @@ const StatsList = [
 const FeaturesList = [
   {
     title: 'Data Acquisition',
-    description: 'Collecting data across multiple sites',
+    description:
+      'Collecting type 2 diabetes-related data across multiple sites',
     icon: <AiFillDatabase size={20} />,
     href: '/modules/data',
   },
   {
     title: 'Ethical and Trustworthy AI',
     description:
-      'Establishing ethical guidelines for sharing AI-ready datasets',
+      'Establishing guidelines for colllecting and sharing ethically sourced data',
     icon: <GoLaw size={20} />,
     href: '/modules/ethics',
   },
@@ -452,7 +453,8 @@ const FeaturesList = [
   },
   {
     title: 'Teaming',
-    description: 'Bringing together multidisciplinary teams',
+    description:
+      'Applying and advancing team science while supporting interdisciplinary collaboration',
     icon: <RiTeamFill size={20} />,
     href: '/modules/teaming',
   },
