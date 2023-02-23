@@ -475,7 +475,7 @@ const LogosList = [
   {
     image:
       'https://fairdataihub.org/_next/image?url=%2Fimages%2Fcollaborators%2Fcalmi-logo.png&w=256&q=75',
-    imageHeight: 'h-14',
+    imageHeight: 'h-16',
     href: 'https://calmi2.org/',
     caption: 'California Medical Innovations Institute',
   },
@@ -489,13 +489,13 @@ const LogosList = [
   {
     image:
       'https://nativebio.org/wp-content/uploads/2020/12/NBDC_web_logo_transparent_340x156.png',
-    imageHeight: 'h-14',
+    imageHeight: 'h-16',
     href: 'https://nativebio.org/',
     caption: 'Native BioData Consortium',
   },
   {
     image: '/images/member-orgs/ohsu.png',
-    imageHeight: 'h-16',
+    imageHeight: 'h-20',
     href: 'https://www.ohsu.edu/',
     caption: 'Oregon Health & Science University',
   },
@@ -520,9 +520,8 @@ const LogosList = [
     caption: 'University of California, San Diego',
   },
   {
-    image:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/University_of_Washington_signature.svg/1280px-University_of_Washington_signature.svg.png',
-    imageHeight: 'h-12',
+    image: '/images/member-orgs/uw.png',
+    imageHeight: 'h-14',
     href: 'https://www.washington.edu/',
     caption: 'University of Washington',
   },
