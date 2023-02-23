@@ -294,7 +294,7 @@
     "department": "Herbert Wertheim School of Public Health",
     "organization": "University of California, San Diego",
     "location": "San Diego, CA",
-    "caption": "I am a medical anthropologist centered in a public health research space.  I am an MPI in the ETAI module and the liaison and Chair for the three regional Advisory Boards supporting AI-READI data collection.",
+    "caption": "I am a medical anthropologist and public health scientist at UC San Diego.  For this project I serve as an MPI on the ETAI module. I am also a member of the Skills and Workforce and PEDP modules.  In addition I  lead and coordinate the Citizen Advisory Boards for the project as a whole.",
     "image": "https://ucarecdn.com/2669ed05-21c2-4176-91c6-1153c589f760/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px200p/",
     "modules": ["ethics", "skills", "pedp"],
@@ -382,7 +382,7 @@
     "caption": "Dr Ehrhardt is an adult Endocrinologist at the University of Washington Diabetes Institute. Her research is focused on use of real-time continuous glucose monitoring ",
     "image": "https://ucarecdn.com/8101f543-a136-40f9-adcb-8bad871f10f6/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px150p/",
-    "modules": ["administration", "tools"],
+    "modules": ["administration"],
     "social": {}
   },
   {
