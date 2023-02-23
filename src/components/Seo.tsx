@@ -93,13 +93,13 @@ const favicons: Array<Favicons> = [
   {
     rel: 'apple-touch-icon',
     sizes: '180x180',
-    href: '/favicon/apple-touch-icon.png',
+    href: '/favicon/apple-icon.png',
   },
   {
     rel: 'icon',
     type: 'image/png',
     sizes: '192x192',
-    href: '/favicon/android-chrome-192x192.png',
+    href: '/favicon/android-icon-192x192.png',
   },
   {
     rel: 'icon',
