@@ -22,7 +22,7 @@ export default function ContactUs() {
 
   const errorNotify = () =>
     toast.error(
-      ` Something went wrong! Please try again later or send us an email at contact@fairdataihub.org`,
+      ` Something went wrong! Please try again later or send us an email at contact@aireadi.org`,
       {
         position: `bottom-right`,
         autoClose: 5000,
@@ -43,8 +43,7 @@ export default function ContactUs() {
       <SkipNavLink>Skip to content</SkipNavLink>
 
       <Layout>
-        {/* <Seo templateTitle='Home' /> */}
-        <Seo />
+        <Seo templateTitel='Contact Us' />
 
         <main>
           <SkipNavContent />

@@ -1,4 +1,6 @@
 import { render, screen } from '@testing-library/react';
+import '@types/jest';
+import '@testing-library/jest-dom/extend-expect';
 
 import NotFoundPage from '@/pages/404';
 

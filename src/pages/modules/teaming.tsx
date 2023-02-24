@@ -14,8 +14,7 @@ const TeamingModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
     <SkipNavLink>Skip to content</SkipNavLink>
 
     <Layout>
-      {/* <Seo templateTitle='Home' /> */}
-      <Seo />
+      <Seo templateTitle='Teaming' />
 
       <main>
         <SkipNavContent />
@@ -44,12 +43,12 @@ const TeamingModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
             <div>
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
                 We are applying team science by recognizing boundaries and
-                interaction patterns of our multi-team system; and analyzing and
+                interaction patterns of our multi-team system, and analyzing and
                 intervening on interaction patterns to promote teaming. We are
                 advancing team science by leveraging quantitative and
-                qualitative methods to develop new understanding about teaming
+                qualitative methods to develop a new understanding of teaming
                 across disciplinary and community interfaces. We also support
-                AI-READI’s committee charged with achieving our Plan for
+                AI-READI's committee charged with achieving our Plan for
                 Enhancing Diverse Perspectives.
               </p>
             </div>
@@ -74,7 +73,7 @@ const TeamingModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                   <div className='pt-2'>
                     <UnstyledLink
                       href={resource.link}
-                      className='flex w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+                      className='flex w-auto items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
                     >
                       <p className='text-xl font-medium'>{resource.title}</p>
                     </UnstyledLink>

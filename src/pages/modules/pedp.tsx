@@ -14,16 +14,16 @@ const PedpModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
     <SkipNavLink>Skip to content</SkipNavLink>
 
     <Layout>
-      {/* <Seo templateTitle='Home' /> */}
-      <Seo />
+      <Seo templateTitle='PEDP' />
 
       <main>
         <SkipNavContent />
 
         <HeroCroppedImage
           title='Plan for Enhancing Diverse Perspectives'
-          image='https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
-          tagline='Add tagline here.'
+          image='/images/modules/pedp-hero.jpeg'
+          imageAlt='A group of people sitting around a table at the January 2023 All-Hands First Annual AI-READI Workshop'
+          tagline='A cross disciplinary PEDP Committee focused on better understanding and finding tangible, equitable strategies to enhance diversity in the realm of AI/ML and health'
           showButtons={false}
           primaryButton='Learn more about the study'
         />
@@ -35,30 +35,42 @@ const PedpModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 Overview of the Plan for Enhancing Diverse Perspectives
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Empower Developers, IT Ops, and business teams to collaborate at
-                high velocity. Respond to changes and deliver great customer and
-                employee service experiences fast.
+                Our mission is to help ensure that AI-READI and the science we
+                design and conduct works to reduce health disparities caused or
+                perpetuated by AI/ML.
+              </p>
+              <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
+                An early outcome to gauge and enhance diverse perspectives is
+                the formation of the AI-READI PEDP Committee with
+                representative(s) from each module.
               </p>
             </div>
             <div>
-              <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Track work across the enterprise through an open, collaborative
-                platform. Link issues across Jira and ingest data from other
-                software development tools, so your IT support and operations
-                teams have richer contextual information to rapidly respond to
-                requests, incidents, and changes.
-              </p>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Deliver great service experiences fast - without the complexity
-                of traditional ITSM solutions. Accelerate critical development
-                work, eliminate toil, and deploy changes with ease, with a
-                complete audit trail for every change.
+                In its work, the PEDP Committee will assess the current state of
+                AI/ML and precision health approaches, and their impact on
+                health equity, and work with the modules to implement strategies
+                to enhance inclusion of underrepresented and traditionally
+                underemphasized voices at all stages of the project.
               </p>
+              <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
+                Our PEDP Committee is particularly focused on diversity and
+                inclusion with regard to:
+              </p>
+              <ul className='list mb-3 list-inside list-disc text-lg font-normal text-gray-700'>
+                <li>Insights from a range of academic disciplines</li>
+                <li>Insights from a range of skill levels</li>
+                <li>
+                  Insights from diverse geographies and populations (led by
+                  ETAI)
+                </li>
+              </ul>
+              <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'></p>
             </div>
           </div>
         </section>
 
-        <section className='bg-white'>
+        <section className='hidden bg-white'>
           <div className='mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6'>
             <div className='mx-auto mb-6 max-w-screen-sm text-center lg:mb-8'>
               <h2 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>
@@ -76,7 +88,7 @@ const PedpModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                   <div className='pt-2'>
                     <UnstyledLink
                       href={resource.link}
-                      className='flex w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+                      className='flex items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
                     >
                       <p className='text-xl font-medium'>{resource.title}</p>
                     </UnstyledLink>

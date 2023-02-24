@@ -1,6 +1,6 @@
 # Cookie Policy
 
-**Last updated January 17, 2023**
+**Last updated February 08, 2023**
 
 ## What Are Cookies?
 

@@ -11,10 +11,10 @@ import { MdReduceCapacity } from 'react-icons/md';
 import { RiTeamFill } from 'react-icons/ri';
 import { TbArrowNarrowRight } from 'react-icons/tb';
 
-import Button from '@/components/buttons/Button';
 import Layout from '@/components/layout/Layout';
 import ButtonLink from '@/components/links/ButtonLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
+import Seo from '@/components/Seo';
 
 /**
  * SVGR Support
@@ -30,6 +30,8 @@ export default function HomePage() {
       <SkipNavLink>Skip to content</SkipNavLink>
 
       <Layout>
+        <Seo templateTitle='Home' />
+
         <main>
           <SkipNavContent />
 
@@ -40,7 +42,7 @@ export default function HomePage() {
               <div className='col-span-12 mr-auto place-self-center md:col-span-8'>
                 <h1 className='relative pb-5 text-4xl font-black sm:text-5xl '>
                   Artificial Intelligence Ready and Equitable Atlas for Diabetes
-                  Insights (AI-READI)
+                  Insights
                 </h1>
 
                 <p className='relative pb-5 text-xl font-medium sm:text-2xl'>
@@ -51,18 +53,18 @@ export default function HomePage() {
 
               <div className='col-span-12'>
                 <div className='relative flex w-max flex-col space-y-2 sm:flex-row sm:space-y-0 sm:space-x-4'>
-                  <ButtonLink href='/study' variant='primary'>
+                  <ButtonLink href='https://fairhub.io' variant='primary'>
+                    View our data
+                  </ButtonLink>
+                  <ButtonLink href='/study' variant='dark' className='hidden'>
                     Enroll in the study
                   </ButtonLink>
                   <ButtonLink
                     href='/mentorship'
                     variant='outline'
-                    className='bg-slate-100'
+                    className='hidden bg-slate-100'
                   >
                     Join our mentorship program
-                  </ButtonLink>
-                  <ButtonLink href='https://fairhub.io' variant='dark'>
-                    View our data
                   </ButtonLink>
                 </div>
               </div>
@@ -76,7 +78,7 @@ export default function HomePage() {
                 AI-driven research in diabetes
               </h2>
               <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row'>
-                <div className='px-5 lg:max-w-2xl'>
+                <div className='md:px-5 lg:max-w-2xl'>
                   <ul className='mb-3 list-disc text-lg font-normal text-gray-700'>
                     <li>
                       AI-READI is one of the data generation projects of the
@@ -96,19 +98,20 @@ export default function HomePage() {
                     </li>
                   </ul>
 
-                  <div className='py-4'>
+                  <div className='lg:py-4'>
                     <ButtonLink
                       href='https://commonfund.nih.gov/bridge2ai'
                       variant='outline'
+                      className='text-center sm:text-left'
                     >
                       Learn more about Bridge2AI
                     </ButtonLink>
                   </div>
                 </div>
-                <div className='flex  w-full items-center justify-center px-5 py-5'>
+                <div className='flex w-full items-center justify-center px-5 py-5'>
                   <img
-                    className='h-[300px] rounded-lg'
-                    src='https://fairdataihub.org/_next/image?url=%2Fimages%2Fhero%2Faireadi-logo.png&w=1200&q=75'
+                    className='rounded-lg lg:h-[300px]'
+                    src='https://fairdataihub.org/images/hero/aireadi-logo.png'
                     alt='mockup'
                   />
                 </div>
@@ -157,14 +160,14 @@ export default function HomePage() {
             <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center gap-16 px-8 md:flex-col'>
               <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
                 <img
+                  className='w-full rounded-lg '
+                  src='https://ucarecdn.com/b6105868-0deb-49d6-bb1e-7f309654f5eb/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
+                  alt='University of Alabama at Birmingham'
+                />
+                <img
                   className='w-full rounded-lg'
                   src='https://images.unsplash.com/photo-1656139789467-db3307d775ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
                   alt='University of California, San Diego'
-                />
-                <img
-                  className='w-full rounded-lg '
-                  src='https://images.unsplash.com/photo-1649259406421-922f26d4c39a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
-                  alt='University of Alabama at Birmingham'
                 />
                 <img
                   className='w-full rounded-lg '
@@ -187,7 +190,7 @@ export default function HomePage() {
                   sex.
                 </p>
 
-                <div className='relative flex space-x-4'>
+                <div className='hidden'>
                   <ButtonLink href='/study' variant='outline'>
                     Learn more about the study
                   </ButtonLink>
@@ -229,7 +232,7 @@ export default function HomePage() {
               <div>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
                   Tools and best practices to help future data generation
-                  project
+                  projects
                 </h1>
 
                 <p className='mb-6 text-lg font-normal text-gray-700 sm:mb-4'>
@@ -238,10 +241,10 @@ export default function HomePage() {
                   our approach for sharing ethical, FAIR, and AI-ready datasets.
                 </p>
 
-                <div className='relative flex space-x-4'>
-                  <Button variant='outline'>
+                <div>
+                  <ButtonLink href='/modules/tools' variant='outline'>
                     Learn more about our tools and guidelines
-                  </Button>
+                  </ButtonLink>
                 </div>
               </div>
               <div className='mt-8 grid grid-cols-2 gap-4'>
@@ -271,8 +274,10 @@ export default function HomePage() {
                   management, and sharing are addressed.
                 </p>
 
-                <div className='relative flex space-x-4'>
-                  <Button variant='outline'> Learn more </Button>
+                <div>
+                  <ButtonLink href='/modules/pedp' variant='outline'>
+                    Learn more about our plan for enhancing diversity
+                  </ButtonLink>
                 </div>
               </div>
               <div className='flex w-full items-center justify-center px-5 py-5'>
@@ -300,10 +305,10 @@ export default function HomePage() {
                   scientists, trainees, and communities.
                 </p>
 
-                <div className='relative flex space-x-4'>
-                  <Button variant='outline'>
-                    Learn more about our tools and guidelines
-                  </Button>
+                <div>
+                  <ButtonLink href='/modules/teaming' variant='outline'>
+                    Learn more about our team science approach
+                  </ButtonLink>
                 </div>
               </div>
               <div className='flex w-full items-center justify-center px-5 py-5'>
@@ -378,17 +383,27 @@ export default function HomePage() {
                 </p>
               </div>
 
-              <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-5'>
+              <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-4'>
                 {LogosList.map((logo, index) => (
                   <UnstyledLink href={logo.href} key={index}>
                     <div className='group relative mt-2 flex h-[120px] items-center justify-center rounded-lg bg-gray-50 p-2 transition-all hover:bg-gray-100 md:mt-0'>
-                      <img src={logo.image} alt='' className='h-12' />
-                      <span className='absolute bottom-[-5px] text-sm font-medium text-slate-600 opacity-0 transition-all group-hover:bottom-1 group-hover:opacity-100 lg:text-xs'>
+                      <img
+                        src={logo.image}
+                        alt=''
+                        className={logo.imageHeight}
+                      />
+                      <span className='pointer-events-none absolute bottom-[-5px] text-sm font-medium text-slate-600 opacity-0 transition-all group-hover:bottom-1 group-hover:opacity-100 lg:text-xs'>
                         {logo.caption}
                       </span>
                     </div>
                   </UnstyledLink>
                 ))}
+              </div>
+              <div className='pt-2 text-center text-xs text-slate-400'>
+                Disclaimer: Opinions, interpretations, conclusions and
+                recommendations are those of the AI-READI project and are not
+                necessarily endorsed by the organizations mentioned on this
+                website.
               </div>
             </div>
           </section>
@@ -420,14 +435,15 @@ const StatsList = [
 const FeaturesList = [
   {
     title: 'Data Acquisition',
-    description: 'Collecting data across multiple sites',
+    description:
+      'Collecting type 2 diabetes-related data across multiple sites',
     icon: <AiFillDatabase size={20} />,
     href: '/modules/data',
   },
   {
-    title: 'Ethics',
+    title: 'Ethical and Trustworthy AI',
     description:
-      'Establishing ethical guidelines for sharing AI-ready datasets',
+      'Establishing guidelines for colllecting and sharing ethically sourced data',
     icon: <GoLaw size={20} />,
     href: '/modules/ethics',
   },
@@ -440,7 +456,8 @@ const FeaturesList = [
   },
   {
     title: 'Teaming',
-    description: 'Bringing together multidisciplinary teams',
+    description:
+      'Applying and advancing team science while supporting interdisciplinary collaboration',
     icon: <RiTeamFill size={20} />,
     href: '/modules/teaming',
   },
@@ -463,59 +480,54 @@ const LogosList = [
   {
     image:
       'https://fairdataihub.org/_next/image?url=%2Fimages%2Fcollaborators%2Fcalmi-logo.png&w=256&q=75',
+    imageHeight: 'h-16',
     href: 'https://calmi2.org/',
     caption: 'California Medical Innovations Institute',
   },
   {
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/University_of_Washington_signature.svg/1280px-University_of_Washington_signature.svg.png',
-    href: 'https://www.washington.edu/',
-    caption: 'University of Washington',
+      'https://1000logos.net/wp-content/uploads/2022/07/Johns-Hopkins-University-Logo.png',
+    imageHeight: 'h-16',
+    href: 'https://www.jhu.edu/',
+    caption: 'Johns Hopkins University',
   },
   {
     image:
-      'https://logos-download.com/wp-content/uploads/2019/06/Oregon_Health__Science_University_Logo_full.png',
+      'https://nativebio.org/wp-content/uploads/2020/12/NBDC_web_logo_transparent_340x156.png',
+    imageHeight: 'h-16',
+    href: 'https://nativebio.org/',
+    caption: 'Native BioData Consortium',
+  },
+  {
+    image: '/images/member-orgs/ohsu.png',
+    imageHeight: 'h-20',
     href: 'https://www.ohsu.edu/',
     caption: 'Oregon Health & Science University',
   },
   {
     image:
-      'https://1000logos.net/wp-content/uploads/2022/07/Johns-Hopkins-University-Logo.png',
-    href: 'https://www.jhu.edu/',
-    caption: 'Johns Hopkins University',
-  },
-  {
-    image: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/UCSD_logo.png',
-    href: 'https://ucsd.edu/',
-    caption: 'University of California, San Diego',
-  },
-  {
-    image:
-      'https://branding.web-resources.upenn.edu/sites/default/files/styles/card_3x2/public/2022-03/UniversityofPennsylvania_FullLogo_RGB-4_0.png?h=ab080a2f&itok=tu_jMFEm',
-    href: 'https://www.upenn.edu/',
-    caption: 'University of Pennsylvania',
-  },
-  {
-    image:
       'https://logos-world.net/wp-content/uploads/2021/10/Stanford-Symbol.png',
+    imageHeight: 'h-16',
     href: 'https://www.stanford.edu/',
     caption: 'Stanford University',
   },
   {
     image:
-      'https://nativebio.org/wp-content/uploads/2020/12/NBDC_web_logo_transparent_340x156.png',
-    href: 'https://nativebio.org/',
-    caption: 'Native BioData Consortium',
-  },
-  {
-    image:
-      'https://www.uab.edu/toolkit/images/downloads/logos/core/centered/UAB-color-with-R-centered_FullColor.png',
+      'https://ucarecdn.com/91c68c74-82ad-49dc-9c31-0daf608b0685/-/resize/x216/-/quality/smart/-/format/auto/',
+    imageHeight: 'h-5',
     href: 'https://www.uab.edu/home/',
     caption: 'University of Alabama at Birmingham',
   },
   {
-    image: 'https://cdn.svgporn.com/logos/microsoft.svg',
-    href: 'https://azure.microsoft.com/en-us/',
-    caption: 'Microsoft',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/UCSD_logo.png',
+    imageHeight: 'h-8',
+    href: 'https://ucsd.edu/',
+    caption: 'University of California, San Diego',
+  },
+  {
+    image: '/images/member-orgs/uw.png',
+    imageHeight: 'h-14',
+    href: 'https://www.washington.edu/',
+    caption: 'University of Washington',
   },
 ];

@@ -36,7 +36,7 @@ const ModulesSection = ({ modules }: { modules: string[] }) => {
       case 'administration':
         return 'Administration';
       case 'pedp':
-        return 'Plan for Enhancing Diverse Perspectives';
+        return 'PEDP';
       default:
         return 'Unknown';
     }
@@ -70,8 +70,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
     <SkipNavLink>Skip to content</SkipNavLink>
 
     <Layout>
-      {/* <Seo templateTitle='Home' /> */}
-      <Seo />
+      <Seo templateTitle='Meet the Team' />
 
       <main>
         <SkipNavContent />
@@ -94,7 +93,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                   key={member.name}
                   id={member.id}
                 >
-                  <div className='relative h-full min-h-[500px] w-full md:min-h-fit md:w-2/5 '>
+                  <div className='relative h-full min-h-[500px] w-full md:min-h-fit md:w-5/12 '>
                     <Image
                       src={member.image}
                       alt='user profile picture'
@@ -106,7 +105,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                     />
                   </div>
 
-                  <div className='w-full py-8 px-6 text-left md:w-3/5 md:p-4'>
+                  <div className='w-full py-8 px-6 text-left md:w-7/12 md:p-4'>
                     <h3 className='text-xl font-extrabold text-gray-900'>
                       {member.name}{' '}
                       {member.pronoun && (

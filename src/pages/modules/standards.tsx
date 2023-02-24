@@ -14,8 +14,7 @@ const StandardsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
     <SkipNavLink>Skip to content</SkipNavLink>
 
     <Layout>
-      {/* <Seo templateTitle='Home' /> */}
-      <Seo />
+      <Seo templateTitle='Standards' />
 
       <main>
         <SkipNavContent />
@@ -50,7 +49,7 @@ const StandardsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
                 The Standards Module is responsible for:
               </p>
-              <ul className='list mb-3 list-disc text-lg font-normal text-gray-700'>
+              <ul className='list mb-3 list-inside list-disc text-lg font-normal text-gray-700'>
                 <li>
                   Selecting data standards that are at the cutting edge of open
                   source data sharing.
@@ -87,7 +86,7 @@ const StandardsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                   <div className='pt-2'>
                     <UnstyledLink
                       href={resource.link}
-                      className='flex w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+                      className='flex items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
                     >
                       <p className='text-xl font-medium'>{resource.title}</p>
                     </UnstyledLink>

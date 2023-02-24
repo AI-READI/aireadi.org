@@ -14,8 +14,7 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
     <SkipNavLink>Skip to content</SkipNavLink>
 
     <Layout>
-      {/* <Seo templateTitle='Home' /> */}
-      <Seo />
+      <Seo templateTitle='Skills & Workforce Development' />
 
       <main>
         <SkipNavContent />
@@ -47,7 +46,7 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 To achieve this objective, our module is engaged in the
                 following aims:
               </p>
-              <ul className='mb-3 list-disc text-lg font-normal text-gray-700'>
+              <ul className='mb-3 list-inside list-disc text-lg font-normal text-gray-700'>
                 <li>
                   Design and implement a structured, yearlong mentored research
                   internship program to facilitate exposure to skills in AI and
@@ -88,7 +87,7 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                   <div className='pt-2'>
                     <UnstyledLink
                       href={resource.link}
-                      className='flex w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+                      className='flex items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
                     >
                       <p className='text-xl font-medium'>{resource.title}</p>
                     </UnstyledLink>

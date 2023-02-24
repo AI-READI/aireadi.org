@@ -19,7 +19,7 @@
       "~/*": ["./public/*"]
     },
     "incremental": true,
-    "types": ["node", "jest"],
+    "types": ["node", "jest", "mocha", "@testing-library/jest-dom"],
     "typeRoots": ["./src/types"],
     "plugins": [
       {
@@ -32,10 +32,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/pages/api/contact.js",
-    "src/pages/api/contact.js",
-    "src/pages/contarct.jsx",
-    "src/pages/contarct.jsx"
+    "src/pages/api/contact.ts"
   ],
   "exclude": ["node_modules"],
   "moduleResolution": ["node_modules", ".next", "node"]

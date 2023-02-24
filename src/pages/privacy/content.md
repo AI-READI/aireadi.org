@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated January 17, 2023**
+**Last updated February 08, 2023**
 
 This privacy notice for AI-READI ("**Company**," "**we**," "**us**," or "**our**"), describes how and why we might collect, store, use, and/or share ("**process**") your information when you use our services ("**Services**"), such as when you:
 
