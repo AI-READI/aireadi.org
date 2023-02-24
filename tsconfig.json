@@ -19,7 +19,7 @@
       "~/*": ["./public/*"]
     },
     "incremental": true,
-    "types": ["node", "jest"],
+    "types": ["node", "jest", "mocha", "@testing-library/jest-dom"],
     "typeRoots": ["./src/types"],
     "plugins": [
       {
