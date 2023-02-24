@@ -11,7 +11,7 @@ const defaultMeta = {
   type: 'website',
   robots: 'follow, index',
   image:
-    'https://og.fairdataihub.org/api/ogimage?app=fairdataihub&title=Artificial%20Intelligence%20Ready%20and%20Equitable%20Atlas%20for%20Diabetes%20Insights%20%28AI-READI%29&description=Generating%20a%20flagship%20AI-ready%20and%20ethically-sourced%20dataset%20to%20support%20future%20AI-driven%20discoveries%20in%20diabetes',
+    'https://og.fairdataihub.org/api/ogimage?app=aireadi&title=Artificial%20Intelligence%20Ready%20and%20Equitable%20Atlas%20for%20Diabetes%20Insights%20%28AI-READI%29&description=Generating%20a%20flagship%20AI-ready%20and%20ethically-sourced%20dataset%20to%20support%20future%20AI-driven%20discoveries%20in%20diabetes',
 };
 
 type SeoProps = {
