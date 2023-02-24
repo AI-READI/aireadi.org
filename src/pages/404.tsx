@@ -9,7 +9,7 @@ import heroLottie from '~/lotties/404.json';
 export default function NotFoundPage() {
   return (
     <Layout>
-      <Seo templateTitle='Not Found' />
+      <Seo templateTitle='404' />
 
       <main>
         <section className='layout flex h-[calc(100vh-60px)] flex-col items-center justify-center text-center'>

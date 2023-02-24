@@ -15,8 +15,7 @@ const CookiePolicyPage: React.FC<{ pageContent: string }> = ({
       <SkipNavLink>Skip to content</SkipNavLink>
 
       <Layout>
-        {/* <Seo templateTitle='Home' /> */}
-        <Seo />
+        <Seo templateTitle='Cookie Policy' />
 
         <main className='relative mx-auto flex h-full w-full max-w-screen-xl flex-col overflow-hidden py-5 px-5  sm:px-10 sm:pb-20'>
           <SkipNavContent />

@@ -74,8 +74,7 @@ export default function HomePage() {
       <SkipNavLink>Skip to content</SkipNavLink>
 
       <Layout>
-        {/* <Seo templateTitle='Home' /> */}
-        <Seo />
+        <Seo templateTitle='All Modules' />
 
         <main>
           <SkipNavContent />

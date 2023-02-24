@@ -14,8 +14,7 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
     <SkipNavLink>Skip to content</SkipNavLink>
 
     <Layout>
-      {/* <Seo templateTitle='Home' /> */}
-      <Seo />
+      <Seo templateTitle='Skills & Workforce Development' />
 
       <main>
         <SkipNavContent />

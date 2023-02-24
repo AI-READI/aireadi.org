@@ -43,8 +43,7 @@ export default function ContactUs() {
       <SkipNavLink>Skip to content</SkipNavLink>
 
       <Layout>
-        {/* <Seo templateTitle='Home' /> */}
-        <Seo />
+        <Seo templateTitel='Contact Us' />
 
         <main>
           <SkipNavContent />

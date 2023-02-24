@@ -14,6 +14,7 @@ import { TbArrowNarrowRight } from 'react-icons/tb';
 import Layout from '@/components/layout/Layout';
 import ButtonLink from '@/components/links/ButtonLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
+import Seo from '@/components/Seo';
 
 /**
  * SVGR Support
@@ -29,6 +30,8 @@ export default function HomePage() {
       <SkipNavLink>Skip to content</SkipNavLink>
 
       <Layout>
+        <Seo templateTitle='Home' />
+
         <main>
           <SkipNavContent />
 

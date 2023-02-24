@@ -29,6 +29,12 @@ export default function Seo(props: SeoProps) {
     ? `${props.templateTitle} | ${meta.siteName}`
     : meta.title;
 
+  meta[
+    'image'
+  ] = `https://og.fairdataihub.org/api/ogimage?app=aireadi&title=${encodeURIComponent(
+    meta.title
+  )}&description=${encodeURIComponent(meta.description)}`;
+
   return (
     <Head>
       <title>{meta.title}</title>
