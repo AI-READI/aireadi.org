@@ -2,7 +2,7 @@ name: release-please
 on:
   push:
     branches:
-      - production
+      - main
   workflow_dispatch:
 
 jobs:
