@@ -229,7 +229,7 @@ export default function HomePage() {
               <div>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
                   Tools and best practices to help future data generation
-                  project
+                  projects
                 </h1>
 
                 <p className='mb-6 text-lg font-normal text-gray-700 sm:mb-4'>
