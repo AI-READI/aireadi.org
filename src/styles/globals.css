@@ -64,6 +64,10 @@
   .min-h-main {
     @apply min-h-[calc(100vh-56px)];
   }
+
+  .study-faq[aria-expanded='true'] {
+    @apply bg-sky-50;
+  }
 }
 
 @layer utilities {

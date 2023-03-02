@@ -27,6 +27,10 @@ import UnstyledLink from '@/components/links/UnstyledLink';
 const links = [
   { href: '/', title: 'Home' },
   {
+    href: '/study',
+    title: 'Study',
+  },
+  {
     href: '',
     title: 'Modules',
     sublinks: [
@@ -49,10 +53,6 @@ const links = [
     href: '/team',
     title: 'Team',
   },
-  // {
-  //   href: '/study',
-  //   title: 'Study',
-  // },
   // {
   //   href: '/data',
   //   title: 'Data',
