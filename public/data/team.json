@@ -482,7 +482,7 @@
     "caption": "I serve as the project manager for the Teaming module. ",
     "image": "https://ucarecdn.com/57cf35fc-cc0c-486b-a1ef-1dbf09ae8c7b/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/preview/-/enhance/-/crop/face/200px160p/",
-    "modules": ["teaming"],
+    "modules": ["teaming", "pedp"],
     "social": {}
   },
   {
