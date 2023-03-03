@@ -464,8 +464,12 @@ export default function HomePage() {
                         the information contained in the study. None of your
                         identifying characteristics such as your name, address,
                         phone number, email or any other identifying
-                        characteristic will be included in the databases that
-                        will be used by scientists for analysis.
+                        characteristic will be included in the publicly
+                        available dataset that will be used by scientists for
+                        analysis. The only identifying information that will be
+                        released is the whole genome sequencing (genetic
+                        information), this will be released in a limited dataset
+                        that will be available by application only.
                       </p>
                     </AccordionPanel>
                   </AccordionItem>
@@ -517,11 +521,14 @@ export default function HomePage() {
                         made available to researchers from around the world who
                         are seeking to help resolve the complexities of type 2
                         diabetes. The researchers will NOT have access to your
-                        personally identifying information.
+                        personally identifying information. Your whole genome
+                        sequencing (genetic information) will only be available
+                        to researchers who apply and are approved by a review
+                        panel.
                       </p>
                       <p className='mt-2'>
                         The AI-READI project is one of several projects funded
-                        under the NIH’s Bridge to Artificial Intelligence
+                        under the NIH's Bridge to Artificial Intelligence
                         (Bridge2AI) initiative. The goal of Bridge2AI is to
                         advance the use of new artificial intelligence
                         technologies in solving real-world problems in medicine,
@@ -567,7 +574,8 @@ export default function HomePage() {
                     <h2 className='py-1'>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
                         <span className='pr-4 text-left font-medium'>
-                          Will my information be shared publicly?
+                          Will personal identifying information be shared
+                          publicly?
                         </span>
                         <AccordionIcon />
                       </AccordionButton>
