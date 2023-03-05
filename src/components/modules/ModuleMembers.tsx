@@ -34,7 +34,7 @@ const ModuleMembers: React.FC<ComponentProps> = ({ Team }) => {
             <motion.div variants={FramerItem} key={member.id} id={member.id}>
               <UnstyledLink href={`/team#${member.id}`} key={member.id}>
                 <div
-                  className='h-full cursor-pointer rounded-lg border-solid bg-slate-100 px-4 py-4 transition-all hover:bg-sky-100'
+                  className='h-full cursor-pointer rounded-lg border-solid bg-slate-50 px-4 py-4 transition-all hover:bg-sky-100'
                   key={member.name}
                 >
                   <div className='relative mx-auto mb-2 min-h-[350px] w-full sm:min-h-[250px]'>

@@ -17,7 +17,7 @@ import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
 
 /**
- * SVGR Support
+ * SVGR Supportgray
  * Caveat: No React Props Type.
  *
  * You can override the next-env if the type is important to you
@@ -40,12 +40,12 @@ export default function HomePage() {
           >
             <div className='mx-auto grid max-w-screen-xl flex-col px-6 py-16 md:grid-cols-12 md:gap-8 lg:py-16 xl:gap-0 '>
               <div className='col-span-12 mr-auto place-self-center md:col-span-8'>
-                <h1 className='relative pb-5 text-4xl font-black sm:text-5xl '>
+                <h1 className='relative pb-5 text-4xl font-black text-white sm:text-5xl'>
                   Artificial Intelligence Ready and Equitable Atlas for Diabetes
                   Insights
                 </h1>
 
-                <p className='relative pb-5 text-xl font-medium sm:text-2xl'>
+                <p className='relative pb-5 text-xl font-medium text-white sm:text-2xl'>
                   Generating a flagship AI-ready and ethically-sourced dataset
                   to support future AI-driven discoveries in diabetes
                 </p>
@@ -72,8 +72,8 @@ export default function HomePage() {
           </section>
 
           <section className='pt-16 pb-8'>
-            <div className='mx-auto flex max-w-screen-xl flex-col items-center px-8 text-gray-500 lg:px-6'>
-              <h2 className='mb-5 max-w-screen-lg text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
+            <div className='mx-auto flex max-w-screen-xl flex-col items-center px-8  lg:px-6'>
+              <h2 className='mb-5 max-w-screen-lg text-center text-4xl font-bold tracking-tight  sm:text-4xl'>
                 Generating data, best practices, and tools to boost future
                 AI-driven research in diabetes
               </h2>

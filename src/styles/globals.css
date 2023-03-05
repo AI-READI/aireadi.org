@@ -46,6 +46,11 @@
     @apply !font-primary;
   }
 
+  h1,
+  h2 {
+    @apply text-slate-700;
+  }
+
   .cursor-newtab {
     cursor: url('/images/new-tab.png') 10 10, pointer;
   }

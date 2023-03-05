@@ -27,7 +27,7 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
           primaryButton='Learn more about the study'
         />
 
-        <section className='bg-white'>
+        <section className='bg-slate-50'>
           <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-10 py-8 px-4 text-left md:grid-cols-2 lg:py-16 lg:px-6'>
             <div>
               <h2 className='mb-4 text-3xl font-extrabold tracking-tight sm:text-4xl'>

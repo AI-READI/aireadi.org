@@ -32,122 +32,88 @@ export default function HomePage() {
         <main>
           <SkipNavContent />
 
-          <section
-            className={`relative flex h-[60vh] min-h-[600px] w-full items-center justify-center text-white before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-home-hero-image before:bg-cover before:bg-center before:bg-no-repeat before:brightness-[0.3] before:content-[''] md:h-[40vh]`}
-          >
-            <div className='mx-auto grid max-w-screen-xl flex-col px-6 py-16 md:grid-cols-12 md:gap-8 lg:py-16 xl:gap-0 '>
-              <div className='col-span-12 mr-auto place-self-center md:col-span-8'>
-                <h1 className='relative pb-5 text-4xl font-black sm:text-5xl '>
-                  Artificial Intelligence Ready and Equitable Atlas for Diabetes
-                  Insights
-                </h1>
+          <section className='py-8'>
+            <div className='mx-auto flex max-w-screen-xl flex-col items-center px-2 text-gray-500 lg:px-6'>
+              <div className='relative isolate overflow-hidden bg-white px-6 pt-2 sm:pt-5 lg:overflow-visible lg:px-0'>
+                <div className='mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-5'>
+                  <div className='lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8'>
+                    <div className='lg:pr-4'>
+                      <div className='lg:max-w-lg'>
+                        <h1 className='text-3xl font-bold sm:text-4xl'>
+                          Did you know that an estimated 33 million people are
+                          living with diabetes in the United States?
+                        </h1>
+                        <p className='my-4 text-xl text-gray-700'>
+                          Type 2 diabetes accounts for 90-95% of all cases of
+                          diabetes, and while it typically develops in adults
+                          over the age of 45, there are increasing numbers of
+                          children, teenagers, and young adults diagnosed each
+                          year.
+                        </p>
 
-                <p className='relative pb-5 text-xl font-medium sm:text-2xl'>
-                  Generating a flagship AI-ready and ethically-sourced dataset
-                  to support future AI-driven discoveries in diabetes
-                </p>
-              </div>
-
-              <div className='col-span-12'>
-                <div className='relative flex w-max flex-col space-y-2 sm:flex-row sm:space-y-0 sm:space-x-4'>
-                  <ButtonLink href='https://fairhub.io' variant='primary'>
-                    View our data
-                  </ButtonLink>
-                  <ButtonLink href='/study' variant='dark' className='hidden'>
-                    Enroll in the study
-                  </ButtonLink>
-                  <ButtonLink
-                    href='/mentorship'
-                    variant='outline'
-                    className='hidden bg-slate-100'
-                  >
-                    Join our mentorship program
-                  </ButtonLink>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section className='pt-16 pb-8'>
-            <div className='mx-auto flex max-w-screen-xl flex-col items-center px-8 text-gray-500 lg:px-6'>
-              <h2 className='mb-5 max-w-screen-lg text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
-                Generating data, best practices, and tools to boost future
-                AI-driven research in diabetes
-              </h2>
-              <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row'>
-                <div className='md:px-5 lg:max-w-2xl'>
-                  <ul className='mb-3 list-disc text-lg font-normal text-gray-700'>
-                    <li>
-                      AI-READI is one of the data generation projects of the
-                      National Institutes of Health (NIH) funded Bridge2AI
-                      Program.
-                    </li>
-                    <li>
-                      The AI-READI project seeks to create and share a flagship
-                      ethically-sourced dataset of type 2 diabetes.
-                    </li>
-                    <li>
-                      The data will be optimized for future artificial
-                      intelligence/machine learning (AI/ML) analysis that could
-                      provide critical insights and especially shine light on
-                      the salutogenic pathways from diabetes to return to
-                      health.
-                    </li>
-                  </ul>
-
-                  <div className='lg:py-4'>
-                    <ButtonLink
-                      href='https://commonfund.nih.gov/bridge2ai'
-                      variant='outline'
-                      className='text-center sm:text-left'
-                    >
-                      Learn more about Bridge2AI
-                    </ButtonLink>
+                        <ButtonLink href='/study' variant='primary'>
+                          Enroll in the study
+                        </ButtonLink>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div className='flex w-full items-center justify-center px-5 py-5'>
-                  <img
-                    className='rounded-lg lg:h-[300px]'
-                    src='https://fairdataihub.org/images/hero/aireadi-logo.png'
-                    alt='mockup'
-                  />
+                  <div className='-mt-12 -ml-12 p-8 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden'>
+                    <img
+                      className=' w-full max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10'
+                      src='https://images.unsplash.com/photo-1573497491208-6b1acb260507?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+                      alt=''
+                    />
+                  </div>
                 </div>
               </div>
             </div>
           </section>
 
           <section className='bg-slate-50 py-16'>
-            <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center gap-16 px-8 md:flex-col'>
+            <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center gap-x-16 gap-y-8 px-8 md:flex-col'>
               <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
                 <img
                   className='w-full rounded-lg '
-                  src='https://ucarecdn.com/b6105868-0deb-49d6-bb1e-7f309654f5eb/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
+                  src='https://images.unsplash.com/photo-1573164713619-24c711fe7878?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80'
                   alt='University of Alabama at Birmingham'
                 />
                 <img
                   className='w-full rounded-lg'
-                  src='https://images.unsplash.com/photo-1656139789467-db3307d775ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+                  src='https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
                   alt='University of California, San Diego'
                 />
                 <img
                   className='w-full rounded-lg '
-                  src='https://images.unsplash.com/photo-1627626308661-034701a77028?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+                  src='https://images.unsplash.com/photo-1550617749-4ec0d574c429?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
                   alt='University of Washington'
                 />
               </div>
               <div>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
-                  Equitable, multimodal data collection
+                  About the study
                 </h1>
 
-                <p className='mb-6 text-lg font-normal text-gray-700 sm:mb-8'>
-                  The project will aim to collect data from 4,000 participants
-                  across three sites: the University of Alabama at Birmingham
-                  (UAB), the University of California San Diego (UCSD), and the
-                  University of Washington (UW). To ensure the data is
-                  population-representative, the 4,000 participants will be
-                  balanced for three factors: disease severity, ethnicity, and
-                  sex.
+                <p className='mb-6 text-lg font-normal text-gray-700 sm:mb-3'>
+                  Roughly 38% of the adult population (96 million) in the United
+                  States have prediabetes. Having type 2 diabetes places one at
+                  risk for serious health issues and due to its overwhelming
+                  prevalence, we are all impacted by this disease.
+                </p>
+                <p className='mb-6 text-lg font-normal text-gray-700 '>
+                  Our team, funded by the National Institutes of Health (NIH),
+                  is undertaking an innovative and exciting study on persons
+                  with type 2 diabetes. We are developing a thoughtfully
+                  designed, ethically collected, and comprehensive dataset for
+                  researchers to use with the ultimate goal of identifying the
+                  root causes of type 2 diabetes so that treatments and
+                  prevention strategies can be successfully developed. Most
+                  importantly, we are focused on studying a diverse group of
+                  people from three geographic locations in the US - Alabama,
+                  California, and Washington. This study will be inclusive and
+                  diverse so that it might lead to important break-throughs in
+                  type 2 diabetes that will help everyone. We are also inviting
+                  people who do not have type 2 diabetes to participate in the
+                  study.
                 </p>
 
                 <div className='hidden'>
@@ -222,7 +188,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='bg-slate-50 py-16'>
+          <section className='py-16'>
             <div className='mx-auto max-w-screen-xl items-center px-8'>
               <div>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
