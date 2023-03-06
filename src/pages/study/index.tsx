@@ -817,10 +817,16 @@ export default function HomePage() {
                     <AccordionPanel pb={4}>
                       <p>
                         If you received an invitation letter in the mail but
-                        lost your personalized link, click here (hyperlink to
-                        UAB email?) to contact us so we can get you to the right
-                        place. You may also call us at a number listed above for
-                        a site that is local to you.
+                        lost your personalized link,{' '}
+                        <UnstyledLink
+                          href='mailto:ai-readi@uabmc.edu'
+                          className='w-max items-center space-x-1 font-medium text-sky-700 transition-all hover:text-sky-500'
+                        >
+                          click here
+                        </UnstyledLink>{' '}
+                        to contact us so we can get you to the right place. You
+                        may also call us at a number listed above for a site
+                        that is local to you.
                       </p>
                     </AccordionPanel>
                   </AccordionItem>
