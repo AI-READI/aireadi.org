@@ -131,17 +131,17 @@ export default function HomePage() {
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
                   What can you do to help?
                 </h1>
-                <p className='mb-6 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
+                <p className='mb-3 text-gray-700 sm:mb-3 sm:text-xl md:text-lg'>
                   We have contacted you because we hope that you will help us in
                   our endeavor to better understand type 2 diabetes
                 </p>
-                <p className='mb-6 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
+                <p className='mb-3 text-gray-700 sm:mb-3 sm:text-xl md:text-lg'>
                   You may keep scrolling to find answers to frequently asked
                   questions on whether you are eligible to participate, what
                   would be expected of you as a participant, compensation, and
                   more.
                 </p>
-                <p className='mb-6 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
+                <p className='mb-3 text-gray-700 sm:mb-3 sm:text-xl md:text-lg'>
                   If you would like to participate in this important study or
                   would like to request a study team member to call you to
                   answer any questions you have, please use the personalized
@@ -149,51 +149,12 @@ export default function HomePage() {
                   to our study interface where you will be prompted for next
                   steps.
                 </p>
-
-                <ButtonLink href='https://fairhub.io' variant='outline'>
-                  View our data
-                </ButtonLink>
               </div>
               <div className='flex w-full items-center justify-center px-5 py-5'>
                 <img
                   className='rounded-lg'
                   src='https://images.unsplash.com/photo-1603834305747-b0fb6f8bbfd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80'
                   alt='mockup'
-                />
-              </div>
-            </div>
-          </section>
-
-          <section className='bg-slate-50 py-16'>
-            <div className='mx-auto max-w-screen-xl items-center gap-16 px-8 lg:grid lg:grid-cols-2 '>
-              <div>
-                <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
-                  Tools and best practices to help future data generation
-                  projects
-                </h1>
-
-                <p className='mb-6 text-lg font-normal text-gray-700 sm:mb-4'>
-                  We will develop and openly share tools, standards, and
-                  guidelines so that future data generation projects can follow
-                  our approach for sharing ethical, FAIR, and AI-ready datasets.
-                </p>
-
-                <div>
-                  <ButtonLink href='/modules/tools' variant='outline'>
-                    Learn more about our tools and guidelines
-                  </ButtonLink>
-                </div>
-              </div>
-              <div className='mt-8 grid grid-cols-2 gap-4'>
-                <img
-                  className='w-full rounded-lg'
-                  src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png'
-                  alt='office content 1'
-                />
-                <img
-                  className='mt-4 w-full rounded-lg lg:mt-10'
-                  src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png'
-                  alt='office content 2'
                 />
               </div>
             </div>
@@ -213,9 +174,9 @@ export default function HomePage() {
 
                 <Accordion defaultIndex={[0]} allowMultiple>
                   <AccordionItem>
-                    <h2 className='py-1'>
+                    <h2>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
-                        <span className='pr-4 text-left font-medium'>
+                        <span className='py-1 pr-4 text-left font-medium'>
                           Who can participate in AI-READI?
                         </span>
                         <AccordionIcon />
@@ -236,9 +197,9 @@ export default function HomePage() {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <h2 className='py-1'>
+                    <h2>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
-                        <span className='pr-4 text-left font-medium'>
+                        <span className='py-1 pr-4 text-left font-medium'>
                           How will the AI-READI study help people?
                         </span>
                         <AccordionIcon />
@@ -267,9 +228,9 @@ export default function HomePage() {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <h2 className='py-1'>
+                    <h2>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
-                        <span className='pr-4 text-left font-medium'>
+                        <span className='py-1 pr-4 text-left font-medium'>
                           Where does the study take place?
                         </span>
                         <AccordionIcon />
@@ -338,9 +299,9 @@ export default function HomePage() {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <h2 className='py-1'>
+                    <h2>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
-                        <span className='pr-4 text-left font-medium'>
+                        <span className='py-1 pr-4 text-left font-medium'>
                           What does my participation involve?
                         </span>
                         <AccordionIcon />
@@ -400,9 +361,9 @@ export default function HomePage() {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <h2 className='py-1'>
+                    <h2>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
-                        <span className='pr-4 text-left font-medium'>
+                        <span className='py-1 pr-4 text-left font-medium'>
                           How long will participation in the study last?
                         </span>
                         <AccordionIcon />
@@ -423,9 +384,9 @@ export default function HomePage() {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <h2 className='py-1'>
+                    <h2>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
-                        <span className='pr-4 text-left font-medium'>
+                        <span className='py-1 pr-4 text-left font-medium'>
                           What will you do with the data you obtain from my
                           participation?
                         </span>
@@ -452,9 +413,9 @@ export default function HomePage() {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <h2 className='py-1'>
+                    <h2>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
-                        <span className='pr-4 text-left font-medium'>
+                        <span className='py-1 pr-4 text-left font-medium'>
                           Will I be compensated for participating in AI-READI?
                         </span>
                         <AccordionIcon />
@@ -473,9 +434,9 @@ export default function HomePage() {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <h2 className='py-1'>
+                    <h2>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
-                        <span className='pr-4 text-left font-medium'>
+                        <span className='py-1 pr-4 text-left font-medium'>
                           Who will use the information you collect?
                         </span>
                         <AccordionIcon />
@@ -515,9 +476,9 @@ export default function HomePage() {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <h2 className='py-1'>
+                    <h2>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
-                        <span className='pr-4 text-left font-medium'>
+                        <span className='py-1 pr-4 text-left font-medium'>
                           What is Machine Learning and Artificial Intelligence,
                           and what do they have to do with this study?
                         </span>
@@ -548,9 +509,9 @@ export default function HomePage() {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <h2 className='py-1'>
+                    <h2>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
-                        <span className='pr-4 text-left font-medium'>
+                        <span className='py-1 pr-4 text-left font-medium'>
                           Will personal identifying information be shared
                           publicly?
                         </span>
@@ -572,9 +533,9 @@ export default function HomePage() {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <h2 className='py-1'>
+                    <h2>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
-                        <span className='pr-4 text-left font-medium'>
+                        <span className='py-1 pr-4 text-left font-medium'>
                           What will happen to my blood and urine samples?
                         </span>
                         <AccordionIcon />
@@ -595,9 +556,9 @@ export default function HomePage() {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <h2 className='py-1'>
+                    <h2>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
-                        <span className='pr-4 text-left font-medium'>
+                        <span className='py-1 pr-4 text-left font-medium'>
                           Will I be able to withdraw from the study?
                         </span>
                         <AccordionIcon />
@@ -617,9 +578,9 @@ export default function HomePage() {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <h2 className='py-1'>
+                    <h2>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
-                        <span className='pr-4 text-left font-medium'>
+                        <span className='py-1 pr-4 text-left font-medium'>
                           Why am I asked to place an environmental sensor in my
                           residence?
                         </span>
@@ -642,9 +603,9 @@ export default function HomePage() {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <h2 className='py-1'>
+                    <h2>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
-                        <span className='pr-4 text-left font-medium'>
+                        <span className='py-1 pr-4 text-left font-medium'>
                           Will my doctor be notified about my participation?
                         </span>
                         <AccordionIcon />
@@ -665,9 +626,9 @@ export default function HomePage() {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <h2 className='py-1'>
+                    <h2>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
-                        <span className='pr-4 text-left font-medium'>
+                        <span className='py-1 pr-4 text-left font-medium'>
                           Will I receive my results from the study?
                         </span>
                         <AccordionIcon />
@@ -690,9 +651,9 @@ export default function HomePage() {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <h2 className='py-1'>
+                    <h2>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
-                        <span className='pr-4 text-left font-medium'>
+                        <span className='py-1 pr-4 text-left font-medium'>
                           Can I skip some tests or questions in the surveys?
                         </span>
                         <AccordionIcon />
@@ -714,9 +675,9 @@ export default function HomePage() {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <h2 className='py-1'>
+                    <h2>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
-                        <span className='pr-4 text-left font-medium'>
+                        <span className='py-1 pr-4 text-left font-medium'>
                           I lost my letter and personalized link to the study.
                           What do I do now?
                         </span>
@@ -736,9 +697,9 @@ export default function HomePage() {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <h2 className='py-1'>
+                    <h2>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
-                        <span className='pr-4 text-left font-medium'>
+                        <span className='py-1 pr-4 text-left font-medium'>
                           I have more questions, who can answer them?
                         </span>
                         <AccordionIcon />
