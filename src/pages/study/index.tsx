@@ -41,8 +41,9 @@ export default function HomePage() {
                     <div className='lg:pr-4'>
                       <div className='lg:max-w-lg'>
                         <h1 className='text-3xl font-bold sm:text-4xl'>
-                          Did you know that an estimated 33 million people are
-                          living with diabetes in the United States?
+                          Did you know that an estimated{' '}
+                          <span className='text-sky-800'>33 million</span>{' '}
+                          people are living with diabetes in the United States?
                         </h1>
                         <p className='my-4 text-xl text-gray-700'>
                           Type 2 diabetes accounts for 90-95% of all cases of
@@ -65,7 +66,7 @@ export default function HomePage() {
                   <div className='-mt-12 -ml-12 p-8 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden'>
                     <img
                       className=' w-full max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10'
-                      src='https://images.unsplash.com/photo-1573497491208-6b1acb260507?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+                      src='https://images.unsplash.com/photo-1606206591513-adbfbdd7a177?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
                       alt=''
                     />
                   </div>
