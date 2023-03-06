@@ -75,17 +75,17 @@ export default function HomePage() {
                 <img
                   className='w-full rounded-lg '
                   src='https://images.unsplash.com/photo-1573164713619-24c711fe7878?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80'
-                  alt='University of Alabama at Birmingham'
+                  alt=''
                 />
                 <img
                   className='w-full rounded-lg'
                   src='https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
-                  alt='University of California, San Diego'
+                  alt=''
                 />
                 <img
                   className='w-full rounded-lg '
                   src='https://images.unsplash.com/photo-1550617749-4ec0d574c429?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
-                  alt='University of Washington'
+                  alt=''
                 />
               </div>
               <div>
@@ -129,14 +129,25 @@ export default function HomePage() {
             <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between space-y-2 px-4 lg:flex-row-reverse'>
               <div className='px-5 lg:max-w-2xl'>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
-                  Ethical, FAIR, AI-ready data sharing
+                  What can you do to help?
                 </h1>
                 <p className='mb-6 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                  The resulting dataset will be curated and shared following
-                  ethical and FAIR (Findable, Accessible, Interoperable, and
-                  Reusable) principles such that it is ready for future
-                  AI/ML-driven analysis. The data will be shared periodically
-                  through our dedicated web platform called fairhub.io.
+                  We have contacted you because we hope that you will help us in
+                  our endeavor to better understand type 2 diabetes
+                </p>
+                <p className='mb-6 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
+                  You may keep scrolling to find answers to frequently asked
+                  questions on whether you are eligible to participate, what
+                  would be expected of you as a participant, compensation, and
+                  more.
+                </p>
+                <p className='mb-6 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
+                  If you would like to participate in this important study or
+                  would like to request a study team member to call you to
+                  answer any questions you have, please use the personalized
+                  link given to you in your invitation letter or email to return
+                  to our study interface where you will be prompted for next
+                  steps.
                 </p>
 
                 <ButtonLink href='https://fairhub.io' variant='outline'>
@@ -146,7 +157,7 @@ export default function HomePage() {
               <div className='flex w-full items-center justify-center px-5 py-5'>
                 <img
                   className='rounded-lg'
-                  src='https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'
+                  src='https://images.unsplash.com/photo-1603834305747-b0fb6f8bbfd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80'
                   alt='mockup'
                 />
               </div>
