@@ -22,10 +22,10 @@ const footerLinks = [
   {
     title: 'Resources',
     links: [
-      // {
-      //   title: 'Study',
-      //   href: '/study',
-      // },
+      {
+        title: 'Study',
+        href: '/study',
+      },
       {
         title: 'Publications',
         href: '/publications',
@@ -70,7 +70,7 @@ export default function Footer() {
   return (
     <footer className=' bg-slate-50 '>
       <div className='mx-auto max-w-screen-xl p-4 sm:p-6'>
-        <div className='space-x-12 md:flex md:justify-between'>
+        <div className='md:flex md:justify-between md:space-x-12'>
           <div className='mb-6 flex flex-col md:mb-0 md:max-w-md lg:max-w-xl'>
             <a href='https://aireadi.org/' className='flex items-center'>
               <img
