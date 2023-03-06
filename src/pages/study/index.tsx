@@ -5,6 +5,7 @@ import {
   AccordionIcon,
   AccordionItem,
   AccordionPanel,
+  Divider,
 } from '@chakra-ui/react';
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 
@@ -170,15 +171,16 @@ export default function HomePage() {
             <h1 className='mb-8 text-center text-3xl font-bold tracking-tight sm:text-4xl'>
               Here is our local contact information:
             </h1>
+
             <div className='mx-auto max-w-screen-xl items-center gap-16 px-8 lg:grid lg:grid-cols-2 '>
               <div>
-                <p className='mb-4 text-xl font-semibold text-slate-600'>
-                  For locals in the Birmingham, Alabama area:
+                <p className='mb-4 text-2xl font-semibold text-slate-600'>
+                  If you live in the Birmingham area
                 </p>
 
-                <p className='my-4'>You may contact us at:</p>
+                <p className='my-4 text-lg'>You may contact us at:</p>
 
-                <div className='flex space-x-4'>
+                <div className='flex w-max flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 '>
                   <ButtonLink variant='outline' href='tel:205-297-0408'>
                     (205) 297-0408
                   </ButtonLink>
@@ -190,13 +192,97 @@ export default function HomePage() {
               </div>
               <div className='mt-8 grid grid-cols-2 gap-4'>
                 <img
-                  className='cover-full w-full rounded-lg'
-                  src='https://images.unsplash.com/photo-1523297428500-14eaf71c6840?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+                  className='w-full rounded-lg'
+                  src='https://images.unsplash.com/photo-1622415986981-171f435086b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
                   alt='office content 1'
                 />
                 <img
                   className='mt-4 w-full rounded-lg lg:mt-10'
-                  src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png'
+                  src='https://images.unsplash.com/photo-1549915293-94d35ecf4f0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
+                  alt='office content 2'
+                />
+              </div>
+            </div>
+
+            <Divider className='my-10' />
+
+            <div className='mx-auto max-w-screen-xl items-center gap-16 px-8 lg:grid lg:grid-cols-2 '>
+              <div className='mt-8 hidden grid-cols-2 gap-4 lg:grid'>
+                <img
+                  className='mt-4 w-full rounded-lg lg:mt-10'
+                  src='https://images.unsplash.com/photo-1612301738481-cb439dcf3c05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
+                  alt='office content 1'
+                />
+                <img
+                  className='w-full rounded-lg'
+                  src='https://images.unsplash.com/photo-1583132169905-e2a585dbbb18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
+                  alt='office content 2'
+                />
+              </div>
+              <div>
+                <p className='mb-4 text-2xl font-semibold text-slate-600'>
+                  If you live in the San Diego County area
+                </p>
+
+                <p className='my-4 text-lg'>You may contact us at:</p>
+
+                <div className='flex w-max flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 '>
+                  <ButtonLink variant='outline' href='tel:858-822-4669'>
+                    (858) 822-4669
+                  </ButtonLink>
+
+                  <ButtonLink
+                    variant='dark'
+                    href='mailto:ai-readi@health.ucsd.edu'
+                  >
+                    ai-readi@health.ucsd.edu
+                  </ButtonLink>
+                </div>
+              </div>
+
+              <div className='mt-8 grid grid-cols-2 gap-4 lg:hidden'>
+                <img
+                  className='mt-4 w-full rounded-lg lg:mt-10'
+                  src='https://images.unsplash.com/photo-1612301738481-cb439dcf3c05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
+                  alt='office content 1'
+                />
+                <img
+                  className='w-full rounded-lg'
+                  src='https://images.unsplash.com/photo-1583132169905-e2a585dbbb18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
+                  alt='office content 2'
+                />
+              </div>
+            </div>
+
+            <Divider className='my-10' />
+
+            <div className='mx-auto max-w-screen-xl items-center gap-16 px-8 lg:grid lg:grid-cols-2 '>
+              <div>
+                <p className='mb-4 text-2xl font-semibold text-slate-600'>
+                  If you live in the Seattle area
+                </p>
+
+                <p className='my-4 text-lg'>You may contact us at:</p>
+
+                <div className='flex w-max flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 '>
+                  <ButtonLink variant='outline' href='tel:206-710-6689'>
+                    (206) 710-6689
+                  </ButtonLink>
+
+                  <ButtonLink variant='dark' href='mailto:ai-readi@uw.edu'>
+                    ai-readi@uw.edu
+                  </ButtonLink>
+                </div>
+              </div>
+              <div className='mt-8 grid grid-cols-2 gap-4'>
+                <img
+                  className='w-full rounded-lg'
+                  src='https://images.unsplash.com/photo-1516905365385-7f89706faaf8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
+                  alt='office content 1'
+                />
+                <img
+                  className='mt-4 w-full rounded-lg lg:mt-10'
+                  src='https://images.unsplash.com/photo-1608341944118-f18066398b95?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
                   alt='office content 2'
                 />
               </div>
