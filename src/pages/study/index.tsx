@@ -51,7 +51,11 @@ export default function HomePage() {
                           year.
                         </p>
 
-                        <ButtonLink href='/study' variant='primary'>
+                        <ButtonLink
+                          href='/study'
+                          variant='primary'
+                          className='hidden'
+                        >
                           Enroll in the study
                         </ButtonLink>
                       </div>
@@ -89,7 +93,7 @@ export default function HomePage() {
                 />
               </div>
               <div>
-                <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
+                <h1 className='my-8 text-center text-3xl font-bold tracking-tight sm:text-4xl'>
                   About the study
                 </h1>
 
@@ -126,35 +130,74 @@ export default function HomePage() {
           </section>
 
           <section className='py-16 '>
-            <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between space-y-2 px-4 lg:flex-row-reverse'>
-              <div className='px-5 lg:max-w-2xl'>
-                <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
-                  What can you do to help?
-                </h1>
-                <p className='mb-3 text-gray-700 sm:mb-3 sm:text-xl md:text-lg'>
-                  We have contacted you because we hope that you will help us in
-                  our endeavor to better understand type 2 diabetes
-                </p>
-                <p className='mb-3 text-gray-700 sm:mb-3 sm:text-xl md:text-lg'>
-                  You may keep scrolling to find answers to frequently asked
-                  questions on whether you are eligible to participate, what
-                  would be expected of you as a participant, compensation, and
-                  more.
-                </p>
-                <p className='mb-3 text-gray-700 sm:mb-3 sm:text-xl md:text-lg'>
-                  If you would like to participate in this important study or
-                  would like to request a study team member to call you to
-                  answer any questions you have, please use the personalized
-                  link given to you in your invitation letter or email to return
-                  to our study interface where you will be prompted for next
-                  steps.
-                </p>
+            <div className='flex-col'>
+              <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between space-y-2 px-4 lg:flex-row-reverse'>
+                <div className='px-5 lg:max-w-2xl'>
+                  <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
+                    What can you do to help?
+                  </h1>
+                  <p className='mb-3 text-gray-700 sm:mb-3 sm:text-xl md:text-lg'>
+                    We have contacted you because we hope that you will help us
+                    in our endeavor to better understand type 2 diabetes
+                  </p>
+                  <p className='mb-3 text-gray-700 sm:mb-3 sm:text-xl md:text-lg'>
+                    You may keep scrolling to find answers to frequently asked
+                    questions on whether you are eligible to participate, what
+                    would be expected of you as a participant, compensation, and
+                    more.
+                  </p>
+                  <p className='mb-3 text-gray-700 sm:mb-3 sm:text-xl md:text-lg'>
+                    If you would like to participate in this important study or
+                    would like to request a study team member to call you to
+                    answer any questions you have, please use the personalized
+                    link given to you in your invitation letter or email to
+                    return to our study interface where you will be prompted for
+                    next steps.
+                  </p>
+                </div>
+                <div className='flex w-full items-center justify-center px-5 py-5'>
+                  <img
+                    className='rounded-lg'
+                    src='https://images.unsplash.com/photo-1604043705156-f448129cd111?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80'
+                    alt='mockup'
+                  />
+                </div>
               </div>
-              <div className='flex w-full items-center justify-center px-5 py-5'>
+            </div>
+          </section>
+
+          <section className='bg-slate-50 py-16'>
+            <h1 className='mb-8 text-center text-3xl font-bold tracking-tight sm:text-4xl'>
+              Here is our local contact information:
+            </h1>
+            <div className='mx-auto max-w-screen-xl items-center gap-16 px-8 lg:grid lg:grid-cols-2 '>
+              <div>
+                <p className='mb-4 text-xl font-semibold text-slate-600'>
+                  For locals in the Birmingham, Alabama area:
+                </p>
+
+                <p className='my-4'>You may contact us at:</p>
+
+                <div className='flex space-x-4'>
+                  <ButtonLink variant='outline' href='tel:205-297-0408'>
+                    (205) 297-0408
+                  </ButtonLink>
+
+                  <ButtonLink variant='dark' href='mailto:ai-readi@uabmc.edu'>
+                    ai-readi@uabmc.edu
+                  </ButtonLink>
+                </div>
+              </div>
+              <div className='mt-8 grid grid-cols-2 gap-4'>
                 <img
-                  className='rounded-lg'
-                  src='https://images.unsplash.com/photo-1603834305747-b0fb6f8bbfd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80'
-                  alt='mockup'
+                  className='cover-full w-full rounded-lg'
+                  src='https://images.unsplash.com/photo-1523297428500-14eaf71c6840?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+                  alt='office content 1'
+                />
+                <img
+                  className='mt-4 w-full rounded-lg lg:mt-10'
+                  src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png'
+                  alt='office content 2'
                 />
               </div>
             </div>
@@ -172,7 +215,7 @@ export default function HomePage() {
                   as we can.
                 </p>
 
-                <Accordion defaultIndex={[0]} allowMultiple>
+                <Accordion defaultIndex={[0]}>
                   <AccordionItem>
                     <h2>
                       <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
@@ -545,7 +588,7 @@ export default function HomePage() {
                     <AccordionPanel pb={4}>
                       <p>
                         For your blood, we will first run a few tests similar to
-                        what they do at your physician’s office, such as A1c and
+                        what they do at your physician's office, such as A1c and
                         a lipid analysis. Some of the blood will be put into a
                         “library” for scientists to access; one of the future
                         uses for this library may be gene sequencing. Your urine
@@ -593,7 +636,7 @@ export default function HomePage() {
                         We are interested in learning how the specifics about
                         the environment you live in may affect your health. The
                         sensor will collect light levels, quality of air, and
-                        temperature. Again, we respect you and your family’s
+                        temperature. Again, we respect you and your family's
                         privacy and boundaries; we will only record the factors
                         listed above, and no photography or audio recording is
                         possible with the sensor. They are designed and built
