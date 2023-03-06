@@ -111,14 +111,14 @@ export default function Footer() {
           <div className='grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6'>
             {footerLinks.map((footerLink) => (
               <div key={footerLink.title} className='w-auto'>
-                <h3 className='mb-3 text-xl font-semibold text-sky-900 '>
+                <h3 className='mb-3 text-xl font-semibold text-slate-800 '>
                   {footerLink.title}
                 </h3>
                 <ul className='mt-2 space-y-2'>
                   {footerLink.links.map((link) => (
                     <li key={link.title}>
                       <Link href={link.href} passHref>
-                        <span className='text-base font-medium text-sky-900 transition-all hover:text-slate-500'>
+                        <span className='text-base font-medium text-sky-800 transition-all hover:text-slate-500'>
                           {link.title}
                         </span>
                       </Link>
@@ -130,17 +130,18 @@ export default function Footer() {
           </div>
         </div>
 
-        <hr className='my-6 border-slate-300  sm:mx-auto lg:my-8' />
+        <hr className='my-6 border-slate-300 sm:mx-auto lg:my-8' />
 
-        <div className='sm:flex sm:items-center sm:justify-between'>
-          <span className='text-base font-medium text-sky-900  sm:text-center'>
+        <div className='flex items-center justify-between'>
+          <span className='text-base font-medium text-slate-800 sm:text-center'>
             © {new Date().getFullYear()} {` `}
             <a href='https://aireadi.org/' className='hover:underline'>
               AI-READI™
             </a>
             . All Rights Reserved.
           </span>
-          <div className='mt-4 flex space-x-6 sm:mt-0 sm:justify-center'>
+
+          <div className='mt-0 flex justify-center space-x-6'>
             <a
               href='https://github.com/AI-READI'
               className='text-sky-700 hover:text-sky-900'

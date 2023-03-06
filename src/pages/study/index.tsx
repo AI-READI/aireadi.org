@@ -288,7 +288,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
         </section>
 
         <section className='py-16'>
-          <div className='mx-auto max-w-screen-xl items-center px-8'>
+          <div className='mx-auto max-w-screen-xl items-center px-5'>
             <div>
               <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
                 Frequently asked questions
@@ -302,7 +302,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
               <Accordion defaultIndex={[0]}>
                 <AccordionItem>
                   <h2>
-                    <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
+                    <AccordionButton className='study-faq flex items-center justify-between hover:!bg-slate-100'>
                       <span className='py-1 pr-4 text-left font-medium'>
                         Who can participate in AI-READI?
                       </span>
@@ -325,7 +325,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                 <AccordionItem>
                   <h2>
-                    <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
+                    <AccordionButton className='study-faq flex items-center justify-between hover:!bg-slate-100'>
                       <span className='py-1 pr-4 text-left font-medium'>
                         How will the AI-READI study help people?
                       </span>
@@ -356,7 +356,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                 <AccordionItem>
                   <h2>
-                    <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
+                    <AccordionButton className='study-faq flex items-center justify-between hover:!bg-slate-100'>
                       <span className='py-1 pr-4 text-left font-medium'>
                         Where does the study take place?
                       </span>
@@ -427,7 +427,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                 <AccordionItem>
                   <h2>
-                    <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
+                    <AccordionButton className='study-faq flex items-center justify-between hover:!bg-slate-100'>
                       <span className='py-1 pr-4 text-left font-medium'>
                         What does my participation involve?
                       </span>
@@ -488,7 +488,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                 <AccordionItem>
                   <h2>
-                    <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
+                    <AccordionButton className='study-faq flex items-center justify-between hover:!bg-slate-100'>
                       <span className='py-1 pr-4 text-left font-medium'>
                         How long will participation in the study last?
                       </span>
@@ -511,7 +511,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                 <AccordionItem>
                   <h2>
-                    <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
+                    <AccordionButton className='study-faq flex items-center justify-between hover:!bg-slate-100'>
                       <span className='py-1 pr-4 text-left font-medium'>
                         What will you do with the data you obtain from my
                         participation?
@@ -540,7 +540,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                 <AccordionItem>
                   <h2>
-                    <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
+                    <AccordionButton className='study-faq flex items-center justify-between hover:!bg-slate-100'>
                       <span className='py-1 pr-4 text-left font-medium'>
                         Will I be compensated for participating in AI-READI?
                       </span>
@@ -561,7 +561,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                 <AccordionItem>
                   <h2>
-                    <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
+                    <AccordionButton className='study-faq flex items-center justify-between hover:!bg-slate-100'>
                       <span className='py-1 pr-4 text-left font-medium'>
                         Who will use the information you collect?
                       </span>
@@ -602,7 +602,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                 <AccordionItem>
                   <h2>
-                    <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
+                    <AccordionButton className='study-faq flex items-center justify-between hover:!bg-slate-100'>
                       <span className='py-1 pr-4 text-left font-medium'>
                         What is Machine Learning and Artificial Intelligence,
                         and what do they have to do with this study?
@@ -635,7 +635,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                 <AccordionItem>
                   <h2>
-                    <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
+                    <AccordionButton className='study-faq flex items-center justify-between hover:!bg-slate-100'>
                       <span className='py-1 pr-4 text-left font-medium'>
                         Will personal identifying information be shared
                         publicly?
@@ -659,7 +659,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                 <AccordionItem>
                   <h2>
-                    <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
+                    <AccordionButton className='study-faq flex items-center justify-between hover:!bg-slate-100'>
                       <span className='py-1 pr-4 text-left font-medium'>
                         What will happen to my blood and urine samples?
                       </span>
@@ -682,7 +682,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                 <AccordionItem>
                   <h2>
-                    <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
+                    <AccordionButton className='study-faq flex items-center justify-between hover:!bg-slate-100'>
                       <span className='py-1 pr-4 text-left font-medium'>
                         Will I be able to withdraw from the study?
                       </span>
@@ -703,7 +703,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                 <AccordionItem>
                   <h2>
-                    <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
+                    <AccordionButton className='study-faq flex items-center justify-between hover:!bg-slate-100'>
                       <span className='py-1 pr-4 text-left font-medium'>
                         Why am I asked to place an environmental sensor in my
                         residence?
@@ -728,7 +728,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                 <AccordionItem>
                   <h2>
-                    <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
+                    <AccordionButton className='study-faq flex items-center justify-between hover:!bg-slate-100'>
                       <span className='py-1 pr-4 text-left font-medium'>
                         Will my doctor be notified about my participation?
                       </span>
@@ -750,7 +750,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                 <AccordionItem>
                   <h2>
-                    <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
+                    <AccordionButton className='study-faq flex items-center justify-between hover:!bg-slate-100'>
                       <span className='py-1 pr-4 text-left font-medium'>
                         Will I receive my results from the study?
                       </span>
@@ -775,7 +775,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                 <AccordionItem>
                   <h2>
-                    <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
+                    <AccordionButton className='study-faq flex items-center justify-between hover:!bg-slate-100'>
                       <span className='py-1 pr-4 text-left font-medium'>
                         Can I skip some tests or questions in the surveys?
                       </span>
@@ -798,7 +798,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                 <AccordionItem>
                   <h2>
-                    <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
+                    <AccordionButton className='study-faq flex items-center justify-between hover:!bg-slate-100'>
                       <span className='py-1 pr-4 text-left font-medium'>
                         I lost my letter and personalized link to the study.
                         What do I do now?
@@ -826,7 +826,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                 <AccordionItem>
                   <h2>
-                    <AccordionButton className='study-faq flex items-center justify-between !px-0 hover:!bg-slate-100'>
+                    <AccordionButton className='study-faq flex items-center justify-between hover:!bg-slate-100'>
                       <span className='py-1 pr-4 text-left font-medium'>
                         I have more questions, who can answer them?
                       </span>
@@ -874,7 +874,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                     alt='Bonnie Avatar'
                   />
 
-                  <div className='md:w-8/13 mt-6 w-full px-3 text-left md:mt-0 md:px-4 lg:w-9/12 xl:w-10/12'>
+                  <div className='md:w-8/13 mt-6 w-full px-2 text-left md:mt-0 md:px-4 lg:w-9/12 xl:w-10/12'>
                     <h3 className='text-xl font-extrabold text-gray-900'>
                       {person.name}
                     </h3>
@@ -908,7 +908,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                     <Divider />
 
-                    <p className='mt-3 mb-1 px-1 text-lg md:text-base'>
+                    <p className='mt-3 mb-1 text-lg md:text-base'>
                       {person.caption}
                     </p>
                   </div>
