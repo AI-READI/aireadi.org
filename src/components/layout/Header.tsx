@@ -85,7 +85,7 @@ export default function Header() {
   const { isOpen, onOpen, onClose } = useDisclosure({ defaultIsOpen: false });
 
   return (
-    <header className='sticky top-0 z-10 bg-white'>
+    <header className='sticky top-0 z-10 border-b bg-white'>
       <div className='relative mx-auto flex h-14 max-w-screen-xl items-center justify-between'>
         <UnstyledLink
           href='/'

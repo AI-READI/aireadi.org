@@ -853,7 +853,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
           </div>
         </section>
 
-        <section className='bg-sky-50 py-8'>
+        <section className='bg-slate-50 py-8'>
           <div className='mx-auto flex max-w-screen-xl flex-col items-center px-2 text-gray-500 lg:px-6'>
             <div className='my-8'>
               <h1 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>

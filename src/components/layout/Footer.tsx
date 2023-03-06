@@ -68,7 +68,7 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className=' bg-slate-50 '>
+    <footer className=' bg-slate-100 '>
       <div className='mx-auto max-w-screen-xl p-4 sm:p-6'>
         <div className='md:flex md:justify-between md:space-x-12'>
           <div className='mb-6 flex flex-col md:mb-0 md:max-w-md lg:max-w-xl'>
