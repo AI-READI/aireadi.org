@@ -87,7 +87,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
             </div>
 
             <div className='grid grid-cols-1 gap-6 lg:grid-cols-2'>
-              {TeamMembers.map((member) => (
+              {TeamMembers.map((member, index) => (
                 <div
                   className='flex w-full flex-col items-start overflow-hidden rounded-lg bg-gray-50 shadow-lg md:flex-row'
                   key={member.name}
@@ -99,6 +99,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                       alt='user profile picture'
                       fill
                       placeholder='blur'
+                      priority={index < 6}
                       blurDataURL={member.blurDataURL}
                       className='h-full w-full object-cover object-top md:object-center'
                       sizes='(max-width: 768px) 100vw, 50vw'
