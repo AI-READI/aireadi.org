@@ -13,6 +13,7 @@ import { BiBuildingHouse } from 'react-icons/bi';
 import { IoSchoolSharp } from 'react-icons/io5';
 import { MdLocationOn } from 'react-icons/md';
 
+import ImageWithCredit from '@/components/images/ImageWithCredit';
 import Layout from '@/components/layout/Layout';
 import ButtonLink from '@/components/links/ButtonLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
@@ -61,11 +62,11 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                   </div>
                 </div>
 
-                <div className='-mt-12 -ml-12 p-8 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden'>
-                  <img
-                    className=' w-full max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10'
-                    src='https://images.unsplash.com/photo-1606206591513-adbfbdd7a177?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+                <div className='-ml-0 -mt-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:-ml-12 lg:overflow-hidden lg:p-8'>
+                  <ImageWithCredit
+                    src='/images/study/hero.jpeg'
                     alt=''
+                    author='UAB Media Department'
                   />
                 </div>
               </div>
@@ -76,20 +77,20 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
         <section className='bg-slate-50 py-16'>
           <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center gap-x-16 gap-y-8 px-8 md:flex-col'>
             <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
-              <img
-                className='w-full rounded-lg '
-                src='https://images.unsplash.com/photo-1573164713619-24c711fe7878?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80'
+              <ImageWithCredit
+                src='/images/study/about-1.jpeg'
                 alt=''
+                author='UAB Media Department'
               />
-              <img
-                className='w-full rounded-lg'
-                src='https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+              <ImageWithCredit
+                src='/images/study/about-2.jpeg'
                 alt=''
+                author='UAB Media Department'
               />
-              <img
-                className='w-full rounded-lg '
-                src='https://images.unsplash.com/photo-1550617749-4ec0d574c429?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+              <ImageWithCredit
+                src='/images/study/about-3.jpeg'
                 alt=''
+                author='UAB Media Department'
               />
             </div>
             <div>

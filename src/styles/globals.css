@@ -102,3 +102,7 @@
     clip-path: polygon(7% 0, 100% 0%, 100% 100%, 0% 100%);
   }
 }
+
+.overlay {
+  background: linear-gradient(0deg, var(--color-primary-700), transparent);
+}
