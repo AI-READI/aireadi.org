@@ -64,7 +64,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                 <div className='-ml-0 -mt-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:-ml-12 lg:overflow-hidden lg:p-8'>
                   <ImageWithCredit
-                    src='/images/study/hero.jpeg'
+                    src='https://ucarecdn.com/ef5a74b5-4fa6-46b9-99b1-9d44546f413a/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
                     alt=''
                     author='UAB Media Department'
                   />
@@ -78,17 +78,17 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
           <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center gap-x-16 gap-y-8 px-8 md:flex-col'>
             <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
               <ImageWithCredit
-                src='/images/study/about-1.jpeg'
+                src='https://ucarecdn.com/678e126d-febe-4db4-887e-ae7e6733f99f/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
                 alt=''
                 author='UAB Media Department'
               />
               <ImageWithCredit
-                src='/images/study/about-2.jpeg'
+                src='https://ucarecdn.com/4825d169-5780-4191-a6cb-277bd40b1725/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
                 alt=''
                 author='UAB Media Department'
               />
               <ImageWithCredit
-                src='/images/study/about-3.jpeg'
+                src='https://ucarecdn.com/dddbf822-3778-4eb0-af18-0d898125d892/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
                 alt=''
                 author='UAB Media Department'
               />
