@@ -46,6 +46,11 @@
     @apply !font-primary;
   }
 
+  h1,
+  h2 {
+    @apply text-slate-700;
+  }
+
   .cursor-newtab {
     cursor: url('/images/new-tab.png') 10 10, pointer;
   }
@@ -63,6 +68,10 @@
   /* Class to adjust with sticky footer */
   .min-h-main {
     @apply min-h-[calc(100vh-56px)];
+  }
+
+  .study-faq[aria-expanded='true'] {
+    @apply bg-sky-50;
   }
 }
 
@@ -92,4 +101,8 @@
   .hero-cropped-clip-path {
     clip-path: polygon(7% 0, 100% 0%, 100% 100%, 0% 100%);
   }
+}
+
+.overlay {
+  background: linear-gradient(0deg, var(--color-primary-700), transparent);
 }

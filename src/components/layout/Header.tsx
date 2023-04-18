@@ -26,6 +26,10 @@ import UnstyledLink from '@/components/links/UnstyledLink';
 
 const links = [
   { href: '/', title: 'Home' },
+  // {
+  //   href: '/study',
+  //   title: 'Study',
+  // },
   {
     href: '',
     title: 'Modules',
@@ -49,10 +53,6 @@ const links = [
     href: '/team',
     title: 'Team',
   },
-  // {
-  //   href: '/study',
-  //   title: 'Study',
-  // },
   // {
   //   href: '/data',
   //   title: 'Data',
@@ -85,7 +85,7 @@ export default function Header() {
   const { isOpen, onOpen, onClose } = useDisclosure({ defaultIsOpen: false });
 
   return (
-    <header className='sticky top-0 z-10 bg-white'>
+    <header className='sticky top-0 z-10 border-b bg-white'>
       <div className='relative mx-auto flex h-14 max-w-screen-xl items-center justify-between'>
         <UnstyledLink
           href='/'

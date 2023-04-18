@@ -27,22 +27,35 @@ const ToolsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
           primaryButton='Learn more about the study'
         />
 
-        <section className='bg-white'>
+        <section className='bg-slate-50'>
           <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-10 py-8 px-4 text-left md:grid-cols-2 lg:py-16 lg:px-6'>
             <div>
               <h2 className='mb-4 text-3xl font-extrabold tracking-tight sm:text-4xl'>
                 Overview of the Tools Module
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                The Tools module is developing fairhub.io, a platform for easily
-                managing, preparing, and sharing FAIR and AI-ready datasets.
+                The Tools module is developing{' '}
+                <UnstyledLink
+                  href='https://fairhub.io'
+                  className='w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+                >
+                  fairhub.io
+                </UnstyledLink>
+                , a platform for easily managing, preparing, and sharing FAIR
+                and AI-ready datasets.
               </p>
             </div>
             <div>
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Leveraging a partnership with Microsoft, fairhub.io will be
-                developed using Azure Cloud Services. The platform will include
-                convenient tools to track clinical and biomedical data
+                Leveraging a partnership with Microsoft,{' '}
+                <UnstyledLink
+                  href='https://fairhub.io'
+                  className='w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+                >
+                  fairhub.io
+                </UnstyledLink>{' '}
+                will be developed using Azure Cloud Services. The platform will
+                include convenient tools to track clinical and biomedical data
                 collection, prepare and share FAIR data, and conveniently access
                 data for future AI/ML analysis.
               </p>
@@ -55,7 +68,7 @@ const ToolsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
           </div>
         </section>
 
-        <section className='bg-white'>
+        <section className='bg-sky-50'>
           <div className='mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6'>
             <div className='mx-auto mb-6 max-w-screen-sm text-center lg:mb-8'>
               <h2 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>

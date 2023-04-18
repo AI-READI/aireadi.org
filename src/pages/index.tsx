@@ -11,13 +11,14 @@ import { MdReduceCapacity } from 'react-icons/md';
 import { RiTeamFill } from 'react-icons/ri';
 import { TbArrowNarrowRight } from 'react-icons/tb';
 
+import ImageWithCredit from '@/components/images/ImageWithCredit';
 import Layout from '@/components/layout/Layout';
 import ButtonLink from '@/components/links/ButtonLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
 
 /**
- * SVGR Support
+ * SVGR Supportgray
  * Caveat: No React Props Type.
  *
  * You can override the next-env if the type is important to you
@@ -40,12 +41,12 @@ export default function HomePage() {
           >
             <div className='mx-auto grid max-w-screen-xl flex-col px-6 py-16 md:grid-cols-12 md:gap-8 lg:py-16 xl:gap-0 '>
               <div className='col-span-12 mr-auto place-self-center md:col-span-8'>
-                <h1 className='relative pb-5 text-4xl font-black sm:text-5xl '>
+                <h1 className='relative pb-5 text-4xl font-black text-white sm:text-5xl'>
                   Artificial Intelligence Ready and Equitable Atlas for Diabetes
                   Insights
                 </h1>
 
-                <p className='relative pb-5 text-xl font-medium sm:text-2xl'>
+                <p className='relative pb-5 text-xl font-medium text-white sm:text-2xl'>
                   Generating a flagship AI-ready and ethically-sourced dataset
                   to support future AI-driven discoveries in diabetes
                 </p>
@@ -72,8 +73,8 @@ export default function HomePage() {
           </section>
 
           <section className='pt-16 pb-8'>
-            <div className='mx-auto flex max-w-screen-xl flex-col items-center px-8 text-gray-500 lg:px-6'>
-              <h2 className='mb-5 max-w-screen-lg text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
+            <div className='mx-auto flex max-w-screen-xl flex-col items-center px-8  lg:px-6'>
+              <h2 className='mb-5 max-w-screen-lg text-center text-4xl font-bold tracking-tight  sm:text-4xl'>
                 Generating data, best practices, and tools to boost future
                 AI-driven research in diabetes
               </h2>
@@ -218,10 +219,10 @@ export default function HomePage() {
                 </ButtonLink>
               </div>
               <div className='flex w-full items-center justify-center px-5 py-5'>
-                <img
-                  className='rounded-lg'
-                  src='https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'
-                  alt='mockup'
+                <ImageWithCredit
+                  src='https://ucarecdn.com/ef5a74b5-4fa6-46b9-99b1-9d44546f413a/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
+                  alt=''
+                  author='UAB Media Department'
                 />
               </div>
             </div>
@@ -248,16 +249,20 @@ export default function HomePage() {
                 </div>
               </div>
               <div className='mt-8 grid grid-cols-2 gap-4'>
-                <img
-                  className='w-full rounded-lg'
-                  src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png'
-                  alt='office content 1'
-                />
-                <img
-                  className='mt-4 w-full rounded-lg lg:mt-10'
-                  src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png'
-                  alt='office content 2'
-                />
+                <div className='flex items-start'>
+                  <ImageWithCredit
+                    src='https://ucarecdn.com/678e126d-febe-4db4-887e-ae7e6733f99f/-/crop/3283x4359/2388,0/-/preview/3000x3000/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
+                    alt=''
+                    author='UAB Media Department'
+                  />
+                </div>
+                <div className='mt-4 w-full rounded-lg lg:mt-10'>
+                  <ImageWithCredit
+                    src='https://ucarecdn.com/4825d169-5780-4191-a6cb-277bd40b1725/-/crop/4187x5504/630,0/-/preview/3000x3000/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
+                    alt=''
+                    author='UAB Media Department'
+                  />
+                </div>
               </div>
             </div>
           </section>
@@ -281,10 +286,10 @@ export default function HomePage() {
                 </div>
               </div>
               <div className='flex w-full items-center justify-center px-5 py-5'>
-                <img
-                  className='rounded-lg'
-                  src='https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
-                  alt='mockup'
+                <ImageWithCredit
+                  src='https://ucarecdn.com/dddbf822-3778-4eb0-af18-0d898125d892/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
+                  alt=''
+                  author='UAB Media Department'
                 />
               </div>
             </div>

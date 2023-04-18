@@ -19,11 +19,6 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/study',
-        destination: '/comingsoon',
-        permanent: false,
-      },
-      {
         source: '/data',
         destination: '/comingsoon',
         permanent: false,

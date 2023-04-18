@@ -244,8 +244,8 @@
     "id": "Linda-Zangwill",
     "name": "Linda Zangwill",
     "pronoun": "",
-    "roles": ["Professor"],
-    "department": "Ophthalmology",
+    "roles": ["Richard K. Lansche and Tatiana A. Lansche  Endowed Chair"],
+    "department": "Viterbi Family Department of Ophthalmology",
     "organization": "University of California, San Diego",
     "location": "United States",
     "caption": "I am a Professor at the Viterbi Family Department of Ophthalmology at UCSD conducting clinical and computational research with a focus on glaucoma.  I am co-PI with Dr. Sally Baxter on the Skills and Workforce Development Module and am also site PI (with Dr. Sally Baxter as co-PI) on the Data module.",
@@ -422,8 +422,8 @@
     "name": "Aaron Lee",
     "pronoun": "",
     "roles": [
-      "Associate Professor in Ophthalmology",
-      "C. Dan and Irene Hunter Endowed Professorship"
+      "C. Dan and Irene Hunter Endowed Professorship",
+      "Associate Professor in Ophthalmology"
     ],
     "department": "Department of Ophthalmology",
     "organization": "University of Washington",
@@ -443,8 +443,8 @@
     "name": "Cecilia Lee",
     "pronoun": "",
     "roles": [
-      "Associate Professor",
-      "Klorfine Family Endowed Chair Director of Clinical Research"
+      "Klorfine Family Endowed Chair Director of Clinical Research",
+      "Associate Professor"
     ],
     "department": "Department of Ophthalmology",
     "organization": "University of Washington",

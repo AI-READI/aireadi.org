@@ -16,7 +16,9 @@
     "format": "prettier --ignore-path .gitignore \"./**/*.+(ts|js|tsx)\" --write",
     "format:check": "prettier -c .",
     "postbuild": "next-sitemap --config next-sitemap.config.js",
-    "prepare": "husky install",
+    "prepare": "run-script-os",
+    "prepare:win32": "husky install",
+    "prepare:darwin:linux": "husky install && chmod ug+x .husky/*  && chmod ug+x .git/hooks/*",
     "commit": "cz",
     "semantic-release": "semantic-release"
   },
@@ -26,6 +28,7 @@
     "@chakra-ui/skip-nav": "^2.0.11",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
+    "@iconify/react": "^4.1.0",
     "@sendgrid/mail": "^7.7.0",
     "clsx": "^1.2.1",
     "formik": "^2.2.9",
@@ -82,6 +85,7 @@
     "postcss": "^8.4.18",
     "prettier": "^2.7.1",
     "prettier-plugin-tailwindcss": "^0.1.13",
+    "run-script-os": "^1.1.6",
     "tailwindcss": "^3.2.2",
     "tailwindcss-debug-screens": "^2.2.1",
     "typescript": "^4.8.4"
