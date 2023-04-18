@@ -15,7 +15,7 @@ const ImageWithCredit: React.FC<ImageProps> = ({
   authorLink,
 }) => {
   return (
-    <div className='group relative h-full w-full'>
+    <div className='group relative h-max w-full'>
       <img
         className='w-full max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10'
         src={src}

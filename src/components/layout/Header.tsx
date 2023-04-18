@@ -26,10 +26,10 @@ import UnstyledLink from '@/components/links/UnstyledLink';
 
 const links = [
   { href: '/', title: 'Home' },
-  {
-    href: '/study',
-    title: 'Study',
-  },
+  // {
+  //   href: '/study',
+  //   title: 'Study',
+  // },
   {
     href: '',
     title: 'Modules',

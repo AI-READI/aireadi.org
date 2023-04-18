@@ -11,6 +11,7 @@ import { MdReduceCapacity } from 'react-icons/md';
 import { RiTeamFill } from 'react-icons/ri';
 import { TbArrowNarrowRight } from 'react-icons/tb';
 
+import ImageWithCredit from '@/components/images/ImageWithCredit';
 import Layout from '@/components/layout/Layout';
 import ButtonLink from '@/components/links/ButtonLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
@@ -218,10 +219,10 @@ export default function HomePage() {
                 </ButtonLink>
               </div>
               <div className='flex w-full items-center justify-center px-5 py-5'>
-                <img
-                  className='rounded-lg'
+                <ImageWithCredit
                   src='https://ucarecdn.com/ef5a74b5-4fa6-46b9-99b1-9d44546f413a/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
-                  alt='mockup'
+                  alt=''
+                  author='UAB Media Department'
                 />
               </div>
             </div>
@@ -248,18 +249,20 @@ export default function HomePage() {
                 </div>
               </div>
               <div className='mt-8 grid grid-cols-2 gap-4'>
-                <img
-                  style={{ width: '3900px', height: '200px' }}
-                  className='w-full rounded-lg'
-                  src='https://ucarecdn.com/678e126d-febe-4db4-887e-ae7e6733f99f/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
-                  alt='office content 1'
-                />
-                <img
-                  style={{ width: '3900px', height: '200px' }}
-                  className='w-full rounded'
-                  src='https://ucarecdn.com/4825d169-5780-4191-a6cb-277bd40b1725/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
-                  alt='office content 2'
-                />
+                <div className='flex items-start'>
+                  <ImageWithCredit
+                    src='https://ucarecdn.com/678e126d-febe-4db4-887e-ae7e6733f99f/-/crop/3283x4359/2388,0/-/preview/3000x3000/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
+                    alt=''
+                    author='UAB Media Department'
+                  />
+                </div>
+                <div className='mt-4 w-full rounded-lg lg:mt-10'>
+                  <ImageWithCredit
+                    src='https://ucarecdn.com/4825d169-5780-4191-a6cb-277bd40b1725/-/crop/4187x5504/630,0/-/preview/3000x3000/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
+                    alt=''
+                    author='UAB Media Department'
+                  />
+                </div>
               </div>
             </div>
           </section>
@@ -283,10 +286,10 @@ export default function HomePage() {
                 </div>
               </div>
               <div className='flex w-full items-center justify-center px-5 py-5'>
-                <img
-                  className='rounded-lg'
+                <ImageWithCredit
                   src='https://ucarecdn.com/dddbf822-3778-4eb0-af18-0d898125d892/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
-                  alt='mockup'
+                  alt=''
+                  author='UAB Media Department'
                 />
               </div>
             </div>
