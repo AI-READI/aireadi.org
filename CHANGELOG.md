@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.0](https://github.com/AI-READI/aireadi.org/compare/v1.0.0...v1.1.0) (2023-03-07)
+
+
+### Features
+
+* ✨ add team member ([e9c09d0](https://github.com/AI-READI/aireadi.org/commit/e9c09d003b5aa5d058e94faae0f229fa478fbced))
+
+
+### Bug Fixes
+
+* 🐛 add member to pedp module ([8d1ec91](https://github.com/AI-READI/aireadi.org/commit/8d1ec91deb89ec5d26dc4f2075bf031a818878df))
+* 🐛 add priority to top 6 images ([9d40337](https://github.com/AI-READI/aireadi.org/commit/9d4033703feab424d61797d434f23dac05ae3774))
+
 ## 1.0.0 (2023-02-27)
 
 
