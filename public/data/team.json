@@ -482,7 +482,7 @@
     "caption": "I serve as the project manager for the Teaming module. ",
     "image": "https://ucarecdn.com/57cf35fc-cc0c-486b-a1ef-1dbf09ae8c7b/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/preview/-/enhance/-/crop/face/200px160p/",
-    "modules": ["teaming"],
+    "modules": ["teaming", "pedp"],
     "social": {}
   },
   {
@@ -554,7 +554,7 @@
     "roles": ["Professor"],
     "department": "Department of Medical Informatics and Clinical Epidemiology",
     "organization": "Oregon Health & Science University",
-    "location": "Portland, Oregon",
+    "location": "Portland, OR",
     "caption": "I am leading the OMOP implementation of the Tools module.",
     "image": "https://ucarecdn.com/75db407a-f54a-4d20-bf7f-df0f69da4f7e/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px130p/",
@@ -637,14 +637,30 @@
     "roles": ["Professor"],
     "department": "Department of Epidemiology",
     "organization": "University of Alabama at Birmingham",
-    "location": "Birmingham, Alabama",
+    "location": "Birmingham, AL",
     "caption": "I am an epidemiologist and biostatistician at the University of Alabama at Birmingham and lead the data module in collaboration with Dr. Cynthia Owsley. ",
-    "image": "https://ucarecdn.com/94fcd491-2447-40d6-ae0b-a2733bcb2e05/",
+    "image": "https://ucarecdn.com/94fcd491-2447-40d6-ae0b-a2733bcb2e05/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px120p/",
     "modules": ["data"],
     "social": {
       "website": ["https://www.uab.edu/medicine/ophthalmology/faculty/mcgwin"],
       "profiles": "https://scholars.uab.edu/display/mcgwin"
+    }
+  },
+  {
+    "id": "Bradley-Voytek",
+    "name": "Bradley Voytek",
+    "pronoun": "",
+    "roles": ["University of California, San Diego"],
+    "department": "Cognitive Science and Data Science",
+    "organization": "UC San Diego",
+    "location": "San Diego, CA",
+    "caption": "I'm a Professor of Cognitive Science and the Halıcıoğlu Data Science Institute at UC San Diego, where my lab takes a data science approach to cognitive neuroscience: leveraging many, large, heterogeneous neural datasets to understand the physiology of human cognition. For AI-READI, I develop and run education and training modules in data science, machine learning, and artificial intelligence.",
+    "image": "https://ucarecdn.com/916717e8-0b94-4fef-9e97-7f80f260202d/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px150p/",
+    "modules": ["skills"],
+    "social": {
+      "website": ["https://voyteklab.com"]
     }
   }
 ]
