@@ -220,7 +220,7 @@ export default function HomePage() {
               <div className='flex w-full items-center justify-center px-5 py-5'>
                 <img
                   className='rounded-lg'
-                  src='https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'
+                  src='https://ucarecdn.com/ef5a74b5-4fa6-46b9-99b1-9d44546f413a/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
                   alt='mockup'
                 />
               </div>
@@ -249,13 +249,15 @@ export default function HomePage() {
               </div>
               <div className='mt-8 grid grid-cols-2 gap-4'>
                 <img
+                  style={{ width: '3900px', height: '200px' }}
                   className='w-full rounded-lg'
-                  src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png'
+                  src='https://ucarecdn.com/678e126d-febe-4db4-887e-ae7e6733f99f/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
                   alt='office content 1'
                 />
                 <img
-                  className='mt-4 w-full rounded-lg lg:mt-10'
-                  src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png'
+                  style={{ width: '3900px', height: '200px' }}
+                  className='w-full rounded'
+                  src='https://ucarecdn.com/4825d169-5780-4191-a6cb-277bd40b1725/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
                   alt='office content 2'
                 />
               </div>
@@ -283,7 +285,7 @@ export default function HomePage() {
               <div className='flex w-full items-center justify-center px-5 py-5'>
                 <img
                   className='rounded-lg'
-                  src='https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+                  src='https://ucarecdn.com/dddbf822-3778-4eb0-af18-0d898125d892/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
                   alt='mockup'
                 />
               </div>
