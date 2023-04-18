@@ -22,10 +22,10 @@ const footerLinks = [
   {
     title: 'Resources',
     links: [
-      // {
-      //   title: 'Study',
-      //   href: '/study',
-      // },
+      {
+        title: 'Study',
+        href: '/study',
+      },
       {
         title: 'Publications',
         href: '/publications',
