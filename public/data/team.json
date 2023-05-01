@@ -662,5 +662,19 @@
     "social": {
       "website": ["https://voyteklab.com"]
     }
+  },
+  {
+    "id": "Zainab-Garba-Sani",
+    "name": "Zainab Garba-Sani",
+    "pronoun": "",
+    "roles": ["Harkness Fellow in Health Policy and Practice"],
+    "department": "Medicine",
+    "organization": "Stanford University",
+    "location": "Stanford, CA",
+    "caption": "I'm a Commonwealth Fund UK Harkness Fellow in Health Policy and Practice working at the intersection between public perception, AI and racio-ethnic health equity. As such, there are areas of overlap with the AI-READI PEDP module. ",
+    "image": "https://ucarecdn.com/ed05718d-94f0-4891-a22b-78371eeb773a/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px160p/",
+    "modules": ["pedp"],
+    "social": {}
   }
 ]
