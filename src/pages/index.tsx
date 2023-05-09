@@ -160,10 +160,10 @@ export default function HomePage() {
           <section className='bg-slate-50 py-16'>
             <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center gap-16 px-8 md:flex-col'>
               <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
-                <img
-                  className='w-full rounded-lg '
+                <ImageWithCredit
                   src='https://ucarecdn.com/b6105868-0deb-49d6-bb1e-7f309654f5eb/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
-                  alt='University of Alabama at Birmingham'
+                  alt=''
+                  author='UAB Media Department'
                 />
                 <img
                   className='w-full rounded-lg'
@@ -524,8 +524,8 @@ const LogosList = [
     caption: 'University of Alabama at Birmingham',
   },
   {
-    image: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/UCSD_logo.png',
-    imageHeight: 'h-8',
+    image: '/images/member-orgs/ucsd.png',
+    imageHeight: 'h-7',
     href: 'https://ucsd.edu/',
     caption: 'University of California, San Diego',
   },
