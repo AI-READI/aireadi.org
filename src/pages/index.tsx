@@ -165,10 +165,10 @@ export default function HomePage() {
                   alt=''
                   author='UAB Media Department'
                 />
-                <img
-                  className='w-full rounded-lg'
-                  src='https://images.unsplash.com/photo-1656139789467-db3307d775ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
-                  alt='University of California, San Diego'
+                <ImageWithCredit
+                  src='https://ucarecdn.com/3b4fea21-2260-41fd-b297-cef11c1554fd/-/crop/1142x762/0,0/-/preview/3000x3000/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
+                  alt=''
+                  author=''
                 />
                 <img
                   className='w-full rounded-lg '
