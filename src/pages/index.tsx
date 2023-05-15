@@ -168,7 +168,7 @@ export default function HomePage() {
                 <ImageWithCredit
                   src='https://ucarecdn.com/3b4fea21-2260-41fd-b297-cef11c1554fd/-/crop/1142x762/0,0/-/preview/3000x3000/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
                   alt=''
-                  author=''
+                  author='Board of Regents of the University of California'
                 />
                 <img
                   className='w-full rounded-lg '
