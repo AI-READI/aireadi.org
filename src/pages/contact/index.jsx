@@ -60,8 +60,8 @@ export default function ContactUs() {
               </p>
 
               <p className='my-12 w-full rounded-lg bg-yellow-50 p-10 text-center text-xl font-normal text-slate-600 sm:mb-8'>
-                We are not currently taking any queries at this time. <br /> We
-                hope you can find all the necessary information on our website.
+                We are not taking any queries at this time. <br /> We hope you
+                can find all the necessary information on our website.
               </p>
 
               <Formik
