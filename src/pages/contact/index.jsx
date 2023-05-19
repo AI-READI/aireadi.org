@@ -54,9 +54,14 @@ export default function ContactUs() {
                 Contact Us
               </h1>
 
-              <p className='mb-6 text-center text-xl font-normal text-slate-600 sm:mb-8'>
+              <p className='mb-6 hidden text-center text-xl font-normal text-slate-600 sm:mb-8'>
                 Have a question about our project? Want more information about
                 our study? Need help using our data? Let us know!
+              </p>
+
+              <p className='my-12 w-full rounded-lg bg-yellow-50 p-10 text-center text-xl font-normal text-slate-600 sm:mb-8'>
+                We are not currently taking any queries at this time. <br /> We
+                hope you can find all the necessary information on our website.
               </p>
 
               <Formik
@@ -107,7 +112,7 @@ export default function ContactUs() {
                 }}
               >
                 {({ isSubmitting, dirty, handleReset }) => (
-                  <Form>
+                  <Form className='hidden'>
                     <div className='flex flex-col py-3'>
                       <label
                         htmlFor='email'
@@ -116,6 +121,7 @@ export default function ContactUs() {
                         Email Address
                       </label>
                       <Field
+                        disabled={true}
                         type='email'
                         name='email'
                         className='block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 shadow-sm focus:border-primary-500 focus:ring-primary-500'
@@ -135,6 +141,7 @@ export default function ContactUs() {
                         Subject
                       </label>
                       <Field
+                        disabled={true}
                         type='text'
                         name='subject'
                         className='block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 shadow-sm focus:border-primary-500 focus:ring-primary-500'
@@ -154,6 +161,7 @@ export default function ContactUs() {
                         Your Message
                       </label>
                       <Field
+                        disabled={true}
                         as='textarea'
                         name='message'
                         rows='4'
