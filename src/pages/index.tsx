@@ -160,15 +160,15 @@ export default function HomePage() {
           <section className='bg-slate-50 py-16'>
             <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center gap-16 px-8 md:flex-col'>
               <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
-                <img
-                  className='w-full rounded-lg '
+                <ImageWithCredit
                   src='https://ucarecdn.com/b6105868-0deb-49d6-bb1e-7f309654f5eb/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
-                  alt='University of Alabama at Birmingham'
+                  alt=''
+                  author='UAB Media Department'
                 />
-                <img
-                  className='w-full rounded-lg'
-                  src='https://images.unsplash.com/photo-1656139789467-db3307d775ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
-                  alt='University of California, San Diego'
+                <ImageWithCredit
+                  src='https://ucarecdn.com/3b4fea21-2260-41fd-b297-cef11c1554fd/-/crop/1142x762/0,0/-/preview/3000x3000/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
+                  alt=''
+                  author='Board of Regents of the University of California'
                 />
                 <img
                   className='w-full rounded-lg '
@@ -524,8 +524,8 @@ const LogosList = [
     caption: 'University of Alabama at Birmingham',
   },
   {
-    image: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/UCSD_logo.png',
-    imageHeight: 'h-8',
+    image: '/images/member-orgs/ucsd.png',
+    imageHeight: 'h-7',
     href: 'https://ucsd.edu/',
     caption: 'University of California, San Diego',
   },
