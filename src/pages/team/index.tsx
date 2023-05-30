@@ -318,6 +318,20 @@ export const getStaticProps = async () => {
     return 0;
   });
 
+  // sort modules by name
+  TeamMembers.forEach((member) => {
+    member.modules.sort((a, b) => {
+      if (a < b) {
+        return -1;
+      }
+      if (a > b) {
+        return 1;
+      }
+
+      return 0;
+    });
+  });
+
   return {
     props: {
       TeamMembers,
