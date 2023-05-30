@@ -193,7 +193,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                       {'instagram' in member.social && (
                         <li className='flex items-center justify-center text-gray-500 transition-all hover:text-sky-600'>
                           <a
-                            href={member.social.instagram}
+                            href={member.social.instagram as string}
                             rel='noopener noreferrer'
                             target='_blank'
                             className='cursor-newtab'
