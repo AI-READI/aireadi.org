@@ -162,18 +162,19 @@ export default function HomePage() {
               <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
                 <ImageWithCredit
                   src='https://ucarecdn.com/b6105868-0deb-49d6-bb1e-7f309654f5eb/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
-                  alt=''
+                  alt='Photo of the UAB Callahan Eye Hospital'
                   author='UAB Media Department'
                 />
+
                 <ImageWithCredit
                   src='https://ucarecdn.com/3b4fea21-2260-41fd-b297-cef11c1554fd/-/crop/1142x762/0,0/-/preview/3000x3000/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
-                  alt=''
+                  alt='Photo of the UCSD Medical Center'
                   author='Board of Regents of the University of California'
                 />
-                <img
-                  className='w-full rounded-lg '
-                  src='https://images.unsplash.com/photo-1627626308661-034701a77028?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
-                  alt='University of Washington'
+                <ImageWithCredit
+                  src='https://ucarecdn.com/1ce55225-2e61-4734-a6a3-e19c5a95549b/-/crop/5625x3750/0,0/-/preview/3000x3000/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
+                  alt='Photo of the UW Medicine building'
+                  author='Clare McLean/UW Medicine'
                 />
               </div>
               <div>
