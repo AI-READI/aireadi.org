@@ -924,7 +924,12 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 );
 
 export const getStaticProps = async () => {
-  const StudyTeamIds = ['Cynthia-Owsley', 'Linda-Zangwill', 'Cecilia-Lee'];
+  const StudyTeamIds = [
+    'Cynthia-Owsley',
+    'Linda-Zangwill',
+    'Cecilia-Lee',
+    'Sally-Baxter',
+  ];
 
   const StudyTeam = TEAM_JSON.filter((person) =>
     StudyTeamIds.includes(person.id)
