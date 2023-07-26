@@ -1,0 +1,16 @@
+{
+  "BhaveshPatel": {
+    "name": "Bhavesh Patel",
+    "href": "/team/#Bhavesh-Patel",
+    "external": false,
+    "avatar": "/images/people/bhavesh-head.jpg",
+    "social": "bvhpatel"
+  },
+  "SanjaySoundarajan": {
+    "name": "Sanjay Soundarajan",
+    "href": "/team/#Sanjay-Soundarajan",
+    "external": false,
+    "avatar": "/images/people/sanjay-head.jpg",
+    "social": "megasanjay"
+  }
+}
