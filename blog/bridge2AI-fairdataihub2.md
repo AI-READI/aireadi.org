@@ -4,9 +4,6 @@ authors:
   - 'Bhavesh-Patel'
   - 'Erik-Benton'
   - 'Camille-Nebeker'
-  - 'Brittany-York'
-  - 'Sara-Singer'
-  - 'Sally-Baxter'
 date: '2022-09-16'
 categories:
   - News
