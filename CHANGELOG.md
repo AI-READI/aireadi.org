@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.2.0](https://github.com/AI-READI/aireadi.org/compare/v1.1.0...v1.2.0) (2023-07-17)
+
+
+### Features
+
+* ✨ add new team members ([890773a](https://github.com/AI-READI/aireadi.org/commit/890773ab4113a5b2883d195a24c3f96898410a0e))
+* ✨ add new team members ([955422d](https://github.com/AI-READI/aireadi.org/commit/955422ded361271ff7a0d9e43707f2af05949053))
+* ✨ update ucsd campus image ([3fbfa3d](https://github.com/AI-READI/aireadi.org/commit/3fbfa3db1372599293b26c6cedca78c7d89443e4))
+* ✨ update uw image ([830f130](https://github.com/AI-READI/aireadi.org/commit/830f1302165acb01f21a494f6aadac489d721595))
+
+
+### Bug Fixes
+
+* 🐛 remove person from team ([5dfda47](https://github.com/AI-READI/aireadi.org/commit/5dfda47222dd8ed4c33ca8fb16c7df9f58f93632))
+* 🐛 update image credit ([def6705](https://github.com/AI-READI/aireadi.org/commit/def6705a911055f4cba7e065d13e961f61a62aff))
+* 🐛 update image credit text ([c2fec59](https://github.com/AI-READI/aireadi.org/commit/c2fec598550221adadfb82fff4ec906aa04077b5))
+* 🐛 update ordering of modules ([95ae999](https://github.com/AI-READI/aireadi.org/commit/95ae99995c184e7189d7524695fb289a4d67f114))
+* 🐛 update type error ([daa5be0](https://github.com/AI-READI/aireadi.org/commit/daa5be0e0adf4c49c0d9fcfe588f94c8f55504cd))
+* 🐛 update ucsd logo ([6bf06eb](https://github.com/AI-READI/aireadi.org/commit/6bf06eb9c520c442277ce0646537ae3f90688c20))
+
 ## [1.1.0](https://github.com/AI-READI/aireadi.org/compare/v1.0.0...v1.1.0) (2023-03-07)
 
 
