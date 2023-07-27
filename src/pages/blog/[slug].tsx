@@ -1,4 +1,4 @@
-import { Avatar } from '@chakra-ui/react';
+import { Avatar, Tag } from '@chakra-ui/react';
 import { SkipNavLink } from '@chakra-ui/skip-nav';
 import { Icon } from '@iconify/react';
 import dayjs from 'dayjs';
@@ -50,17 +50,8 @@ TEAM_JSON.forEach((author) => {
 
 // The page for each post
 const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
-  const {
-    title,
-    authors,
-    date,
-    heroImage,
-    imageAuthor,
-    imageAuthorLink,
-    categories,
-    subtitle,
-    tags,
-  } = frontMatter;
+  const { title, authors, date, heroImage, categories, subtitle, tags } =
+    frontMatter;
 
   const copyLinkToClipboard = () => {
     navigator.clipboard
@@ -96,12 +87,12 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
       <Layout>
         <Seo templateTitle={title} />
 
-        <div className='relative mx-auto flex h-full w-full max-w-screen-xl flex-col overflow-hidden px-5 py-5 sm:px-10 sm:py-20'>
+        <div className='relative mx-auto flex h-full w-full max-w-screen-xl flex-col overflow-hidden px-5 py-5 sm:px-10 sm:py-10'>
           <div className='mb-10'>
             <ul className='flex items-center justify-start space-x-4'>
               {categories.map((category) => (
-                <Link href={`/category/${category}`} passHref key={category}>
-                  <li className='mb-2 cursor-pointer text-lg font-bold text-sky-700 transition-all hover:text-sky-500 '>
+                <Link href={`category/${category}`} passHref key={category}>
+                  <li className='mb-2 cursor-pointer text-lg font-bold text-sky-700 transition-all hover:text-sky-500'>
                     {category}
                   </li>
                 </Link>
@@ -150,7 +141,7 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
               ))}
             </ul>
 
-            <time dateTime={date} className='p-2 text-sm text-slate-500'>
+            <time dateTime={date} className='w-max p-2 text-sm text-slate-500'>
               {dayjs(date).format(`MMMM D, YYYY`)}
             </time>
           </div>
@@ -158,6 +149,24 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
           <hr className='my-2 border border-sky-600' />
 
           <PostBody content={postContent} />
+
+          <div className='my-3 flex items-center '>
+            <span className='mr-3 font-medium'>Tags:</span>
+
+            <div className='flex flex-wrap items-center justify-start space-x-3'>
+              {tags.map((tag) => (
+                <Link
+                  href={`tag/${encodeURIComponent(tag)}`}
+                  passHref
+                  key={tag}
+                >
+                  <Tag variant='subtle' colorScheme='telegram'>
+                    {tag}
+                  </Tag>
+                </Link>
+              ))}
+            </div>
+          </div>
 
           <hr className='my-3 border-slate-300' />
 
@@ -170,7 +179,7 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
               href={`http://twitter.com/share?text=I just read this article and think y'all need to take a look at this&url=https://fairdataihub.org/blog/${slug}&hashtags=FAIRData,OpenScience,OpenSource`}
               target='_blank'
               rel='noopener noreferrer'
-              className='hover:text-accent mx-2 text-slate-500 transition-all'
+              className='mx-2 text-slate-500 transition-all hover:text-sky-500'
               data-umami-event='Share article'
               data-umami-event-type='Twitter'
               aria-label='Share on Twitter'
@@ -182,7 +191,7 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
               href={`https://www.facebook.com/sharer/sharer.php?u=https://fairdataihub.org/blog/${slug}"`}
               target='_blank'
               rel='noopener noreferrer'
-              className='hover:text-accent mx-2 text-slate-500 transition-all'
+              className='mx-2 text-slate-500 transition-all hover:text-sky-500'
               data-umami-event='Share article'
               data-umami-event-type='Facebook'
               aria-label='Share on Facebook'
@@ -194,7 +203,7 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
               href={`https://www.linkedin.com/sharing/share-offsite/?url=https://fairdataihub.org/blog/${slug}`}
               target='_blank'
               rel='noopener noreferrer'
-              className='hover:text-accent mx-2 text-slate-500 transition-all'
+              className='mx-2 text-slate-500 transition-all hover:text-sky-500'
               data-umami-event='Share article'
               data-umami-event-type='LinkedIn'
               aria-label='Share on LinkedIn'
@@ -208,7 +217,7 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
 
             <div
               onClick={copyLinkToClipboard}
-              className='hover:text-accent mx-2 cursor-pointer text-slate-500 transition-all'
+              className='mx-2 cursor-pointer text-slate-500 transition-all hover:text-sky-500'
               data-umami-event='Share article'
               data-umami-event-type='Copy URL'
               aria-label='Copy to clipboard'
