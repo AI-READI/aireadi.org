@@ -85,7 +85,7 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
       <SkipNavLink>Skip to content</SkipNavLink>
 
       <Layout>
-        <Seo templateTitle={title} />
+        <Seo templateTitle={title + ` - Blog`} />
 
         <div className='relative mx-auto flex h-full w-full max-w-screen-xl flex-col overflow-hidden px-5 py-5 sm:px-10 sm:py-10'>
           <div className='mb-10'>
