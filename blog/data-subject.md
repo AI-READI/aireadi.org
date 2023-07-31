@@ -1,8 +1,7 @@
 ---
 title: 'Data Subject'
 authors:
-  - 'Camille-Nebeker'
-  - 'Samm-Hurst'
+  - 'Kadija-Ferryman'
 date: '2023-07-28'
 categories:
   - 'Term of the Month'
