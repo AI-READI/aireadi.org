@@ -38,6 +38,8 @@ You can also use a markdown editor to write your article. A few good ones are li
 
 Copy the contents of this file and paste it into the markdown editor of your choice. You should have a live preview of your article on the right side of the editor. Once you are done writing your article, send the source content to the Bhavesh Patel on basecamp and we will publish it on the website.
 
+The name of the file will be used as the URL for the article. For example, if you name the file `data-subject.md`, the URL for the article will be `https://aireadi.org/blog/data-subject`. Please make sure that the file name is in `kebab-case` and does not contain any special characters or spaces.
+
 ### Important
 
 - Don't use a top level heading (#) in your article. The title of the article counts as a top level heading so you don't need to add one. Use second level headings (##) and below.
