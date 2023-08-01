@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.3](https://github.com/AI-READI/aireadi.org/compare/v2.0.2...v2.0.3) (2023-08-01)
+
+
+### Bug Fixes
+
+* typo ([f82338a](https://github.com/AI-READI/aireadi.org/commit/f82338a2a50559196509b284b66345b7fc7bbb1b))
+
 ## [2.0.2](https://github.com/AI-READI/aireadi.org/compare/v2.0.1...v2.0.2) (2023-08-01)
 
 
