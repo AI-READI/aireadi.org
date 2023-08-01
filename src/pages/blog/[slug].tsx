@@ -71,7 +71,7 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
 
   const copyLinkToClipboard = () => {
     navigator.clipboard
-      .writeText(`https://fairdataihub.org/blog/${slug}`)
+      .writeText(`https://aireadi.org/blog/${slug}`)
       .then(() => {
         toast.success(`Copied to clipboard succesfully.`, {
           position: `bottom-right`,
