@@ -23,6 +23,13 @@ class MyDocument extends Document {
             type='font/woff2'
             crossOrigin='anonymous'
           />
+
+          <script
+            async
+            defer
+            data-website-id='fb499873-d5d5-41b0-8375-785e9d505a7b'
+            src='https://umami.fairdataihub.org/mushroom'
+          />
         </Head>
         <body
           className={`!font-primary ${
