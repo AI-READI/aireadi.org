@@ -30,10 +30,6 @@ const links = [
   //   title: 'Study',
   // },
   {
-    href: '/blog',
-    title: 'Blog',
-  },
-  {
     href: '',
     title: 'Modules',
     sublinks: [
@@ -64,7 +60,10 @@ const links = [
     href: '/publications',
     title: 'Publications',
   },
-
+  {
+    href: '/blog',
+    title: 'Blog',
+  },
   {
     href: '/contact',
     title: 'Contact Us',

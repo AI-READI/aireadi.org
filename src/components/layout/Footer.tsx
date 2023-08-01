@@ -34,6 +34,10 @@ const footerLinks = [
         title: 'GitHub',
         href: 'https://github.com/AI-READI',
       },
+      {
+        href: '/blog',
+        title: 'Blog',
+      },
       // {
       //   title: 'Components',
       //   href: '/components',
