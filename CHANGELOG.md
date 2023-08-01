@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.1.0](https://github.com/AI-READI/aireadi.org/compare/v2.0.3...v2.1.0) (2023-08-01)
+
+
+### Features
+
+* ✨ add support for umami ([f12ff16](https://github.com/AI-READI/aireadi.org/commit/f12ff1694612eb60f6c07ef032c64b46f5cdf8c7))
+
+
+### Bug Fixes
+
+* 🐛 update blog link copy url ([74c4e38](https://github.com/AI-READI/aireadi.org/commit/74c4e38661db340186d69451f7ddad53d377cab1))
+* 🐛 update umami id ([625ce71](https://github.com/AI-READI/aireadi.org/commit/625ce71bc16e9317cfc5ff5ed74801207fc60417))
+
 ## [2.0.3](https://github.com/AI-READI/aireadi.org/compare/v2.0.2...v2.0.3) (2023-08-01)
 
 
