@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.2](https://github.com/AI-READI/aireadi.org/compare/v2.0.1...v2.0.2) (2023-08-01)
+
+
+### Bug Fixes
+
+* 🐛 update blog header and footer location ([436aa69](https://github.com/AI-READI/aireadi.org/commit/436aa69886d3cd88eb5cc70847f3fb9905cbc8c4))
+
 ## [2.0.1](https://github.com/AI-READI/aireadi.org/compare/v2.0.0...v2.0.1) (2023-08-01)
 
 
