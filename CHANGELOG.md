@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/AI-READI/aireadi.org/compare/v2.0.0...v2.0.1) (2023-08-01)
+
+
+### Bug Fixes
+
+* 🐛 update twitter logo and share post page ([94b996f](https://github.com/AI-READI/aireadi.org/commit/94b996faf839626794549f3a8d8cec375cc682fb))
+
 ## [2.0.0](https://github.com/AI-READI/aireadi.org/compare/v1.2.0...v2.0.0) (2023-08-01)
 
 
