@@ -198,7 +198,7 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
               data-umami-event-type='Twitter'
               aria-label='Share on Twitter'
             >
-              <Icon icon='akar-icons:twitter-fill' width='20' height='20' />
+              <Icon icon='ri:twitter-x-fill' width='20' height='20' />
             </a>
 
             <a
