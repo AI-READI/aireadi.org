@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/AI-READI/aireadi.org/compare/v1.2.0...v2.0.0) (2023-08-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* 💥 ✨ add support for adding blog articles ([#19](https://github.com/AI-READI/aireadi.org/issues/19))
+
+### Features
+
+* 💥 ✨ add support for adding blog articles ([#19](https://github.com/AI-READI/aireadi.org/issues/19)) ([7cce3de](https://github.com/AI-READI/aireadi.org/commit/7cce3de4937866a10b9dfe41790feacf2d327b52))
+
 ## [1.2.0](https://github.com/AI-READI/aireadi.org/compare/v1.1.0...v1.2.0) (2023-07-17)
 
 
