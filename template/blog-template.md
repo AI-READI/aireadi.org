@@ -2,7 +2,8 @@
 title: 'Enter the title for the article here'
 authors:
   - 'Bhavesh-Patel'
-  - 'Sanjay-Soundarajan'
+  - 'Unknown Author'
+  - 'ETAI Team'
 date: '2023-02-30'
 categories:
   - 'Category 1'
@@ -19,7 +20,7 @@ tags:
 
 > If you are familiar with how to use GitHub pull requests, you can create a clone of this repository and add your article to the `blog` folder. If you are not familiar with GitHub, you can follow the instructions below to create a blog post.
 
-Your article goes here. You can use markdown to format your article. You can find a guide to markdown here: <https://www.markdownguide.org/basic-syntax/>
+You can use markdown to format your article. You can find a guide on how to use markdown here: <https://www.markdownguide.org/basic-syntax/>
 
 ### Images in your article
 
@@ -40,9 +41,11 @@ Copy the contents of this file and paste it into the markdown editor of your cho
 
 The name of the file will be used as the URL for the article. For example, if you name the file `data-subject.md`, the URL for the article will be `https://aireadi.org/blog/data-subject`. Please make sure that the file name is in `kebab-case` and does not contain any special characters or spaces.
 
+An example of an already published article can be found here: <https://raw.githubusercontent.com/AI-READI/aireadi.org/blog/blog/data-subject.md>
+
 ### Important
 
 - Don't use a top level heading (#) in your article. The title of the article counts as a top level heading so you don't need to add one. Use second level headings (##) and below.
 - If you don't want to host your images on an online platform, you can send the images to Bhavesh Patel on basecamp and we will host them for you on the website itself.
-- Blog article authors are limited to people who are part of the AI-READI team. You can look at the [team page](https://aireadi.org/team) on the website to see if you are part of the team. If you are not part of the team and would like to contribute, please contact Bhavesh Patel on basecamp.
+- If you are already on the AI-READI [team page](https://aireadi.org/team), your image will be used as the author image. Each person on the team has a unique ID(in the format `firstname-lastname`). Use this id to reference yourself in this instance. Any authors that are not on the team page will have a rendomly generated image as their author image.
 - The hero image will be zoomed in slightly on the website. Please make sure that the image you choose is high resolution and can be zoomed in without losing quality. Also make sure the main content takes the middle 60% of the image. This image should also be in landscape orientation.

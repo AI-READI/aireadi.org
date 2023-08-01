@@ -53,6 +53,22 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
   const { title, authors, date, heroImage, categories, subtitle, tags } =
     frontMatter;
 
+  const transformedAuthors: { name: string; image: string }[] = [];
+
+  authors.forEach((author) => {
+    if (AllAuthors[author]) {
+      transformedAuthors.push({
+        name: AllAuthors[author].name,
+        image: AllAuthors[author].image + AllAuthors[author].moduleImageParams,
+      });
+    } else {
+      transformedAuthors.push({
+        name: author,
+        image: `https://api.dicebear.com/6.x/shapes/svg?seed=${author}`,
+      });
+    }
+  });
+
   const copyLinkToClipboard = () => {
     navigator.clipboard
       .writeText(`https://fairdataihub.org/blog/${slug}`)
@@ -126,19 +142,13 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
 
           <div className='flex items-center justify-between divide-x py-3'>
             <ul className='flex flex-wrap  text-sm leading-6 '>
-              {authors.map((author) => (
-                <li key={author} className='my-2 mr-5 flex items-center'>
-                  <Avatar
-                    name={AllAuthors[author].name}
-                    src={
-                      AllAuthors[author].image +
-                      AllAuthors[author].moduleImageParams
-                    }
-                  />
+              {transformedAuthors.map((author) => (
+                <li key={author.name} className='my-2 mr-5 flex items-center'>
+                  <Avatar name={author.name} src={author.image} />
 
                   <div className='ml-3 flex flex-col justify-center'>
                     <span className='text-base font-medium '>
-                      {AllAuthors[author].name}
+                      {author.name}
                     </span>
                   </div>
                 </li>
