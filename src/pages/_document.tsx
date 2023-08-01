@@ -27,7 +27,7 @@ class MyDocument extends Document {
           <script
             async
             defer
-            data-website-id='fb499873-d5d5-41b0-8375-785e9d505a7b'
+            data-website-id='b6587885-8dd3-426f-a805-4caa432aaaa2'
             src='https://umami.fairdataihub.org/mushroom'
           />
         </Head>
