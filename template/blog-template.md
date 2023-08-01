@@ -41,7 +41,7 @@ Copy the contents of this file and paste it into the markdown editor of your cho
 
 The name of the file will be used as the URL for the article. For example, if you name the file `data-subject.md`, the URL for the article will be `https://aireadi.org/blog/data-subject`. Please make sure that the file name is in `kebab-case` and does not contain any special characters or spaces.
 
-An example of an already published article can be found here: <https://raw.githubusercontent.com/AI-READI/aireadi.org/blog/blog/data-subject.md>
+An example of an already published article can be found here: <https://raw.githubusercontent.com/AI-READI/aireadi.org/main/blog/data-subject.md>
 
 ### Important
 
