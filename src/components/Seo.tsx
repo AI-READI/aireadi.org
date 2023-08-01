@@ -17,6 +17,8 @@ const defaultMeta = {
 type SeoProps = {
   date?: string;
   templateTitle?: string;
+  templateDescription?: string;
+  templateImage?: string;
 } & Partial<typeof defaultMeta>;
 
 export default function Seo(props: SeoProps) {
@@ -29,11 +31,13 @@ export default function Seo(props: SeoProps) {
     ? `${props.templateTitle} | ${meta.siteName}`
     : meta.title;
 
-  meta[
-    'image'
-  ] = `https://og.fairdataihub.org/api/ogimage?app=aireadi&title=${encodeURIComponent(
-    meta.title
-  )}&description=${encodeURIComponent(meta.description)}`;
+  meta['description'] = props.templateDescription || meta.description;
+
+  meta['image'] =
+    props.templateImage ||
+    `https://og.fairdataihub.org/api/ogimage?app=aireadi&title=${encodeURIComponent(
+      meta.title
+    )}&description=${encodeURIComponent(meta.description)}`;
 
   return (
     <Head>

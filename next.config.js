@@ -13,6 +13,7 @@ const nextConfig = {
       'images.unsplash.com',
       'fairdataihub.org',
       'ucarecdn.com',
+      'i.imgur.com',
     ],
   },
 

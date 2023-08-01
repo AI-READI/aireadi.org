@@ -25,11 +25,14 @@ import Link from 'next/link';
 import UnstyledLink from '@/components/links/UnstyledLink';
 
 const links = [
-  { href: '/', title: 'Home' },
   // {
   //   href: '/study',
   //   title: 'Study',
   // },
+  {
+    href: '/blog',
+    title: 'Blog',
+  },
   {
     href: '',
     title: 'Modules',
@@ -61,6 +64,7 @@ const links = [
     href: '/publications',
     title: 'Publications',
   },
+
   {
     href: '/contact',
     title: 'Contact Us',
