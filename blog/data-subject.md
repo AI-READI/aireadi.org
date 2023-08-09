@@ -15,6 +15,6 @@ Every month, ETAI will be sharing a term or concept of the month that is related
 
 ## Term of July 2023: Data subject
 
-The term `data subject` refers to an individual whose data is used in data science research using de-identified, public datasets.
+The term `data subject` refers to an individual whose data are used in data science research using de-identified, public datasets.
 
 In this article, the authors compare the data subject with the human subject in traditional human subjects research and raise questions about trust and responsibility when using public and de-identified data for data science analysis: <https://journals.sagepub.com/doi/abs/10.1177/2053951716650211>
