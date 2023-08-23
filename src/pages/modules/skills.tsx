@@ -100,21 +100,21 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
             </ul>
           </div>
         </section>
-        <section className='bg-white'>
+        <section className='bg-slate-50'>
           <div className='mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6'>
             <div className='mx-auto mb-6 max-w-screen-sm text-center lg:mb-8'>
               <h2 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>
                 Intern Orientation and Onboarding
               </h2>
             </div>
-            <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
+            <p className='text-center text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
               Lorem ipsum, or lipsum as it is sometimes known, used in laying
               out print, graphic or web designs. The passage is attributed to an
               unknown typesetter in the 15th century who is thought to have
               scrambled parts of Cicero's De Finibus Bonorum et Malorum for use
               in a type specimen book. It usually begins with:
             </p>
-            <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center gap-16 px-8 md:flex-col'>
+            <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center gap-16 md:flex-col'>
               <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
                 <img
                   src='https://ucarecdn.com/b6521517-979e-4ae4-baff-69ade647a982/'
