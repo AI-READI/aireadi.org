@@ -1,5 +1,4 @@
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
-import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 
 import HeroCroppedImage from '@/components/hero/HeroCroppedImage';
 import ResourcesItemIcon from '@/components/icons/ResourcesItemIcon';
@@ -105,55 +104,33 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
           <div className='mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6'>
             <div className='mx-auto mb-6 max-w-screen-sm text-center lg:mb-8'>
               <h2 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>
-                Intern Bootcamp
+                Intern Orientation and Onboarding
               </h2>
             </div>
-            <p>
-              Intern Bootcamp redefines internships by offering a dynamic blend
-              of hands-on projects, and mentorship. This immersive program
-              focuses on tangible outcomes, empowering interns to enhance their
-              technical skills. Beyond technical skills, the bootcamp hones
-              communication and teamwork, shaping well-rounded professionals
-              poised for success.
+            <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
+              Lorem ipsum, or lipsum as it is sometimes known, used in laying
+              out print, graphic or web designs. The passage is attributed to an
+              unknown typesetter in the 15th century who is thought to have
+              scrambled parts of Cicero's De Finibus Bonorum et Malorum for use
+              in a type specimen book. It usually begins with:
             </p>
-            <div className='mx-auto max-w-screen-xl'>
-              <ResponsiveMasonry
-                columnsCountBreakPoints={{
-                  200: 1,
-                  300: 2,
-                  350: 3,
-                  650: 4,
-                  100: 5,
-                }}
-              >
-                <Masonry>
-                  <img
-                    alt=''
-                    className='m-3 max-h-[500px] w-auto max-w-[570px] rounded-lg '
-                    src='https://ucarecdn.com/b6521517-979e-4ae4-baff-69ade647a982/'
-                  />
-                  <img
-                    alt=''
-                    className=' m-3 max-h-[500px] w-auto rounded-lg'
-                    src='https://ucarecdn.com/43f384e1-ec90-410f-b3b5-7d72f3eda492/'
-                  />
-                  <img
-                    alt=''
-                    className=' max-h-[500px]:2xl m-3 w-auto rounded-lg'
-                    src='https://ucarecdn.com/df13a294-316d-4eea-9dac-ae68820cca5f/'
-                  />
-                  <img
-                    alt=''
-                    className='m-3 max-h-[500px] w-auto rounded-lg'
-                    src='https://ucarecdn.com/00be814b-4c5a-4a6e-b61b-3411efb2553d/'
-                  />
-                  <img
-                    alt=''
-                    className='max-h-[500px]: m-3 w-auto  rounded-lg'
-                    src='https://ucarecdn.com/2b081802-f0a0-40b5-b333-b1438e89415e/'
-                  />
-                </Masonry>
-              </ResponsiveMasonry>
+            <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center gap-16 px-8 md:flex-col'>
+              <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
+                <img
+                  src='https://ucarecdn.com/b6521517-979e-4ae4-baff-69ade647a982/'
+                  alt='Photo of the UAB Callahan Eye Hospital'
+                />
+
+                <img
+                  className='width: 100px; height: 337px; object-fit:none;'
+                  src='https://ucarecdn.com/43f384e1-ec90-410f-b3b5-7d72f3eda492/-/crop/16:9/bottom/'
+                  alt='Photo of the UCSD Medical Center'
+                />
+                <img
+                  src='https://ucarecdn.com/2b081802-f0a0-40b5-b333-b1438e89415e/'
+                  alt='Photo of the UW Medicine building'
+                />
+              </div>
             </div>
           </div>
         </section>
