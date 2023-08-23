@@ -119,11 +119,11 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
             <div className='mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6'>
               <ResponsiveMasonry
                 columnsCountBreakPoints={{
-                  550: 1,
-                  750: 2,
-                  800: 3,
-                  400: 4,
-                  500: 5,
+                  600: 1,
+                  900: 2,
+                  550: 3,
+                  650: 4,
+                  750: 5,
                 }}
               >
                 <Masonry>
