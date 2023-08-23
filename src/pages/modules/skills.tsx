@@ -123,7 +123,7 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                   900: 2,
                   550: 3,
                   650: 4,
-                  750: 5,
+                  700: 5,
                 }}
               >
                 <Masonry>
@@ -150,7 +150,7 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                   `{' '}
                   <img
                     alt=''
-                    className='m-5 max-h-[500px] w-full rounded-lg '
+                    className='m-3 max-h-[500px] w-full max-w-[570px] rounded-lg '
                     src='https://d3da1k6uo8tbjf.cloudfront.net/10506844-4117-11ee-9763-0e12be5f970b?response-content-disposition=inline%3B%20filename%3D%22IMG_2074.jpeg%22%3B%20filename%2A%3DUTF-8%27%27IMG_2074.jpeg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS5PME4CTY5HJXGX6%2F20230823%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20230823T010130Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=17ac94e80dc014bb62edc5b0935642f2e2b5f331d77774a6c8b341fd3d3cf18a&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM2RhMWs2dW84dGJqZi5jbG91ZGZyb250Lm5ldC8xMDUwNjg0NC00MTE3LTExZWUtOTc2My0wZTEyYmU1Zjk3MGI~cmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj1pbmxpbmUlM0IlMjBmaWxlbmFtZSUzRCUyMklNR18yMDc0LmpwZWclMjIlM0IlMjBmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3SU1HXzIwNzQuanBlZ1x1MDAyNnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmpwZWdcdTAwMjZYLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1Nlx1MDAyNlgtQW16LUNyZWRlbnRpYWw9QUtJQVM1UE1FNENUWTVISlhHWDYlMkYyMDIzMDgyMyUyRnVzLWVhc3QtMiUyRnMzJTJGYXdzNF9yZXF1ZXN0XHUwMDI2WC1BbXotRGF0ZT0yMDIzMDgyM1QwMTAxMzBaXHUwMDI2WC1BbXotRXhwaXJlcz04NjQwMFx1MDAyNlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdFx1MDAyNlgtQW16LVNpZ25hdHVyZT0xN2FjOTRlODBkYzAxNGJiNjJlZGM1YjA5MzU2NDJmMmUyYjVmMzMxZDc3Nzc0YTZjOGIzNDFmZDNkM2NmMThhIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjkyODM4ODkwfX19XX0_&Signature=PNdGbkrRGcHHmz3yvQ~yh8ZrkrFDUAijN~LVNf46JEZXJ~0AFS8SsX-i1Ji5vZcWLxQ--Ght4aODH98PYWEQOIJHXWeACsfomXVqPK8wUzjiVdM~5Q44sUBW4X9SuwEOJ7LTpus6HhHodyGUQ5r126hG9temjBGvby9YFutCW3nRhhjsnuR5fvJ8JONaAzjEdDswhsn4n7W2r7DZ5c8ci4k5n2qHrmcV3Ev5n4EtCvByMogq5X5E7ukbfmGXgEX1VpmsJeAj5Ugp7PsPJkteUg9P~O35qjAv3e2E6004XwETZ6qXH4ce4zGiDJfL~RoarqvXmybKODpj0sv~4shw~A__&Key-Pair-Id=K2BMZZDBFKKL41'
                   />
                 </Masonry>
