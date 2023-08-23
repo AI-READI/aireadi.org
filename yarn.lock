@@ -3048,6 +3048,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-responsive-masonry@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@types/react-responsive-masonry/-/react-responsive-masonry-2.1.0.tgz#0aa746f829c520b83697e1e4b7b2aa39c247622f"
+  integrity sha512-gbo9TMKGsgkER/AKycuTtpUJA4Rmzfm5ol7jBzNOdgjpZFBS/SmaNTVAa0qDDRu3xKEuCOcip+RtbC7TaXllnA==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*":
   version "18.0.25"
   resolved "https://registry.npmjs.org/@types/react/-/react-18.0.25.tgz"

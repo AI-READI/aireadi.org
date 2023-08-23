@@ -30,6 +30,7 @@
     "@emotion/styled": "^11",
     "@iconify/react": "^4.1.0",
     "@sendgrid/mail": "^7.7.0",
+    "@types/react-responsive-masonry": "^2.1.0",
     "clsx": "^1.2.1",
     "dayjs": "^1.11.9",
     "formik": "^2.2.9",
