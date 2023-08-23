@@ -108,38 +108,28 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 Intern Bootcamp
               </h2>
             </div>
-            <div>
+            <p>
               Intern Bootcamp redefines internships by offering a dynamic blend
               of hands-on projects, and mentorship. This immersive program
               focuses on tangible outcomes, empowering interns to enhance their
               technical skills. Beyond technical skills, the bootcamp hones
               communication and teamwork, shaping well-rounded professionals
               poised for success.
-            </div>
-            <div className='mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6'>
+            </p>
+            <div className='mx-auto max-w-screen-xl'>
               <ResponsiveMasonry
                 columnsCountBreakPoints={{
-                  400: 1,
-                  700: 2,
+                  200: 1,
+                  300: 2,
                   350: 3,
-                  450: 4,
-                  500: 5,
+                  650: 4,
+                  100: 5,
                 }}
               >
                 <Masonry>
                   <img
                     alt=''
-                    className='m-3 max-h-[800px] w-full max-w-[570px] rounded-lg '
-                    src='https://ucarecdn.com/ab58302d-e843-420a-8856-434abbaa382f/'
-                  />
-                  <img
-                    alt=''
-                    className='m-3 max-h-[500px] w-auto rounded-lg'
-                    src='https://d3da1k6uo8tbjf.cloudfront.net/3fa7910c-4113-11ee-abbe-5ad6b39a946a?response-content-disposition=inline%3B%20filename%3D%22IMG_2063.jpeg%22%3B%20filename%2A%3DUTF-8%27%27IMG_2063.jpeg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS5PME4CTY5HJXGX6%2F20230823%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20230823T010005Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=6c0dc22318a46418e6cbcbc7adbad511df3e6ee88d599f64ec0cafd0fa023116&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM2RhMWs2dW84dGJqZi5jbG91ZGZyb250Lm5ldC8zZmE3OTEwYy00MTEzLTExZWUtYWJiZS01YWQ2YjM5YTk0NmE~cmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj1pbmxpbmUlM0IlMjBmaWxlbmFtZSUzRCUyMklNR18yMDYzLmpwZWclMjIlM0IlMjBmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3SU1HXzIwNjMuanBlZ1x1MDAyNnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmpwZWdcdTAwMjZYLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1Nlx1MDAyNlgtQW16LUNyZWRlbnRpYWw9QUtJQVM1UE1FNENUWTVISlhHWDYlMkYyMDIzMDgyMyUyRnVzLWVhc3QtMiUyRnMzJTJGYXdzNF9yZXF1ZXN0XHUwMDI2WC1BbXotRGF0ZT0yMDIzMDgyM1QwMTAwMDVaXHUwMDI2WC1BbXotRXhwaXJlcz04NjQwMFx1MDAyNlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdFx1MDAyNlgtQW16LVNpZ25hdHVyZT02YzBkYzIyMzE4YTQ2NDE4ZTZjYmNiYzdhZGJhZDUxMWRmM2U2ZWU4OGQ1OTlmNjRlYzBjYWZkMGZhMDIzMTE2IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjkyODM4ODA1fX19XX0_&Signature=gf2bSoY3JRT2Tu3j1T9xOS~agFZiZYvxq2esQpLmnORcpP5QqHRigfBnBdjhnvBxjos8h1WaZda~2KDYpLRGRtqIwsCm7bckoCb-8WrhOM8-A0wE2Q~kJYkA7jeMEj756qaesGZxFTlWSDuZEDkSuyV6QhkvgZf5wYyZdiT-4PLCtPvSkwN11Adty2HnCpho0zTfIBo9rfuPqyzi8ycAin4DD2iiL-bucyNct-xz-~QxvehH5uV14myJC9PoQerdrJNAXAe2R-smJlTiW3axM326hVcfjyFlMKPbwApgAD9NK02S1qVQUPVY2zSkexhgcJ2umhw5xhIEiWhh~AT0mw__&Key-Pair-Id=K2BMZZDBFKKL41'
-                  />
-                  <img
-                    alt=''
-                    className='m-3 max-h-[500px] w-full max-w-[570px] rounded-lg '
+                    className='m-3 max-h-[500px] w-auto max-w-[570px] rounded-lg '
                     src='https://d3da1k6uo8tbjf.cloudfront.net/10506844-4117-11ee-9763-0e12be5f970b?response-content-disposition=inline%3B%20filename%3D%22IMG_2074.jpeg%22%3B%20filename%2A%3DUTF-8%27%27IMG_2074.jpeg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS5PME4CTY5HJXGX6%2F20230823%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20230823T010130Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=17ac94e80dc014bb62edc5b0935642f2e2b5f331d77774a6c8b341fd3d3cf18a&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM2RhMWs2dW84dGJqZi5jbG91ZGZyb250Lm5ldC8xMDUwNjg0NC00MTE3LTExZWUtOTc2My0wZTEyYmU1Zjk3MGI~cmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj1pbmxpbmUlM0IlMjBmaWxlbmFtZSUzRCUyMklNR18yMDc0LmpwZWclMjIlM0IlMjBmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3SU1HXzIwNzQuanBlZ1x1MDAyNnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmpwZWdcdTAwMjZYLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1Nlx1MDAyNlgtQW16LUNyZWRlbnRpYWw9QUtJQVM1UE1FNENUWTVISlhHWDYlMkYyMDIzMDgyMyUyRnVzLWVhc3QtMiUyRnMzJTJGYXdzNF9yZXF1ZXN0XHUwMDI2WC1BbXotRGF0ZT0yMDIzMDgyM1QwMTAxMzBaXHUwMDI2WC1BbXotRXhwaXJlcz04NjQwMFx1MDAyNlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdFx1MDAyNlgtQW16LVNpZ25hdHVyZT0xN2FjOTRlODBkYzAxNGJiNjJlZGM1YjA5MzU2NDJmMmUyYjVmMzMxZDc3Nzc0YTZjOGIzNDFmZDNkM2NmMThhIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjkyODM4ODkwfX19XX0_&Signature=PNdGbkrRGcHHmz3yvQ~yh8ZrkrFDUAijN~LVNf46JEZXJ~0AFS8SsX-i1Ji5vZcWLxQ--Ght4aODH98PYWEQOIJHXWeACsfomXVqPK8wUzjiVdM~5Q44sUBW4X9SuwEOJ7LTpus6HhHodyGUQ5r126hG9temjBGvby9YFutCW3nRhhjsnuR5fvJ8JONaAzjEdDswhsn4n7W2r7DZ5c8ci4k5n2qHrmcV3Ev5n4EtCvByMogq5X5E7ukbfmGXgEX1VpmsJeAj5Ugp7PsPJkteUg9P~O35qjAv3e2E6004XwETZ6qXH4ce4zGiDJfL~RoarqvXmybKODpj0sv~4shw~A__&Key-Pair-Id=K2BMZZDBFKKL41'
                   />
                   <img
@@ -149,13 +139,17 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                   />
                   <img
                     alt=''
-                    className=' m-3 max-h-[500px] w-auto rounded-lg'
+                    className=' max-h-[500px]:2xl m-3 w-auto rounded-lg'
                     src='https://d3da1k6uo8tbjf.cloudfront.net/12dabfa6-4117-11ee-81b3-0e12be5f970b?response-content-disposition=inline%3B%20filename%3D%22IMG_2082.jpeg%22%3B%20filename%2A%3DUTF-8%27%27IMG_2082.jpeg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS5PME4CTY5HJXGX6%2F20230822%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20230822T234723Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=450760a77fadebcb1f24e9d731256533155878a356b399917d2d75064d628ba5&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM2RhMWs2dW84dGJqZi5jbG91ZGZyb250Lm5ldC8xMmRhYmZhNi00MTE3LTExZWUtODFiMy0wZTEyYmU1Zjk3MGI~cmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj1pbmxpbmUlM0IlMjBmaWxlbmFtZSUzRCUyMklNR18yMDgyLmpwZWclMjIlM0IlMjBmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3SU1HXzIwODIuanBlZ1x1MDAyNnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmpwZWdcdTAwMjZYLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1Nlx1MDAyNlgtQW16LUNyZWRlbnRpYWw9QUtJQVM1UE1FNENUWTVISlhHWDYlMkYyMDIzMDgyMiUyRnVzLWVhc3QtMiUyRnMzJTJGYXdzNF9yZXF1ZXN0XHUwMDI2WC1BbXotRGF0ZT0yMDIzMDgyMlQyMzQ3MjNaXHUwMDI2WC1BbXotRXhwaXJlcz04NjQwMFx1MDAyNlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdFx1MDAyNlgtQW16LVNpZ25hdHVyZT00NTA3NjBhNzdmYWRlYmNiMWYyNGU5ZDczMTI1NjUzMzE1NTg3OGEzNTZiMzk5OTE3ZDJkNzUwNjRkNjI4YmE1IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjkyODM0NDQzfX19XX0_&Signature=FFd0Hl637PnRvnVeUdow00xvV~Cmiu1ZZoBn8whL2qJehMfai7OCBBLHvrVDLKEiyAXRm0GM5-E3-YotJRyIXYyJw--LbRqNvx18ltlj9tRD00pfqBO0A2VFZ8LcCqwBIg-8PUQ-LM4rJTYI0Pdo0CajZBrbFLjr2QlhcFszZa2~XHhKPXw1m8xtTeqe-N3W0vDqpDLQAKjrnP~IiforHA4c4ZTFK6kQUMNmVK0LkHGymh7ZyRNqsjTcgmvCzR2~q1IwKVJb9hVas2g9FZ9O7hdvFRWLSZzpgIfAhErxcCn0evW~G3wRkJ7h4OLomx9SnQ5~glYjMSx2TwLTpvw5YA__&Key-Pair-Id=K2BMZZDBFKKL41'
                   />
-
                   <img
                     alt=''
-                    className='m-3 max-h-[500px] w-auto  rounded-lg'
+                    className='m-3 max-h-[500px] w-auto rounded-lg'
+                    src='https://d3da1k6uo8tbjf.cloudfront.net/3fa7910c-4113-11ee-abbe-5ad6b39a946a?response-content-disposition=inline%3B%20filename%3D%22IMG_2063.jpeg%22%3B%20filename%2A%3DUTF-8%27%27IMG_2063.jpeg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS5PME4CTY5HJXGX6%2F20230823%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20230823T010005Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=6c0dc22318a46418e6cbcbc7adbad511df3e6ee88d599f64ec0cafd0fa023116&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM2RhMWs2dW84dGJqZi5jbG91ZGZyb250Lm5ldC8zZmE3OTEwYy00MTEzLTExZWUtYWJiZS01YWQ2YjM5YTk0NmE~cmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj1pbmxpbmUlM0IlMjBmaWxlbmFtZSUzRCUyMklNR18yMDYzLmpwZWclMjIlM0IlMjBmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3SU1HXzIwNjMuanBlZ1x1MDAyNnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmpwZWdcdTAwMjZYLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1Nlx1MDAyNlgtQW16LUNyZWRlbnRpYWw9QUtJQVM1UE1FNENUWTVISlhHWDYlMkYyMDIzMDgyMyUyRnVzLWVhc3QtMiUyRnMzJTJGYXdzNF9yZXF1ZXN0XHUwMDI2WC1BbXotRGF0ZT0yMDIzMDgyM1QwMTAwMDVaXHUwMDI2WC1BbXotRXhwaXJlcz04NjQwMFx1MDAyNlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdFx1MDAyNlgtQW16LVNpZ25hdHVyZT02YzBkYzIyMzE4YTQ2NDE4ZTZjYmNiYzdhZGJhZDUxMWRmM2U2ZWU4OGQ1OTlmNjRlYzBjYWZkMGZhMDIzMTE2IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjkyODM4ODA1fX19XX0_&Signature=gf2bSoY3JRT2Tu3j1T9xOS~agFZiZYvxq2esQpLmnORcpP5QqHRigfBnBdjhnvBxjos8h1WaZda~2KDYpLRGRtqIwsCm7bckoCb-8WrhOM8-A0wE2Q~kJYkA7jeMEj756qaesGZxFTlWSDuZEDkSuyV6QhkvgZf5wYyZdiT-4PLCtPvSkwN11Adty2HnCpho0zTfIBo9rfuPqyzi8ycAin4DD2iiL-bucyNct-xz-~QxvehH5uV14myJC9PoQerdrJNAXAe2R-smJlTiW3axM326hVcfjyFlMKPbwApgAD9NK02S1qVQUPVY2zSkexhgcJ2umhw5xhIEiWhh~AT0mw__&Key-Pair-Id=K2BMZZDBFKKL41'
+                  />
+                  <img
+                    alt=''
+                    className='max-h-[500px]: m-3 w-auto  rounded-lg'
                     src='https://d3da1k6uo8tbjf.cloudfront.net/40cc3ede-4113-11ee-8b0d-1ab7a0b123c9?response-content-disposition=inline%3B%20filename%3D%22IMG_2056.jpeg%22%3B%20filename%2A%3DUTF-8%27%27IMG_2056.jpeg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAS5PME4CTY5HJXGX6%2F20230822%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20230822T204358Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=76c6269d2681a114572ef5da0790288a10eede025fbad8d7577751b564e99596&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM2RhMWs2dW84dGJqZi5jbG91ZGZyb250Lm5ldC80MGNjM2VkZS00MTEzLTExZWUtOGIwZC0xYWI3YTBiMTIzYzk~cmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj1pbmxpbmUlM0IlMjBmaWxlbmFtZSUzRCUyMklNR18yMDU2LmpwZWclMjIlM0IlMjBmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3SU1HXzIwNTYuanBlZ1x1MDAyNnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmpwZWdcdTAwMjZYLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1Nlx1MDAyNlgtQW16LUNyZWRlbnRpYWw9QUtJQVM1UE1FNENUWTVISlhHWDYlMkYyMDIzMDgyMiUyRnVzLWVhc3QtMiUyRnMzJTJGYXdzNF9yZXF1ZXN0XHUwMDI2WC1BbXotRGF0ZT0yMDIzMDgyMlQyMDQzNThaXHUwMDI2WC1BbXotRXhwaXJlcz04NjQwMFx1MDAyNlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdFx1MDAyNlgtQW16LVNpZ25hdHVyZT03NmM2MjY5ZDI2ODFhMTE0NTcyZWY1ZGEwNzkwMjg4YTEwZWVkZTAyNWZiYWQ4ZDc1Nzc3NTFiNTY0ZTk5NTk2IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjkyODIzNDM4fX19XX0_&Signature=Dd4lxoEI1-3W56Nsl~Dk5VPaV5ldNRZ2V20X4KlfKv4~KP~8Ma4AcjE156s5Y5ggcsQFGi2CvQtDNNJChVtoqRLOpqOf1IO3H1hk9FHA2JU-rnm9yybLnx08MtAR0l8dKyfVWWCJzYacaydsooqAdFstaDwtWPOuTNDQ93tSWoLi~bxRMs-Yuuo4r0fJFwFNGleWqC0-MqCuv2dxePbw~3iEenwLD89J3iMoYSNWk48rHTD6PhdHmWaVW9efb2-Xbtn1CGQifsE1pDRrpRByRO9cN1WO4-N1-Z9symPUzyxNvbbCHEBvaZK-nQ6ABSYV3Zwjo4tKJRLKqYPK0WyK8A__&Key-Pair-Id=K2BMZZDBFKKL41'
                   />
                 </Masonry>
