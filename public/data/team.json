@@ -661,5 +661,21 @@
     "moduleImageParams": "-/crop/face/200px160p/",
     "modules": ["pedp"],
     "social": {}
+  },
+  {
+    "id": "Nada-Haboudal",
+    "name": "Nada Haboudal",
+    "pronoun": "",
+    "roles": ["Data Scientist"],
+    "department": "",
+    "organization": "",
+    "location": "Houston, Texas",
+    "caption": "Data Scientist intern, guided by the M-PI for the Tools module. Actively involved in the development of fairhub.io.",
+    "image": "https://ucarecdn.com/ef0cb824-7155-4ab8-bd10-8bad2554c264/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px140p/",
+    "modules": ["tools"],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/nada-haboudal/"
+    }
   }
 ]

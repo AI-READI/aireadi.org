@@ -134,12 +134,14 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                         </div>
                       )}
 
-                      <div className='my-1 flex items-start font-semibold text-sky-700'>
-                        <div className='mt-1 h-[20px] w-[20px]'>
-                          <BiBuildingHouse size={20} />
+                      {member.organization && (
+                        <div className='my-1 flex items-start font-semibold text-sky-700'>
+                          <div className='mt-1 h-[20px] w-[20px]'>
+                            <BiBuildingHouse size={20} />
+                          </div>
+                          <p className='ml-2'>{member.organization}</p>
                         </div>
-                        <p className='ml-2'>{member.organization}</p>
-                      </div>
+                      )}
                     </div>
 
                     <div className='mb-3 flex items-center font-semibold text-slate-600'>
