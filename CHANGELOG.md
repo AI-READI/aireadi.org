@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.2.0](https://github.com/AI-READI/aireadi.org/compare/v2.1.0...v2.2.0) (2023-08-24)
+
+
+### Features
+
+* ✨ add team member ([a70f36f](https://github.com/AI-READI/aireadi.org/commit/a70f36f6bb2fe73a2de447fc91cf3fb48d642b4e))
+
+
+### Bug Fixes
+
+* 🐛 update team image ([75b2232](https://github.com/AI-READI/aireadi.org/commit/75b223251d65a37c6ba5f3b112dfe6a1ecb1618b))
+* Camille's title ([8500b1d](https://github.com/AI-READI/aireadi.org/commit/8500b1ddf8f60c7555d11170d6147a2c93d3ced7))
+* typo changes as per ETAI request in data subject ([2169c63](https://github.com/AI-READI/aireadi.org/commit/2169c63dd7e22bcee8a9fb39bf3ea3ae927af582))
+
 ## [2.1.0](https://github.com/AI-READI/aireadi.org/compare/v2.0.3...v2.1.0) (2023-08-01)
 
 
