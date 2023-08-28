@@ -669,13 +669,62 @@
     "roles": ["Data Scientist"],
     "department": "",
     "organization": "",
-    "location": "Houston, Texas",
+    "location": "Houston, Tx",
     "caption": "Data Scientist intern, guided by the M-PI for the Tools module. Actively involved in the development of fairhub.io.",
     "image": "https://ucarecdn.com/12c60787-2733-4802-b96e-0a43bfa907c2/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px150p/",
     "modules": ["tools"],
     "social": {
       "linkedin": "https://www.linkedin.com/in/nada-haboudal/"
+    }
+  },
+  {
+    "id": "Hadi-Khazaei",
+    "name": "Hadi Khazaei",
+    "pronoun": "",
+    "roles": ["Visiting Professor", "Research Scholar"],
+    "department": "Orbit & Facial Reconstructive Surgery ",
+    "organization": "Oregon Health & Science University",
+    "location": "Portland, OR",
+    "caption": "Active researcher and visiting professor in orbital inflammatory disorders department (OHSU). Integration imaging and analysis using DML including lacrimal tear proteomics and POCUS( point of care ultrasonic imaging).",
+    "image": "https://ucarecdn.com/503173c5-1eb1-42bc-9005-c390fa8340bf/-/crop/face/200px160p/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px160p/",
+    "modules": ["teaming"],
+    "social": {
+      "github": "https://github.com/khazaei"
+    }
+  },
+  {
+    "id": "Shahin-Hallaj",
+    "name": "Shahin Hallaj",
+    "pronoun": "",
+    "roles": ["Ophthalmology Informatics and Data Sciences Fellow"],
+    "department": "Viterbi Family Department of Ophthalmology",
+    "organization": "University of California, San Diego",
+    "location": "San Diego, CA",
+    "caption": "I am a pre-residency intern with a special interest in the clinical applications of AI, data sciences, and novel computational approaches.",
+    "image": "https://ucarecdn.com/a7686be0-dfda-4d71-91e3-e27812fccc00/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "",
+    "modules": ["skills"],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/shahin-hallaj-38780a95/",
+      "twitter": "https://twitter.com/5Hallaj"
+    }
+  },
+  {
+    "id": "Lingling-Huang",
+    "name": "Lingling Huang",
+    "pronoun": "She/her",
+    "roles": ["Assistant Professor"],
+    "department": "Viterbi Family Department of Ophthalmology",
+    "organization": "University of California, San Diego",
+    "location": "San Diego, CA",
+    "caption": "I am a uveitis specialist at UC San Diego. I am one of the interns in the AI-READI program, who is interested in using AI to advance medicine and improve patient care.",
+    "image": "https://ucarecdn.com/6d548a1d-33bc-4422-9475-baa123cb0627/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px180p/",
+    "modules": ["skills"],
+    "social": {
+      "medprofile": "https://www.doximity.com/pub/lingling-huang-md"
     }
   }
 ]
