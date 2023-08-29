@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.3.0](https://github.com/AI-READI/aireadi.org/compare/v2.2.0...v2.3.0) (2023-08-29)
+
+
+### Features
+
+* ✨ add team members ([5d5c720](https://github.com/AI-READI/aireadi.org/commit/5d5c720115c32377ee587fa3a155003365cf3b43))
+* ✨ add team members ([bc789e8](https://github.com/AI-READI/aireadi.org/commit/bc789e85b3c352cede09eb23c3dabbea8d419fbe))
+
+
+### Bug Fixes
+
+* :bug: fix typos ([01f4ed3](https://github.com/AI-READI/aireadi.org/commit/01f4ed3d9ce92b85ae2bf3346c9c258476a5b8f3))
+
 ## [2.2.0](https://github.com/AI-READI/aireadi.org/compare/v2.1.0...v2.2.0) (2023-08-24)
 
 
