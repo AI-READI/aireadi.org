@@ -726,5 +726,33 @@
     "social": {
       "medprofile": "https://www.doximity.com/pub/lingling-huang-md"
     }
+  },
+  {
+    "id": "Fritz-Gerald-Kalaw",
+    "name": "Fritz Gerald Kalaw",
+    "pronoun": "",
+    "roles": ["Visiting Assistant Project Scientist"],
+    "department": "Viterbi Family Department of Ophthalmology and Shiley Eye Institute",
+    "organization": "University of California, San Diego",
+    "location": "San Diego, CA",
+    "caption": "I am an ophthalmologist currently serving as a Research Fellow in Vitreoretinal Diseases and Ophthalmology Informatics and Data Science. I am interested in providing retinal imaging data and leveraging available data.",
+    "image": "https://ucarecdn.com/a711ef59-e368-4d0c-bb8e-ea2d6244322e/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "",
+    "modules": ["tools", "standards"],
+    "social": {}
+  },
+  {
+    "id": "Kyongmi-Simpkins",
+    "name": "Kyongmi Simpkins",
+    "pronoun": "",
+    "roles": ["Research Associate", "AI-READI intern"],
+    "department": "Viterbi Family Department of Ophthalmology",
+    "organization": "University of California, San Diego",
+    "location": "San Diego, CA",
+    "caption": "I am a molecular neuroscientist by training. My interests are in the application of data science, machine learning, and AI to expand knowledge associated with imaging analysis and genomic sequencing data analysis.",
+    "image": "https://ucarecdn.com/57e1acbd-2e97-41d4-bf70-d2355f1a9f8a/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/190px150p/",
+    "modules": ["skills", "data"],
+    "social": {}
   }
 ]
