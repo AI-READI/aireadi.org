@@ -754,5 +754,21 @@
     "moduleImageParams": "-/crop/face/190px150p/",
     "modules": ["skills", "data"],
     "social": {}
+  },
+  {
+    "id": "Prachee-Jain",
+    "name": "Prachee Jain",
+    "pronoun": "she/her",
+    "roles": ["Post Doctoral Researcher"],
+    "department": "Internal Medicine",
+    "organization": "Stanford School of Medicine",
+    "location": "Stanford",
+    "caption": "I am an ethnographer and a researcher of work, technology and organizations. As a researcher on the Teaming module, I am responsible for applying and advancing team science to enable collaboration between interdisciplinary teams to acheive their goals.  ",
+    "image": "https://ucarecdn.com/99b9a715-6be7-4807-ae6f-e4be5fe5604b/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px150p/",
+    "modules": ["teaming"],
+    "social": {
+      "linkedin": "www.linkedin.com/in/prachee-jain-3629207"
+    }
   }
 ]
