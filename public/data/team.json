@@ -12,9 +12,9 @@
     "moduleImageParams": "-/crop/face/200px130p/",
     "modules": ["tools"],
     "social": {
-      "linkedin": "https://www.linkedin.com/in/erikbenton",
-      "github": "https://www.github.com/kirenotneb",
-      "website": ["http://www.notneb.net/"]
+      "linkedin": "https://linkedin.com/in/erikbenton",
+      "github": "https://github.com/kirenotneb",
+      "website": ["https://notneb.net/"]
     }
   },
   {
@@ -130,9 +130,9 @@
     "modules": ["tools"],
     "social": {
       "twitter": "https://twitter.com/bacordier",
-      "website": ["https://www.benjamincordier.com"],
-      "github": "https://www.github.com/greenstick",
-      "linkedin": "https://www.linkedin.com/in/benjamin-cordier-phd"
+      "website": ["https://benjamincordier.com"],
+      "github": "https://github.com/greenstick",
+      "linkedin": "https://linkedin.com/in/benjamin-cordier-phd"
     }
   },
   {
@@ -149,8 +149,8 @@
     "modules": ["tools"],
     "social": {
       "mastodon": "https://dair-community.social/@wondermixtape",
-      "website": ["http://www.biodevlab.org/"],
-      "github": "https://www.github.com/biodev"
+      "website": ["https://biodevlab.org/"],
+      "github": "https://github.com/biodev"
     }
   },
   {
@@ -166,7 +166,7 @@
     "moduleImageParams": "",
     "modules": ["data"],
     "social": {
-      "website": ["https://www.uab.edu/medicine/ophthalmology/faculty/owsley"]
+      "website": ["https://uab.edu/medicine/ophthalmology/faculty/owsley"]
     }
   },
   {
@@ -183,7 +183,7 @@
     "modules": ["ethics", "pedp"],
     "social": {
       "website": ["https://trolleystudy.ucsd.edu/home"],
-      "linkedin": "https://www.linkedin.com/in/katiecristphd/",
+      "linkedin": "https://linkedin.com/in/katiecristphd/",
       "profiles": "https://profiles.ucsd.edu/katie.crist"
     }
   },
@@ -215,7 +215,7 @@
     "modules": ["tools"],
     "social": {
       "website": ["https://sanjaysoundarajan.dev"],
-      "github": "https://www.github.com/megasanjay",
+      "github": "https://github.com/megasanjay",
       "twitter": "https://twitter.com/megasanjay"
     }
   },
@@ -316,7 +316,7 @@
     "modules": ["tools"],
     "social": {
       "website": ["https://fairdataihub.org"],
-      "linkedin": "https://www.linkedin.com/in/bvhpatel",
+      "linkedin": "https://linkedin.com/in/bvhpatel",
       "twitter": "https://twitter.com/fairdataihub"
     }
   },
@@ -333,7 +333,7 @@
     "moduleImageParams": "-/crop/face/200px150p/",
     "modules": ["ethics", "data", "skills", "tools", "standards", "teaming"],
     "social": {
-      "website": ["https://www.nccih.nih.gov/about/staff/qilu-yu"]
+      "website": ["https://nccih.nih.gov/about/staff/qilu-yu"]
     }
   },
   {
@@ -365,9 +365,7 @@
     "moduleImageParams": "-/crop/face/200px150p/",
     "modules": ["ethics"],
     "social": {
-      "website": [
-        "https://www.hopkinsmedicine.org/profiles/details/megan-collins"
-      ]
+      "website": ["https://hopkinsmedicine.org/profiles/details/megan-collins"]
     }
   },
   {
@@ -434,7 +432,7 @@
     "social": {
       "website": ["https://comp.ophthalmology.uw.edu/"],
       "twitter": "https://twitter.com/aaronylee",
-      "linkedin": "https://www.linkedin.com/in/aaron-y-lee-md-msci-a102b87/"
+      "linkedin": "https://linkedin.com/in/aaron-y-lee-md-msci-a102b87/"
     }
   },
   {
@@ -497,7 +495,7 @@
     "moduleImageParams": "-/crop/face/200px170p/",
     "modules": ["ethics"],
     "social": {
-      "website": ["www.kadijaferryman.com"]
+      "website": ["https://kadijaferryman.com"]
     }
   },
   {
@@ -513,7 +511,7 @@
     "moduleImageParams": "-/crop/face/200px150p/",
     "modules": ["tools"],
     "social": {
-      "linkedin": "https://www.linkedin.com/in/aydan-gasimova-a98b7521b/"
+      "linkedin": "https://linkedin.com/in/aydan-gasimova-a98b7521b/"
     }
   },
   {
@@ -546,7 +544,7 @@
     "modules": ["tools"],
     "social": {
       "website": ["https://dmice.ohsu.edu/cohenaa/"],
-      "linkedin": "https://www.linkedin.com/in/aaron-cohen-b526541/"
+      "linkedin": "https://linkedin.com/in/aaron-cohen-b526541/"
     }
   },
   {
@@ -579,7 +577,7 @@
     "modules": ["tools"],
     "social": {
       "twitter": "https://twitter.com/WEICHUNLIN04",
-      "linkedin": "https://www.linkedin.com/in/wei-chun-lin-or/"
+      "linkedin": "https://linkedin.com/in/wei-chun-lin-or/"
     }
   },
   {
@@ -596,7 +594,7 @@
     "modules": ["standards"],
     "social": {
       "github": "https://github.com/stephanieshong",
-      "linkedin": "https://www.linkedin.com/in/stephanie-s-hong-315766a/"
+      "linkedin": "https://linkedin.com/in/stephanie-s-hong-315766a/"
     }
   },
   {
@@ -612,7 +610,7 @@
     "moduleImageParams": "-/crop/face/180px140p/",
     "modules": ["teaming"],
     "social": {
-      "linkedin": "https://www.linkedin.com/in/adriennebaer/"
+      "linkedin": "https://linkedin.com/in/adriennebaer/"
     }
   },
   {
@@ -628,7 +626,7 @@
     "moduleImageParams": "-/crop/face/200px120p/",
     "modules": ["data"],
     "social": {
-      "website": ["https://www.uab.edu/medicine/ophthalmology/faculty/mcgwin"],
+      "website": ["https://uab.edu/medicine/ophthalmology/faculty/mcgwin"],
       "profiles": "https://scholars.uab.edu/display/mcgwin"
     }
   },
@@ -675,7 +673,7 @@
     "moduleImageParams": "-/crop/face/200px150p/",
     "modules": ["tools"],
     "social": {
-      "linkedin": "https://www.linkedin.com/in/nada-haboudal/"
+      "linkedin": "https://linkedin.com/in/nada-haboudal/"
     }
   },
   {
@@ -707,7 +705,7 @@
     "moduleImageParams": "",
     "modules": ["skills"],
     "social": {
-      "linkedin": "https://www.linkedin.com/in/shahin-hallaj-38780a95/",
+      "linkedin": "https://linkedin.com/in/shahin-hallaj-38780a95/",
       "twitter": "https://twitter.com/5Hallaj"
     }
   },
@@ -724,7 +722,7 @@
     "moduleImageParams": "-/crop/face/200px180p/",
     "modules": ["skills"],
     "social": {
-      "medprofile": "https://www.doximity.com/pub/lingling-huang-md"
+      "medprofile": "https://doximity.com/pub/lingling-huang-md"
     }
   },
   {
@@ -762,13 +760,29 @@
     "roles": ["Post Doctoral Researcher"],
     "department": "Internal Medicine",
     "organization": "Stanford School of Medicine",
-    "location": "Stanford",
+    "location": "Stanford, CA",
     "caption": "I am an ethnographer and a researcher of work, technology and organizations. As a researcher on the Teaming module, I am responsible for applying and advancing team science to enable collaboration between interdisciplinary teams to acheive their goals.  ",
     "image": "https://ucarecdn.com/99b9a715-6be7-4807-ae6f-e4be5fe5604b/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px150p/",
     "modules": ["teaming"],
     "social": {
-      "linkedin": "www.linkedin.com/in/prachee-jain-3629207"
+      "linkedin": "https://linkedin.com/in/prachee-jain-3629207"
+    }
+  },
+  {
+    "id": "Anna-Heinke",
+    "name": "Anna Heinke",
+    "pronoun": "",
+    "roles": ["Research Fellow, AI-READI intern"],
+    "department": "Viterbi Family Department of Ophthalmology and Shiley Eye Institute",
+    "organization": "University of California, San Diego",
+    "location": "San Diego, CA",
+    "caption": "I am an ophthalmologist currently working as a Research Fellow in Vitreoretinal Diseases at UC San Diego. As an AI-READI intern, I have a special interest in the clinical applications of AI and machine learning, particularly in the fields of ophthalmology and retinal imaging analysis.",
+    "image": "https://ucarecdn.com/b785945e-0b32-451a-985b-c28705af62dd/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/190px150p/",
+    "modules": ["skills", "data"],
+    "social": {
+      "linkedin": "https://linkedin.com/in/annaheinke"
     }
   }
 ]
