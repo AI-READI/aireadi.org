@@ -773,13 +773,13 @@
     "id": "Anna-Heinke",
     "name": "Anna Heinke",
     "pronoun": "",
-    "roles": ["Research Fellow, AI-READI intern"],
+    "roles": ["Research Fellow", "AI-READI intern"],
     "department": "Viterbi Family Department of Ophthalmology and Shiley Eye Institute",
     "organization": "University of California, San Diego",
     "location": "San Diego, CA",
     "caption": "I am an ophthalmologist currently working as a Research Fellow in Vitreoretinal Diseases at UC San Diego. As an AI-READI intern, I have a special interest in the clinical applications of AI and machine learning, particularly in the fields of ophthalmology and retinal imaging analysis.",
-    "image": "https://ucarecdn.com/b785945e-0b32-451a-985b-c28705af62dd/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
-    "moduleImageParams": "-/crop/face/190px150p/",
+    "image": "https://ucarecdn.com/075e8434-aaf1-4203-a353-3e4aa74b7dda/-/crop/face/200px200p/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px150p/",
     "modules": ["skills", "data"],
     "social": {
       "linkedin": "https://linkedin.com/in/annaheinke"
