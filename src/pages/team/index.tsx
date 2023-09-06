@@ -93,7 +93,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                   key={member.name}
                   id={member.id}
                 >
-                  <div className='relative h-full min-h-[500px] w-full md:min-h-fit md:w-5/12 '>
+                  <div className='relative h-full min-h-[500px] w-full md:min-h-fit md:w-[45%] '>
                     <Image
                       src={member.image}
                       alt='user profile picture'
@@ -106,7 +106,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                     />
                   </div>
 
-                  <div className='w-full py-8 px-6 text-left md:w-7/12 md:p-4'>
+                  <div className='w-full py-8 px-6 text-left md:w-[55%] md:p-4'>
                     <h3 className='text-xl font-extrabold text-gray-900'>
                       {member.name}{' '}
                       {member.pronoun && (
@@ -134,12 +134,14 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                         </div>
                       )}
 
-                      <div className='my-1 flex items-start font-semibold text-sky-700'>
-                        <div className='mt-1 h-[20px] w-[20px]'>
-                          <BiBuildingHouse size={20} />
+                      {member.organization && (
+                        <div className='my-1 flex items-start font-semibold text-sky-700'>
+                          <div className='mt-1 h-[20px] w-[20px]'>
+                            <BiBuildingHouse size={20} />
+                          </div>
+                          <p className='ml-2'>{member.organization}</p>
                         </div>
-                        <p className='ml-2'>{member.organization}</p>
-                      </div>
+                      )}
                     </div>
 
                     <div className='mb-3 flex items-center font-semibold text-slate-600'>
@@ -254,7 +256,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                             target='_blank'
                             className='cursor-newtab'
                           >
-                            <FaHospitalUser size={20} />
+                            <FaHospitalUser size={22} />
                             <span className='sr-only'> website </span>
                           </a>
                         </li>

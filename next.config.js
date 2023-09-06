@@ -10,6 +10,7 @@ const nextConfig = {
   images: {
     domains: [
       'storage.googleapis.com',
+      'storage.tally.so',
       'images.unsplash.com',
       'fairdataihub.org',
       'ucarecdn.com',
