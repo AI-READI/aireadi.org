@@ -135,17 +135,9 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 href='https://aireadi.org/'
                 className='w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
               >
-                AI-READI (Artificial Intelligence Ready and Equitable Atlas for
-                Diabetes Insights) program
-              </UnstyledLink>
-              , which is part of the National Institutes of Health Common Fund{' '}
-              <UnstyledLink
-                href='https://commonfund.nih.gov/bridge2ai'
-                className='w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
-              >
-                Bridge2AI program
-              </UnstyledLink>
-              . Program PIs Sally Baxter, MD and Linda Zangwill, PhD are
+                AI-READI
+              </UnstyledLink>{' '}
+              program. Program PIs Sally Baxter, MD and Linda Zangwill, PhD are
               overseeing the{' '}
               <UnstyledLink
                 href='https://shileyeye.ucsd.edu/research/ai_readi'
@@ -154,8 +146,8 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 yearlong research internship program
               </UnstyledLink>
               , and the bootcamp itself was led by UC San Diego Halıcıoğlu Data
-              Science Institute (HDSI) faculty Virginia de Sa, PhD, Bradley
-              Voytek, PhD, and Gary Cottrell, PhD. Bootcamp participants engaged
+              Science Institute faculty Virginia de Sa, PhD, Bradley Voytek,
+              PhD, and Gary Cottrell, PhD. <br /> Bootcamp participants engaged
               in hands-on practice in programming languages and learning
               fundamentals regarding AI and machine learning. The participants
               included a diverse range of individuals ranging from master's
