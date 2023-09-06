@@ -107,15 +107,9 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 Intern Orientation and Onboarding
               </h2>
             </div>
-            <p className='text-center text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-              Lorem ipsum, or lipsum as it is sometimes known, used in laying
-              out print, graphic or web designs. The passage is attributed to an
-              unknown typesetter in the 15th century who is thought to have
-              scrambled parts of Cicero's De Finibus Bonorum et Malorum for use
-              in a type specimen book. It usually begins with:
-            </p>
-            <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center gap-16 md:flex-col '>
-              <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
+
+            <div className='mx-auto mb-16 flex max-w-screen-xl flex-col-reverse items-center gap-16 md:flex-col'>
+              <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 '>
                 <img
                   className='rounded-lg'
                   src='https://ucarecdn.com/b6521517-979e-4ae4-baff-69ade647a982/'
@@ -134,6 +128,40 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 />
               </div>
             </div>
+            <p className='mb-6 text-lg font-normal text-gray-700 sm:mb-8'>
+              Faculty at UC San Diego hosted an immersive AI training bootcamp
+              for a group of interns participating in the{' '}
+              <UnstyledLink
+                href='https://aireadi.org/'
+                className='w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+              >
+                AI-READI (Artificial Intelligence Ready and Equitable Atlas for
+                Diabetes Insights) program
+              </UnstyledLink>
+              , which is part of the National Institutes of Health Common Fund{' '}
+              <UnstyledLink
+                href='https://commonfund.nih.gov/bridge2ai'
+                className='w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+              >
+                Bridge2AI program
+              </UnstyledLink>
+              . Program PIs Sally Baxter, MD and Linda Zangwill, PhD are
+              overseeing the{' '}
+              <UnstyledLink
+                href='https://shileyeye.ucsd.edu/research/ai_readi'
+                className='w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+              >
+                yearlong research internship program
+              </UnstyledLink>
+              , and the bootcamp itself was led by UC San Diego Halıcıoğlu Data
+              Science Institute (HDSI) faculty Virginia de Sa, PhD, Bradley
+              Voytek, PhD, and Gary Cottrell, PhD. Bootcamp participants engaged
+              in hands-on practice in programming languages and learning
+              fundamentals regarding AI and machine learning. The participants
+              included a diverse range of individuals ranging from master's
+              students to postdoctoral fellows coming from a broad range of
+              disciplines.
+            </p>
           </div>
         </section>
         <ModuleMembers Team={TeamMembers} />
