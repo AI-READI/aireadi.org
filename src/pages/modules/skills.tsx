@@ -147,8 +147,8 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
               </UnstyledLink>
               , and the bootcamp itself was led by UC San Diego Halıcıoğlu Data
               Science Institute faculty Virginia de Sa, PhD, Bradley Voytek,
-              PhD, and Gary Cottrell, PhD. <br /> Bootcamp participants engaged
-              in hands-on practice in programming languages and learning
+              PhD, and Gary Cottrell, PhD. Bootcamp participants engaged in
+              hands-on practice in programming languages and learning
               fundamentals regarding AI and machine learning. The participants
               included a diverse range of individuals ranging from master's
               students to postdoctoral fellows coming from a broad range of
