@@ -1,7 +1,7 @@
 ---
 title: 'Virtual Monthly Speaker Series'
 authors:
-  - 'Joseph Yracheta'
+  - 'Joseph-Yracheta'
 date: '2023-08-29'
 categories:
   - 'Virtual Monthly Speaker Series'
