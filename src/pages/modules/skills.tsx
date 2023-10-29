@@ -100,7 +100,62 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
             </ul>
           </div>
         </section>
+        <section className='bg-slate-50'>
+          <div className='mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6'>
+            <div className='mx-auto mb-6 max-w-screen-sm text-center lg:mb-8'>
+              <h2 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>
+                Intern Orientation and Onboarding
+              </h2>
+            </div>
 
+            <div className='mx-auto mb-16 flex max-w-screen-xl flex-col-reverse items-center gap-16 md:flex-col'>
+              <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 '>
+                <img
+                  className='rounded-lg'
+                  src='https://ucarecdn.com/b6521517-979e-4ae4-baff-69ade647a982/'
+                  alt='Photo of the UAB Callahan Eye Hospital'
+                />
+
+                <img
+                  className='rounded-lg'
+                  src='https://ucarecdn.com/43f384e1-ec90-410f-b3b5-7d72f3eda492/-/crop/16:9/bottom/'
+                  alt='Photo of the UCSD Medical Center'
+                />
+                <img
+                  className='rounded-lg'
+                  src='https://ucarecdn.com/2b081802-f0a0-40b5-b333-b1438e89415e/'
+                  alt='Photo of the UW Medicine building'
+                />
+              </div>
+            </div>
+            <p className='mb-6 text-lg font-normal text-gray-700 sm:mb-8'>
+              Faculty at UC San Diego hosted an immersive AI training bootcamp
+              for a group of interns participating in the{' '}
+              <UnstyledLink
+                href='https://aireadi.org/'
+                className='w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+              >
+                AI-READI
+              </UnstyledLink>{' '}
+              program. Program PIs Sally Baxter, MD and Linda Zangwill, PhD are
+              overseeing the{' '}
+              <UnstyledLink
+                href='https://shileyeye.ucsd.edu/research/ai_readi'
+                className='w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+              >
+                yearlong research internship program
+              </UnstyledLink>
+              , and the bootcamp itself was led by UC San Diego Halıcıoğlu Data
+              Science Institute faculty Virginia de Sa, PhD, Bradley Voytek,
+              PhD, and Gary Cottrell, PhD. Bootcamp participants engaged in
+              hands-on practice in programming languages and learning
+              fundamentals regarding AI and machine learning. The participants
+              included a diverse range of individuals ranging from master's
+              students to postdoctoral fellows coming from a broad range of
+              disciplines.
+            </p>
+          </div>
+        </section>
         <ModuleMembers Team={TeamMembers} />
       </main>
     </Layout>
