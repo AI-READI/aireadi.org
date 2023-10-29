@@ -1,5 +1,31 @@
 # Changelog
 
+## [2.4.0](https://github.com/AI-READI/aireadi.org/compare/v2.3.0...v2.4.0) (2023-10-29)
+
+
+### Features
+
+* ✨ add team members ([10b0dc9](https://github.com/AI-READI/aireadi.org/commit/10b0dc9d29c7ecf7384f8db5ab03ecc4f5b59cac))
+* ✨ add team members ([1742ab2](https://github.com/AI-READI/aireadi.org/commit/1742ab25e3e7f3fd7fe442218873c55aca1faf9b))
+* ✨ add team members ([3256751](https://github.com/AI-READI/aireadi.org/commit/3256751316c09426a7087a8bbeebc83b1a2e74cd))
+* ✨ add team members ([fb819fd](https://github.com/AI-READI/aireadi.org/commit/fb819fdb1e68e3f2c7d2e4293679bcaa87a8212a))
+* ✨ added term of the month ([2413619](https://github.com/AI-READI/aireadi.org/commit/241361960d00e6ac8e476cc42aa7dd41bc94bcd1))
+* ✨ added virtual monthly speaker series ([dacc066](https://github.com/AI-READI/aireadi.org/commit/dacc06655464589c0271b3a656be167496b1eb16))
+* ✨ added virtual-monthly-speakers-series ([3909c65](https://github.com/AI-READI/aireadi.org/commit/3909c65c4fe979732540a5ee9b7bc00f27623e48))
+* ✨ added virtual-monthly-speakers-series ([e5f1108](https://github.com/AI-READI/aireadi.org/commit/e5f11083b861c99b2eaff90e167ee03687478d2e))
+* ✨ blog post updated for August ([b1a74f1](https://github.com/AI-READI/aireadi.org/commit/b1a74f1accd4c63be78a9a7ff877adc25d17d1b4))
+* ✨ term of the October ([9c96b4a](https://github.com/AI-READI/aireadi.org/commit/9c96b4a4bbbdff44a4c3f6f27fd764a9a54d16ce))
+
+
+### Bug Fixes
+
+* 🐛 intern onboarding section updated ([e38b9a2](https://github.com/AI-READI/aireadi.org/commit/e38b9a29e2f2c7b842a8a1e4c50969de884cd989))
+* 🐛 minor syntax changes on bootcamp section ([9777866](https://github.com/AI-READI/aireadi.org/commit/9777866fed7ad38aa0218536a5957a8f6da4ddc4))
+* 🐛 removed br spacing ([20c6009](https://github.com/AI-READI/aireadi.org/commit/20c60094ae3f2fba1cef27226a5f1e624e830050))
+* 🐛 team member image updated ([20c0c0e](https://github.com/AI-READI/aireadi.org/commit/20c0c0ed52ee5b77a8faf3ac013fadaffb01da38))
+* 🐛 update blog images ([52a0738](https://github.com/AI-READI/aireadi.org/commit/52a073844392fb4d63216959acbf7e1dc25cfb8e))
+* 🐛 update blog images ([e43bdca](https://github.com/AI-READI/aireadi.org/commit/e43bdca5d9439057c2e23814aced1302752e7e1d))
+
 ## [2.3.0](https://github.com/AI-READI/aireadi.org/compare/v2.2.0...v2.3.0) (2023-08-29)
 
 
