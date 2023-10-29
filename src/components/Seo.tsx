@@ -11,7 +11,7 @@ const defaultMeta = {
   type: 'website',
   robots: 'follow, index',
   image:
-    'https://og.fairdataihub.org/api/ogimage?app=aireadi&title=Artificial%20Intelligence%20Ready%20and%20Equitable%20Atlas%20for%20Diabetes%20Insights%20%28AI-READI%29&description=Generating%20a%20flagship%20AI-ready%20and%20ethically-sourced%20dataset%20to%20support%20future%20AI-driven%20discoveries%20in%20diabetes',
+    'https://kalai.fairdataihub.org/api/generate?app=ai-readi&title=Generating%20a%20flagship%20AI-ready%20and%20ethically-sourced%20dataset%20to%20support%20future%20AI-driven%20discoveries%20in%20diabetes&org=ai-readi&description=',
 };
 
 type SeoProps = {
@@ -33,11 +33,11 @@ export default function Seo(props: SeoProps) {
 
   meta['description'] = props.templateDescription || meta.description;
 
-  meta['image'] =
-    props.templateImage ||
-    `https://og.fairdataihub.org/api/ogimage?app=aireadi&title=${encodeURIComponent(
-      meta.title
-    )}&description=${encodeURIComponent(meta.description)}`;
+  meta[
+    'image'
+  ] = `https://kalai.fairdataihub.org/api/generate?app=ai-readi&title=${encodeURIComponent(
+    meta.title
+  )}&org=ai-readi&description=${encodeURIComponent(meta.description)}`;
 
   return (
     <Head>
