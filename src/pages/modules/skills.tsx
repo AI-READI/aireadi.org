@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 
 import HeroCroppedImage from '@/components/hero/HeroCroppedImage';
@@ -69,7 +70,7 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
           </div>
         </section>
 
-        <section className='bg-sky-50'>
+        <section className='bg-white'>
           <div className='mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6'>
             <div className='mx-auto mb-6 max-w-screen-sm text-center lg:mb-8'>
               <h2 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>
@@ -100,7 +101,7 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
             </ul>
           </div>
         </section>
-        <section className='bg-slate-50'>
+        <section className='bg-sky-50'>
           <div className='mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6'>
             <div className='mx-auto mb-6 max-w-screen-sm text-center lg:mb-8'>
               <h2 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>
@@ -130,15 +131,22 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
             </div>
             <p className='mb-6 text-lg font-normal text-gray-700 sm:mb-8'>
               Faculty at UC San Diego hosted an immersive AI training bootcamp
-              for a group of interns participating in the{' '}
+              for a group of interns participating in the AI-READI program.
+              Program PIs{' '}
               <UnstyledLink
-                href='https://aireadi.org/'
+                href='/team#Sally-Baxter'
                 className='w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
               >
-                AI-READI
+                Sally Baxter, MD
+              </UnstyledLink>
+              , and{' '}
+              <UnstyledLink
+                href='/team#Linda-Zangwill'
+                className='w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+              >
+                Linda Zangwill, PhD
               </UnstyledLink>{' '}
-              program. Program PIs Sally Baxter, MD and Linda Zangwill, PhD are
-              overseeing the{' '}
+              are overseeing the{' '}
               <UnstyledLink
                 href='https://shileyeye.ucsd.edu/research/ai_readi'
                 className='w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
@@ -146,13 +154,26 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 yearlong research internship program
               </UnstyledLink>
               , and the bootcamp itself was led by UC San Diego Halıcıoğlu Data
-              Science Institute faculty Virginia de Sa, PhD, Bradley Voytek,
-              PhD, and Gary Cottrell, PhD. Bootcamp participants engaged in
-              hands-on practice in programming languages and learning
-              fundamentals regarding AI and machine learning. The participants
-              included a diverse range of individuals ranging from master's
-              students to postdoctoral fellows coming from a broad range of
-              disciplines.
+              Science Institute faculty{' '}
+              <UnstyledLink
+                href='/team#Virginia-de-Sa'
+                className='w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+              >
+                Virginia de Sa, PhD
+              </UnstyledLink>
+              ,{' '}
+              <UnstyledLink
+                href='/team#Bradley-Voytek'
+                className='w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+              >
+                Bradley Voytek, PhD
+              </UnstyledLink>
+              , and Gary Cottrell, PhD. <br />
+              Bootcamp participants engaged in hands-on practice in programming
+              languages and learning fundamentals regarding AI and machine
+              learning. The participants included a diverse range of individuals
+              ranging from master's students to postdoctoral fellows coming from
+              a broad range of disciplines.
             </p>
           </div>
         </section>
