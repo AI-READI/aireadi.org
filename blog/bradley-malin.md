@@ -7,6 +7,8 @@ categories:
   - 'Virtual Monthly Speaker Series'
 heroImage: 'https://i.imgur.com/ttVpcCk.jpg'
 subtitle: 'Dr. Bradley Malin: One Size Does Not Fit All: How to Build Respectful Cohorts for Biomedical Data Science'
+tags:
+  - 'Virtual Monthly Speaker Series'
 ---
 
 Every month, ETAI will invite a speaker to participate in a monthly speaker series related to ethical issues in biomedical research. The monthly speaker series is part of our module's milestones relating to engagement and reflection on ethics with the AI-READI team.
