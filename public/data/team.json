@@ -784,5 +784,21 @@
     "social": {
       "linkedin": "https://linkedin.com/in/annaheinke"
     }
+  },
+  {
+    "id": "Colleen-Cuddy",
+    "name": "Colleen Cuddy",
+    "pronoun": "she/her/hers",
+    "roles": ["Director, Research and Academic Collaboration"],
+    "department": "Lane Medical Library",
+    "organization": "Stanford University School of Medicine",
+    "location": "Redwood City, CA",
+    "caption": "I am an organizational development and change scholar and team science specialist focused on creating effective interdisciplinary and interprofessional teams. I am working as a researcher on the Teaming Module. ",
+    "image": "https://ucarecdn.com/05721ecf-3ea3-4f78-b2d1-4c01bf574d4e/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "",
+    "modules": ["teaming"],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/colleencuddy/"
+    }
   }
 ]
