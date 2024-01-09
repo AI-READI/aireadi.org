@@ -188,20 +188,6 @@
     }
   },
   {
-    "id": "Abigail-Lucero",
-    "name": "Abigail Lucero",
-    "pronoun": "",
-    "roles": ["Project Manager"],
-    "department": "Casey Eye Institute",
-    "organization": "Oregon Health & Science University",
-    "location": "Portland, OR",
-    "caption": "I'm a Project Manager in support of the innovative and committed team in the Tools module.",
-    "image": "https://ucarecdn.com/afc112d5-7a40-4963-8ad5-af05274ee55b/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
-    "moduleImageParams": "",
-    "modules": ["tools"],
-    "social": {}
-  },
-  {
     "id": "Sanjay-Soundarajan",
     "name": "Sanjay Soundarajan",
     "pronoun": "he/him",
