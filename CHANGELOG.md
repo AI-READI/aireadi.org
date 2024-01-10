@@ -1,5 +1,26 @@
 # Changelog
 
+## [2.5.0](https://github.com/AI-READI/aireadi.org/compare/v2.4.0...v2.5.0) (2024-01-10)
+
+
+### Features
+
+* ✨ add team member ([da13e07](https://github.com/AI-READI/aireadi.org/commit/da13e07a786b983c041410c5d96f8caa3b3eb8af))
+* ✨ added term of the month ([3fd2efd](https://github.com/AI-READI/aireadi.org/commit/3fd2efd027c438f0b360ed0e8a43d91fb459749a))
+* ✨ monthly speaker Bbradley Malin ([f2564ab](https://github.com/AI-READI/aireadi.org/commit/f2564ab7fb9e01705e5d29d8faf8cf6bc1e05f77))
+* ✨ Term of the Month precision medicine ([938c2ac](https://github.com/AI-READI/aireadi.org/commit/938c2ac1ca905d5fd109d759c9418b78f16bd0a2))
+* ✨ Virtual Monthly Spaker Series Babak Salimi ([44ee483](https://github.com/AI-READI/aireadi.org/commit/44ee483e197a0b989cd25aa9954c0b42048c5b5b))
+* ✨ Virtual Monthly Spaker Series Xiaoqian Jiang ([d9c7985](https://github.com/AI-READI/aireadi.org/commit/d9c79859c5e653e741efa30404825e6148167dcc))
+
+
+### Bug Fixes
+
+* 🐛 Bradley Malin monthly speaker ([ccbd90a](https://github.com/AI-READI/aireadi.org/commit/ccbd90a029f18c8fc890bf80b2a5b8880ef9c333))
+* 🐛 mino typo fix ([1e0bd45](https://github.com/AI-READI/aireadi.org/commit/1e0bd456329098ceb8f410ee7e1dbdfe35faca6e))
+* 🐛 update team ([e777213](https://github.com/AI-READI/aireadi.org/commit/e7772132270947165aa1eefe10a8c2aee5c48f94))
+* 🐛 update types of icon component ([1906a5b](https://github.com/AI-READI/aireadi.org/commit/1906a5b5403d3ead17a484db48a004c92fbee623))
+* update skills module's text ([38025fb](https://github.com/AI-READI/aireadi.org/commit/38025fb4bb539b426d61d2b3e7ad77a34f7660d3))
+
 ## [2.4.0](https://github.com/AI-READI/aireadi.org/compare/v2.3.0...v2.4.0) (2023-10-29)
 
 
