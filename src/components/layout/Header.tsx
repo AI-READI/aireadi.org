@@ -106,7 +106,7 @@ export default function Header() {
                   <MenuButton
                     bg='transparent'
                     as={Button}
-                    rightIcon={link.sublinks ? <ChevronDownIcon /> : null}
+                    rightIcon={link.sublinks ? <ChevronDownIcon /> : undefined}
                     className='!flex !items-center !px-2 !py-1'
                   >
                     <span className='text-sm lg:text-base'>{link.title}</span>
