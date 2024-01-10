@@ -44,11 +44,11 @@ const QuestionsList = [
 export default function FaqList() {
   return (
     <section className='bg-white '>
-      <div className='mx-auto max-w-screen-xl py-8 px-4 sm:py-16 lg:px-6'>
+      <div className='mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6'>
         <h2 className='mb-8 text-4xl font-extrabold tracking-tight text-gray-900'>
           Frequently asked questions
         </h2>
-        <div className='grid border-t border-gray-200 pt-4 text-left md:grid-cols-2 md:gap-y-8 md:gap-x-6'>
+        <div className='grid border-t border-gray-200 pt-4 text-left md:grid-cols-2 md:gap-x-6 md:gap-y-8'>
           {QuestionsList.map((question) => (
             <div key={question.question}>
               <h3 className='mb-3 flex items-center text-lg font-medium text-gray-900'>

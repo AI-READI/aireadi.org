@@ -37,7 +37,7 @@ export default function HomePage() {
           <SkipNavContent />
 
           <section
-            className={`relative flex h-[60vh] min-h-[600px] w-full items-center justify-center text-white before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-home-hero-image before:bg-cover before:bg-center before:bg-no-repeat before:brightness-[0.3] before:content-[''] md:h-[40vh]`}
+            className={`relative flex h-[60vh] min-h-[600px] w-full items-center justify-center text-white before:absolute before:left-0 before:top-0 before:h-full before:w-full before:bg-home-hero-image before:bg-cover before:bg-center before:bg-no-repeat before:brightness-[0.3] before:content-[''] md:h-[40vh]`}
           >
             <div className='mx-auto grid max-w-screen-xl flex-col px-6 py-16 md:grid-cols-12 md:gap-8 lg:py-16 xl:gap-0 '>
               <div className='col-span-12 mr-auto place-self-center md:col-span-8'>
@@ -53,7 +53,7 @@ export default function HomePage() {
               </div>
 
               <div className='col-span-12'>
-                <div className='relative flex w-max flex-col space-y-2 sm:flex-row sm:space-y-0 sm:space-x-4'>
+                <div className='relative flex w-max flex-col space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0'>
                   <ButtonLink href='https://fairhub.io' variant='primary'>
                     View our data
                   </ButtonLink>
@@ -72,7 +72,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='pt-16 pb-8'>
+          <section className='pb-8 pt-16'>
             <div className='mx-auto flex max-w-screen-xl flex-col items-center px-8  lg:px-6'>
               <h2 className='mb-5 max-w-screen-lg text-center text-4xl font-bold tracking-tight  sm:text-4xl'>
                 Generating data, best practices, and tools to boost future
@@ -120,7 +120,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='pt-4 pb-16'>
+          <section className='pb-16 pt-4'>
             <div className='px-8'>
               <div className='m-2 mx-auto max-w-screen-xl rounded-lg bg-slate-100 p-8  text-center'>
                 <h1 className='mb-2 text-3xl font-bold tracking-tight sm:text-4xl'>

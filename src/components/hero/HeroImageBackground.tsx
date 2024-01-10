@@ -15,7 +15,7 @@ export default function HeroImageBackground({
         (image === 'home-hero-image'
           ? 'before:bg-home-hero-image'
           : 'before:bg-hero-image') +
-        ` before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-cover before:bg-center before:bg-no-repeat before:brightness-[0.4] before:content-['']`
+        ` before:absolute before:left-0 before:top-0 before:h-full before:w-full before:bg-cover before:bg-center before:bg-no-repeat before:brightness-[0.4] before:content-['']`
       }
     >
       <div className='mx-auto grid max-w-screen-2xl px-6 py-8 lg:grid-cols-12 lg:gap-8 lg:py-16 xl:gap-0'>

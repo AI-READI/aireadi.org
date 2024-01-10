@@ -76,7 +76,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
         <SkipNavContent />
 
         <section className='bg-white !font-primary'>
-          <div className='mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6 '>
+          <div className='mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16 '>
             <div className='mx-auto mb-8 max-w-screen-sm text-center lg:mb-16'>
               <h1 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>
                 Our Team
@@ -106,7 +106,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                     />
                   </div>
 
-                  <div className='w-full py-8 px-6 text-left md:w-[55%] md:p-4'>
+                  <div className='w-full px-6 py-8 text-left md:w-[55%] md:p-4'>
                     <h3 className='text-xl font-extrabold text-gray-900'>
                       {member.name}{' '}
                       {member.pronoun && (
@@ -151,7 +151,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                     <Divider />
 
-                    <p className='mt-3 mb-1 px-1 text-lg md:text-base'>
+                    <p className='mb-1 mt-3 px-1 text-lg md:text-base'>
                       {member.caption}
                     </p>
 

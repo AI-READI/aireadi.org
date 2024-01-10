@@ -27,7 +27,7 @@ const BlogLayout: React.FC<blogLayoutProps> = ({ blogList }) => {
       <hr className='mx-6 my-2 border-dashed border-slate-200' />
 
       {blogList.length > 0 ? (
-        <div className='flex w-full flex-col-reverse items-start space-x-4 py-3 px-8 lg:flex-row lg:py-6'>
+        <div className='flex w-full flex-col-reverse items-start space-x-4 px-8 py-3 lg:flex-row lg:py-6'>
           <div className='px-4 py-3 lg:w-5/12 lg:px-0 lg:py-0'>
             <Link
               className='w-max'
@@ -52,7 +52,7 @@ const BlogLayout: React.FC<blogLayoutProps> = ({ blogList }) => {
             <Divider />
 
             <div className='flex flex-col py-2'>
-              <time className='mb-1 mt-1 mr-2 text-base font-normal text-slate-600'>
+              <time className='mb-1 mr-2 mt-1 text-base font-normal text-slate-600'>
                 {dayjs(blogList[0].frontMatter.date).format(`MMMM D, YYYY`)}
               </time>
 
@@ -79,7 +79,7 @@ const BlogLayout: React.FC<blogLayoutProps> = ({ blogList }) => {
 
       {blogList.length > 1 ? (
         <>
-          <div className='grid grid-cols-1 gap-6 py-6 px-1 sm:px-6 lg:grid-cols-2'>
+          <div className='grid grid-cols-1 gap-6 px-1 py-6 sm:px-6 lg:grid-cols-2'>
             {blogList.map((post) => (
               <div
                 className={

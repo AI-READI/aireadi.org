@@ -29,7 +29,7 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
         />
 
         <section className='bg-slate-50'>
-          <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-10 py-8 px-4 text-left md:grid-cols-2 lg:py-16 lg:px-6'>
+          <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-10 px-4 py-8 text-left md:grid-cols-2 lg:px-6 lg:py-16'>
             <div>
               <h2 className='mb-4 text-3xl font-extrabold tracking-tight sm:text-4xl'>
                 Overview of the Skills & Workforce Development Module
@@ -37,8 +37,9 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
                 The overall objective of the AI-READI Skills and Workforce
                 Development Module is to develop and deploy training and career
-                development activities for individuals who will effectively contribute to translational AI research,
-                particularly in the biomedical/clinical domain.
+                development activities for individuals who will effectively
+                contribute to translational AI research, particularly in the
+                biomedical/clinical domain.
               </p>
             </div>
             <div>
@@ -60,8 +61,8 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                   spanning ethics, tools, and standards.
                 </li>
                 <li>
-                  Increase the range of perspectives by encouraging broad exposure to AI-READI
-                  dataset from a variety of individuals.
+                  Increase the range of perspectives by encouraging broad
+                  exposure to AI-READI dataset from a variety of individuals.
                 </li>
               </ul>
             </div>
@@ -69,7 +70,7 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
         </section>
 
         <section className='bg-white'>
-          <div className='mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6'>
+          <div className='mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16'>
             <div className='mx-auto mb-6 max-w-screen-sm text-center lg:mb-8'>
               <h2 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>
                 Resources
@@ -100,7 +101,7 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
           </div>
         </section>
         <section className='bg-sky-50'>
-          <div className='mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6'>
+          <div className='mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16'>
             <div className='mx-auto mb-6 max-w-screen-sm text-center lg:mb-8'>
               <h2 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>
                 Intern Orientation and Onboarding

@@ -8,7 +8,7 @@ export default function ContentHeadingDescription({
 }: TextContent) {
   return (
     <section className=''>
-      <div className='mx-auto max-w-screen-xl py-8 px-4 text-gray-500 sm:text-lg  lg:py-16 lg:px-6'>
+      <div className='mx-auto max-w-screen-xl px-4 py-8 text-gray-500 sm:text-lg  lg:px-6 lg:py-16'>
         <h2 className='mb-4 text-4xl font-bold tracking-tight text-gray-900 '>
           {title}
         </h2>

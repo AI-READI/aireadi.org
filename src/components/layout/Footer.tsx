@@ -86,7 +86,7 @@ export default function Footer() {
                 AI-READI
               </span>
             </a>
-            <span className='pt-3 pb-2 text-lg font-semibold text-sky-900'>
+            <span className='pb-2 pt-3 text-lg font-semibold text-sky-900'>
               Artificial Intelligence Ready and Equitable Atlas for Diabetes
               Insights
             </span>

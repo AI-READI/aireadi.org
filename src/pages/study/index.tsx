@@ -36,7 +36,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
         <section className='py-8'>
           <div className='mx-auto flex max-w-screen-2xl flex-col items-center px-2 text-gray-500 lg:px-6'>
             <div className='relative isolate overflow-hidden bg-white px-6 pt-2 sm:pt-5 lg:overflow-visible lg:px-0'>
-              <div className='mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-5'>
+              <div className='mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-5'>
                 <div className='lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8'>
                   <div className='lg:max-w-lg lg:pr-4'>
                     <h1 className='text-3xl font-bold sm:text-4xl'>
@@ -179,7 +179,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
               <p className='my-4 text-lg'>You may contact us at:</p>
 
-              <div className='flex w-max flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 '>
+              <div className='flex w-max flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 '>
                 <ButtonLink variant='outline' href='tel:205-297-0408'>
                   (205) 297-0408
                 </ButtonLink>
@@ -225,7 +225,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
               <p className='my-4 text-lg'>You may contact us at:</p>
 
-              <div className='flex w-max flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 '>
+              <div className='flex w-max flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 '>
                 <ButtonLink variant='outline' href='tel:858-822-4669'>
                   (858) 822-4669
                 </ButtonLink>
@@ -263,7 +263,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
               <p className='my-4 text-lg'>You may contact us at:</p>
 
-              <div className='flex w-max flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 '>
+              <div className='flex w-max flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 '>
                 <ButtonLink variant='outline' href='tel:206-710-6689'>
                   (206) 710-6689
                 </ButtonLink>
@@ -909,7 +909,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                     <Divider />
 
-                    <p className='mt-3 mb-1 text-lg md:text-base'>
+                    <p className='mb-1 mt-3 text-lg md:text-base'>
                       {person.caption}
                     </p>
                   </div>

@@ -7,7 +7,7 @@ export default function ContentWithImages({
 }: TextWithImagesContent) {
   return (
     <section className='bg-white'>
-      <div className='mx-auto max-w-screen-xl items-center gap-16 py-8 px-4 lg:grid lg:grid-cols-2 lg:py-16 lg:px-6'>
+      <div className='mx-auto max-w-screen-xl items-center gap-16 px-4 py-8 lg:grid lg:grid-cols-2 lg:px-6 lg:py-16'>
         <div className='font-normal text-gray-500 sm:text-lg'>
           <h2 className='mb-4 text-4xl font-extrabold tracking-tight text-gray-900 '>
             {title}

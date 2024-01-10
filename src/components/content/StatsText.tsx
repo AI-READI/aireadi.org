@@ -20,7 +20,7 @@ const StatsList = [
 export default function StatsText() {
   return (
     <section className='bg-white '>
-      <div className='mx-auto max-w-screen-xl py-8 px-4 sm:py-16 lg:px-6'>
+      <div className='mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6'>
         <h2 className='mb-4 text-4xl font-bold tracking-tight'>
           Snapshot of the AI-READI project
         </h2>

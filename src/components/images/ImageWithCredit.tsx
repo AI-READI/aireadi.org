@@ -22,7 +22,7 @@ const ImageWithCredit: React.FC<ImageProps> = ({
         alt={alt}
       />
 
-      <div className='overlay absolute bottom-0 right-0 z-20 flex w-full flex-row justify-end rounded-lg pt-4 pb-1 opacity-0 transition-all group-hover:opacity-100'>
+      <div className='overlay absolute bottom-0 right-0 z-20 flex w-full flex-row justify-end rounded-lg pb-1 pt-4 opacity-0 transition-all group-hover:opacity-100'>
         {(authorLink && (
           <a
             href={authorLink}

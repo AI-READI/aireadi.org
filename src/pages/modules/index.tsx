@@ -87,7 +87,7 @@ export default function HomePage() {
           />
 
           <section className='bg-white'>
-            <div className='mx-auto max-w-screen-xl py-8 px-4 text-center lg:py-16 lg:px-6'>
+            <div className='mx-auto max-w-screen-xl px-4 py-8 text-center lg:px-6 lg:py-16'>
               {Modules.map((module) => (
                 <div
                   className='mb-6 flex flex-col justify-between rounded-lg border md:flex-row md:space-x-5'
@@ -95,7 +95,7 @@ export default function HomePage() {
                 >
                   <img
                     src={module.image}
-                    className='mb-4 w-full md:mr-4 md:mb-0 md:w-4/12'
+                    className='mb-4 w-full md:mb-0 md:mr-4 md:w-4/12'
                     alt='mockup'
                   />
 
