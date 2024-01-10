@@ -37,8 +37,7 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
                 The overall objective of the AI-READI Skills and Workforce
                 Development Module is to develop and deploy training and career
-                development activities for individuals from diverse backgrounds
-                who will effectively contribute to translational AI research,
+                development activities for individuals who will effectively contribute to translational AI research,
                 particularly in the biomedical/clinical domain.
               </p>
             </div>
@@ -61,8 +60,7 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                   spanning ethics, tools, and standards.
                 </li>
                 <li>
-                  Increase the range of perspectives by creating a diverse
-                  research team and encouraging broad exposure to AI-READI
+                  Increase the range of perspectives by encouraging broad exposure to AI-READI
                   dataset from a variety of individuals.
                 </li>
               </ul>
@@ -171,7 +169,7 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
               , and Gary Cottrell, PhD. <br />
               Bootcamp participants engaged in hands-on practice in programming
               languages and learning fundamentals regarding AI and machine
-              learning. The participants included a diverse range of individuals
+              learning. The participants included a wide range of individuals
               ranging from master's students to postdoctoral fellows coming from
               a broad range of disciplines.
             </p>
@@ -187,7 +185,7 @@ const Resources = [
   {
     title: 'AI-READI Internship Program',
     description:
-      'One component of AI-READI is the Skills and Workforce Development Module, which includes the development of a yearlong mentored research internship program aimed at diversifying the future workforce at the intersection of data science/AI and the biomedical sciences and clinical research.',
+      'One component of AI-READI is the Skills and Workforce Development Module, which includes the development of a yearlong mentored research internship program aimed at expanding the future workforce at the intersection of data science/AI and the biomedical sciences and clinical research.',
     link: 'https://shileyeye.ucsd.edu/research/ai_readi',
     type: 'website',
   },
