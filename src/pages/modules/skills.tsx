@@ -23,7 +23,7 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
         <HeroCroppedImage
           title='Skills & Workforce Development'
           image='https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
-          tagline='Developing a diverse AI/ML-biomedical research workforce.'
+          tagline='Training and expanding the AI/ML-biomedical research workforce.'
           showButtons={false}
           primaryButton='Learn more about the study'
         />
