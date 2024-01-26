@@ -6,7 +6,7 @@ import Layout from '@/components/layout/Layout';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
 
-const DataModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
+const DataModule: React.FC<ModuleMembersPageProps> = () => (
   <>
     <SkipNavLink>Skip to content</SkipNavLink>
 
@@ -105,15 +105,5 @@ const Resources = [
     type: 'github',
   },
 ];
-
-// export const getStaticProps = async () => {
-//   const TeamMembers = await ModuleMembersFilter('advisory');
-//
-//   return {
-//     props: {
-//       TeamMembers,
-//     },
-//   };
-// };
 
 export default DataModule;
