@@ -281,8 +281,8 @@ export default function HomePage() {
                 </p>
 
                 <div>
-                  <ButtonLink href='/modules/pedp' variant='outline'>
-                    Learn more about our plan for enhancing diversity
+                  <ButtonLink href='/modules/acc' variant='outline'>
+                    Learn more about our Advisory Council
                   </ButtonLink>
                 </div>
               </div>
@@ -449,7 +449,7 @@ const FeaturesList = [
   {
     title: 'Ethical and Trustworthy AI',
     description:
-      'Establishing guidelines for colllecting and sharing ethically sourced data',
+      'Establishing guidelines for collecting and sharing ethically sourced data',
     icon: <GoLaw size={20} />,
     href: '/modules/ethics',
   },

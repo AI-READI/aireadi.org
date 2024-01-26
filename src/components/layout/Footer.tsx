@@ -56,6 +56,7 @@ const footerLinks = [
   {
     title: 'Modules',
     links: [
+      { href: '/modules/acc', title: 'Advisory Council' },
       { href: '/modules/data', title: 'Data Acquisition' },
       { href: '/modules/ethics', title: 'Ethics' },
       {

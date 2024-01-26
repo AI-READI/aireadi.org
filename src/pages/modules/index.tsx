@@ -9,6 +9,12 @@ import Seo from '@/components/Seo';
 
 const Modules = [
   {
+    title: 'Advisory Council',
+    image: '/images/modules/pedp-hero.jpeg',
+    tagline: '',
+    href: '/modules/acc',
+  },
+  {
     title: 'Data Acquisition',
     image: '/images/modules/data-hero.svg',
     tagline:

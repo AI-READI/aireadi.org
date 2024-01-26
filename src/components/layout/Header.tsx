@@ -33,6 +33,10 @@ const links = [
     href: '',
     title: 'Modules',
     sublinks: [
+      {
+        href: '/modules/acc',
+        title: 'Advisory Council',
+      },
       { href: '/modules/data', title: 'Data Acquisition' },
       {
         href: '/modules/ethics',

@@ -21,6 +21,8 @@ import TEAM_JSON from '~/data/team.json';
 const ModulesSection = ({ modules }: { modules: string[] }) => {
   const getModule = (module: string) => {
     switch (module) {
+      case 'acc':
+        return 'Advisory Council';
       case 'ethics':
         return 'Ethics';
       case 'data':

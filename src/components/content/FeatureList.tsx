@@ -9,6 +9,12 @@ import { TbArrowNarrowRight } from 'react-icons/tb';
 
 const FeaturesList = [
   {
+    title: 'Advisory Council',
+    description: '',
+    icon: <AiFillDatabase size={20} />,
+    href: '/modules/acc',
+  },
+  {
     title: 'Data Acquisition',
     description: 'Collecting data across multiple sites',
     icon: <AiFillDatabase size={20} />,
