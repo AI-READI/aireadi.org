@@ -1,7 +1,7 @@
 ---
 title: 'Virtual Monthly Speaker Series'
 authors:
-  - 'Berk-Ustun'
+  - 'Berk Ustun'
 date: '2023-06-06'
 categories:
   - 'Virtual Monthly Speaker Series'

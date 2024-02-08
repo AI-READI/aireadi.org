@@ -1,14 +1,14 @@
 ---
 title: 'Learning and Implementing Code Tests'
 authors:
-  - 'Nada Haboudal'
+  - 'Nada-Haboudal'
 date: '2024-01-18'
 categories:
   - 'Engineering'
 heroImage: 'https://i.imgur.com/RTykJ1Q.jpg'
 subtitle: "An Intern's Perspective"
 tags:
-  - 'Pytest'
+  - 'pytest'
 ---
 
 Welcome to my blog post, where I showcase my work with pytest, a super handy tool for testing Python code.

@@ -1,7 +1,7 @@
 ---
 title: 'Virtual Monthly Speaker Series'
 authors:
-  - 'Debra Mathews'
+  - 'Debra-Mathews'
 date: '2023-09-19'
 categories:
   - 'Virtual Monthly Speaker Series'
