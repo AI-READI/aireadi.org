@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.5.1](https://github.com/AI-READI/aireadi.org/compare/v2.5.0...v2.5.1) (2024-02-16)
+
+
+### Bug Fixes
+
+* 🐛 Samm's bio ([c76b4cb](https://github.com/AI-READI/aireadi.org/commit/c76b4cb683d7cb030704289a4b4e68dd340082f1))
+* 🐛 update skills module's text 2 ([7911645](https://github.com/AI-READI/aireadi.org/commit/79116450f440bf96e9a622fe510dbb00b7ffd9e4))
+
 ## [2.5.0](https://github.com/AI-READI/aireadi.org/compare/v2.4.0...v2.5.0) (2024-01-10)
 
 
