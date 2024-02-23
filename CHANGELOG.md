@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.5.2](https://github.com/AI-READI/aireadi.org/compare/v2.5.1...v2.5.2) (2024-02-23)
+
+
+### Bug Fixes
+
+* 🐛 update team ([c6be6ee](https://github.com/AI-READI/aireadi.org/commit/c6be6eee55b263d287f560686cdd67771f25bfe6))
+* 🐛 update team member name ([35d686f](https://github.com/AI-READI/aireadi.org/commit/35d686fe72817afffbd0f0e7d7edb010222a05c5))
+
 ## [2.5.1](https://github.com/AI-READI/aireadi.org/compare/v2.5.0...v2.5.1) (2024-02-16)
 
 
