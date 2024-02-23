@@ -197,7 +197,7 @@
     "location": "San Diego, CA",
     "caption": "I am a front-end developer with experience in building web applications and data visualization tools. I am excited to be a part of the Tools module and help build tools that will help researchers and clinicians better understand and use data.",
     "image": "https://ucarecdn.com/dca922ac-d2dc-4fb4-8c37-5bdc2d5aa768/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
-    "moduleImageParams": "-/crop/face/200px160p/",
+    "moduleImageParams": "-/crop/face/200px150p/",
     "modules": ["tools"],
     "social": {
       "website": ["https://sanjaysoundarajan.dev"],
@@ -747,7 +747,7 @@
     "department": "Internal Medicine",
     "organization": "Stanford School of Medicine",
     "location": "Stanford, CA",
-    "caption": "I am an ethnographer and a researcher of work, technology and organizations. As a researcher on the Teaming module, I am responsible for applying and advancing team science to enable collaboration between interdisciplinary teams to acheive their goals.  ",
+    "caption": "I am an ethnographer and a researcher of work, technology and organizations. As a researcher on the Teaming module, I am responsible for applying and advancing team science to enable collaboration between interdisciplinary teams to acheive their goals.",
     "image": "https://ucarecdn.com/99b9a715-6be7-4807-ae6f-e4be5fe5604b/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px150p/",
     "modules": ["teaming"],
@@ -779,12 +779,29 @@
     "department": "Lane Medical Library",
     "organization": "Stanford University School of Medicine",
     "location": "Redwood City, CA",
-    "caption": "I am an organizational development and change scholar and team science specialist focused on creating effective interdisciplinary and interprofessional teams. I am working as a researcher on the Teaming Module. ",
+    "caption": "I am an organizational development and change scholar and team science specialist focused on creating effective interdisciplinary and interprofessional teams. I am working as a researcher on the Teaming Module.",
     "image": "https://ucarecdn.com/05721ecf-3ea3-4f78-b2d1-4c01bf574d4e/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "",
     "modules": ["teaming"],
     "social": {
       "linkedin": "https://www.linkedin.com/in/colleencuddy/"
+    }
+  },
+  {
+    "id": "Dorian-Portilo",
+    "name": "Dorian Portilo",
+    "pronoun": "they/them",
+    "roles": ["Web Developer"],
+    "department": "FAIR Data Innovations Hub",
+    "organization": "California Medical Innovations Institute",
+    "location": "San Bernardino, CA",
+    "caption": "I am a web developer who adapts to the needs and pacing of a team to create efficient and performant web apps. I believe in technology as a means to help society so I am excited to be a part of the AI-READI project.",
+    "image": "https://ucarecdn.com/a3ed77eb-24bc-4b55-b8f9-118a9d07f760/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px200p/",
+    "modules": ["tools"],
+    "social": {
+      "github": "https://github.com/slugb0t",
+      "linkedin": "https://www.linkedin.com/in/dorian-portillo-4733b61b5/"
     }
   }
 ]
