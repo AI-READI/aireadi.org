@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.6.0](https://github.com/AI-READI/aireadi.org/compare/v2.5.2...v2.6.0) (2024-02-28)
+
+
+### Features
+
+* ✨ add Term of the Month Causal Fairness in Healthcare ([7bf61be](https://github.com/AI-READI/aireadi.org/commit/7bf61be9cb54c7d00ffcb8127d274797365183fa))
+* ✨ add Virtual Monthly Spaker Series Tim Mackey ([f03ab9f](https://github.com/AI-READI/aireadi.org/commit/f03ab9f44350b546b9542bc22e9b4a50d28d65b2))
+
 ## [2.5.2](https://github.com/AI-READI/aireadi.org/compare/v2.5.1...v2.5.2) (2024-02-23)
 
 
