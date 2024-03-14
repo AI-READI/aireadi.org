@@ -1,61 +1,48 @@
-import { ChevronDownIcon, HamburgerIcon } from '@chakra-ui/icons';
-import {
-  Accordion,
-  AccordionButton,
-  AccordionIcon,
-  AccordionItem,
-  AccordionPanel,
-  Box,
-  Button,
-  Drawer,
-  DrawerBody,
-  DrawerCloseButton,
-  DrawerContent,
-  DrawerHeader,
-  DrawerOverlay,
-  IconButton,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuList,
-  useDisclosure,
-} from '@chakra-ui/react';
-import Link from 'next/link';
+/* eslint-disable @next/next/no-img-element */
+import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react';
+import { Icon } from '@iconify/react';
+import { Fragment, useState } from 'react';
 
 import UnstyledLink from '@/components/links/UnstyledLink';
 
-const links = [
-  // {
-  //   href: '/study',
-  //   title: 'Study',
-  // },
+const goals = [
   {
-    href: '',
-    title: 'Modules',
-    sublinks: [
-      { href: '/modules/data', title: 'Data Acquisition' },
-      {
-        href: '/modules/ethics',
-        title: 'Ethical and Trustworthy Artificial Intelligence',
-      },
-      {
-        href: '/modules/pedp',
-        title: 'Plan for Enhancing Diverse Perspectives',
-      },
-      { href: '/modules/skills', title: 'Skills and Workforce Development' },
-      { href: '/modules/standards', title: 'Standards' },
-      { href: '/modules/teaming', title: 'Teaming' },
-      { href: '/modules/tools', title: 'Tools' },
-    ],
+    name: 'Project Wide Milestones',
+    description: 'A high-level overview of the project goals and objectives.',
+    href: '#',
+    icon: 'ic:baseline-bar-chart',
   },
+  {
+    name: 'Data Collection',
+    description: 'Policy and procedures for data collection and management.',
+    href: '#',
+    icon: 'ic:baseline-chat',
+  },
+  {
+    name: 'Considerations for Releasing Data',
+    description: 'Guidelines for releasing data to the public.',
+    href: '#',
+    icon: 'ic:baseline-lock',
+  },
+  {
+    name: 'Capacity Building Initiatives',
+    description: 'Training and resources for capacity building.',
+    href: '#',
+    icon: 'ic:baseline-extension',
+  },
+];
+
+const callsToAction = [
+  { name: 'Watch demo', href: '#', icon: 'ic:baseline-play-arrow' },
+  { name: 'Contact sales', href: '#', icon: 'ic:baseline-phone' },
+];
+
+const regularLinks = [
   {
     href: '/team',
     title: 'Team',
   },
-  // {
-  //   href: '/data',
-  //   title: 'Data',
-  // },
+
   {
     href: '/publications',
     title: 'Publications',
@@ -70,120 +57,192 @@ const links = [
   },
 ];
 
-interface Props {
-  link: string;
-  children: React.ReactNode;
-}
-
-const ConditionalWrapper: React.FC<Props> = ({ link, children }) =>
-  link === '' ? (
-    <>{children}</>
-  ) : (
-    <Link href={link} passHref>
-      {children}
-    </Link>
-  );
-
 export default function Header() {
-  const { isOpen, onOpen, onClose } = useDisclosure({ defaultIsOpen: false });
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className='sticky top-0 z-10 border-b bg-white'>
-      <div className='relative mx-auto flex h-14 max-w-screen-xl items-center justify-between'>
-        <UnstyledLink
-          href='/'
-          className='pl-3 text-lg font-bold transition-all hover:text-sky-500'
-        >
-          {/* <FcBiotech size={30} /> */}
-          AI-READI
-        </UnstyledLink>
+    <header className='bg-white'>
+      <nav
+        className='mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8'
+        aria-label='Global'
+      >
+        <div className='flex lg:flex-1'>
+          <UnstyledLink
+            href='/'
+            className='pl-3 text-lg font-bold transition-all hover:text-sky-500'
+          >
+            AI-READI
+          </UnstyledLink>
+        </div>
+        <div className='flex lg:hidden'>
+          <button
+            type='button'
+            className='-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700'
+            onClick={() => setMobileMenuOpen(true)}
+          >
+            <span className='sr-only'>Open main menu</span>
+            <Icon icon='ic:round-menu' />
+          </button>
+        </div>
+        <Popover.Group className='hidden lg:flex lg:gap-x-12'>
+          <Popover className='relative'>
+            <Popover.Button className='flex items-center gap-x-1 font-semibold text-gray-800 transition-all hover:text-blue-400'>
+              Goals
+              <Icon
+                icon='ic:round-keyboard-arrow-down'
+                width={20}
+                height={20}
+              />
+            </Popover.Button>
 
-        <nav>
-          <div className='hidden space-x-1 md:flex'>
-            {links.map((link) => (
-              <Menu key={link.href}>
-                <ConditionalWrapper link={link.href}>
-                  <MenuButton
-                    bg='transparent'
-                    as={Button}
-                    rightIcon={link.sublinks ? <ChevronDownIcon /> : undefined}
-                    className='!flex !items-center !px-2 !py-1'
-                  >
-                    <span className='text-sm lg:text-base'>{link.title}</span>
-                  </MenuButton>
-                </ConditionalWrapper>
-
-                {link.sublinks && (
-                  <MenuList>
-                    {link.sublinks.map((sublink) => (
-                      <Link key={sublink.href} href={sublink.href} passHref>
-                        <MenuItem>{sublink.title}</MenuItem>
-                      </Link>
+            <Transition
+              as={Fragment}
+              enter='transition ease-out duration-200'
+              enterFrom='opacity-0 translate-y-1'
+              enterTo='opacity-100 translate-y-0'
+              leave='transition ease-in duration-150'
+              leaveFrom='opacity-100 translate-y-0'
+              leaveTo='opacity-0 translate-y-1'
+            >
+              <Popover.Panel className='absolute -left-8 top-full z-10 mt-3 w-screen max-w-2xl overflow-hidden rounded-3xl  bg-white shadow-lg ring-1 ring-gray-900/5'>
+                <div className='grid grid-cols-7 divide-x divide-gray-900/5'>
+                  <div className='col-span-4 p-4'>
+                    {goals.map((item) => (
+                      <div
+                        key={item.name}
+                        className='group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 transition-all hover:bg-gray-50'
+                      >
+                        <div className='flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 transition-all group-hover:bg-white'>
+                          <Icon icon={item.icon} />
+                        </div>
+                        <div className='flex-auto'>
+                          <a
+                            href={item.href}
+                            className='block font-semibold text-gray-900'
+                          >
+                            {item.name}
+                            <span className='absolute inset-0' />
+                          </a>
+                          <p className='mt-1 text-gray-600'>
+                            {item.description}
+                          </p>
+                        </div>
+                      </div>
                     ))}
-                  </MenuList>
-                )}
-              </Menu>
-            ))}
+                  </div>
+                  <div className='col-span-3 p-4'>
+                    {callsToAction.map((item) => (
+                      <a
+                        key={item.name}
+                        href={item.href}
+                        className='flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100'
+                      >
+                        <Icon icon={item.icon} />
+                        {item.name}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </Popover.Panel>
+            </Transition>
+          </Popover>
+
+          {regularLinks.map((link, index) => (
+            <UnstyledLink
+              key={index}
+              href={link.href}
+              className='font-semibold text-gray-800 transition-all hover:text-blue-400'
+            >
+              {link.title}
+            </UnstyledLink>
+          ))}
+        </Popover.Group>
+      </nav>
+
+      {/* Mobile Menu */}
+
+      <Dialog
+        as='div'
+        className='lg:hidden'
+        open={mobileMenuOpen}
+        onClose={setMobileMenuOpen}
+      >
+        <div className='fixed inset-0 z-10' />
+        <Dialog.Panel className='fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
+          <div className='flex items-center justify-between'>
+            <a href='#' className='-m-1.5 p-1.5'>
+              <span className='sr-only'>Your Company</span>
+              <img
+                className='h-8 w-auto'
+                src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
+                alt=''
+              />
+            </a>
+            <button
+              type='button'
+              className='-m-2.5 rounded-md p-2.5 text-gray-700'
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              <span className='sr-only'>Close menu</span>
+              <Icon icon='ic:round-close' />
+            </button>
           </div>
-
-          <div className='mr-2 md:hidden'>
-            <IconButton
-              aria-label='Open Menu'
-              icon={<HamburgerIcon />}
-              onClick={onOpen}
-            />
+          <div className='mt-6 flow-root'>
+            <div className='-my-6 divide-y divide-gray-500/10'>
+              <div className='space-y-2 py-6'>
+                <Disclosure as='div' className='-mx-3'>
+                  {({ open }) => (
+                    <>
+                      <Disclosure.Button className='flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'>
+                        Product
+                        <Icon icon='ic:round-keyboard-arrow-down' />
+                      </Disclosure.Button>
+                      <Disclosure.Panel className='mt-2 space-y-2'>
+                        {[...goals, ...callsToAction].map((item) => (
+                          <Disclosure.Button
+                            key={item.name}
+                            as='a'
+                            href={item.href}
+                            className='block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50'
+                          >
+                            {item.name}
+                          </Disclosure.Button>
+                        ))}
+                      </Disclosure.Panel>
+                    </>
+                  )}
+                </Disclosure>
+                <a
+                  href='#'
+                  className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
+                >
+                  Features
+                </a>
+                <a
+                  href='#'
+                  className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
+                >
+                  Marketplace
+                </a>
+                <a
+                  href='#'
+                  className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
+                >
+                  Company
+                </a>
+              </div>
+              <div className='py-6'>
+                <a
+                  href='#'
+                  className='-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
+                >
+                  Log in
+                </a>
+              </div>
+            </div>
           </div>
-
-          <Drawer isOpen={isOpen} placement='top' onClose={onClose}>
-            <DrawerOverlay />
-            <DrawerContent>
-              <DrawerCloseButton />
-              <DrawerHeader>
-                <div className='pl-3 text-lg font-bold '>AI-READI</div>
-              </DrawerHeader>
-
-              <DrawerBody className='!pb-0'>
-                <Accordion allowToggle={true}>
-                  {links.map((link) => (
-                    <AccordionItem key={link.title}>
-                      <Link href={link.href} passHref>
-                        <h2>
-                          <AccordionButton>
-                            <Box flex='1' textAlign='left'>
-                              {link.title}
-                            </Box>
-
-                            {link.sublinks && <AccordionIcon />}
-                          </AccordionButton>
-                        </h2>
-                      </Link>
-                      {link.sublinks && (
-                        <AccordionPanel pb={4}>
-                          {link.sublinks.map((sublink) => (
-                            <Link
-                              href={sublink.href}
-                              key={sublink.href}
-                              passHref
-                            >
-                              <h3>
-                                <AccordionButton>
-                                  <Box flex='1' textAlign='left'>
-                                    {sublink.title}
-                                  </Box>
-                                </AccordionButton>
-                              </h3>
-                            </Link>
-                          ))}
-                        </AccordionPanel>
-                      )}
-                    </AccordionItem>
-                  ))}
-                </Accordion>
-              </DrawerBody>
-            </DrawerContent>
-          </Drawer>
-        </nav>
-      </div>
+        </Dialog.Panel>
+      </Dialog>
     </header>
   );
 }
