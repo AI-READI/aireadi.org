@@ -5,10 +5,8 @@ import parse from 'html-react-parser';
 import Link from 'next/link';
 import { AiFillDatabase } from 'react-icons/ai';
 import { BsTools } from 'react-icons/bs';
-import { FaPencilRuler } from 'react-icons/fa';
 import { GoLaw } from 'react-icons/go';
 import { MdReduceCapacity } from 'react-icons/md';
-import { RiTeamFill } from 'react-icons/ri';
 import { TbArrowNarrowRight } from 'react-icons/tb';
 
 import ImageWithCredit from '@/components/images/ImageWithCredit';
@@ -157,7 +155,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='bg-slate-50 py-16'>
+          <section className='bg-sky-50 py-16'>
             <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center gap-16 px-8 md:flex-col'>
               <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
                 <ImageWithCredit
@@ -268,7 +266,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='bg-sky-50 py-16'>
+          <section className='py-16'>
             <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row-reverse'>
               <div className='px-5 lg:max-w-2xl'>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
@@ -296,7 +294,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='py-16'>
+          <section className='bg-sky-50 py-16'>
             <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row'>
               <div className='px-5 lg:max-w-2xl'>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
@@ -327,57 +325,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='bg-slate-50 py-16'>
-            <div className='mx-auto max-w-screen-xl px-8'>
-              <div className='mb-8 text-center lg:mb-16'>
-                <h1 className='mb-2 text-3xl font-bold tracking-tight sm:text-4xl'>
-                  AI-READI Team
-                </h1>
-
-                <p className='mb-4 text-xl font-medium text-slate-600'>
-                  The project team is structured into six modules, each leading
-                  a key aspect.
-                </p>
-
-                <div className='relative flex justify-center space-x-4'>
-                  <Link
-                    href='/team'
-                    passHref
-                    className='flex w-max items-center space-x-1 text-xl font-semibold text-sky-700 transition-all hover:text-sky-500'
-                  >
-                    <span className=''>Meet our team</span>
-                    <TbArrowNarrowRight size={20} />
-                  </Link>
-                </div>
-              </div>
-
-              <div className='gap-x-8 md:grid md:grid-cols-2 md:gap-12 lg:grid-cols-3'>
-                {FeaturesList.map((feature) => (
-                  <div key={feature.title} className='mt-12 md:mt-2'>
-                    <div className='flex flex-row items-center space-x-4 md:flex-col md:items-start md:space-x-0'>
-                      <div className='flex h-12 w-12 items-center justify-center rounded-lg bg-sky-600 text-white md:mb-2 md:h-10 md:w-10  '>
-                        {feature.icon}
-                      </div>
-                      <h3 className='text-xl font-semibold'>{feature.title}</h3>
-                    </div>
-                    <p className='py-1 text-lg font-normal tracking-tight text-gray-500'>
-                      {feature.description}
-                    </p>
-                    <Link
-                      href={feature.href}
-                      passHref
-                      className='flex w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
-                    >
-                      <span className=''>Read more</span>
-                      <TbArrowNarrowRight size={20} />
-                    </Link>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </section>
-
-          <section className='py-16 pb-16 '>
+          <section className='bg-white py-16'>
             <div className='mx-auto max-w-screen-xl px-4 lg:px-6'>
               <div className='g:mb-16 mb-8 text-center'>
                 <h1 className='mb-3 text-3xl font-bold tracking-tight sm:text-4xl'>
@@ -390,9 +338,89 @@ export default function HomePage() {
               </div>
 
               <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-4'>
-                {LogosList.map((logo, index) => (
+                {MembersLogosList.map((logo, index) => (
                   <UnstyledLink href={logo.href} key={index}>
-                    <div className='group relative mt-2 flex h-[120px] items-center justify-center rounded-lg bg-gray-50 p-2 transition-all hover:bg-gray-100 md:mt-0'>
+                    <div className='group relative mt-2 flex h-[120px] items-center justify-center rounded-lg bg-slate-50 p-2 transition-all hover:border hover:bg-slate-100 md:mt-0'>
+                      <img
+                        src={logo.image}
+                        alt=''
+                        className={logo.imageHeight}
+                      />
+                      <span className='pointer-events-none absolute bottom-[-5px] text-sm font-medium text-slate-600 opacity-0 transition-all group-hover:bottom-1 group-hover:opacity-100 lg:text-xs'>
+                        {logo.caption}
+                      </span>
+                    </div>
+                  </UnstyledLink>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          <section className='bg-slate-50 py-16'>
+            <div className='mx-auto max-w-screen-xl px-8'>
+              <div className='mb-8 text-center lg:mb-14'>
+                <h1 className='mb-2 text-3xl font-bold tracking-tight sm:text-4xl'>
+                  Project Goals
+                </h1>
+
+                <p className='text-xl font-medium text-slate-600'>
+                  The AI-READI project has several goals and milestones that we
+                  are working towards achieving.
+                </p>
+
+                <div className='relative flex hidden justify-center space-x-4'>
+                  <Link
+                    href='/team'
+                    passHref
+                    className='flex w-max items-center space-x-1 text-xl font-semibold text-sky-700 transition-all hover:text-sky-500'
+                  >
+                    <span className=''>Meet our team</span>
+                    <TbArrowNarrowRight size={20} />
+                  </Link>
+                </div>
+              </div>
+
+              <div className='mx-auto max-w-screen-md gap-x-8 md:grid md:grid-cols-2 md:gap-12 lg:grid-cols-2'>
+                {GoalsList.map((feature) => (
+                  <Link
+                    href={feature.href}
+                    key={feature.title}
+                    className='mt-12 flex flex-col items-center rounded-2xl border border-sky-300 bg-white px-6 py-8 shadow-md transition-all hover:shadow-lg md:mt-2'
+                  >
+                    <div className='flex h-12 w-12 items-center justify-center rounded-lg text-sky-600  md:mb-2 md:h-10 md:w-10  '>
+                      {feature.icon}
+                    </div>
+
+                    <h3 className='mt-1 text-center text-2xl font-bold'>
+                      {feature.title}
+                    </h3>
+
+                    <p className='leading-2 mt-1 text-center text-lg font-medium  text-gray-500'>
+                      {feature.description}
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          <section className='bg-white py-16'>
+            <div className='mx-auto max-w-screen-xl px-4 lg:px-6'>
+              <div className='g:mb-16 mb-8 text-center'>
+                <h1 className='mb-3 text-3xl font-bold tracking-tight sm:text-4xl'>
+                  AI-READI Collaborators
+                </h1>
+
+                <p className=' mb-6 text-xl font-medium text-slate-600 sm:mb-8'>
+                  The following organizations are instrumental to the AI-READI
+                  project
+                </p>
+              </div>
+
+              <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-4'>
+                {CollaboratorsLogosList.map((logo, index) => (
+                  <UnstyledLink href={logo.href} key={index}>
+                    <div className='hover:bg-slate-10 group relative mt-2 flex h-[120px] items-center justify-center rounded-lg bg-slate-50 p-2 transition-all hover:border hover:bg-slate-100 md:mt-0'>
                       <img
                         src={logo.image}
                         alt=''
@@ -438,51 +466,34 @@ const StatsList = [
   },
 ];
 
-const FeaturesList = [
+const GoalsList = [
   {
-    title: 'Data Acquisition',
-    description:
-      'Collecting type 2 diabetes-related data across multiple sites',
-    icon: <AiFillDatabase size={20} />,
-    href: '/modules/data',
+    title: 'Project Wide Milestones',
+    description: 'A high-level overview of the project goals and objectives.',
+    icon: <BsTools size={40} />,
+    href: '/goals/project-wide-milestones',
   },
   {
-    title: 'Ethical and Trustworthy AI',
-    description:
-      'Establishing guidelines for colllecting and sharing ethically sourced data',
-    icon: <GoLaw size={20} />,
-    href: '/modules/ethics',
+    title: 'Data Collection',
+    description: 'Policy and procedures for data collection and management.',
+    href: '/goals/data-collection',
+    icon: <AiFillDatabase size={40} />,
   },
   {
-    title: 'Standards',
-    description:
-      'Establishing standards for preparing and sharing AI-ready datasets',
-    icon: <FaPencilRuler size={20} />,
-    href: '/modules/standards',
+    title: 'Considerations for Releasing Data',
+    description: 'Guidelines for releasing data to the public.',
+    href: '/goals/considerations-for-releasing-data',
+    icon: <GoLaw size={40} />,
   },
   {
-    title: 'Teaming',
-    description:
-      'Applying and advancing team science while supporting interdisciplinary collaboration',
-    icon: <RiTeamFill size={20} />,
-    href: '/modules/teaming',
-  },
-  {
-    title: 'Tools',
-    description:
-      'Developing tools and software for managing, curating, and sharing AI-ready datasets',
-    icon: <BsTools size={20} />,
-    href: '/modules/tools',
-  },
-  {
-    title: 'Skills & Workforce Development',
-    description: 'Developing a diverse AI/ML-biomedical research workforce',
-    icon: <MdReduceCapacity size={20} />,
-    href: '/modules/skills',
+    title: 'Capacity Building Initiatives',
+    description: 'Training and resources for capacity building.',
+    href: '/goals/capacity-building-initiatives',
+    icon: <MdReduceCapacity size={40} />,
   },
 ];
 
-const LogosList = [
+const MembersLogosList = [
   {
     image:
       'https://fairdataihub.org/_next/image?url=%2Fimages%2Fcollaborators%2Fcalmi-logo.png&w=256&q=75',
@@ -535,5 +546,32 @@ const LogosList = [
     imageHeight: 'h-14',
     href: 'https://www.washington.edu/',
     caption: 'University of Washington',
+  },
+];
+
+const CollaboratorsLogosList = [
+  {
+    image: '/images/member-orgs/dexcom.png',
+    imageHeight: 'h-8',
+    href: 'https://www.dexcom.com',
+    caption: 'Dexcom',
+  },
+  {
+    image: '/images/member-orgs/optomed.png',
+    imageHeight: 'h-9',
+    href: 'https://www.optomed.com/',
+    caption: 'Optomed',
+  },
+  {
+    image: '/images/member-orgs/topcon.png',
+    imageHeight: 'h-12',
+    href: 'https://topconhealthcare.com/',
+    caption: 'Topcon Healthcare',
+  },
+  {
+    image: '/images/member-orgs/icare.svg',
+    imageHeight: 'h-8',
+    href: 'https://www.icare-world.com',
+    caption: 'iCare',
   },
 ];

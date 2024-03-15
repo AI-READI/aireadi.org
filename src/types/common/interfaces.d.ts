@@ -1,6 +1,7 @@
 interface HeroContent {
   title: string;
   image: string;
+  goal?: string;
   imageAlt?: string;
   tagline?: string;
   showButtons?: boolean;
