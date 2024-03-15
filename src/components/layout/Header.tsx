@@ -201,6 +201,7 @@ const GoalItems: React.FC<GoalItemsProps> = ({ items }) => {
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   const [selectedGoal, setSelectedGoal] = useState('project-wide-milestones');
 
   const handleGoalChange = (goal: string) => {

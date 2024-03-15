@@ -24,6 +24,11 @@ module.exports = {
       { props: 'never', children: 'never' },
     ],
 
+    'padding-line-between-statements': [
+      'warn',
+      { blankLine: 'always', prev: '*', next: '*' },
+    ],
+
     //#region  //*=========== Unused Import ===========
     '@typescript-eslint/no-unused-vars': 'off',
     'unused-imports/no-unused-imports': 'warn',

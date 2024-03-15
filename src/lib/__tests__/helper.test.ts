@@ -6,6 +6,7 @@ describe('Open Graph function should work correctly', () => {
       description: 'Test description',
       siteName: 'Test site name',
     });
+
     expect(result).not.toContain('&templateTitle=');
   });
 
@@ -15,6 +16,7 @@ describe('Open Graph function should work correctly', () => {
       description: 'Test description',
       siteName: 'Test site name',
     });
+
     expect(result).toContain('&templateTitle=Test%20Template%20Title');
   });
 });

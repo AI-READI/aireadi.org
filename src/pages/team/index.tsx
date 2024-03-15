@@ -23,20 +23,28 @@ const ModulesSection = ({ modules }: { modules: string[] }) => {
     switch (module) {
       case 'ethics':
         return 'Ethics';
+
       case 'data':
         return 'Data Acquisition';
+
       case 'skills':
         return 'Skills and Workforce Development';
+
       case 'tools':
         return 'Tools';
+
       case 'standards':
         return 'Standards';
+
       case 'teaming':
         return 'Teaming';
+
       case 'administration':
         return 'Administration';
+
       case 'pedp':
         return 'PEDP';
+
       default:
         return 'Unknown';
     }
@@ -314,9 +322,11 @@ export const getStaticProps = async () => {
     if (a.name < b.name) {
       return -1;
     }
+
     if (a.name > b.name) {
       return 1;
     }
+
     return 0;
   });
 
@@ -326,6 +336,7 @@ export const getStaticProps = async () => {
       if (a < b) {
         return -1;
       }
+
       if (a > b) {
         return 1;
       }

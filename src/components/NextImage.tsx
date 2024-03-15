@@ -33,6 +33,7 @@ export default function NextImage({
   const [status, setStatus] = React.useState(
     useSkeleton ? 'loading' : 'complete'
   );
+
   const widthIsSet = className?.includes('w-') ?? false;
 
   return (

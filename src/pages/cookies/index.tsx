@@ -31,6 +31,7 @@ const CookiePolicyPage: React.FC<{ pageContent: string }> = ({
 
 export const getStaticProps: GetStaticProps = async () => {
   const fileContent = fs.readFileSync(`src/pages/cookies/content.md`, `utf-8`);
+
   const pageContent = await markdownToHtml(fileContent || ``);
 
   return {

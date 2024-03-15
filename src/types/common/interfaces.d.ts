@@ -15,6 +15,7 @@ interface TextContent {
   showButtons?: boolean;
   primaryButton?: string;
 }
+
 interface TextWithImagesContent {
   title: string;
   text: string[];

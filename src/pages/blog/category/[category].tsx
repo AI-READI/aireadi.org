@@ -32,6 +32,7 @@ interface BlogProps {
 
 const CategoryPage: React.FC<BlogProps> = ({ filteredBlogList }) => {
   const router = useRouter();
+
   const { category } = router.query;
 
   return (
@@ -110,6 +111,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
     // Read the raw content of the file and parse the frontMatter
     const rawFileContent = fs.readFileSync(`blog/${fileName}`, `utf-8`);
+
     const timeToRead = Math.ceil(wordsCount(rawFileContent) / 265);
 
     const { data: frontMatter } = matter(rawFileContent);
@@ -124,6 +126,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   // sort the posts by date in descending order
   blogList.sort((a, b) => {
     const a_date = dayjs(a.frontMatter.date, `YYYY-MM-DD`) as unknown as number;
+
     const b_date = dayjs(b.frontMatter.date, `YYYY-MM-DD`) as unknown as number;
 
     return b_date - a_date;

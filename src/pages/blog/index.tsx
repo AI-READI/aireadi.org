@@ -63,6 +63,7 @@ export async function getStaticProps() {
 
     // Read the raw content of the file and parse the frontMatter
     const rawFileContent = fs.readFileSync(`blog/${fileName}`, `utf-8`);
+
     const timeToRead = Math.ceil(wordsCount(rawFileContent) / 265);
 
     const { data: frontMatter } = matter(rawFileContent);
