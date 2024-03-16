@@ -6,11 +6,11 @@ import { GetStaticPaths, GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
 import wordsCount from 'words-count';
 
-import BlogList from '@/components/blog/PostsLayout';
 import Layout from '@/components/layout/Layout';
+import PostsList from '@/components/post/PostsLayout';
 import Seo from '@/components/Seo';
 
-type BlogList = {
+type PostsList = {
   slug: string;
   timeToRead: number;
 
@@ -25,10 +25,10 @@ type BlogList = {
 };
 
 interface BlogProps {
-  filteredBlogList: BlogList[];
+  filteredPostsList: PostsList[];
 }
 
-const TagPage: React.FC<BlogProps> = ({ filteredBlogList }) => {
+const TagPage: React.FC<BlogProps> = ({ filteredPostsList }) => {
   const router = useRouter();
 
   const { tag } = router.query;
@@ -47,7 +47,7 @@ const TagPage: React.FC<BlogProps> = ({ filteredBlogList }) => {
             <h1 className='mb-2 text-left text-5xl font-bold'>{tag}</h1>
           </div>
 
-          <BlogList blogList={filteredBlogList} />
+          <PostsList PostList={filteredPostsList} />
         </section>
       </Layout>
     </>
@@ -58,7 +58,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   // Get the posts from the `blog` directory
   const files = fs.readdirSync(`./blog`);
 
-  const blogList = files.map((fileName) => {
+  const PostsList = files.map((fileName) => {
     // Read the raw content of the file and parse the frontMatter
     const rawFileContent = fs.readFileSync(`blog/${fileName}`, `utf-8`);
 
@@ -71,7 +71,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
   const tagsList: string[] = [];
 
-  for (const post of blogList) {
+  for (const post of PostsList) {
     const { frontMatter } = post;
 
     const { tags } = frontMatter;
@@ -103,7 +103,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   // Get the posts from the `blog` directory
   const files = fs.readdirSync(`./blog`);
 
-  const blogList = files.map((fileName) => {
+  const PostsList = files.map((fileName) => {
     // Remove the .md extension and use the file name as the slug
     const slug = fileName.replace(`.md`, ``);
 
@@ -122,7 +122,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   });
 
   // sort the posts by date in descending order
-  blogList.sort((a, b) => {
+  PostsList.sort((a, b) => {
     const a_date = dayjs(a.frontMatter.date, `YYYY-MM-DD`) as unknown as number;
 
     const b_date = dayjs(b.frontMatter.date, `YYYY-MM-DD`) as unknown as number;
@@ -130,7 +130,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     return b_date - a_date;
   });
 
-  const filteredBlogList = blogList.filter((post) => {
+  const filteredPostsList = PostsList.filter((post) => {
     const { tags } = post.frontMatter;
 
     return tags.includes(params?.tag);
@@ -139,7 +139,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   // Return the posts data to the page as props
   return {
     props: {
-      filteredBlogList,
+      filteredPostsList,
     },
   };
 };

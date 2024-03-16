@@ -50,7 +50,7 @@ export async function getStaticProps() {
   // Get the posts from the `blog` directory
   const files = fs.readdirSync(`./blog`);
 
-  const blogList = files.map((fileName) => {
+  const PostsList = files.map((fileName) => {
     // Read the raw content of the file and parse the frontMatter
     const rawFileContent = fs.readFileSync(`blog/${fileName}`, `utf-8`);
 
@@ -63,7 +63,7 @@ export async function getStaticProps() {
 
   const categoriesList: string[] = [];
 
-  for (const post of blogList) {
+  for (const post of PostsList) {
     const { frontMatter } = post;
 
     const { categories } = frontMatter;

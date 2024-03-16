@@ -4,8 +4,8 @@ import fs from 'fs';
 import matter from 'gray-matter';
 import wordsCount from 'words-count';
 
-import BlogList from '@/components/blog/PostsLayout';
 import Layout from '@/components/layout/Layout';
+import PostLayout from '@/components/post/PostsLayout';
 import Seo from '@/components/Seo';
 
 type BlogList = {
@@ -46,7 +46,7 @@ const Blog: React.FC<BlogProps> = ({ blogList }) => {
             </h2>
           </div>
 
-          <BlogList blogList={blogList} />
+          <PostLayout PostList={blogList} />
         </section>
       </Layout>
     </>
@@ -57,7 +57,7 @@ export async function getStaticProps() {
   // Get the posts from the `blog` directory
   const files = fs.readdirSync(`./blog`);
 
-  const blogList = files.map((fileName) => {
+  const PostsList = files.map((fileName) => {
     // Remove the .md extension and use the file name as the slug
     const slug = fileName.replace(`.md`, ``);
 
@@ -76,7 +76,7 @@ export async function getStaticProps() {
   });
 
   // sort the posts by date in descending order
-  blogList.sort((a, b) => {
+  PostsList.sort((a, b) => {
     const a_date = dayjs(a.frontMatter.date, `YYYY-MM-DD`) as unknown as number;
 
     const b_date = dayjs(b.frontMatter.date, `YYYY-MM-DD`) as unknown as number;
@@ -87,7 +87,7 @@ export async function getStaticProps() {
   // Return the posts data to the page as props
   return {
     props: {
-      blogList,
+      PostsList,
     },
   };
 }
