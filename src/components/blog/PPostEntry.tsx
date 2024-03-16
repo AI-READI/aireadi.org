@@ -11,7 +11,7 @@ interface PostEntryProps {
   category: string;
 }
 
-const postEntry: React.FC<PostEntryProps> = ({
+const PostEntry: React.FC<PostEntryProps> = ({
   title,
   timeToRead,
   date,
@@ -98,4 +98,4 @@ const postEntry: React.FC<PostEntryProps> = ({
   );
 };
 
-export default postEntry;
+export default PostEntry;

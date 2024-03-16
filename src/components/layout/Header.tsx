@@ -149,7 +149,10 @@ const regularLinks = [
     href: '/team',
     title: 'Team',
   },
-
+  {
+    href: '/events',
+    title: 'Events',
+  },
   {
     href: '/publications',
     title: 'Publications',
@@ -232,7 +235,7 @@ export default function Header() {
             <Icon icon='ic:round-menu' />
           </button>
         </div>
-        <Popover.Group className='hidden lg:flex lg:gap-x-12'>
+        <Popover.Group className='hidden lg:flex lg:gap-x-6'>
           <Popover className='relative'>
             <Popover.Button className='flex items-center gap-x-1 font-semibold text-gray-800 transition-all hover:text-blue-400'>
               Goals

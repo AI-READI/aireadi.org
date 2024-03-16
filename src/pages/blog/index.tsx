@@ -4,7 +4,7 @@ import fs from 'fs';
 import matter from 'gray-matter';
 import wordsCount from 'words-count';
 
-import BlogList from '@/components/blog/BlogPostsLayout';
+import BlogList from '@/components/blog/PostsLayout';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 

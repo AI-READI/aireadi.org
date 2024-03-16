@@ -6,7 +6,7 @@ import { GetStaticPaths, GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
 import wordsCount from 'words-count';
 
-import BlogList from '@/components/blog/BlogPostsLayout';
+import BlogList from '@/components/blog/PostsLayout';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 

@@ -13,7 +13,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import markdownToHtml from '@/lib/markdownToHtml';
 
-import PostBody from '@/components/blog/postBody';
+import PostBody from '@/components/blog/PPostBody';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 
