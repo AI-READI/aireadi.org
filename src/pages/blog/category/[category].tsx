@@ -6,8 +6,8 @@ import { GetStaticPaths, GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
 import wordsCount from 'words-count';
 
+import BlogPostsLayout from '@/components/blog/BlogPostsLayout';
 import Layout from '@/components/layout/Layout';
-import PostsList from '@/components/post/PostsLayout';
 import Seo from '@/components/Seo';
 
 type PostsList = {
@@ -49,7 +49,7 @@ const CategoryPage: React.FC<BlogProps> = ({ filteredPostsList }) => {
             <h1 className='mb-2 text-left text-5xl font-bold'>{category}</h1>
           </div>
 
-          <PostsList PostList={filteredPostsList} />
+          <BlogPostsLayout PostList={filteredPostsList} />
         </section>
       </Layout>
     </>

@@ -4,11 +4,11 @@ import fs from 'fs';
 import matter from 'gray-matter';
 import wordsCount from 'words-count';
 
-import BlogPostsLayout from '@/components/blog/BlogPostsLayout';
+import EventsLayout from '@/components/events/EventsLayout';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 
-type BlogList = {
+type EventList = {
   slug: string;
   timeToRead: number;
 
@@ -22,31 +22,31 @@ type BlogList = {
   };
 };
 
-interface BlogProps {
-  blogList: BlogList[];
+interface EventsProps {
+  eventList: EventList[];
 }
 
 // The Blog Page Content
 
-const Blog: React.FC<BlogProps> = ({ blogList }) => {
+const Blog: React.FC<EventsProps> = ({ eventList }) => {
   return (
     <>
       <SkipNavLink>Skip to content</SkipNavLink>
 
       <Layout>
-        <Seo templateTitle='Blog' />
+        <Seo templateTitle='Events' />
 
         <section className='relative mx-auto flex h-full w-full max-w-screen-xl flex-col overflow-hidden px-8 sm:py-10 lg:px-6'>
-          <div className='mb-5 px-2 pt-5  sm:pt-0 md:px-7'>
-            <h1 className='mb-2 text-left text-5xl font-bold '>Blog</h1>
+          <div className='mb-5 px-2 pt-5 sm:pt-0 md:px-7'>
+            <h1 className='mb-2 text-left text-5xl font-bold'>Events</h1>
 
             <h2 className='text-left text-xl'>
-              A collection of thoughts, ideas, and resources from the AI-READI
-              team.
+              A record of all past, present and future events and workshops from
+              the AI-READI team are listed here.
             </h2>
           </div>
 
-          <BlogPostsLayout PostList={blogList} />
+          <EventsLayout PostList={eventList} />
         </section>
       </Layout>
     </>
@@ -55,14 +55,14 @@ const Blog: React.FC<BlogProps> = ({ blogList }) => {
 
 export async function getStaticProps() {
   // Get the posts from the `blog` directory
-  const files = fs.readdirSync(`./blog`);
+  const files = fs.readdirSync(`./events`);
 
-  const blogList = files.map((fileName) => {
+  const eventList = files.map((fileName) => {
     // Remove the .md extension and use the file name as the slug
     const slug = fileName.replace(`.md`, ``);
 
     // Read the raw content of the file and parse the frontMatter
-    const rawFileContent = fs.readFileSync(`blog/${fileName}`, `utf-8`);
+    const rawFileContent = fs.readFileSync(`events/${fileName}`, `utf-8`);
 
     const timeToRead = Math.ceil(wordsCount(rawFileContent) / 265);
 
@@ -76,7 +76,7 @@ export async function getStaticProps() {
   });
 
   // sort the posts by date in descending order
-  blogList.sort((a, b) => {
+  eventList.sort((a, b) => {
     const a_date = dayjs(a.frontMatter.date, `YYYY-MM-DD`) as unknown as number;
 
     const b_date = dayjs(b.frontMatter.date, `YYYY-MM-DD`) as unknown as number;
@@ -87,7 +87,7 @@ export async function getStaticProps() {
   // Return the posts data to the page as props
   return {
     props: {
-      blogList,
+      eventList,
     },
   };
 }
