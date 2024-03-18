@@ -408,7 +408,7 @@ export default function HomePage() {
             <div className='mx-auto max-w-screen-xl px-4 lg:px-6'>
               <div className='g:mb-16 mb-8 text-center'>
                 <h1 className='mb-3 text-3xl font-bold tracking-tight sm:text-4xl'>
-                  AI-READI Collaborators
+                  AI-READI Industry Partners
                 </h1>
 
                 <p className=' mb-6 text-xl font-medium text-slate-600 sm:mb-8'>
@@ -417,7 +417,7 @@ export default function HomePage() {
                 </p>
               </div>
 
-              <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-4'>
+              <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-5'>
                 {CollaboratorsLogosList.map((logo, index) => (
                   <UnstyledLink href={logo.href} key={index}>
                     <div className='hover:bg-slate-10 group relative mt-2 flex h-[120px] items-center justify-center rounded-lg bg-slate-50 p-2 transition-all hover:border hover:bg-slate-100 md:mt-0'>
@@ -573,5 +573,11 @@ const CollaboratorsLogosList = [
     imageHeight: 'h-8',
     href: 'https://www.icare-world.com',
     caption: 'iCare',
+  },
+  {
+    image: '/images/member-orgs/heidelberg.png',
+    imageHeight: 'h-20',
+    href: 'https://www.heidelbergengineering.com/us/',
+    caption: 'Heidelberg Engineering',
   },
 ];
