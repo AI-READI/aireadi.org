@@ -1,73 +1,35 @@
-import { Avatar, Tag } from '@chakra-ui/react';
+import { Tag, VStack } from '@chakra-ui/react';
 import { SkipNavLink } from '@chakra-ui/skip-nav';
 import { Icon } from '@iconify/react';
+import { AddToCalendarButton } from 'add-to-calendar-button-react';
 import dayjs from 'dayjs';
 import fs from 'fs';
 import matter from 'gray-matter';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import Image from 'next/image';
-import Link from 'next/link';
 import { toast, ToastContainer } from 'react-toastify';
 
 import 'react-toastify/dist/ReactToastify.css';
 
 import markdownToHtml from '@/lib/markdownToHtml';
 
+import EventDates from '@/components/events/EventDates';
 import Layout from '@/components/layout/Layout';
 import PostBody from '@/components/post/PostBody';
 import Seo from '@/components/Seo';
 
-import TEAM_JSON from '~/data/team.json';
-
-interface PostProps {
-  slug: string;
-  frontMatter: {
-    title: string;
-    date: string;
-    authors: string[];
-    heroImage: string;
-    imageAuthor: string;
-    imageAuthorLink: string;
-    tags: string[];
-    subtitle: string;
-    categories: string[];
-  };
-  postContent: string;
-}
-
-interface Author {
-  id: string;
-  name: string;
-  image: string;
-  moduleImageParams: string;
-}
-
-const AllAuthors: Record<string, Author> = {};
-
-TEAM_JSON.forEach((author) => {
-  AllAuthors[author.id] = author;
-});
-
 // The page for each post
-const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
-  const { title, authors, date, heroImage, categories, subtitle, tags } =
-    frontMatter;
-
-  const transformedAuthors: { name: string; image: string }[] = [];
-
-  authors.forEach((author) => {
-    if (AllAuthors[author]) {
-      transformedAuthors.push({
-        name: AllAuthors[author].name,
-        image: AllAuthors[author].image + AllAuthors[author].moduleImageParams,
-      });
-    } else {
-      transformedAuthors.push({
-        name: author,
-        image: `https://api.dicebear.com/6.x/shapes/svg?seed=${author}`,
-      });
-    }
-  });
+const EventPost: React.FC<EventItem> = ({ slug, frontMatter, content }) => {
+  const {
+    title,
+    startDateTime,
+    endDateTime,
+    heroImage,
+    subtitle,
+    type,
+    location,
+    timezone,
+  } = frontMatter;
 
   const copyLinkToClipboard = () => {
     navigator.clipboard
@@ -105,88 +67,67 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
 
         <div className='relative mx-auto flex h-full w-full max-w-screen-xl flex-col overflow-hidden px-5 py-5 sm:px-10 sm:py-10'>
           <div className='mb-10'>
-            <ul className='flex items-center justify-start space-x-4'>
-              {categories.map((category) => (
-                <Link href={`category/${category}`} passHref key={category}>
-                  <li className='mb-2 cursor-pointer text-lg font-bold text-sky-700 transition-all hover:text-sky-500'>
-                    {category}
-                  </li>
-                </Link>
-              ))}
-            </ul>
+            <span className='mb-3 text-lg font-bold text-sky-600 transition-all '>
+              {type}
+            </span>
 
             <h1 className='mb-3 max-w-screen-lg text-5xl font-extrabold text-slate-700'>
               {title}
             </h1>
 
-            <p className='text-xl font-medium text-slate-600 sm:text-2xl'>
-              {subtitle}
-            </p>
+            <p className='text-xl  text-slate-600 sm:text-2xl'>{subtitle}</p>
           </div>
 
-          <div className='relative mb-10 h-auto min-h-[200px] w-full sm:min-h-[300px] md:min-h-[450px]'>
+          <div className='relative mb-5 h-auto min-h-[200px] w-full sm:min-h-[300px] md:min-h-[450px]'>
             <Image
               src={heroImage}
               alt={title}
               fill
               className='h-full w-full rounded-xl object-cover object-top md:object-center'
               sizes='(max-width: 768px) 100vw, 50vw'
+              priority
             />
           </div>
 
-          <hr className='my-4 hidden border-dashed border-slate-200' />
+          <div className='flex items-center justify-between pb-4'>
+            <VStack spacing={1} align='flex-start'>
+              <EventDates
+                startDateTime={startDateTime}
+                endDateTime={endDateTime}
+              />
 
-          <div className='flex items-center justify-between divide-x py-3'>
-            <ul className='flex flex-wrap  text-sm leading-6 '>
-              {transformedAuthors.map((author) => (
-                <li key={author.name} className='my-2 mr-5 flex items-center'>
-                  <Avatar name={author.name} src={author.image} />
+              <Tag variant='subtle' colorScheme='twitter'>
+                {location || `Online`}
+              </Tag>
+            </VStack>
 
-                  <div className='ml-3 flex flex-col justify-center'>
-                    <span className='text-base font-medium '>
-                      {author.name}
-                    </span>
-                  </div>
-                </li>
-              ))}
-            </ul>
-
-            <time dateTime={date} className='w-max p-2 text-sm text-slate-500'>
-              {dayjs(date).format(`MMMM D, YYYY`)}
-            </time>
+            <AddToCalendarButton
+              name={title}
+              options={['Apple', 'Google', 'iCal', 'Outlook.com']}
+              location={location || `Online`}
+              startDate={dayjs(endDateTime).format(`YYYY-MM-DD`)}
+              endDate={dayjs(endDateTime).format(`YYYY-MM-DD`)}
+              startTime={dayjs(startDateTime).format(`HH:mm`)}
+              endTime={dayjs(endDateTime).format(`HH:mm`)}
+              timeZone={timezone || `America/Los_Angeles`}
+              size='5'
+              lightMode='system'
+            />
           </div>
 
-          <hr className='my-2 border border-sky-600' />
+          <hr className=' border border-sky-600' />
 
-          <PostBody content={postContent} />
-
-          <div className='my-3 flex items-center '>
-            <span className='mr-3 font-medium'>Tags:</span>
-
-            <div className='flex flex-wrap items-center justify-start space-x-3'>
-              {tags.map((tag) => (
-                <Link
-                  href={`tag/${encodeURIComponent(tag)}`}
-                  passHref
-                  key={tag}
-                >
-                  <Tag variant='subtle' colorScheme='telegram'>
-                    {tag}
-                  </Tag>
-                </Link>
-              ))}
-            </div>
-          </div>
+          <PostBody content={content} />
 
           <hr className='my-3 border-slate-300' />
 
           <div className='mb-10 flex flex-row items-center'>
             <span className='mr-2 text-base text-slate-600'>
-              Share this article:{` `}
+              Share this event:{` `}
             </span>
 
             <a
-              href={`http://twitter.com/share?text=I just read this article and think y'all need to take a look at this&url=https://fairdataihub.org/blog/${slug}&hashtags=FAIRData,OpenScience,OpenSource`}
+              href={`http://twitter.com/share?text=Here is an event y'all need to take a look at&url=https://aireadi.org/events/${slug}&hashtags=FAIRData,OpenScience,OpenSource`}
               target='_blank'
               rel='noopener noreferrer'
               className='mx-2 text-slate-500 transition-all hover:text-sky-500'
@@ -198,7 +139,7 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
             </a>
 
             <a
-              href={`https://www.facebook.com/sharer/sharer.php?u=https://fairdataihub.org/blog/${slug}"`}
+              href={`https://www.facebook.com/sharer/sharer.php?u=https://aireadi.org/events/${slug}"`}
               target='_blank'
               rel='noopener noreferrer'
               className='mx-2 text-slate-500 transition-all hover:text-sky-500'
@@ -210,7 +151,7 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
             </a>
 
             <a
-              href={`https://www.linkedin.com/sharing/share-offsite/?url=https://fairdataihub.org/blog/${slug}`}
+              href={`https://www.linkedin.com/sharing/share-offsite/?url=https://aireadi.org/events/${slug}`}
               target='_blank'
               rel='noopener noreferrer'
               className='mx-2 text-slate-500 transition-all hover:text-sky-500'
@@ -244,7 +185,7 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const files = fs.readdirSync(`./blog`);
+  const files = fs.readdirSync(`./events`);
 
   const paths = files.map((fileName) => ({
     params: {
@@ -263,19 +204,19 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const slug = params?.slug;
 
-  const fileName = fs.readFileSync(`blog/${slug}.md`, `utf-8`);
+  const fileName = fs.readFileSync(`events/${slug}.md`, `utf-8`);
 
   const { data: frontMatter, content: fileContent } = matter(fileName);
 
-  const postContent = await markdownToHtml(fileContent || ``);
+  const content = await markdownToHtml(fileContent || ``);
 
   return {
     props: {
       slug,
       frontMatter,
-      postContent,
+      content,
     },
   };
 };
 
-export default BlogPost;
+export default EventPost;

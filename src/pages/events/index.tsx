@@ -8,27 +8,9 @@ import EventsLayout from '@/components/events/EventsLayout';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 
-type EventList = {
-  slug: string;
-  timeToRead: number;
-
-  frontMatter: {
-    title: string;
-    date: string;
-    tags: string[];
-    subtitle: string;
-    categories: string[];
-    heroImage: string;
-  };
-};
-
-interface EventsProps {
-  eventList: EventList[];
-}
-
 // The Blog Page Content
 
-const Blog: React.FC<EventsProps> = ({ eventList }) => {
+const Blog: React.FC<EventsLayoutProps> = ({ eventList }) => {
   return (
     <>
       <SkipNavLink>Skip to content</SkipNavLink>
@@ -46,7 +28,7 @@ const Blog: React.FC<EventsProps> = ({ eventList }) => {
             </h2>
           </div>
 
-          <EventsLayout PostList={eventList} />
+          <EventsLayout eventList={eventList} />
         </section>
       </Layout>
     </>
@@ -77,9 +59,15 @@ export async function getStaticProps() {
 
   // sort the posts by date in descending order
   eventList.sort((a, b) => {
-    const a_date = dayjs(a.frontMatter.date, `YYYY-MM-DD`) as unknown as number;
+    const a_date = dayjs(
+      a.frontMatter.startDateTime,
+      `YYYY-MM-DD`
+    ) as unknown as number;
 
-    const b_date = dayjs(b.frontMatter.date, `YYYY-MM-DD`) as unknown as number;
+    const b_date = dayjs(
+      b.frontMatter.startDateTime,
+      `YYYY-MM-DD`
+    ) as unknown as number;
 
     return b_date - a_date;
   });

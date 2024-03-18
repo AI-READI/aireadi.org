@@ -37,3 +37,25 @@ type ModuleMembersType = ModuleMemberType[];
 type ModuleMembersPageProps = {
   TeamMembers: ModuleMembersType;
 };
+
+interface EventItem {
+  slug: string;
+  timeToRead: number;
+
+  frontMatter: {
+    title: string;
+    startDateTime: string;
+    endDateTime: string;
+    heroImage: string;
+    subtitle: string;
+    location: string;
+    type: string;
+    timezone: string;
+  };
+
+  content: string;
+}
+
+interface EventsLayoutProps {
+  eventList: EventItem[];
+}

@@ -31,6 +31,7 @@
     "@headlessui/react": "^1.7.18",
     "@iconify/react": "^4.1.0",
     "@sendgrid/mail": "^7.7.0",
+    "add-to-calendar-button-react": "^2.6.8",
     "clsx": "^1.2.1",
     "dayjs": "^1.11.9",
     "formik": "^2.2.9",
