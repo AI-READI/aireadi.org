@@ -36,7 +36,7 @@ const Blog: React.FC<EventsLayoutProps> = ({ eventList }) => {
 };
 
 export async function getStaticProps() {
-  // Get the posts from the `blog` directory
+  // Get the events from the `events` directory
   const files = fs.readdirSync(`./events`);
 
   const eventList = files.map((fileName) => {

@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import { Stack, StackDivider } from '@chakra-ui/react';
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
+import fs from 'fs';
+import matter from 'gray-matter';
 import parse from 'html-react-parser';
 import Link from 'next/link';
 import { AiFillDatabase } from 'react-icons/ai';
@@ -581,3 +583,23 @@ const CollaboratorsLogosList = [
     caption: 'Heidelberg Engineering',
   },
 ];
+
+export async function getStaticProps() {
+  // Get the events from the `events` directory
+  const files = fs.readdirSync(`./events`);
+
+  const eventList = files.map((fileName) => {
+    // Remove the .md extension and use the file name as the slug
+    const slug = fileName.replace(`.md`, ``);
+
+    // Read the raw content of the file and parse the frontMatter
+    const rawFileContent = fs.readFileSync(`events/${fileName}`, `utf-8`);
+
+    const { data: frontMatter } = matter(rawFileContent);
+
+    return {
+      slug,
+      frontMatter,
+    };
+  });
+}
