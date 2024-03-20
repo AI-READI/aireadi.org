@@ -68,10 +68,10 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
               <div className='col-span-12'>
                 <div className='relative flex w-max flex-col space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0'>
                   <ButtonLink href='https://fairhub.io' variant='primary'>
-                    View our data
+                    Access our data
                   </ButtonLink>
-                  <ButtonLink href='/study' variant='dark' className='hidden'>
-                    Enroll in the study
+                  <ButtonLink href='#' variant='outline' className=''>
+                    Read our Marker Paper
                   </ButtonLink>
                   <ButtonLink
                     href='/mentorship'
@@ -88,29 +88,28 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
           <section className='pb-8 pt-16'>
             <div className='mx-auto flex max-w-screen-xl flex-col items-center px-8  lg:px-6'>
               <h2 className='mb-5 max-w-screen-lg text-center text-4xl font-bold tracking-tight  sm:text-4xl'>
-                Generating data, best practices, and tools to boost future
-                AI-driven research in diabetes
+                What is AI-READI?
               </h2>
               <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row'>
-                <div className='md:px-5 lg:max-w-2xl'>
-                  <ul className='mb-3 list-disc text-lg font-normal text-gray-700'>
-                    <li>
+                <div className='md:px-5 lg:max-w-3xl'>
+                  <VStack spacing={2} align='flex-start'>
+                    <p>
                       AI-READI is one of the data generation projects of the
                       National Institutes of Health (NIH) funded Bridge2AI
                       Program.
-                    </li>
-                    <li>
+                    </p>
+                    <p>
                       The AI-READI project seeks to create and share a flagship
                       ethically-sourced dataset of type 2 diabetes.
-                    </li>
-                    <li>
+                    </p>
+                    <p>
                       The data will be optimized for future artificial
                       intelligence/machine learning (AI/ML) analysis that could
                       provide critical insights and especially shine light on
                       the salutogenic pathways from diabetes to return to
                       health.
-                    </li>
-                  </ul>
+                    </p>
+                  </VStack>
 
                   <div className='lg:py-4'>
                     <ButtonLink
