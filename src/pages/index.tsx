@@ -371,7 +371,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
             </div>
           </section>
 
-          <section className='bg-sky-50 py-16'>
+          <section className='bg-slate-50 py-16'>
             <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row'>
               <div className='px-5 lg:max-w-2xl'>
                 <VStack spacing={4} align='flex-start'>
@@ -427,7 +427,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
             </div>
           </section>
 
-          <section className='bg-slate-50 py-16'>
+          <section className='hidden bg-slate-50 py-16'>
             <div className='mx-auto max-w-screen-xl px-8'>
               <div className='mb-8 text-center lg:mb-14'>
                 <h1 className='mb-2 text-3xl font-bold tracking-tight sm:text-4xl'>
@@ -439,7 +439,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   are working towards achieving.
                 </p>
 
-                <div className='relative flex hidden justify-center space-x-4'>
+                <div className='relative hidden justify-center space-x-4'>
                   <Link
                     href='/team'
                     passHref
