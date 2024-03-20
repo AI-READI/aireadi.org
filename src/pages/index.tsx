@@ -210,6 +210,32 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   </ButtonLink>
                 </div>
               </div>
+
+              <div className='my-20 w-full'>
+                <div className='relative h-[40px] w-full'>
+                  <div className='h-full rounded-full border border-blue-100 bg-white shadow-[inset_0_0_8px_rgba(0,0,0,0.3)] '>
+                    <span className='absolute bottom-[45px] right-2 text-base font-medium'>
+                      4000 participants
+                    </span>
+                  </div>
+                  <div className='absolute inset-0 w-[30%] rounded-full bg-blue-300'></div>
+                  <div className='absolute inset-0 w-[12%] rounded-full bg-blue-600'></div>
+
+                  <div className='xyz'>
+                    <span className='block text-xl font-bold'>1200+</span>
+                    <span className='text-[16px] font-normal'>
+                      participants have completed the consent process
+                    </span>
+                  </div>
+
+                  <div className='zyx'>
+                    <span className='block text-xl font-bold'>460+</span>
+                    <span className='text-[16px] font-normal'>
+                      participants have fully enrolled
+                    </span>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
 
@@ -217,18 +243,18 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
             <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between space-y-2 px-4 lg:flex-row-reverse'>
               <div className='px-5 lg:max-w-2xl'>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
-                  Ethical, FAIR, AI-ready data sharing
+                  Sharing AI-ready dataset
                 </h1>
                 <p className='mb-6 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
                   The resulting dataset will be curated and shared following
                   ethical and FAIR (Findable, Accessible, Interoperable, and
                   Reusable) principles such that it is ready for future
-                  AI/ML-driven analysis. The data will be shared periodically
-                  through our dedicated web platform called fairhub.io.
+                  AI/ML-driven analysis. The data is shared periodically through
+                  our dedicated web platform called fairhub.io.
                 </p>
 
                 <ButtonLink href='https://fairhub.io' variant='outline'>
-                  View our data
+                  Access our data
                 </ButtonLink>
               </div>
               <div className='flex w-full items-center justify-center px-5 py-5'>
@@ -245,14 +271,13 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
             <div className='mx-auto max-w-screen-xl items-center gap-16 px-8 lg:grid lg:grid-cols-2 '>
               <div>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
-                  Tools and best practices to help future data generation
-                  projects
+                  Developing standards, best practices, and tools
                 </h1>
 
                 <p className='mb-6 text-lg font-normal text-gray-700 sm:mb-4'>
-                  We will develop and openly share tools, standards, and
-                  guidelines so that future data generation projects can follow
-                  our approach for sharing ethical, FAIR, and AI-ready datasets.
+                  We develop and openly share tools, standards, and guidelines
+                  so that future data generation projects can follow our
+                  approach for sharing ethical, FAIR, and AI-ready datasets.
                 </p>
 
                 <div>
@@ -284,25 +309,26 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
             <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row-reverse'>
               <div className='px-5 lg:max-w-2xl'>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
-                  Community engagement
+                  Training future AI-workforce
                 </h1>
                 <p className='mb-6 text-lg text-gray-700 sm:mb-4'>
-                  Community members will be engaged along the way to ensure
-                  their suggestions and concerns regarding data collection,
-                  management, and sharing are addressed.
+                  The AI-READI project is developing and deploying training and
+                  career development activities for individuals who will
+                  effectively contribute to translational AI research,
+                  particularly in the biomedical/clinical domain.
                 </p>
 
-                <div>
+                <div className='hidden'>
                   <ButtonLink href='/modules/pedp' variant='outline'>
                     Learn more about our plan for enhancing diversity
                   </ButtonLink>
                 </div>
               </div>
               <div className='flex w-full items-center justify-center px-5 py-5'>
-                <ImageWithCredit
-                  src='https://ucarecdn.com/dddbf822-3778-4eb0-af18-0d898125d892/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
-                  alt=''
-                  author='UAB Media Department'
+                <img
+                  className='rounded-lg'
+                  src='https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                  alt='mockup'
                 />
               </div>
             </div>
@@ -315,12 +341,12 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   Advancing our understanding of team science
                 </h1>
                 <p className='mb-6 text-lg text-gray-700 sm:mb-4'>
-                  We will support the AI-READI project by applying team science
-                  to promote transdisciplinary collaboration across
-                  disciplinary, hierarchical, demographic, and other boundaries.
-                  In doing so, we aim to advance our understanding of teaming in
-                  the context of multi-team systems involving multidisciplinary
-                  scientists, trainees, and communities.
+                  We apply team science to promote transdisciplinary
+                  collaboration across disciplinary, hierarchical, demographic,
+                  and other boundaries. In doing so, we also aim to advance our
+                  understanding of teaming in the context of multi-team systems
+                  involving multidisciplinary scientists, trainees, and
+                  communities.
                 </p>
 
                 <div>
@@ -339,16 +365,55 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
             </div>
           </section>
 
-          <section className='bg-white py-16'>
+          <section className='bg-slate-50/50 py-16'>
+            <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row-reverse'>
+              <div className='px-5 lg:max-w-2xl'>
+                <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
+                  Engaging community members
+                </h1>
+                <p className='mb-6 text-lg text-gray-700 sm:mb-4'>
+                  Community members are engaged along the way to ensure their
+                  suggestions and concerns regarding data collection,
+                  management, and sharing are considered.
+                </p>
+
+                <div>
+                  <ButtonLink href='/modules/pedp' variant='outline'>
+                    Learn more about our plan for enhancing diversity
+                  </ButtonLink>
+                </div>
+              </div>
+              <div className='flex w-full items-center justify-center px-5 py-5'>
+                <ImageWithCredit
+                  src='https://ucarecdn.com/dddbf822-3778-4eb0-af18-0d898125d892/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
+                  alt=''
+                  author='UAB Media Department'
+                />
+              </div>
+            </div>
+          </section>
+
+          <section className='py-16'>
             <div className='mx-auto max-w-screen-xl px-4 lg:px-6'>
               <div className='g:mb-16 mb-8 text-center'>
                 <h1 className='mb-3 text-3xl font-bold tracking-tight sm:text-4xl'>
                   AI-READI Members
                 </h1>
 
-                <p className=' mb-6 text-xl font-medium text-slate-600 sm:mb-8'>
+                <p className='mb-2 text-xl font-medium text-slate-600'>
                   The following organizations are part of the AI-READI project
                 </p>
+
+                <div className='relative mb-6 flex justify-center space-x-4'>
+                  <Link
+                    href='/team'
+                    passHref
+                    className='flex w-max items-center space-x-1 text-xl font-semibold text-sky-700 transition-all hover:text-sky-500'
+                  >
+                    <span className=''>Meet our team</span>
+                    <TbArrowNarrowRight size={20} />
+                  </Link>
+                </div>
               </div>
 
               <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-4'>
@@ -370,7 +435,50 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
             </div>
           </section>
 
-          <section className='bg-slate-50 py-16'>
+          <section className='border-t py-16'>
+            <div className='mx-auto max-w-screen-xl px-4 lg:px-6'>
+              <div className='g:mb-16 mb-8 text-center'>
+                <h1 className='mb-3 text-3xl font-bold tracking-tight sm:text-4xl'>
+                  AI-READI Industry Partners
+                </h1>
+
+                <p className=' mb-6 text-xl font-medium text-slate-600 sm:mb-8'>
+                  The following organizations are instrumental to the AI-READI
+                  project
+                </p>
+              </div>
+
+              <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-5'>
+                {CollaboratorsLogosList.map((logo, index) => (
+                  <UnstyledLink href={logo.href} key={index}>
+                    <div className='hover:bg-slate-10 group relative mt-2 flex h-[120px] items-center justify-center rounded-lg bg-slate-50 p-2 transition-all hover:border hover:bg-slate-100 md:mt-0'>
+                      <img
+                        src={logo.image}
+                        alt=''
+                        className={logo.imageHeight}
+                      />
+                      <span className='pointer-events-none absolute bottom-[-5px] text-sm font-medium text-slate-600 opacity-0 transition-all group-hover:bottom-1 group-hover:opacity-100 lg:text-xs'>
+                        {logo.caption}
+                      </span>
+                    </div>
+                  </UnstyledLink>
+                ))}
+              </div>
+              <div className='pt-2 text-center text-xs text-slate-400'>
+                Disclaimer: Opinions, interpretations, conclusions and
+                recommendations are those of the AI-READI project and are not
+                necessarily endorsed by the organizations mentioned on this
+                website.
+              </div>
+            </div>
+          </section>
+
+          <section className='bg-slate-50/40 py-16'>
+            <div className='mb-8 text-center lg:mb-16'>
+              <h1 className='mb-3 text-3xl font-bold tracking-tight sm:text-4xl'>
+                Upcoming Events
+              </h1>
+            </div>
             <div className='mx-auto grid max-w-screen-xl grid-cols-12 px-4'>
               <div className='col-span-8 px-5 lg:max-w-2xl'>
                 <VStack spacing={4} align='flex-start'>
@@ -470,44 +578,6 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                     </p>
                   </Link>
                 ))}
-              </div>
-            </div>
-          </section>
-
-          <section className='bg-white py-16'>
-            <div className='mx-auto max-w-screen-xl px-4 lg:px-6'>
-              <div className='g:mb-16 mb-8 text-center'>
-                <h1 className='mb-3 text-3xl font-bold tracking-tight sm:text-4xl'>
-                  AI-READI Industry Partners
-                </h1>
-
-                <p className=' mb-6 text-xl font-medium text-slate-600 sm:mb-8'>
-                  The following organizations are instrumental to the AI-READI
-                  project
-                </p>
-              </div>
-
-              <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-5'>
-                {CollaboratorsLogosList.map((logo, index) => (
-                  <UnstyledLink href={logo.href} key={index}>
-                    <div className='hover:bg-slate-10 group relative mt-2 flex h-[120px] items-center justify-center rounded-lg bg-slate-50 p-2 transition-all hover:border hover:bg-slate-100 md:mt-0'>
-                      <img
-                        src={logo.image}
-                        alt=''
-                        className={logo.imageHeight}
-                      />
-                      <span className='pointer-events-none absolute bottom-[-5px] text-sm font-medium text-slate-600 opacity-0 transition-all group-hover:bottom-1 group-hover:opacity-100 lg:text-xs'>
-                        {logo.caption}
-                      </span>
-                    </div>
-                  </UnstyledLink>
-                ))}
-              </div>
-              <div className='pt-2 text-center text-xs text-slate-400'>
-                Disclaimer: Opinions, interpretations, conclusions and
-                recommendations are those of the AI-READI project and are not
-                necessarily endorsed by the organizations mentioned on this
-                website.
               </div>
             </div>
           </section>
