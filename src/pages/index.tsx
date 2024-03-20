@@ -372,8 +372,8 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
           </section>
 
           <section className='bg-slate-50 py-16'>
-            <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row'>
-              <div className='px-5 lg:max-w-2xl'>
+            <div className='mx-auto grid max-w-screen-xl grid-cols-12 px-4'>
+              <div className='col-span-8 px-5 lg:max-w-2xl'>
                 <VStack spacing={4} align='flex-start'>
                   <Stack direction='row' spacing={2} align='center'>
                     <Tag variant='subtle' colorScheme='orange'>
@@ -421,7 +421,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   />
                 </Stack>
               </div>
-              <div className='flex w-full items-center justify-center px-5 py-5'>
+              <div className='col-span-4 flex w-full items-center justify-center px-5 py-5'>
                 <img className='rounded-lg' src={heroImage} alt='mockup' />
               </div>
             </div>
