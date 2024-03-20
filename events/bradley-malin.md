@@ -1,7 +1,7 @@
 ---
 title: 'ExpandQISE Office Hours for prospective PIs and CoPIs (virtual)'
-startDateTime: '2022-03-01T12:00:00-05:00'
-endDateTime: '2022-03-03T13:00:00-05:00'
+startDateTime: '2024-03-01T12:00:00-05:00'
+endDateTime: '2024-03-03T13:00:00-05:00'
 heroImage: 'https://images.unsplash.com/photo-1472653431158-6364773b2a56?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 subtitle: 'Learn more about submitting a proposal to the Breaking Low Ideas Lab initiative.'
 type: 'Conference'

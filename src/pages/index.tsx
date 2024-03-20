@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-import { Stack, StackDivider } from '@chakra-ui/react';
+import { Stack, StackDivider, Tag, VStack } from '@chakra-ui/react';
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
+import { AddToCalendarButton } from 'add-to-calendar-button-react';
+import dayjs from 'dayjs';
 import fs from 'fs';
 import matter from 'gray-matter';
 import parse from 'html-react-parser';
@@ -11,12 +13,12 @@ import { GoLaw } from 'react-icons/go';
 import { MdReduceCapacity } from 'react-icons/md';
 import { TbArrowNarrowRight } from 'react-icons/tb';
 
+import EventDates from '@/components/events/EventDates';
 import ImageWithCredit from '@/components/images/ImageWithCredit';
 import Layout from '@/components/layout/Layout';
 import ButtonLink from '@/components/links/ButtonLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
-
 /**
  * SVGR Supportgray
  * Caveat: No React Props Type.
@@ -25,7 +27,18 @@ import Seo from '@/components/Seo';
  * @see https://stackoverflow.com/questions/68103844/how-to-override-next-js-svg-module-declaration
  */
 
-export default function HomePage() {
+const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
+  const {
+    title,
+    startDateTime,
+    endDateTime,
+    location,
+    subtitle,
+    heroImage,
+    timezone,
+    type,
+  } = frontMatter;
+
   return (
     <>
       <SkipNavLink>Skip to content</SkipNavLink>
@@ -358,6 +371,53 @@ export default function HomePage() {
             </div>
           </section>
 
+          <section className='bg-sky-50 py-16'>
+            <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row'>
+              <div className='px-5 lg:max-w-2xl'>
+                <VStack spacing={4} align='flex-start'>
+                  <Stack direction='row' spacing={2} align='center'>
+                    <Tag variant='subtle' colorScheme='orange'>
+                      Upcoming Event
+                    </Tag>
+
+                    <Tag variant='subtle' colorScheme='twitter'>
+                      {type}
+                    </Tag>
+                  </Stack>
+
+                  <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
+                    {title}
+                  </h1>
+                </VStack>
+
+                <p className='text-lg text-gray-700'>{subtitle}</p>
+
+                <EventDates
+                  startDateTime={startDateTime}
+                  endDateTime={endDateTime}
+                />
+
+                <div className='mt-3'>
+                  <AddToCalendarButton
+                    name={title}
+                    options={['Apple', 'Google', 'iCal', 'Outlook.com']}
+                    location={location || `Online`}
+                    startDate={dayjs(endDateTime).format(`YYYY-MM-DD`)}
+                    endDate={dayjs(endDateTime).format(`YYYY-MM-DD`)}
+                    startTime={dayjs(startDateTime).format(`HH:mm`)}
+                    endTime={dayjs(endDateTime).format(`HH:mm`)}
+                    timeZone={timezone || `America/Los_Angeles`}
+                    size='5'
+                    lightMode='system'
+                  />
+                </div>
+              </div>
+              <div className='flex w-full items-center justify-center px-5 py-5'>
+                <img className='rounded-lg' src={heroImage} alt='mockup' />
+              </div>
+            </div>
+          </section>
+
           <section className='bg-slate-50 py-16'>
             <div className='mx-auto max-w-screen-xl px-8'>
               <div className='mb-8 text-center lg:mb-14'>
@@ -447,7 +507,7 @@ export default function HomePage() {
       </Layout>
     </>
   );
-}
+};
 
 const StatsList = [
   {
@@ -603,5 +663,26 @@ export async function getStaticProps() {
     };
   });
 
-  // Get the closest upcoming event
+  // Get the next upcoming event
+  let closestUpcomingEvent = eventList
+    .filter((event) => dayjs(event.frontMatter.startDateTime).isAfter(dayjs()))
+    .sort(
+      (a, b) =>
+        dayjs(a.frontMatter.startDateTime).valueOf() -
+        dayjs(b.frontMatter.startDateTime).valueOf()
+    )[0];
+
+  if (!closestUpcomingEvent) {
+    closestUpcomingEvent = eventList[0];
+  }
+
+  // Return the posts data to the page as props
+  return {
+    props: {
+      slug: closestUpcomingEvent.slug || '',
+      frontMatter: closestUpcomingEvent.frontMatter || {},
+    },
+  };
 }
+
+export default HomePage;
