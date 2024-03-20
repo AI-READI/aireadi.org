@@ -191,11 +191,11 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
               </div>
               <div>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
-                  Equitable, multimodal data collection
+                  Collecting equitable, multimodal data
                 </h1>
 
                 <p className='mb-6 text-lg font-normal text-gray-700 sm:mb-8'>
-                  The project will aim to collect data from 4,000 participants
+                  The project aims to collect data from 4,000 participants
                   across three sites: the University of Alabama at Birmingham
                   (UAB), the University of California San Diego (UCSD), and the
                   University of Washington (UW). To ensure the data is
