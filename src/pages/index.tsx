@@ -602,4 +602,6 @@ export async function getStaticProps() {
       frontMatter,
     };
   });
+
+  // Get the closest upcoming event
 }
