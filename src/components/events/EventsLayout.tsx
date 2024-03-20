@@ -1,4 +1,5 @@
-import { Divider } from '@chakra-ui/react';
+import { Divider, Tag, VStack } from '@chakra-ui/react';
+import dayjs from 'dayjs';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -15,11 +16,19 @@ const EventsLayout: React.FC<EventsLayoutProps> = ({ eventList }) => {
           key={event.slug}
         >
           <div className='col-span-8 px-4 py-3'>
-            <Link href={`/events/${event.slug}`} passHref>
-              <h2 className='mb-2 text-left text-3xl font-extrabold hover:underline'>
-                {event.frontMatter.title}
-              </h2>
-            </Link>
+            <VStack spacing={4} align='flex-start'>
+              {dayjs(event.frontMatter.startDateTime).isAfter(dayjs()) && (
+                <Tag variant='subtle' colorScheme='twitter'>
+                  Upcoming
+                </Tag>
+              )}
+
+              <Link href={`/events/${event.slug}`} passHref>
+                <h2 className='mb-2 text-left text-3xl font-extrabold hover:underline'>
+                  {event.frontMatter.title}
+                </h2>
+              </Link>
+            </VStack>
 
             <p className='py-2 font-medium text-slate-700'>
               {event.frontMatter.subtitle}

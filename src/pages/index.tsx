@@ -385,7 +385,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                     </Tag>
                   </Stack>
 
-                  <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
+                  <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl '>
                     {title}
                   </h1>
                 </VStack>
@@ -397,7 +397,16 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   endDateTime={endDateTime}
                 />
 
-                <div className='mt-3'>
+                <Stack
+                  direction='row'
+                  spacing={2}
+                  align='center'
+                  className='mt-3'
+                >
+                  <ButtonLink variant='outline' href={`/events/${slug}`}>
+                    View event details
+                  </ButtonLink>
+
                   <AddToCalendarButton
                     name={title}
                     options={['Apple', 'Google', 'iCal', 'Outlook.com']}
@@ -410,7 +419,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                     size='5'
                     lightMode='system'
                   />
-                </div>
+                </Stack>
               </div>
               <div className='flex w-full items-center justify-center px-5 py-5'>
                 <img className='rounded-lg' src={heroImage} alt='mockup' />
@@ -673,7 +682,12 @@ export async function getStaticProps() {
     )[0];
 
   if (!closestUpcomingEvent) {
-    closestUpcomingEvent = eventList[0];
+    // If there are no upcoming events, get the most recent event
+    closestUpcomingEvent = eventList.sort(
+      (a, b) =>
+        dayjs(b.frontMatter.startDateTime).valueOf() -
+        dayjs(a.frontMatter.startDateTime).valueOf()
+    )[0];
   }
 
   // Return the posts data to the page as props
