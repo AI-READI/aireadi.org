@@ -11,7 +11,6 @@ export default function HeroWithCroppedImage({
   title,
   tagline,
   image,
-  goal = '',
   imageAlt = 'Alt text',
   showButtons = false,
   primaryButton,
@@ -20,10 +19,6 @@ export default function HeroWithCroppedImage({
   return (
     <section className='mx-auto grid max-w-screen-xl py-8 font-primary lg:grid-cols-12 lg:gap-8 xl:gap-0'>
       <div className='mx-auto place-self-center px-6 py-2 lg:col-span-6 xl:px-0'>
-        {goal && (
-          <p className='mb-2 text-lg font-semibold text-slate-600'>{goal}</p>
-        )}
-
         <h1 className='relative pb-4 text-4xl font-black sm:text-5xl '>
           {title}
         </h1>

@@ -44,7 +44,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
       <SkipNavLink>Skip to content</SkipNavLink>
 
       <Layout>
-        <Seo templateTitle='Home' />
+        <Seo templateTitle='' />
 
         <main>
           <SkipNavContent />
