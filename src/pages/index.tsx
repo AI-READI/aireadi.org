@@ -3,6 +3,7 @@ import { Stack, StackDivider, Tag, VStack } from '@chakra-ui/react';
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 import { AddToCalendarButton } from 'add-to-calendar-button-react';
 import dayjs from 'dayjs';
+import { motion } from 'framer-motion';
 import fs from 'fs';
 import matter from 'gray-matter';
 import parse from 'html-react-parser';
@@ -19,6 +20,12 @@ import Layout from '@/components/layout/Layout';
 import ButtonLink from '@/components/links/ButtonLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
+
+import {
+  FadeFramerItem,
+  WidthFramerContainer,
+  WidthFramerItem,
+} from '@/utils/framer';
 /**
  * SVGR Supportgray
  * Caveat: No React Props Type.
@@ -212,29 +219,43 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
               </div>
 
               <div className='my-20 w-full'>
-                <div className='relative h-[40px] w-full'>
-                  <div className='h-full rounded-full border border-blue-100 bg-white shadow-[inset_0_0_8px_rgba(0,0,0,0.3)] '>
+                <motion.div
+                  variants={WidthFramerContainer}
+                  initial='hidden'
+                  whileInView='show'
+                  viewport={{ once: true, amount: 1 }}
+                  className='relative h-[40px] w-full'
+                >
+                  <div className='h-full rounded-full border border-blue-100 bg-white shadow-[inset_0_0_8px_rgba(0,0,0,0.3)]'>
                     <span className='absolute bottom-[45px] right-2 text-base font-medium'>
                       4000 participants
                     </span>
                   </div>
-                  <div className='absolute inset-0 w-[30%] rounded-full bg-blue-300'></div>
-                  <div className='absolute inset-0 w-[12%] rounded-full bg-blue-600'></div>
 
-                  <div className='xyz'>
+                  <motion.div
+                    variants={WidthFramerItem}
+                    className='absolute inset-0 max-w-[30%] rounded-full bg-blue-300'
+                  ></motion.div>
+
+                  <motion.div variants={FadeFramerItem} className='xyz'>
                     <span className='block text-xl font-bold'>1200+</span>
                     <span className='text-[16px] font-normal'>
                       participants have completed the consent process
                     </span>
-                  </div>
+                  </motion.div>
 
-                  <div className='zyx'>
+                  <motion.div
+                    variants={WidthFramerItem}
+                    className='absolute inset-0 max-w-[12%] rounded-full bg-blue-600'
+                  ></motion.div>
+
+                  <motion.div variants={FadeFramerItem} className='zyx'>
                     <span className='block text-xl font-bold'>460+</span>
                     <span className='text-[16px] font-normal'>
                       participants have fully enrolled
                     </span>
-                  </div>
-                </div>
+                  </motion.div>
+                </motion.div>
               </div>
             </div>
           </section>

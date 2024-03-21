@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import UnstyledLink from '@/components/links/UnstyledLink';
 
-import { FramerContainer, FramerItem } from '@/utils/framer';
+import { FadeFramerItem, FramerContainer } from '@/utils/framer';
 
 type ComponentProps = {
   Team: ModuleMembersType;
@@ -31,7 +31,11 @@ const ModuleMembers: React.FC<ComponentProps> = ({ Team }) => {
           className='grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-8'
         >
           {Team.map((member) => (
-            <motion.div variants={FramerItem} key={member.id} id={member.id}>
+            <motion.div
+              variants={FadeFramerItem}
+              key={member.id}
+              id={member.id}
+            >
               <UnstyledLink href={`/team#${member.id}`} key={member.id}>
                 <div
                   className='h-full cursor-pointer rounded-lg border-solid bg-slate-50 px-4 py-4 transition-all hover:bg-sky-100'
