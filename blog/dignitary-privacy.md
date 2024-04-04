@@ -11,7 +11,7 @@ tags:
   - 'Term of the Month'
 ---
 
-Every month, ETAI will be sharing a term or concept of the month that is related to ethical issues in biomedical research. The `term of the month` is part of our module's milestones relating to engagement and reflection on ethics with the AI-READI team.
+Every month, ETAI will be sharing a term or concept of the month that is related to ethical issues in biomedical research. The `Term of the Month` is part of our module's milestones relating to engagement and reflection on ethics with the AI-READI team.
 
 ## Term of September 2023: Dignitary Privacy
 
