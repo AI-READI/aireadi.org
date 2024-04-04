@@ -127,7 +127,7 @@ const Resources = [
 ];
 
 export const getStaticProps = async () => {
-  const TeamMembers = await ModuleMembersFilter('teaming');
+  const TeamMembers = await ModuleMembersFilter('team-science');
 
   return {
     props: {

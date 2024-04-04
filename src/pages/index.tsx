@@ -77,9 +77,11 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   <ButtonLink href='https://fairhub.io' variant='primary'>
                     Access our data
                   </ButtonLink>
-                  <ButtonLink href='#' variant='outline' className=''>
+
+                  <ButtonLink href='#' variant='outline' className='bg-sky-50'>
                     Read our Marker Paper
                   </ButtonLink>
+
                   <ButtonLink
                     href='/mentorship'
                     variant='outline'

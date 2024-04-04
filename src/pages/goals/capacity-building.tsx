@@ -10,6 +10,21 @@ import Seo from '@/components/Seo';
 
 import ModuleMembersFilter from '@/utils/moduleMembersFilter';
 
+const Resources = [
+  {
+    title: 'Data Acquisition Module',
+    description: 'A collection of resources to help you get started.',
+    link: '/data',
+    type: 'publication',
+  },
+  {
+    title: 'Github',
+    description: 'A collection of resources to help you get started.',
+    link: '/data',
+    type: 'github',
+  },
+];
+
 const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
   <>
     <SkipNavLink>Skip to content</SkipNavLink>
@@ -135,23 +150,8 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
   </>
 );
 
-const Resources = [
-  {
-    title: 'Data Acquisition Module',
-    description: 'A collection of resources to help you get started.',
-    link: '/data',
-    type: 'publication',
-  },
-  {
-    title: 'Github',
-    description: 'A collection of resources to help you get started.',
-    link: '/data',
-    type: 'github',
-  },
-];
-
 export const getStaticProps = async () => {
-  const TeamMembers = await ModuleMembersFilter('skills');
+  const TeamMembers = await ModuleMembersFilter('capacity-building');
 
   return {
     props: {

@@ -163,9 +163,9 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                       {member.caption}
                     </p>
 
-                    <Divider className='my-2' />
+                    {/* <Divider className='my-2' /> */}
 
-                    <ModulesSection modules={member.modules} />
+                    {/* <ModulesSection modules={member.modules} /> */}
 
                     {Object.keys(member.social).length > 0 && (
                       <Divider className='my-2' />
