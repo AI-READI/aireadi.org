@@ -203,7 +203,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   Collecting equitable, multimodal data
                 </h1>
 
-                <p className='mb-6 text-lg font-normal text-gray-700 sm:mb-8'>
+                <p className='mb-2 text-lg font-normal text-gray-700'>
                   The project aims to collect data from 4,000 participants
                   across three sites: the University of Alabama at Birmingham
                   (UAB), the University of California San Diego (UCSD), and the
@@ -213,10 +213,15 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   sex.
                 </p>
 
-                <div className='hidden'>
-                  <ButtonLink href='/study' variant='outline'>
-                    Learn more about the study
-                  </ButtonLink>
+                <div className='flex'>
+                  <Link
+                    href='/goals/data-collection'
+                    passHref
+                    className='mb-7 flex w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+                  >
+                    <span>Learn more about data collection</span>
+                    <TbArrowNarrowRight size={20} />
+                  </Link>
                 </div>
               </div>
 
@@ -262,50 +267,30 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
             </div>
           </section>
 
-          <section className='py-16 '>
-            <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between space-y-2 px-4 lg:flex-row-reverse'>
-              <div className='px-5 lg:max-w-2xl'>
-                <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
-                  Sharing AI-ready dataset
-                </h1>
-                <p className='mb-6 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                  The resulting dataset will be curated and shared following
-                  ethical and FAIR (Findable, Accessible, Interoperable, and
-                  Reusable) principles such that it is ready for future
-                  AI/ML-driven analysis. The data is shared periodically through
-                  our dedicated web platform called fairhub.io.
-                </p>
-
-                <ButtonLink href='https://fairhub.io' variant='outline'>
-                  Access our data
-                </ButtonLink>
-              </div>
-              <div className='flex w-full items-center justify-center px-5 py-5'>
-                <ImageWithCredit
-                  src='https://ucarecdn.com/ef5a74b5-4fa6-46b9-99b1-9d44546f413a/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
-                  alt=''
-                  author='UAB Media Department'
-                />
-              </div>
-            </div>
-          </section>
-
           <section className='bg-slate-50 py-16'>
             <div className='mx-auto max-w-screen-xl items-center gap-16 px-8 lg:grid lg:grid-cols-2 '>
               <div>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
-                  Developing standards, best practices, and tools
+                  Sharing AI-ready dataset
                 </h1>
 
                 <p className='mb-6 text-lg font-normal text-gray-700 sm:mb-4'>
-                  We develop and openly share tools, standards, and guidelines
-                  so that future data generation projects can follow our
-                  approach for sharing ethical, FAIR, and AI-ready datasets.
+                  The resulting dataset is shared periodically through our
+                  dedicated web platform called fairhub.io following ethical and
+                  FAIR (Findable, Accessible, Interoperable, and Reusable)
+                  principles such that it is ready for future AI/ML-driven
+                  analysis. The associated tools, standards, and guidelines for
+                  making data AI-ready are being openly shared so that future
+                  data generation projects can also make their data AI-ready.
                 </p>
 
-                <div>
+                <div className='flex items-center space-x-2'>
+                  <ButtonLink href='https://fairhub.io' variant='primary'>
+                    Access our data
+                  </ButtonLink>
+
                   <ButtonLink href='/goals/data-sharing' variant='outline'>
-                    Learn more about our tools and guidelines
+                    Learn more about data sharing
                   </ButtonLink>
                 </div>
               </div>
@@ -341,9 +326,9 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   particularly in the biomedical/clinical domain.
                 </p>
 
-                <div className='hidden'>
+                <div>
                   <ButtonLink href='/goals/capacity-building' variant='outline'>
-                    Learn more about our training programs
+                    Learn more about capacity building
                   </ButtonLink>
                 </div>
               </div>
@@ -405,7 +390,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                     href='/goals/community-engagement'
                     variant='outline'
                   >
-                    Learn more about our plan for enhancing diversity
+                    Learn more about community engagement
                   </ButtonLink>
                 </div>
               </div>
