@@ -304,7 +304,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                 </p>
 
                 <div>
-                  <ButtonLink href='/modules/tools' variant='outline'>
+                  <ButtonLink href='/goals/data-sharing' variant='outline'>
                     Learn more about our tools and guidelines
                   </ButtonLink>
                 </div>
@@ -342,8 +342,8 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                 </p>
 
                 <div className='hidden'>
-                  <ButtonLink href='/modules/pedp' variant='outline'>
-                    Learn more about our plan for enhancing diversity
+                  <ButtonLink href='/goals/capacity-building' variant='outline'>
+                    Learn more about our training programs
                   </ButtonLink>
                 </div>
               </div>
@@ -373,7 +373,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                 </p>
 
                 <div>
-                  <ButtonLink href='/modules/teaming' variant='outline'>
+                  <ButtonLink href='/goals/team-science' variant='outline'>
                     Learn more about our team science approach
                   </ButtonLink>
                 </div>
@@ -401,7 +401,10 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                 </p>
 
                 <div>
-                  <ButtonLink href='/modules/pedp' variant='outline'>
+                  <ButtonLink
+                    href='/goals/community-engagement'
+                    variant='outline'
+                  >
                     Learn more about our plan for enhancing diversity
                   </ButtonLink>
                 </div>

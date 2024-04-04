@@ -37,8 +37,8 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
 
         <HeroCroppedImage
           title='Data Collection'
-          image='https://images.unsplash.com/photo-1710610383283-37ecdf156c60?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-          tagline='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh.'
+          image='https://images.unsplash.com/photo-1518186285589-2f7649de83e0?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+          tagline=''
           showButtons={false}
           primaryButton='Learn more about the study'
         />
