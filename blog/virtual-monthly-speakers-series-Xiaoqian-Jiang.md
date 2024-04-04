@@ -4,7 +4,7 @@ authors:
   - 'Xiaoqian Jiang'
 date: '2023-12-05'
 categories:
-  - 'Virtual Monthly Spaker Series'
+  - 'Virtual Monthly Speaker Series'
 heroImage: 'https://i.imgur.com/pcliq1b.jpg'
 subtitle: 'Dr. Xiaoqian Jiang: Sensitive Data Detection with High-Throughput Machine Learning Models in Electronic Health Records'
 tags:

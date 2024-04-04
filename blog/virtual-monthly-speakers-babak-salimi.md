@@ -4,11 +4,11 @@ authors:
   - 'Babak Salimi'
 date: '2023-11-28'
 categories:
-  - 'Virtual Monthly Spaker Series'
+  - 'Virtual Monthly Speaker Series'
 heroImage: 'https://i.imgur.com/IKiDdzD.jpg'
 subtitle: 'Dr. Babak Salimi: Certifying Fair Predictive Models in the Face of Selection Bias'
 tags:
-  - 'Virtual Monthly Spaker Series'
+  - 'Virtual Monthly Speaker Series'
 ---
 
 Every month, ETAI will invite a speaker to participate in a monthly speaker series related to ethical issues in biomedical research. The monthly speaker series is part of our module's milestones relating to engagement and reflection on ethics with the AI-READI team.

@@ -4,7 +4,7 @@ authors:
   - 'Tim Mackey'
 date: '2024-02-27'
 categories:
-  - 'Virtual Monthly Spaker Series'
+  - 'Virtual Monthly Speaker Series'
 heroImage: 'https://i.imgur.com/QUKWYUf.jpeg'
 subtitle: 'Dr. Tim Mackey: Leveraging Blockchain Technology to Enable Indigenous Data Sovereignty of Genomic Data'
 tags:

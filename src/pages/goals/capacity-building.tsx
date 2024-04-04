@@ -4,6 +4,7 @@ import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 import HeroCroppedImage from '@/components/hero/HeroCroppedImage';
 import ResourcesItemIcon from '@/components/icons/ResourcesItemIcon';
 import Layout from '@/components/layout/Layout';
+import ButtonLink from '@/components/links/ButtonLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import ModuleMembers from '@/components/modules/ModuleMembers';
 import Seo from '@/components/Seo';
@@ -37,8 +38,8 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
 
         <HeroCroppedImage
           title='Capacity Building'
-          image='https://images.unsplash.com/photo-1710302122056-a4fd87c037d6?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-          tagline='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh.'
+          image='https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+          tagline='Training and expanding the AI/ML-biomedical research workforce'
           showButtons={false}
           primaryButton='Learn more about the study'
         />
@@ -50,16 +51,59 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 Monthly Speaker Series
               </h1>
               <p className='mb-6 text-lg text-gray-700 sm:mb-4'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Doloribus quod vitae esse quas sint praesentium repudiandae
-                aliquid dolor maiores rerum dicta dolores officiis
-                exercitationem sunt deleniti tempore voluptatem, omnis ullam.
+                We plan to host a monthly speaker series related to the ethical,
+                social and legal implications of the Salutogenesis project and
+                any relevant issues that arise during the project
+                implementation.
               </p>
+
+              <div>
+                <ButtonLink
+                  href='/blog/category/Virtual%20Monthly%20Speaker%20Series'
+                  variant='outline'
+                >
+                  View the virtual series
+                </ButtonLink>
+              </div>
             </div>
             <div className='flex w-full items-center justify-center px-5 py-5'>
               <img
                 className='rounded-lg'
-                src='https://images.unsplash.com/photo-1710739399312-d70a2061da4d?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                src='https://images.unsplash.com/photo-1503428593586-e225b39bddfe?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                alt='mockup'
+              />
+            </div>
+          </div>
+        </section>
+
+        <section className='bg-slate-50 py-16'>
+          <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row'>
+            <div className='px-5 lg:max-w-2xl'>
+              <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
+                Internship Program
+              </h1>
+              <p className='mb-6 text-lg text-gray-700 sm:mb-4'>
+                A talented group of students were selected to participate in an
+                year long structured internship program. The program is designed
+                to facilitate exposure to skills in AI and data science for
+                post-baccalaureate students, medical students, pre-doctoral
+                students, postdoctoral fellows, and other health care
+                professionals wanting to gain AI expertise
+              </p>
+
+              <div>
+                <ButtonLink
+                  href='https://shileyeye.ucsd.edu/research/ai_readi'
+                  variant='outline'
+                >
+                  Learn more about the program
+                </ButtonLink>
+              </div>
+            </div>
+            <div className='flex w-full items-center justify-center px-5 py-5'>
+              <img
+                className='rounded-lg'
+                src='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                 alt='mockup'
               />
             </div>
