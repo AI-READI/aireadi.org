@@ -8,7 +8,7 @@ import TEAM_JSON from '~/data/team.json';
 export default async function ModuleMembersFilter(
   module: string
 ): Promise<ModuleMemberType[]> {
-  const AllTeamMembers = await Promise.all(
+  const AllTeamMembers: ModuleMemberType[] = await Promise.all(
     TEAM_JSON.map(async (member) => {
       const {
         base64,
@@ -41,11 +41,12 @@ export default async function ModuleMembersFilter(
     return 0;
   });
 
-  const TeamMembers = FilteredTeamMembers.map((member) => {
+  return FilteredTeamMembers.map((member) => {
     const item: ModuleMemberType = {
       name: member.name,
       id: member.id,
       roles: member.roles,
+      modules: member.modules,
       image: member.image,
       moduleImageParams: member.moduleImageParams,
       blurDataURL: member.blurDataURL,
@@ -53,6 +54,4 @@ export default async function ModuleMembersFilter(
 
     return item;
   });
-
-  return TeamMembers;
 }
