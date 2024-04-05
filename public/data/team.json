@@ -149,7 +149,7 @@
     "caption": "Brittany York is a Project Manager for the ETAI module. She joined UC San Diego in 2011 working on federally funded research projects related to physical activity, sedentary behavior, and chronic disease prevention.",
     "image": "https://ucarecdn.com/87c5d4a5-4814-4e6b-9134-7624fd9a5182/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "",
-    "modules": ["data-sharing", "capacity-building"],
+    "modules": ["data-sharing", "capacity-building", "community-engagement"],
     "social": {}
   },
   {
@@ -632,7 +632,7 @@
     "caption": "I am a medical anthropologist and public health scientist at UC San Diego. For this project, I serve as an MPI on the ETAI module. I am also a member of the Skills and Workforce and PEDP modules. In addition, I lead and coordinate the AI-READI Advisory Council for the project as a whole.",
     "image": "https://ucarecdn.com/d7678e9e-3ea9-4bdb-8521-90f6496df366/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px170p/",
-    "modules": ["data-collection", "capacity-building"],
+    "modules": ["data-collection", "capacity-building", "community-engagement"],
     "social": {
       "twitter": "https://twitter.com/SammHurstPhD"
     }

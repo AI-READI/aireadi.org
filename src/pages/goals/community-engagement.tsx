@@ -127,7 +127,7 @@ const Resources = [
 ];
 
 export const getStaticProps = async () => {
-  const TeamMembers = await ModuleMembersFilter('standards');
+  const TeamMembers = await ModuleMembersFilter('community-engagement');
 
   return {
     props: {

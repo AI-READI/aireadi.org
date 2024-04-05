@@ -96,7 +96,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
 
           <section className='pb-8 pt-16'>
             <div className='mx-auto flex max-w-screen-xl flex-col items-center px-8  lg:px-6'>
-              <h2 className='mb-5 max-w-screen-lg text-center text-4xl font-bold tracking-tight  sm:text-4xl'>
+              <h2 className='mb-5 max-w-screen-lg text-center text-4xl font-bold tracking-tight  sm:text-5xl'>
                 What is AI-READI?
               </h2>
               <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row'>
@@ -217,7 +217,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   <Link
                     href='/goals/data-collection'
                     passHref
-                    className='mb-7 flex w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
+                    className='mb-7 flex w-max items-center space-x-1 text-xl font-medium text-sky-700 transition-all hover:text-sky-500'
                   >
                     <span>Learn more about data collection</span>
                     <TbArrowNarrowRight size={20} />
