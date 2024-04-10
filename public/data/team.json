@@ -375,7 +375,12 @@
     "caption": "I am a 56-year-old, well-rounded academic scientist specializing in Indigenous and Marginalized group concerns on the Big Data Era.",
     "image": "https://ucarecdn.com/2f2af1e2-c06e-4cbb-a05f-70f62cd450bc/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px140p/",
-    "modules": ["team-science", "data-sharing", "capacity-building"],
+    "modules": [
+      "team-science",
+      "data-sharing",
+      "capacity-building",
+      "american-indian-engagement"
+    ],
     "social": {
       "website": [
         "http://nativebio.org",

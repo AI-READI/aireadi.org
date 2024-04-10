@@ -20,6 +20,12 @@ const goals = [
     href: '/goals/data-sharing',
   },
   {
+    name: 'Community Engagement',
+    description: 'Engaging with the community.',
+    icon: 'ic:round-people-alt',
+    href: '/goals/community-engagement',
+  },
+  {
     name: 'Capacity Building',
     description: 'Building capacity for data science research.',
     icon: 'ic:baseline-lock',
@@ -32,10 +38,10 @@ const goals = [
     href: '/goals/team-science',
   },
   {
-    name: 'Community Engagement',
-    description: 'Engaging with the community.',
-    icon: 'ic:baseline-lock',
-    href: '/goals/community-engagement',
+    name: 'American Indian engagement',
+    description: 'Engaging with American Indian communities.',
+    icon: 'fluent:people-16-filled',
+    href: '/goals/american-indian-engagement',
   },
 ];
 
