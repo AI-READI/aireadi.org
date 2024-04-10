@@ -435,7 +435,7 @@ export default function HomePage() {
                 </p>
               </div>
 
-              <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-5'>
+              <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-3'>
                 {CollaboratorsLogosList.map((logo, index) => (
                   <UnstyledLink href={logo.href} key={index}>
                     <div className='hover:bg-slate-10 group relative mt-2 flex h-[120px] items-center justify-center rounded-lg bg-slate-50 p-2 transition-all hover:border hover:bg-slate-100 md:mt-0'>
@@ -614,5 +614,11 @@ const CollaboratorsLogosList = [
     imageHeight: 'h-20',
     href: 'https://www.heidelbergengineering.com/us/',
     caption: 'Heidelberg Engineering',
+  },
+  {
+    image: '/images/member-orgs/microsoft.svg  ',
+    imageHeight: 'h-8',
+    href: 'https://www.microsoft.com/en-us/',
+    caption: 'Microsoft',
   },
 ];
