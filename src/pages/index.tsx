@@ -54,8 +54,11 @@ export default function HomePage() {
 
               <div className='col-span-12'>
                 <div className='relative flex w-max flex-col space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0'>
-                  <ButtonLink href='https://fairhub.io' variant='primary'>
-                    View our data
+                  <ButtonLink
+                    href='https://fairhub.io/datasets/1'
+                    variant='primary'
+                  >
+                    Access our data
                   </ButtonLink>
                   <ButtonLink href='/study' variant='dark' className='hidden'>
                     Enroll in the study
@@ -377,22 +380,65 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='py-16 pb-16 '>
+          <section className='py-16'>
             <div className='mx-auto max-w-screen-xl px-4 lg:px-6'>
               <div className='g:mb-16 mb-8 text-center'>
                 <h1 className='mb-3 text-3xl font-bold tracking-tight sm:text-4xl'>
                   AI-READI Members
                 </h1>
 
-                <p className=' mb-6 text-xl font-medium text-slate-600 sm:mb-8'>
+                <p className='mb-2 text-xl font-medium text-slate-600'>
                   The following organizations are part of the AI-READI project
                 </p>
+
+                <div className='relative mb-6 flex justify-center space-x-4'>
+                  <Link
+                    href='/team'
+                    passHref
+                    className='flex w-max items-center space-x-1 text-xl font-semibold text-sky-700 transition-all hover:text-sky-500'
+                  >
+                    <span className=''>Meet our team</span>
+                    <TbArrowNarrowRight size={20} />
+                  </Link>
+                </div>
               </div>
 
               <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-4'>
-                {LogosList.map((logo, index) => (
+                {MembersLogosList.map((logo, index) => (
                   <UnstyledLink href={logo.href} key={index}>
-                    <div className='group relative mt-2 flex h-[120px] items-center justify-center rounded-lg bg-gray-50 p-2 transition-all hover:bg-gray-100 md:mt-0'>
+                    <div className='group relative mt-2 flex h-[120px] items-center justify-center rounded-lg bg-slate-50 p-2 transition-all hover:border hover:bg-slate-100 md:mt-0'>
+                      <img
+                        src={logo.image}
+                        alt=''
+                        className={logo.imageHeight}
+                      />
+                      <span className='pointer-events-none absolute bottom-[-5px] text-sm font-medium text-slate-600 opacity-0 transition-all group-hover:bottom-1 group-hover:opacity-100 lg:text-xs'>
+                        {logo.caption}
+                      </span>
+                    </div>
+                  </UnstyledLink>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          <section className='border-t py-16'>
+            <div className='mx-auto max-w-screen-xl px-4 lg:px-6'>
+              <div className='g:mb-16 mb-8 text-center'>
+                <h1 className='mb-3 text-3xl font-bold tracking-tight sm:text-4xl'>
+                  AI-READI Industry Partners
+                </h1>
+
+                <p className=' mb-6 text-xl font-medium text-slate-600 sm:mb-8'>
+                  The following organizations are instrumental to the AI-READI
+                  project
+                </p>
+              </div>
+
+              <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-5'>
+                {CollaboratorsLogosList.map((logo, index) => (
+                  <UnstyledLink href={logo.href} key={index}>
+                    <div className='hover:bg-slate-10 group relative mt-2 flex h-[120px] items-center justify-center rounded-lg bg-slate-50 p-2 transition-all hover:border hover:bg-slate-100 md:mt-0'>
                       <img
                         src={logo.image}
                         alt=''
@@ -482,7 +528,7 @@ const FeaturesList = [
   },
 ];
 
-const LogosList = [
+const MembersLogosList = [
   {
     image:
       'https://fairdataihub.org/_next/image?url=%2Fimages%2Fcollaborators%2Fcalmi-logo.png&w=256&q=75',
@@ -535,5 +581,38 @@ const LogosList = [
     imageHeight: 'h-14',
     href: 'https://www.washington.edu/',
     caption: 'University of Washington',
+  },
+];
+
+const CollaboratorsLogosList = [
+  {
+    image: '/images/member-orgs/dexcom.png',
+    imageHeight: 'h-8',
+    href: 'https://www.dexcom.com',
+    caption: 'Dexcom',
+  },
+  {
+    image: '/images/member-orgs/optomed.png',
+    imageHeight: 'h-9',
+    href: 'https://www.optomed.com/',
+    caption: 'Optomed',
+  },
+  {
+    image: '/images/member-orgs/topcon.png',
+    imageHeight: 'h-12',
+    href: 'https://topconhealthcare.com/',
+    caption: 'Topcon Healthcare',
+  },
+  {
+    image: '/images/member-orgs/icare.svg',
+    imageHeight: 'h-8',
+    href: 'https://www.icare-world.com',
+    caption: 'iCare',
+  },
+  {
+    image: '/images/member-orgs/heidelberg.png',
+    imageHeight: 'h-20',
+    href: 'https://www.heidelbergengineering.com/us/',
+    caption: 'Heidelberg Engineering',
   },
 ];
