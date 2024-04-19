@@ -803,5 +803,21 @@
       "github": "https://github.com/slugb0t",
       "linkedin": "https://www.linkedin.com/in/dorian-portillo-4733b61b5/"
     }
+  },
+  {
+    "id": "Charles-Enyaah-Amankwa",
+    "name": "Charles Enyaah Amankwa",
+    "pronoun": "he/him",
+    "roles": ["Research Scientist", "AI-READI intern"],
+    "department": "North Texas Eye Research Institute",
+    "organization": "University of North Texas Health Science Center",
+    "location": "Fort Worth, TX",
+    "caption": "I am a glaucoma research scientist and an intern at the AI-READI program, focussed on leveraging AI and machine learning to improve OCT image quality. My role involves employing deep learning techniques to evaluate image quality for the AI-READI Project. ",
+    "image": "https://storage.tally.so/private/08DFD563-340C-455B-AD1D-A5918DF429A0.jpeg?id=aepb1v&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFlcGIxdiIsImZvcm1JZCI6Im1SV1ZLcCIsImlhdCI6MTcxMzQ5NjI0NX0.04qbvln-s1ABpgSbo820tSKnou_5D2E19I-DOiSvSzs&signature=77b396d0b9af17a29f57806c49834fff4c3bbab8002eb4ede5d5dfd10ef14bda",
+    "moduleImageParams": "",
+    "modules": ["teaming", "data"],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/charles-amankwa-86623abb/"
+    }
   }
 ]
