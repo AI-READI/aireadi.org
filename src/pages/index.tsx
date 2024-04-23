@@ -60,12 +60,16 @@ export default function HomePage() {
                   >
                     Access our data
                   </ButtonLink>
-                  <ButtonLink href='/study' variant='dark' className='hidden'>
-                    Enroll in the study
+                  <ButtonLink
+                    href='https://docs.aireadi.org'
+                    variant='outline'
+                    className='bg-stone-100'
+                  >
+                    See our documentation
                   </ButtonLink>
                   <ButtonLink
                     href='/mentorship'
-                    variant='outline'
+                    variant='dark'
                     className='hidden bg-slate-100'
                   >
                     Join our mentorship program
