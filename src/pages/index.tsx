@@ -79,7 +79,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   </ButtonLink>
 
                   <ButtonLink href='#' variant='outline' className='bg-sky-50'>
-                    Read our Marker Paper
+                    See our documentation
                   </ButtonLink>
 
                   <ButtonLink

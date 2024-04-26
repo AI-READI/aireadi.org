@@ -32,13 +32,13 @@ const goals = [
     href: '/goals/capacity-building',
   },
   {
-    name: 'Team Science',
+    name: 'Advancing Team Science',
     description: 'Promoting team science.',
     icon: 'ic:baseline-bar-chart',
     href: '/goals/team-science',
   },
   {
-    name: 'American Indian engagement',
+    name: 'American Indian Engagement',
     description: 'Engaging with American Indian communities.',
     icon: 'fluent:people-16-filled',
     href: '/goals/american-indian-engagement',
