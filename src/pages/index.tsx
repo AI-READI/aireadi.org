@@ -259,7 +259,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   <motion.div variants={FadeFramerItem} className='zyx'>
                     <span className='block text-xl font-bold'>460+</span>
                     <span className='text-[16px] font-normal'>
-                      participants have fully enrolled
+                      participants have completed in-person study visit
                     </span>
                   </motion.div>
                 </motion.div>
