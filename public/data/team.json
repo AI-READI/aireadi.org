@@ -637,7 +637,12 @@
     "caption": "I am a medical anthropologist and public health scientist at UC San Diego. For this project, I serve as an MPI on the ETAI module. I am also a member of the Skills and Workforce and PEDP modules. In addition, I lead and coordinate the AI-READI Advisory Council for the project as a whole.",
     "image": "https://ucarecdn.com/d7678e9e-3ea9-4bdb-8521-90f6496df366/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px170p/",
-    "modules": ["data-collection", "capacity-building", "community-engagement"],
+    "modules": [
+      "data-collection",
+      "capacity-building",
+      "community-engagement",
+      "data-sharing"
+    ],
     "social": {
       "twitter": "https://twitter.com/SammHurstPhD"
     }
