@@ -387,6 +387,20 @@
     }
   },
   {
+    "id": "Hanna-Pittock",
+    "name": "Hanna Pittock ",
+    "pronoun": "she/her/hers",
+    "roles": ["Project Manager"],
+    "department": "",
+    "organization": "Stanford University",
+    "location": "San Francisco, CA",
+    "caption": "I am the project manager for the Stanford Teaming group.",
+    "image": "https://ucarecdn.com/5a63fa52-098f-43ce-bdba-ad33dc302888/-/crop/face/200px160p/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px160p/",
+    "modules": ["team-science"],
+    "social": {}
+  },
+  {
     "id": "Jennifer-Li-Pook-Than",
     "name": "Jennifer Li-Pook-Than",
     "pronoun": "",
