@@ -668,13 +668,14 @@
     "department": "Viterbi Family Department of Ophthalmology and Shiley Eye Institute",
     "organization": "University of California, San Diego",
     "location": "San Diego, CA",
-    "caption": "I'm an Assistant Professor of Ophthalmology and Biomedical Informatics at UCSD, and for this project, I am serving as the Module PI for the Skills and Workforce Development Module and the Co-Site PI for the Data Acquisition Module at UCSD.",
-    "image": "https://ucarecdn.com/39760fa5-bf85-4df8-82b3-0445ce2fb598/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "caption": "I'm an Assistant Professor of Ophthalmology and Biomedical Informatics at UCSD, and for this project, I lead the yearlong internship program and co-lead data collection efforts at UCSD.",
+    "image": "https://ucarecdn.com/967eab40-d22b-4bdb-8e95-162a78ccfd35/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px150p/",
-    "modules": ["data-collection", "data-sharing", "capacity-building"],
+    "modules": ["data-collection", "capacity-building"],
     "social": {
       "twitter": "https://twitter.com/SallyLiuBaxter",
-      "profiles": "https://profiles.ucsd.edu/sally.baxter"
+      "profiles": "https://profiles.ucsd.edu/sally.baxter",
+      "linkedin": "https://www.linkedin.com/in/sally-baxter-402a2a4/"
     }
   },
   {
