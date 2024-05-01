@@ -41,14 +41,14 @@
     "id": "Adrienne-Baer",
     "name": "Adrienne Baer",
     "pronoun": "",
-    "roles": ["PhD Student"],
-    "department": "Management Science & Engineering - Center for Work, Technology, and Organization",
+    "roles": ["PhD Candidate"],
+    "department": "Center for Work, Technology, and Organization",
     "organization": "Stanford University",
     "location": "Stanford, CA",
-    "caption": "I am a scholar of organizations and social change. As a researcher on the Teaming module, I use qualitative and quantitative methods to explore how our larger AI-READI team coordinates and collaborates in pursuit of technological and societal advancement.",
+    "caption": "I am a scholar of organizations and social change. As a researcher on the team science milestone, I use qualitative and quantitative methods to explore how our larger AI-READI team coordinates and collaborates in pursuit of technological and societal advancement.",
     "image": "https://ucarecdn.com/d537c494-87c0-456d-aa17-4ced5ceca4ba/-/crop/face/200px170p/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/180px140p/",
-    "modules": ["team-science"],
+    "modules": ["team-science", "american-indian-engagement"],
     "social": {
       "linkedin": "https://linkedin.com/in/adriennebaer/"
     }
