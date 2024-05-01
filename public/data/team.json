@@ -722,19 +722,20 @@
     "name": "Sara Singer",
     "pronoun": "",
     "roles": ["Professor"],
-    "department": "Medicine and Organizational Behavior",
+    "department": "Health Policy, Medicine, and Organizational Behavior",
     "organization": "Stanford University School of Medicine and Graduate School of Business",
     "location": "Stanford, CA",
-    "caption": "Principal Investigator for the AI-READI Teaming Module, more generally I study teams and organizations to understand how leaders and policymakers can improve the safety, quality, equity of health and health care delivery through changes in institutional culture, leadership, organization design, and team dynamics.",
+    "caption": "Principal Investigator for the AI-READI Teaming Milestone, more generally I study teams and organizations to understand how leaders and policymakers can improve the safety, quality, equity of health and health care delivery through changes in institutional culture, leadership, organization design, and team dynamics.",
     "image": "https://ucarecdn.com/1c5d4200-3c52-43da-aa5a-08de14bf2095/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px160p/",
-    "modules": ["team-science"],
+    "modules": ["team-science", "american-indian-engagement"],
     "social": {
       "website": [
         "https://www.gsb.stanford.edu/faculty-research/faculty/sara-singer"
       ],
       "medprofile": "https://med.stanford.edu/sarasinger.html",
-      "profiles": "https://profiles.stanford.edu/sara-singer"
+      "profiles": "https://profiles.stanford.edu/sara-singer",
+      "linkedin": "https://www.linkedin.com/in/sara-singer-29b42b11/"
     }
   },
   {
