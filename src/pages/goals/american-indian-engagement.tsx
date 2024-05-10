@@ -21,8 +21,8 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
 
         <HeroCroppedImage
           title='American Indian Engagement'
-          image='https://images.unsplash.com/photo-1710629173038-eb1444dafe39?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-          tagline='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh.'
+          image='/images/modules/pedp-hero.jpeg'
+          tagline='Working with the American Indian Communities to define suitable parameters for participation in the AI-READI study.'
           showButtons={false}
           primaryButton='Learn more about the study'
         />
@@ -31,23 +31,33 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
           <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-10 px-4 py-8 text-left md:grid-cols-2 lg:py-16'>
             <div>
               <h2 className='mb-4 text-3xl font-extrabold tracking-tight sm:text-4xl'>
-                Multidisciplinary Team Science
+                Working with tribe representatives and scholars
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                The goal of the ETAI module is to establish a culture of ethical
-                inquiry throughout the data generation project team.
-              </p>
-              <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                ETAI will have continuous interactions with the other five
-                modules within AI-READI and with the Bridge2AI Center.
+                Artificial intelligence (AI) and machine learning (ML) have
+                fundamentally challenged the status quo of publicly funded
+                research in the USA and the adequacy of Individual Informed
+                Consent & the Common Rule for this new landscape. This not only
+                requires an interrogation of risks and concerns for the general
+                US citizenry, but, American Indians and Alaska Natives require
+                more consideration and engagement due to their sovereign status
+                as Domestic Dependent Nations.
               </p>
             </div>
             <div>
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. In,
-                vitae blanditiis non ipsam dolorum facere nesciunt et
-                repudiandae! Ducimus explicabo corrupti deserunt dignissimos.
-                Repellendus ea at enim fugiat accusantium nam!
+                The AI-READI project will provide an opportunity for the
+                evaluation of conventional tools such as MOUs, Contracts Data
+                Use and Access agreements, and form(s) of Assured Return of
+                Benefit and Sustainable Input, Control and Monitoring of Tribal
+                Data with the understanding, supported by NIH policy, that all
+                data will reside under Tribal Sovereign Authority. Current NIH
+                policy upholds Tribal Sovereignty over data. As such, the
+                AI-READI project will engage with the Cheyenne River Sioux Tribe
+                toward a goal of adding tribal participation and a data
+                collection protocol aligned to the AI-READI's designed outcomes
+                (with the ability for the tribe to modify the protocol as
+                needed/preferred).
               </p>
             </div>
           </div>
