@@ -43,46 +43,36 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
           primaryButton='Learn more about the study'
         />
 
-        <section className='hidden bg-slate-50'>
-          <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-10 px-4 py-8 text-left md:grid-cols-2 lg:px-6 lg:py-16'>
+        <section className='bg-slate-50'>
+          <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-10 px-4 py-8 text-left md:grid-cols-2 lg:py-16'>
             <div>
               <h2 className='mb-4 text-3xl font-extrabold tracking-tight sm:text-4xl'>
-                Multidisciplinary Team Science
+                Overview of the Data Acquisition Module
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                The goal of the ETAI module is to establish a culture of ethical
-                inquiry throughout the data generation project team.
-              </p>
-              <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                ETAI will have continuous interactions with the other five
-                modules within AI-READI and with the Bridge2AI Center.
+                The University of Alabama at Birmingham (UAB) will oversee and
+                coordinate data acquisition activities over 3 sites: UAB,
+                University of California San Diego (UCSD) and University of
+                Washington (UW).
               </p>
             </div>
-            <div>
+            <div className=''>
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                The ETAI module is responsible for:
+                Data is responsible for:
               </p>
-              <ul className='mb-3 list-inside list-disc text-lg font-normal text-gray-700'>
+              <ul className='list mb-3 list-inside list-disc text-lg font-normal text-gray-700'>
+                <li>Determining all domains and variables for the dataset.</li>
+                <li>Developing the protocol.</li>
+                <li>Drafting the Manual of Procedures (MOP).</li>
                 <li>
-                  Developing an in-depth needs assessment of each module on
-                  their understanding of the unique ethical, legal and social
-                  implications (ELSIs) of big data research.
+                  Implementing the protocol for data collection, starting with
+                  the hiring, training, and certification of Clinical Research
+                  Coordinators (CRCs), followed by the enrollment of
+                  participants and participant visits.
                 </li>
                 <li>
-                  Delivering educational activities tailored for each module to
-                  improve their grasp of ELSIs.
-                </li>
-                <li>
-                  Developing Community Intercultural Partnership Councils;
-                  Members will be asked to help to develop accessible informed
-                  consent and patient recruitment communications, and to
-                  identify barriers to participation that can be addressed in
-                  the protocol.
-                </li>
-                <li>
-                  Seeking ways to establish pathways for partnership with the
-                  Native American tribes to identify facilitators and barriers
-                  to data acquisition and usage.
+                  Overseeing the biorepository storage of biospecimens at UAB
+                  for future ancillary studies.
                 </li>
               </ul>
             </div>

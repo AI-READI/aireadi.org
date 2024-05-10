@@ -27,48 +27,33 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
           primaryButton='Learn more about the study'
         />
 
-        <section className='hidden bg-slate-50'>
-          <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-10 px-4 py-8 text-left md:grid-cols-2 lg:px-6 lg:py-16'>
+        <section className='bg-slate-50'>
+          <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-10 px-4 py-8 text-left md:grid-cols-2 lg:py-16'>
             <div>
               <h2 className='mb-4 text-3xl font-extrabold tracking-tight sm:text-4xl'>
-                Multidisciplinary Team Science
+                Overview of the AI-READI Advisory Council (AAC)
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                The goal of the ETAI module is to establish a culture of ethical
-                inquiry throughout the data generation project team.
-              </p>
-              <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                ETAI will have continuous interactions with the other five
-                modules within AI-READI and with the Bridge2AI Center.
+                The AI-READI Advisory Council (AAC) was established on May 31,
+                2023 as an external community peer review, providing community
+                guidance related to the collection of a large multi-ethnic,
+                multi-domain health data repository for the Artificial
+                Intelligence Ready and Equitable Atlas for Diabetes Insights
+                (AI-READI) Project.
               </p>
             </div>
             <div>
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                The ETAI module is responsible for:
+                The Advisory Council members reflect diverse individuals
+                selected from the catchment areas of the University of
+                Washington, Seattle, the University of California, San Diego,
+                and the University of Alabama, Birmingham, who are considered
+                “representative” of their community and the potential
+                participants of the repository study. The Advisory Council will
+                focus on reviewing all aspects of the research process regarding
+                the urgency, relevance, efficacy, safety, and community impact
+                of the proposed study.
               </p>
-              <ul className='mb-3 list-inside list-disc text-lg font-normal text-gray-700'>
-                <li>
-                  Developing an in-depth needs assessment of each module on
-                  their understanding of the unique ethical, legal and social
-                  implications (ELSIs) of big data research.
-                </li>
-                <li>
-                  Delivering educational activities tailored for each module to
-                  improve their grasp of ELSIs.
-                </li>
-                <li>
-                  Developing Community Intercultural Partnership Councils;
-                  Members will be asked to help to develop accessible informed
-                  consent and patient recruitment communications, and to
-                  identify barriers to participation that can be addressed in
-                  the protocol.
-                </li>
-                <li>
-                  Seeking ways to establish pathways for partnership with the
-                  Native American tribes to identify facilitators and barriers
-                  to data acquisition and usage.
-                </li>
-              </ul>
             </div>
           </div>
         </section>

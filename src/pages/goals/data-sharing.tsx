@@ -43,8 +43,8 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
           primaryButton='Learn more about the study'
         />
 
-        <section className='hidden bg-slate-50'>
-          <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-10 px-4 py-8 text-left md:grid-cols-2 lg:px-6 lg:py-16'>
+        <section className='bg-slate-50'>
+          <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-10 px-4 py-8 text-left md:grid-cols-2 lg:py-16'>
             <div>
               <h2 className='mb-4 text-3xl font-extrabold tracking-tight sm:text-4xl'>
                 Multidisciplinary Team Science
@@ -60,31 +60,10 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
             </div>
             <div>
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                The ETAI module is responsible for:
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+                amet facilisis lectus. Nullam nec erat in nulla aliquet
+                scelerisque. Nulla facilisi. Sed sit amet facilisis lectus.
               </p>
-              <ul className='mb-3 list-inside list-disc text-lg font-normal text-gray-700'>
-                <li>
-                  Developing an in-depth needs assessment of each module on
-                  their understanding of the unique ethical, legal and social
-                  implications (ELSIs) of big data research.
-                </li>
-                <li>
-                  Delivering educational activities tailored for each module to
-                  improve their grasp of ELSIs.
-                </li>
-                <li>
-                  Developing Community Intercultural Partnership Councils;
-                  Members will be asked to help to develop accessible informed
-                  consent and patient recruitment communications, and to
-                  identify barriers to participation that can be addressed in
-                  the protocol.
-                </li>
-                <li>
-                  Seeking ways to establish pathways for partnership with the
-                  Native American tribes to identify facilitators and barriers
-                  to data acquisition and usage.
-                </li>
-              </ul>
             </div>
           </div>
         </section>
