@@ -135,7 +135,11 @@ const ScholarsPage: React.FC<
             <ModalContent>
               <ModalCloseButton />
               <ModalBody>
-                <Grid templateColumns='repeat(10, 1fr)' gap={3}>
+                <Grid
+                  templateColumns='repeat(10, 1fr)'
+                  gap={3}
+                  className='px-2 py-3'
+                >
                   <GridItem colSpan={4}>
                     <VStack spacing={4} align='stretch'>
                       <img
