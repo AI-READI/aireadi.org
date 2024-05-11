@@ -81,7 +81,7 @@ const ScholarsPage: React.FC<
                       fill
                       placeholder='blur'
                       blurDataURL={scholar.blurDataURL}
-                      className='h-full w-full rounded-lg object-cover object-top'
+                      className='h-full w-full rounded-lg object-cover object-center'
                       sizes='(max-width: 768px) 100vw, 50vw'
                     />
                   </div>
@@ -109,7 +109,9 @@ const ScholarsPage: React.FC<
                       <Wrap>
                         {scholar.expertise.map((expertise, index) => (
                           <WrapItem key={index}>
-                            <Tag colorScheme='blue'>{expertise}</Tag>
+                            <Tag colorScheme='blue' size='sm'>
+                              {expertise}
+                            </Tag>
                           </WrapItem>
                         ))}
                       </Wrap>
