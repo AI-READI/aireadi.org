@@ -74,17 +74,23 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
 
               <div className='col-span-12'>
                 <div className='relative flex w-max flex-col space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0'>
-                  <ButtonLink href='https://fairhub.io' variant='primary'>
+                  <ButtonLink
+                    href='https://fairhub.io/datasets/1'
+                    variant='primary'
+                  >
                     Access our data
                   </ButtonLink>
-
-                  <ButtonLink href='#' variant='outline' className='bg-sky-50'>
+                  <ButtonLink
+                    href='https://docs.aireadi.org'
+                    variant='outline'
+                    className='bg-stone-100'
+                  >
                     See our documentation
                   </ButtonLink>
 
                   <ButtonLink
                     href='/mentorship'
-                    variant='outline'
+                    variant='dark'
                     className='hidden bg-slate-100'
                   >
                     Join our mentorship program
@@ -96,29 +102,30 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
 
           <section className='pb-8 pt-16'>
             <div className='mx-auto flex max-w-screen-xl flex-col items-center px-8  lg:px-6'>
-              <h2 className='mb-5 max-w-screen-lg text-center text-4xl font-bold tracking-tight  sm:text-5xl'>
-                What is AI-READI?
+              <h2 className='mb-5 max-w-screen-lg text-center text-4xl font-bold tracking-tight  sm:text-4xl'>
+                Generating data, best practices, and tools to boost future
+                AI-driven research in diabetes
               </h2>
               <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row'>
-                <div className='md:px-5 lg:max-w-3xl'>
-                  <VStack spacing={2} align='flex-start'>
-                    <p>
+                <div className='md:px-5 lg:max-w-2xl'>
+                  <ul className='mb-3 list-disc text-lg font-normal text-gray-700'>
+                    <li>
                       AI-READI is one of the data generation projects of the
                       National Institutes of Health (NIH) funded Bridge2AI
                       Program.
-                    </p>
-                    <p>
+                    </li>
+                    <li>
                       The AI-READI project seeks to create and share a flagship
                       ethically-sourced dataset of type 2 diabetes.
-                    </p>
-                    <p>
+                    </li>
+                    <li>
                       The data will be optimized for future artificial
                       intelligence/machine learning (AI/ML) analysis that could
                       provide critical insights and especially shine light on
                       the salutogenic pathways from diabetes to return to
                       health.
-                    </p>
-                  </VStack>
+                    </li>
+                  </ul>
 
                   <div className='lg:py-4'>
                     <ButtonLink
@@ -459,7 +466,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                 </p>
               </div>
 
-              <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-5'>
+              <div className='grid-cols-1 gap-4 md:grid md:grid-cols-2 lg:grid-cols-3'>
                 {CollaboratorsLogosList.map((logo, index) => (
                   <UnstyledLink href={logo.href} key={index}>
                     <div className='hover:bg-slate-10 group relative mt-2 flex h-[120px] items-center justify-center rounded-lg bg-slate-50 p-2 transition-all hover:border hover:bg-slate-100 md:mt-0'>
@@ -730,6 +737,12 @@ const CollaboratorsLogosList = [
     imageHeight: 'h-20',
     href: 'https://www.heidelbergengineering.com/us/',
     caption: 'Heidelberg Engineering',
+  },
+  {
+    image: '/images/member-orgs/microsoft.svg  ',
+    imageHeight: 'h-8',
+    href: 'https://www.microsoft.com/en-us/',
+    caption: 'Microsoft',
   },
 ];
 

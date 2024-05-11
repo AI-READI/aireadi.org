@@ -34,22 +34,21 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 Multidiscplinary Team Science
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                The Teaming module is working across AI-READI modules to develop
-                an effective multi-team system, capable of achieving individual
-                module, AI-READI, and Bridge2AI goals to create and share a
-                flagship, ethically sourced, dataset for Type 2 diabetes.
+                We are working across the AI-READI project to develop an
+                effective multi-team system, capable of achieving individual,
+                AI-READI, and Bridge2AI goals to create and share a flagship,
+                ethically sourced, dataset for Type 2 diabetes.
               </p>
             </div>
             <div>
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                We are applying team science by recognizing boundaries and
-                interaction patterns of our multi-team system, and analyzing and
-                intervening on interaction patterns to promote teaming. We are
-                advancing team science by leveraging quantitative and
-                qualitative methods to develop a new understanding of teaming
-                across disciplinary and community interfaces. We also support
-                AI-READI's committee charged with achieving our Plan for
-                Enhancing Diverse Perspectives.
+                To achieve that, we are applying team science by recognizing
+                boundaries and interaction patterns of our multi-team system,
+                and analyzing and intervening on interaction patterns to promote
+                teaming. We are advancing team science by leveraging
+                quantitative and qualitative methods to develop a new
+                understanding of teaming across disciplinary and community
+                interfaces.
               </p>
             </div>
           </div>

@@ -38,7 +38,7 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
 
         <HeroCroppedImage
           title='Capacity Building'
-          image='https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+          image='https://ucarecdn.com/43f384e1-ec90-410f-b3b5-7d72f3eda492/'
           tagline='Training and expanding the AI/ML-biomedical research workforce'
           showButtons={false}
           primaryButton='Learn more about the study'
@@ -51,10 +51,9 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 Monthly Speaker Series
               </h1>
               <p className='mb-6 text-lg text-gray-700 sm:mb-4'>
-                We plan to host a monthly speaker series related to the ethical,
-                social and legal implications of the Salutogenesis project and
-                any relevant issues that arise during the project
-                implementation.
+                We are hosting a monthly speaker series related to the ethical,
+                social and legal implications of the AI-READI project and any
+                relevant issues that arise during the project implementation.
               </p>
 
               <div>
@@ -84,11 +83,11 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
               </h1>
               <p className='mb-6 text-lg text-gray-700 sm:mb-4'>
                 A talented group of students were selected to participate in an
-                year long structured internship program. The program is designed
+                year-long structured internship program. The program is designed
                 to facilitate exposure to skills in AI and data science for
                 post-baccalaureate students, medical students, pre-doctoral
                 students, postdoctoral fellows, and other health care
-                professionals wanting to gain AI expertise
+                professionals wanting to gain AI expertise.
               </p>
 
               <div>
@@ -103,7 +102,7 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
             <div className='flex w-full items-center justify-center px-5 py-5'>
               <img
                 className='rounded-lg'
-                src='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                src='https://ucarecdn.com/b6521517-979e-4ae4-baff-69ade647a982/'
                 alt='mockup'
               />
             </div>
