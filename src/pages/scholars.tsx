@@ -19,22 +19,51 @@ import { motion } from 'framer-motion';
 import { InferGetStaticPropsType } from 'next';
 import Image from 'next/image';
 import { getPlaiceholder } from 'plaiceholder';
+import { useState } from 'react';
+import { AiFillLinkedin } from 'react-icons/ai';
 import { IoSchoolSharp } from 'react-icons/io5';
 import { RiAwardFill, RiExpandUpDownLine } from 'react-icons/ri';
 
 import HeroCroppedImage from '@/components/hero/HeroCroppedImage';
 import Layout from '@/components/layout/Layout';
-// import ModuleMembers from '@/components/modules/ModuleMembers';
 import Seo from '@/components/Seo';
 
 import { FramerContainer } from '@/utils/framer';
 
 import SCHOLARS_JSON from '~/data/scholars.json';
 
+interface Scholar {
+  id: string;
+  name: string;
+  image: string;
+  blurDataURL: string;
+  moduleImageParams: string;
+  education: { degree: string; institution: string }[];
+  expertise: string[];
+  tag: string;
+  about: string;
+  after: string;
+  social: { linkedin?: string; resume?: string; medprofile?: string };
+}
+
 const ScholarsPage: React.FC<
   InferGetStaticPropsType<typeof getStaticProps>
 > = ({ AllScholars }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const [selectedScholar, setSelectedScholar] = useState<Scholar | null>(null);
+
+  const openModal = (scholarid: string) => {
+    const scholar = AllScholars.find((scholar) => scholar.id === scholarid);
+
+    if (!scholar) {
+      return;
+    }
+
+    setSelectedScholar(scholar);
+
+    onOpen();
+  };
+
   return (
     <>
       <SkipNavLink>Skip to content</SkipNavLink>
@@ -123,7 +152,7 @@ const ScholarsPage: React.FC<
                     colorScheme='teal'
                     className='mt-5'
                     rightIcon={<RiExpandUpDownLine />}
-                    onClick={onOpen}
+                    onClick={() => openModal(scholar.id)}
                   >
                     Expand
                   </Button>
@@ -139,15 +168,15 @@ const ScholarsPage: React.FC<
               <ModalBody>
                 <Grid
                   templateColumns='repeat(10, 1fr)'
-                  gap={3}
+                  gap={6}
                   className='px-2 py-3'
                 >
                   <GridItem colSpan={4}>
                     <VStack spacing={4} align='stretch'>
                       <img
-                        src='https://ucarecdn.com/2b081802-f0a0-40b5-b333-b1438e89415e/'
-                        alt='Jane Doe'
-                        className='rounded-lg'
+                        src={selectedScholar?.image}
+                        alt={selectedScholar?.name}
+                        className='h-full w-full rounded-lg object-cover object-center'
                       />
 
                       <Grid templateColumns='repeat(10, 1fr)'>
@@ -156,9 +185,21 @@ const ScholarsPage: React.FC<
                         </GridItem>
 
                         <GridItem colSpan={9}>
-                          <p className='mb-2 ml-2 text-left font-semibold text-slate-600'>
-                            Linkedin Profile
-                          </p>
+                          <p>{selectedScholar?.social.linkedin}</p>
+
+                          {'linkedin' in (selectedScholar?.social || {}) && (
+                            <li className='flex items-center justify-center text-gray-500 transition-all hover:text-sky-600'>
+                              <a
+                                href={selectedScholar?.social.linkedin}
+                                rel='noopener noreferrer'
+                                target='_blank'
+                                className='cursor-newtab'
+                              >
+                                <AiFillLinkedin size={25} />
+                                <span className='sr-only'> Linkedin </span>
+                              </a>
+                            </li>
+                          )}
                         </GridItem>
 
                         <GridItem>
@@ -173,39 +214,56 @@ const ScholarsPage: React.FC<
                       </Grid>
                     </VStack>
                   </GridItem>
+
                   <GridItem colSpan={6}>
-                    <VStack spacing={4} align='stretch'>
+                    <VStack align='stretch'>
                       <h2 className='text-2xl font-bold text-slate-800'>
-                        Jane Doe
+                        {selectedScholar?.name}
                       </h2>
 
-                      <h3>Education</h3>
+                      <h3 className='text-lg font-semibold text-slate-700'>
+                        Education
+                      </h3>
 
                       <ul>
-                        <li>
-                          PhD in Mathematics from the University of California,
-                          Berkeley
-                        </li>
-                        <li>
-                          Masters in Computer Science from Stanford University
-                        </li>
+                        {selectedScholar?.education.map((edu, index) => (
+                          <li key={index} className='text-base font-medium'>
+                            {edu.degree} ({edu.institution})
+                          </li>
+                        ))}
                       </ul>
 
-                      <h3>About Me</h3>
+                      <h3 className='text-lg font-semibold text-slate-700'>
+                        Expertise
+                      </h3>
 
                       <p>
-                        I am from .... My background is in .... Currently, I am
-                        working in the AI-READI project where I am contributing
-                        to... When I am not working I like to... See my linkedin
-                        profile and resume for more details
+                        {selectedScholar?.expertise.map((expertise, index) => (
+                          <Tag
+                            key={index}
+                            colorScheme='blue'
+                            size='sm'
+                            className='mr-2'
+                          >
+                            {expertise}
+                          </Tag>
+                        ))}
                       </p>
 
-                      <h3>After AI-READI</h3>
+                      <h3 className='text-lg font-semibold text-slate-700'>
+                        About Me
+                      </h3>
 
-                      <p>
-                        After the AI-READI internship I am looking for.... I am
-                        open to work anywhere in the US. I am currently on an
-                        HI1 visa and will not need authorized to work.
+                      <p className='text-base font-normal text-slate-600'>
+                        {selectedScholar?.about}
+                      </p>
+
+                      <h3 className='text-lg font-semibold text-slate-700'>
+                        After AI-READI
+                      </h3>
+
+                      <p className='text-base font-normal text-slate-600'>
+                        {selectedScholar?.after}
                       </p>
                     </VStack>
                   </GridItem>
