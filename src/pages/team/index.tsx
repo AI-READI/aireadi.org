@@ -5,7 +5,7 @@ import { InferGetStaticPropsType } from 'next';
 import Image from 'next/image';
 import { getPlaiceholder } from 'plaiceholder';
 import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from 'react-icons/ai';
-import { BiBuildingHouse, BiNetworkChart } from 'react-icons/bi';
+import { BiBuildingHouse } from 'react-icons/bi';
 import { BsGlobe, BsMastodon } from 'react-icons/bs';
 import { FaHospitalUser } from 'react-icons/fa';
 import { HiUserGroup } from 'react-icons/hi';
@@ -17,59 +17,6 @@ import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 
 import TEAM_JSON from '~/data/team.json';
-
-const ModulesSection = ({ modules }: { modules: string[] }) => {
-  const getModule = (module: string) => {
-    switch (module) {
-      case 'ethics':
-        return 'Ethics';
-
-      case 'data':
-        return 'Data Acquisition';
-
-      case 'skills':
-        return 'Skills and Workforce Development';
-
-      case 'tools':
-        return 'Tools';
-
-      case 'standards':
-        return 'Standards';
-
-      case 'teaming':
-        return 'Teaming';
-
-      case 'administration':
-        return 'Administration';
-
-      case 'pedp':
-        return 'PEDP';
-
-      default:
-        return 'Unknown';
-    }
-  };
-
-  return (
-    <div className='flex space-x-2'>
-      <BiNetworkChart size={25} />
-      <div className='divide-x-2'>
-        {modules.map((module, index) => (
-          <a
-            href={`/modules${module !== 'administration' ? '/' + module : ''}`}
-            key={module}
-            rel='noopener noreferrer'
-            className={`${
-              index === 0 ? '' : 'pl-1'
-            } text-sm font-medium text-gray-500 transition-all hover:text-sky-600`}
-          >
-            <span className=''> {getModule(module)} </span>
-          </a>
-        ))}
-      </div>
-    </div>
-  );
-};
 
 const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
   TeamMembers,

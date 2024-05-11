@@ -4,6 +4,8 @@ import TEAM_JSON from '~/data/team.json';
 
 /**
  *
+ * @param module
+ * @returns
  */
 export default async function ModuleMembersFilter(
   module: string

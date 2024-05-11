@@ -55,6 +55,10 @@ const regularLinks = [
     title: 'Events',
   },
   {
+    href: '/scholars',
+    title: 'Scholars',
+  },
+  {
     href: '/publications',
     title: 'Publications',
   },
