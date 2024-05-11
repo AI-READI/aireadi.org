@@ -497,7 +497,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                 Upcoming Events
               </h1>
             </div>
-            <div className='mx-auto grid max-w-screen-xl grid-cols-12 px-4'>
+            <div className='mx-auto grid max-w-screen-xl grid-cols-12 rounded-xl border px-4 py-8 shadow-lg'>
               <div className='col-span-8 px-5 lg:max-w-2xl'>
                 <VStack spacing={4} align='flex-start'>
                   <Stack direction='row' spacing={2} align='center'>
@@ -515,7 +515,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   </h1>
                 </VStack>
 
-                <p className='text-lg text-gray-700'>{subtitle}</p>
+                <p className='mb-2 text-lg text-gray-700'>{subtitle}</p>
 
                 <EventDates
                   startDateTime={startDateTime}
