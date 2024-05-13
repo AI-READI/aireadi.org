@@ -62,8 +62,8 @@
     }
   },
   {
-    "id": "Amanda-Chu",
-    "name": "Amanda Chu",
+    "id": "Eric-Chu",
+    "name": "Eric Chu",
     "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "moduleImageParams": "",
     "tag": "Open to work",
@@ -83,8 +83,8 @@
     }
   },
   {
-    "id": "Amanda-Chu",
-    "name": "Amanda Chu",
+    "id": "Omar-Chu",
+    "name": "Omar Chu",
     "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "moduleImageParams": "",
     "tag": "Open to work",
@@ -104,8 +104,8 @@
     }
   },
   {
-    "id": "Amanda-Chu",
-    "name": "Amanda Chu",
+    "id": "Lisa-Chu",
+    "name": "Lisa Chu",
     "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "moduleImageParams": "",
     "tag": "Open to work",
@@ -125,8 +125,8 @@
     }
   },
   {
-    "id": "Amanda-Chu",
-    "name": "Amanda Chu",
+    "id": "Skylar-Chu",
+    "name": "Skylar Chu",
     "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "moduleImageParams": "",
     "education": [
@@ -166,8 +166,8 @@
     }
   },
   {
-    "id": "Amanda-Chu",
-    "name": "Amanda Chu",
+    "id": "Miracle-Chu",
+    "name": "Miracle Chu",
     "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "moduleImageParams": "",
     "tag": "Open to work",
@@ -187,13 +187,16 @@
     }
   },
   {
-    "id": "Amanda-Chu",
-    "name": "Amanda Chu",
+    "id": "Gigi-Chu",
+    "name": "Gigi Chu",
     "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "moduleImageParams": "",
     "tag": "Open to work",
     "education": [
-      { "degree": "PhD in Mathematics", "institution": "UC Berkeley, 2022" },
+      {
+        "degree": "PhD in Environmental Studies",
+        "institution": "UCSD, 2024"
+      },
       {
         "degree": "MS in Statistics",
         "institution": "Stanford University, 2017"
