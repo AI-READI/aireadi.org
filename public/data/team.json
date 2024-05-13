@@ -101,7 +101,7 @@
     "caption": "I'm Web Developer with practical experience developing dynamic front-end web applications. I am elated to build tools that will help researchers and clinicians better use data.",
     "image": "https://ucarecdn.com/b860b61b-a9a9-41fa-bf22-009d556c5ea9/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px150p/",
-    "modules": ["data-sharing"],
+    "modules": ["data-sharing", "data-collection"],
     "social": {
       "linkedin": "https://linkedin.com/in/aydan-gasimova-a98b7521b/"
     }
@@ -117,7 +117,7 @@
     "caption": "I'm a computational scientist experienced in algorithm design, model development, and interactive data visualization. As part of AI-READI, I'll be building tools to enable the harmonization, comprehension, and reuse of data by researchers.",
     "image": "https://ucarecdn.com/d098c63e-30d0-4818-8362-b4668291a335/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px150p/",
-    "modules": ["data-sharing"],
+    "modules": ["data-sharing", "data-collection"],
     "social": {
       "twitter": "https://twitter.com/bacordier",
       "website": ["https://benjamincordier.com"],
@@ -139,7 +139,8 @@
     "modules": [
       "data-sharing",
       "capacity-building",
-      "american-indian-engagement"
+      "american-indian-engagement",
+      "data-collection"
     ],
     "social": {
       "website": ["https://fairdataihub.org"],
@@ -174,7 +175,12 @@
     "caption": "Brittany York is a Project Manager for the ETAI module. She joined UC San Diego in 2011 working on federally funded research projects related to physical activity, sedentary behavior, and chronic disease prevention.",
     "image": "https://ucarecdn.com/87c5d4a5-4814-4e6b-9134-7624fd9a5182/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "",
-    "modules": ["data-sharing", "capacity-building", "community-engagement"],
+    "modules": [
+      "data-sharing",
+      "capacity-building",
+      "community-engagement",
+      "data-collection"
+    ],
     "social": {}
   },
   {
@@ -192,7 +198,8 @@
       "team-science",
       "data-sharing",
       "capacity-building",
-      "american-indian-engagement"
+      "american-indian-engagement",
+      "data-collection"
     ],
     "social": {
       "twitter": "https://twitter.com/cnebeker",
@@ -324,7 +331,7 @@
     "caption": "I am a web developer who adapts to the needs and pacing of a team to create efficient and performant web apps. I believe in technology as a means to help society so I am excited to be a part of the AI-READI project.",
     "image": "https://ucarecdn.com/a3ed77eb-24bc-4b55-b8f9-118a9d07f760/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px200p/",
-    "modules": ["data-sharing"],
+    "modules": ["data-sharing", "data-collection"],
     "social": {
       "github": "https://github.com/slugb0t",
       "linkedin": "https://www.linkedin.com/in/dorian-portillo-4733b61b5/"
@@ -341,7 +348,7 @@
     "caption": "A curious, thoughtful engineer and technical leader providing guidance and support for the fairhub.io and tools projects.",
     "image": "https://ucarecdn.com/1b72c3e5-ed0d-4d38-bf08-c3971038bdbd/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px130p/",
-    "modules": ["data-sharing"],
+    "modules": ["data-sharing", "data-collection"],
     "social": {
       "linkedin": "https://linkedin.com/in/erikbenton",
       "github": "https://github.com/kirenotneb",
@@ -420,7 +427,12 @@
     "caption": "Expertise in Big-Omics Precision Health Science and Advocacy for the Indigenous and Diverse Populations; AI-READI PEDP Lead.",
     "image": "https://ucarecdn.com/1d84d0e6-3bba-4221-a7ed-4e49608eb43f/-/crop/face/200px200p/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/195px180p/",
-    "modules": ["team-science", "data-sharing"],
+    "modules": [
+      "team-science",
+      "data-sharing",
+      "data-collection",
+      "capacity-building"
+    ],
     "social": {
       "website": ["https://med.stanford.edu/sphere.html"]
     }
@@ -439,7 +451,8 @@
       "team-science",
       "data-sharing",
       "capacity-building",
-      "american-indian-engagement"
+      "american-indian-engagement",
+      "data-collection"
     ],
     "social": {
       "website": [
@@ -462,7 +475,12 @@
     "caption": "I am the overall Program Manager for the AI-READI project, as well as a Project Manager on the Standards module.",
     "image": "https://ucarecdn.com/5e14a958-2334-4bc2-a252-0014b3b3374f/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px190p/",
-    "modules": ["team-science", "data-sharing", "capacity-building"],
+    "modules": [
+      "team-science",
+      "data-sharing",
+      "capacity-building",
+      "data-collection"
+    ],
     "social": {}
   },
   {
@@ -476,7 +494,7 @@
     "caption": "I'm an anthropologist and faculty member at Johns Hopkins and I'm a module co-PI of the ETAI module. ",
     "image": "https://ucarecdn.com/09ae17f4-4c06-42b9-b158-a55b144ad87c/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px170p/",
-    "modules": ["data-sharing", "capacity-building"],
+    "modules": ["data-sharing", "capacity-building", "data-collection"],
     "social": {
       "website": ["https://kadijaferryman.com"]
     }
@@ -506,7 +524,7 @@
     "caption": "Dr. Crist's research is focused on how behavioral and built environment interventions impact physical activity and health. She brings her experience using wearable technologies to monitor behaviors and environmental exposures to the ETAI module.",
     "image": "https://ucarecdn.com/7a30d83c-385a-4179-8785-c07ab0477180/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px140p/",
-    "modules": ["data-sharing", "capacity-building"],
+    "modules": ["data-sharing", "capacity-building", "data-collection"],
     "social": {
       "website": ["https://trolleystudy.ucsd.edu/home"],
       "linkedin": "https://linkedin.com/in/katiecristphd/",
@@ -648,7 +666,7 @@
     "caption": "I am an ethnographer and a researcher of work, technology and organizations. As a researcher on the Teaming module, I am responsible for applying and advancing team science to enable collaboration between interdisciplinary teams to acheive their goals.",
     "image": "https://ucarecdn.com/99b9a715-6be7-4807-ae6f-e4be5fe5604b/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px150p/",
-    "modules": [],
+    "modules": ["team-science"],
     "social": {
       "linkedin": "https://linkedin.com/in/prachee-jain-3629207"
     }
@@ -680,7 +698,7 @@
     "caption": "I'm an Assistant Professor of Ophthalmology and Biomedical Informatics at UCSD, and for this project, I lead the yearlong internship program and co-lead data collection efforts at UCSD.",
     "image": "https://ucarecdn.com/967eab40-d22b-4bdb-8e95-162a78ccfd35/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px150p/",
-    "modules": ["data-collection", "capacity-building"],
+    "modules": ["data-collection", "capacity-building", "data-sharing"],
     "social": {
       "twitter": "https://twitter.com/SallyLiuBaxter",
       "profiles": "https://profiles.ucsd.edu/sally.baxter",
@@ -720,7 +738,7 @@
     "caption": "I am a front-end developer with experience in building web applications and data visualization tools. I am excited to be a part of the Tools module and help build tools that will help researchers and clinicians better understand and use data.",
     "image": "https://ucarecdn.com/dca922ac-d2dc-4fb4-8c37-5bdc2d5aa768/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px150p/",
-    "modules": ["data-sharing", "data-sharing"],
+    "modules": ["data-sharing", "data-sharing", "data-collection"],
     "social": {
       "website": ["https://sanjaysoundarajan.dev"],
       "github": "https://github.com/megasanjay",
@@ -776,7 +794,11 @@
     "caption": "M-PI of the Tools Module focused on data equity, accessibility, and patient engagement.",
     "image": "https://ucarecdn.com/848fea87-6f6c-4772-99ab-58aff8d07315/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px170p/",
-    "modules": ["data-sharing", "american-indian-engagement"],
+    "modules": [
+      "data-sharing",
+      "american-indian-engagement",
+      "data-collection"
+    ],
     "social": {
       "mastodon": "https://dair-community.social/@wondermixtape",
       "website": ["https://biodevlab.org/"],
@@ -857,7 +879,7 @@
     "caption": "I am a data scientist experienced in ML model development and application. I will be working on creating tools for image quality assessment based on image quality index and CNN models.",
     "image": "https://ucarecdn.com/bb48308f-a3c3-45c0-970f-1943a83d7d96/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/190px185p/",
-    "modules": ["data-sharing"],
+    "modules": ["data-sharing", "data-collection"],
     "social": {
       "twitter": "https://twitter.com/WEICHUNLIN04",
       "linkedin": "https://linkedin.com/in/wei-chun-lin-or/"

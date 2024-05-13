@@ -83,7 +83,7 @@ const EventPost: React.FC<EventItem> = ({ slug, frontMatter, content }) => {
               src={heroImage}
               alt={title}
               fill
-              className='h-full w-full rounded-xl object-cover object-top md:object-center'
+              className='h-full w-full rounded-xl object-contain'
               sizes='(max-width: 768px) 100vw, 50vw'
               priority
             />

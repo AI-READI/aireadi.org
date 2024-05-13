@@ -20,12 +20,14 @@ import { InferGetStaticPropsType } from 'next';
 import Image from 'next/image';
 import { getPlaiceholder } from 'plaiceholder';
 import { useState } from 'react';
-import { AiFillLinkedin } from 'react-icons/ai';
+import { BsPlusCircleDotted } from 'react-icons/bs';
+import { FaLinkedin } from 'react-icons/fa';
 import { IoSchoolSharp } from 'react-icons/io5';
-import { RiAwardFill, RiExpandUpDownLine } from 'react-icons/ri';
+import { RiAwardFill } from 'react-icons/ri';
 
 import HeroCroppedImage from '@/components/hero/HeroCroppedImage';
 import Layout from '@/components/layout/Layout';
+import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
 
 import { FramerContainer } from '@/utils/framer';
@@ -151,7 +153,7 @@ const ScholarsPage: React.FC<
                     size='sm'
                     colorScheme='teal'
                     className='mt-5'
-                    rightIcon={<RiExpandUpDownLine />}
+                    rightIcon={<BsPlusCircleDotted />}
                     onClick={() => openModal(scholar.id)}
                   >
                     Expand
@@ -179,28 +181,25 @@ const ScholarsPage: React.FC<
                         className='h-full w-full rounded-lg object-cover object-center'
                       />
 
-                      <Grid templateColumns='repeat(10, 1fr)'>
-                        <GridItem>
-                          <IoSchoolSharp size={20} />
-                        </GridItem>
+                      <Grid templateColumns='repeat(10, 1fr)' rowGap={3}>
+                        {'linkedin' in (selectedScholar?.social || {}) && (
+                          <>
+                            <GridItem>
+                              <div className='flex items-center'>
+                                <FaLinkedin size={20} />
+                              </div>
+                            </GridItem>
 
-                        <GridItem colSpan={9}>
-                          <p>{selectedScholar?.social.linkedin}</p>
-
-                          {'linkedin' in (selectedScholar?.social || {}) && (
-                            <li className='flex items-center justify-center text-gray-500 transition-all hover:text-sky-600'>
-                              <a
-                                href={selectedScholar?.social.linkedin}
-                                rel='noopener noreferrer'
-                                target='_blank'
-                                className='cursor-newtab'
+                            <GridItem colSpan={9}>
+                              <UnstyledLink
+                                href={selectedScholar?.social.linkedin || ''}
+                                className='ml-2 text-left font-semibold text-slate-600'
                               >
-                                <AiFillLinkedin size={25} />
-                                <span className='sr-only'> Linkedin </span>
-                              </a>
-                            </li>
-                          )}
-                        </GridItem>
+                                LinkedIn Profile
+                              </UnstyledLink>
+                            </GridItem>
+                          </>
+                        )}
 
                         <GridItem>
                           <RiAwardFill size={20} />
@@ -227,7 +226,7 @@ const ScholarsPage: React.FC<
 
                       <ul>
                         {selectedScholar?.education.map((edu, index) => (
-                          <li key={index} className='text-base font-medium'>
+                          <li key={index} className='text-base font-normal'>
                             {edu.degree} ({edu.institution})
                           </li>
                         ))}
