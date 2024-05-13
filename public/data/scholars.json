@@ -25,7 +25,27 @@
     "name": "Alex Chu",
     "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "moduleImageParams": "",
-    "tag": "Open to work",
+    "tag": "Open to volunteer",
+    "education": [
+      { "degree": "PhD in Mathematics", "institution": "UC Berkeley, 2022" },
+      {
+        "degree": "MS in Statistics",
+        "institution": "Stanford University, 2017"
+      }
+    ],
+    "expertise": ["Data Science", "Machine Learning", "Statistics"],
+    "about": "I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
+    "after": "I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/amanda-chu-123456",
+      "medprofile": "https://doximity.com/pub/Amanda-Chu-md"
+    }
+  },
+  {
+    "id": "Rose-Chu",
+    "name": "Rose Chu",
+    "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "moduleImageParams": "",
     "education": [
       { "degree": "PhD in Mathematics", "institution": "UC Berkeley, 2022" },
       {
@@ -109,28 +129,6 @@
     "name": "Amanda Chu",
     "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "moduleImageParams": "",
-    "tag": "Open to work",
-    "education": [
-      { "degree": "PhD in Mathematics", "institution": "UC Berkeley, 2022" },
-      {
-        "degree": "MS in Statistics",
-        "institution": "Stanford University, 2017"
-      }
-    ],
-    "expertise": ["Data Science", "Machine Learning", "Statistics"],
-    "about": "I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
-    "after": "I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
-    "social": {
-      "linkedin": "https://www.linkedin.com/in/amanda-chu-123456",
-      "medprofile": "https://doximity.com/pub/Amanda-Chu-md"
-    }
-  },
-  {
-    "id": "Amanda-Chu",
-    "name": "Amanda Chu",
-    "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "moduleImageParams": "",
-    "tag": "Open to work",
     "education": [
       { "degree": "PhD in Mathematics", "institution": "UC Berkeley, 2022" },
       {
@@ -151,7 +149,7 @@
     "name": "Ramon Chu",
     "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "moduleImageParams": "",
-    "tag": "Open to work",
+    "tag": "Open to volunteer",
     "education": [
       { "degree": "PhD in Mathematics", "institution": "UC Berkeley, 2022" },
       {

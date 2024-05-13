@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import {
+  Badge,
   Button,
+  Center,
   Grid,
   GridItem,
   Modal,
@@ -42,7 +44,7 @@ interface Scholar {
   moduleImageParams: string;
   education: { degree: string; institution: string }[];
   expertise: string[];
-  tag: string;
+  tag?: string;
   about: string;
   after: string;
   social: { linkedin?: string; resume?: string; medprofile?: string };
@@ -101,6 +103,18 @@ const ScholarsPage: React.FC<
                   className='h-full rounded-lg border-solid bg-slate-50 px-4 py-4 transition-all'
                   key={scholar.name}
                 >
+                  {'tag' in scholar ? (
+                    <Badge
+                      className='mb-2'
+                      colorScheme='cyan'
+                      variant='outline'
+                    >
+                      #{scholar.tag}
+                    </Badge>
+                  ) : (
+                    <div className='mb-2 h-[18px]'></div>
+                  )}
+
                   <div className='relative mx-auto mb-2 min-h-[350px] w-full sm:min-h-[250px]'>
                     <Image
                       src={`${scholar.image}${
@@ -180,6 +194,19 @@ const ScholarsPage: React.FC<
                         alt={selectedScholar?.name}
                         className='h-full w-full rounded-lg object-cover object-center'
                       />
+
+                      <Center>
+                        {selectedScholar && 'tag' in selectedScholar && (
+                          <Badge
+                            className='mb-2'
+                            fontSize='0.8em'
+                            colorScheme='cyan'
+                            variant='subtle'
+                          >
+                            {selectedScholar.tag} h
+                          </Badge>
+                        )}
+                      </Center>
 
                       <Grid templateColumns='repeat(10, 1fr)' rowGap={3}>
                         {'linkedin' in (selectedScholar?.social || {}) && (
