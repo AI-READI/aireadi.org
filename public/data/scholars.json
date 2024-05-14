@@ -4,7 +4,7 @@
     "name": "Amanda Chu",
     "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "moduleImageParams": "",
-    "tag": "Open to work",
+    "tag": ["Open to work", "Open to volunteer"],
     "education": [
       { "degree": "PhD in Mathematics", "institution": "UC Berkeley, 2022" },
       {
@@ -13,8 +13,8 @@
       }
     ],
     "expertise": ["Data Science", "Machine Learning", "Statistics"],
-    "about": "I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
-    "after": "I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
+    "about": "About I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. When I am not working I like reading and hiking.",
+    "after": " I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment. I am open to work in academia or industry. I am currently in San Diego, CA but I am open to relocate anywhere in the USA. I have an OPT work permit so I do not need any visa sponsorship.",
     "social": {
       "linkedin": "https://www.linkedin.com/in/amanda-chu-123456",
       "medprofile": "https://doximity.com/pub/Amanda-Chu-md"
@@ -25,7 +25,7 @@
     "name": "Alex Chu",
     "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "moduleImageParams": "",
-    "tag": "Open to volunteer",
+    "tag": ["Open to volunteer"],
     "education": [
       { "degree": "PhD in Mathematics", "institution": "UC Berkeley, 2022" },
       {
@@ -34,8 +34,8 @@
       }
     ],
     "expertise": ["Data Science", "Machine Learning", "Statistics"],
-    "about": "I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
-    "after": "I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
+    "about": "About I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. When I am not working I like reading and hiking.",
+    "after": " I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment. I am open to work in academia or industry. I am currently in San Diego, CA but I am open to relocate anywhere in the USA. I have an OPT work permit so I do not need any visa sponsorship.",
     "social": {
       "linkedin": "https://www.linkedin.com/in/amanda-chu-123456",
       "medprofile": "https://doximity.com/pub/Amanda-Chu-md"
@@ -45,6 +45,7 @@
     "id": "Rose-Chu",
     "name": "Rose Chu",
     "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tag": [],
     "moduleImageParams": "",
     "education": [
       { "degree": "PhD in Mathematics", "institution": "UC Berkeley, 2022" },
@@ -54,8 +55,8 @@
       }
     ],
     "expertise": ["Data Science", "Machine Learning", "Statistics"],
-    "about": "I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
-    "after": "I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
+    "about": "About I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. When I am not working I like reading and hiking.",
+    "after": " I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment. I am open to work in academia or industry. I am currently in San Diego, CA but I am open to relocate anywhere in the USA. I have an OPT work permit so I do not need any visa sponsorship.",
     "social": {
       "linkedin": "https://www.linkedin.com/in/amanda-chu-123456",
       "medprofile": "https://doximity.com/pub/Amanda-Chu-md"
@@ -66,7 +67,7 @@
     "name": "Eric Chu",
     "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "moduleImageParams": "",
-    "tag": "Open to work",
+    "tag": ["Open to work"],
     "education": [
       { "degree": "PhD in Mathematics", "institution": "UC Berkeley, 2022" },
       {
@@ -75,8 +76,8 @@
       }
     ],
     "expertise": ["Data Science", "Machine Learning", "Statistics"],
-    "about": "I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
-    "after": "I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
+    "about": "About I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. When I am not working I like reading and hiking.",
+    "after": " I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment. I am open to work in academia or industry. I am currently in San Diego, CA but I am open to relocate anywhere in the USA. I have an OPT work permit so I do not need any visa sponsorship.",
     "social": {
       "linkedin": "https://www.linkedin.com/in/amanda-chu-123456",
       "medprofile": "https://doximity.com/pub/Amanda-Chu-md"
@@ -87,7 +88,7 @@
     "name": "Omar Chu",
     "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "moduleImageParams": "",
-    "tag": "Open to work",
+    "tag": ["Open to work"],
     "education": [
       { "degree": "PhD in Mathematics", "institution": "UC Berkeley, 2022" },
       {
@@ -96,8 +97,8 @@
       }
     ],
     "expertise": ["Data Science", "Machine Learning", "Statistics"],
-    "about": "I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
-    "after": "I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
+    "about": "About I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. When I am not working I like reading and hiking.",
+    "after": " I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment. I am open to work in academia or industry. I am currently in San Diego, CA but I am open to relocate anywhere in the USA. I have an OPT work permit so I do not need any visa sponsorship.",
     "social": {
       "linkedin": "https://www.linkedin.com/in/amanda-chu-123456",
       "medprofile": "https://doximity.com/pub/Amanda-Chu-md"
@@ -108,7 +109,7 @@
     "name": "Lisa Chu",
     "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "moduleImageParams": "",
-    "tag": "Open to work",
+    "tag": ["Open to work"],
     "education": [
       { "degree": "PhD in Mathematics", "institution": "UC Berkeley, 2022" },
       {
@@ -117,8 +118,8 @@
       }
     ],
     "expertise": ["Data Science", "Machine Learning", "Statistics"],
-    "about": "I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
-    "after": "I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
+    "about": "About I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. When I am not working I like reading and hiking.",
+    "after": " I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment. I am open to work in academia or industry. I am currently in San Diego, CA but I am open to relocate anywhere in the USA. I have an OPT work permit so I do not need any visa sponsorship.",
     "social": {
       "linkedin": "https://www.linkedin.com/in/amanda-chu-123456",
       "medprofile": "https://doximity.com/pub/Amanda-Chu-md"
@@ -129,6 +130,7 @@
     "name": "Skylar Chu",
     "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "moduleImageParams": "",
+    "tag": [],
     "education": [
       { "degree": "PhD in Mathematics", "institution": "UC Berkeley, 2022" },
       {
@@ -137,8 +139,8 @@
       }
     ],
     "expertise": ["Data Science", "Machine Learning", "Statistics"],
-    "about": "I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
-    "after": "I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
+    "about": "About I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. When I am not working I like reading and hiking.",
+    "after": " I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment. I am open to work in academia or industry. I am currently in San Diego, CA but I am open to relocate anywhere in the USA. I have an OPT work permit so I do not need any visa sponsorship.",
     "social": {
       "linkedin": "https://www.linkedin.com/in/amanda-chu-123456",
       "medprofile": "https://doximity.com/pub/Amanda-Chu-md"
@@ -149,7 +151,7 @@
     "name": "Ramon Chu",
     "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "moduleImageParams": "",
-    "tag": "Open to volunteer",
+    "tag": ["Open to volunteer"],
     "education": [
       { "degree": "PhD in Mathematics", "institution": "UC Berkeley, 2022" },
       {
@@ -158,8 +160,8 @@
       }
     ],
     "expertise": ["Data Science", "Machine Learning", "Statistics"],
-    "about": "I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
-    "after": "I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
+    "about": "About I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. When I am not working I like reading and hiking.",
+    "after": " I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment. I am open to work in academia or industry. I am currently in San Diego, CA but I am open to relocate anywhere in the USA. I have an OPT work permit so I do not need any visa sponsorship.",
     "social": {
       "linkedin": "https://www.linkedin.com/in/amanda-chu-123456",
       "medprofile": "https://doximity.com/pub/Amanda-Chu-md"
@@ -170,7 +172,7 @@
     "name": "Miracle Chu",
     "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "moduleImageParams": "",
-    "tag": "Open to work",
+    "tag": ["Open to work"],
     "education": [
       { "degree": "PhD in Mathematics", "institution": "UC Berkeley, 2022" },
       {
@@ -179,8 +181,8 @@
       }
     ],
     "expertise": ["Data Science", "Machine Learning", "Statistics"],
-    "about": "I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
-    "after": "I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
+    "about": "About I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. When I am not working I like reading and hiking.",
+    "after": " I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment. I am open to work in academia or industry. I am currently in San Diego, CA but I am open to relocate anywhere in the USA. I have an OPT work permit so I do not need any visa sponsorship.",
     "social": {
       "linkedin": "https://www.linkedin.com/in/amanda-chu-123456",
       "medprofile": "https://doximity.com/pub/Amanda-Chu-md"
@@ -191,7 +193,7 @@
     "name": "Gigi Chu",
     "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "moduleImageParams": "",
-    "tag": "Open to work",
+    "tag": ["Open to work"],
     "education": [
       {
         "degree": "PhD in Environmental Studies",
@@ -203,8 +205,8 @@
       }
     ],
     "expertise": ["Data Science", "Machine Learning", "Statistics"],
-    "about": "I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
-    "after": "I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment.",
+    "about": "About I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. When I am not working I like reading and hiking.",
+    "after": " I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment. I am open to work in academia or industry. I am currently in San Diego, CA but I am open to relocate anywhere in the USA. I have an OPT work permit so I do not need any visa sponsorship.",
     "social": {
       "linkedin": "https://www.linkedin.com/in/amanda-chu-123456",
       "medprofile": "https://doximity.com/pub/Amanda-Chu-md"

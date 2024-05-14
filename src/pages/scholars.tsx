@@ -44,7 +44,7 @@ interface Scholar {
   moduleImageParams: string;
   education: { degree: string; institution: string }[];
   expertise: string[];
-  tag?: string;
+  tag: string[];
   about: string;
   after: string;
   social: { linkedin?: string; resume?: string; medprofile?: string };
@@ -103,14 +103,23 @@ const ScholarsPage: React.FC<
                   className='flex h-full flex-col items-center justify-between rounded-lg border-solid bg-slate-50 px-4 py-4 transition-all'
                   key={scholar.name}
                 >
-                  {'tag' in scholar ? (
-                    <Badge
-                      className='mb-2'
-                      colorScheme='cyan'
-                      variant='outline'
-                    >
-                      #{scholar.tag}
-                    </Badge>
+                  {scholar.tag.length > 0 ? (
+                    <Wrap>
+                      {scholar.tag.map((tag) => (
+                        <WrapItem key={tag}>
+                          <Badge
+                            className='mb-2'
+                            colorScheme={
+                              tag === 'Open to work' ? 'teal' : 'cyan'
+                            }
+                            fontSize='0.7em'
+                            variant='outline'
+                          >
+                            #{tag}
+                          </Badge>
+                        </WrapItem>
+                      ))}
+                    </Wrap>
                   ) : (
                     <div className='mb-2 h-[18px]'></div>
                   )}
@@ -196,16 +205,22 @@ const ScholarsPage: React.FC<
                       />
 
                       <Center>
-                        {selectedScholar && 'tag' in selectedScholar && (
-                          <Badge
-                            className='mb-2'
-                            fontSize='0.8em'
-                            colorScheme='cyan'
-                            variant='subtle'
-                          >
-                            {selectedScholar.tag}
-                          </Badge>
-                        )}
+                        <Wrap>
+                          {selectedScholar?.tag.map((tag) => (
+                            <WrapItem key={tag}>
+                              <Badge
+                                className='mb-2'
+                                colorScheme={
+                                  tag === 'Open to work' ? 'teal' : 'cyan'
+                                }
+                                fontSize='0.7em'
+                                variant='outline'
+                              >
+                                #{tag}
+                              </Badge>
+                            </WrapItem>
+                          ))}
+                        </Wrap>
                       </Center>
 
                       <Grid templateColumns='repeat(10, 1fr)' rowGap={3}>
