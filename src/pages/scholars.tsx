@@ -100,7 +100,7 @@ const ScholarsPage: React.FC<
                 id={scholar.id}
               >
                 <div
-                  className='h-full rounded-lg border-solid bg-slate-50 px-4 py-4 transition-all'
+                  className='flex h-full flex-col items-center justify-between rounded-lg border-solid bg-slate-50 px-4 py-4 transition-all'
                   key={scholar.name}
                 >
                   {'tag' in scholar ? (
@@ -166,7 +166,7 @@ const ScholarsPage: React.FC<
                   <Button
                     size='sm'
                     colorScheme='teal'
-                    className='mt-5'
+                    className='mt-5 place-content-end'
                     rightIcon={<BsPlusCircleDotted />}
                     onClick={() => openModal(scholar.id)}
                   >
@@ -203,7 +203,7 @@ const ScholarsPage: React.FC<
                             colorScheme='cyan'
                             variant='subtle'
                           >
-                            {selectedScholar.tag} h
+                            {selectedScholar.tag}
                           </Badge>
                         )}
                       </Center>
