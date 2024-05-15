@@ -110,12 +110,12 @@ const ScholarsPage: React.FC<
                           <Badge
                             className='mb-2'
                             colorScheme={
-                              tag === 'Open to work' ? 'teal' : 'cyan'
+                              tag === '#OpenToWork' ? 'teal' : 'cyan'
                             }
                             fontSize='0.7em'
                             variant='outline'
                           >
-                            #{tag}
+                            {tag}
                           </Badge>
                         </WrapItem>
                       ))}
@@ -211,12 +211,12 @@ const ScholarsPage: React.FC<
                               <Badge
                                 className='mb-2'
                                 colorScheme={
-                                  tag === 'Open to work' ? 'teal' : 'cyan'
+                                  tag === '#OpenToWork' ? 'teal' : 'cyan'
                                 }
                                 fontSize='0.7em'
                                 variant='outline'
                               >
-                                #{tag}
+                                {tag}
                               </Badge>
                             </WrapItem>
                           ))}
@@ -227,7 +227,7 @@ const ScholarsPage: React.FC<
                         {'linkedin' in (selectedScholar?.social || {}) && (
                           <>
                             <GridItem>
-                              <div className='flex items-center'>
+                              <div className='my-auto flex items-center'>
                                 <FaLinkedin size={20} />
                               </div>
                             </GridItem>
@@ -243,15 +243,22 @@ const ScholarsPage: React.FC<
                           </>
                         )}
 
-                        <GridItem>
-                          <RiAwardFill size={20} />
-                        </GridItem>
+                        {'resume' in (selectedScholar?.social || {}) && (
+                          <>
+                            <GridItem>
+                              <RiAwardFill size={20} />
+                            </GridItem>
 
-                        <GridItem colSpan={9}>
-                          <p className='mb-2 ml-2 text-left font-semibold text-slate-600'>
-                            Resume
-                          </p>
-                        </GridItem>
+                            <GridItem colSpan={9}>
+                              <UnstyledLink
+                                href={selectedScholar?.social.resume || ''}
+                                className='ml-2 text-left font-semibold text-slate-600'
+                              >
+                                Resume
+                              </UnstyledLink>
+                            </GridItem>
+                          </>
+                        )}
                       </Grid>
                     </VStack>
                   </GridItem>
@@ -269,7 +276,8 @@ const ScholarsPage: React.FC<
                       <ul>
                         {selectedScholar?.education.map((edu, index) => (
                           <li key={index} className='text-base font-normal'>
-                            {edu.degree} ({edu.institution})
+                            {edu.degree}
+                            {edu.institution && <>({edu.institution})</>}
                           </li>
                         ))}
                       </ul>
