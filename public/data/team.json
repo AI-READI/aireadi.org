@@ -265,11 +265,11 @@
     "roles": ["Director, Research and Academic Collaboration"],
     "department": "Lane Medical Library",
     "organization": "Stanford University School of Medicine",
-    "location": "Redwood City, CA",
-    "caption": "I am an organizational development and change scholar and team science specialist focused on creating effective interdisciplinary and interprofessional teams. I am working as a researcher on the Teaming Module.",
-    "image": "https://ucarecdn.com/05721ecf-3ea3-4f78-b2d1-4c01bf574d4e/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "location": "Stanford, CA",
+    "caption": "I am an organizational development and change scholar and team science specialist focused on creating effective interdisciplinary and interprofessional teams. Within AI-READI I work to apply and advance the science of team science.",
+    "image": "https://ucarecdn.com/43a7006a-d9a5-4338-8ca9-d3ee928633d6/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "",
-    "modules": ["team-science", "capacity-building"],
+    "modules": ["team-science", "capacity-building", "data-sharing"],
     "social": {
       "linkedin": "https://www.linkedin.com/in/colleencuddy/"
     }
@@ -662,13 +662,13 @@
     "roles": ["Post Doctoral Researcher"],
     "department": "Internal Medicine",
     "organization": "Stanford School of Medicine",
-    "location": "Stanford, CA",
-    "caption": "I am an ethnographer and a researcher of work, technology and organizations. As a researcher on the Teaming module, I am responsible for applying and advancing team science to enable collaboration between interdisciplinary teams to acheive their goals.",
+    "location": "Palo Alto, CA",
+    "caption": "I am user experience researcher. In AI READI, I am responsible for applying and advancing team science to enable collaboration between interdisciplinary teams to achieve their goals.",
     "image": "https://ucarecdn.com/99b9a715-6be7-4807-ae6f-e4be5fe5604b/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px150p/",
     "modules": ["team-science"],
     "social": {
-      "linkedin": "https://linkedin.com/in/prachee-jain-3629207"
+      "linkedin": "http://www.linkedin.com/in/prachee-jain"
     }
   },
   {
