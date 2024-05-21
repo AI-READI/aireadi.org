@@ -54,10 +54,10 @@ const regularLinks = [
     href: '/events',
     title: 'Events',
   },
-  {
-    href: '/scholars',
-    title: 'Scholars',
-  },
+  // {
+  //   href: '/scholars',
+  //   title: 'Scholars',
+  // },
   {
     href: '/publications',
     title: 'Publications',
