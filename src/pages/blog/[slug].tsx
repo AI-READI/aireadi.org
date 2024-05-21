@@ -13,8 +13,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import markdownToHtml from '@/lib/markdownToHtml';
 
-import PostBody from '@/components/blog/postBody';
 import Layout from '@/components/layout/Layout';
+import PostBody from '@/components/post/PostBody';
 import Seo from '@/components/Seo';
 
 import TEAM_JSON from '~/data/team.json';
@@ -186,7 +186,7 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
             </span>
 
             <a
-              href={`http://twitter.com/share?text=I just read this article and think y'all need to take a look at this&url=https://fairdataihub.org/blog/${slug}&hashtags=FAIRData,OpenScience,OpenSource`}
+              href={`http://twitter.com/share?text=I just read this article and think y'all need to take a look at this&url=https://aireadi.org/blog/${slug}&hashtags=FAIRData,OpenScience,OpenSource`}
               target='_blank'
               rel='noopener noreferrer'
               className='mx-2 text-slate-500 transition-all hover:text-sky-500'
@@ -198,7 +198,7 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
             </a>
 
             <a
-              href={`https://www.facebook.com/sharer/sharer.php?u=https://fairdataihub.org/blog/${slug}"`}
+              href={`https://www.facebook.com/sharer/sharer.php?u=https://aireadi.org/blog/${slug}"`}
               target='_blank'
               rel='noopener noreferrer'
               className='mx-2 text-slate-500 transition-all hover:text-sky-500'
@@ -210,7 +210,7 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
             </a>
 
             <a
-              href={`https://www.linkedin.com/sharing/share-offsite/?url=https://fairdataihub.org/blog/${slug}`}
+              href={`https://www.linkedin.com/sharing/share-offsite/?url=https://aireadi.org/blog/${slug}`}
               target='_blank'
               rel='noopener noreferrer'
               className='mx-2 text-slate-500 transition-all hover:text-sky-500'
@@ -264,6 +264,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const slug = params?.slug;
 
   const fileName = fs.readFileSync(`blog/${slug}.md`, `utf-8`);
+
   const { data: frontMatter, content: fileContent } = matter(fileName);
 
   const postContent = await markdownToHtml(fileContent || ``);

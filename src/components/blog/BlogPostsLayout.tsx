@@ -3,7 +3,7 @@ import dayjs from 'dayjs';
 import Image from 'next/image';
 import Link from 'next/link';
 
-interface BlogPost {
+interface PostItem {
   slug: string;
   timeToRead: number;
 
@@ -17,57 +17,57 @@ interface BlogPost {
   };
 }
 
-interface blogLayoutProps {
-  blogList: BlogPost[];
+interface PostLayoutProps {
+  PostList: PostItem[];
 }
 
-const BlogLayout: React.FC<blogLayoutProps> = ({ blogList }) => {
+const BlogPostsLayout: React.FC<PostLayoutProps> = ({ PostList }) => {
   return (
     <>
       <hr className='mx-6 my-2 border-dashed border-slate-200' />
 
-      {blogList.length > 0 ? (
+      {PostList.length > 0 ? (
         <div className='flex w-full flex-col-reverse items-start space-x-4 px-8 py-3 lg:flex-row lg:py-6'>
           <div className='px-4 py-3 lg:w-5/12 lg:px-0 lg:py-0'>
             <Link
               className='w-max'
-              href={`/blog/category/${blogList[0].frontMatter.categories[0]}`}
-              key={blogList[0].frontMatter.categories[0]}
+              href={`/blog/category/${PostList[0].frontMatter.categories[0]}`}
+              key={PostList[0].frontMatter.categories[0]}
             >
               <span className='mb-2 cursor-pointer text-lg font-bold text-sky-500 transition-all hover:text-sky-700'>
-                {blogList[0].frontMatter.categories[0]}
+                {PostList[0].frontMatter.categories[0]}
               </span>
             </Link>
 
-            <Link href={`/blog/${blogList[0].slug}`} passHref>
+            <Link href={`/blog/${PostList[0].slug}`} passHref>
               <h2 className='mb-2 text-left text-3xl font-extrabold hover:underline'>
-                {blogList[0].frontMatter.title}
+                {PostList[0].frontMatter.title}
               </h2>
             </Link>
 
             <p className='py-2 font-medium text-slate-700'>
-              {blogList[0].frontMatter.subtitle}
+              {PostList[0].frontMatter.subtitle}
             </p>
 
             <Divider />
 
             <div className='flex flex-col py-2'>
               <time className='mb-1 mr-2 mt-1 text-base font-normal text-slate-600'>
-                {dayjs(blogList[0].frontMatter.date).format(`MMMM D, YYYY`)}
+                {dayjs(PostList[0].frontMatter.date).format(`MMMM D, YYYY`)}
               </time>
 
               <p className='my-1 text-sm font-light text-slate-600'>
-                {blogList[0].timeToRead} min read
+                {PostList[0].timeToRead} min read
               </p>
             </div>
           </div>
 
           <div className='w-full pl-8 pr-8 lg:w-7/12 lg:pr-0'>
-            <Link href={`/blog/${blogList[0].slug}`} passHref>
+            <Link href={`/blog/${PostList[0].slug}`} passHref>
               <div className='relative h-auto min-h-[200px] overflow-hidden rounded-xl sm:min-h-[300px] md:min-h-[300px]'>
                 <Image
-                  src={blogList[0].frontMatter.heroImage}
-                  alt={blogList[0].frontMatter.title}
+                  src={PostList[0].frontMatter.heroImage}
+                  alt={PostList[0].frontMatter.title}
                   fill
                   className='h-full w-full cursor-pointer object-cover object-center transition-all hover:scale-[1.01] md:object-center'
                 />
@@ -77,14 +77,14 @@ const BlogLayout: React.FC<blogLayoutProps> = ({ blogList }) => {
         </div>
       ) : null}
 
-      {blogList.length > 1 ? (
+      {PostList.length > 1 ? (
         <>
           <div className='grid grid-cols-1 gap-6 px-1 py-6 sm:px-6 lg:grid-cols-2'>
-            {blogList.map((post) => (
+            {PostList.map((post) => (
               <div
                 className={
                   'flex flex-col border-t border-slate-200 px-4 pt-8 lg:border-b lg:pb-5 ' +
-                  (post === blogList[0] ? 'hidden' : '')
+                  (post === PostList[0] ? 'hidden' : '')
                 }
                 key={post.slug}
               >
@@ -140,4 +140,4 @@ const BlogLayout: React.FC<blogLayoutProps> = ({ blogList }) => {
   );
 };
 
-export default BlogLayout;
+export default BlogPostsLayout;

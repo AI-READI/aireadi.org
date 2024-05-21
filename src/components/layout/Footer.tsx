@@ -54,18 +54,17 @@ const footerLinks = [
   },
 
   {
-    title: 'Modules',
+    title: 'Goals',
     links: [
-      { href: '/modules/data', title: 'Data Acquisition' },
-      { href: '/modules/ethics', title: 'Ethics' },
+      { href: '/goals/data-collection', title: 'Data Collection' },
+      { href: '/goals/data-sharing', title: 'Data Sharing' },
+      { href: '/goals/community-engagement', title: 'Community Engagement' },
+      { href: '/goals/capacity-building', title: 'Capacity Building' },
+      { href: '/goals/team-science', title: 'Advancing Team Science' },
       {
-        href: '/modules/pedp',
-        title: 'Plan for Enhancing Diverse Perspectives',
+        href: '/goals/american-indian-engagement',
+        title: 'American Indian Engagement',
       },
-      { href: '/modules/skills', title: 'Skills and Workforce Development' },
-      { href: '/modules/standards', title: 'Standards' },
-      { href: '/modules/teaming', title: 'Teaming' },
-      { href: '/modules/tools', title: 'Tools' },
     ],
   },
 ];

@@ -75,6 +75,48 @@
   }
 }
 
+@layer components {
+  .debug {
+    @apply border border-red-500;
+  }
+
+  .horizontal {
+    @apply flex flex-row;
+  }
+
+  .vertical {
+    @apply flex flex-col;
+  }
+
+  .horizontal.center-v {
+    @apply items-center;
+  }
+
+  .horizontal.center-h {
+    @apply justify-center;
+  }
+
+  .horizontal.center {
+    @apply items-center justify-center;
+  }
+
+  .vertical.center-v {
+    @apply justify-center;
+  }
+
+  .vertical.center-h {
+    @apply items-center;
+  }
+
+  .vertical.center {
+    @apply items-center justify-center;
+  }
+
+  .space-between {
+    @apply justify-between;
+  }
+}
+
 @layer utilities {
   .animated-underline {
     background-image: linear-gradient(#33333300, #33333300),
@@ -105,4 +147,48 @@
 
 .overlay {
   background: linear-gradient(0deg, var(--color-primary-700), transparent);
+}
+
+.xyz {
+  position: absolute;
+  bottom: 85px;
+  left: calc(30% - 12px);
+  z-index: 4;
+  width: 240px;
+}
+
+.xyz:after {
+  content: '';
+  position: absolute;
+  bottom: -34px;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 28px 16.5px 0 16.5px;
+  transform: rotate(0deg);
+
+  @apply border-b-transparent border-l-transparent border-r-transparent border-t-blue-400;
+}
+
+.zyx {
+  position: absolute;
+  top: 85px;
+  left: calc(12% - 12px);
+  z-index: 4;
+  width: 240px;
+}
+
+.zyx:after {
+  content: '';
+  position: absolute;
+  top: -34px;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 28px 16.5px 0 16.5px;
+  transform: rotate(180deg);
+
+  @apply border-b-transparent border-l-transparent border-r-transparent border-t-blue-600;
 }

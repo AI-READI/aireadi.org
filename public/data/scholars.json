@@ -1,0 +1,68 @@
+[
+  {
+    "id": "Hadi-Khazaei",
+    "name": "Hadi Khazaei",
+    "image": "https://ucarecdn.com/503173c5-1eb1-42bc-9005-c390fa8340bf/-/crop/face/200px160p/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "",
+    "tag": ["#OpenToWork", "#OpenToVolunteer"],
+    "education": [
+      { "degree": "MD Internal Medicine", "institution": "" },
+      { "degree": "MS Ophthalmology", "institution": "" },
+      { "degree": "MCR Translational Research", "institution": "" }
+    ],
+    "expertise": [
+      "Translational Medicine",
+      "Research Methodology Training",
+      "Grant Writing"
+    ],
+    "about": "I am research scholar and scientist in field of translational medicine with training in machine learning and AI.",
+    "after": "I am currently working as adjunct professor in Portland State University and looking for collaborative projects and opportunities.",
+    "social": {
+      "linkedin": "http://linkedin.com/in/hadikhazaei"
+    }
+  },
+  {
+    "id": "Kyongmi-Simpkins",
+    "name": "Kyongmi Simpkins",
+    "image": "https://ucarecdn.com/57e1acbd-2e97-41d4-bf70-d2355f1a9f8a/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/190px150p/",
+    "tag": ["#OpenToWork"],
+    "education": [{ "degree": "PhD in Neuroscience", "institution": "" }],
+    "expertise": [
+      "Molecular neuroscience",
+      "Imaging",
+      "Genomics",
+      "Data science"
+    ],
+    "about": "I am a data scientist with a background in neuroscience and human genomics. I have extensive experience in molecular bench work as well as data analysis. As a person who has experience in both areas of study, I feel that I can be a wonderful resource to connect the often disparate fields.",
+    "after": "I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment in academia or industry. I believe in opening doors and fully exploring possibilities!",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/kyongmi-um-simpkins-29093971?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+    }
+  },
+
+  {
+    "id": "Gigi-Chu",
+    "name": "Gigi Chu",
+    "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "moduleImageParams": "",
+    "tag": ["Open to work"],
+    "education": [
+      {
+        "degree": "PhD in Environmental Studies",
+        "institution": "UCSD, 2024"
+      },
+      {
+        "degree": "MS in Statistics",
+        "institution": "Stanford University, 2017"
+      }
+    ],
+    "expertise": ["Data Science", "Machine Learning", "Statistics"],
+    "about": "About I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. When I am not working I like reading and hiking.",
+    "after": "I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment. I am open to work in academia or industry. I am currently in San Diego, CA but I am open to relocate anywhere in the USA. I have an OPT work permit so I do not need any visa sponsorship.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/amanda-chu-123456",
+      "medprofile": "https://doximity.com/pub/Amanda-Chu-md"
+    }
+  }
+]

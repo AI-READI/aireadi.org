@@ -4,7 +4,7 @@ import fs from 'fs';
 import matter from 'gray-matter';
 import wordsCount from 'words-count';
 
-import BlogList from '@/components/blog/BlogPostsLayout';
+import BlogPostsLayout from '@/components/blog/BlogPostsLayout';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 
@@ -46,7 +46,7 @@ const Blog: React.FC<BlogProps> = ({ blogList }) => {
             </h2>
           </div>
 
-          <BlogList blogList={blogList} />
+          <BlogPostsLayout PostList={blogList} />
         </section>
       </Layout>
     </>
@@ -63,6 +63,7 @@ export async function getStaticProps() {
 
     // Read the raw content of the file and parse the frontMatter
     const rawFileContent = fs.readFileSync(`blog/${fileName}`, `utf-8`);
+
     const timeToRead = Math.ceil(wordsCount(rawFileContent) / 265);
 
     const { data: frontMatter } = matter(rawFileContent);

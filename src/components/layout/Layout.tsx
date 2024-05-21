@@ -8,7 +8,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Header />
-      {children}
+      <div className='pt-[61px]'>{children}</div>
       <Footer />
     </>
   );

@@ -7,7 +7,7 @@ This privacy notice for AI-READI ("**Company**," "**we**," "**us**," or "**our**
 - Visit our website at [aireadi.org](https://aireadi.org), or any website of ours that links to this privacy notice
 - Engage with us in other related ways, including any sales, marketing, or events
 
-**Questions or concerns?** Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at ohjyotnponacaqvexw@tmmbt.com.
+**Questions or concerns?** Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at <ohjyotnponacaqvexw@tmmbt.com>.
 
 ## Summary of key points
 
@@ -209,20 +209,20 @@ If this definition of "resident" applies to you, we must adhere to certain right
 
 We have collected the following categories of personal information in the past twelve (12) months:
 
-| **Category**                                                                         | **Examples**                                                                                                                                                                                             | **Collected** |
-| :----------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------ |
-| A. Identifiers                                                                       | Contact details, such as real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address, and account name | NO            |
-| B. Personal information categories listed in the California Customer Records statute | Name, contact information, education, employment, employment history, and financial information                                                                                                          | NO            |
-| C. Protected classification characteristics under California or federal law          | Gender and date of birth                                                                                                                                                                                 | NO            |
-| D. Commercial information                                                            | Transaction information, purchase history, financial details, and payment information                                                                                                                    | NO            |
-| E. Biometric information                                                             | Fingerprints and voiceprints                                                                                                                                                                             | NO            |
-| F. Internet or other similar network activity                                        | Browsing history, search history, online behavior, interest data, and interactions with our and other websites, applications, systems, and advertisements                                                | NO            |
-| G. Geolocation data                                                                  | Device location                                                                                                                                                                                          | NO            |
-| H. Audio, electronic, visual, thermal, olfactory, or similar information             | Images and audio, video or call recordings created in connection with our business activities                                                                                                            | NO            |
-| I. Professional or employment-related information                                    | Business contact details in order to provide you our Services at a business level or job title, work history, and professional qualifications if you apply for a job with us                             | NO            |
-| J. Education Information                                                             | Student records and directory information                                                                                                                                                                | NO            |
-| K. Inferences drawn from other personal information                                  | Inferences drawn from any of the collected personal information listed above to create a profile or summary about, for example, an individual’s preferences and characteristics                          | NO            |
-| L. Sensitive Personal Information                                                    | NO                                                                                                                                                                                                       | NO            |
+| **Category**                                                                      | **Examples**                                                                                                                                                                                             | **Collected** |
+| --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| Identifiers                                                                       | Contact details, such as real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address, and account name | NO            |
+| Personal information categories listed in the California Customer Records statute | Name, contact information, education, employment, employment history, and financial information                                                                                                          | NO            |
+| Protected classification characteristics under California or federal law          | Gender and date of birth                                                                                                                                                                                 | NO            |
+| Commercial information                                                            | Transaction information, purchase history, financial details, and payment information                                                                                                                    | NO            |
+| Biometric information                                                             | Fingerprints and voiceprints                                                                                                                                                                             | NO            |
+| Internet or other similar network activity                                        | Browsing history, search history, online behavior, interest data, and interactions with our and other websites, applications, systems, and advertisements                                                | NO            |
+| Geolocation data                                                                  | Device location                                                                                                                                                                                          | NO            |
+| Audio, electronic, visual, thermal, olfactory, or similar information             | Images and audio, video or call recordings created in connection with our business activities                                                                                                            | NO            |
+| Professional or employment-related information                                    | Business contact details in order to provide you our Services at a business level or job title, work history, and professional qualifications if you apply for a job with us                             | NO            |
+| Education Information                                                             | Student records and directory information                                                                                                                                                                | NO            |
+| Inferences drawn from other personal information                                  | Inferences drawn from any of the collected personal information listed above to create a profile or summary about, for example, an individual’s preferences and characteristics                          | NO            |
+| Sensitive Personal Information                                                    | -                                                                                                                                                                                                        | NO            |
 
 We may also collect other personal information outside of these categories through instances where you interact with us in person, online, or by phone or mail in the context of:
 
@@ -234,7 +234,7 @@ We may also collect other personal information outside of these categories throu
 
 More information about our data collection and sharing practices can be found in this privacy notice.
 
-You may contact us by email at contact@aireadi.org, by visiting [aireadi.org/contact](https://aireadi.org/contact), or by referring to the contact details at the bottom of this document.
+You may contact us by email at <contact@aireadi.org>, by visiting [aireadi.org/contact](https://aireadi.org/contact), or by referring to the contact details at the bottom of this document.
 
 If you are using an authorized agent to exercise your right to opt out we may deny a request if the authorized agent does not submit proof that they have been validly authorized to act on your behalf.
 
@@ -288,7 +288,7 @@ We will only use personal information provided in your request to verify your id
 - You can designate an authorized agent to make a request under the CCPA on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with the CCPA.
 - You may request to opt out from future selling or sharing of your personal information to third parties. Upon receiving an opt-out request, we will act upon the request as soon as feasibly possible, but no later than fifteen (15) days from the date of the request submission.
 
-To exercise these rights, you can contact us by email at contact@aireadi.org, by visiting [aireadi.org/contact](https://aireadi.org/contact), or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.
+To exercise these rights, you can contact us by email at <contact@aireadi.org>, by visiting [aireadi.org/contact](https://aireadi.org/contact), or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.
 
 ## 11\. Do we make updates to this notice?
 

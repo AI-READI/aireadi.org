@@ -34,6 +34,7 @@ export const getStaticProps: GetStaticProps = async () => {
     `src/pages/publications/content.md`,
     `utf-8`
   );
+
   const pageContent = await markdownToHtml(fileContent || ``);
 
   return {

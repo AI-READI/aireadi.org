@@ -17,7 +17,9 @@ type Color = (typeof colorList)[number];
 
 export default function ComponentsPage() {
   const [mode, setMode] = useState<'dark' | 'light'>('light');
+
   const [color, setColor] = useState<Color>('sky');
+
   function toggleMode() {
     return mode === 'dark' ? setMode('light') : setMode('dark');
   }

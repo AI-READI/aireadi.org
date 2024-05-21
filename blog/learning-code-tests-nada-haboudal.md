@@ -13,7 +13,7 @@ tags:
 
 Welcome to my blog post, where I showcase my work with pytest, a super handy tool for testing Python code.
 
-## Introduction:
+## Introduction
 
 As part of my internship with the AI-READI project, I am working with the team developing FAIRhub, a platform aimed at simplifying the management, preparation, and sharing of datasets that are ready for downstream AI-based analysis. A major part of making data AI-ready is to make it compliant with the FAIR (Findable, Accessible, Interoperable, Reusable) Principles, which are a set of high-level instructions for making data optimally reusable by humans and machines including AI models. This consists for instance of structuring the data according to a strict folder structure, using accessible file formats, including rich metadata with controlled vocabulary, etc. This can be difficult and time consuming to do manually, so the FAIRhub team is developing a Python package called pyfairdatatool that will help automate the process of making data FAIR on the FAIRhub platform. My work within the team consists of developing code tests for pyfairdatatools, to ensure that for a given input, functions in pyfairdatatools are providing the expected output. I used a Python tool called pytest to achieve that. I explain below in more detail what pyfairdatatools is and how I used pytest to develop code tests for it.
 
@@ -29,7 +29,7 @@ pyfairdatatools has many elements but the elements we are going to focus on here
 2. **The validation** code is a set of rules or functions that check if the actual data matches the blueprint described by the schema. It ensures that the data you have meets the expected standards and guidelines before you proceed with using it in your project.
 3. **Testing the validation code** involves writing tests that confirm whether the validation code works correctly. It typically involves passing in known data to the validate functions and checking to make sure they return the correct result (true if the data meets the schema, false otherwise).
 
-### To explain the elements using real-world analogies:
+### To explain the elements using real-world analogies
 
 1. **The schema:** Think of a schema as your grocery shopping list. It's got specifics like what you need to buy and how much.
 
@@ -62,8 +62,6 @@ Diving into pytest has been an insightful experience. It's way more than just a 
 
 ## References
 
-- FAIR Data Principles:
-  <https://www.go-fair.org/fair-principles/>
-- Nature Article on FAIR Data:
-  <https://www.nature.com/articles/sdata201618>
-- pyfairdatatools: <https://github.com/AI-READI/pyfairdatatools](https://github.com/AI-READI/pyfairdatatools>
+- FAIR Data Principles: <https://www.go-fair.org/fair-principles/>
+- Nature Article on FAIR Data: <https://www.nature.com/articles/sdata201618>
+- pyfairdatatools: <https://github.com/AI-READI/pyfairdatatools>

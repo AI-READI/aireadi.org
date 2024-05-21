@@ -1,22 +1,31 @@
 /* eslint-disable @next/next/no-img-element */
-import { Stack, StackDivider } from '@chakra-ui/react';
+import { Stack, StackDivider, Tag, VStack } from '@chakra-ui/react';
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
+import { AddToCalendarButton } from 'add-to-calendar-button-react';
+import dayjs from 'dayjs';
+import { motion } from 'framer-motion';
+import fs from 'fs';
+import matter from 'gray-matter';
 import parse from 'html-react-parser';
 import Link from 'next/link';
 import { AiFillDatabase } from 'react-icons/ai';
 import { BsTools } from 'react-icons/bs';
-import { FaPencilRuler } from 'react-icons/fa';
 import { GoLaw } from 'react-icons/go';
 import { MdReduceCapacity } from 'react-icons/md';
-import { RiTeamFill } from 'react-icons/ri';
 import { TbArrowNarrowRight } from 'react-icons/tb';
 
+import EventDates from '@/components/events/EventDates';
 import ImageWithCredit from '@/components/images/ImageWithCredit';
 import Layout from '@/components/layout/Layout';
 import ButtonLink from '@/components/links/ButtonLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
 
+import {
+  FadeFramerItem,
+  WidthFramerContainer,
+  WidthFramerItem,
+} from '@/utils/framer';
 /**
  * SVGR Supportgray
  * Caveat: No React Props Type.
@@ -25,13 +34,24 @@ import Seo from '@/components/Seo';
  * @see https://stackoverflow.com/questions/68103844/how-to-override-next-js-svg-module-declaration
  */
 
-export default function HomePage() {
+const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
+  const {
+    title,
+    startDateTime,
+    endDateTime,
+    location,
+    subtitle,
+    heroImage,
+    timezone,
+    type,
+  } = frontMatter;
+
   return (
     <>
       <SkipNavLink>Skip to content</SkipNavLink>
 
       <Layout>
-        <Seo templateTitle='Home' />
+        <Seo templateTitle='' />
 
         <main>
           <SkipNavContent />
@@ -67,6 +87,7 @@ export default function HomePage() {
                   >
                     See our documentation
                   </ButtonLink>
+
                   <ButtonLink
                     href='/mentorship'
                     variant='dark'
@@ -164,7 +185,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='bg-slate-50 py-16'>
+          <section className='bg-sky-50 py-16'>
             <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center gap-16 px-8 md:flex-col'>
               <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
                 <ImageWithCredit
@@ -186,11 +207,11 @@ export default function HomePage() {
               </div>
               <div>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
-                  Equitable, multimodal data collection
+                  Collecting equitable, multimodal data
                 </h1>
 
-                <p className='mb-6 text-lg font-normal text-gray-700 sm:mb-8'>
-                  The project will aim to collect data from 4,000 participants
+                <p className='mb-2 text-lg font-normal text-gray-700'>
+                  The project aims to collect data from 4,000 participants
                   across three sites: the University of Alabama at Birmingham
                   (UAB), the University of California San Diego (UCSD), and the
                   University of Washington (UW). To ensure the data is
@@ -199,39 +220,56 @@ export default function HomePage() {
                   sex.
                 </p>
 
-                <div className='hidden'>
-                  <ButtonLink href='/study' variant='outline'>
-                    Learn more about the study
-                  </ButtonLink>
+                <div className='flex'>
+                  <Link
+                    href='/goals/data-collection'
+                    passHref
+                    className='mb-7 flex w-max items-center space-x-1 text-xl font-medium text-sky-700 transition-all hover:text-sky-500'
+                  >
+                    <span>Learn more about data collection</span>
+                    <TbArrowNarrowRight size={20} />
+                  </Link>
                 </div>
               </div>
-            </div>
-          </section>
 
-          <section className='py-16 '>
-            <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between space-y-2 px-4 lg:flex-row-reverse'>
-              <div className='px-5 lg:max-w-2xl'>
-                <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
-                  Ethical, FAIR, AI-ready data sharing
-                </h1>
-                <p className='mb-6 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                  The resulting dataset will be curated and shared following
-                  ethical and FAIR (Findable, Accessible, Interoperable, and
-                  Reusable) principles such that it is ready for future
-                  AI/ML-driven analysis. The data will be shared periodically
-                  through our dedicated web platform called fairhub.io.
-                </p>
+              <div className='my-20 w-full'>
+                <motion.div
+                  variants={WidthFramerContainer}
+                  initial='hidden'
+                  whileInView='show'
+                  viewport={{ once: true, amount: 1 }}
+                  className='relative h-[40px] w-full'
+                >
+                  <div className='h-full rounded-full border border-blue-100 bg-white shadow-[inset_0_0_8px_rgba(0,0,0,0.3)]'>
+                    <span className='absolute bottom-[45px] right-2 text-base font-medium'>
+                      4000 participants
+                    </span>
+                  </div>
 
-                <ButtonLink href='https://fairhub.io' variant='outline'>
-                  View our data
-                </ButtonLink>
-              </div>
-              <div className='flex w-full items-center justify-center px-5 py-5'>
-                <ImageWithCredit
-                  src='https://ucarecdn.com/ef5a74b5-4fa6-46b9-99b1-9d44546f413a/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
-                  alt=''
-                  author='UAB Media Department'
-                />
+                  <motion.div
+                    variants={WidthFramerItem}
+                    className='absolute inset-0 max-w-[30%] rounded-full bg-blue-300'
+                  ></motion.div>
+
+                  <motion.div variants={FadeFramerItem} className='xyz'>
+                    <span className='block text-xl font-bold'>1200+</span>
+                    <span className='text-[16px] font-normal'>
+                      participants have completed the consent process
+                    </span>
+                  </motion.div>
+
+                  <motion.div
+                    variants={WidthFramerItem}
+                    className='absolute inset-0 max-w-[12%] rounded-full bg-blue-600'
+                  ></motion.div>
+
+                  <motion.div variants={FadeFramerItem} className='zyx'>
+                    <span className='block text-xl font-bold'>460+</span>
+                    <span className='text-[16px] font-normal'>
+                      participants have completed in-person study visit
+                    </span>
+                  </motion.div>
+                </motion.div>
               </div>
             </div>
           </section>
@@ -240,19 +278,26 @@ export default function HomePage() {
             <div className='mx-auto max-w-screen-xl items-center gap-16 px-8 lg:grid lg:grid-cols-2 '>
               <div>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
-                  Tools and best practices to help future data generation
-                  projects
+                  Sharing AI-ready dataset
                 </h1>
 
                 <p className='mb-6 text-lg font-normal text-gray-700 sm:mb-4'>
-                  We will develop and openly share tools, standards, and
-                  guidelines so that future data generation projects can follow
-                  our approach for sharing ethical, FAIR, and AI-ready datasets.
+                  The resulting dataset is shared periodically through our
+                  dedicated web platform called fairhub.io following ethical and
+                  FAIR (Findable, Accessible, Interoperable, and Reusable)
+                  principles such that it is ready for future AI/ML-driven
+                  analysis. The associated tools, standards, and guidelines for
+                  making data AI-ready are being openly shared so that future
+                  data generation projects can also make their data AI-ready.
                 </p>
 
-                <div>
-                  <ButtonLink href='/modules/tools' variant='outline'>
-                    Learn more about our tools and guidelines
+                <div className='flex items-center space-x-2'>
+                  <ButtonLink href='https://fairhub.io' variant='primary'>
+                    Access our data
+                  </ButtonLink>
+
+                  <ButtonLink href='/goals/data-sharing' variant='outline'>
+                    Learn more about data sharing
                   </ButtonLink>
                 </div>
               </div>
@@ -275,51 +320,52 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='bg-sky-50 py-16'>
+          <section className='py-16'>
             <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row-reverse'>
               <div className='px-5 lg:max-w-2xl'>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
-                  Community engagement
+                  Training future AI-workforce
                 </h1>
                 <p className='mb-6 text-lg text-gray-700 sm:mb-4'>
-                  Community members will be engaged along the way to ensure
-                  their suggestions and concerns regarding data collection,
-                  management, and sharing are addressed.
+                  The AI-READI project is developing and deploying training and
+                  career development activities for individuals who will
+                  effectively contribute to translational AI research,
+                  particularly in the biomedical/clinical domain.
                 </p>
 
                 <div>
-                  <ButtonLink href='/modules/pedp' variant='outline'>
-                    Learn more about our plan for enhancing diversity
+                  <ButtonLink href='/goals/capacity-building' variant='outline'>
+                    Learn more about capacity building
                   </ButtonLink>
                 </div>
               </div>
               <div className='flex w-full items-center justify-center px-5 py-5'>
-                <ImageWithCredit
-                  src='https://ucarecdn.com/dddbf822-3778-4eb0-af18-0d898125d892/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
-                  alt=''
-                  author='UAB Media Department'
+                <img
+                  className='rounded-lg'
+                  src='https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                  alt='mockup'
                 />
               </div>
             </div>
           </section>
 
-          <section className='py-16'>
+          <section className='bg-sky-50 py-16'>
             <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row'>
               <div className='px-5 lg:max-w-2xl'>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
                   Advancing our understanding of team science
                 </h1>
                 <p className='mb-6 text-lg text-gray-700 sm:mb-4'>
-                  We will support the AI-READI project by applying team science
-                  to promote transdisciplinary collaboration across
-                  disciplinary, hierarchical, demographic, and other boundaries.
-                  In doing so, we aim to advance our understanding of teaming in
-                  the context of multi-team systems involving multidisciplinary
-                  scientists, trainees, and communities.
+                  We apply team science to promote transdisciplinary
+                  collaboration across disciplinary, hierarchical, demographic,
+                  and other boundaries. In doing so, we also aim to advance our
+                  understanding of teaming in the context of multi-team systems
+                  involving multidisciplinary scientists, trainees, and
+                  communities.
                 </p>
 
                 <div>
-                  <ButtonLink href='/modules/teaming' variant='outline'>
+                  <ButtonLink href='/goals/team-science' variant='outline'>
                     Learn more about our team science approach
                   </ButtonLink>
                 </div>
@@ -334,52 +380,33 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section className='bg-slate-50 py-16'>
-            <div className='mx-auto max-w-screen-xl px-8'>
-              <div className='mb-8 text-center lg:mb-16'>
-                <h1 className='mb-2 text-3xl font-bold tracking-tight sm:text-4xl'>
-                  AI-READI Team
+          <section className='bg-slate-50/50 py-16'>
+            <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row-reverse'>
+              <div className='px-5 lg:max-w-2xl'>
+                <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
+                  Engaging community members
                 </h1>
-
-                <p className='mb-4 text-xl font-medium text-slate-600'>
-                  The project team is structured into six modules, each leading
-                  a key aspect.
+                <p className='mb-6 text-lg text-gray-700 sm:mb-4'>
+                  Community members are engaged along the way to ensure their
+                  suggestions and concerns regarding data collection,
+                  management, and sharing are considered.
                 </p>
 
-                <div className='relative flex justify-center space-x-4'>
-                  <Link
-                    href='/team'
-                    passHref
-                    className='flex w-max items-center space-x-1 text-xl font-semibold text-sky-700 transition-all hover:text-sky-500'
+                <div>
+                  <ButtonLink
+                    href='/goals/community-engagement'
+                    variant='outline'
                   >
-                    <span className=''>Meet our team</span>
-                    <TbArrowNarrowRight size={20} />
-                  </Link>
+                    Learn more about community engagement
+                  </ButtonLink>
                 </div>
               </div>
-
-              <div className='gap-x-8 md:grid md:grid-cols-2 md:gap-12 lg:grid-cols-3'>
-                {FeaturesList.map((feature) => (
-                  <div key={feature.title} className='mt-12 md:mt-2'>
-                    <div className='flex flex-row items-center space-x-4 md:flex-col md:items-start md:space-x-0'>
-                      <div className='flex h-12 w-12 items-center justify-center rounded-lg bg-sky-600 text-white md:mb-2 md:h-10 md:w-10  '>
-                        {feature.icon}
-                      </div>
-                      <h3 className='text-xl font-semibold'>{feature.title}</h3>
-                    </div>
-                    <p className='py-1 text-lg font-normal tracking-tight text-gray-500'>
-                      {feature.description}
-                    </p>
-                    <Link
-                      href={feature.href}
-                      passHref
-                      className='flex w-max items-center space-x-1 text-lg font-medium text-sky-700 transition-all hover:text-sky-500'
-                    >
-                      <span className=''>Read more</span>
-                      <TbArrowNarrowRight size={20} />
-                    </Link>
-                  </div>
-                ))}
+              <div className='flex w-full items-center justify-center px-5 py-5'>
+                <ImageWithCredit
+                  src='https://ucarecdn.com/dddbf822-3778-4eb0-af18-0d898125d892/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
+                  alt=''
+                  author='UAB Media Department'
+                />
               </div>
             </div>
           </section>
@@ -463,11 +490,120 @@ export default function HomePage() {
               </div>
             </div>
           </section>
+
+          <section className='bg-slate-50/40 py-16'>
+            <div className='mb-8 text-center lg:mb-16'>
+              <h1 className='mb-3 text-3xl font-bold tracking-tight sm:text-4xl'>
+                Upcoming Events
+              </h1>
+            </div>
+            <div className='mx-auto grid max-w-screen-xl grid-cols-12 rounded-xl border px-4 py-8 shadow-lg'>
+              <div className='col-span-8 px-5 lg:max-w-2xl'>
+                <VStack spacing={4} align='flex-start'>
+                  <Stack direction='row' spacing={2} align='center'>
+                    <Tag variant='subtle' colorScheme='orange'>
+                      Upcoming Event
+                    </Tag>
+
+                    <Tag variant='subtle' colorScheme='twitter'>
+                      {type}
+                    </Tag>
+                  </Stack>
+
+                  <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl '>
+                    {title}
+                  </h1>
+                </VStack>
+
+                <p className='mb-2 text-lg text-gray-700'>{subtitle}</p>
+
+                <EventDates
+                  startDateTime={startDateTime}
+                  endDateTime={endDateTime}
+                />
+
+                <Stack
+                  direction='row'
+                  spacing={2}
+                  align='center'
+                  className='mt-3'
+                >
+                  <ButtonLink variant='outline' href={`/events/${slug}`}>
+                    View event details
+                  </ButtonLink>
+
+                  <AddToCalendarButton
+                    name={title}
+                    options={['Apple', 'Google', 'iCal', 'Outlook.com']}
+                    location={location || `Online`}
+                    startDate={dayjs(endDateTime).format(`YYYY-MM-DD`)}
+                    endDate={dayjs(endDateTime).format(`YYYY-MM-DD`)}
+                    startTime={dayjs(startDateTime).format(`HH:mm`)}
+                    endTime={dayjs(endDateTime).format(`HH:mm`)}
+                    timeZone={timezone || `America/Los_Angeles`}
+                    size='5'
+                    lightMode='system'
+                  />
+                </Stack>
+              </div>
+              <div className='col-span-4 flex w-full items-center justify-center px-5 py-5'>
+                <img className='rounded-lg' src={heroImage} alt='mockup' />
+              </div>
+            </div>
+          </section>
+
+          <section className='hidden bg-slate-50 py-16'>
+            <div className='mx-auto max-w-screen-xl px-8'>
+              <div className='mb-8 text-center lg:mb-14'>
+                <h1 className='mb-2 text-3xl font-bold tracking-tight sm:text-4xl'>
+                  Project Goals
+                </h1>
+
+                <p className='text-xl font-medium text-slate-600'>
+                  The AI-READI project has several goals and milestones that we
+                  are working towards achieving.
+                </p>
+
+                <div className='relative hidden justify-center space-x-4'>
+                  <Link
+                    href='/team'
+                    passHref
+                    className='flex w-max items-center space-x-1 text-xl font-semibold text-sky-700 transition-all hover:text-sky-500'
+                  >
+                    <span className=''>Meet our team</span>
+                    <TbArrowNarrowRight size={20} />
+                  </Link>
+                </div>
+              </div>
+
+              <div className='mx-auto max-w-screen-md gap-x-8 md:grid md:grid-cols-2 md:gap-12 lg:grid-cols-2'>
+                {GoalsList.map((feature) => (
+                  <Link
+                    href={feature.href}
+                    key={feature.title}
+                    className='mt-12 flex flex-col items-center rounded-2xl border border-sky-300 bg-white px-6 py-8 shadow-md transition-all hover:shadow-lg md:mt-2'
+                  >
+                    <div className='flex h-12 w-12 items-center justify-center rounded-lg text-sky-600  md:mb-2 md:h-10 md:w-10  '>
+                      {feature.icon}
+                    </div>
+
+                    <h3 className='mt-1 text-center text-2xl font-bold'>
+                      {feature.title}
+                    </h3>
+
+                    <p className='leading-2 mt-1 text-center text-lg font-medium  text-gray-500'>
+                      {feature.description}
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
         </main>
       </Layout>
     </>
   );
-}
+};
 
 const StatsList = [
   {
@@ -488,47 +624,30 @@ const StatsList = [
   },
 ];
 
-const FeaturesList = [
+const GoalsList = [
   {
-    title: 'Data Acquisition',
-    description:
-      'Collecting type 2 diabetes-related data across multiple sites',
-    icon: <AiFillDatabase size={20} />,
-    href: '/modules/data',
+    title: 'Project Wide Milestones',
+    description: 'A high-level overview of the project goals and objectives.',
+    icon: <BsTools size={40} />,
+    href: '/goals/project-wide-milestones',
   },
   {
-    title: 'Ethical and Trustworthy AI',
-    description:
-      'Establishing guidelines for colllecting and sharing ethically sourced data',
-    icon: <GoLaw size={20} />,
-    href: '/modules/ethics',
+    title: 'Data Collection',
+    description: 'Policy and procedures for data collection and management.',
+    href: '/goals/data-collection',
+    icon: <AiFillDatabase size={40} />,
   },
   {
-    title: 'Standards',
-    description:
-      'Establishing standards for preparing and sharing AI-ready datasets',
-    icon: <FaPencilRuler size={20} />,
-    href: '/modules/standards',
+    title: 'Considerations for Releasing Data',
+    description: 'Guidelines for releasing data to the public.',
+    href: '/goals/considerations-for-releasing-data',
+    icon: <GoLaw size={40} />,
   },
   {
-    title: 'Teaming',
-    description:
-      'Applying and advancing team science while supporting interdisciplinary collaboration',
-    icon: <RiTeamFill size={20} />,
-    href: '/modules/teaming',
-  },
-  {
-    title: 'Tools',
-    description:
-      'Developing tools and software for managing, curating, and sharing AI-ready datasets',
-    icon: <BsTools size={20} />,
-    href: '/modules/tools',
-  },
-  {
-    title: 'Skills & Workforce Development',
-    description: 'Developing a diverse AI/ML-biomedical research workforce',
-    icon: <MdReduceCapacity size={20} />,
-    href: '/modules/skills',
+    title: 'Capacity Building Initiatives',
+    description: 'Training and resources for capacity building.',
+    href: '/goals/capacity-building-initiatives',
+    icon: <MdReduceCapacity size={40} />,
   },
 ];
 
@@ -626,3 +745,51 @@ const CollaboratorsLogosList = [
     caption: 'Microsoft',
   },
 ];
+
+export async function getStaticProps() {
+  // Get the events from the `events` directory
+  const files = fs.readdirSync(`./events`);
+
+  const eventList = files.map((fileName) => {
+    // Remove the .md extension and use the file name as the slug
+    const slug = fileName.replace(`.md`, ``);
+
+    // Read the raw content of the file and parse the frontMatter
+    const rawFileContent = fs.readFileSync(`events/${fileName}`, `utf-8`);
+
+    const { data: frontMatter } = matter(rawFileContent);
+
+    return {
+      slug,
+      frontMatter,
+    };
+  });
+
+  // Get the next upcoming event
+  let closestUpcomingEvent = eventList
+    .filter((event) => dayjs(event.frontMatter.startDateTime).isAfter(dayjs()))
+    .sort(
+      (a, b) =>
+        dayjs(a.frontMatter.startDateTime).valueOf() -
+        dayjs(b.frontMatter.startDateTime).valueOf()
+    )[0];
+
+  if (!closestUpcomingEvent) {
+    // If there are no upcoming events, get the most recent event
+    closestUpcomingEvent = eventList.sort(
+      (a, b) =>
+        dayjs(b.frontMatter.startDateTime).valueOf() -
+        dayjs(a.frontMatter.startDateTime).valueOf()
+    )[0];
+  }
+
+  // Return the posts data to the page as props
+  return {
+    props: {
+      slug: closestUpcomingEvent.slug || '',
+      frontMatter: closestUpcomingEvent.frontMatter || {},
+    },
+  };
+}
+
+export default HomePage;
