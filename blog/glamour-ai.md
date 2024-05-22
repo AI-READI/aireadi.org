@@ -1,7 +1,7 @@
 ---
 title: 'Glamour AI'
 authors:
-  - 'Cybil Roehrenbeck,'
+  - 'Cybil Roehrenbeck'
 date: '2024-05-01'
 categories:
   - 'Term of the Month'
