@@ -14,7 +14,7 @@ export default function ContactUs() {
       <SkipNavLink>Skip to content</SkipNavLink>
 
       <Layout>
-        <Seo templateTitel='Contact Us' />
+        <Seo templateTitle='Contact Us' />
 
         <main>
           <SkipNavContent />
@@ -26,14 +26,15 @@ export default function ContactUs() {
               </h1>
 
               <p className='mb-6 text-center text-xl font-normal text-slate-600 sm:mb-8'>
-                Have a question about our project? Want more information about
-                our study? Need help using our data? Let us know!
+                Have a question about our project? Want to provide feedback
+                about our dataset or anything else? Need help using our data?
+                Let us know!
               </p>
 
-              <p className='my-12 hidden w-full rounded-lg bg-yellow-50 p-10 text-center text-xl font-normal text-slate-600 sm:mb-8'>
+              {/* <p className='my-12 hidden w-full rounded-lg bg-yellow-50 p-10 text-center text-xl font-normal text-slate-600 sm:mb-8'>
                 We are not taking any queries at this time. <br /> We hope you
                 can find all the necessary information on our website.
-              </p>
+              </p> */}
 
               <iframe
                 data-tally-src='https://tally.so/embed/wdY71y?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1'
