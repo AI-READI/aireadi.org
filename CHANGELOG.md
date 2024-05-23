@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/AI-READI/aireadi.org/compare/v3.0.0...v3.1.0) (2024-05-23)
+
+
+### Features
+
+* ✨ add a contact form ([#40](https://github.com/AI-READI/aireadi.org/issues/40)) ([b1160da](https://github.com/AI-READI/aireadi.org/commit/b1160da3e10eee5e097fdadd4f46301aa511e0d8))
+
 ## [3.0.0](https://github.com/AI-READI/aireadi.org/compare/v2.6.0...v3.0.0) (2024-05-22)
 
 
