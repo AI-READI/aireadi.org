@@ -1,5 +1,26 @@
 # Changelog
 
+## [3.0.0](https://github.com/AI-READI/aireadi.org/compare/v2.6.0...v3.0.0) (2024-05-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* Move from modules to goals
+
+### Features
+
+* ✨ add industry partners ([f6bb7ca](https://github.com/AI-READI/aireadi.org/commit/f6bb7cac11c83cf6d97e37b0487842014538266a))
+* ✨ added monthly speakers and term of the month series ([37b21fc](https://github.com/AI-READI/aireadi.org/commit/37b21fc6536b69d19ffda9131db96c8936326e4a))
+* 💥 ✨ Move from modules to goals ([#38](https://github.com/AI-READI/aireadi.org/issues/38)) ([1215e40](https://github.com/AI-READI/aireadi.org/commit/1215e40772243b2ab0238ba4f25dce70cf011e9f))
+
+
+### Bug Fixes
+
+* 🐛 add docs link ([8195ae7](https://github.com/AI-READI/aireadi.org/commit/8195ae782b6568f12248a30c5ccee8c9f14f6839))
+* 🐛 add logo ([f3d46d6](https://github.com/AI-READI/aireadi.org/commit/f3d46d68b9d521e0f3786a356608844357aa21d9))
+* 🐛 add person to team ([53bdc8c](https://github.com/AI-READI/aireadi.org/commit/53bdc8c5b010b159b873e01815b987fcc090a35f))
+* 🐛 update team ([520da9f](https://github.com/AI-READI/aireadi.org/commit/520da9f2c837d68d8d260b42b67bb8feb61f453d))
+
 ## [2.6.0](https://github.com/AI-READI/aireadi.org/compare/v2.5.2...v2.6.0) (2024-02-28)
 
 
