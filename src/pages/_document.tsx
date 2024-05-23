@@ -32,6 +32,7 @@ class MyDocument extends Document {
             src='https://umami.fairdataihub.org/mushroom'
           />
         </Head>
+
         <body
           className={`!font-primary ${
             process.env.NODE_ENV === 'development' ? 'debug-screens' : ''
