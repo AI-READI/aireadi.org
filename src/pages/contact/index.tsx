@@ -25,7 +25,7 @@ export default function ContactUs() {
                 Contact Us
               </h1>
 
-              <p className='mb-6 text-center text-xl font-normal text-slate-600 sm:mb-8'>
+              <p className='mb-7 text-center text-xl font-normal text-slate-600'>
                 Have a question about our project? Want to provide feedback
                 about our dataset or anything else? Need help using our data?
                 Let us know!
@@ -43,6 +43,13 @@ export default function ContactUs() {
                 height='276'
                 title='AI-READI Contact Form'
               ></iframe>
+
+              <p className='mb-7 text-center text-sm font-normal text-slate-400'>
+                Note that we are mostly looking for feedback at this moment but
+                will try our best to answer questions. Please use an
+                institutional email for faster response and preventing your
+                query from being flagged as a spam.
+              </p>
             </div>
           </section>
         </main>
