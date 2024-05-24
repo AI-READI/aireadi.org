@@ -38,6 +38,10 @@ const footerLinks = [
         href: '/blog',
         title: 'Blog',
       },
+      {
+        href: '/faq',
+        title: 'Frequently Asked Questions',
+      },
       // {
       //   title: 'Components',
       //   href: '/components',
