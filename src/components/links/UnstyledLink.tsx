@@ -18,6 +18,9 @@ const UnstyledLink = React.forwardRef<HTMLAnchorElement, UnstyledLinkProps>(
         ? openNewTab
         : href && !href.startsWith('/') && !href.startsWith('#');
 
+    // Use the anchor tag for explicit same domain links. Should rerender iframes.
+    const isHomeDomain = href && href.includes('aireadi.org');
+
     if (!isNewTab) {
       return (
         <Link
@@ -35,7 +38,7 @@ const UnstyledLink = React.forwardRef<HTMLAnchorElement, UnstyledLinkProps>(
     return (
       <a
         ref={ref}
-        target='_blank'
+        target={isHomeDomain ? '' : '_blank'}
         rel='noopener noreferrer'
         href={href}
         {...rest}

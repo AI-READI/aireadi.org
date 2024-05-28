@@ -30,7 +30,10 @@ export default function ContactUs() {
                 Have a different question and can't find the answer you're
                 looking for?
                 <br />
-                <UnderlineLink href='/contact' className='text-sky-600'>
+                <UnderlineLink
+                  href='https://aireadi.org/contact'
+                  className='text-sky-600'
+                >
                   Contact us
                 </UnderlineLink>{' '}
                 and we'll get back to you as soon as we can.
