@@ -33,8 +33,15 @@ export default function ContactUs() {
               </p>
 
               <p className='my-2 w-full rounded-lg bg-yellow-50 p-2 text-center text-base font-normal text-slate-600'>
-                Please read our <UnderlineLink href='/faq'>FAQ</UnderlineLink> -
-                the answer to your question could be there!
+                Please read our <UnderlineLink href='/faq'>FAQ</UnderlineLink>{' '}
+                first - the answer to your question could be there!
+              </p>
+
+              <p className='mb-7 text-center text-sm font-normal text-slate-400'>
+                Note that we are mostly looking for feedback at this moment but
+                will try our best to answer questions. Please use an
+                institutional email for faster response and preventing your
+                query from being flagged as a spam.
               </p>
 
               <iframe
@@ -44,13 +51,6 @@ export default function ContactUs() {
                 height='276'
                 title='AI-READI Contact Form'
               ></iframe>
-
-              <p className='mb-7 text-center text-sm font-normal text-slate-400'>
-                Note that we are mostly looking for feedback at this moment but
-                will try our best to answer questions. Please use an
-                institutional email for faster response and preventing your
-                query from being flagged as a spam.
-              </p>
             </div>
           </section>
         </main>

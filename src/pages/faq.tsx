@@ -28,9 +28,10 @@ export default function ContactUs() {
 
               <p className='mb-7 text-left text-xl font-normal text-slate-600'>
                 Have a different question and can't find the answer you're
-                looking for? <br /> Reach out to{' '}
+                looking for?
+                <br />
                 <UnderlineLink href='/contact' className='text-sky-600'>
-                  our team
+                  Contact us
                 </UnderlineLink>{' '}
                 and we'll get back to you as soon as we can.
               </p>
@@ -52,13 +53,13 @@ export default function ContactUs() {
                 </dd>
               </div>
 
-              <div className='grid-cols-12 gap-10 border-t py-10 lg:grid'>
-                <dt className='col-span-5 text-xl font-medium'>
+              <div className='hidden grid-cols-12 gap-10 border-t py-10 lg:grid'>
+                <dt className='col-span-5 hidden text-xl font-medium'>
                   What is the tentative schedule for releasing subsequent
                   versions of the AI-READI dataset with data from additional
                   study participants?
                 </dt>
-                <dd className='col-span-7 mt-1 text-lg md:mt-0'>
+                <dd className='col-span-7 mt-1 hidden text-lg md:mt-0'>
                   <p className=''>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Vitae quos accusantium voluptate ipsa rerum alias eveniet,
