@@ -1,3 +1,4 @@
+/* eslint-disable unused-imports/no-unused-vars */
 /* eslint-disable @next/next/no-img-element */
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react';
 import { Icon } from '@iconify/react';
