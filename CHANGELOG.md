@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.2.0](https://github.com/AI-READI/aireadi.org/compare/v3.1.0...v3.2.0) (2024-05-28)
+
+
+### Features
+
+* ✨ add faq page ([#43](https://github.com/AI-READI/aireadi.org/issues/43)) ([1585fff](https://github.com/AI-READI/aireadi.org/commit/1585fff6323d705db7058caf7ea2b94b2fb87e50))
+
+
+### Bug Fixes
+
+* 🐛 update contact form text ([0de469d](https://github.com/AI-READI/aireadi.org/commit/0de469d75ae2fe8b819b2d37d6b13654aacfd990))
+
 ## [3.1.0](https://github.com/AI-READI/aireadi.org/compare/v3.0.0...v3.1.0) (2024-05-23)
 
 
