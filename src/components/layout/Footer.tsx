@@ -39,16 +39,16 @@ const footerLinks = [
         title: 'Blog',
       },
       {
+        href: '/scholars',
+        title: 'Scholars',
+      },
+      {
         href: '/faq',
         title: 'Frequently Asked Questions',
       },
       // {
       //   title: 'Components',
       //   href: '/components',
-      // },
-      // {
-      //   title: 'Twitter',
-      //   href: '/comingsoon',
       // },
       {
         title: 'Contact Us',
