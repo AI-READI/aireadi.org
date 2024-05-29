@@ -39,30 +39,5 @@
     "social": {
       "linkedin": "https://www.linkedin.com/in/kyongmi-um-simpkins-29093971?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     }
-  },
-
-  {
-    "id": "Gigi-Chu",
-    "name": "Gigi Chu",
-    "image": "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "moduleImageParams": "",
-    "tag": ["Open to work"],
-    "education": [
-      {
-        "degree": "PhD in Environmental Studies",
-        "institution": "UCSD, 2024"
-      },
-      {
-        "degree": "MS in Statistics",
-        "institution": "Stanford University, 2017"
-      }
-    ],
-    "expertise": ["Data Science", "Machine Learning", "Statistics"],
-    "about": "About I am a data scientist with a background in mathematics and statistics. I have experience in machine learning, data analysis, and statistical modeling. I am passionate about using data to drive business decisions and solve complex problems. When I am not working I like reading and hiking.",
-    "after": "I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment. I am open to work in academia or industry. I am currently in San Diego, CA but I am open to relocate anywhere in the USA. I have an OPT work permit so I do not need any visa sponsorship.",
-    "social": {
-      "linkedin": "https://www.linkedin.com/in/amanda-chu-123456",
-      "medprofile": "https://doximity.com/pub/Amanda-Chu-md"
-    }
   }
 ]
