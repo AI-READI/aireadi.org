@@ -37,7 +37,7 @@
     "about": "I am a data scientist with a background in neuroscience and human genomics. I have extensive experience in molecular bench work as well as data analysis. As a person who has experience in both areas of study, I feel that I can be a wonderful resource to connect the often disparate fields.",
     "after": "I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment in academia or industry. I believe in opening doors and fully exploring possibilities!",
     "social": {
-      "linkedin": "https://www.linkedin.com/in/kyongmi-um-simpkins-29093971?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+      "linkedin": "https://www.linkedin.com/in/kyongmi-um-simpkins-29093971"
     }
   },
   {
@@ -67,7 +67,60 @@
     "about": "I am a clinician scientist, ophthalmologist and retina specialist with almost 8 years of clinical and research experience in ophthalmology. I have experience as a sub-investigator in phase II-III clinical trials. In my research I am interested in different imaging modalities in ophthalmology and specifically in applications of AI/ML in retinal imaging and integration of new technologies in clinical care. After work I enjoy surfing, pilates and being outdoors.",
     "after": "I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment. I am open to work in academia or industry. I am currently in San Diego, CA, but I am open to relocating anywhere in the USA or working remotely. I am currently on a J-1 visa sponsored by UCSD, so I will need a visa sponsorship for my next position outside UCSD.",
     "social": {
-      "linkedin": "https://www.linkedin.com/in/kyongmi-um-simpkins-29093971?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+      "linkedin": "https://www.linkedin.com/in/annaheinke/"
+    }
+  },
+  {
+    "id": "Nada-Haboudal",
+    "name": "Nada Haboudal",
+    "image": "https://ucarecdn.com/12c60787-2733-4802-b96e-0a43bfa907c2/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px150p/",
+    "tag": ["#OpenToWork", "#OpenToVolunteer"],
+    "education": [
+      {
+        "degree": "M.S. Engineering Technology",
+        "institution": "University of Houston"
+      },
+      {
+        "degree": "B.S Industrial Engineering",
+        "institution": ""
+      }
+    ],
+    "expertise": [
+      "Data Science",
+      "Signal Processing",
+      "Data Analysis",
+      "Python"
+    ],
+    "about": "I'm a Data Scientist with a background in Engineering and Computational Health Informatics. During the AI-READI Internship, I applied machine learning models to estimate HbA1C levels from Continuous Glucose Monitors (CGM). My passion and focus are on translating complex health data into actionable insights.",
+    "after": "I'm seeking opportunities in the fields of data science, signal processing, and machine learning. I have a particular interest in wearables and women's health but am also open to exploring opportunities in any health-related domain.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/nada-haboudal",
+      "resume": "https://aqua-kaitlynn-73.tiiny.site/"
+    }
+  },
+  {
+    "id": "Shahin-Hallaj",
+    "name": "Shahin Hallaj",
+    "image": "https://ucarecdn.com/a7686be0-dfda-4d71-91e3-e27812fccc00/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "",
+    "tag": ["#OpenToVolunteer"],
+    "education": [
+      {
+        "degree": "MD",
+        "institution": "Tabriz University of Medical Sciences"
+      }
+    ],
+    "expertise": [
+      "Data Science",
+      "Informatics",
+      "AI/ML",
+      "Biomedical Research"
+    ],
+    "about": "I am a postdoctoral researcher with extensive work experience in biomedical research, preparing to participate in the residency match cycle 2026. I am passionate about applications of AI/ML and informatics to enhance not only patient care but also the medical provider's experience.",
+    "after": "I am truly honored to have been selected for a departmental T32 postdoctoral research fellowship program in data sciences at UCSD. At the Baxter Lab of Ophthalmology Informatics and Data Sciences and the Computational Ophthalmology lab, I will continue to pursue my passion for data science and informatics. I am now seeking volunteer clinical rotations and sub-internships in ophthalmology, internal medicine, and critical care to keep my clinical skills sharp and strengthen my residency application.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/shahin-hallaj-38780a95/"
     }
   }
 ]

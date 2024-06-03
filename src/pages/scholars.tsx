@@ -276,7 +276,7 @@ const ScholarsPage: React.FC<
                       <ul>
                         {selectedScholar?.education.map((edu, index) => (
                           <li key={index} className='text-base font-normal'>
-                            {edu.degree}
+                            {edu.degree}{' '}
                             {edu.institution && <>({edu.institution})</>}
                           </li>
                         ))}
