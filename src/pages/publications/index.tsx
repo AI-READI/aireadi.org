@@ -32,7 +32,7 @@ const PublicationsPage: React.FC<{ pageContent: string }> = ({
 export const getStaticProps: GetStaticProps = async () => {
   const fileContent = fs.readFileSync(
     `src/pages/publications/content.md`,
-    `utf-8`
+    `utf-8`,
   );
 
   const pageContent = await markdownToHtml(fileContent || ``);

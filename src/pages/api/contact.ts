@@ -13,7 +13,7 @@ type Data = {
 
 export default function handler(
   req: NextApiRequest,
-  res: NextApiResponse<Data>
+  res: NextApiResponse<Data>,
 ) {
   // if (req.method === `POST`) {
   //   const { email, subject, message } = JSON.parse(req.body);

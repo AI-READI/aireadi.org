@@ -927,7 +927,7 @@ export const getStaticProps = async () => {
   const StudyTeamIds = ['Cynthia-Owsley', 'Linda-Zangwill', 'Cecilia-Lee'];
 
   const StudyTeam = TEAM_JSON.filter((person) =>
-    StudyTeamIds.includes(person.id)
+    StudyTeamIds.includes(person.id),
   );
 
   // sort by name

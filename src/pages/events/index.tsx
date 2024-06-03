@@ -61,12 +61,12 @@ export async function getStaticProps() {
   eventList.sort((a, b) => {
     const a_date = dayjs(
       a.frontMatter.startDateTime,
-      `YYYY-MM-DD`
+      `YYYY-MM-DD`,
     ) as unknown as number;
 
     const b_date = dayjs(
       b.frontMatter.startDateTime,
-      `YYYY-MM-DD`
+      `YYYY-MM-DD`,
     ) as unknown as number;
 
     return b_date - a_date;

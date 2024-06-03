@@ -771,7 +771,7 @@ export async function getStaticProps() {
     .sort(
       (a, b) =>
         dayjs(a.frontMatter.startDateTime).valueOf() -
-        dayjs(b.frontMatter.startDateTime).valueOf()
+        dayjs(b.frontMatter.startDateTime).valueOf(),
     )[0];
 
   if (!closestUpcomingEvent) {
@@ -779,7 +779,7 @@ export async function getStaticProps() {
     closestUpcomingEvent = eventList.sort(
       (a, b) =>
         dayjs(b.frontMatter.startDateTime).valueOf() -
-        dayjs(a.frontMatter.startDateTime).valueOf()
+        dayjs(a.frontMatter.startDateTime).valueOf(),
     )[0];
   }
 

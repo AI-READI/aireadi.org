@@ -40,7 +40,7 @@ export default function ComponentsPage() {
           <div
             className={clsx(
               'layout min-h-screen py-20',
-              mode === 'dark' ? 'text-white' : 'text-black'
+              mode === 'dark' ? 'text-white' : 'text-black',
             )}
           >
             <h1>Built-in Components</h1>
@@ -75,7 +75,7 @@ export default function ComponentsPage() {
                       mode === 'dark'
                         ? 'border border-gray-600 bg-dark'
                         : 'border-gray-300 bg-white',
-                      'focus:border-primary-400 focus:outline-none focus:ring focus:ring-primary-400'
+                      'focus:border-primary-400 focus:outline-none focus:ring focus:ring-primary-400',
                     )}
                     onChange={(e) => setColor(e.target.value as Color)}
                   >

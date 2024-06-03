@@ -127,12 +127,12 @@ export default function Header() {
                       key={item.name}
                       href={item.href}
                       className={clsx(
-                        'group relative my-2 flex w-full items-start gap-x-6 rounded-lg p-4 text-sm transition-all hover:bg-sky-50'
+                        'group relative my-2 flex w-full items-start gap-x-6 rounded-lg p-4 text-sm transition-all hover:bg-sky-50',
                       )}
                     >
                       <div
                         className={clsx(
-                          'flex h-12 w-12 flex-none items-center justify-center rounded-lg bg-sky-100 group-hover:bg-white group-hover:text-sky-500'
+                          'flex h-12 w-12 flex-none items-center justify-center rounded-lg bg-sky-100 group-hover:bg-white group-hover:text-sky-500',
                         )}
                       >
                         <Icon icon={item.icon} width={20} />

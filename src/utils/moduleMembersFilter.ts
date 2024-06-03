@@ -8,7 +8,7 @@ import TEAM_JSON from '~/data/team.json';
  * @returns
  */
 export default async function ModuleMembersFilter(
-  module: string
+  module: string,
 ): Promise<ModuleMemberType[]> {
   const AllTeamMembers: ModuleMemberType[] = await Promise.all(
     TEAM_JSON.map(async (member) => {
@@ -24,11 +24,11 @@ export default async function ModuleMembersFilter(
         ...member,
         blurDataURL: base64,
       };
-    })
+    }),
   ).then((values) => values);
 
   const FilteredTeamMembers = AllTeamMembers.filter((member) =>
-    member.modules.includes(module)
+    member.modules.includes(module),
   );
 
   FilteredTeamMembers.sort((a, b) => {

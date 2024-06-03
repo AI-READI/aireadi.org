@@ -341,7 +341,7 @@ export const getStaticProps = async () => {
         ...member,
         blurDataURL: base64,
       };
-    })
+    }),
   ).then((values) => values);
 
   // sort by name
