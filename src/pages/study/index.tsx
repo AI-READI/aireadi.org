@@ -104,7 +104,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                 risk for serious health issues and due to its overwhelming
                 prevalence, we are all impacted by this disease.
               </p>
-              <p className='mb-6 text-lg font-normal text-gray-700 '>
+              <p className='mb-6 text-lg font-normal text-gray-700'>
                 Our team, funded by the National Institutes of Health (NIH), is
                 undertaking an innovative and exciting study on persons with
                 type 2 diabetes. We are developing a thoughtfully designed,
@@ -129,7 +129,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
           </div>
         </section>
 
-        <section className='py-16 '>
+        <section className='py-16'>
           <div className='flex-col'>
             <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between space-y-2 px-4 lg:flex-row-reverse'>
               <div className='px-5 lg:max-w-2xl'>
@@ -171,7 +171,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
             Here is our local contact information:
           </h1>
 
-          <div className='mx-auto max-w-screen-xl items-center gap-16 px-8 lg:grid lg:grid-cols-2 '>
+          <div className='mx-auto max-w-screen-xl items-center gap-16 px-8 lg:grid lg:grid-cols-2'>
             <div>
               <p className='mb-4 text-2xl font-semibold text-slate-600'>
                 If you live in the Birmingham area
@@ -179,7 +179,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
               <p className='my-4 text-lg'>You may contact us at:</p>
 
-              <div className='flex w-max flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 '>
+              <div className='flex w-max flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0'>
                 <ButtonLink variant='outline' href='tel:205-297-0408'>
                   (205) 297-0408
                 </ButtonLink>
@@ -205,7 +205,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
           <Divider className='my-10' />
 
-          <div className='mx-auto max-w-screen-xl items-center gap-16 px-8 lg:grid lg:grid-cols-2 '>
+          <div className='mx-auto max-w-screen-xl items-center gap-16 px-8 lg:grid lg:grid-cols-2'>
             <div className='mt-8 hidden grid-cols-2 gap-4 lg:grid'>
               <img
                 className='mt-4 w-full rounded-lg lg:mt-10'
@@ -225,7 +225,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
               <p className='my-4 text-lg'>You may contact us at:</p>
 
-              <div className='flex w-max flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 '>
+              <div className='flex w-max flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0'>
                 <ButtonLink variant='outline' href='tel:858-822-4669'>
                   (858) 822-4669
                 </ButtonLink>
@@ -255,7 +255,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
           <Divider className='my-10' />
 
-          <div className='mx-auto max-w-screen-xl items-center gap-16 px-8 lg:grid lg:grid-cols-2 '>
+          <div className='mx-auto max-w-screen-xl items-center gap-16 px-8 lg:grid lg:grid-cols-2'>
             <div>
               <p className='mb-4 text-2xl font-semibold text-slate-600'>
                 If you live in the Seattle area
@@ -263,7 +263,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
               <p className='my-4 text-lg'>You may contact us at:</p>
 
-              <div className='flex w-max flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 '>
+              <div className='flex w-max flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0'>
                 <ButtonLink variant='outline' href='tel:206-710-6689'>
                   (206) 710-6689
                 </ButtonLink>
@@ -377,12 +377,12 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                           className='flex flex-col space-y-2'
                         >
                           <img
-                            className='w-full rounded-lg '
+                            className='w-full rounded-lg'
                             src='https://ucarecdn.com/b6105868-0deb-49d6-bb1e-7f309654f5eb/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
                             alt='University of Alabama at Birmingham'
                           />
 
-                          <span className=' font-semibold'>
+                          <span className='font-semibold'>
                             Birmingham, Alabama at UAB
                           </span>
                         </UnstyledLink>
@@ -397,7 +397,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                             alt='University of California, San Diego'
                           />
 
-                          <span className=' font-semibold'>
+                          <span className='font-semibold'>
                             San Diego, California at UCSD
                           </span>
                         </UnstyledLink>
@@ -407,12 +407,12 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                           className='flex flex-col space-y-2'
                         >
                           <img
-                            className='w-full rounded-lg '
+                            className='w-full rounded-lg'
                             src='https://images.unsplash.com/photo-1627626308661-034701a77028?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
                             alt='University of Washington'
                           />
 
-                          <span className=' font-semibold'>
+                          <span className='font-semibold'>
                             Seattle, Washington at UW
                           </span>
                         </UnstyledLink>
@@ -904,7 +904,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                     <div className='mb-3 flex items-center font-semibold text-slate-600'>
                       <MdLocationOn size={20} />
-                      <p className='ml-2 '>{person.location}</p>
+                      <p className='ml-2'>{person.location}</p>
                     </div>
 
                     <Divider />

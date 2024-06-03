@@ -59,7 +59,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
           <section
             className={`relative flex h-[60vh] min-h-[600px] w-full items-center justify-center text-white before:absolute before:left-0 before:top-0 before:h-full before:w-full before:bg-home-hero-image before:bg-cover before:bg-center before:bg-no-repeat before:brightness-[0.3] before:content-[''] md:h-[40vh]`}
           >
-            <div className='mx-auto grid max-w-screen-xl flex-col px-6 py-16 md:grid-cols-12 md:gap-8 lg:py-16 xl:gap-0 '>
+            <div className='mx-auto grid max-w-screen-xl flex-col px-6 py-16 md:grid-cols-12 md:gap-8 lg:py-16 xl:gap-0'>
               <div className='col-span-12 mr-auto place-self-center md:col-span-8'>
                 <h1 className='relative pb-5 text-4xl font-black text-white sm:text-5xl'>
                   Artificial Intelligence Ready and Equitable Atlas for Diabetes
@@ -101,8 +101,8 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
           </section>
 
           <section className='pb-8 pt-16'>
-            <div className='mx-auto flex max-w-screen-xl flex-col items-center px-8  lg:px-6'>
-              <h2 className='mb-5 max-w-screen-lg text-center text-4xl font-bold tracking-tight  sm:text-4xl'>
+            <div className='mx-auto flex max-w-screen-xl flex-col items-center px-8 lg:px-6'>
+              <h2 className='mb-5 max-w-screen-lg text-center text-4xl font-bold tracking-tight sm:text-4xl'>
                 Generating data, best practices, and tools to boost future
                 AI-driven research in diabetes
               </h2>
@@ -150,7 +150,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
 
           <section className='pb-16 pt-4'>
             <div className='px-8'>
-              <div className='m-2 mx-auto max-w-screen-xl rounded-lg bg-slate-100 p-8  text-center'>
+              <div className='m-2 mx-auto max-w-screen-xl rounded-lg bg-slate-100 p-8 text-center'>
                 <h1 className='mb-2 text-3xl font-bold tracking-tight sm:text-4xl'>
                   Snapshot of the AI-READI project
                 </h1>
@@ -275,7 +275,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
           </section>
 
           <section className='bg-slate-50 py-16'>
-            <div className='mx-auto max-w-screen-xl items-center gap-16 px-8 lg:grid lg:grid-cols-2 '>
+            <div className='mx-auto max-w-screen-xl items-center gap-16 px-8 lg:grid lg:grid-cols-2'>
               <div>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
                   Sharing AI-ready dataset
@@ -460,7 +460,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   AI-READI Industry Partners
                 </h1>
 
-                <p className=' mb-6 text-xl font-medium text-slate-600 sm:mb-8'>
+                <p className='mb-6 text-xl font-medium text-slate-600 sm:mb-8'>
                   The following organizations are instrumental to the AI-READI
                   project
                 </p>
@@ -510,7 +510,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                     </Tag>
                   </Stack>
 
-                  <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl '>
+                  <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
                     {title}
                   </h1>
                 </VStack>
@@ -583,7 +583,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                     key={feature.title}
                     className='mt-12 flex flex-col items-center rounded-2xl border border-sky-300 bg-white px-6 py-8 shadow-md transition-all hover:shadow-lg md:mt-2'
                   >
-                    <div className='flex h-12 w-12 items-center justify-center rounded-lg text-sky-600  md:mb-2 md:h-10 md:w-10  '>
+                    <div className='flex h-12 w-12 items-center justify-center rounded-lg text-sky-600 md:mb-2 md:h-10 md:w-10'>
                       {feature.icon}
                     </div>
 
@@ -591,7 +591,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                       {feature.title}
                     </h3>
 
-                    <p className='leading-2 mt-1 text-center text-lg font-medium  text-gray-500'>
+                    <p className='leading-2 mt-1 text-center text-lg font-medium text-gray-500'>
                       {feature.description}
                     </p>
                   </Link>

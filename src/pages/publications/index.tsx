@@ -17,7 +17,7 @@ const PublicationsPage: React.FC<{ pageContent: string }> = ({
       <Layout>
         <Seo templateTitle='Publications' />
 
-        <main className='relative mx-auto flex h-full w-full max-w-screen-xl flex-col overflow-hidden px-5 py-5  sm:px-10 sm:pb-20'>
+        <main className='relative mx-auto flex h-full w-full max-w-screen-xl flex-col overflow-hidden px-5 py-5 sm:px-10 sm:pb-20'>
           <SkipNavContent />
 
           <div className='prose-a:text-primary prose prose-slate max-w-none lg:prose-base prose-h1:text-slate-700 prose-h2:text-slate-700 prose-img:mx-auto prose-img:rounded-md prose-img:shadow-xl'>

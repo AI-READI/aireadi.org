@@ -77,7 +77,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className='fixed top-0 z-10  w-full border-b bg-white'>
+    <header className='fixed top-0 z-10 w-full border-b bg-white'>
       <nav
         className='mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8'
         aria-label='Global'
@@ -177,7 +177,7 @@ export default function Header() {
           <div className='flex items-center justify-between'>
             <UnstyledLink
               href='/'
-              className='-m-1.5 p-1.5 text-lg font-bold transition-all hover:text-sky-500 '
+              className='-m-1.5 p-1.5 text-lg font-bold transition-all hover:text-sky-500'
             >
               AI-READI
             </UnstyledLink>

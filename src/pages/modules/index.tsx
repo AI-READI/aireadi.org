@@ -99,14 +99,14 @@ export default function HomePage() {
                     alt='mockup'
                   />
 
-                  <div className='flex w-full flex-col  justify-center px-2 text-left md:w-8/12 md:items-start'>
+                  <div className='flex w-full flex-col justify-center px-2 text-left md:w-8/12 md:items-start'>
                     <h2 className='text-3xl font-bold tracking-tight sm:text-4xl'>
                       {module.title}
                     </h2>
 
                     <Divider className='my-2' />
 
-                    <p className=' mb-3 text-lg font-normal text-gray-700 sm:mb-4 md:mb-6'>
+                    <p className='mb-3 text-lg font-normal text-gray-700 sm:mb-4 md:mb-6'>
                       {module.tagline}
                     </p>
 

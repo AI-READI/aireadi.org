@@ -43,7 +43,7 @@ const QuestionsList = [
 
 export default function FaqList() {
   return (
-    <section className='bg-white '>
+    <section className='bg-white'>
       <div className='mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6'>
         <h2 className='mb-8 text-4xl font-extrabold tracking-tight text-gray-900'>
           Frequently asked questions
@@ -55,7 +55,7 @@ export default function FaqList() {
                 <AiFillQuestionCircle size={20} />
                 <span className='pl-2'>{question.question}</span>
               </h3>
-              <p className='text-gray-500 '>{question.answer}</p>
+              <p className='text-gray-500'>{question.answer}</p>
             </div>
           ))}
         </div>

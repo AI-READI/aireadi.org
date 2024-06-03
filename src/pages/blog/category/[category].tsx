@@ -43,7 +43,7 @@ const CategoryPage: React.FC<BlogProps> = ({ filteredPostsList }) => {
         <Seo templateTitle={category + ' - Blog'} />
 
         <section className='relative mx-auto flex h-full w-full max-w-screen-xl flex-col overflow-hidden px-8 sm:py-10 lg:px-6'>
-          <div className='mb-5 px-2 pt-5  sm:pt-0 md:px-7'>
+          <div className='mb-5 px-2 pt-5 sm:pt-0 md:px-7'>
             <h2 className='text-left text-lg'>Category</h2>
 
             <h1 className='mb-2 text-left text-5xl font-bold'>{category}</h1>

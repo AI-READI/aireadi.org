@@ -100,7 +100,7 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
           </div>
         </section>
 
-        <section className=' py-16'>
+        <section className='py-16'>
           <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row'>
             <div className='px-5 lg:max-w-2xl'>
               <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>

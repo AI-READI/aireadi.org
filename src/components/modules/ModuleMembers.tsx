@@ -11,7 +11,7 @@ type ComponentProps = {
 
 const ModuleMembers: React.FC<ComponentProps> = ({ Team }) => {
   return (
-    <section className='bg-white '>
+    <section className='bg-white'>
       <div className='mx-auto max-w-screen-xl px-4 py-8 text-center lg:px-6 lg:py-16'>
         <div className='mx-auto mb-6 max-w-screen-sm lg:mb-8'>
           <h2 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>

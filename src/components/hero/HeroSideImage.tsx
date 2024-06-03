@@ -29,7 +29,7 @@ export default function HeroSideImage({
             </div>
           )}
         </div>
-        <div className=' sm:col-span-5 sm:mt-0 sm:flex'>
+        <div className='sm:col-span-5 sm:mt-0 sm:flex'>
           <img src={image} alt='mockup' />
         </div>
       </div>

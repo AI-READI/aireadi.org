@@ -137,15 +137,13 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
           <hr className='my-4 hidden border-dashed border-slate-200' />
 
           <div className='flex items-center justify-between divide-x py-3'>
-            <ul className='flex flex-wrap  text-sm leading-6 '>
+            <ul className='flex flex-wrap text-sm leading-6'>
               {transformedAuthors.map((author) => (
                 <li key={author.name} className='my-2 mr-5 flex items-center'>
                   <Avatar name={author.name} src={author.image} />
 
                   <div className='ml-3 flex flex-col justify-center'>
-                    <span className='text-base font-medium '>
-                      {author.name}
-                    </span>
+                    <span className='text-base font-medium'>{author.name}</span>
                   </div>
                 </li>
               ))}
@@ -160,7 +158,7 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
 
           <PostBody content={postContent} />
 
-          <div className='my-3 flex items-center '>
+          <div className='my-3 flex items-center'>
             <span className='mr-3 font-medium'>Tags:</span>
 
             <div className='flex flex-wrap items-center justify-start space-x-3'>

@@ -51,7 +51,7 @@ const FeaturesList = [
 
 export default function FeatureList() {
   return (
-    <section className='bg-white '>
+    <section className='bg-white'>
       <div className='mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6'>
         <div className='g:mb-16 mb-8'>
           <h1 className='mb-2 text-center text-5xl font-bold tracking-tight'>

@@ -21,13 +21,13 @@ const CategoriesPage: React.FC<PageProps> = ({ categoriesList }) => {
         <Seo templateTitle='Categories - Blog' />
 
         <section className='relative mx-auto flex h-full w-full max-w-screen-xl flex-col overflow-hidden px-8 sm:py-10 lg:px-6'>
-          <div className='mb-5 px-2 pt-5  sm:pt-0 md:px-7'>
+          <div className='mb-5 px-2 pt-5 sm:pt-0 md:px-7'>
             <h1 className='mb-2 text-left text-5xl font-bold'>Categories</h1>
           </div>
 
           <hr className='mx-6 my-2 border-dashed border-slate-200' />
 
-          <div className='mb-2 flex w-full flex-col px-2 py-3  md:px-7 md:py-5 '>
+          <div className='mb-2 flex w-full flex-col px-2 py-3 md:px-7 md:py-5'>
             <ul className='flex flex-col'>
               {categoriesList.map((category) => {
                 return (

@@ -20,7 +20,7 @@ export default function ContactUs() {
         <main>
           <SkipNavContent />
 
-          <section className='bg-white '>
+          <section className='bg-white'>
             <div className='mx-auto max-w-screen-md px-4 py-8 lg:py-16'>
               <h1 className='mb-1 text-center text-3xl font-extrabold tracking-tight sm:text-4xl'>
                 Contact Us

@@ -31,7 +31,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
         <SkipNavContent />
 
         <section className='bg-white !font-primary'>
-          <div className='mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16 '>
+          <div className='mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16'>
             <div className='mx-auto mb-8 max-w-screen-sm text-center lg:mb-16'>
               <h1 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>
                 Our Team
@@ -48,7 +48,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                   key={member.name}
                   id={member.id}
                 >
-                  <div className='relative h-full min-h-[500px] w-full md:min-h-fit md:w-[45%] '>
+                  <div className='relative h-full min-h-[500px] w-full md:min-h-fit md:w-[45%]'>
                     <Image
                       src={member.image}
                       alt='user profile picture'
@@ -101,7 +101,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                     <div className='mb-3 flex items-center font-semibold text-slate-600'>
                       <MdLocationOn size={20} />
-                      <p className='ml-2 '>{member.location}</p>
+                      <p className='ml-2'>{member.location}</p>
                     </div>
 
                     <Divider />
@@ -118,7 +118,7 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                       <Divider className='my-2' />
                     )}
 
-                    <ul className='flex space-x-3  sm:mt-0'>
+                    <ul className='flex space-x-3 sm:mt-0'>
                       {'twitter' in member.social && (
                         <li className='flex items-center justify-center text-gray-500 transition-all hover:text-sky-600'>
                           <a

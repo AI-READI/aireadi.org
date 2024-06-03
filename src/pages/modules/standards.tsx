@@ -68,7 +68,7 @@ const StandardsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
           </div>
         </section>
 
-        <section className='hidden bg-sky-50 '>
+        <section className='hidden bg-sky-50'>
           <div className='mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16'>
             <div className='mx-auto mb-6 max-w-screen-sm text-center lg:mb-8'>
               <h2 className='mb-1 text-3xl font-extrabold tracking-tight sm:text-4xl'>

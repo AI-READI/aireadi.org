@@ -109,7 +109,7 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
             </div>
 
             <div className='mx-auto mb-16 flex max-w-screen-xl flex-col-reverse items-center gap-16 md:flex-col'>
-              <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 '>
+              <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
                 <img
                   className='rounded-lg'
                   src='https://ucarecdn.com/b6521517-979e-4ae4-baff-69ade647a982/'

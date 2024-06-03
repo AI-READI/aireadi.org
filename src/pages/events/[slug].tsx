@@ -67,7 +67,7 @@ const EventPost: React.FC<EventItem> = ({ slug, frontMatter, content }) => {
 
         <div className='relative mx-auto flex h-full w-full max-w-screen-xl flex-col overflow-hidden px-5 py-5 sm:px-10 sm:py-10'>
           <div className='mb-10'>
-            <span className='mb-3 text-lg font-bold text-sky-600 transition-all '>
+            <span className='mb-3 text-lg font-bold text-sky-600 transition-all'>
               {type}
             </span>
 
@@ -75,7 +75,7 @@ const EventPost: React.FC<EventItem> = ({ slug, frontMatter, content }) => {
               {title}
             </h1>
 
-            <p className='text-xl  text-slate-600 sm:text-2xl'>{subtitle}</p>
+            <p className='text-xl text-slate-600 sm:text-2xl'>{subtitle}</p>
           </div>
 
           <div className='relative mb-5 h-auto min-h-[200px] w-full sm:min-h-[300px] md:min-h-[450px]'>
@@ -115,7 +115,7 @@ const EventPost: React.FC<EventItem> = ({ slug, frontMatter, content }) => {
             />
           </div>
 
-          <hr className=' border border-sky-600' />
+          <hr className='border border-sky-600' />
 
           <PostBody content={content} />
 

@@ -37,8 +37,8 @@ const Blog: React.FC<BlogProps> = ({ blogList }) => {
         <Seo templateTitle='Blog' />
 
         <section className='relative mx-auto flex h-full w-full max-w-screen-xl flex-col overflow-hidden px-8 sm:py-10 lg:px-6'>
-          <div className='mb-5 px-2 pt-5  sm:pt-0 md:px-7'>
-            <h1 className='mb-2 text-left text-5xl font-bold '>Blog</h1>
+          <div className='mb-5 px-2 pt-5 sm:pt-0 md:px-7'>
+            <h1 className='mb-2 text-left text-5xl font-bold'>Blog</h1>
 
             <h2 className='text-left text-xl'>
               A collection of thoughts, ideas, and resources from the AI-READI

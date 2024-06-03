@@ -126,7 +126,7 @@ const BlogPostsLayout: React.FC<PostLayoutProps> = ({ PostList }) => {
                       {dayjs(post.frontMatter.date).format(`MMMM D, YYYY`)}
                     </time>
 
-                    <p className=' text-sm font-light text-slate-600'>
+                    <p className='text-sm font-light text-slate-600'>
                       {post.timeToRead} min read
                     </p>
                   </div>
