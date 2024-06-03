@@ -39,5 +39,35 @@
     "social": {
       "linkedin": "https://www.linkedin.com/in/kyongmi-um-simpkins-29093971?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     }
+  },
+  {
+    "id": "Anna-Heinke",
+    "name": "Anna Heinke",
+    "image": "https://ucarecdn.com/45f1eb9a-b6f2-4b5e-9618-18189285af62/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px160p/",
+    "tag": ["#OpenToWork"],
+    "education": [
+      {
+        "degree": "PhD in Opthalmology",
+        "institution": "Medical University of Silesia, Katowice, Poland"
+      },
+      {
+        "degree": "MD",
+        "institution": "Jagiellonian University Medical College, Cracow, Poland"
+      }
+    ],
+    "expertise": [
+      "Ophthalmology",
+      "Retinal Imaging",
+      "Digital Health",
+      "Clinical Research",
+      "Clinical Trials",
+      "Data Analysis"
+    ],
+    "about": "I am a clinician scientist, ophthalmologist and retina specialist with almost 8 years of clinical and research experience in ophthalmology. I have experience as a sub-investigator in phase II-III clinical trials. In my research I am interested in different imaging modalities in ophthalmology and specifically in applications of AI/ML in retinal imaging and integration of new technologies in clinical care. After work I enjoy surfing, pilates and being outdoors.",
+    "after": "I am currently looking for new opportunities to apply my skills and expertise in a dynamic and collaborative environment. I am open to work in academia or industry. I am currently in San Diego, CA, but I am open to relocating anywhere in the USA or working remotely. I am currently on a J-1 visa sponsored by UCSD, so I will need a visa sponsorship for my next position outside UCSD.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/kyongmi-um-simpkins-29093971?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+    }
   }
 ]

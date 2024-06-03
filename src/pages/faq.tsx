@@ -56,18 +56,21 @@ export default function ContactUs() {
                 </dd>
               </div>
 
-              <div className='hidden grid-cols-12 gap-10 border-t py-10 lg:grid'>
-                <dt className='col-span-5 hidden text-xl font-medium'>
+              <div className='grid-cols-12 gap-10 border-t py-10 lg:grid'>
+                <dt className='col-span-5 text-xl font-medium'>
                   What is the tentative schedule for releasing subsequent
                   versions of the AI-READI dataset with data from additional
                   study participants?
                 </dt>
-                <dd className='col-span-7 mt-1 hidden text-lg md:mt-0'>
+                <dd className='col-span-7 mt-1 text-lg md:mt-0'>
                   <p className=''>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Vitae quos accusantium voluptate ipsa rerum alias eveniet,
-                    quod blanditiis voluptatibus sit veritatis explicabo omnis,
-                    porro voluptas similique at natus illum assumenda.
+                    Note that this is an ongoing study and we are releasing data
+                    progressively as it is being collected. Our next release is
+                    planned towards the end of Fall 2024 with data from
+                    approximately 1,000 participants. Another release will
+                    likely be made a year later before the final release with
+                    data from 4,000 participants is made during Fall or Winter
+                    2026.
                   </p>
                 </dd>
               </div>
