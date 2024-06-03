@@ -43,7 +43,7 @@ export default function ContactUs() {
                 <dt className='col-span-5 text-xl font-medium'>
                   How do I access the controlled set of the AI-READI dataset?
                 </dt>
-                <dd className='col-span-7 mt-1 text-lg md:mt-0'>
+                <dd className='col-span-7 mt-2 text-lg md:mt-0'>
                   <p className=''>
                     We are currently working on a suitable process for getting
                     access to our controlled set and do not have an anticipated
@@ -62,7 +62,7 @@ export default function ContactUs() {
                   versions of the AI-READI dataset with data from additional
                   study participants?
                 </dt>
-                <dd className='col-span-7 mt-1 text-lg md:mt-0'>
+                <dd className='col-span-7 mt-2 text-lg md:mt-0'>
                   <p className=''>
                     Note that this is an ongoing study and we are releasing data
                     progressively as it is being collected. Our next release is
@@ -71,6 +71,28 @@ export default function ContactUs() {
                     likely be made a year later before the final release with
                     data from 4,000 participants is made during Fall or Winter
                     2026.
+                  </p>
+                </dd>
+              </div>
+
+              <div className='grid-cols-12 gap-10 border-t py-10 lg:grid'>
+                <dt className='col-span-5 text-xl font-medium'>
+                  How long would it take for me to receive the download link for
+                  the dataset after I complete the access process?
+                </dt>
+                <dd className='col-span-7 mt-2 text-lg md:mt-0'>
+                  <p className=''>
+                    You should receive the link typically within 2 weeks if not
+                    sooner depending on the number of requests we receive during
+                    that time. If you have not received it after 3 weeks, please
+                    reach out to us through our{' '}
+                    <UnderlineLink
+                      href='https://aireadi.org/contact'
+                      className='text-sky-600'
+                    >
+                      contact form
+                    </UnderlineLink>
+                    .
                   </p>
                 </dd>
               </div>
