@@ -126,5 +126,39 @@
     "social": {
       "linkedin": "https://www.linkedin.com/in/shahin-hallaj-38780a95/"
     }
+  },
+  {
+    "id": "Fritz-Gerald-Kalaw",
+    "name": "Fritz Gerald Kalaw",
+    "image": "https://ucarecdn.com/a711ef59-e368-4d0c-bb8e-ea2d6244322e/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "",
+    "tag": ["#OpenToWork", "#OpenToVolunteer"],
+    "education": [
+      {
+        "degree": "Ophthalmology Residency",
+        "institution": "Philippines"
+      },
+      {
+        "degree": "Fellowship in ophthalmology informatics and data science",
+        "institution": "UC San Diego"
+      },
+      {
+        "degree": "Research fellowship in vitreoretinal diseases",
+        "institution": "UC San Diego"
+      },
+      {
+        "degree": "MD",
+        "institution": "Philippines"
+      }
+    ],
+    "expertise": [
+      "Ophthalmology",
+      "Informatics",
+      "Retina",
+      "Clinical applications of AI"
+    ],
+    "about": "I am an ophthalmologist with extensive clinical experience in the diagnosis and management of vitreoretinal diseases. I am interested in integrating multimodal retinal imaging and informatics and understanding oculomics through data.",
+    "after": "I am open to collaborating through basic, translational, and clinical research focusing on ophthalmology and vitreoretinal diseases. I am also looking for opportunities in biomedical research in academia, agencies, or industries.",
+    "social": {}
   }
 ]
