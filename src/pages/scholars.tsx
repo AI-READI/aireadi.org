@@ -73,7 +73,7 @@ const ScholarsPage: React.FC<
       <SkipNavLink>Skip to content</SkipNavLink>
 
       <Layout>
-        <Seo templateTitle='Data Collection' />
+        <Seo templateTitle='Scholars' />
 
         <main>
           <SkipNavContent />

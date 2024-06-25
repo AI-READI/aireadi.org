@@ -160,5 +160,37 @@
     "about": "I am an ophthalmologist with extensive clinical experience in the diagnosis and management of vitreoretinal diseases. I am interested in integrating multimodal retinal imaging and informatics and understanding oculomics through data.",
     "after": "I am open to collaborating through basic, translational, and clinical research focusing on ophthalmology and vitreoretinal diseases. I am also looking for opportunities in biomedical research in academia, agencies, or industries.",
     "social": {}
+  },
+  {
+    "id": "Apoorva-Karsolia",
+    "name": "Apoorva Karsolia",
+    "image": "https://ucarecdn.com/5f77b9d1-d9c5-4a7f-b62c-992a6a1e25e3/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px170p/",
+    "tag": ["#OpenToWork"],
+    "education": [
+      {
+        "degree": "PhD in Vision Science",
+        "institution": "University of Houston"
+      },
+      {
+        "degree": "MS in Vision Science",
+        "institution": "Marshall B. Ketchum University"
+      },
+      {
+        "degree": "BS in Optometry",
+        "institution": "Bharati Vidyapeeth University, Pune, India"
+      }
+    ],
+    "expertise": [
+      "Visual Neuroscience",
+      "Clinical Research",
+      "Scientific Writing",
+      "Digital Health"
+    ],
+    "about": "I'm a data scientist with a background in vision science, eye-tracking, and neuroscience. I have experience in clinical and human factors research, scientific writing, data management, analysis, and presentation. I am passionate about the application of AI/ML to enhance clinical care and advance our understanding of human perception and behavior. Outside of work, I enjoy reading, hiking, and exploring the great outdoors!",
+    "after": "I am actively seeking new opportunities to apply my skills and expertise in a dynamic and collaborative environment. I am open to working in either academia or industry. Currently, I am based in San Diego, CA, but I am willing to relocate anywhere in the USA or work remotely. Additionally, I have an OPT work permit and do not require visa sponsorship.",
+    "social": {
+      "linkedin": "http://www.linkedin.com/in/apoorva-karsolia-47466873"
+    }
   }
 ]

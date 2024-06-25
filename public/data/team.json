@@ -91,6 +91,22 @@
     }
   },
   {
+    "id": "Apoorva-Karsolia",
+    "name": "Apoorva Karsolia",
+    "pronoun": "",
+    "roles": ["Research Associate"],
+    "department": "Shiley Eye Institute",
+    "organization": "University of California, San Diego",
+    "location": "San Diego, CA",
+    "caption": "I'm a Research Scientist with a background in human perception, eye movements, and visual neuroscience. As an AI-READI intern, I'm passionate about using AI and machine learning to enhance patient care and expand our understanding of human perception and learning.",
+    "image": "https://ucarecdn.com/5f77b9d1-d9c5-4a7f-b62c-992a6a1e25e3/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px170p/",
+    "modules": ["data-sharing", "team-science"],
+    "social": {
+      "linkedin": "http://www.linkedin.com/in/apoorva-karsolia-47466873"
+    }
+  },
+  {
     "id": "Aydan-Gasimova",
     "name": "Aydan Gasimova",
     "pronoun": "she/her",
