@@ -252,7 +252,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   ></motion.div>
 
                   <motion.div variants={FadeFramerItem} className='xyz'>
-                    <span className='block text-xl font-bold'>1500+</span>
+                    <span className='block text-xl font-bold'>1700+</span>
                     <span className='text-[16px] font-normal'>
                       participants have completed the consent process
                     </span>
@@ -264,7 +264,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   ></motion.div>
 
                   <motion.div variants={FadeFramerItem} className='zyx'>
-                    <span className='block text-xl font-bold'>700+</span>
+                    <span className='block text-xl font-bold'>850+</span>
                     <span className='text-[16px] font-normal'>
                       participants have completed in-person study visit
                     </span>
