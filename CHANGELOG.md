@@ -1,5 +1,24 @@
 # Changelog
 
+## [3.3.0](https://github.com/AI-READI/aireadi.org/compare/v3.2.0...v3.3.0) (2024-07-25)
+
+
+### Features
+
+* ✨ enable scholars page ([85e3517](https://github.com/AI-READI/aireadi.org/commit/85e3517a7a1e370b5eaec15d0c98d06dba0feb81))
+
+
+### Bug Fixes
+
+* 🐛 add scholars ([cadfc1b](https://github.com/AI-READI/aireadi.org/commit/cadfc1b887c5ff6a99e46ce88edbd2511668f008))
+* 🐛 add scholars ([9ef35d1](https://github.com/AI-READI/aireadi.org/commit/9ef35d1e4960d2db585745ba3a094e3edc7e3048))
+* 🐛 reload contact page for iframe ([409eb49](https://github.com/AI-READI/aireadi.org/commit/409eb499e1b7559207848ec5a4a8ad348c4aadfd))
+* 🐛 remove placeholder scholar ([7f25b46](https://github.com/AI-READI/aireadi.org/commit/7f25b46ee09007241a23154c3bf071e5418a9828))
+* 🐛 update faq ([fb3a526](https://github.com/AI-READI/aireadi.org/commit/fb3a5268851ac6fa67df25d9670260ac38e9f50f))
+* 🐛 update faq ([dad0079](https://github.com/AI-READI/aireadi.org/commit/dad0079e07ebb884151e462cdb6dd10dffe91ad2))
+* 🐛 update faq ([15f433b](https://github.com/AI-READI/aireadi.org/commit/15f433b4f7c7da71bb45c34eb652172be6a5814b))
+* 🐛 update team ([59819ac](https://github.com/AI-READI/aireadi.org/commit/59819ac274d7a7138abbbe8539f953f86c878534))
+
 ## [3.2.0](https://github.com/AI-READI/aireadi.org/compare/v3.1.0...v3.2.0) (2024-05-28)
 
 
