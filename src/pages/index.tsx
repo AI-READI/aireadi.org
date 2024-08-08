@@ -253,7 +253,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
 
                   <motion.div variants={FadeFramerItem} className='xyz'>
                     <span className='block text-xl font-bold'>1950+</span>
-                    <span className='max-w-[10%] text-[16px] font-normal'>
+                    <span className='text-[16px] font-normal'>
                       participants have completed the consent process
                     </span>
                   </motion.div>

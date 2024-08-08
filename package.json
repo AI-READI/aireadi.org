@@ -14,6 +14,7 @@
     "test:watch": "jest --watch",
     "test": "jest",
     "format": "prettier --ignore-path .gitignore \"./**/*.+(ts|js|tsx)\" --write",
+    "format:write": "prettier --write .",
     "format:check": "prettier -c .",
     "postbuild": "next-sitemap --config next-sitemap.config.js",
     "prepare": "run-script-os",
