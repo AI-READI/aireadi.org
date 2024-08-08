@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.3.1](https://github.com/AI-READI/aireadi.org/compare/v3.3.0...v3.3.1) (2024-08-08)
+
+
+### Bug Fixes
+
+* 🐛 add event ([c02d0c7](https://github.com/AI-READI/aireadi.org/commit/c02d0c7730fbaa1d62a5877ccfa34303f6488e03))
+
 ## [3.3.0](https://github.com/AI-READI/aireadi.org/compare/v3.2.0...v3.3.0) (2024-07-25)
 
 
