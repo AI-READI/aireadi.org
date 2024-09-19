@@ -27,7 +27,7 @@
     "department": "Department of Ophthalmology",
     "organization": "University of Washington",
     "location": "Seattle, WA",
-    "caption": "Aaron Lee is the overall principal investigator for the AI-READI project and the co-lead for the Standards module.",
+    "cd caption": "Aaron Lee is the overall principal investigator for the AI-READI project and the co-lead for the Standards module.",
     "image": "https://ucarecdn.com/9e75ff67-3bbe-4d0b-93f7-52d72dd551ad/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px150p/",
     "modules": ["team-science", "data-collection", "data-sharing"],
@@ -247,7 +247,7 @@
     "pronoun": "",
     "roles": [
       "Klorfine Family Endowed Chair Director of Clinical Research",
-      "Associate Professor"
+      "Professor"
     ],
     "department": "Department of Ophthalmology",
     "organization": "University of Washington",
