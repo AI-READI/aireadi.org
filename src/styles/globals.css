@@ -160,7 +160,7 @@
 .xyz {
   position: absolute;
   bottom: 85px;
-  left: calc(58% - 12px);
+  left: calc(61% - 12px);
   z-index: 4;
   width: 240px;
 }
@@ -182,7 +182,7 @@
 .zyx {
   position: absolute;
   top: 85px;
-  left: calc(29% - 12px);
+  left: calc(31% - 12px);
   z-index: 4;
   width: 240px;
 }
