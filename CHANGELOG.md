@@ -1,5 +1,26 @@
 # Changelog
 
+## [3.4.0](https://github.com/AI-READI/aireadi.org/compare/v3.3.0...v3.4.0) (2024-10-09)
+
+
+### Features
+
+* ✨ add events to the team page ([f39ae16](https://github.com/AI-READI/aireadi.org/commit/f39ae1667274cc39abc0b176343456eb7831cbc0))
+
+
+### Bug Fixes
+
+* 🐛 add event ([c02d0c7](https://github.com/AI-READI/aireadi.org/commit/c02d0c7730fbaa1d62a5877ccfa34303f6488e03))
+* 🐛 add team ([f014470](https://github.com/AI-READI/aireadi.org/commit/f014470579613dc18b43b982cfdf041a494fb02b))
+* 🐛 minor comments ([94ed9f3](https://github.com/AI-READI/aireadi.org/commit/94ed9f3cbffe55c1e6ace21abd2952a9c7d9bc2b))
+* 🐛 minor comments ([5bf6026](https://github.com/AI-READI/aireadi.org/commit/5bf602649b0855ab04792f4c6cac6c0b513574e6))
+* 🐛 modifications ([a16c10e](https://github.com/AI-READI/aireadi.org/commit/a16c10ed1584637cc732a0ebcc6b4110f36b55e5))
+* 🐛 round up indicator ratio for consent and visit number ([a43d032](https://github.com/AI-READI/aireadi.org/commit/a43d032327d15d6acc8aed39e17088e3fd2c3abd))
+* 🐛 timezone ([b01e575](https://github.com/AI-READI/aireadi.org/commit/b01e57586bcf656f715ef37fcb862a40b5788a23))
+* 🐛 update indicator ratio for consent and visit number 09/30/24 ([e816237](https://github.com/AI-READI/aireadi.org/commit/e8162373f4c1bb0ef98ab2747cf27ddb710d5449))
+* 🐛 update team ([f1fb114](https://github.com/AI-READI/aireadi.org/commit/f1fb114c1e01062a951617be972daedb097a07b3))
+* 🐛 update team ([b3ae09d](https://github.com/AI-READI/aireadi.org/commit/b3ae09dba01a617b63aa0e5b3e8d974069baa125))
+
 ## [3.3.0](https://github.com/AI-READI/aireadi.org/compare/v3.2.0...v3.3.0) (2024-07-25)
 
 
