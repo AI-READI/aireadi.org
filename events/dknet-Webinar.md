@@ -11,9 +11,9 @@ location: 'Online'
 
 ## Presenters:
 
-- Cecilia Lee, MD, MS. Professor, Klorfine Family Endowed Chair of Ophthalmology, University of Washington
-- Bhavesh Patel, PhD. Research Professor, California Medical Innovations Institute
-- Sally L. Baxter, MD, MSc. Associate Professor of Ophthalmology and Biomedical Informatics, University of California San Diego
+- [Cecilia Lee](https://aireadi-32pq7h6nb-fairdataihub.vercel.app/team#Cecilia-Lee), MD, MS. Professor, Klorfine Family Endowed Chair of Ophthalmology, University of Washington
+- [Bhavesh Patel](https://aireadi-32pq7h6nb-fairdataihub.vercel.app/team#Bhavesh-Patel), PhD. Research Professor, California Medical Innovations Institute
+- [Sally L. Baxter](https://aireadi-32pq7h6nb-fairdataihub.vercel.app/team#Sally-Baxter), MD, MSc. Associate Professor of Ophthalmology and Biomedical Informatics, University of California San Diego
 
 ## Overview
 
@@ -31,10 +31,6 @@ Friday, October 11, 2024, 11 am - 12 pm PT
 
 ### Dial-in Information:
 
-https://uchealth.zoom.us/meeting/register/tZEsdOmqqDgiEtes2c8OVfCoFPZlZ2vxi6Hx
+https://uchealth.zoom.us/meeting/register/tZEsdOmqqDgiEtes2c8OVfCoFPZlZ2vxi6Hx.
 
-### Upcoming webinars schedule:
-
-https://dknet.org/about/webinar.
-
-More information about the webinar details may be found [here](https://dknet.org/about/blog/2776)!
+More information about the webinar may be found [here](https://dknet.org/about/blog/2776)!
