@@ -11,9 +11,9 @@ location: 'Online'
 
 ## Presenters:
 
-- [Cecilia Lee](https://aireadi-32pq7h6nb-fairdataihub.vercel.app/team#Cecilia-Lee), MD, MS. Professor, Klorfine Family Endowed Chair of Ophthalmology, University of Washington
-- [Bhavesh Patel](https://aireadi-32pq7h6nb-fairdataihub.vercel.app/team#Bhavesh-Patel), PhD. Research Professor, California Medical Innovations Institute
-- [Sally L. Baxter](https://aireadi-32pq7h6nb-fairdataihub.vercel.app/team#Sally-Baxter), MD, MSc. Associate Professor of Ophthalmology and Biomedical Informatics, University of California San Diego
+- [Cecilia Lee](/team#Cecilia-Lee), MD, MS. Professor, Klorfine Family Endowed Chair of Ophthalmology, University of Washington
+- [Bhavesh Patel](/team#Bhavesh-Patel), PhD. Research Professor, California Medical Innovations Institute
+- [Sally L. Baxter](/team#Sally-Baxter), MD, MSc. Associate Professor of Ophthalmology and Biomedical Informatics, University of California San Diego
 
 ## Overview
 

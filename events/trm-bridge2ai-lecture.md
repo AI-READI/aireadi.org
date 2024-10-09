@@ -21,4 +21,4 @@ Thursday, October 10, 2024, 12 pm - 3 pm EDT
 
 https://uclahs.zoom.us/j/96802224199
 
-More information about the webinar details may be found [here](https://drive.google.com/drive/u/0/folders/1LqvCyQos7w_N7is8Ux1VxFgEgckNHsMQ)!
+More information about the webinar may be found [here](https://drive.google.com/drive/u/0/folders/1LqvCyQos7w_N7is8Ux1VxFgEgckNHsMQ)!
