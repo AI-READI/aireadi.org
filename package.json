@@ -1,6 +1,6 @@
 {
   "name": "aireadi.org",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "private": true,
   "typings": "index.d.ts",
   "scripts": {
