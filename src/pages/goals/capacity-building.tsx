@@ -44,39 +44,8 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
           primaryButton='Learn more about the study'
         />
 
-        <section className='bg-sky-50 py-16'>
-          <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row-reverse'>
-            <div className='px-5 lg:max-w-2xl'>
-              <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
-                Monthly Speaker Series
-              </h1>
-              <p className='mb-6 text-lg text-gray-700 sm:mb-4'>
-                We are hosting a monthly speaker series related to the ethical,
-                social and legal implications of the AI-READI project and any
-                relevant issues that arise during the project implementation.
-              </p>
-
-              <div>
-                <ButtonLink
-                  href='/blog/category/Virtual%20Monthly%20Speaker%20Series'
-                  variant='outline'
-                >
-                  View the virtual series
-                </ButtonLink>
-              </div>
-            </div>
-            <div className='flex w-full items-center justify-center px-5 py-5'>
-              <img
-                className='rounded-lg'
-                src='https://images.unsplash.com/photo-1503428593586-e225b39bddfe?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-                alt='mockup'
-              />
-            </div>
-          </div>
-        </section>
-
         <section className='bg-slate-50 py-16'>
-          <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row'>
+          <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row-reverse'>
             <div className='px-5 lg:max-w-2xl'>
               <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
                 Internship Program
@@ -103,6 +72,44 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
               <img
                 className='rounded-lg'
                 src='https://ucarecdn.com/b6521517-979e-4ae4-baff-69ade647a982/'
+                alt='mockup'
+              />
+            </div>
+          </div>
+        </section>
+
+        <section className='bg-sky-50 py-16'>
+          <div className='mx-auto flex max-w-screen-xl flex-col items-center justify-between px-4 lg:flex-row'>
+            <div className='px-5 lg:max-w-2xl'>
+              <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
+                Bridge2AI Consortium's Training, Recruitment, and Mentoring
+                Learning Resource
+              </h1>
+              <p className='mb-6 text-lg text-gray-700 sm:mb-4'>
+                We are pleased to introduce the Bridge2AI Consortium's Training,
+                Recruitment, and Mentoring Learning Resource. This resource is
+                tailored for aspiring AI and biomedicine investigators, offering
+                foundational knowledge and essential tools to help you embark on
+                your journey in this transformative field. Explore the Bridge2AI
+                Grand Challenges and discover areas of interest, guided by
+                expert insights and educational content. This resource is
+                designed to support your growth and development as you pursue a
+                career at the intersection of AI and biomedicine.
+              </p>
+
+              <div>
+                <ButtonLink
+                  href='https://vimeo.com/bridge2aitraining'
+                  variant='outline'
+                >
+                  Learn more about the resource
+                </ButtonLink>
+              </div>
+            </div>
+            <div className='flex w-full items-center justify-center px-5 py-5'>
+              <img
+                className='rounded-lg'
+                src='https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGF0YSUyMHRyYWluaW5nfGVufDB8fDB8fHww'
                 alt='mockup'
               />
             </div>
