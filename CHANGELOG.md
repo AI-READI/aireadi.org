@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.5.0](https://github.com/AI-READI/aireadi.org/compare/v3.4.0...v3.5.0) (2024-10-16)
+
+
+### Features
+
+* ✨ add Bridge2AI Consortium's Training and Mentoring ([3909ba9](https://github.com/AI-READI/aireadi.org/commit/3909ba9866a539bd724489509b4c531218ec999b))
+
+
+### Bug Fixes
+
+* 🐛 sections ([7ecb56a](https://github.com/AI-READI/aireadi.org/commit/7ecb56ae987e12b2348c00aaab0e28d946d869ec))
+
 ## [3.4.0](https://github.com/AI-READI/aireadi.org/compare/v3.3.0...v3.4.0) (2024-10-09)
 
 
