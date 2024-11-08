@@ -1,5 +1,9 @@
 # Publications
 
+## Journal Articles
+
+- AI-READI Consortium. (2024). AI-READI: rethinking AI data collection, preparation and sharing in diabetes research and beyond. Nature Metabolism. https://doi.org/10.1038/s42255-024-01165-x
+
 ## Reports
 
 - Lee, A., Owen, J., Patel, B., Nebeker, C., Lee, C., Zangwill, L., Hurst, S., Singer, S., Li-Pook-Than, J., & Matthews, D. (2024). AI-READI Code of Conduct (2.0). Zenodo. [https://zenodo.org/records/13328255](https://zenodo.org/records/13328255)
