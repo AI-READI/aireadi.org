@@ -75,7 +75,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
               <div className='col-span-12'>
                 <div className='relative flex w-max flex-col space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0'>
                   <ButtonLink
-                    href='https://fairhub.io/datasets/1'
+                    href='https://fairhub.io/datasets/2'
                     variant='primary'
                   >
                     Access our data
@@ -292,7 +292,10 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                 </p>
 
                 <div className='flex items-center space-x-2'>
-                  <ButtonLink href='https://fairhub.io' variant='primary'>
+                  <ButtonLink
+                    href='https://fairhub.io/datasets/2'
+                    variant='primary'
+                  >
                     Access our data
                   </ButtonLink>
 
