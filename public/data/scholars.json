@@ -1,6 +1,7 @@
 [
   {
     "id": "Hadi-Khazaei",
+    "class": "2023-2024",
     "name": "Hadi Khazaei",
     "image": "https://ucarecdn.com/503173c5-1eb1-42bc-9005-c390fa8340bf/-/crop/face/200px160p/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "",
@@ -23,6 +24,7 @@
   },
   {
     "id": "Kyongmi-Simpkins",
+    "class": "2023-2024",
     "name": "Kyongmi Simpkins",
     "image": "https://ucarecdn.com/57e1acbd-2e97-41d4-bf70-d2355f1a9f8a/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/190px150p/",
@@ -42,6 +44,7 @@
   },
   {
     "id": "Anna-Heinke",
+    "class": "2023-2024",
     "name": "Anna Heinke",
     "image": "https://ucarecdn.com/45f1eb9a-b6f2-4b5e-9618-18189285af62/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px160p/",
@@ -72,6 +75,7 @@
   },
   {
     "id": "Nada-Haboudal",
+    "class": "2023-2024",
     "name": "Nada Haboudal",
     "image": "https://ucarecdn.com/12c60787-2733-4802-b96e-0a43bfa907c2/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px150p/",
@@ -101,6 +105,7 @@
   },
   {
     "id": "Shahin-Hallaj",
+    "class": "2023-2024",
     "name": "Shahin Hallaj",
     "image": "https://ucarecdn.com/a7686be0-dfda-4d71-91e3-e27812fccc00/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "",
@@ -129,6 +134,7 @@
   },
   {
     "id": "Fritz-Gerald-Kalaw",
+    "class": "2023-2024",
     "name": "Fritz Gerald Kalaw",
     "image": "https://ucarecdn.com/a711ef59-e368-4d0c-bb8e-ea2d6244322e/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "",
@@ -163,6 +169,7 @@
   },
   {
     "id": "Apoorva-Karsolia",
+    "class": "2023-2024",
     "name": "Apoorva Karsolia",
     "image": "https://ucarecdn.com/5f77b9d1-d9c5-4a7f-b62c-992a6a1e25e3/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px170p/",

@@ -50,9 +50,114 @@ interface Scholar {
   social: { linkedin?: string; resume?: string; medprofile?: string };
 }
 
+const ScholarsGrid: React.FC<{
+  scholars: Scholar[];
+  openModal: (scholarId: string) => void;
+}> = ({ scholars, openModal }) => {
+  return (
+    <motion.div
+      variants={FramerContainer}
+      initial='hidden'
+      whileInView='show'
+      viewport={{ once: true }}
+      className='mx-auto grid max-w-screen-xl gap-8 px-4 pb-8 pt-4 text-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-8 lg:px-6 lg:pb-16 lg:pt-8'
+    >
+      {scholars.map((scholar) => (
+        <motion.div
+          // variants={FadeFramerItem}
+          key={scholar.id + Math.random()}
+          id={scholar.id}
+        >
+          <div
+            className='flex h-full flex-col items-center justify-between rounded-lg border-solid bg-slate-50 px-4 py-4 transition-all'
+            key={scholar.name}
+          >
+            {scholar.tag.length > 0 ? (
+              <Wrap>
+                {scholar.tag.map((tag) => (
+                  <WrapItem key={tag}>
+                    <Badge
+                      className='mb-2'
+                      colorScheme={tag === '#OpenToWork' ? 'teal' : 'cyan'}
+                      fontSize='0.7em'
+                      variant='outline'
+                    >
+                      {tag}
+                    </Badge>
+                  </WrapItem>
+                ))}
+              </Wrap>
+            ) : (
+              <div className='mb-2 h-[18px]'></div>
+            )}
+
+            <div className='relative mx-auto mb-2 min-h-[350px] w-full sm:min-h-[250px]'>
+              <Image
+                src={`${scholar.image}${
+                  scholar.moduleImageParams != ''
+                    ? scholar.moduleImageParams
+                    : ''
+                }`}
+                alt={scholar.name + ' image'}
+                fill
+                placeholder='blur'
+                blurDataURL={scholar.blurDataURL}
+                className='h-full w-full rounded-lg object-cover object-center'
+                sizes='(max-width: 768px) 100vw, 50vw'
+              />
+            </div>
+
+            <h3 className='pb-1 text-2xl font-extrabold text-slate-800'>
+              {scholar.name}
+            </h3>
+
+            <Grid templateColumns='repeat(10, 1fr)'>
+              <GridItem>
+                <IoSchoolSharp size={20} />
+              </GridItem>
+
+              <GridItem colSpan={9}>
+                <p className='mb-2 ml-2 text-left font-semibold text-slate-600'>
+                  {scholar.education[0].degree}
+                </p>
+              </GridItem>
+
+              <GridItem>
+                <RiAwardFill size={20} />
+              </GridItem>
+
+              <GridItem colSpan={9}>
+                <Wrap>
+                  {scholar.expertise.map((expertise, index) => (
+                    <WrapItem key={index}>
+                      <Tag colorScheme='blue' size='sm'>
+                        {expertise}
+                      </Tag>
+                    </WrapItem>
+                  ))}
+                </Wrap>
+              </GridItem>
+            </Grid>
+
+            <Button
+              size='sm'
+              colorScheme='teal'
+              className='mt-5 place-content-end'
+              rightIcon={<BsPlusCircleDotted />}
+              onClick={() => openModal(scholar.id)}
+            >
+              Expand
+            </Button>
+          </div>
+        </motion.div>
+      ))}
+    </motion.div>
+  );
+};
+
 const ScholarsPage: React.FC<
   InferGetStaticPropsType<typeof getStaticProps>
-> = ({ AllScholars }) => {
+> = ({ AllScholars, Class23_24Scholars, Class24_25Scholars }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [selectedScholar, setSelectedScholar] = useState<Scholar | null>(null);
 
@@ -86,105 +191,25 @@ const ScholarsPage: React.FC<
             primaryButton='Learn more about the study'
           />
 
-          <motion.div
-            variants={FramerContainer}
-            initial='hidden'
-            whileInView='show'
-            viewport={{ once: true }}
-            className='mx-auto grid max-w-screen-xl gap-8 px-4 py-8 text-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-8 lg:px-6 lg:py-16'
-          >
-            {AllScholars.map((scholar) => (
-              <motion.div
-                // variants={FadeFramerItem}
-                key={scholar.id + Math.random()}
-                id={scholar.id}
-              >
-                <div
-                  className='flex h-full flex-col items-center justify-between rounded-lg border-solid bg-slate-50 px-4 py-4 transition-all'
-                  key={scholar.name}
-                >
-                  {scholar.tag.length > 0 ? (
-                    <Wrap>
-                      {scholar.tag.map((tag) => (
-                        <WrapItem key={tag}>
-                          <Badge
-                            className='mb-2'
-                            colorScheme={
-                              tag === '#OpenToWork' ? 'teal' : 'cyan'
-                            }
-                            fontSize='0.7em'
-                            variant='outline'
-                          >
-                            {tag}
-                          </Badge>
-                        </WrapItem>
-                      ))}
-                    </Wrap>
-                  ) : (
-                    <div className='mb-2 h-[18px]'></div>
-                  )}
+          <h2 className='pt-8 text-center text-3xl font-extrabold tracking-tight sm:text-4xl lg:pt-16'>
+            Current Class (2024-2025)
+          </h2>
 
-                  <div className='relative mx-auto mb-2 min-h-[350px] w-full sm:min-h-[250px]'>
-                    <Image
-                      src={`${scholar.image}${
-                        scholar.moduleImageParams != ''
-                          ? scholar.moduleImageParams
-                          : ''
-                      }`}
-                      alt={scholar.name + ' image'}
-                      fill
-                      placeholder='blur'
-                      blurDataURL={scholar.blurDataURL}
-                      className='h-full w-full rounded-lg object-cover object-center'
-                      sizes='(max-width: 768px) 100vw, 50vw'
-                    />
-                  </div>
+          <h3 className='pt-1 text-center text-xl font-bold text-slate-700 sm:text-2xl lg:pt-4'>
+            Coming soon...
+          </h3>
 
-                  <h3 className='pb-1 text-2xl font-extrabold text-slate-800'>
-                    {scholar.name}
-                  </h3>
+          <ScholarsGrid scholars={Class24_25Scholars} openModal={openModal} />
 
-                  <Grid templateColumns='repeat(10, 1fr)'>
-                    <GridItem>
-                      <IoSchoolSharp size={20} />
-                    </GridItem>
+          <h2 className='pt-3 text-center text-3xl font-extrabold tracking-tight sm:text-4xl'>
+            Alumni
+          </h2>
 
-                    <GridItem colSpan={9}>
-                      <p className='mb-2 ml-2 text-left font-semibold text-slate-600'>
-                        {scholar.education[0].degree}
-                      </p>
-                    </GridItem>
+          <h3 className='pt-1 text-center text-xl font-bold text-slate-700 sm:text-2xl lg:pt-4'>
+            Class of 2023-2024
+          </h3>
 
-                    <GridItem>
-                      <RiAwardFill size={20} />
-                    </GridItem>
-
-                    <GridItem colSpan={9}>
-                      <Wrap>
-                        {scholar.expertise.map((expertise, index) => (
-                          <WrapItem key={index}>
-                            <Tag colorScheme='blue' size='sm'>
-                              {expertise}
-                            </Tag>
-                          </WrapItem>
-                        ))}
-                      </Wrap>
-                    </GridItem>
-                  </Grid>
-
-                  <Button
-                    size='sm'
-                    colorScheme='teal'
-                    className='mt-5 place-content-end'
-                    rightIcon={<BsPlusCircleDotted />}
-                    onClick={() => openModal(scholar.id)}
-                  >
-                    Expand
-                  </Button>
-                </div>
-              </motion.div>
-            ))}
-          </motion.div>
+          <ScholarsGrid scholars={Class23_24Scholars} openModal={openModal} />
 
           <Modal isOpen={isOpen} onClose={onClose} isCentered size='3xl'>
             <ModalOverlay />
@@ -357,9 +382,19 @@ export const getStaticProps = async () => {
     return 0;
   });
 
+  const Class23_24Scholars = AllScholars.filter(
+    (scholar) => scholar.class === '2023-2024',
+  );
+
+  const Class24_25Scholars = AllScholars.filter(
+    (scholar) => scholar.class === '2024-2025',
+  );
+
   return {
     props: {
       AllScholars,
+      Class23_24Scholars,
+      Class24_25Scholars,
     },
   };
 };
