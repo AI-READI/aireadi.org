@@ -85,9 +85,7 @@
     "eslint-plugin-prettier": "^5.1.3",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-unused-imports": "^2.0.0",
-    "husky": "^7.0.4",
     "jest": "^27.5.1",
-    "lint-staged": "^12.5.0",
     "megasanjay-devmoji": "^1.2.1",
     "next-router-mock": "^0.7.4",
     "next-sitemap": "^2.5.28",
@@ -98,15 +96,6 @@
     "tailwindcss": "^3.2.2",
     "tailwindcss-debug-screens": "^2.2.1",
     "typescript": "^4.8.4"
-  },
-  "lint-staged": {
-    "./**/*.{ts,js,jsx,tsx}": [
-      "yarn lint --fix",
-      "yarn format"
-    ],
-    "**/*.{json,css,scss,md}": [
-      "prettier -w"
-    ]
   },
   "config": {
     "commitizen": {
