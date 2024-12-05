@@ -199,5 +199,34 @@
     "social": {
       "linkedin": "http://www.linkedin.com/in/apoorva-karsolia-47466873"
     }
+  },
+  {
+    "id": "Adelle-Engmann",
+    "class": "2024-2025",
+    "name": "Adelle Engmann",
+    "image": "https://ucarecdn.com/268db5fe-2a84-439b-a024-d0cfce508baf/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px140p/",
+    "tag": ["#OpenToWork"],
+    "education": [
+      {
+        "degree": "Masters in Computational Social Science",
+        "institution": "UC San Diego"
+      },
+      {
+        "degree": "Bachelors in Public Health with College Honors",
+        "institution": "University of Washington"
+      }
+    ],
+    "expertise": [
+      "AI & Digital Literacy",
+      "ESG & Sustainability",
+      "Data Analytics",
+      "Public Health"
+    ],
+    "about": "I am passionate about using technology to bring social change. As a dedicated public health professional and data analyst with experience in journalism, I bring a unique perspective that prioritizes accessibility, ethics, and culturally sensitive engagement.  I aim to foster impactful, solution-oriented strategies that enhance community resilience and improves digital literacy for underserved communities who need it the most.",
+    "after": "I am seeking industry-focused opportunities in the healthcare tech space, specializing in product and project development. With aspirations to grow as a dynamic leader, I aim to secure associate-level roles in product/project management, product strategy, or marketing. I am committed to advancing my interdisciplinary skills in health leadership, data analytics, and marketing to drive innovation at the intersection of social science and technology.",
+    "social": {
+      "linkedin": "http://www.linkedin.com/in/apoorva-karsolia-47466873"
+    }
   }
 ]

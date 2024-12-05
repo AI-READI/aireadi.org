@@ -195,7 +195,7 @@ const ScholarsPage: React.FC<
             Current Class (2024-2025)
           </h2>
 
-          <h3 className='pt-1 text-center text-xl font-bold text-slate-700 sm:text-2xl lg:pt-4'>
+          <h3 className='hidden pt-1 text-center text-xl font-bold text-slate-700 sm:text-2xl lg:pt-4'>
             Coming soon...
           </h3>
 

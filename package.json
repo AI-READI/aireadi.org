@@ -17,9 +17,6 @@
     "format:write": "prettier --write .",
     "format:check": "prettier -c .",
     "postbuild": "next-sitemap --config next-sitemap.config.js",
-    "prepare": "run-script-os",
-    "prepare:win32": "husky install",
-    "prepare:darwin:linux": "husky install && chmod ug+x .husky/*  && chmod ug+x .git/hooks/*",
     "commit": "cz",
     "semantic-release": "semantic-release"
   },
