@@ -38,6 +38,22 @@
     }
   },
   {
+    "id": "Adelle-Engmann",
+    "name": "Adelle Engmann",
+    "pronoun": "she/her",
+    "roles": ["AI-READI Intern"],
+    "department": "Stanford Deep Data Research Center ",
+    "organization": "Stanford University",
+    "location": "Stanford, CA",
+    "caption": "I am a computational social scientist with a public health background, passionate about integrating social science and technology to develop a community-centric approach to  digital health. I am collaborating with Dr. Amir Bahmani to create bioinformatics educational modules on diabetes management for the new Stanford Data Ocean certificate program.",
+    "image": "https://ucarecdn.com/268db5fe-2a84-439b-a024-d0cfce508baf/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px140p/",
+    "modules": ["data-sharing", "community-engagement"],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/adelle-e-64a857183/"
+    }
+  },
+  {
     "id": "Adrienne-Baer",
     "name": "Adrienne Baer",
     "pronoun": "",
