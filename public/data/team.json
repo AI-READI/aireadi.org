@@ -141,6 +141,23 @@
     }
   },
   {
+    "id": "Aya-Motoyoshi",
+    "name": "Aya Motoyoshi",
+    "pronoun": "",
+    "roles": ["Postdoctoral Scholar and AI-READI intern "],
+    "department": "Department of Ophthalmology",
+    "organization": "University of Washington",
+    "location": "Seattle, WA",
+    "caption": "As an AI-READI intern and postdoctoral scholar in the Department of Ophthalmology at the University of Washington, I am involved in data verification and analysis for the AI-READI project.",
+    "image": "https://ucarecdn.com/bcbc259b-f0df-4c9b-b602-d7c4da2d2481/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px160p/",
+    "modules": ["team-science", "data-sharing"],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/aya-motoyoshi-6a371b246/",
+      "website": ["https://researchmap.jp/motoyoshi.aya?lang=en"]
+    }
+  },
+  {
     "id": "Aydan-Gasimova",
     "name": "Aydan Gasimova",
     "pronoun": "she/her",
