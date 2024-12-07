@@ -180,12 +180,9 @@ const VizComponent = ({ width = 1424, height = 900 }) => {
 
   return (
     <div className='mx-auto flex max-w-screen-xl flex-col items-center px-8 lg:px-6'>
-      <ul className='w-full items-center rounded-lg border border-gray-200 bg-white text-sm font-medium text-gray-900 sm:flex'>
+      <ul className='w-full items-center divide-x rounded-lg border border-gray-200 bg-white py-1 text-sm font-medium text-gray-900 sm:flex'>
         {vizOptions.map((option) => (
-          <li
-            className='w-full border-b border-gray-200 sm:border-b-0 sm:border-r'
-            key={option.value}
-          >
+          <li className='w-full' key={option.value}>
             <div className='flex items-center ps-3'>
               <input
                 id={option.value}

@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { Stack, StackDivider, Tag, VStack } from '@chakra-ui/react';
+import { Divider, Stack, StackDivider, Tag, VStack } from '@chakra-ui/react';
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
 import { AddToCalendarButton } from 'add-to-calendar-button-react';
 import dayjs from 'dayjs';
@@ -20,6 +20,7 @@ import Layout from '@/components/layout/Layout';
 import ButtonLink from '@/components/links/ButtonLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
+import Viz from '@/components/Viz';
 
 import {
   FadeFramerItem,
@@ -269,6 +270,10 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   </motion.div>
                 </motion.div>
               </div>
+
+              <Divider />
+
+              <Viz />
             </div>
           </section>
 
