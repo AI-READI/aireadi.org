@@ -20,7 +20,6 @@ import Layout from '@/components/layout/Layout';
 import ButtonLink from '@/components/links/ButtonLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
-import Viz from '@/components/Viz';
 
 import {
   FadeFramerItem,
@@ -97,10 +96,6 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                 </div>
               </div>
             </div>
-          </section>
-
-          <section className='pb-8 pt-16'>
-            <Viz />
           </section>
 
           <section className='pb-8 pt-16'>

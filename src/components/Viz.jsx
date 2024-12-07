@@ -1,21 +1,34 @@
-import { HStack } from '@chakra-ui/react';
-import { Radio, RadioGroup } from '@chakra-ui/react';
 import * as d3 from 'd3';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 import VIZ_JSON from '~/data/viz.json';
 
-const Viz: React.FC = () => {
-  const [value, setValue] = useState('Default');
+const vizOptions = [
+  { value: 'state-def', label: 'Default' },
+  { value: 'state-group', label: 'T2DM Status' },
+  { value: 'state-age', label: 'Decade' },
+  { value: 'state-site', label: 'Site' },
+  { value: 'state-split', label: 'Splits' },
+  { value: 'state-Clinical', label: 'Clinical' },
+  { value: 'state-ECG', label: 'ECG' },
+  { value: 'state-FLIO', label: 'FLIO' },
+  { value: 'state-OCT', label: 'OCT' },
+  { value: 'state-OCTA', label: 'OCTA' },
+  { value: 'state-CFP', label: 'CFP' },
+];
 
+const VizComponent = ({ width = 1424, height = 900 }) => {
   useEffect(() => {
     const data = VIZ_JSON;
 
-    const getSelectedStateId = () => {
-      return value;
-    };
+    function getSelectedStateId() {
+      const selectedRadio = document.querySelector(
+        'input[name="state"]:checked',
+      );
+      return selectedRadio ? selectedRadio.id : null;
+    }
 
-    const countUniqueValues = () => {
+    function countUniqueValues(data) {
       const uniqueCounts = {};
 
       data.forEach((item) => {
@@ -43,20 +56,18 @@ const Viz: React.FC = () => {
           uniqueCounts[key] = ['train', 'val', 'test'];
         }
         const width = 1200;
-        for (let i = 0; i < l; i++) {
+        for (var i = 0; i < l; i++) {
           result[key][uniqueCounts[key][i]] =
             (i * width) / l + width / (2 * l) - 600;
         }
       });
 
       return result;
-    };
+    }
 
-    const draw = (nodes = data) => {
+    (function (nodes = data) {
       const nodeUniqes = countUniqueValues(nodes);
-      console.log(nodeUniqes);
-      const width = 1424;
-      const height = 900;
+
       const xyforce = 0.039;
       const alphatarget = 0.001;
       const alphadecay = 0.01;
@@ -88,7 +99,7 @@ const Viz: React.FC = () => {
         simulation.force(
           'x',
           d3
-            .forceX(function (d, i) {
+            .forceX(function (d, _i) {
               const state = getSelectedStateId();
               const k = state.split('-')[1];
               if (state == 'state-def') {
@@ -108,9 +119,9 @@ const Viz: React.FC = () => {
         context.save();
         context.translate(width / 2, height / 2);
         const state = getSelectedStateId();
-        if (state != 'state-def') {
+        if (state && state != 'state-def') {
           const k = state.split('-')[1];
-          const mids = {};
+          let mids = {};
           for (let i = 0; i < nodes.length; ++i) {
             const d = nodes[i];
             if (!(d[k] in mids)) {
@@ -119,7 +130,7 @@ const Viz: React.FC = () => {
             mids[d[k]].push(d.x);
           }
           Object.keys(mids).forEach((mk) => {
-            let avg = 0;
+            var avg = 0;
             mids[mk].forEach((mkv) => (avg += mkv));
             avg = avg / mids[mk].length;
 
@@ -162,39 +173,41 @@ const Viz: React.FC = () => {
 
       // Add event listeners to the buttons
       radioButtons.forEach((radio) => {
-        radio.addEventListener('change', () => {
-          // Call updateTargetPositions with the ID of the selected button
-          updateTargetPositions(radio.id);
-        });
+        radio.addEventListener('change', updateTargetPositions);
       });
-    };
-
-    draw();
-  }, [value]);
+    })();
+  }, [height, width]);
 
   return (
-    <div className=''>
-      <RadioGroup onChange={setValue} value={value}>
-        <HStack gap='6'>
-          <Radio value='Default'>Default</Radio>
-          <Radio value='T2DM Status'>T2DM Status</Radio>
-          <Radio value='Decade'>Decade</Radio>
-          <Radio value='Site'>Site</Radio>
-          <Radio value='Splits'>Splits</Radio>
-          <Radio value='Clinical'>Clinical</Radio>
-          <Radio value='ECG'>ECG</Radio>
-          <Radio value='FLIO'>FLIO</Radio>
-          <Radio value='OCT'>OCT</Radio>
-          <Radio value='OCTA'>OCTA</Radio>
-          <Radio value='CFP'>CFP</Radio>
-        </HStack>
-      </RadioGroup>
-
-      <pre>{value}</pre>
+    <div className='mx-auto flex max-w-screen-xl flex-col items-center px-8 lg:px-6'>
+      <ul className='w-full items-center rounded-lg border border-gray-200 bg-white text-sm font-medium text-gray-900 sm:flex'>
+        {vizOptions.map((option) => (
+          <li
+            className='w-full border-b border-gray-200 sm:border-b-0 sm:border-r'
+            key={option.value}
+          >
+            <div className='flex items-center ps-3'>
+              <input
+                id={option.value}
+                type='radio'
+                defaultChecked={option.value === 'state-def'}
+                name='state'
+                className='h-4 w-4 border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500'
+              />
+              <label
+                htmlFor={option.value}
+                className='ms-2 w-full py-3 text-sm font-medium text-gray-900'
+              >
+                {option.label}
+              </label>
+            </div>
+          </li>
+        ))}
+      </ul>
 
       <canvas id='viz'></canvas>
     </div>
   );
 };
 
-export default Viz;
+export default VizComponent;

@@ -56,6 +56,10 @@ const regularLinks = [
     title: 'Events',
   },
   {
+    href: '/dataset',
+    title: 'Dataset',
+  },
+  {
     href: '/scholars',
     title: 'Scholars',
   },
