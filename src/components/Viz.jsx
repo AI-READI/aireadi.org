@@ -229,7 +229,7 @@ const VizComponent = () => {
               />
               <label
                 htmlFor={option.value}
-                className='w-full py-3 ps-2 text-sm font-medium text-gray-900'
+                className='w-max px-2 py-3 text-sm font-medium text-gray-900'
               >
                 {option.label}
               </label>
