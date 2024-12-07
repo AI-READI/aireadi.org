@@ -1,5 +1,5 @@
 import * as d3 from 'd3';
-import { useEffect } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 import VIZ_JSON from '~/data/viz.json';
 
@@ -17,9 +17,40 @@ const vizOptions = [
   { value: 'state-CFP', label: 'CFP' },
 ];
 
-const VizComponent = ({ width = 1424, height = 900 }) => {
+const VizComponent = () => {
+  const canvasRef = useRef(null);
+  const containerRef = useRef(null);
+  const [dimensions, setDimensions] = useState({ width: 1424, height: 900 });
+
+  useEffect(() => {
+    // Resize handler
+    const handleResize = () => {
+      if (containerRef.current) {
+        const containerWidth = containerRef.current.clientWidth;
+        const newHeight = Math.min(
+          containerWidth * 0.6,
+          window.innerHeight * 0.7,
+        );
+        setDimensions({
+          width: containerWidth,
+          height: newHeight,
+        });
+      }
+    };
+
+    // Initial resize
+    handleResize();
+
+    // Add resize listener
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup listener
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   useEffect(() => {
     const data = VIZ_JSON;
+    const { width, height } = dimensions;
 
     function getSelectedStateId() {
       const selectedRadio = document.querySelector(
@@ -55,10 +86,12 @@ const VizComponent = ({ width = 1424, height = 900 }) => {
         } else if (key == 'split') {
           uniqueCounts[key] = ['train', 'val', 'test'];
         }
-        const width = 1200;
+        const adjustedWidth = width * 0.85;
         for (var i = 0; i < l; i++) {
           result[key][uniqueCounts[key][i]] =
-            (i * width) / l + width / (2 * l) - 600;
+            (i * adjustedWidth) / l +
+            adjustedWidth / (2 * l) -
+            adjustedWidth / 2;
         }
       });
 
@@ -73,7 +106,7 @@ const VizComponent = ({ width = 1424, height = 900 }) => {
       const alphadecay = 0.01;
       const forcecollide = 0.25;
 
-      const canvas = document.getElementById('viz');
+      const canvas = canvasRef.current;
       canvas.width = width;
       canvas.height = height;
       const context = canvas.getContext('2d');
@@ -81,7 +114,7 @@ const VizComponent = ({ width = 1424, height = 900 }) => {
 
       const simulation = d3
         .forceSimulation(nodes)
-        .alphaTarget(alphatarget) // stay hot
+        .alphaTarget(alphatarget)
         .alphaDecay(alphadecay)
         .force('x', d3.forceX().strength(xyforce))
         .force('y', d3.forceY().strength(xyforce))
@@ -137,11 +170,11 @@ const VizComponent = ({ width = 1424, height = 900 }) => {
             context.lineWidth = 5;
             context.setLineDash([15, 15]);
             context.beginPath();
-            context.moveTo(avg, height / 2); // Starting point
-            context.lineTo(avg, (-1 * height) / 2 + 100); // Ending point
+            context.moveTo(avg, height / 2);
+            context.lineTo(avg, (-1 * height) / 2 + 100);
             context.stroke();
 
-            context.font = '24px Arial';
+            context.font = `${Math.max(14, width * 0.015)}px Arial`;
             context.textAlign = 'center';
             context.textBaseline = 'bottom';
             context.fillText(
@@ -151,7 +184,7 @@ const VizComponent = ({ width = 1424, height = 900 }) => {
             );
           });
         } else {
-          context.font = '24px Arial';
+          context.font = `${Math.max(14, width * 0.015)}px Arial`;
           context.textAlign = 'center';
           context.textBaseline = 'bottom';
           context.fillText('(n = 1067)', 0, (-1 * height) / 2 + 75);
@@ -176,10 +209,13 @@ const VizComponent = ({ width = 1424, height = 900 }) => {
         radio.addEventListener('change', updateTargetPositions);
       });
     })();
-  }, [height, width]);
+  }, [dimensions]);
 
   return (
-    <div className='mx-auto flex max-w-screen-xl flex-col items-center px-8 lg:px-6'>
+    <div
+      ref={containerRef}
+      className='mx-auto flex max-w-screen-xl flex-col items-center px-8 lg:px-6'
+    >
       <ul className='w-full items-center divide-x rounded-lg border border-gray-200 bg-white py-1 text-sm font-medium text-gray-900 sm:flex'>
         {vizOptions.map((option) => (
           <li className='w-full' key={option.value}>
@@ -202,7 +238,7 @@ const VizComponent = ({ width = 1424, height = 900 }) => {
         ))}
       </ul>
 
-      <canvas id='viz'></canvas>
+      <canvas ref={canvasRef} id='viz' className='w-full' />
     </div>
   );
 };
