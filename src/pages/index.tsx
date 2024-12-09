@@ -56,9 +56,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
         <main>
           <SkipNavContent />
 
-          <section
-            className={`relative flex h-[60vh] min-h-[600px] w-full items-center justify-center text-white before:absolute before:left-0 before:top-0 before:h-full before:w-full before:bg-home-hero-image before:bg-cover before:bg-center before:bg-no-repeat before:brightness-[0.3] before:content-[''] md:h-[40vh]`}
-          >
+          <section className="relative flex h-[60vh] min-h-[600px] w-full items-center justify-center text-white before:absolute before:left-0 before:top-0 before:h-full before:w-full before:bg-home-hero-image before:bg-cover before:bg-center before:bg-no-repeat before:brightness-[0.3] before:content-[''] md:h-[40vh]">
             <div className='mx-auto grid max-w-screen-xl flex-col px-6 py-16 md:grid-cols-12 md:gap-8 lg:py-16 xl:gap-0'>
               <div className='col-span-12 mr-auto place-self-center md:col-span-8'>
                 <h1 className='relative pb-5 text-4xl font-black text-white sm:text-5xl'>
