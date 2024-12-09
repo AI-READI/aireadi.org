@@ -1,5 +1,24 @@
 # Changelog
 
+## [3.5.0](https://github.com/AI-READI/aireadi.org/compare/v3.4.0...v3.5.0) (2024-12-09)
+
+
+### Features
+
+* ✨ add Bridge2AI Consortium's Training and Mentoring ([3909ba9](https://github.com/AI-READI/aireadi.org/commit/3909ba9866a539bd724489509b4c531218ec999b))
+* ✨ add new scholars section support ([38de600](https://github.com/AI-READI/aireadi.org/commit/38de600e6455ef39e8eefa6f52da8eba25c6ace5))
+
+
+### Bug Fixes
+
+* 🐛 access our data button to new dataset link ([17ffc8c](https://github.com/AI-READI/aireadi.org/commit/17ffc8c50ed314dc19701b41d30668e182127009))
+* 🐛 add & modify data in the publications page ([67b0849](https://github.com/AI-READI/aireadi.org/commit/67b0849a3907a26b5b44e4e6d8c61f2cebe514d9))
+* 🐛 change header's sequence ([78ed436](https://github.com/AI-READI/aireadi.org/commit/78ed436ce44ccb9e4a45b266c28c1964ea36f71c))
+* 🐛 citations and add software section ([#50](https://github.com/AI-READI/aireadi.org/issues/50)) ([d111fea](https://github.com/AI-READI/aireadi.org/commit/d111feacb8b179f6b358df20ff4893c9816782a8))
+* 🐛 DOI link in data collection ([e1c88c6](https://github.com/AI-READI/aireadi.org/commit/e1c88c6913170501149a0ade9a2ddcda7c058727))
+* 🐛 sections ([7ecb56a](https://github.com/AI-READI/aireadi.org/commit/7ecb56ae987e12b2348c00aaab0e28d946d869ec))
+* 🐛 update typo ([5bf4f1c](https://github.com/AI-READI/aireadi.org/commit/5bf4f1c612cc9f0b24913db31b85dc0eb3157dda))
+
 ## [3.4.0](https://github.com/AI-READI/aireadi.org/compare/v3.3.0...v3.4.0) (2024-10-09)
 
 
