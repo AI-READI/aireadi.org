@@ -48,16 +48,16 @@ const goals = [
 
 const regularLinks = [
   {
+    href: '/dataset',
+    title: 'Dataset',
+  },
+  {
     href: '/team',
     title: 'Team',
   },
   {
     href: '/events',
     title: 'Events',
-  },
-  {
-    href: '/dataset',
-    title: 'Dataset',
   },
   {
     href: '/scholars',

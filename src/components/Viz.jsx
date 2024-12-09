@@ -52,14 +52,14 @@ const VizComponent = () => {
     const data = VIZ_JSON;
     const { width, height } = dimensions;
 
-    function getSelectedStateId() {
+    const  getSelectedStateId = () => {
       const selectedRadio = document.querySelector(
         'input[name="state"]:checked',
       );
       return selectedRadio ? selectedRadio.id : null;
     }
 
-    function countUniqueValues(data) {
+    const countUniqueValues = (data) => {
       const uniqueCounts = {};
 
       data.forEach((item) => {
@@ -87,7 +87,7 @@ const VizComponent = () => {
           uniqueCounts[key] = ['train', 'val', 'test'];
         }
         const adjustedWidth = width * 0.85;
-        for (var i = 0; i < l; i++) {
+        for (let i = 0; i < l; i++) {
           result[key][uniqueCounts[key][i]] =
             (i * adjustedWidth) / l +
             adjustedWidth / (2 * l) -
@@ -128,7 +128,7 @@ const VizComponent = () => {
         )
         .on('tick', ticked);
 
-      function updateTargetPositions() {
+      const updateTargetPositions = () => {
         simulation.force(
           'x',
           d3
@@ -147,6 +147,7 @@ const VizComponent = () => {
         simulation.alpha(1).restart();
       }
 
+      // sourcery skip: avoid-function-declarations-in-blocks
       function ticked() {
         context.clearRect(0, 0, width, height);
         context.save();
@@ -163,9 +164,9 @@ const VizComponent = () => {
             mids[d[k]].push(d.x);
           }
           Object.keys(mids).forEach((mk) => {
-            var avg = 0;
+            let avg = 0;
             mids[mk].forEach((mkv) => (avg += mkv));
-            avg = avg / mids[mk].length;
+            avg /= mids[mk].length;
 
             context.lineWidth = 5;
             context.setLineDash([15, 15]);
@@ -238,7 +239,7 @@ const VizComponent = () => {
         ))}
       </ul>
 
-      <canvas ref={canvasRef} id='viz' className='w-full' />
+      <canvas ref={canvasRef} id='viz' className='w-full p-4 m-4' />
     </div>
   );
 };
