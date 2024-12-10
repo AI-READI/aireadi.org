@@ -906,6 +906,20 @@
     "social": {}
   },
   {
+    "id": "Taiki-Nishihara",
+    "name": "Taiki Nishihara",
+    "pronoun": "he/him",
+    "roles": ["Medical Student Researcher"],
+    "department": "Viterbi Family Department of Ophthalmology",
+    "organization": "University of California, San Diego",
+    "location": "San Diego, CA",
+    "caption": "I am a medical student at UC San Diego School of Medicine pursuing a career in ophthalmology. As an AI-READI intern this year, my focus is on applying deep learning techniques to analyze retinal images and investigate AI applications in ophthalmology.",
+    "image": "https://ucarecdn.com/893f0613-6795-40b9-baa8-8f16507ef780/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px160p/",
+    "modules": ["data-collection"],
+    "social": {}
+  },
+  {
     "id": "Victoria-Patronilo",
     "name": "Victoria Patronilo",
     "pronoun": "",

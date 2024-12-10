@@ -1,8 +1,8 @@
 [
   {
     "id": "Hadi-Khazaei",
-    "class": "2023-2024",
     "name": "Hadi Khazaei",
+    "class": "2023-2024",
     "image": "https://ucarecdn.com/503173c5-1eb1-42bc-9005-c390fa8340bf/-/crop/face/200px160p/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "",
     "tag": ["#OpenToWork", "#OpenToVolunteer"],
@@ -24,8 +24,8 @@
   },
   {
     "id": "Kyongmi-Simpkins",
-    "class": "2023-2024",
     "name": "Kyongmi Simpkins",
+    "class": "2023-2024",
     "image": "https://ucarecdn.com/57e1acbd-2e97-41d4-bf70-d2355f1a9f8a/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/190px150p/",
     "tag": ["#OpenToWork"],
@@ -44,8 +44,8 @@
   },
   {
     "id": "Anna-Heinke",
-    "class": "2023-2024",
     "name": "Anna Heinke",
+    "class": "2023-2024",
     "image": "https://ucarecdn.com/45f1eb9a-b6f2-4b5e-9618-18189285af62/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px160p/",
     "tag": ["#OpenToWork"],
@@ -75,8 +75,8 @@
   },
   {
     "id": "Nada-Haboudal",
-    "class": "2023-2024",
     "name": "Nada Haboudal",
+    "class": "2023-2024",
     "image": "https://ucarecdn.com/12c60787-2733-4802-b96e-0a43bfa907c2/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px150p/",
     "tag": ["#OpenToWork", "#OpenToVolunteer"],
@@ -105,8 +105,8 @@
   },
   {
     "id": "Shahin-Hallaj",
-    "class": "2023-2024",
     "name": "Shahin Hallaj",
+    "class": "2023-2024",
     "image": "https://ucarecdn.com/a7686be0-dfda-4d71-91e3-e27812fccc00/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "",
     "tag": ["#OpenToVolunteer"],
@@ -134,8 +134,8 @@
   },
   {
     "id": "Fritz-Gerald-Kalaw",
-    "class": "2023-2024",
     "name": "Fritz Gerald Kalaw",
+    "class": "2023-2024",
     "image": "https://ucarecdn.com/a711ef59-e368-4d0c-bb8e-ea2d6244322e/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "",
     "tag": ["#OpenToWork", "#OpenToVolunteer"],
@@ -169,8 +169,8 @@
   },
   {
     "id": "Apoorva-Karsolia",
-    "class": "2023-2024",
     "name": "Apoorva Karsolia",
+    "class": "2023-2024",
     "image": "https://ucarecdn.com/5f77b9d1-d9c5-4a7f-b62c-992a6a1e25e3/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px170p/",
     "tag": ["#OpenToWork"],
@@ -202,8 +202,8 @@
   },
   {
     "id": "Adelle-Engmann",
-    "class": "2024-2025",
     "name": "Adelle Engmann",
+    "class": "2024-2025",
     "image": "https://ucarecdn.com/268db5fe-2a84-439b-a024-d0cfce508baf/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px140p/",
     "tag": ["#OpenToWork"],
@@ -231,8 +231,8 @@
   },
   {
     "id": "Aya-Motoyoshi",
-    "class": "2024-2025",
     "name": "Aya Motoyoshi",
+    "class": "2024-2025",
     "image": "https://ucarecdn.com/bcbc259b-f0df-4c9b-b602-d7c4da2d2481/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px160p/",
     "tag": ["#OpenToWork", "#OpenToVolunteer"],
@@ -254,11 +254,35 @@
       "Retina",
       "Basic Medicine"
     ],
-    "about": "I was born and raised in Tokyo, Japan. I previously worked as an ophthalmologist for about 6 years with a board certification in Japan. And I took a PhD in medicine by researching retina regeneration using mice and rats. I am interested in AI and Ophthalmology, especially the retina. I hope to continue researching to prevent vision loss. I am now learning how to analyze data and how to use AI/ML by using R and Python to contribute to advancements in the field of medicine. When I’m not working, I enjoy spending time with my cat, my husband, and doing ballet to relax and recharge.",
+    "about": "I was born and raised in Tokyo, Japan. I previously worked as an ophthalmologist for about 6 years with a board certification in Japan. And I took a PhD in medicine by researching retina regeneration using mice and rats. I am interested in AI and Ophthalmology, especially the retina. I hope to continue researching to prevent vision loss. I am now learning how to analyze data and how to use AI/ML by using R and Python to contribute to advancements in the field of medicine. When I'm not working, I enjoy spending time with my cat, my husband, and doing ballet to relax and recharge.",
     "after": "I am seeking opportunities to leverage my expertise in ophthalmology and vision science, AI/ML and data analysis to address complex challenges. I am particularly interested in roles that involve developing innovative models, analyzing large-scale datasets, and applying machine learning techniques to improve patient outcomes and advance research in academia or industry. I am looking for opportunities in a research-focused team where innovation and interdisciplinary collaboration drive impactful discoveries. I am currently on a J-1 visa sponsored by the University of Washington, so I will need a visa sponsorship for my position.",
     "social": {
       "linkedin": "https://www.linkedin.com/in/aya-motoyoshi-6a371b246/",
       "resume": "https://researchmap.jp/motoyoshi.aya?lang=en"
+    }
+  },
+  {
+    "id": "Taiki-Nishihara",
+    "name": "Taiki Nishihara",
+    "class": "2024-2025",
+    "image": "https://ucarecdn.com/893f0613-6795-40b9-baa8-8f16507ef780/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px160p/",
+    "tag": ["#OpenToWork"],
+    "education": [
+      {
+        "degree": "MD Candidate",
+        "institution": "UC San Diego School of Medicine"
+      },
+      {
+        "degree": "Bachelors in Molecular and Cell Biology",
+        "institution": "UC Berkeley"
+      }
+    ],
+    "expertise": ["Ophthalmology", "AI/ML", "Medicine", "Data Science"],
+    "about": "I am a medical student at UC San Diego School of Medicine with a strong interest in pursuing a career in ophthalmology. My research background includes statistical analysis and clinical modeling, utilizing techniques such as Markov models to investigate innovative solutions in ophthalmology. As an AI-READI intern this year, I am focused on exploring the clinical applications of AI and machine learning in ophthalmology, with a particular emphasis on retinal imaging analysis. When not working, I enjoy taking my dog to the nearest dog beach!",
+    "after": "After completing the AI-READI internship, I plan to apply for residency programs in ophthalmology. Throughout my career, I'm eager to leverage the knowledge and skills gained during this experience to contribute to translational AI research and advancements in eye care.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/taiki-nishihara/"
     }
   }
 ]
