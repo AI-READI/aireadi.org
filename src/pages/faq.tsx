@@ -84,15 +84,88 @@ export default function ContactUs() {
                   <p className=''>
                     You should receive the link typically within 2 weeks if not
                     sooner depending on the number of requests we receive during
-                    that time. If you have not received it after 3 weeks, please
-                    reach out to us through our{' '}
+                    that time. If you have any issues or questions regarding
+                    your data download request, please contact
                     <UnderlineLink
-                      href='https://aireadi.org/contact'
+                      href='mailto:aireadi-dac@ohsu.edu'
                       className='text-sky-600'
                     >
-                      contact form
+                      AI-READI Data Access Committee
                     </UnderlineLink>
                     .
+                  </p>
+                </dd>
+              </div>
+
+              <div className='grid-cols-12 gap-10 border-t py-10 lg:grid'>
+                <dt className='col-span-5 text-xl font-medium'>
+                  Does the dataset include EHR data or patient visit summaries?
+                  Will there be a version with PHI data?
+                </dt>
+                <dd className='col-span-7 mt-2 text-lg md:mt-0'>
+                  <p className=''>
+                    Currently, the dataset does not include EHR data, but this
+                    may be added in future releases. Patient visit summaries are
+                    not planned to be shared. A version of the dataset with PHI
+                    data is under consideration, but details and a release
+                    timeline are not yet available.
+                  </p>
+                </dd>
+              </div>
+
+              <div className='grid-cols-12 gap-10 border-t py-10 lg:grid'>
+                <dt className='col-span-5 text-xl font-medium'>
+                  Can we access diabetes medication information to aid our
+                  analysis?
+                </dt>
+                <dd className='col-span-7 mt-2 text-lg md:mt-0'>
+                  <p className=''>
+                    Medication data, including diabetes medications, is part of
+                    the protected dataset and is not currently available for
+                    general access.
+                  </p>
+                </dd>
+              </div>
+
+              <div className='grid-cols-12 gap-10 border-t py-10 lg:grid'>
+                <dt className='col-span-5 text-xl font-medium'>
+                  Does the dataset include image grading data or labels?
+                </dt>
+                <dd className='col-span-7 mt-2 text-lg md:mt-0'>
+                  <p className=''>
+                    The dataset does not include grading data for images, but
+                    the images themselves are available for analysis.
+                  </p>
+                </dd>
+              </div>
+
+              <div className='grid-cols-12 gap-10 border-t py-10 lg:grid'>
+                <dt className='col-span-5 text-xl font-medium'>
+                  What is the structure and composition of the dataset? Does it
+                  include longitudinal data?
+                </dt>
+                <dd className='col-span-7 mt-2 text-lg md:mt-0'>
+                  <p className=''>
+                    The dataset includes information on the number of
+                    participants and various data points. Details about the
+                    dataset's structure and any available longitudinal data can
+                    be found in the documentation.
+                  </p>
+                </dd>
+              </div>
+
+              <div className='grid-cols-12 gap-10 border-t py-10 lg:grid'>
+                <dt className='col-span-5 text-xl font-medium'>
+                  Were participants asked to fast before blood tests, and is
+                  fasting duration data available?
+                </dt>
+                <dd className='col-span-7 mt-2 text-lg md:mt-0'>
+                  <p className=''>
+                    Participants were not required to fast before their blood
+                    tests due to practical and health considerations. However,
+                    they were asked to report how long it had been since their
+                    last meal before the blood draw, and this information is
+                    included in the dataset.
                   </p>
                 </dd>
               </div>

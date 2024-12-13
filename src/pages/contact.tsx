@@ -37,7 +37,19 @@ export default function ContactUs() {
                 first - the answer to your question could be there!
               </p>
 
-              <p className='mb-7 text-center text-sm font-normal text-slate-400'>
+              <p className='my-2 w-full rounded-lg bg-blue-50 p-2 text-center text-base font-normal text-slate-600'>
+                For questions or issues related to data access or download
+                please send an email to the{' '}
+                <UnderlineLink
+                  href='mailto:aireadi-dac@ohsu.edu'
+                  className='text-sky-600'
+                >
+                  AI-READI Data Access Committee
+                </UnderlineLink>
+                .
+              </p>
+
+              <p className='my-2 w-full rounded-lg bg-emerald-50 p-2 text-center text-base font-normal text-slate-600'>
                 Note that we are mostly looking for feedback at this moment but
                 will try our best to answer questions. Please use an
                 institutional email for faster response and preventing your
@@ -50,7 +62,7 @@ export default function ContactUs() {
                 width='100%'
                 height='276'
                 title='AI-READI Contact Form'
-              ></iframe>
+              />
             </div>
           </section>
         </main>
