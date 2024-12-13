@@ -48,7 +48,7 @@ const Dataset: React.FC = () => {
             </div>
           </section>
 
-          <section className='pb-16 pt-4 bg-slate-50'>
+          <section className='bg-slate-50 pb-16 pt-4'>
             <div className='px-8'>
               <div className='m-2 mx-auto max-w-screen-xl rounded-lg p-4 text-center'>
                 <h1 className='mb-2 text-3xl font-bold tracking-tight sm:text-4xl'>
