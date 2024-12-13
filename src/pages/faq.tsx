@@ -84,7 +84,7 @@ export default function ContactUs() {
                   <p className=''>
                     You should receive the link typically within 2 weeks if not
                     sooner depending on the number of requests we receive during
-                    that time. If you are have any issues or questions regarding
+                    that time. If you have any issues or questions regarding
                     your data download request, please contact
                     <UnderlineLink
                       href='mailto:aireadi-dac@ohsu.edu'
