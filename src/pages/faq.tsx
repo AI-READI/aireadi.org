@@ -84,13 +84,13 @@ export default function ContactUs() {
                   <p className=''>
                     You should receive the link typically within 2 weeks if not
                     sooner depending on the number of requests we receive during
-                    that time. If you have not received it after 3 weeks, please
-                    reach out to us through our{' '}
+                    that time. If you are have any issues or questions regarding
+                    your data download request, please contact
                     <UnderlineLink
-                      href='https://aireadi.org/contact'
+                      href='mailto:aireadi-dac@ohsu.edu'
                       className='text-sky-600'
                     >
-                      contact form
+                      AI-READI Data Access Committee
                     </UnderlineLink>
                     .
                   </p>
