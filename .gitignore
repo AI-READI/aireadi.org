@@ -42,6 +42,3 @@ sitemap.xml
 sitemap-*.xml
 test.html
 ignore/
-yarn.lock
-.yarnrc.yml
-yarn.lock
