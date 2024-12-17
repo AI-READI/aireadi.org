@@ -12,6 +12,7 @@ import { HiUserGroup } from 'react-icons/hi';
 import { IoSchoolSharp } from 'react-icons/io5';
 import { MdLocationOn } from 'react-icons/md';
 import { RiInstagramFill } from 'react-icons/ri';
+import { SiGooglescholar } from 'react-icons/si';
 
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
@@ -212,6 +213,20 @@ const TeamPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
                             className='cursor-newtab'
                           >
                             <FaHospitalUser size={22} />
+                            <span className='sr-only'> website </span>
+                          </a>
+                        </li>
+                      )}
+
+                      {'googleScholar' in member.social && (
+                        <li className='flex items-center justify-center text-gray-500 transition-all hover:text-sky-600'>
+                          <a
+                            href={member.social.googleScholar}
+                            rel='noopener noreferrer'
+                            target='_blank'
+                            className='cursor-newtab'
+                          >
+                            <SiGooglescholar size={22} />
                             <span className='sr-only'> website </span>
                           </a>
                         </li>

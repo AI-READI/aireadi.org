@@ -27,7 +27,7 @@
     "department": "Department of Ophthalmology",
     "organization": "University of Washington",
     "location": "Seattle, WA",
-    "cd caption": "Aaron Lee is the overall principal investigator for the AI-READI project and the co-lead for the Standards module.",
+    "caption": "Aaron Lee is the overall principal investigator for the AI-READI project and the co-lead for the Standards module.",
     "image": "https://ucarecdn.com/9e75ff67-3bbe-4d0b-93f7-52d72dd551ad/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
     "moduleImageParams": "-/crop/face/200px150p/",
     "modules": ["team-science", "data-collection", "data-sharing"],
@@ -505,6 +505,36 @@
     }
   },
   {
+    "id": "Jessica-Mitchell",
+    "name": "Jessica Mitchell",
+    "pronoun": "she/her",
+    "roles": ["Research Project Manager"],
+    "department": "Biomedical Informatics & Data Science Group",
+    "organization": "Johns Hopkins University School of Medicine",
+    "location": "Winston-Salem, NC",
+    "caption": "I am a Research Project Manager working with the Johns Hopkins University team on EHR extraction and mapping AI-READI data into the OMOP Common Data Model.",
+    "image": "https://ucarecdn.com/cf94f893-f997-47a5-b122-fd18b7e7c2f1/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px160p/",
+    "modules": ["data-sharing"],
+    "social": {}
+  },
+  {
+    "id": "Jorge-Contreras",
+    "name": "Jorge Contreras",
+    "pronoun": "He/him",
+    "roles": ["Professor"],
+    "department": "S.J. Quinney College of Law",
+    "organization": "University of Utah",
+    "location": "Salt Lake City, UT",
+    "caption": "I am a lawyer and law professor who conducts research on intellectual property transactions including data sharing and licensing.",
+    "image": "https://ucarecdn.com/1653b032-773c-4bdf-865c-9105a2b1e483/-/crop/face/200px200p/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px160p/",
+    "modules": ["data-sharing"],
+    "social": {
+      "profiles": "https://faculty.utah.edu/u0989706-JORGE_L_CONTRERAS/hm/index.hml"
+    }
+  },
+  {
     "id": "Joseph-Yracheta",
     "name": "Joseph Yracheta",
     "pronoun": "",
@@ -706,6 +736,26 @@
     "modules": [],
     "social": {
       "linkedin": "https://linkedin.com/in/nada-haboudal/"
+    }
+  },
+  {
+    "id": "Nicholas-Evans",
+    "name": "Nicholas Evans",
+    "pronoun": "he/him",
+    "roles": ["Associate Professor"],
+    "department": "Philosophy",
+    "organization": "University of Massachusetts Lowell",
+    "location": "Lowell, MA",
+    "caption": "Working in the Ethics group at AI-READI, I'm interested in how we decide who gets access to science, how, and when.",
+    "image": "https://ucarecdn.com/81975a71-4a4b-4b15-922e-54e944f79f84/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
+    "moduleImageParams": "-/crop/face/200px140p/",
+    "modules": [
+      "american-indian-engagement",
+      "community-engagement",
+      "data-sharing"
+    ],
+    "social": {
+      "googleScholar": "https://scholar.google.com/citations?user=N_0jmg8AAAAJ&hl=en"
     }
   },
   {
