@@ -4,9 +4,9 @@ authors:
   - 'Bhavesh-Patel'
 date: '2024-12-18'
 categories:
-  - 'Paid mentorship opportunity'
-heroImage: 'https://i.imgur.com/za5RsiO.jpeg'
-subtitle: 'AIM-AHEAD Program'
+  - 'Opportunities'
+heroImage: 'https://i.imgur.com/dqlmd0n.jpeg'
+subtitle: 'Paid mentorship opportunities with the AIM-AHEAD Collaborative Supplemental Training Program'
 tags:
   - 'Opportunities'
 ---
