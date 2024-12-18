@@ -11,7 +11,7 @@ tags:
   - 'Paid mentorship opportunity'
 ---
 
-We are excited to share two paid mentorship opportunities with the AIM-AHEAD Collaborative Supplemental Training Programs!
+We are excited to share two paid mentorship opportunities with the AIM-AHEAD Collaborative Supplemental Training Program!
 
 ## Overview
 Selected participants will support two trainees throughout the 8-month training program (January–September 2025). Mentors will meet biweekly with mentees to provide career and professional development support, field expertise, and guidance.
@@ -28,5 +28,5 @@ In addition, applicants will select which program(s) they would like to be consi
 ## Additional information 
 Further details can be found in the PDFs below:
 
-- [Paid mentorship Opportunity](/assets/pdf/AIM-AHEAD-Call-for-Mentors.pdf)
+- [Paid mentorship Opportunity](/assets/pdf/Call-for-Mentors.pdf)
 - [AIM-AHEAD Bridge2AI Artificial Intelligence Ready and Equitable Atlas for Diabetes Insights (AI-READI) Training Program Call For Mentors](/assets/pdf/AIM-AHEAD-Call-for-Mentors.pdf)
