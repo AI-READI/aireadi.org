@@ -19,7 +19,7 @@ In addition, applicants will select which program(s) they would like to be consi
 
 ## Eligibility
 - Ph.D., MD, or equivalent qualification (e.g., PharmD, DNP, Dr.PH)
-- Must be associated with an organization (e.g., educational institution, private sector, community organization).
+- Must be associated with an organization (e.g., educational institution, private sector, community organization)
 
 ## Timeline
 - Mentor Application Period: December 9, 2024 – January 6, 2025
@@ -28,5 +28,5 @@ In addition, applicants will select which program(s) they would like to be consi
 ## Additional information 
 Further details can be found in the PDFs below:
 
-- [Paid mentorship Opportunity](/assets/pdf/Call-for-Mentors.pdf)
-- [AIM-AHEAD Bridge2AI Artificial Intelligence Ready and Equitable Atlas for Diabetes Insights (AI-READI) Training Program Call For Mentors](/assets/pdf/AIM-AHEAD-Call-for-Mentors.pdf)
+- [Paid mentorship Opportunity](/assets/pdf/AIM-AHEAD-Call-for-Mentors.pdf)
+- [AIM-AHEAD Bridge2AI Artificial Intelligence Ready and Equitable Atlas for Diabetes Insights (AI-READI) Training Program Call For Mentors](/assets/pdf/Call-for-Mentors.pdf)
