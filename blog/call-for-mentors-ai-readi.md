@@ -1,5 +1,5 @@
 ---
-title: 'Paid Mentorship Opportunity'
+title: 'Share Your Expertise: Become an AIM-AHEAD Mentor'
 authors:
   - 'Bhavesh-Patel'
 date: '2024-12-18'
@@ -8,18 +8,12 @@ categories:
 heroImage: 'https://i.imgur.com/za5RsiO.jpeg'
 subtitle: 'AIM-AHEAD Program'
 tags:
-  - 'Paid mentorship opportunity'
+  - 'Opportunities'
 ---
 
 We are excited to share two paid mentorship opportunities with the AIM-AHEAD Collaborative Supplemental Training Program!
-
-## Overview
-Selected participants will support two trainees throughout the 8-month training program (January–September 2025). Mentors will meet biweekly with mentees to provide career and professional development support, field expertise, and guidance.
-In addition, applicants will select which program(s) they would like to be considered for and will be chosen from a pool of AIM-AHEAD Mentor applicants.
-
-## Eligibility
-- Ph.D., MD, or equivalent qualification (e.g., PharmD, DNP, Dr.PH)
-- Must be associated with an organization (e.g., educational institution, private sector, community organization)
+AIM-AHEAD (**Artificial Intelligence/Machine Learning Consortium to Advance Health Equity and Researcher Diversity**) is an NIH-supported program that aims to foster collaboration and enhance representation in AI/ML development. By becoming a mentor, you can support trainees from the AIM-AHEAD Training Program. 
+One mentorship opportunity is specifically for members of the AI-READI Consortium while the other one is open to all.
 
 ## Timeline
 - Mentor Application Period: December 9, 2024 – January 6, 2025
@@ -28,5 +22,5 @@ In addition, applicants will select which program(s) they would like to be consi
 ## Additional information 
 Further details can be found in the PDFs below:
 
-- [Paid mentorship Opportunity](/assets/pdf/AIM-AHEAD-Call-for-Mentors.pdf)
-- [AIM-AHEAD Bridge2AI Artificial Intelligence Ready and Equitable Atlas for Diabetes Insights (AI-READI) Training Program Call For Mentors](/assets/pdf/Call-for-Mentors.pdf)
+- [AIM-AHEAD Collaborative Supplemental Training Program](/assets/pdf/AIM-AHEAD-Call-for-Mentors.pdf)
+- [AIM-AHEAD Collaborative Supplemental Training Program for AI-READI Consortium](/assets/pdf/Call-for-Mentors.pdf)
