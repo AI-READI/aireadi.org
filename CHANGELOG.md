@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.6.0](https://github.com/AI-READI/aireadi.org/compare/v3.5.0...v3.6.0) (2024-12-18)
+
+
+### Features
+
+* ✨ add mentorship program blog post ([#53](https://github.com/AI-READI/aireadi.org/issues/53)) ([c335836](https://github.com/AI-READI/aireadi.org/commit/c33583648e875f5cc09d8d129a2340da1a0c8181))
+
 ## [3.5.0](https://github.com/AI-READI/aireadi.org/compare/v3.4.0...v3.5.0) (2024-12-09)
 
 
