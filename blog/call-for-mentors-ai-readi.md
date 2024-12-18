@@ -12,7 +12,7 @@ tags:
 ---
 
 We are excited to share two paid mentorship opportunities with the AIM-AHEAD Collaborative Supplemental Training Program!
-AIM-AHEAD (**Artificial Intelligence/Machine Learning Consortium to Advance Health Equity and Researcher Diversity**) is an NIH-supported program that aims to foster collaboration and enhance representation in AI/ML development. By becoming a mentor, you can support trainees from the AIM-AHEAD Training Program. 
+AIM-AHEAD (Artificial Intelligence/Machine Learning Consortium to Advance Health Equity and Researcher Diversity) is an NIH-supported program that aims to foster collaboration and enhance representation in AI/ML development. By becoming a mentor, you can support trainees from the AIM-AHEAD Training Program. 
 One mentorship opportunity is specifically for members of the AI-READI Consortium while the other one is open to all.
 
 ## Timeline
