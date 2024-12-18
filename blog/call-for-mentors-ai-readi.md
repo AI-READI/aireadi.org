@@ -1,7 +1,7 @@
 ---
 title: 'Paid Mentorship Opportunity'
 authors:
-  - 'Bhavesh Patel'
+  - 'Bhavesh-Patel'
 date: '2024-12-18'
 categories:
   - 'Paid mentorship opportunity'
