@@ -253,7 +253,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                     variants={FadeFramerItem}
                     className='completed-consent-text'
                   >
-                    <span className='block text-xl font-bold'>3,135+</span>
+                    <span className='block text-xl font-bold'>3,1340+</span>
                     <span className='text-[16px] font-normal'>
                       participants have completed the consent process
                     </span>
@@ -268,7 +268,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                     variants={FadeFramerItem}
                     className='completed-study-text'
                   >
-                    <span className='block text-xl font-bold'>1588+</span>
+                    <span className='block text-xl font-bold'>1590+</span>
                     <span className='text-[16px] font-normal'>
                       participants have completed in-person study visit
                     </span>
