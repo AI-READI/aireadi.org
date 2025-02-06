@@ -1,5 +1,22 @@
 # Changelog
 
+## [3.6.0](https://github.com/AI-READI/aireadi.org/compare/v3.5.0...v3.6.0) (2025-02-06)
+
+
+### Features
+
+* ✨ add mentorship program blog post ([#53](https://github.com/AI-READI/aireadi.org/issues/53)) ([c335836](https://github.com/AI-READI/aireadi.org/commit/c33583648e875f5cc09d8d129a2340da1a0c8181))
+* add a journal to publications ([17f34c5](https://github.com/AI-READI/aireadi.org/commit/17f34c5661dbe4849ac08418a47a656f6c0db53d))
+* add author to the paper ([464a15d](https://github.com/AI-READI/aireadi.org/commit/464a15de750290f1eaad53c6122cf643837461b1))
+* fix the journal order ([289d646](https://github.com/AI-READI/aireadi.org/commit/289d6466878ad8f938f43cb4131c4f6bd3c1ed93))
+
+
+### Bug Fixes
+
+* graph number typo ([4363b93](https://github.com/AI-READI/aireadi.org/commit/4363b93ffda50581e2db22094d1babcf96d58654))
+* round updated graph numbers ([f63072b](https://github.com/AI-READI/aireadi.org/commit/f63072b3a029b514c4a7fb89cee096e366389c80))
+* url for 'call for mentors' blog post ([e719150](https://github.com/AI-READI/aireadi.org/commit/e7191505318f2d51172f20d5e34bbfb47646febd))
+
 ## [3.5.0](https://github.com/AI-READI/aireadi.org/compare/v3.4.0...v3.5.0) (2024-12-09)
 
 
