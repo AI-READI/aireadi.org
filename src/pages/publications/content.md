@@ -2,7 +2,7 @@
 
 ## Journal Articles
 
-- Owsley, C., Matthies, D. S., McGwin, G., Edberg, J. C., Baxter, S. L., Zangwill, L. M., Owen, J. P., & Lee, C. S. (2025). Cross-sectional design and protocol for Artificial Intelligence Ready and Equitable Atlas for Diabetes Insights (AI-READI). BMJ Open, 15(2), e097449. <https://doi.org/10.1136/bmjopen-2024-097449>.
+- Owsley, C., Matthies, D. S., McGwin, G., Edberg, J. C., Baxter, S. L., Zangwill, L. M., Owen, J. P., Lee, C. S & AI-READI Consortium. (2025). Cross-sectional design and protocol for Artificial Intelligence Ready and Equitable Atlas for Diabetes Insights (AI-READI). BMJ Open, 15(2), e097449. <https://doi.org/10.1136/bmjopen-2024-097449>.
 - AI-READI Consortium. (2024). AI-READI: rethinking AI data collection, preparation and sharing in diabetes research and beyond. Nature Metabolism. <https://doi.org/10.1038/s42255-024-01165-x>
 
 ### Preprints
