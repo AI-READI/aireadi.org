@@ -239,14 +239,14 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   className='relative h-[40px] w-full'
                 >
                   <div className='h-full rounded-full border border-blue-100 bg-white shadow-[inset_0_0_8px_rgba(0,0,0,0.3)]'>
-                    <span className='absolute top-[45px] right-2 text-base font-medium'>
-                      4000 participants
-                    </span>
+                    {/*<span className=' font-bold absolute top-[45px] max-w-[10rem] right-2 text-base font-medium'>*/}
+                    {/*  <span>Goal:</span> data collection from 4,000 participants*/}
+                    {/*</span>*/}
                   </div>
 
                   <motion.div
                     variants={WidthFramerItem}
-                    className='absolute inset-0 max-w-[95%] rounded-full bg-blue-300'
+                    className='absolute inset-0 max-w-[100%] rounded-full bg-blue-300'
                   />
 
                   <motion.div
@@ -272,6 +272,15 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                     <span className='text-[16px] font-normal max-xl:text-[12px]'>
                       participants completed in-person study visit
                     </span>
+                  </motion.div>
+
+                  <motion.div
+                    variants={FadeFramerItem}
+                    className='completed-study-text1'
+                  >
+                      <div className="max-w-[12rem]">
+                    <span className='block text-xl font-bold'>Goal:</span>
+                    Data collection from 4,000 participants</div>
                   </motion.div>
                 </motion.div>
               </div>

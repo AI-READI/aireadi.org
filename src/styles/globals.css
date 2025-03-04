@@ -160,7 +160,7 @@
 .completed-consent-text {
   position: absolute;
   bottom: 85px;
-  left: calc(95% - 12px);
+  left: calc(100% - 12px);
   z-index: 4;
 }
 
@@ -186,6 +186,29 @@
   width: 240px;
 }
 
+.completed-study-text1 {
+  position: absolute;
+  top: 85px;
+  left: calc(95% - 12px);
+  z-index: 4;
+  width: 240px;
+}
+
+.completed-study-text1:after {
+  content: '';
+  position: absolute;
+  top: -34px;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 28px 16.5px 0 16.5px;
+  transform: rotate(180deg);
+
+  @apply border-b-transparent border-l-transparent border-r-transparent border-t-blue-600;
+}
+
+
 .completed-study-text:after {
   content: '';
   position: absolute;
@@ -199,3 +222,5 @@
 
   @apply border-b-transparent border-l-transparent border-r-transparent border-t-blue-600;
 }
+
+
