@@ -208,7 +208,6 @@
   @apply border-b-transparent border-l-transparent border-r-transparent border-t-blue-600;
 }
 
-
 .completed-study-text:after {
   content: '';
   position: absolute;
@@ -222,5 +221,3 @@
 
   @apply border-b-transparent border-l-transparent border-r-transparent border-t-blue-600;
 }
-
-
