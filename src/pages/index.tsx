@@ -279,8 +279,8 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                     className='completed-study-text1'
                   >
                     <div className='max-w-[12rem] text-right'>
-                      <span className='block text-xl font-bold'>Goal:</span>
-                      Data collection from 4,000 participants
+                      <span className='block text-xl font-bold'>Goal</span>
+                      data collection from 4,000 participants
                     </div>
                   </motion.div>
                 </motion.div>
