@@ -251,10 +251,10 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
 
                   <motion.div
                     variants={FadeFramerItem}
-                    className='completed-consent-text max-xl:w-[70px] xl:w-[240px]'
+                    className='completed-consent-text text-right'
                   >
                     <span className='block text-xl font-bold'>3,810+</span>
-                    <span className='text-[16px] font-normal max-xl:text-[12px]'>
+                    <span className='text-[16px] text-right align-left font-normal'>
                       participants completed the consent process
                     </span>
                   </motion.div>
@@ -266,10 +266,10 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
 
                   <motion.div
                     variants={FadeFramerItem}
-                    className='completed-study-text'
+                    className='completed-study-text text-right'
                   >
                     <span className='block text-xl font-bold'>1,940+</span>
-                    <span className='text-[16px] font-normal max-xl:text-[12px]'>
+                    <span className='text-[16px] font-normal'>
                       participants completed in-person study visit
                     </span>
                   </motion.div>
@@ -278,7 +278,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                     variants={FadeFramerItem}
                     className='completed-study-text1'
                   >
-                    <div className='max-w-[12rem]'>
+                    <div className='max-w-[12rem] text-right'>
                       <span className='block text-xl font-bold'>Goal:</span>
                       Data collection from 4,000 participants
                     </div>

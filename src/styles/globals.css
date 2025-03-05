@@ -160,15 +160,16 @@
 .completed-consent-text {
   position: absolute;
   bottom: 85px;
-  left: calc(100% - 12px);
+  left: calc(80% - 12px);
   z-index: 4;
+  width: 240px;
 }
 
 .completed-consent-text:after {
   content: '';
   position: absolute;
   bottom: -34px;
-  left: 0;
+  left: calc(100% - 12px);
   width: 0px;
   height: 0px;
   border-style: solid;
@@ -181,15 +182,16 @@
 .completed-study-text {
   position: absolute;
   top: 85px;
-  left: calc(48% - 12px);
+  left: 28%;
   z-index: 4;
   width: 240px;
+
 }
 
 .completed-study-text1 {
   position: absolute;
   top: 85px;
-  left: calc(95% - 12px);
+  left: calc(75% - 12px);
   z-index: 4;
   width: 240px;
 }
@@ -198,7 +200,7 @@
   content: '';
   position: absolute;
   top: -34px;
-  left: 0;
+  left: calc(80% - 12px);
   width: 0px;
   height: 0px;
   border-style: solid;
@@ -212,7 +214,7 @@
   content: '';
   position: absolute;
   top: -34px;
-  left: 0;
+  left: calc(95% - 12px);
   width: 0px;
   height: 0px;
   border-style: solid;
