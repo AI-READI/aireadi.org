@@ -52,12 +52,12 @@ const VizComponent = () => {
     const data = VIZ_JSON;
     const { width, height } = dimensions;
 
-    const  getSelectedStateId = () => {
+    const getSelectedStateId = () => {
       const selectedRadio = document.querySelector(
         'input[name="state"]:checked',
       );
       return selectedRadio ? selectedRadio.id : null;
-    }
+    };
 
     const countUniqueValues = (data) => {
       const uniqueCounts = {};
@@ -96,7 +96,7 @@ const VizComponent = () => {
       });
 
       return result;
-    }
+    };
 
     (function (nodes = data) {
       const nodeUniqes = countUniqueValues(nodes);
@@ -145,7 +145,7 @@ const VizComponent = () => {
         );
         simulation.force('y', d3.forceY(0).strength(xyforce));
         simulation.alpha(1).restart();
-      }
+      };
 
       // sourcery skip: avoid-function-declarations-in-blocks
       function ticked() {
@@ -239,7 +239,7 @@ const VizComponent = () => {
         ))}
       </ul>
 
-      <canvas ref={canvasRef} id='viz' className='w-full p-4 m-4' />
+      <canvas ref={canvasRef} id='viz' className='m-4 w-full p-4' />
     </div>
   );
 };
