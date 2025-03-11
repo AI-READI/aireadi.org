@@ -239,22 +239,25 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   className='relative h-[40px] w-full'
                 >
                   <div className='h-full rounded-full border border-blue-100 bg-white shadow-[inset_0_0_8px_rgba(0,0,0,0.3)]'>
-                    <span className='absolute top-[45px] right-2 text-base font-medium'>
-                      4000 participants
-                    </span>
-                  </div>
-
                   <motion.div
                     variants={WidthFramerItem}
                     className='absolute inset-0 max-w-[95%] rounded-full bg-blue-300'
                   />
-
                   <motion.div
                     variants={FadeFramerItem}
-                    className='completed-consent-text xl:w-[240px] max-xl:w-[70px]'
+                    className='total-participants'
+                  >
+                    <span className='block text-xl font-bold'>Goal</span>
+                    <span className='text-[16px] font-normal'>
+                       data collection from 4,000 participants
+                    </span>
+                  </motion.div>
+                  <motion.div
+                    variants={FadeFramerItem}
+                    className='completed-consent-text'
                   >
                     <span className='block text-xl font-bold'>3,810+</span>
-                    <span className='text-[16px] font-normal max-xl:text-[12px]'>
+                    <span className='text-[16px] font-normal'>
                       participants completed the consent process
                     </span>
                   </motion.div>
@@ -263,16 +266,17 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                     variants={WidthFramerItem}
                     className='absolute inset-0 max-w-[48%] rounded-full bg-blue-600'
                   />
-
                   <motion.div
                     variants={FadeFramerItem}
                     className='completed-study-text'
                   >
                     <span className='block text-xl font-bold'>1,940+</span>
-                    <span className='text-[16px] font-normal max-xl:text-[12px]'>
+                    <span className='text-[16px] font-normal'>
                       participants completed in-person study visit
                     </span>
                   </motion.div>
+                  </div>
+
                 </motion.div>
               </div>
             </div>
