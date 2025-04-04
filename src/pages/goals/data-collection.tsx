@@ -35,10 +35,10 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 Capturing Heteogensity in Diabetes with Multimodal Data
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                The data will be balanced diabetes severity categories:
-                1) No Diabetes, 2) Prediabetes or Lifestyle-Controlled Diabetes,
-                3) Oral and Non-Insulin Injectable Controlled Diabetes, and
-                4) Insulin-Controlled Diabetes.
+                The data will be balanced diabetes severity categories: 1) No
+                Diabetes, 2) Prediabetes or Lifestyle-Controlled Diabetes, 3)
+                Oral and Non-Insulin Injectable Controlled Diabetes, and 4)
+                Insulin-Controlled Diabetes.
               </p>
             </div>
             <div className=''>
@@ -50,7 +50,7 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 range of data types are collected from each participant
                 including survey responses, vision assessment results, retinal
                 imaging, EKG, continuous glucose monitoring, at-home environment
-                measures,  and activity monitoring data. Extraction of electronic
+                measures, and activity monitoring data. Extraction of electronic
                 health records (EHRs) is also planned.
               </p>
             </div>
