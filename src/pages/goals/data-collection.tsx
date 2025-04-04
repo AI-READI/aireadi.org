@@ -23,7 +23,7 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
         <HeroCroppedImage
           title='Data Collection'
           image='/images/modules/data-hero.svg'
-          tagline='Develop and implement a protocol that will generate a diverse and ethically-sourced dataset for the study of type 2 diabetes.'
+          tagline='Develop and implement a protocol that will generate a multimodal dataset for the study of type 2 diabetes.'
           showButtons={false}
           primaryButton='Learn more about the study'
         />
@@ -32,16 +32,13 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
           <div className='mx-auto grid max-w-screen-xl grid-cols-1 gap-10 px-4 py-8 text-left md:grid-cols-2 lg:py-16'>
             <div>
               <h2 className='mb-4 text-3xl font-extrabold tracking-tight sm:text-4xl'>
-                Multimodal Data from Diverse Participants
+                Capturing Heteogensity in Diabetes with Multimodal Data
               </h2>
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                The AI-READI project aims to collect data across diverse
-                participants. The data will be balanced across sexes (equal
-                number of male and female), ethnicities/races (equal number of
-                Asian, Black, Hispanic, and White), and health states (equal
-                number of non-diabetic, diet-controlled diabetic, oral
-                medication-controlled diabetic, and insulin-controlled
-                diabetic).
+                The data will be balanced diabetes severity categories:
+                1) No Diabetes, 2) Prediabetes or Lifestyle-Controlled Diabetes,
+                3) Oral and Non-Insulin Injectable Controlled Diabetes, and
+                4) Insulin-Controlled Diabetes.
               </p>
             </div>
             <div className=''>
@@ -52,7 +49,8 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 The same study protocol is followed at each site where a wide
                 range of data types are collected from each participant
                 including survey responses, vision assessment results, retinal
-                imaging, and activity monitoring data. Extraction of electronic
+                imaging, EKG, continuous glucose monitoring, at-home environment
+                measures,  and activity monitoring data. Extraction of electronic
                 health records (EHRs) is also planned.
               </p>
             </div>
@@ -76,8 +74,8 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 ) enables the data collecting sites to upload data on the go as
                 it is being collected and to track data collection through
                 dashboards. The platform also includes automation tools to
-                process data and extract metadata according to our selected
-                standards for making the data AI-ready (see Data Sharing page).
+                extract metadata according to our selected standards for making
+                the data AI-ready (see Data Sharing page).
               </p>
 
               <div>
