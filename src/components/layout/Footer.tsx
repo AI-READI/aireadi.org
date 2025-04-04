@@ -90,7 +90,7 @@ export default function Footer() {
               </span>
             </a>
             <span className='pb-2 pt-3 text-lg font-semibold text-sky-900'>
-              Artificial Intelligence Ready and Equitable Atlas for Diabetes
+              Artificial Intelligence Ready and Exploratory Atlas for Diabetes
               Insights
             </span>
 

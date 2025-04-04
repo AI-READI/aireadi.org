@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 
 const defaultMeta = {
   title:
-    'Artificial Intelligence Ready and Equitable Atlas for Diabetes Insights',
+    'Artificial Intelligence Ready and Exploratory Atlas for Diabetes Insights',
   siteName: 'AI-READI',
   description:
     'Generating a flagship AI-ready and ethically-sourced dataset to support future AI-driven discoveries in diabetes',

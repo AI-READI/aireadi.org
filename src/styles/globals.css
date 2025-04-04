@@ -165,11 +165,10 @@
   width: 240px;
 }
 
-.completed-consent-text > span
-{
-	display: block;
-	transform: translateX(calc(-100% + 32px));
-	text-align: right;
+.completed-consent-text > span {
+  display: block;
+  transform: translateX(calc(-100% + 32px));
+  text-align: right;
 }
 
 .completed-consent-text:after {
@@ -194,11 +193,10 @@
   width: 240px;
 }
 
-.completed-study-text > span
-{
-	display: block;
-	transform: translateX(calc(-100% + 32px));
-	text-align: right;
+.completed-study-text > span {
+  display: block;
+  transform: translateX(calc(-100% + 32px));
+  text-align: right;
 }
 
 .completed-study-text:after {
@@ -223,11 +221,10 @@
   width: 240px;
 }
 
-.total-participants > span
-{
-	display: block;
-	transform: translateX(calc(-101% + 32px));
-	text-align: right;
+.total-participants > span {
+  display: block;
+  transform: translateX(calc(-101% + 32px));
+  text-align: right;
 }
 
 .total-participants:after {

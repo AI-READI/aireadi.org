@@ -60,8 +60,8 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
             <div className='mx-auto grid max-w-screen-xl flex-col px-6 py-16 md:grid-cols-12 md:gap-8 lg:py-16 xl:gap-0'>
               <div className='col-span-12 mr-auto place-self-center md:col-span-8'>
                 <h1 className='relative pb-5 text-4xl font-black text-white sm:text-5xl'>
-                  Artificial Intelligence Ready and Equitable Atlas for Diabetes
-                  Insights
+                  Artificial Intelligence Ready and Exploratory Atlas for
+                  Diabetes Insights
                 </h1>
 
                 <p className='relative pb-5 text-xl font-medium text-white sm:text-2xl'>
@@ -114,7 +114,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                     </li>
                     <li>
                       The AI-READI project seeks to create and share a flagship
-                      ethically-sourced dataset of type 2 diabetes.
+                      dataset of type 2 diabetes.
                     </li>
                     <li>
                       The data will be optimized for future artificial
@@ -212,10 +212,11 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   The project aims to collect data from 4,000 participants
                   across three sites: the University of Alabama at Birmingham
                   (UAB), the University of California San Diego (UCSD), and the
-                  University of Washington (UW). To ensure the data is
-                  population-representative, the 4,000 participants will be
-                  balanced for three factors: disease severity, ethnicity, and
-                  sex.
+                  University of Washington (UW). The aim is to collect 1000
+                  participants in each of four diabetes severity categories: 1)
+                  No Diabetes, 2) Prediabetes or Lifestyle-Controlled Diabetes,
+                  3) Oral and Non-Insulin Injectable Controlled Diabetes, and 4)
+                  Insulin-Controlled Diabetes.
                 </p>
 
                 <div className='flex'>
@@ -239,44 +240,43 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   className='relative h-[40px] w-full'
                 >
                   <div className='h-full rounded-full border border-blue-100 bg-white shadow-[inset_0_0_8px_rgba(0,0,0,0.3)]'>
-                  <motion.div
-                    variants={WidthFramerItem}
-                    className='absolute inset-0 max-w-[95%] rounded-full bg-blue-300'
-                  />
-                  <motion.div
-                    variants={FadeFramerItem}
-                    className='total-participants'
-                  >
-                    <span className='block text-xl font-bold'>Goal</span>
-                    <span className='text-[16px] font-normal'>
-                       data collection from 4,000 participants
-                    </span>
-                  </motion.div>
-                  <motion.div
-                    variants={FadeFramerItem}
-                    className='completed-consent-text'
-                  >
-                    <span className='block text-xl font-bold'>3,810+</span>
-                    <span className='text-[16px] font-normal'>
-                      participants completed the consent process
-                    </span>
-                  </motion.div>
+                    <motion.div
+                      variants={WidthFramerItem}
+                      className='absolute inset-0 max-w-[95%] rounded-full bg-blue-300'
+                    />
+                    <motion.div
+                      variants={FadeFramerItem}
+                      className='total-participants'
+                    >
+                      <span className='block text-xl font-bold'>Goal</span>
+                      <span className='text-[16px] font-normal'>
+                        data collection from 4,000 participants
+                      </span>
+                    </motion.div>
+                    <motion.div
+                      variants={FadeFramerItem}
+                      className='completed-consent-text'
+                    >
+                      <span className='block text-xl font-bold'>3,810+</span>
+                      <span className='text-[16px] font-normal'>
+                        participants completed the consent process
+                      </span>
+                    </motion.div>
 
-                  <motion.div
-                    variants={WidthFramerItem}
-                    className='absolute inset-0 max-w-[48%] rounded-full bg-blue-600'
-                  />
-                  <motion.div
-                    variants={FadeFramerItem}
-                    className='completed-study-text'
-                  >
-                    <span className='block text-xl font-bold'>1,940+</span>
-                    <span className='text-[16px] font-normal'>
-                      participants completed in-person study visit
-                    </span>
-                  </motion.div>
+                    <motion.div
+                      variants={WidthFramerItem}
+                      className='absolute inset-0 max-w-[48%] rounded-full bg-blue-600'
+                    />
+                    <motion.div
+                      variants={FadeFramerItem}
+                      className='completed-study-text'
+                    >
+                      <span className='block text-xl font-bold'>1,940+</span>
+                      <span className='text-[16px] font-normal'>
+                        participants completed in-person study visit
+                      </span>
+                    </motion.div>
                   </div>
-
                 </motion.div>
               </div>
             </div>
@@ -291,12 +291,12 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
 
                 <p className='mb-6 text-lg font-normal text-gray-700 sm:mb-4'>
                   The resulting dataset is shared periodically through our
-                  dedicated web platform called fairhub.io following ethical and
-                  FAIR (Findable, Accessible, Interoperable, and Reusable)
-                  principles such that it is ready for future AI/ML-driven
-                  analysis. The associated tools, standards, and guidelines for
-                  making data AI-ready are being openly shared so that future
-                  data generation projects can also make their data AI-ready.
+                  dedicated web platform called fairhub.io following Findable,
+                  Accessible, Interoperable, and Reusable principles such that
+                  it is ready for future AI/ML-driven analysis. The associated
+                  tools, standards, and guidelines for making data AI-ready are
+                  being openly shared so that future data generation projects
+                  can also make their data AI-ready.
                 </p>
 
                 <div className='flex items-center space-x-2'>
@@ -368,11 +368,8 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                 </h1>
                 <p className='mb-6 text-lg text-gray-700 sm:mb-4'>
                   We apply team science to promote transdisciplinary
-                  collaboration across disciplinary, hierarchical, demographic,
-                  and other boundaries. In doing so, we also aim to advance our
-                  understanding of teaming in the context of multi-team systems
-                  involving multidisciplinary scientists, trainees, and
-                  communities.
+                  collaboration. In doing so, we also aim to advance our
+                  understanding of teaming in the context of multi-team systems.
                 </p>
 
                 <div>
