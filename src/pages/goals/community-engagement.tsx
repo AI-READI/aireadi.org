@@ -34,20 +34,17 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
               <p className='text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
                 The AI-READI Advisory Council (AAC) was established on May 31,
                 2023 as an external community peer review, providing community
-                guidance related to the collection of a large multi-ethnic,
+                guidance related to the collection of a large,
                 multi-domain health data repository for the Artificial
-                Intelligence Ready and Equitable Atlas for Diabetes Insights
+                Intelligence Ready and Exploratory Atlas for Diabetes Insights
                 (AI-READI) Project.
               </p>
             </div>
             <div>
               <p className='mb-4 text-gray-700 sm:mb-4 sm:text-xl md:text-lg'>
-                The Advisory Council members reflect diverse individuals
-                selected from the catchment areas of the University of
+                The Advisory Council members reflect the catchment areas of the University of
                 Washington, Seattle, the University of California, San Diego,
-                and the University of Alabama, Birmingham, who are considered
-                'representative' of their community and the potential
-                participants of the repository study. The Advisory Council
+                and the University of Alabama, Birmingham. The Advisory Council
                 focuses on reviewing all aspects of the research process
                 regarding the urgency, relevance, efficacy, safety, and
                 community impact of the proposed study.
