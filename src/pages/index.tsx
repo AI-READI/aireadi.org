@@ -205,7 +205,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
               </div>
               <div>
                 <h1 className='mb-4 text-3xl font-bold tracking-tight sm:text-4xl'>
-                  Collecting equitable, multimodal data
+                  Collecting multimodal data
                 </h1>
 
                 <p className='mb-2 text-lg font-normal text-gray-700'>
