@@ -1,5 +1,29 @@
 # Changelog
 
+## [3.6.0](https://github.com/AI-READI/aireadi.org/compare/v3.5.0...v3.6.0) (2025-06-10)
+
+
+### Features
+
+* ✨ add mentorship program blog post ([#53](https://github.com/AI-READI/aireadi.org/issues/53)) ([c335836](https://github.com/AI-READI/aireadi.org/commit/c33583648e875f5cc09d8d129a2340da1a0c8181))
+* add a journal to publications ([17f34c5](https://github.com/AI-READI/aireadi.org/commit/17f34c5661dbe4849ac08418a47a656f6c0db53d))
+* add author to the paper ([464a15d](https://github.com/AI-READI/aireadi.org/commit/464a15de750290f1eaad53c6122cf643837461b1))
+* add banner ([#57](https://github.com/AI-READI/aireadi.org/issues/57)) ([d8352c5](https://github.com/AI-READI/aireadi.org/commit/d8352c54890a6db3cbfbb1af6b012b19fd3237f4))
+* fix the journal order ([289d646](https://github.com/AI-READI/aireadi.org/commit/289d6466878ad8f938f43cb4131c4f6bd3c1ed93))
+
+
+### Bug Fixes
+
+* add padding to the footer ([3e3b51a](https://github.com/AI-READI/aireadi.org/commit/3e3b51a8409d61782c81523fb9859331f2995706))
+* graph number typo ([4363b93](https://github.com/AI-READI/aireadi.org/commit/4363b93ffda50581e2db22094d1babcf96d58654))
+* minor text update ([c9fec7b](https://github.com/AI-READI/aireadi.org/commit/c9fec7b27da3fbc0750dbd5818994e2e98eff8c9))
+* page changes ([#56](https://github.com/AI-READI/aireadi.org/issues/56)) ([79fa3b0](https://github.com/AI-READI/aireadi.org/commit/79fa3b0acb9f14f194c4fb1e748df3dc66b111e4))
+* round updated graph numbers ([f63072b](https://github.com/AI-READI/aireadi.org/commit/f63072b3a029b514c4a7fb89cee096e366389c80))
+* team picture link ([d4cd3b9](https://github.com/AI-READI/aireadi.org/commit/d4cd3b9c5942655a43f4112a652c2bf1838f273d))
+* update consent and participants progress bar ([9c79114](https://github.com/AI-READI/aireadi.org/commit/9c79114dcac9b5d718af4a90dcf31a32cd2cbe69))
+* update number of consent & visits ([e5e1191](https://github.com/AI-READI/aireadi.org/commit/e5e1191695299ae2fef2997a8268fb5e2daa5ce8))
+* url for 'call for mentors' blog post ([e719150](https://github.com/AI-READI/aireadi.org/commit/e7191505318f2d51172f20d5e34bbfb47646febd))
+
 ## [3.5.0](https://github.com/AI-READI/aireadi.org/compare/v3.4.0...v3.5.0) (2024-12-09)
 
 
