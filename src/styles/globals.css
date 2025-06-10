@@ -160,7 +160,7 @@
 .completed-consent-text {
   position: absolute;
   bottom: 85px;
-  left: calc(95% - 12px);
+  left: calc(99% - 12px);
   z-index: 4;
   width: 240px;
 }
@@ -188,7 +188,7 @@
 .completed-study-text {
   position: absolute;
   top: 85px;
-  left: calc(48% - 12px);
+  left: calc(59% - 12px);
   z-index: 4;
   width: 240px;
 }
@@ -216,7 +216,7 @@
 .total-participants {
   position: absolute;
   top: 85px;
-  left: calc(99% - 12px);
+  left: calc(93% - 12px);
   z-index: 4;
   width: 240px;
 }
