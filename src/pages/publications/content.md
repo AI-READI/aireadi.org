@@ -2,11 +2,12 @@
 
 ## Journal Articles
 
-- Owsley, C., Matthies, D. S., McGwin, G., Edberg, J. C., Baxter, S. L., Zangwill, L. M., Owen, J. P., Lee, C. S & AI-READI Consortium. (2025). Cross-sectional design and protocol for Artificial Intelligence Ready and Equitable Atlas for Diabetes Insights (AI-READI). BMJ Open, 15(2), e097449. <https://doi.org/10.1136/bmjopen-2024-097449>.
+- Owsley, C., Matthies, D. S., McGwin, G., Edberg, J. C., Baxter, S. L., Zangwill, L. M., Owen, J. P., Lee, C. S., & AI-READI Consortium. (2025). Cross-sectional design and protocol for Artificial Intelligence Ready and Equitable Atlas for Diabetes Insights (AI-READI). BMJ Open, 15(2), e097449. <https://doi.org/10.1136/bmjopen-2024-097449>.
 - AI-READI Consortium. (2024). AI-READI: rethinking AI data collection, preparation and sharing in diabetes research and beyond. Nature Metabolism. <https://doi.org/10.1038/s42255-024-01165-x>
 
 ### Preprints
 
+- Hallaj, S., Heinke, A., Kalaw, F. G. P., Gim, N., Blazes, M., Owen, J., Dysinger, E., Benton, E. S., Cordier, B. A., Evans, N. G., Li-Pook-Than, J., Snyder, M. P., Nebeker, C., Zangwill, L. M., Baxter, S. L., McWeeney, S., Lee, C. S., Lee, A. Y., Patel, B., & on behalf of the AI-READI Consortium. (2025). Open Data Sharing in Clinical Research and Participants Privacy: Challenges and Opportunities in the Era of Artificial Intelligence. arXiv. <https://doi.org/10.48550/arXiv.2508.01140>
 - Clark, T., Caufield, H., Parker, J. A., Al Manir, S., Amorim, E., Eddy, J., Gim, N., Gow, B., Goar, W., Haendel, M., Hansen, J. N., Harris, N., Hermjakob, H., Joachimiak, M., Jordan, G., Lee, I.-H., McWeeney, S. K., Nebeker, C., Nikolov, M., Shaffer, J., Sheffield, N., Sheynkman, G., Stevenson, J., Chen, J. Y., Mungall, C., Wagner, A., Kong, S. W., Ghosh, S. S., Patel, B., Williams, A., & Munoz-Torres, M. C. (2024). AI-readiness for biomedical data: Bridge2AI recommendations. bioRxiv. <https://doi.org/10.1101/2024.10.23.619844>
 
 ## Reports
