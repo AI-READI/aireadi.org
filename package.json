@@ -42,7 +42,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
-    "react-lottie-player": "^1.5.0",
+    "react-lottie-player": "2.1.0",
     "react-toastify": "^9.1.1",
     "react-use": "^17.5.0",
     "rehype-document": "7.0.3",
@@ -100,5 +100,9 @@
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
+  },
+  "volta": {
+    "node": "22.18.0",
+    "yarn": "1.22.22"
   }
 }
