@@ -1,16 +1,16 @@
 {
   "mainCitation": {
     "title": "AI-READI: rethinking AI data collection, preparation and sharing in diabetes research and beyond",
-  "authors": [
-    { "name": "Caroline Drolet" },
-    { "name": "Abigail Lucero" },
-    { "name": "Dawn Matthies" },
-    { "name": "Hanna Pittock" },
-    { "name": "Kate Watkins" },
-    { "name": "Brittany York" },
-    { "name": "Xujing Wang" },
-    { "name": "NIH Program Scientists" }
-  ],
+    "authors": [
+      { "name": "Caroline Drolet" },
+      { "name": "Abigail Lucero" },
+      { "name": "Dawn Matthies" },
+      { "name": "Hanna Pittock" },
+      { "name": "Kate Watkins" },
+      { "name": "Brittany York" },
+      { "name": "Xujing Wang" },
+      { "name": "NIH Program Scientists" }
+    ],
     "year": 2024,
     "source": "Nature metabolism",
     "link": "https://www.nature.com/articles/s42255-024-01165-x",

@@ -5,13 +5,15 @@ import Layout from '@/components/layout/Layout';
 import ButtonLink from '@/components/links/ButtonLink';
 import Seo from '@/components/Seo';
 import Viz from '@/components/Viz';
-import markerCitationData from '~/data/marker_paper.json';
-import datasetCitationData from '~/data/dataset_citations.json';
 
+import datasetCitationData from '~/data/dataset_citations.json';
+import markerCitationData from '~/data/marker_paper.json';
 
 const Dataset: React.FC = () => {
-const { mainCitation: markerMainCite, citingPublications: markerSubCite } = markerCitationData;
-const { mainCitation: datasetMainCite, citingPublications: datasetSubCite } = datasetCitationData;
+  const { mainCitation: markerMainCite, citingPublications: markerSubCite } =
+    markerCitationData;
+  const { mainCitation: datasetMainCite, citingPublications: datasetSubCite } =
+    datasetCitationData;
 
   return (
     <>
@@ -65,111 +67,149 @@ const { mainCitation: datasetMainCite, citingPublications: datasetSubCite } = da
             </div>
           </section>
 
-           <section className="bg-slate-50 pb-12 pt-8">
-              <div className="px-8 mx-auto max-w-screen-lg">
-                <h2 className="mb-3 text-3xl font-bold tracking-tight text-center sm:text-4xl">
-                  Citation
-                </h2>
-                <p> Projects that publish using our datasets are required to cite both our marker
-                    paper and dataset. Below, we provide a list of those citations.</p>
-                <h3 className="font-bold text-xl text-center pb-2">Marker paper</h3>
-                <div className="rounded-lg bg-white p-2 shadow-sm">
-                <div className="mt-4 text-gray-700 space-y-2 leading-relaxed">
-                  <p className="text-base text-gray-800">
-                      AI-READI Consortium {markerMainCite.year}{". "}
-                    <span className="italic text-gray-900">
-                       {markerMainCite.title}
-                    </span>{'. '}
-                       {markerMainCite.source}{". "}
-                      <a
-                        href={markerMainCite.source}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-sky-600 hover:underline"
-                      >
-                        {markerMainCite.link}
-                      </a>
+          <section className='bg-slate-50 pb-12 pt-8'>
+            <div className='mx-auto max-w-screen-lg px-8'>
+              <h2 className='mb-3 text-center text-3xl font-bold tracking-tight sm:text-4xl'>
+                Citation
+              </h2>
+              <p>
+                {' '}
+                Projects that publish using our datasets are required to cite
+                both our marker paper and dataset. Below, we provide a list of
+                those citations.
+              </p>
+              <h3 className='pb-2 text-center text-xl font-bold'>
+                Marker paper
+              </h3>
+              <div className='rounded-lg bg-white p-2 shadow-sm'>
+                <div className='mt-4 space-y-2 leading-relaxed text-gray-700'>
+                  <p className='text-base text-gray-800'>
+                    AI-READI Consortium {markerMainCite.year}
+                    {'. '}
+                    <span className='italic text-gray-900'>
+                      {markerMainCite.title}
+                    </span>
+                    {'. '}
+                    {markerMainCite.source}
+                    {'. '}
+                    <a
+                      href={markerMainCite.source}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='text-sky-600 hover:underline'
+                    >
+                      {markerMainCite.link}
+                    </a>
                   </p>
-
-                </div>
-                </div>
-
-                <div className="pb-4 bg-white shadow-sm">
-                  <details className="group">
-                    <summary className="cursor-pointer pl-2 text-lg font-bold list-none">
-                      <span className="inline-flex gap-2 hover:underline">
-                        Citing resources ({markerSubCite.length})
-                        <span className="transition-transform group-open:rotate-180">▼</span>
-                      </span>
-                    </summary>
-
-                <div className="mt-6 space-y-6">
-                  {markerSubCite.map((pub, i) => (
-                    <div key={i} className="rounded-lg bg-white p-5 shadow-sm hover:shadow-md transition-shadow">
-                      <p className="text-gray-800 text-base leading-relaxed">
-                        {(Array.isArray(pub.authors) ? pub.authors.map(a => a.name).join(', ') : pub.authors) || '—'}{'. '}
-                        {pub.source?.match(/\b(19|20)\d{2}\b/)?.[0] ?? '—'}.{' '}
-                        <span className="italic">{pub.title}</span>.{' '}
-                        {pub.source?.split('-').pop()?.trim()}.{' '}
-                        <a href={pub.link} target="_blank" rel="noopener noreferrer" className="text-sky-600 hover:underline">
-                          {pub.link}
-                        </a>
-                      </p>
-                    </div>
-                  ))}
-                </div>
-                  </details>
-                </div>
-
-                <h3 className="font-bold text-xl text-center py-2">AI-READI dataset</h3>
-                <div className="rounded-lg bg-white p-2 shadow-sm">
-                <div className="mt-4 text-gray-700 space-y-2 leading-relaxed">
-                <p className="text-base text-gray-800">
-                  {datasetMainCite.authors?.[0]?.name}{'. '}
-                  <span>{datasetMainCite.citation.trim().slice(-5, -1)}</span>{'. '}
-                  <span className="italic text-gray-900">
-                    {datasetMainCite.title}
-                  </span>
-                </p>
-                 <a
-                    href="https.fairhub.io/datasets/3"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sky-600 hover:underline"
-                  >
-                    https.fairhub.io/datasets/3
-                 </a>
-                </div>
-                </div>
-
-                <div className="pb-4 bg-white shadow-sm">
-                  <details className="group">
-                    <summary className="cursor-pointer pl-2 text-lg font-bold list-none">
-                      <span className="inline-flex gap-2 hover:underline">
-                        Citing resources ({datasetSubCite.length})
-                        <span className="transition-transform group-open:rotate-180">▼</span>
-                      </span>
-                    </summary>
-
-                <div className="mt-6 space-y-6">
-                  {datasetSubCite.map((pub, i) => (
-                    <div key={i} className="rounded-lg bg-white p-5 shadow-sm hover:shadow-md transition-shadow">
-                      <p className="text-gray-800 text-base leading-relaxed">
-                        {(Array.isArray(pub.authors) ? pub.authors.map(a => a.name).join(', ') : pub.authors) || '—'}{'. '}
-                        {pub.source?.match(/\b(19|20)\d{2}\b/)?.[0] ?? '—'}.{' '}
-                        <span className="italic">{pub.title}</span>.{' '}
-                        {pub.source?.split('-').pop()?.trim()}.{'. '}
-                        <a href={pub.link} target="_blank" rel="noopener noreferrer" className="text-sky-600 hover:underline">
-                          {pub.link}
-                        </a>
-                      </p>
-                    </div>
-                  ))}
-                </div>
-                  </details>
                 </div>
               </div>
-            </section>
+
+              <div className='bg-white pb-4 shadow-sm'>
+                <details className='group'>
+                  <summary className='cursor-pointer list-none pl-2 text-lg font-bold'>
+                    <span className='inline-flex gap-2 hover:underline'>
+                      Citing resources ({markerSubCite.length})
+                      <span className='transition-transform group-open:rotate-180'>
+                        ▼
+                      </span>
+                    </span>
+                  </summary>
+
+                  <div className='mt-6 space-y-6'>
+                    {markerSubCite.map((pub, i) => (
+                      <div
+                        key={i}
+                        className='rounded-lg bg-white p-5 shadow-sm transition-shadow hover:shadow-md'
+                      >
+                        <p className='text-base leading-relaxed text-gray-800'>
+                          {(Array.isArray(pub.authors)
+                            ? pub.authors.map((a) => a.name).join(', ')
+                            : pub.authors) || '—'}
+                          {'. '}
+                          {pub.source?.match(/\b(19|20)\d{2}\b/)?.[0] ??
+                            '—'}. <span className='italic'>{pub.title}</span>.{' '}
+                          {pub.source?.split('-').pop()?.trim()}.{' '}
+                          <a
+                            href={pub.link}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='text-sky-600 hover:underline'
+                          >
+                            {pub.link}
+                          </a>
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </details>
+              </div>
+
+              <h3 className='py-2 text-center text-xl font-bold'>
+                AI-READI dataset
+              </h3>
+              <div className='rounded-lg bg-white p-2 shadow-sm'>
+                <div className='mt-4 space-y-2 leading-relaxed text-gray-700'>
+                  <p className='text-base text-gray-800'>
+                    {datasetMainCite.authors?.[0]?.name}
+                    {'. '}
+                    <span>{datasetMainCite.citation.trim().slice(-5, -1)}</span>
+                    {'. '}
+                    <span className='italic text-gray-900'>
+                      {datasetMainCite.title}
+                    </span>
+                  </p>
+                  <a
+                    href='https.fairhub.io/datasets/3'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='text-sky-600 hover:underline'
+                  >
+                    https.fairhub.io/datasets/3
+                  </a>
+                </div>
+              </div>
+
+              <div className='bg-white pb-4 shadow-sm'>
+                <details className='group'>
+                  <summary className='cursor-pointer list-none pl-2 text-lg font-bold'>
+                    <span className='inline-flex gap-2 hover:underline'>
+                      Citing resources ({datasetSubCite.length})
+                      <span className='transition-transform group-open:rotate-180'>
+                        ▼
+                      </span>
+                    </span>
+                  </summary>
+
+                  <div className='mt-6 space-y-6'>
+                    {datasetSubCite.map((pub, i) => (
+                      <div
+                        key={i}
+                        className='rounded-lg bg-white p-5 shadow-sm transition-shadow hover:shadow-md'
+                      >
+                        <p className='text-base leading-relaxed text-gray-800'>
+                          {(Array.isArray(pub.authors)
+                            ? pub.authors.map((a) => a.name).join(', ')
+                            : pub.authors) || '—'}
+                          {'. '}
+                          {pub.source?.match(/\b(19|20)\d{2}\b/)?.[0] ??
+                            '—'}. <span className='italic'>{pub.title}</span>.{' '}
+                          {pub.source?.split('-').pop()?.trim()}.{'. '}
+                          <a
+                            href={pub.link}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='text-sky-600 hover:underline'
+                          >
+                            {pub.link}
+                          </a>
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </details>
+              </div>
+            </div>
+          </section>
         </main>
       </Layout>
     </>
