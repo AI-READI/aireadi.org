@@ -11,8 +11,8 @@
     { "name": "Xujing Wang" },
     { "name": "NIH Program Scientists" }
   ],
-    "year": null,
-    "source": "Project Managers http://orcid. org/0000-0001-6343 Nature …, 2024 - nature.com",
+    "year": 2024,
+    "source": "Nature metabolism",
     "link": "https://www.nature.com/articles/s42255-024-01165-x",
     "citation": "[{'name': 'Project Managers http://orcid. org/0000-0001-6343 '}] (None). AI-READI: rethinking AI data collection, preparation and sharing in diabetes research and beyond. Project Managers http://orcid. org/0000-0001-6343 … - Nature …, 2024 - nature.com."
   },
@@ -144,36 +144,6 @@
       "citation": "[{'name': 'LW Xu'}, {'name': 'YC Lin'}, {'name': 'YT Shen'}, {'name': 'X Qi'}, {'name': 'ZX Zhang'}, {'name': 'W Ma'}] (None). From genes to products: High-efficiency biosynthesis and holistic optimization strategies for monounsaturated fatty acids. LW Xu, YC Lin, YT Shen, X Qi, ZX Zhang, W Ma… - Food …, 2025 - Elsevier."
     },
     {
-      "title": "The march to harmonized imaging standards for retinal imaging.",
-      "authors": [
-        {
-          "name": "N Gim",
-          "link": "https://scholar.google.com/citations?user=JIu8n6UAAAAJ&hl=en&oi=sra",
-          "author_id": "JIu8n6UAAAAJ",
-          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=JIu8n6UAAAAJ&engine=google_scholar_author&hl=en"
-        },
-        {
-          "name": "AN Ferguson"
-        },
-        {
-          "name": "M Blazes",
-          "link": "https://scholar.google.com/citations?user=x5RVnAkAAAAJ&hl=en&oi=sra",
-          "author_id": "x5RVnAkAAAAJ",
-          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=x5RVnAkAAAAJ&engine=google_scholar_author&hl=en"
-        },
-        {
-          "name": "CS Lee",
-          "link": "https://scholar.google.com/citations?user=Ds-OxHwAAAAJ&hl=en&oi=sra",
-          "author_id": "Ds-OxHwAAAAJ",
-          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Ds-OxHwAAAAJ&engine=google_scholar_author&hl=en"
-        }
-      ],
-      "year": null,
-      "source": "N Gim, AN Ferguson, M Blazes, CS Lee… - Progress in Retinal and …, 2025 - europepmc.org",
-      "link": "https://europepmc.org/article/med/40360070",
-      "citation": "[{'name': 'N Gim', 'link': 'https://scholar.google.com/citations?user=JIu8n6UAAAAJ&hl=en&oi=sra', 'author_id': 'JIu8n6UAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=JIu8n6UAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'AN Ferguson'}, {'name': 'M Blazes', 'link': 'https://scholar.google.com/citations?user=x5RVnAkAAAAJ&hl=en&oi=sra', 'author_id': 'x5RVnAkAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=x5RVnAkAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'CS Lee', 'link': 'https://scholar.google.com/citations?user=Ds-OxHwAAAAJ&hl=en&oi=sra', 'author_id': 'Ds-OxHwAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=Ds-OxHwAAAAJ&engine=google_scholar_author&hl=en'}] (None). The march to harmonized imaging standards for retinal imaging.. N Gim, AN Ferguson, M Blazes, CS Lee… - Progress in Retinal and …, 2025 - europepmc.org."
-    },
-    {
       "title": "Lack of Association Between Hemoglobin A1c and Continuous Glucose Monitor Metrics Among Individuals with Prediabetes and Normoglycemia",
       "authors": [
         {
@@ -252,36 +222,6 @@
       "citation": "[{'name': 'A McCarthy', 'link': 'https://scholar.google.com/citations?user=IHT8v90AAAAJ&hl=en&oi=sra', 'author_id': 'IHT8v90AAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=IHT8v90AAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'I Valenzuela'}, {'name': 'RWS Chen', 'link': 'https://scholar.google.com/citations?user=8U_JqqkAAAAJ&hl=en&oi=sra', 'author_id': '8U_JqqkAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=8U_JqqkAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'LRD Glass'}] (None). A Practical Guide to Evaluating Artificial Intelligence Imaging Models in Scientific Literature. A McCarthy, I Valenzuela, RWS Chen, LRD Glass… - Ophthalmology …, 2025 - Elsevier."
     },
     {
-      "title": "Open Data Sharing in Clinical Research and Participants Privacy: Challenges and Opportunities in the Era of Artificial Intelligence",
-      "authors": [
-        {
-          "name": "S Hallaj",
-          "link": "https://scholar.google.com/citations?user=2hk0F-AAAAAJ&hl=en&oi=sra",
-          "author_id": "2hk0F-AAAAAJ",
-          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=2hk0F-AAAAAJ&engine=google_scholar_author&hl=en"
-        },
-        {
-          "name": "A Heinke",
-          "link": "https://scholar.google.com/citations?user=T_sRfycAAAAJ&hl=en&oi=sra",
-          "author_id": "T_sRfycAAAAJ",
-          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=T_sRfycAAAAJ&engine=google_scholar_author&hl=en"
-        },
-        {
-          "name": "FGP Kalaw",
-          "link": "https://scholar.google.com/citations?user=ifY5LeQAAAAJ&hl=en&oi=sra",
-          "author_id": "ifY5LeQAAAAJ",
-          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ifY5LeQAAAAJ&engine=google_scholar_author&hl=en"
-        },
-        {
-          "name": "N Gim"
-        }
-      ],
-      "year": null,
-      "source": "S Hallaj, A Heinke, FGP Kalaw, N Gim… - arXiv preprint arXiv …, 2025 - arxiv.org",
-      "link": "https://arxiv.org/abs/2508.01140",
-      "citation": "[{'name': 'S Hallaj', 'link': 'https://scholar.google.com/citations?user=2hk0F-AAAAAJ&hl=en&oi=sra', 'author_id': '2hk0F-AAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=2hk0F-AAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'A Heinke', 'link': 'https://scholar.google.com/citations?user=T_sRfycAAAAJ&hl=en&oi=sra', 'author_id': 'T_sRfycAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=T_sRfycAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'FGP Kalaw', 'link': 'https://scholar.google.com/citations?user=ifY5LeQAAAAJ&hl=en&oi=sra', 'author_id': 'ifY5LeQAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=ifY5LeQAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'N Gim'}] (None). Open Data Sharing in Clinical Research and Participants Privacy: Challenges and Opportunities in the Era of Artificial Intelligence. S Hallaj, A Heinke, FGP Kalaw, N Gim… - arXiv preprint arXiv …, 2025 - arxiv.org."
-    },
-    {
       "title": "The CFDE Workbench: integrating metadata and processed data from Common Fund programs",
       "authors": [
         {
@@ -313,6 +253,36 @@
       "source": "JE Evangelista, DJB Clarke, Z Xie, S Olaiya, H Kim… - bioRxiv, 2025 - biorxiv.org",
       "link": "https://www.biorxiv.org/content/10.1101/2025.02.04.636535.abstract",
       "citation": "[{'name': 'JE Evangelista', 'link': 'https://scholar.google.com/citations?user=dH0sMSMAAAAJ&hl=en&oi=sra', 'author_id': 'dH0sMSMAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=dH0sMSMAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'DJB Clarke', 'link': 'https://scholar.google.com/citations?user=y8-c7TkAAAAJ&hl=en&oi=sra', 'author_id': 'y8-c7TkAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=y8-c7TkAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'Z Xie', 'link': 'https://scholar.google.com/citations?user=gYCz2ToAAAAJ&hl=en&oi=sra', 'author_id': 'gYCz2ToAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=gYCz2ToAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'S Olaiya'}, {'name': 'H Kim'}] (None). The CFDE Workbench: integrating metadata and processed data from Common Fund programs. JE Evangelista, DJB Clarke, Z Xie, S Olaiya, H Kim… - bioRxiv, 2025 - biorxiv.org."
+    },
+    {
+      "title": "Open Data Sharing in Clinical Research and Participants Privacy: Challenges and Opportunities in the Era of Artificial Intelligence",
+      "authors": [
+        {
+          "name": "S Hallaj",
+          "link": "https://scholar.google.com/citations?user=2hk0F-AAAAAJ&hl=en&oi=sra",
+          "author_id": "2hk0F-AAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=2hk0F-AAAAAJ&engine=google_scholar_author&hl=en"
+        },
+        {
+          "name": "A Heinke",
+          "link": "https://scholar.google.com/citations?user=T_sRfycAAAAJ&hl=en&oi=sra",
+          "author_id": "T_sRfycAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=T_sRfycAAAAJ&engine=google_scholar_author&hl=en"
+        },
+        {
+          "name": "FGP Kalaw",
+          "link": "https://scholar.google.com/citations?user=ifY5LeQAAAAJ&hl=en&oi=sra",
+          "author_id": "ifY5LeQAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ifY5LeQAAAAJ&engine=google_scholar_author&hl=en"
+        },
+        {
+          "name": "N Gim"
+        }
+      ],
+      "year": null,
+      "source": "S Hallaj, A Heinke, FGP Kalaw, N Gim… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "link": "https://arxiv.org/abs/2508.01140",
+      "citation": "[{'name': 'S Hallaj', 'link': 'https://scholar.google.com/citations?user=2hk0F-AAAAAJ&hl=en&oi=sra', 'author_id': '2hk0F-AAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=2hk0F-AAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'A Heinke', 'link': 'https://scholar.google.com/citations?user=T_sRfycAAAAJ&hl=en&oi=sra', 'author_id': 'T_sRfycAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=T_sRfycAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'FGP Kalaw', 'link': 'https://scholar.google.com/citations?user=ifY5LeQAAAAJ&hl=en&oi=sra', 'author_id': 'ifY5LeQAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=ifY5LeQAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'N Gim'}] (None). Open Data Sharing in Clinical Research and Participants Privacy: Challenges and Opportunities in the Era of Artificial Intelligence. S Hallaj, A Heinke, FGP Kalaw, N Gim… - arXiv preprint arXiv …, 2025 - arxiv.org."
     },
     {
       "title": "GluMind: Multimodal Parallel Attention and Knowledge Retention for Robust Cross-Population Blood Glucose Forecasting",

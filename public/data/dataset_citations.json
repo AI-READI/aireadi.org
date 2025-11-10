@@ -1,0 +1,160 @@
+{
+  "mainCitation": {
+    "title": "Flagship dataset of type 2 diabetes from the AI-READI project (1.0.0). FAIRhub",
+    "authors": [
+      {
+        "name": "AI-READI Consortium"
+      }
+    ],
+    "year": null,
+    "source": "AI-READI Consortium - 2024",
+    "link": null,
+    "citation": "[{'name': 'AI-READI Consortium'}] (None). Flagship dataset of type 2 diabetes from the AI-READI project (1.0. 0). FAIRhub. AI-READI Consortium - 2024."
+  },
+  "citingPublications": [
+    {
+      "title": "Attengluco: Multimodal transformer-based blood glucose forecasting on ai-readi dataset",
+      "authors": [
+        {
+          "name": "E Farahmand",
+          "link": "https://scholar.google.com/citations?user=9nBF7mwAAAAJ&hl=en&oi=sra",
+          "author_id": "9nBF7mwAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=9nBF7mwAAAAJ&engine=google_scholar_author&hl=en"
+        },
+        {
+          "name": "RR Azghan",
+          "link": "https://scholar.google.com/citations?user=IWNYf0UAAAAJ&hl=en&oi=sra",
+          "author_id": "IWNYf0UAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=IWNYf0UAAAAJ&engine=google_scholar_author&hl=en"
+        },
+        {
+          "name": "NT Chatrudi",
+          "link": "https://scholar.google.com/citations?user=ECT_awsAAAAJ&hl=en&oi=sra",
+          "author_id": "ECT_awsAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ECT_awsAAAAJ&engine=google_scholar_author&hl=en"
+        },
+        {
+          "name": "E Kim"
+        }
+      ],
+      "year": null,
+      "source": "E Farahmand, RR Azghan, NT Chatrudi, E Kim… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "link": "https://arxiv.org/abs/2502.09919",
+      "citation": "[{'name': 'E Farahmand', 'link': 'https://scholar.google.com/citations?user=9nBF7mwAAAAJ&hl=en&oi=sra', 'author_id': '9nBF7mwAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=9nBF7mwAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'RR Azghan', 'link': 'https://scholar.google.com/citations?user=IWNYf0UAAAAJ&hl=en&oi=sra', 'author_id': 'IWNYf0UAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=IWNYf0UAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'NT Chatrudi', 'link': 'https://scholar.google.com/citations?user=ECT_awsAAAAJ&hl=en&oi=sra', 'author_id': 'ECT_awsAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=ECT_awsAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'E Kim'}] (None). Attengluco: Multimodal transformer-based blood glucose forecasting on ai-readi dataset. E Farahmand, RR Azghan, NT Chatrudi, E Kim… - arXiv preprint arXiv …, 2025 - arxiv.org."
+    },
+    {
+      "title": "Perspective on Harnessing Large Language Models to Uncover Insights in Diabetes Wearable Data",
+      "authors": [
+        {
+          "name": "A Alavi",
+          "link": "https://scholar.google.com/citations?user=1sxbt3YAAAAJ&hl=en&oi=sra",
+          "author_id": "1sxbt3YAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=1sxbt3YAAAAJ&engine=google_scholar_author&hl=en"
+        },
+        {
+          "name": "K Cha"
+        },
+        {
+          "name": "DP Esfarjani"
+        },
+        {
+          "name": "B Patel",
+          "link": "https://scholar.google.com/citations?user=qcplYooAAAAJ&hl=en&oi=sra",
+          "author_id": "qcplYooAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=qcplYooAAAAJ&engine=google_scholar_author&hl=en"
+        },
+        {
+          "name": "JLP Than",
+          "link": "https://scholar.google.com/citations?user=BsNjfu8AAAAJ&hl=en&oi=sra",
+          "author_id": "BsNjfu8AAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BsNjfu8AAAAJ&engine=google_scholar_author&hl=en"
+        }
+      ],
+      "year": null,
+      "source": "A Alavi, K Cha, DP Esfarjani, B Patel, JLP Than… - medRxiv, 2024 - medrxiv.org",
+      "link": "https://www.medrxiv.org/content/10.1101/2024.07.29.24310315.abstract",
+      "citation": "[{'name': 'A Alavi', 'link': 'https://scholar.google.com/citations?user=1sxbt3YAAAAJ&hl=en&oi=sra', 'author_id': '1sxbt3YAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=1sxbt3YAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'K Cha'}, {'name': 'DP Esfarjani'}, {'name': 'B Patel', 'link': 'https://scholar.google.com/citations?user=qcplYooAAAAJ&hl=en&oi=sra', 'author_id': 'qcplYooAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=qcplYooAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'JLP Than', 'link': 'https://scholar.google.com/citations?user=BsNjfu8AAAAJ&hl=en&oi=sra', 'author_id': 'BsNjfu8AAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=BsNjfu8AAAAJ&engine=google_scholar_author&hl=en'}] (None). Perspective on Harnessing Large Language Models to Uncover Insights in Diabetes Wearable Data. A Alavi, K Cha, DP Esfarjani, B Patel, JLP Than… - medRxiv, 2024 - medrxiv.org."
+    },
+    {
+      "title": "GluMind: Multimodal Parallel Attention and Knowledge Retention for Robust Cross-Population Blood Glucose Forecasting",
+      "authors": [
+        {
+          "name": "E Farahmand",
+          "link": "https://scholar.google.com/citations?user=9nBF7mwAAAAJ&hl=en&oi=sra",
+          "author_id": "9nBF7mwAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=9nBF7mwAAAAJ&engine=google_scholar_author&hl=en"
+        },
+        {
+          "name": "RR Azghan",
+          "link": "https://scholar.google.com/citations?user=IWNYf0UAAAAJ&hl=en&oi=sra",
+          "author_id": "IWNYf0UAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=IWNYf0UAAAAJ&engine=google_scholar_author&hl=en"
+        },
+        {
+          "name": "NT Chatrudi"
+        }
+      ],
+      "year": null,
+      "source": "E Farahmand, RR Azghan, NT Chatrudi… - arXiv preprint arXiv …, 2025 - arxiv.org",
+      "link": "https://arxiv.org/abs/2509.18457",
+      "citation": "[{'name': 'E Farahmand', 'link': 'https://scholar.google.com/citations?user=9nBF7mwAAAAJ&hl=en&oi=sra', 'author_id': '9nBF7mwAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=9nBF7mwAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'RR Azghan', 'link': 'https://scholar.google.com/citations?user=IWNYf0UAAAAJ&hl=en&oi=sra', 'author_id': 'IWNYf0UAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=IWNYf0UAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'NT Chatrudi'}] (None). GluMind: Multimodal Parallel Attention and Knowledge Retention for Robust Cross-Population Blood Glucose Forecasting. E Farahmand, RR Azghan, NT Chatrudi… - arXiv preprint arXiv …, 2025 - arxiv.org."
+    },
+    {
+      "title": "Predicting Type 2 Diabetes Mellitus Using Fundus Eye Scans: A Deep Learning Approach",
+      "authors": [
+        {
+          "name": "I Singh",
+          "link": "https://scholar.google.com/citations?user=4OONEVkAAAAJ&hl=en&oi=sra",
+          "author_id": "4OONEVkAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=4OONEVkAAAAJ&engine=google_scholar_author&hl=en"
+        },
+        {
+          "name": "D Singh"
+        },
+        {
+          "name": "A Aggarwal",
+          "link": "https://scholar.google.com/citations?user=UP3uAWIAAAAJ&hl=en&oi=sra",
+          "author_id": "UP3uAWIAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=UP3uAWIAAAAJ&engine=google_scholar_author&hl=en"
+        }
+      ],
+      "year": null,
+      "source": "I Singh, D Singh, A Aggarwal… - 2025 6th International …, 2025 - ieeexplore.ieee.org",
+      "link": "https://ieeexplore.ieee.org/abstract/document/11181411/",
+      "citation": "[{'name': 'I Singh', 'link': 'https://scholar.google.com/citations?user=4OONEVkAAAAJ&hl=en&oi=sra', 'author_id': '4OONEVkAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=4OONEVkAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'D Singh'}, {'name': 'A Aggarwal', 'link': 'https://scholar.google.com/citations?user=UP3uAWIAAAAJ&hl=en&oi=sra', 'author_id': 'UP3uAWIAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=UP3uAWIAAAAJ&engine=google_scholar_author&hl=en'}] (None). Predicting Type 2 Diabetes Mellitus Using Fundus Eye Scans: A Deep Learning Approach. I Singh, D Singh, A Aggarwal… - 2025 6th International …, 2025 - ieeexplore.ieee.org."
+    },
+    {
+      "title": "Harnessing Large Language Models to Uncover Insights in Diabetes Wearable Data",
+      "authors": [
+        {
+          "name": "A Alavi",
+          "link": "https://scholar.google.com/citations?user=1sxbt3YAAAAJ&hl=en&oi=sra",
+          "author_id": "1sxbt3YAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=1sxbt3YAAAAJ&engine=google_scholar_author&hl=en"
+        },
+        {
+          "name": "K Cha"
+        },
+        {
+          "name": "DP Esfarjani"
+        },
+        {
+          "name": "B Patel",
+          "link": "https://scholar.google.com/citations?user=qcplYooAAAAJ&hl=en&oi=sra",
+          "author_id": "qcplYooAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=qcplYooAAAAJ&engine=google_scholar_author&hl=en"
+        },
+        {
+          "name": "JLP Than",
+          "link": "https://scholar.google.com/citations?user=BsNjfu8AAAAJ&hl=en&oi=sra",
+          "author_id": "BsNjfu8AAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BsNjfu8AAAAJ&engine=google_scholar_author&hl=en"
+        }
+      ],
+      "year": null,
+      "source": "A Alavi, K Cha, DP Esfarjani, B Patel, JLP Than… - 2024 - researchsquare.com",
+      "link": "https://www.researchsquare.com/article/rs-4966049/latest",
+      "citation": "[{'name': 'A Alavi', 'link': 'https://scholar.google.com/citations?user=1sxbt3YAAAAJ&hl=en&oi=sra', 'author_id': '1sxbt3YAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=1sxbt3YAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'K Cha'}, {'name': 'DP Esfarjani'}, {'name': 'B Patel', 'link': 'https://scholar.google.com/citations?user=qcplYooAAAAJ&hl=en&oi=sra', 'author_id': 'qcplYooAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=qcplYooAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'JLP Than', 'link': 'https://scholar.google.com/citations?user=BsNjfu8AAAAJ&hl=en&oi=sra', 'author_id': 'BsNjfu8AAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=BsNjfu8AAAAJ&engine=google_scholar_author&hl=en'}] (None). Harnessing Large Language Models to Uncover Insights in Diabetes Wearable Data. A Alavi, K Cha, DP Esfarjani, B Patel, JLP Than… - 2024 - researchsquare.com."
+    }
+  ]
+}
