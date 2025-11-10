@@ -78,7 +78,7 @@ const Dataset: React.FC = () => {
                 both our marker paper and dataset. Below, we provide a list of
                 those citations.
               </p>
-              <h3 className='pb-2 text-center text-xl tracking-tight font-bold'>
+              <h3 className='pb-2 text-center text-xl font-bold tracking-tight'>
                 Marker paper
               </h3>
               <div className='rounded-lg bg-white p-2 shadow-sm'>
