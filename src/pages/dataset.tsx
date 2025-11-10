@@ -69,7 +69,7 @@ const Dataset: React.FC = () => {
 
           <section className='bg-slate-50 pb-12 pt-8'>
             <div className='mx-auto max-w-screen-lg px-8'>
-              <h2 className='mb-3 text-center text-3xl font-bold tracking-tight sm:text-4xl'>
+              <h2 className='mb-3 text-center text-3xl font-bold tracking-tight'>
                 Citation
               </h2>
               <p>
@@ -78,7 +78,7 @@ const Dataset: React.FC = () => {
                 both our marker paper and dataset. Below, we provide a list of
                 those citations.
               </p>
-              <h3 className='pb-2 text-center text-xl font-bold'>
+              <h3 className='pb-2 text-center text-xl tracking-tight font-bold'>
                 Marker paper
               </h3>
               <div className='rounded-lg bg-white p-2 shadow-sm'>
@@ -144,7 +144,7 @@ const Dataset: React.FC = () => {
                 </details>
               </div>
 
-              <h3 className='py-2 text-center text-xl font-bold'>
+              <h3 className='py-2 text-center text-xl font-bold tracking-tight'>
                 AI-READI dataset
               </h3>
               <div className='rounded-lg bg-white p-2 shadow-sm'>
