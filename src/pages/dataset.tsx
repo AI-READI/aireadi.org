@@ -159,12 +159,12 @@ const Dataset: React.FC = () => {
                     </span>
                   </p>
                   <a
-                    href='https.fairhub.io/datasets/3'
+                    href='https.fairhub.io/datasets/2'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='text-sky-600 hover:underline'
                   >
-                    https.fairhub.io/datasets/3
+                    https.fairhub.io/datasets/2
                   </a>
                 </div>
               </div>
