@@ -70,7 +70,7 @@ const Dataset: React.FC = () => {
           <section className='bg-slate-50 pb-12 pt-8'>
             <div className='mx-auto max-w-screen-lg px-8'>
               <h2 className='mb-3 text-center text-3xl font-bold tracking-tight'>
-                Citation
+                Citations
               </h2>
               <p>
                 {' '}
