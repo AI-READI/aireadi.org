@@ -84,7 +84,7 @@ const Dataset: React.FC = () => {
               <div className='rounded-lg bg-white p-2 shadow-sm'>
                 <div className='mt-4 space-y-2 leading-relaxed text-gray-700'>
                   <p className='text-base text-gray-800'>
-                    AI-READI Consortium {markerMainCite.year}
+                    AI-READI Consortium. {markerMainCite.year}
                     {'. '}
                     <span className='italic text-gray-900'>
                       {markerMainCite.title}
