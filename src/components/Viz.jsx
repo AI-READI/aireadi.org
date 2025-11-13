@@ -15,6 +15,9 @@ const vizOptions = [
   { value: 'state-OCT', label: 'OCT' },
   { value: 'state-OCTA', label: 'OCTA' },
   { value: 'state-CFP', label: 'CFP' },
+  { value: 'state-Fitness', label: 'Fitness' },
+  { value: 'state-CGM', label: 'CGM' },
+  { value: 'state-Env', label: 'Env' },
 ];
 
 const VizComponent = () => {
@@ -188,7 +191,7 @@ const VizComponent = () => {
           context.font = `${Math.max(14, width * 0.015)}px Arial`;
           context.textAlign = 'center';
           context.textBaseline = 'bottom';
-          context.fillText('(n = 1067)', 0, (-1 * height) / 2 + 75);
+          context.fillText('(n = 2280)', 0, (-1 * height) / 2 + 75);
         }
 
         for (let i = 0; i < nodes.length; ++i) {
