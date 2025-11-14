@@ -112,32 +112,32 @@ const Dataset: React.FC = () => {
                     </span>
                   </summary>
 
-                  <div className='mt-6 space-y-6'>
+                  <ol className='mt-6 space-y-6 list-decimal pl-6'>
                     {markerSubCite.map((pub, i) => (
-                      <div
-                        key={i}
-                        className='rounded-lg bg-white p-5 shadow-sm transition-shadow hover:shadow-md'
-                      >
-                        <p className='text-base leading-relaxed text-gray-800'>
-                          {(Array.isArray(pub.authors)
-                            ? pub.authors.map((a) => a.name).join(', ')
-                            : pub.authors) || '—'}
-                          {'. '}
-                          {pub.source?.match(/\b(19|20)\d{2}\b/)?.[0] ??
-                            '—'}. <span className='italic'>{pub.title}</span>.{' '}
-                          {pub.source?.split('-').pop()?.trim()}.{' '}
-                          <a
-                            href={pub.link}
-                            target='_blank'
-                            rel='noopener noreferrer'
-                            className='text-sky-600 hover:underline'
-                          >
-                            {pub.link}
-                          </a>
-                        </p>
-                      </div>
+                      <li key={i}>
+                        <div className='rounded-lg bg-white p-5 shadow-sm transition-shadow hover:shadow-md'>
+                          <p className='text-base leading-relaxed text-gray-800'>
+                            {(Array.isArray(pub.authors)
+                              ? pub.authors.map((a) => a.name).join(', ')
+                              : pub.authors) || '—'}
+                            {'. '}
+                            {pub.source?.match(/\b(19|20)\d{2}\b/)?.[0] ??
+                              '—'}
+                            . <span className='italic'>{pub.title}</span>.{' '}
+                            {pub.source?.split('-').pop()?.trim()}.{' '}
+                            <a
+                              href={pub.link}
+                              target='_blank'
+                              rel='noopener noreferrer'
+                              className='text-sky-600 hover:underline'
+                            >
+                              {pub.link}
+                            </a>
+                          </p>
+                        </div>
+                      </li>
                     ))}
-                  </div>
+                  </ol>
                 </details>
               </div>
 
@@ -174,32 +174,32 @@ const Dataset: React.FC = () => {
                     </span>
                   </summary>
 
-                  <div className='mt-6 space-y-6'>
+                  <ol className='mt-6 space-y-6 list-decimal pl-6'>
                     {datasetSubCite.map((pub, i) => (
-                      <div
-                        key={i}
-                        className='rounded-lg bg-white p-5 shadow-sm transition-shadow hover:shadow-md'
-                      >
-                        <p className='text-base leading-relaxed text-gray-800'>
-                          {(Array.isArray(pub.authors)
-                            ? pub.authors.map((a) => a.name).join(', ')
-                            : pub.authors) || '—'}
-                          {'. '}
-                          {pub.source?.match(/\b(19|20)\d{2}\b/)?.[0] ??
-                            '—'}. <span className='italic'>{pub.title}</span>.{' '}
-                          {pub.source?.split('-').pop()?.trim()}.{'. '}
-                          <a
-                            href={pub.link}
-                            target='_blank'
-                            rel='noopener noreferrer'
-                            className='text-sky-600 hover:underline'
-                          >
-                            {pub.link}
-                          </a>
-                        </p>
-                      </div>
+                      <li key={i}>
+                        <div className='rounded-lg bg-white p-5 shadow-sm transition-shadow hover:shadow-md'>
+                          <p className='text-base leading-relaxed text-gray-800'>
+                            {(Array.isArray(pub.authors)
+                              ? pub.authors.map((a) => a.name).join(', ')
+                              : pub.authors) || '—'}
+                            {'. '}
+                            {pub.source?.match(/\b(19|20)\d{2}\b/)?.[0] ??
+                              '—'}
+                            . <span className='italic'>{pub.title}</span>.{' '}
+                            {pub.source?.split('-').pop()?.trim()}.{' '}
+                            <a
+                              href={pub.link}
+                              target='_blank'
+                              rel='noopener noreferrer'
+                              className='text-sky-600 hover:underline'
+                            >
+                              {pub.link}
+                            </a>
+                          </p>
+                        </div>
+                      </li>
                     ))}
-                  </div>
+                  </ol>
                 </details>
               </div>
             </div>
