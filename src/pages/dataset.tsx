@@ -106,12 +106,9 @@ const Dataset: React.FC = () => {
 
               <div className='bg-white pb-4 shadow-sm'>
                 <details className='group'>
-                  <summary className='cursor-pointer list-none pl-2 text-lg font-bold'>
+                  <summary className='cursor-pointer pl-2 text-lg font-bold'>
                     <span className='inline-flex gap-2 hover:underline'>
                       Citing resources ({markerSubCite.length})
-                      <span className='transition-transform group-open:rotate-180'>
-                        ▼
-                      </span>
                     </span>
                   </summary>
 
@@ -171,12 +168,9 @@ const Dataset: React.FC = () => {
 
               <div className='bg-white pb-4 shadow-sm'>
                 <details className='group'>
-                  <summary className='cursor-pointer list-none pl-2 text-lg font-bold'>
+                  <summary className='cursor-pointer pl-2 text-lg font-bold'>
                     <span className='inline-flex gap-2 hover:underline'>
                       Citing resources ({datasetSubCite.length})
-                      <span className='transition-transform group-open:rotate-180'>
-                        ▼
-                      </span>
                     </span>
                   </summary>
 
