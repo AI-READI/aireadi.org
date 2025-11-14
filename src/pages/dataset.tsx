@@ -112,7 +112,7 @@ const Dataset: React.FC = () => {
                     </span>
                   </summary>
 
-                  <ol className='mt-6 space-y-6 list-decimal pl-6'>
+                  <ol className='mt-6 list-decimal space-y-6 pl-6'>
                     {markerSubCite.map((pub, i) => (
                       <li key={i}>
                         <div className='rounded-lg bg-white p-5 shadow-sm transition-shadow hover:shadow-md'>
@@ -121,9 +121,8 @@ const Dataset: React.FC = () => {
                               ? pub.authors.map((a) => a.name).join(', ')
                               : pub.authors) || '—'}
                             {'. '}
-                            {pub.source?.match(/\b(19|20)\d{2}\b/)?.[0] ??
-                              '—'}
-                            . <span className='italic'>{pub.title}</span>.{' '}
+                            {pub.source?.match(/\b(19|20)\d{2}\b/)?.[0] ?? '—'}.{' '}
+                            <span className='italic'>{pub.title}</span>.{' '}
                             {pub.source?.split('-').pop()?.trim()}.{' '}
                             <a
                               href={pub.link}
@@ -174,7 +173,7 @@ const Dataset: React.FC = () => {
                     </span>
                   </summary>
 
-                  <ol className='mt-6 space-y-6 list-decimal pl-6'>
+                  <ol className='mt-6 list-decimal space-y-6 pl-6'>
                     {datasetSubCite.map((pub, i) => (
                       <li key={i}>
                         <div className='rounded-lg bg-white p-5 shadow-sm transition-shadow hover:shadow-md'>
@@ -183,9 +182,8 @@ const Dataset: React.FC = () => {
                               ? pub.authors.map((a) => a.name).join(', ')
                               : pub.authors) || '—'}
                             {'. '}
-                            {pub.source?.match(/\b(19|20)\d{2}\b/)?.[0] ??
-                              '—'}
-                            . <span className='italic'>{pub.title}</span>.{' '}
+                            {pub.source?.match(/\b(19|20)\d{2}\b/)?.[0] ?? '—'}.{' '}
+                            <span className='italic'>{pub.title}</span>.{' '}
                             {pub.source?.split('-').pop()?.trim()}.{' '}
                             <a
                               href={pub.link}
