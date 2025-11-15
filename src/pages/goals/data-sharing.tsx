@@ -148,8 +148,8 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
                 portal is designed to make the data Findable and Accessible. The
                 public set of the AI-READI pilot dataset is already available
                 through FAIRhub at{' '}
-                <PrimaryLink href='https://doi.org/10.60775/fairhub.2'>
-                  https://doi.org/10.60775/fairhub.2
+                <PrimaryLink href='https://doi.org/10.60775/fairhub.3'>
+                  https://doi.org/10.60775/fairhub.3
                 </PrimaryLink>
                 .
               </p>
