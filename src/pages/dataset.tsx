@@ -40,7 +40,7 @@ const Dataset: React.FC = () => {
 
               <div className='relative flex w-max flex-col space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0'>
                 <ButtonLink
-                  href='https://fairhub.io/datasets/3'
+                  href='https://fairhub.io/datasets/2'
                   variant='primary'
                 >
                   Access our data
