@@ -169,6 +169,7 @@
   display: block;
   transform: translateX(calc(-100% + 32px));
   text-align: right;
+
 }
 
 .completed-consent-text:after {
@@ -187,30 +188,30 @@
 
 .completed-study-text {
   position: absolute;
-  top: 85px;
-  left: calc(70% - 12px);
+  left: calc(78% - 12px);
   z-index: 4;
   width: 240px;
+  bottom: 85px;
 }
 
 .completed-study-text > span {
   display: block;
   transform: translateX(calc(-100% + 32px));
   text-align: right;
+
 }
 
 .completed-study-text:after {
   content: '';
   position: absolute;
-  top: -34px;
+  bottom: -34px;
   left: 0;
   width: 0px;
   height: 0px;
   border-style: solid;
   border-width: 28px 16.5px 0 16.5px;
-  transform: rotate(180deg);
-
-  @apply border-b-transparent border-l-transparent border-r-transparent border-t-blue-600;
+  transform: rotate(0deg);
+  @apply border-b-transparent border-l-transparent border-r-transparent border-t-blue-400;
 }
 
 .total-participants {

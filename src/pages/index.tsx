@@ -249,7 +249,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                       className='total-participants'
                     >
                       <span className='block text-xl font-bold'>Goal</span>
-                      <span className='text-[16px] font-normal'>
+                      <span className='text-[16px] max-md:max-w-[130px] max-w-[180px] font-normal'>
                         data collection from 4,000 participants
                       </span>
                     </motion.div>
@@ -258,21 +258,21 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                       className='completed-consent-text'
                     >
                       <span className='block text-xl font-bold'>4,920+</span>
-                      <span className='text-[16px] font-normal'>
+                      <span className='text-[16px] max-md:max-w-[130px] max-w-[180px] font-normal'>
                         participants completed the consent process
                       </span>
                     </motion.div>
 
                     <motion.div
                       variants={WidthFramerItem}
-                      className='absolute inset-0 max-w-[70%] rounded-full bg-blue-600'
+                      className='absolute inset-0 max-w-[78%] rounded-full bg-blue-600'
                     />
                     <motion.div
                       variants={FadeFramerItem}
                       className='completed-study-text'
                     >
-                      <span className='block text-xl font-bold'>2,830+</span>
-                      <span className='text-[16px] font-normal'>
+                      <span className='block text-xl font-bold'>3,140+</span>
+                      <span className='text-[16px] max-md:max-w-[140px] max-w-[180px] font-normal'>
                         participants completed in-person study visit
                       </span>
                     </motion.div>
