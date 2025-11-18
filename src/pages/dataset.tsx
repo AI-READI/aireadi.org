@@ -40,7 +40,7 @@ const Dataset: React.FC = () => {
 
               <div className='relative flex w-max flex-col space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0'>
                 <ButtonLink
-                  href='https://fairhub.io/datasets/3'
+                  href='https://fairhub.io/'
                   variant='primary'
                 >
                   Access our data
@@ -155,12 +155,12 @@ const Dataset: React.FC = () => {
                     </span>
                   </p>
                   <a
-                    href='https.fairhub.io/datasets/3'
+                    href='https://fairhub.io/datasets/3'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='text-sky-600 hover:underline'
                   >
-                    https.fairhub.io/datasets/3
+                      fairhub.io/datasets/3
                   </a>
                 </div>
               </div>
