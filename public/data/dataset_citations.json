@@ -1,6 +1,6 @@
 {
   "mainCitation": {
-    "title": "Flagship dataset of type 2 diabetes from the AI-READI project (1.0.0). FAIRhub",
+    "title": "Flagship dataset of type 2 diabetes from the AI-READI project. FAIRhub",
     "authors": [
       {
         "name": "AI-READI Consortium"
@@ -9,7 +9,7 @@
     "year": null,
     "source": "AI-READI Consortium - 2024",
     "link": null,
-    "citation": "[{'name': 'AI-READI Consortium'}] (None). Flagship dataset of type 2 diabetes from the AI-READI project (1.0. 0). FAIRhub. AI-READI Consortium - 2024."
+    "citation": "[{'name': 'AI-READI Consortium'}] (None). Flagship dataset of type 2 diabetes from the AI-READI project. FAIRhub. AI-READI Consortium - 2024."
   },
   "citingPublications": [
     {

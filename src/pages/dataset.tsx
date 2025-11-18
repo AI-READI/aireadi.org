@@ -81,7 +81,7 @@ const Dataset: React.FC = () => {
               <h3 className='pb-2 text-center text-xl font-bold tracking-tight'>
                 Marker paper
               </h3>
-              <div className='rounded-lg bg-white p-2 shadow-sm'>
+              <div className='bg-white p-2 shadow-sm'>
                 <div className='mt-4 space-y-2 leading-relaxed text-gray-700'>
                   <p className='text-base text-gray-800'>
                     AI-READI Consortium. {markerMainCite.year}
@@ -93,7 +93,7 @@ const Dataset: React.FC = () => {
                     {markerMainCite.source}
                     {'. '}
                     <a
-                      href={markerMainCite.source}
+                      href={markerMainCite.link}
                       target='_blank'
                       rel='noopener noreferrer'
                       className='text-sky-600 hover:underline'
@@ -143,27 +143,53 @@ const Dataset: React.FC = () => {
               <h3 className='py-2 text-center text-xl font-bold tracking-tight'>
                 AI-READI dataset
               </h3>
-              <div className='rounded-lg bg-white p-2 shadow-sm'>
-                <div className='mt-4 space-y-2 leading-relaxed text-gray-700'>
-                  <p className='text-base text-gray-800'>
-                    {datasetMainCite.authors?.[0]?.name}
-                    {'. '}
-                    <span>{datasetMainCite.citation.trim().slice(-5, -1)}</span>
-                    {'. '}
-                    <span className='italic text-gray-900'>
-                      {datasetMainCite.title}
-                    </span>
-                  </p>
-                  <a
-                    href='https://fairhub.io/datasets/3'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='text-sky-600 hover:underline'
-                  >
-                      fairhub.io/datasets/3
-                  </a>
+              <div className='bg-white p-2 shadow-sm'>
+                  <div className='mt-4 space-y-2 leading-relaxed text-gray-700'>
+                    <p className='text-base text-gray-800'>
+                      {datasetMainCite.authors?.[0]?.name}
+                      {'. '}
+                      <span className='italic text-gray-900'>
+                        {datasetMainCite.title}
+                      </span>
+                    </p>
+
+                    <ul className='list-disc list-inside space-y-1'>
+                      <li>
+                        v1.0.0 (2024):{' '}
+                        <a
+                          href='https://doi.org/10.60775/fairhub.1'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          className='text-sky-600 hover:underline'
+                        >
+                          https://doi.org/10.60775/fairhub.1
+                        </a>
+                      </li>
+                      <li>
+                        v2.0.0 (2024):{' '}
+                        <a
+                          href='https://doi.org/10.60775/fairhub.2'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          className='text-sky-600 hover:underline'
+                        >
+                          https://doi.org/10.60775/fairhub.2
+                        </a>
+                      </li>
+                      <li>
+                        v3.0.0 (2025):{' '}
+                        <a
+                          href='https://doi.org/10.60775/fairhub.3'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          className='text-sky-600 hover:underline'
+                        >
+                          https://doi.org/10.60775/fairhub.3
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
 
               <div className='bg-white pb-4 shadow-sm'>
                 <details className='group'>
