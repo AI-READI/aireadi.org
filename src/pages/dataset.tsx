@@ -112,7 +112,7 @@ const Dataset: React.FC = () => {
                     </span>
                   </summary>
 
-                  <ol className='mt-6 list-decimal space-y-6 pl-6'>
+                  <ol className='mt-6 list-decimal space-y-6 pl-8'>
                     {markerSubCite.map((pub, i) => (
                       <li key={i}>
                         <div className='rounded-lg bg-white p-5 shadow-sm transition-shadow hover:shadow-md'>
@@ -199,7 +199,7 @@ const Dataset: React.FC = () => {
                     </span>
                   </summary>
 
-                  <ol className='mt-6 list-decimal space-y-6 pl-6'>
+                  <ol className='mt-6 list-decimal space-y-6 pl-8'>
                     {datasetSubCite.map((pub, i) => (
                       <li key={i}>
                         <div className='rounded-lg bg-white p-5 shadow-sm transition-shadow hover:shadow-md'>
