@@ -8,6 +8,7 @@ import Viz from '@/components/Viz';
 
 import datasetCitationData from '~/data/dataset_citations.json';
 import markerCitationData from '~/data/marker_paper.json';
+import { Tab, TabList, TabPanel, TabPanels, Tabs } from '@chakra-ui/tabs';
 
 const Dataset: React.FC = () => {
   const { mainCitation: markerMainCite, citingPublications: markerSubCite } =
@@ -39,10 +40,7 @@ const Dataset: React.FC = () => {
               </p>
 
               <div className='relative flex w-max flex-col space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0'>
-                <ButtonLink
-                  href='https://fairhub.io/'
-                  variant='primary'
-                >
+                <ButtonLink href='https://fairhub.io/' variant='primary'>
                   Access our data
                 </ButtonLink>
                 <ButtonLink
@@ -72,160 +70,169 @@ const Dataset: React.FC = () => {
               <h2 className='mb-3 text-center text-3xl font-bold tracking-tight'>
                 Citations
               </h2>
-              <p>
+              <p className='pb-4'>
                 {' '}
                 Projects that publish using our datasets are required to cite
                 both our marker paper and dataset. Below, we provide a list of
                 those citations.
               </p>
-              <h3 className='pb-2 text-center text-xl font-bold tracking-tight'>
-                Marker paper
-              </h3>
-              <div className='bg-white p-2 shadow-sm'>
-                <div className='mt-4 space-y-2 leading-relaxed text-gray-700'>
-                  <p className='text-base text-gray-800'>
-                    AI-READI Consortium. {markerMainCite.year}
-                    {'. '}
-                    <span className='italic text-gray-900'>
-                      {markerMainCite.title}
-                    </span>
-                    {'. '}
-                    {markerMainCite.source}
-                    {'. '}
-                    <a
-                      href={markerMainCite.link}
-                      target='_blank'
-                      rel='noopener noreferrer'
-                      className='text-sky-600 hover:underline'
-                    >
-                      {markerMainCite.link}
-                    </a>
-                  </p>
-                </div>
-              </div>
+              <Tabs variant='enclosed' isFitted>
+                <TabList>
+                  <Tab
+                    _selected={{
+                      bg: 'white',
+                      borderColor: 'gray.200',
+                      color: 'blue.600',
+                    }}
+                  >
+                    Marker Paper
+                  </Tab>
+                  <Tab
+                    _selected={{
+                      bg: 'white',
+                      borderColor: 'gray.200',
+                      color: 'blue.600',
+                    }}
+                  >
+                    AI-READI Dataset
+                  </Tab>
+                </TabList>
 
-              <div className='bg-white pb-4 shadow-sm'>
-                <details className='group'>
-                  <summary className='cursor-pointer pl-2 text-lg font-bold'>
-                    <span className='inline-flex gap-2 hover:underline'>
-                      Citing resources ({markerSubCite.length})
-                    </span>
-                  </summary>
+                <TabPanels>
+                  <TabPanel>
+                    <div className='bg-white px-6 py-2 shadow-sm'>
+                      <div className='mt-4 space-y-2 leading-relaxed text-gray-700'>
+                        <p className='text-base text-gray-800'>
+                          AI-READI Consortium. {markerMainCite.year}
+                          {'. '}
+                          <span className='italic text-gray-900'>
+                            {markerMainCite.title}
+                          </span>
+                          {'. '}
+                          {markerMainCite.source}
+                          {'. '}
+                          <a
+                            href={markerMainCite.link}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='text-sky-600 hover:underline'
+                          >
+                            {markerMainCite.link}
+                          </a>
+                        </p>
+                      </div>
+                      <h3 className='pt-4 text-lg font-bold'>
+                        Citing resources
+                      </h3>
+                      <ol className='mt-6 list-decimal space-y-6 pl-4'>
+                        {markerSubCite.map((pub, i) => (
+                          <li key={i}>
+                            <div className='rounded-lg bg-gray-50 p-5 shadow-sm transition-shadow hover:shadow-md'>
+                              <p className='text-base leading-relaxed text-gray-800'>
+                                {(Array.isArray(pub.authors)
+                                  ? pub.authors.map((a) => a.name).join(', ')
+                                  : pub.authors) || '—'}
+                                {'. '}
+                                {pub.source?.match(/\b(19|20)\d{2}\b/)?.[0] ??
+                                  '—'}
+                                . <span className='italic'>{pub.title}</span>.{' '}
+                                {pub.source?.split('-').pop()?.trim()}.{' '}
+                                <a
+                                  href={pub.link}
+                                  target='_blank'
+                                  rel='noopener noreferrer'
+                                  className='text-sky-600 hover:underline'
+                                >
+                                  {pub.link}
+                                </a>
+                              </p>
+                            </div>
+                          </li>
+                        ))}
+                      </ol>
+                    </div>
+                  </TabPanel>
 
-                  <ol className='mt-6 list-decimal space-y-6 pl-8'>
-                    {markerSubCite.map((pub, i) => (
-                      <li key={i}>
-                        <div className='rounded-lg bg-white p-5 shadow-sm transition-shadow hover:shadow-md'>
-                          <p className='text-base leading-relaxed text-gray-800'>
-                            {(Array.isArray(pub.authors)
-                              ? pub.authors.map((a) => a.name).join(', ')
-                              : pub.authors) || '—'}
-                            {'. '}
-                            {pub.source?.match(/\b(19|20)\d{2}\b/)?.[0] ?? '—'}.{' '}
-                            <span className='italic'>{pub.title}</span>.{' '}
-                            {pub.source?.split('-').pop()?.trim()}.{' '}
+                  <TabPanel>
+                    <div className='bg-white p-6 shadow-sm'>
+                      <div className='mt-4 space-y-2 leading-relaxed text-gray-700'>
+                        <p className='text-base text-gray-800'>
+                          {datasetMainCite.authors?.[0]?.name}
+                          {'. '}
+                          <span className='italic text-gray-900'>
+                            {datasetMainCite.title}
+                          </span>
+                        </p>
+
+                        <ul className='list-inside list-disc space-y-1'>
+                          <li>
+                            v1.0.0 (2024):{' '}
                             <a
-                              href={pub.link}
+                              href='https://doi.org/10.60775/fairhub.1'
                               target='_blank'
                               rel='noopener noreferrer'
                               className='text-sky-600 hover:underline'
                             >
-                              {pub.link}
+                              https://doi.org/10.60775/fairhub.1
                             </a>
-                          </p>
-                        </div>
-                      </li>
-                    ))}
-                  </ol>
-                </details>
-              </div>
-
-              <h3 className='py-2 text-center text-xl font-bold tracking-tight'>
-                AI-READI dataset
-              </h3>
-              <div className='bg-white p-2 shadow-sm'>
-                  <div className='mt-4 space-y-2 leading-relaxed text-gray-700'>
-                    <p className='text-base text-gray-800'>
-                      {datasetMainCite.authors?.[0]?.name}
-                      {'. '}
-                      <span className='italic text-gray-900'>
-                        {datasetMainCite.title}
-                      </span>
-                    </p>
-
-                    <ul className='list-disc list-inside space-y-1'>
-                      <li>
-                        v1.0.0 (2024):{' '}
-                        <a
-                          href='https://doi.org/10.60775/fairhub.1'
-                          target='_blank'
-                          rel='noopener noreferrer'
-                          className='text-sky-600 hover:underline'
-                        >
-                          https://doi.org/10.60775/fairhub.1
-                        </a>
-                      </li>
-                      <li>
-                        v2.0.0 (2024):{' '}
-                        <a
-                          href='https://doi.org/10.60775/fairhub.2'
-                          target='_blank'
-                          rel='noopener noreferrer'
-                          className='text-sky-600 hover:underline'
-                        >
-                          https://doi.org/10.60775/fairhub.2
-                        </a>
-                      </li>
-                      <li>
-                        v3.0.0 (2025):{' '}
-                        <a
-                          href='https://doi.org/10.60775/fairhub.3'
-                          target='_blank'
-                          rel='noopener noreferrer'
-                          className='text-sky-600 hover:underline'
-                        >
-                          https://doi.org/10.60775/fairhub.3
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-              <div className='bg-white pb-4 shadow-sm'>
-                <details className='group'>
-                  <summary className='cursor-pointer pl-2 text-lg font-bold'>
-                    <span className='inline-flex gap-2 hover:underline'>
-                      Citing resources ({datasetSubCite.length})
-                    </span>
-                  </summary>
-
-                  <ol className='mt-6 list-decimal space-y-6 pl-8'>
-                    {datasetSubCite.map((pub, i) => (
-                      <li key={i}>
-                        <div className='rounded-lg bg-white p-5 shadow-sm transition-shadow hover:shadow-md'>
-                          <p className='text-base leading-relaxed text-gray-800'>
-                            {(Array.isArray(pub.authors)
-                              ? pub.authors.map((a) => a.name).join(', ')
-                              : pub.authors) || '—'}
-                            {'. '}
-                            {pub.source?.match(/\b(19|20)\d{2}\b/)?.[0] ?? '—'}.{' '}
-                            <span className='italic'>{pub.title}</span>.{' '}
-                            {pub.source?.split('-').pop()?.trim()}.{' '}
+                          </li>
+                          <li>
+                            v2.0.0 (2024):{' '}
                             <a
-                              href={pub.link}
+                              href='https://doi.org/10.60775/fairhub.2'
                               target='_blank'
                               rel='noopener noreferrer'
                               className='text-sky-600 hover:underline'
                             >
-                              {pub.link}
+                              https://doi.org/10.60775/fairhub.2
                             </a>
-                          </p>
-                        </div>
-                      </li>
-                    ))}
-                  </ol>
-                </details>
-              </div>
+                          </li>
+                          <li>
+                            v3.0.0 (2025):{' '}
+                            <a
+                              href='https://doi.org/10.60775/fairhub.3'
+                              target='_blank'
+                              rel='noopener noreferrer'
+                              className='text-sky-600 hover:underline'
+                            >
+                              https://doi.org/10.60775/fairhub.3
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <h3 className='pt-4 text-lg font-bold'>
+                        Citing resources ({datasetSubCite.length})
+                      </h3>
+                      <ol className='mt-6 list-decimal space-y-6 pl-4'>
+                        {datasetSubCite.map((pub, i) => (
+                          <li key={i}>
+                            <div className='rounded-lg bg-white p-5 shadow-sm transition-shadow hover:shadow-md'>
+                              <p className='text-base leading-relaxed text-gray-800'>
+                                {(Array.isArray(pub.authors)
+                                  ? pub.authors.map((a) => a.name).join(', ')
+                                  : pub.authors) || '—'}
+                                {'. '}
+                                {pub.source?.match(/\b(19|20)\d{2}\b/)?.[0] ??
+                                  '—'}
+                                . <span className='italic'>{pub.title}</span>.{' '}
+                                {pub.source?.split('-').pop()?.trim()}.{' '}
+                                <a
+                                  href={pub.link}
+                                  target='_blank'
+                                  rel='noopener noreferrer'
+                                  className='text-sky-600 hover:underline'
+                                >
+                                  {pub.link}
+                                </a>
+                              </p>
+                            </div>
+                          </li>
+                        ))}
+                      </ol>
+                    </div>
+                  </TabPanel>
+                </TabPanels>
+              </Tabs>
             </div>
           </section>
         </main>
