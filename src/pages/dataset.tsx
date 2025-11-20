@@ -23,12 +23,12 @@ const Dataset: React.FC = () => {
   // Marker pagination with condition
   const [markerPage, setMarkerPage] = useState(0);
   const markerTotalPages =
-    markerSubCite.length > 10
+    markerSubCite.length > 30
       ? Math.ceil(markerSubCite.length / itemsPerPage)
       : 1;
 
   const markerVisible =
-    markerSubCite.length > 10
+    markerSubCite.length > 30
       ? markerSubCite.slice(
           markerPage * itemsPerPage,
           markerPage * itemsPerPage + itemsPerPage,
