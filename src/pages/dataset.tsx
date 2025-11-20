@@ -1,5 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
+import { Button, Flex } from '@chakra-ui/react';
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
+import { Tab, TabList, TabPanel, TabPanels, Tabs } from '@chakra-ui/tabs';
+import { useState } from 'react';
 
 import Layout from '@/components/layout/Layout';
 import ButtonLink from '@/components/links/ButtonLink';
@@ -8,9 +11,6 @@ import Viz from '@/components/Viz';
 
 import datasetCitationData from '~/data/dataset_citations.json';
 import markerCitationData from '~/data/marker_paper.json';
-import { Tab, TabList, TabPanel, TabPanels, Tabs } from '@chakra-ui/tabs';
-import { Button, Flex } from '@chakra-ui/react';
-import { useState } from 'react';
 
 const Dataset: React.FC = () => {
   const { mainCitation: markerMainCite, citingPublications: markerSubCite } =
