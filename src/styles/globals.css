@@ -169,7 +169,6 @@
   display: block;
   transform: translateX(calc(-100% + 32px));
   text-align: right;
-
 }
 
 .completed-consent-text:after {
@@ -198,7 +197,6 @@
   display: block;
   transform: translateX(calc(-100% + 32px));
   text-align: right;
-
 }
 
 .completed-study-text:after {
