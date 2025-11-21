@@ -23,12 +23,12 @@ const Dataset: React.FC = () => {
   // Marker pagination with condition
   const [markerPage, setMarkerPage] = useState(0);
   const markerTotalPages =
-    markerSubCite.length > 30
+    markerSubCite.length > 20
       ? Math.ceil(markerSubCite.length / itemsPerPage)
       : 1;
 
   const markerVisible =
-    markerSubCite.length > 30
+    markerSubCite.length > 20
       ? markerSubCite.slice(
           markerPage * itemsPerPage,
           markerPage * itemsPerPage + itemsPerPage,
@@ -38,11 +38,11 @@ const Dataset: React.FC = () => {
   // Dataset pagination with condition
   const [datasetPage, setDatasetPage] = useState(0);
   const datasetTotalPages =
-    datasetSubCite.length > 30
+    datasetSubCite.length > 20
       ? Math.ceil(datasetSubCite.length / itemsPerPage)
       : 1;
   const datasetVisible =
-    datasetSubCite.length > 30
+    datasetSubCite.length > 20
       ? datasetSubCite.slice(
           datasetPage * itemsPerPage,
           datasetPage * itemsPerPage + itemsPerPage,
@@ -236,7 +236,7 @@ const Dataset: React.FC = () => {
 
                           return (
                             <li key={index}>
-                              <div className='rounded-lg bg-gray-50 p-5 shadow-sm transition-shadow hover:shadow-md'>
+                              <div className='rounded-lg bg-gray-50 p-5'>
                                 <p className='text-base leading-relaxed text-gray-800'>
                                   {(Array.isArray(pub.authors)
                                     ? pub.authors.map((a) => a.name).join(', ')
@@ -410,7 +410,7 @@ const Dataset: React.FC = () => {
                       >
                         {datasetVisible.map((pub, i) => (
                           <li key={i}>
-                            <div className='rounded-lg bg-gray-50 p-5 shadow-sm transition-shadow hover:shadow-md'>
+                            <div className='rounded-lg bg-gray-50 p-5'>
                               <p className='text-base leading-relaxed text-gray-800'>
                                 {(Array.isArray(pub.authors)
                                   ? pub.authors.map((a) => a.name).join(', ')
