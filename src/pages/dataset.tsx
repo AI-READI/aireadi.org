@@ -20,34 +20,21 @@ const Dataset: React.FC = () => {
 
   const itemsPerPage = 10;
 
-  // Marker pagination with condition
+  // Marker pagination
   const [markerPage, setMarkerPage] = useState(0);
-  const markerTotalPages =
-    markerSubCite.length > 20
-      ? Math.ceil(markerSubCite.length / itemsPerPage)
-      : 1;
+  const markerTotalPages = Math.ceil(markerSubCite.length / itemsPerPage);
+  const markerVisible = markerSubCite.slice(
+    markerPage * itemsPerPage,
+    markerPage * itemsPerPage + itemsPerPage,
+  );
 
-  const markerVisible =
-    markerSubCite.length > 20
-      ? markerSubCite.slice(
-          markerPage * itemsPerPage,
-          markerPage * itemsPerPage + itemsPerPage,
-        )
-      : markerSubCite;
-
-  // Dataset pagination with condition
+  // Dataset pagination
   const [datasetPage, setDatasetPage] = useState(0);
-  const datasetTotalPages =
-    datasetSubCite.length > 20
-      ? Math.ceil(datasetSubCite.length / itemsPerPage)
-      : 1;
-  const datasetVisible =
-    datasetSubCite.length > 20
-      ? datasetSubCite.slice(
-          datasetPage * itemsPerPage,
-          datasetPage * itemsPerPage + itemsPerPage,
-        )
-      : datasetSubCite;
+  const datasetTotalPages = Math.ceil(datasetSubCite.length / itemsPerPage);
+  const datasetVisible = datasetSubCite.slice(
+    datasetPage * itemsPerPage,
+    datasetPage * itemsPerPage + itemsPerPage,
+  );
 
   const datasetVersions = [
     {
