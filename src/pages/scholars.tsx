@@ -41,7 +41,7 @@ interface Scholar {
   name: string;
   image: string;
   blurDataURL: string;
-  moduleImageParams: string;
+  moduleImage: string;
   education: { degree: string; institution: string }[];
   expertise: string[];
   tag: string[];
@@ -93,11 +93,7 @@ const ScholarsGrid: React.FC<{
 
             <div className='relative mx-auto mb-2 min-h-[350px] w-full sm:min-h-[250px]'>
               <Image
-                src={`${scholar.image}${
-                  scholar.moduleImageParams != ''
-                    ? scholar.moduleImageParams
-                    : ''
-                }`}
+                src={scholar.moduleImage}
                 alt={scholar.name + ' image'}
                 fill
                 placeholder='blur'

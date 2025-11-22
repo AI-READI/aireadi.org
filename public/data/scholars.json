@@ -3,13 +3,25 @@
     "id": "Hadi-Khazaei",
     "name": "Hadi Khazaei",
     "class": "2023-2024",
-    "image": "https://ucarecdn.com/503173c5-1eb1-42bc-9005-c390fa8340bf/-/crop/face/200px160p/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
-    "moduleImageParams": "",
-    "tag": ["#OpenToWork", "#OpenToVolunteer"],
+    "image": "https://cdn.aireadi.org/people/Hadi-Khazaei.jpeg",
+    "moduleImage": "https://cdn.aireadi.org/headshot/Hadi-Khazaei.jpeg",
+    "tag": [
+      "#OpenToWork",
+      "#OpenToVolunteer"
+    ],
     "education": [
-      { "degree": "MD Internal Medicine", "institution": "" },
-      { "degree": "MS Ophthalmology", "institution": "" },
-      { "degree": "MCR Translational Research", "institution": "" }
+      {
+        "degree": "MD Internal Medicine",
+        "institution": ""
+      },
+      {
+        "degree": "MS Ophthalmology",
+        "institution": ""
+      },
+      {
+        "degree": "MCR Translational Research",
+        "institution": ""
+      }
     ],
     "expertise": [
       "Translational Medicine",
@@ -26,10 +38,17 @@
     "id": "Kyongmi-Simpkins",
     "name": "Kyongmi Simpkins",
     "class": "2023-2024",
-    "image": "https://ucarecdn.com/57e1acbd-2e97-41d4-bf70-d2355f1a9f8a/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
-    "moduleImageParams": "-/crop/face/190px150p/",
-    "tag": ["#OpenToWork"],
-    "education": [{ "degree": "PhD in Neuroscience", "institution": "" }],
+    "image": "https://cdn.aireadi.org/people/Kyongmi-Simpkins.jpg",
+    "moduleImage": "https://cdn.aireadi.org/headshot/Kyongmi-Simpkins.jpg",
+    "tag": [
+      "#OpenToWork"
+    ],
+    "education": [
+      {
+        "degree": "PhD in Neuroscience",
+        "institution": ""
+      }
+    ],
     "expertise": [
       "Molecular neuroscience",
       "Imaging",
@@ -46,9 +65,11 @@
     "id": "Anna-Heinke",
     "name": "Anna Heinke",
     "class": "2023-2024",
-    "image": "https://ucarecdn.com/45f1eb9a-b6f2-4b5e-9618-18189285af62/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
-    "moduleImageParams": "-/crop/face/200px160p/",
-    "tag": ["#OpenToWork"],
+    "image": "https://cdn.aireadi.org/people/Anna-Heinke.jpg",
+    "moduleImage": "https://cdn.aireadi.org/headshot/Anna-Heinke.jpg",
+    "tag": [
+      "#OpenToWork"
+    ],
     "education": [
       {
         "degree": "PhD in Opthalmology",
@@ -77,9 +98,12 @@
     "id": "Nada-Haboudal",
     "name": "Nada Haboudal",
     "class": "2023-2024",
-    "image": "https://ucarecdn.com/12c60787-2733-4802-b96e-0a43bfa907c2/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
-    "moduleImageParams": "-/crop/face/200px150p/",
-    "tag": ["#OpenToWork", "#OpenToVolunteer"],
+    "image": "https://cdn.aireadi.org/people/Nada-Haboudal.jpg",
+    "moduleImage": "https://cdn.aireadi.org/headshot/Nada-Haboudal.jpg",
+    "tag": [
+      "#OpenToWork",
+      "#OpenToVolunteer"
+    ],
     "education": [
       {
         "degree": "M.S. Engineering Technology",
@@ -107,9 +131,11 @@
     "id": "Shahin-Hallaj",
     "name": "Shahin Hallaj",
     "class": "2023-2024",
-    "image": "https://ucarecdn.com/a7686be0-dfda-4d71-91e3-e27812fccc00/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
-    "moduleImageParams": "",
-    "tag": ["#OpenToVolunteer"],
+    "image": "https://cdn.aireadi.org/people/Shahin-Hallaj.jpg",
+    "moduleImage": "https://cdn.aireadi.org/headshot/Shahin-Hallaj.jpg",
+    "tag": [
+      "#OpenToVolunteer"
+    ],
     "education": [
       {
         "degree": "MD",
@@ -136,9 +162,12 @@
     "id": "Fritz-Gerald-Kalaw",
     "name": "Fritz Gerald Kalaw",
     "class": "2023-2024",
-    "image": "https://ucarecdn.com/a711ef59-e368-4d0c-bb8e-ea2d6244322e/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
-    "moduleImageParams": "",
-    "tag": ["#OpenToWork", "#OpenToVolunteer"],
+    "image": "https://cdn.aireadi.org/people/Fritz-Gerald-Kalaw.jpg",
+    "moduleImage": "https://cdn.aireadi.org/headshot/Fritz-Gerald-Kalaw.jpg",
+    "tag": [
+      "#OpenToWork",
+      "#OpenToVolunteer"
+    ],
     "education": [
       {
         "degree": "Ophthalmology Residency",
@@ -171,9 +200,11 @@
     "id": "Apoorva-Karsolia",
     "name": "Apoorva Karsolia",
     "class": "2023-2024",
-    "image": "https://ucarecdn.com/5f77b9d1-d9c5-4a7f-b62c-992a6a1e25e3/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
-    "moduleImageParams": "-/crop/face/200px170p/",
-    "tag": ["#OpenToWork"],
+    "image": "https://cdn.aireadi.org/people/Apoorva-Karsolia.jpeg",
+    "moduleImage": "https://cdn.aireadi.org/headshot/Apoorva-Karsolia.jpeg",
+    "tag": [
+      "#OpenToWork"
+    ],
     "education": [
       {
         "degree": "PhD in Vision Science",
@@ -204,9 +235,11 @@
     "id": "Adelle-Engmann",
     "name": "Adelle Engmann",
     "class": "2024-2025",
-    "image": "https://ucarecdn.com/268db5fe-2a84-439b-a024-d0cfce508baf/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
-    "moduleImageParams": "-/crop/face/200px140p/",
-    "tag": ["#OpenToWork"],
+    "image": "https://cdn.aireadi.org/people/Adelle-Engmann.jpg",
+    "moduleImage": "https://cdn.aireadi.org/headshot/Adelle-Engmann.jpg",
+    "tag": [
+      "#OpenToWork"
+    ],
     "education": [
       {
         "degree": "Masters in Computational Social Science",
@@ -233,9 +266,12 @@
     "id": "Aya-Motoyoshi",
     "name": "Aya Motoyoshi",
     "class": "2024-2025",
-    "image": "https://ucarecdn.com/bcbc259b-f0df-4c9b-b602-d7c4da2d2481/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
-    "moduleImageParams": "-/crop/face/200px160p/",
-    "tag": ["#OpenToWork", "#OpenToVolunteer"],
+    "image": "https://cdn.aireadi.org/people/Aya-Motoyoshi.jpg",
+    "moduleImage": "https://cdn.aireadi.org/headshot/Aya-Motoyoshi.jpg",
+    "tag": [
+      "#OpenToWork",
+      "#OpenToVolunteer"
+    ],
     "education": [
       {
         "degree": "PhD in Medicine",
@@ -265,9 +301,11 @@
     "id": "Taiki-Nishihara",
     "name": "Taiki Nishihara",
     "class": "2024-2025",
-    "image": "https://ucarecdn.com/893f0613-6795-40b9-baa8-8f16507ef780/-/quality/smart_retina/-/format/auto/-/progressive/yes/",
-    "moduleImageParams": "-/crop/face/200px160p/",
-    "tag": ["#OpenToWork"],
+    "image": "https://cdn.aireadi.org/people/Taiki-Nishihara.jpg",
+    "moduleImage": "https://cdn.aireadi.org/headshot/Taiki-Nishihara.jpg",
+    "tag": [
+      "#OpenToWork"
+    ],
     "education": [
       {
         "degree": "MD Candidate",
@@ -278,7 +316,12 @@
         "institution": "UC Berkeley"
       }
     ],
-    "expertise": ["Ophthalmology", "AI/ML", "Medicine", "Data Science"],
+    "expertise": [
+      "Ophthalmology",
+      "AI/ML",
+      "Medicine",
+      "Data Science"
+    ],
     "about": "I am a medical student at UC San Diego School of Medicine with a strong interest in pursuing a career in ophthalmology. My research background includes statistical analysis and clinical modeling, utilizing techniques such as Markov models to investigate innovative solutions in ophthalmology. As an AI-READI intern this year, I am focused on exploring the clinical applications of AI and machine learning in ophthalmology, with a particular emphasis on retinal imaging analysis. When not working, I enjoy taking my dog to the nearest dog beach!",
     "after": "After completing the AI-READI internship, I plan to apply for residency programs in ophthalmology. Throughout my career, I'm eager to leverage the knowledge and skills gained during this experience to contribute to translational AI research and advancements in eye care.",
     "social": {

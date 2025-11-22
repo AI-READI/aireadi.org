@@ -50,7 +50,7 @@ export default async function ModuleMembersFilter(
       roles: member.roles,
       modules: member.modules,
       image: member.image,
-      moduleImageParams: member.moduleImageParams,
+      moduleImage: member.moduleImage,
       blurDataURL: member.blurDataURL,
     };
 

@@ -29,7 +29,7 @@ interface ModuleMemberType {
   roles: string[];
   image: string;
   modules: string[];
-  moduleImageParams: string;
+  moduleImage: string;
   blurDataURL: string;
 }
 

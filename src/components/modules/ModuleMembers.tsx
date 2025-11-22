@@ -43,11 +43,7 @@ const ModuleMembers: React.FC<ComponentProps> = ({ Team }) => {
                 >
                   <div className='relative mx-auto mb-2 min-h-[350px] w-full sm:min-h-[250px]'>
                     <Image
-                      src={`${member.image}${
-                        member.moduleImageParams != ''
-                          ? member.moduleImageParams
-                          : ''
-                      }`}
+                      src={member.moduleImage}
                       alt={member.name + ' image'}
                       fill
                       placeholder='blur'

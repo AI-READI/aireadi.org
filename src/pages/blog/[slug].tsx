@@ -39,7 +39,7 @@ interface Author {
   id: string;
   name: string;
   image: string;
-  moduleImageParams: string;
+  moduleImage: string;
 }
 
 const AllAuthors: Record<string, Author> = {};
@@ -59,7 +59,7 @@ const BlogPost: React.FC<PostProps> = ({ slug, frontMatter, postContent }) => {
     if (AllAuthors[author]) {
       transformedAuthors.push({
         name: AllAuthors[author].name,
-        image: AllAuthors[author].image + AllAuthors[author].moduleImageParams,
+        image: AllAuthors[author].moduleImage,
       });
     } else {
       transformedAuthors.push({
