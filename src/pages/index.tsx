@@ -669,9 +669,8 @@ const MembersLogosList = [
     caption: 'Johns Hopkins University',
   },
   {
-    image:
-      'https://nativebio.org/wp-content/uploads/2020/12/NBDC_web_logo_transparent_340x156.png',
-    imageHeight: 'h-16',
+    image: 'https://nativebio.org/sites/default/files/native-biodata-logo.png',
+    imageHeight: 'h-14',
     href: 'https://nativebio.org/',
     caption: 'Native BioData Consortium',
   },
