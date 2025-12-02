@@ -405,7 +405,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
               </div>
               <div className='flex w-full items-center justify-center px-5 py-5'>
                 <ImageWithCredit
-                  src='https://ucarecdn.com/dddbf822-3778-4eb0-af18-0d898125d892/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
+                  src='https://cdn.aireadi.org/website/Bookmarty.jpeg'
                   alt=''
                   author='UAB Media Department'
                 />
@@ -688,8 +688,7 @@ const MembersLogosList = [
     caption: 'Stanford University',
   },
   {
-    image:
-      'https://ucarecdn.com/91c68c74-82ad-49dc-9c31-0daf608b0685/-/resize/x216/-/quality/smart/-/format/auto/',
+    image: 'https://cdn.aireadi.org/website/UAB-Medicine-Logo.jpeg',
     imageHeight: 'h-5',
     href: 'https://www.uab.edu/home/',
     caption: 'University of Alabama at Birmingham',
