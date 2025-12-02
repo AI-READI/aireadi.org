@@ -38,7 +38,7 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
 
         <HeroCroppedImage
           title='Capacity Building'
-          image='https://ucarecdn.com/43f384e1-ec90-410f-b3b5-7d72f3eda492/'
+          image='https://cdn.aireadi.org/website/coconsole.jpeg'
           tagline='Training and expanding the AI/ML-biomedical research workforce'
           showButtons={false}
           primaryButton='Learn more about the study'
@@ -71,7 +71,7 @@ const EthicsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
             <div className='flex w-full items-center justify-center px-5 py-5'>
               <img
                 className='rounded-lg'
-                src='https://ucarecdn.com/b6521517-979e-4ae4-baff-69ade647a982/'
+                src='https://cdn.aireadi.org/website/intern-bootcamp-6.jpeg'
                 alt='mockup'
               />
             </div>

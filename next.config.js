@@ -13,7 +13,6 @@ const nextConfig = {
       'storage.tally.so',
       'images.unsplash.com',
       'fairdataihub.org',
-      'ucarecdn.com',
       'i.imgur.com',
       'cdn.aireadi.org',
     ],

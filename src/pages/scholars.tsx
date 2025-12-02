@@ -181,7 +181,7 @@ const ScholarsPage: React.FC<
 
           <HeroCroppedImage
             title='Scholars'
-            image='https://ucarecdn.com/2b081802-f0a0-40b5-b333-b1438e89415e/'
+            image='https://cdn.aireadi.org/website/intern-bootcamp-4.jpeg'
             tagline='This page is dedicated to promoting the AI-READI Scholars that are part of our internship program. Learn more about their background, interests, and opportunities they are looking for after their internship ends.'
             showButtons={false}
             primaryButton='Learn more about the study'

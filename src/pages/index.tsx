@@ -72,10 +72,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
 
               <div className='col-span-12'>
                 <div className='relative flex w-max flex-col space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0'>
-                  <ButtonLink
-                    href='https://fairhub.io'
-                    variant='primary'
-                  >
+                  <ButtonLink href='https://fairhub.io' variant='primary'>
                     Access our data
                   </ButtonLink>
                   <ButtonLink
@@ -187,18 +184,18 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
             <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center gap-16 px-8 md:flex-col'>
               <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
                 <ImageWithCredit
-                  src='https://ucarecdn.com/b6105868-0deb-49d6-bb1e-7f309654f5eb/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
+                  src='https://cdn.aireadi.org/website/UAB-Landscape.jpg'
                   alt='Photo of the UAB Callahan Eye Hospital'
                   author='UAB Media Department'
                 />
 
                 <ImageWithCredit
-                  src='https://ucarecdn.com/3b4fea21-2260-41fd-b297-cef11c1554fd/-/crop/1142x762/0,0/-/preview/3000x3000/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
+                  src='https://cdn.aireadi.org/website/UCSD-Landscape.jpg'
                   alt='Photo of the UCSD Medical Center'
                   author='Board of Regents of the University of California'
                 />
                 <ImageWithCredit
-                  src='https://ucarecdn.com/1ce55225-2e61-4734-a6a3-e19c5a95549b/-/crop/5625x3750/0,0/-/preview/3000x3000/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
+                  src='https://cdn.aireadi.org/website/UW-Landscape.jpg'
                   alt='Photo of the UW Medicine building'
                   author='Clare McLean/UW Medicine'
                 />
@@ -249,7 +246,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                       className='total-participants'
                     >
                       <span className='block text-xl font-bold'>Goal</span>
-                      <span className='text-[16px] max-md:max-w-[130px] max-w-[180px] font-normal'>
+                      <span className='max-w-[180px] text-[16px] font-normal max-md:max-w-[130px]'>
                         data collection from 4,000 participants
                       </span>
                     </motion.div>
@@ -258,7 +255,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                       className='completed-consent-text'
                     >
                       <span className='block text-xl font-bold'>4,920+</span>
-                      <span className='text-[16px] max-md:max-w-[130px] max-w-[180px] font-normal'>
+                      <span className='max-w-[180px] text-[16px] font-normal max-md:max-w-[130px]'>
                         participants completed the consent process
                       </span>
                     </motion.div>
@@ -272,7 +269,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                       className='completed-study-text'
                     >
                       <span className='block text-xl font-bold'>3,140+</span>
-                      <span className='text-[16px] max-md:max-w-[140px] max-w-[180px] font-normal'>
+                      <span className='max-w-[180px] text-[16px] font-normal max-md:max-w-[140px]'>
                         participants completed in-person study visit
                       </span>
                     </motion.div>
@@ -300,10 +297,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                 </p>
 
                 <div className='flex items-center space-x-2'>
-                  <ButtonLink
-                    href='https://fairhub.io'
-                    variant='primary'
-                  >
+                  <ButtonLink href='https://fairhub.io' variant='primary'>
                     Access our data
                   </ButtonLink>
 
@@ -315,14 +309,14 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
               <div className='mt-8 grid grid-cols-2 gap-4'>
                 <div className='flex items-start'>
                   <ImageWithCredit
-                    src='https://ucarecdn.com/678e126d-febe-4db4-887e-ae7e6733f99f/-/crop/3283x4359/2388,0/-/preview/3000x3000/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
+                    src='https://cdn.aireadi.org/website/hypeChata.jpeg'
                     alt=''
                     author='UAB Media Department'
                   />
                 </div>
                 <div className='mt-4 w-full rounded-lg lg:mt-10'>
                   <ImageWithCredit
-                    src='https://ucarecdn.com/4825d169-5780-4191-a6cb-277bd40b1725/-/crop/4187x5504/630,0/-/preview/3000x3000/-/quality/smart_retina/-/format/auto/-/progressive/yes/'
+                    src='https://cdn.aireadi.org/website/yprotp.jpeg'
                     alt=''
                     author='UAB Media Department'
                   />
