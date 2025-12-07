@@ -1,20 +1,34 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    dirs: ['src'],
-  },
-
   reactStrictMode: true,
-  swcMinify: true,
 
   images: {
-    domains: [
-      'storage.googleapis.com',
-      'storage.tally.so',
-      'images.unsplash.com',
-      'fairdataihub.org',
-      'i.imgur.com',
-      'cdn.aireadi.org',
+    dangerouslyAllowSVG: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'storage.googleapis.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'storage.tally.so',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'fairdataihub.org',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.imgur.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.aireadi.org',
+      },
     ],
   },
 
@@ -26,25 +40,6 @@ const nextConfig = {
         permanent: false,
       },
     ];
-  },
-
-  // SVGR
-  webpack(config) {
-    config.module.rules.push({
-      test: /\.svg$/i,
-      issuer: /\.[jt]sx?$/,
-      use: [
-        {
-          loader: '@svgr/webpack',
-          options: {
-            typescript: true,
-            icon: true,
-          },
-        },
-      ],
-    });
-
-    return config;
   },
 };
 

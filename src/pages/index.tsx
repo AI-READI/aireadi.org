@@ -184,18 +184,18 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
             <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center gap-16 px-8 md:flex-col'>
               <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
                 <ImageWithCredit
-                  src='https://cdn.aireadi.org/website/UAB-Landscape.jpg'
+                  src='https://cdn.aireadi.org/website/aqqrujk.jpg'
                   alt='Photo of the UAB Callahan Eye Hospital'
                   author='UAB Media Department'
                 />
 
                 <ImageWithCredit
-                  src='https://cdn.aireadi.org/website/UCSD-Landscape.jpg'
+                  src='https://cdn.aireadi.org/website/nhgxpxn.jpg'
                   alt='Photo of the UCSD Medical Center'
                   author='Board of Regents of the University of California'
                 />
                 <ImageWithCredit
-                  src='https://cdn.aireadi.org/website/UW-Landscape.jpg'
+                  src='https://cdn.aireadi.org/website/espmdrt.jpg'
                   alt='Photo of the UW Medicine building'
                   author='Clare McLean/UW Medicine'
                 />
