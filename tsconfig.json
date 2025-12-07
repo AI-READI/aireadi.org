@@ -19,7 +19,6 @@
       "~/*": ["./public/*"]
     },
     "incremental": true,
-    "types": ["node"],
     "typeRoots": ["./src/types"],
     "plugins": [
       {
