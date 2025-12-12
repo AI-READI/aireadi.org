@@ -112,18 +112,18 @@ const SkillsModule: React.FC<ModuleMembersPageProps> = ({ TeamMembers }) => (
               <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
                 <img
                   className='rounded-lg'
-                  src='https://cdn.aireadi.org/website/UAB-Landscape.jpg'
+                  src='https://ai-readi.b-cdn.net/website/UAB-Landscape.jpg'
                   alt='Photo of the UAB Callahan Eye Hospital'
                 />
 
                 <img
                   className='rounded-lg'
-                  src='https://cdn.aireadi.org/website/UCSD-Landscape.jpg'
+                  src='https://ai-readi.b-cdn.net/website/UCSD-Landscape.jpg'
                   alt='Photo of the UCSD Medical Center'
                 />
                 <img
                   className='rounded-lg'
-                  src='https://cdn.aireadi.org/website/UW-Landscape.jpg'
+                  src='https://ai-readi.b-cdn.net/website/UW-Landscape.jpg'
                   alt='Photo of the UW Medicine building'
                 />
               </div>

@@ -184,18 +184,18 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
             <div className='mx-auto flex max-w-screen-xl flex-col-reverse items-center gap-16 px-8 md:flex-col'>
               <div className='mt-8 grid grid-cols-1 gap-4 md:grid-cols-3'>
                 <ImageWithCredit
-                  src='https://cdn.aireadi.org/website/aqqrujk.jpg'
+                  src='https://ai-readi.b-cdn.net/website/aqqrujk.jpg'
                   alt='Photo of the UAB Callahan Eye Hospital'
                   author='UAB Media Department'
                 />
 
                 <ImageWithCredit
-                  src='https://cdn.aireadi.org/website/nhgxpxn.jpg'
+                  src='https://ai-readi.b-cdn.net/website/nhgxpxn.jpg'
                   alt='Photo of the UCSD Medical Center'
                   author='Board of Regents of the University of California'
                 />
                 <ImageWithCredit
-                  src='https://cdn.aireadi.org/website/espmdrt.jpg'
+                  src='https://ai-readi.b-cdn.net/website/espmdrt.jpg'
                   alt='Photo of the UW Medicine building'
                   author='Clare McLean/UW Medicine'
                 />
@@ -309,14 +309,14 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
               <div className='mt-8 grid grid-cols-2 gap-4'>
                 <div className='flex items-start'>
                   <ImageWithCredit
-                    src='https://cdn.aireadi.org/website/hypeChata.jpeg'
+                    src='https://ai-readi.b-cdn.net/website/hypeChata.jpeg'
                     alt=''
                     author='UAB Media Department'
                   />
                 </div>
                 <div className='mt-4 w-full rounded-lg lg:mt-10'>
                   <ImageWithCredit
-                    src='https://cdn.aireadi.org/website/yprotp.jpeg'
+                    src='https://ai-readi.b-cdn.net/website/yprotp.jpeg'
                     alt=''
                     author='UAB Media Department'
                   />
@@ -405,7 +405,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
               </div>
               <div className='flex w-full items-center justify-center px-5 py-5'>
                 <ImageWithCredit
-                  src='https://cdn.aireadi.org/website/Bookmarty.jpeg'
+                  src='https://ai-readi.b-cdn.net/website/Bookmarty.jpeg'
                   alt=''
                   author='UAB Media Department'
                 />
@@ -688,7 +688,7 @@ const MembersLogosList = [
     caption: 'Stanford University',
   },
   {
-    image: 'https://cdn.aireadi.org/website/UAB-Medicine-Logo.jpeg',
+    image: 'https://ai-readi.b-cdn.net/website/UAB-Medicine-Logo.jpeg',
     imageHeight: 'h-5',
     href: 'https://www.uab.edu/home/',
     caption: 'University of Alabama at Birmingham',

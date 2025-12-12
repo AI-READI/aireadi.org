@@ -29,6 +29,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'cdn.aireadi.org',
       },
+      {
+        protocol: 'https',
+        hostname: 'ai-readi.b-cdn.net',
+      },
     ],
   },
 

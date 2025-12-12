@@ -64,7 +64,7 @@ const StudyPage: React.FC<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
                 <div className='-ml-0 -mt-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:-ml-12 lg:overflow-hidden lg:p-8'>
                   <ImageWithCredit
-                    src='https://cdn.aireadi.org/website/UAB-Landscape.jpg'
+                    src='https://ai-readi.b-cdn.net/website/UAB-Landscape.jpg'
                     alt=''
                     author='UAB Media Department'
                   />
