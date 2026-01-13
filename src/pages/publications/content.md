@@ -1,7 +1,7 @@
 # Publications
 
 ## Journal Articles
-
+- Hallaj, S., Heinke, A., Kalaw, F. G. P., Gim, N., Blazes, M., Owen, J., Dysinger, E., Benton, E. S., Cordier, B. A., Evans, N. G., Li-Pook-Than, J., Snyder, M. P., Nebeker, C., Zangwill, L. M., Baxter, S. L., McWeeney, S., Lee, C. S., Lee, A. Y., Patel, B., & AI-READI Consortium. (2026). Navigating open data sharing and privacy in the age of clinical AI research: From reidentification to pseudo-reidentification. eClinicalMedicine, 91, 103729. [https://doi.org/10.1016/j.eclinm.2025.103729](https://doi.org/10.1016/j.eclinm.2025.103729)
 - Owsley, C., Matthies, D. S., McGwin, G., Edberg, J. C., Baxter, S. L., Zangwill, L. M., Owen, J. P., Lee, C. S., & AI-READI Consortium. (2025). Cross-sectional design and protocol for Artificial Intelligence Ready and Equitable Atlas for Diabetes Insights (AI-READI). BMJ Open, 15(2), e097449. [https://doi.org/10.1136/bmjopen-2024-097449](https://doi.org/10.1136/bmjopen-2024-097449)
 - AI-READI Consortium. (2024). AI-READI: rethinking AI data collection, preparation and sharing in diabetes research and beyond. Nature Metabolism. [https://doi.org/10.1038/s42255-024-01165-x](https://doi.org/10.1038/s42255-024-01165-x)
 
