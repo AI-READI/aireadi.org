@@ -262,7 +262,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
 
                     <motion.div
                       variants={WidthFramerItem}
-                      className='absolute inset-0 max-w-[84%] rounded-full bg-blue-600'
+                      className='absolute inset-0 max-w-[83%] rounded-full bg-blue-600'
                     />
                     <motion.div
                       variants={FadeFramerItem}
