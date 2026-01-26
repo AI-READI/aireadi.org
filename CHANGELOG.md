@@ -1,5 +1,52 @@
 # Changelog
 
+## [3.6.0](https://github.com/AI-READI/aireadi.org/compare/v3.5.0...v3.6.0) (2026-01-26)
+
+
+### Features
+
+* ✨ add mentorship program blog post ([#53](https://github.com/AI-READI/aireadi.org/issues/53)) ([c335836](https://github.com/AI-READI/aireadi.org/commit/c33583648e875f5cc09d8d129a2340da1a0c8181))
+* add a journal to publications ([17f34c5](https://github.com/AI-READI/aireadi.org/commit/17f34c5661dbe4849ac08418a47a656f6c0db53d))
+* add author to the paper ([464a15d](https://github.com/AI-READI/aireadi.org/commit/464a15de750290f1eaad53c6122cf643837461b1))
+* add banner ([#57](https://github.com/AI-READI/aireadi.org/issues/57)) ([d8352c5](https://github.com/AI-READI/aireadi.org/commit/d8352c54890a6db3cbfbb1af6b012b19fd3237f4))
+* add citation section ([#59](https://github.com/AI-READI/aireadi.org/issues/59)) ([ec9fe7e](https://github.com/AI-READI/aireadi.org/commit/ec9fe7ee49574775a4ecf59b90aa356cf1b7812e))
+* add preprint ([2df9675](https://github.com/AI-READI/aireadi.org/commit/2df967519d522169874e0e3029694f0edbb5a659))
+* added preprint ([fb2d31c](https://github.com/AI-READI/aireadi.org/commit/fb2d31c61fa3e930fd3df95cd16bfa79dbc95d1d))
+* fix the journal order ([289d646](https://github.com/AI-READI/aireadi.org/commit/289d6466878ad8f938f43cb4131c4f6bd3c1ed93))
+* update participant visit and consent count ([a7a8fb4](https://github.com/AI-READI/aireadi.org/commit/a7a8fb46c608c1f64ff6d7870aacfbeace4865c1))
+
+
+### Bug Fixes
+
+* add padding to the footer ([3e3b51a](https://github.com/AI-READI/aireadi.org/commit/3e3b51a8409d61782c81523fb9859331f2995706))
+* add pagination and tab to citation ([#62](https://github.com/AI-READI/aireadi.org/issues/62)) ([d557ed8](https://github.com/AI-READI/aireadi.org/commit/d557ed8c280fe65d0c7e59c93a1ee6da1f87085f))
+* add preprint ([53389ca](https://github.com/AI-READI/aireadi.org/commit/53389cac0bb70734717adef9eb899d261ec22db5))
+* graph number typo ([4363b93](https://github.com/AI-READI/aireadi.org/commit/4363b93ffda50581e2db22094d1babcf96d58654))
+* in person study visits ([95193d3](https://github.com/AI-READI/aireadi.org/commit/95193d39a52227ad85f88bbb1fad716d7c6213f4))
+* in person visit count ([5ec0882](https://github.com/AI-READI/aireadi.org/commit/5ec0882b83d60f66fd2449f26c161d9847938a30))
+* in person visits ([b2e543f](https://github.com/AI-READI/aireadi.org/commit/b2e543f0c4caa361028318a4ddc663347ef029a3))
+* link style ([eb301a2](https://github.com/AI-READI/aireadi.org/commit/eb301a251fbc572c69ccdf69578099eb15eee8e4))
+* minor calc ([90d135a](https://github.com/AI-READI/aireadi.org/commit/90d135ab32dfa527c662b53d66f6f589c2774f93))
+* minor text update ([c9fec7b](https://github.com/AI-READI/aireadi.org/commit/c9fec7b27da3fbc0750dbd5818994e2e98eff8c9))
+* move to bunny ([9987013](https://github.com/AI-READI/aireadi.org/commit/9987013a24f0891bd3de07fea5941287018ff924))
+* page changes ([#56](https://github.com/AI-READI/aireadi.org/issues/56)) ([79fa3b0](https://github.com/AI-READI/aireadi.org/commit/79fa3b0acb9f14f194c4fb1e748df3dc66b111e4))
+* round updated graph numbers ([f63072b](https://github.com/AI-READI/aireadi.org/commit/f63072b3a029b514c4a7fb89cee096e366389c80))
+* team picture link ([d4cd3b9](https://github.com/AI-READI/aireadi.org/commit/d4cd3b9c5942655a43f4112a652c2bf1838f273d))
+* typo ([a7936fe](https://github.com/AI-READI/aireadi.org/commit/a7936fe56e75849bb6d035a33d942e29f22716f4))
+* typo ([84151c6](https://github.com/AI-READI/aireadi.org/commit/84151c64e77dabda41a5bd7e81810bc2bba11369))
+* undo typo ([6fb41c8](https://github.com/AI-READI/aireadi.org/commit/6fb41c8a88447b9f61a0d91584baadded02cd0f8))
+* update access links ([7ce5dc1](https://github.com/AI-READI/aireadi.org/commit/7ce5dc15524c67ef1d041b6043cece56e2863439))
+* update citation page ([0307fb8](https://github.com/AI-READI/aireadi.org/commit/0307fb845f927a76ddffef39273e8c6455855791))
+* update consent and participants progress bar ([9c79114](https://github.com/AI-READI/aireadi.org/commit/9c79114dcac9b5d718af4a90dcf31a32cd2cbe69))
+* update image URLs to use new CDN ([67be6a6](https://github.com/AI-READI/aireadi.org/commit/67be6a638513a9051a32b4161eed6f21777377f8))
+* update number of consent & visits ([e5e1191](https://github.com/AI-READI/aireadi.org/commit/e5e1191695299ae2fef2997a8268fb5e2daa5ce8))
+* update participant and consent count ([8cd848e](https://github.com/AI-READI/aireadi.org/commit/8cd848eec2579e414fa2edc31eb1ac1c0dae14ba))
+* update to next and react ([#63](https://github.com/AI-READI/aireadi.org/issues/63)) ([0c48046](https://github.com/AI-READI/aireadi.org/commit/0c48046786759e5fe3c6032665f707099dccae07))
+* update website images ([ec6fd7e](https://github.com/AI-READI/aireadi.org/commit/ec6fd7e3d655c79162715956fd8ecd9e5f53a23e))
+* update website images ([835eb91](https://github.com/AI-READI/aireadi.org/commit/835eb91556a2d6d66892f3d0477201a16d474bd9))
+* update website images ([9198d80](https://github.com/AI-READI/aireadi.org/commit/9198d80090a867daae75195f62c65b79cf40c0ba))
+* url for 'call for mentors' blog post ([e719150](https://github.com/AI-READI/aireadi.org/commit/e7191505318f2d51172f20d5e34bbfb47646febd))
+
 ## [3.5.0](https://github.com/AI-READI/aireadi.org/compare/v3.4.0...v3.5.0) (2024-12-09)
 
 
