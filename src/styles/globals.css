@@ -186,7 +186,7 @@
 
 .completed-study-text {
   position: absolute;
-  left: calc(69% - 12px);
+  left: calc(72% - 12px);
   z-index: 4;
   bottom: 85px;
 }
