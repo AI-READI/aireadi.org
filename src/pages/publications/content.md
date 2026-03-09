@@ -1,5 +1,4 @@
 # Publications
-
 ## Journal Articles
 
 - Hallaj, S., Heinke, A., Kalaw, F. G. P., Gim, N., Blazes, M., Owen, J., Dysinger, E., Benton, E. S., Cordier, B. A., Evans, N. G., Li-Pook-Than, J., Snyder, M. P., Nebeker, C., Zangwill, L. M., Baxter, S. L., McWeeney, S., Lee, C. S., Lee, A. Y., Patel, B., & AI-READI Consortium. (2026). Navigating open data sharing and privacy in the age of clinical AI research: From reidentification to pseudo-reidentification. eClinicalMedicine, 91, 103729. [https://doi.org/10.1016/j.eclinm.2025.103729](https://doi.org/10.1016/j.eclinm.2025.103729)
