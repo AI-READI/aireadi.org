@@ -45,13 +45,12 @@ export default function ContactUs() {
                 </dt>
                 <dd className='col-span-7 mt-2 text-lg md:mt-0'>
                   <p className=''>
-                    We are currently working on a suitable process for getting
-                    access to our controlled set and do not have an anticipated
-                    date for completing it. Please keep checking our{' '}
-                    <UnderlineLink href='/' className='text-sky-600'>
-                      website
-                    </UnderlineLink>{' '}
-                    to learn when it is out.
+                    You can access the latest version of controlled AI-READI dataset through the {' '}
+                    <UnderlineLink href='https://fairhub.io/datasets/3/access' className='text-sky-600'>
+                       FAIRhub access page
+                    </UnderlineLink>{' '}.
+
+
                   </p>
                 </dd>
               </div>
@@ -65,12 +64,10 @@ export default function ContactUs() {
                 <dd className='col-span-7 mt-2 text-lg md:mt-0'>
                   <p className=''>
                     Note that this is an ongoing study and we are releasing data
-                    progressively as it is being collected. Our next release is
-                    planned towards the end of Fall 2024 with data from
-                    approximately 1,000 participants. Another release will
-                    likely be made a year later before the final release with
-                    data from 4,000 participants is made during Fall or Winter
-                    2026.
+                    progressively as it is being collected. The current version
+                    (v3.0.0) includes data from approximately 2,280 participants.
+                    The final release, anticipated in 2026, is expected to include
+                    approximately 4,000 participants in total.
                   </p>
                 </dd>
               </div>
@@ -85,7 +82,7 @@ export default function ContactUs() {
                     You should receive the link typically within 2 weeks if not
                     sooner depending on the number of requests we receive during
                     that time. If you have any issues or questions regarding
-                    your data download request, please contact
+                    your data download request, please contact{' '}
                     <UnderlineLink
                       href='mailto:aireadi-dac@ohsu.edu'
                       className='text-sky-600'
