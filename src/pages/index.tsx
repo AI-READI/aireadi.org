@@ -259,7 +259,6 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                         participants completed the consent process
                       </span>
                     </motion.div>
-
                     <motion.div
                       variants={WidthFramerItem}
                       className='absolute inset-0 max-w-[72.5%] rounded-full bg-blue-600'
