@@ -43,6 +43,33 @@
       "citation": "[{'name': 'S Hallaj', 'link': 'https://scholar.google.com/citations?user=2hk0F-AAAAAJ&hl=en&num=20&oi=sra', 'author_id': '2hk0F-AAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=2hk0F-AAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'A Heinke', 'link': 'https://scholar.google.com/citations?user=T_sRfycAAAAJ&hl=en&num=20&oi=sra', 'author_id': 'T_sRfycAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=T_sRfycAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'FGP Kalaw', 'link': 'https://scholar.google.com/citations?user=ifY5LeQAAAAJ&hl=en&num=20&oi=sra', 'author_id': 'ifY5LeQAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=ifY5LeQAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'N Gim'}] (None). Open Data Sharing in Clinical Research and Participants Privacy: Challenges and Opportunities in the Era of Artificial Intelligence. S Hallaj, A Heinke, FGP Kalaw, N Gim… - arXiv preprint arXiv …, 2025 - arxiv.org."
     },
     {
+      "title": "Attengluco: Multimodal transformer-based blood glucose forecasting on ai-readi dataset",
+      "authors": [
+        {
+          "name": "E Farahmand",
+          "link": "https://scholar.google.com/citations?user=9nBF7mwAAAAJ&hl=en&num=20&oi=sra",
+          "author_id": "9nBF7mwAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=9nBF7mwAAAAJ&engine=google_scholar_author&hl=en"
+        },
+        {
+          "name": "RR Azghan",
+          "link": "https://scholar.google.com/citations?user=IWNYf0UAAAAJ&hl=en&num=20&oi=sra",
+          "author_id": "IWNYf0UAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=IWNYf0UAAAAJ&engine=google_scholar_author&hl=en"
+        },
+        {
+          "name": "NT Chatrudi",
+          "link": "https://scholar.google.com/citations?user=ECT_awsAAAAJ&hl=en&num=20&oi=sra",
+          "author_id": "ECT_awsAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ECT_awsAAAAJ&engine=google_scholar_author&hl=en"
+        }
+      ],
+      "year": null,
+      "source": "E Farahmand, RR Azghan, NT Chatrudi… - 2025 47th Annual …, 2025 - ieeexplore.ieee.org",
+      "link": "https://ieeexplore.ieee.org/abstract/document/11251776/",
+      "citation": "[{'name': 'E Farahmand', 'link': 'https://scholar.google.com/citations?user=9nBF7mwAAAAJ&hl=en&num=20&oi=sra', 'author_id': '9nBF7mwAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=9nBF7mwAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'RR Azghan', 'link': 'https://scholar.google.com/citations?user=IWNYf0UAAAAJ&hl=en&num=20&oi=sra', 'author_id': 'IWNYf0UAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=IWNYf0UAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'NT Chatrudi', 'link': 'https://scholar.google.com/citations?user=ECT_awsAAAAJ&hl=en&num=20&oi=sra', 'author_id': 'ECT_awsAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=ECT_awsAAAAJ&engine=google_scholar_author&hl=en'}] (None). Attengluco: Multimodal transformer-based blood glucose forecasting on ai-readi dataset. E Farahmand, RR Azghan, NT Chatrudi… - 2025 47th Annual …, 2025 - ieeexplore.ieee.org."
+    },
+    {
       "title": "Navigating open data sharing and privacy in the age of clinical AI research: from reidentification to pseudo-reidentification",
       "authors": [
         {
@@ -79,34 +106,31 @@
       "citation": "[{'name': 'S Hallaj', 'link': 'https://scholar.google.com/citations?user=2hk0F-AAAAAJ&hl=en&num=20&oi=sra', 'author_id': '2hk0F-AAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=2hk0F-AAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'A Heinke', 'link': 'https://scholar.google.com/citations?user=T_sRfycAAAAJ&hl=en&num=20&oi=sra', 'author_id': 'T_sRfycAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=T_sRfycAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'FGP Kalaw', 'link': 'https://scholar.google.com/citations?user=ifY5LeQAAAAJ&hl=en&num=20&oi=sra', 'author_id': 'ifY5LeQAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=ifY5LeQAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'N Gim'}, {'name': 'M Blazes', 'link': 'https://scholar.google.com/citations?user=x5RVnAkAAAAJ&hl=en&num=20&oi=sra', 'author_id': 'x5RVnAkAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=x5RVnAkAAAAJ&engine=google_scholar_author&hl=en'}] (None). Navigating open data sharing and privacy in the age of clinical AI research: from reidentification to pseudo-reidentification. S Hallaj, A Heinke, FGP Kalaw, N Gim, M Blazes… - …, 2026 - thelancet.com."
     },
     {
-      "title": "Attengluco: Multimodal transformer-based blood glucose forecasting on ai-readi dataset",
+      "title": "Cross-sectional design and protocol for artificial intelligence ready and equitable atlas for diabetes insights (AI-READI)",
       "authors": [
         {
-          "name": "E Farahmand",
-          "link": "https://scholar.google.com/citations?user=9nBF7mwAAAAJ&hl=en&num=20&oi=sra",
-          "author_id": "9nBF7mwAAAAJ",
-          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=9nBF7mwAAAAJ&engine=google_scholar_author&hl=en"
+          "name": "C Owsley",
+          "link": "https://scholar.google.com/citations?user=jnEH-6gAAAAJ&hl=en&num=20&oi=sra",
+          "author_id": "jnEH-6gAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=jnEH-6gAAAAJ&engine=google_scholar_author&hl=en"
         },
         {
-          "name": "RR Azghan",
-          "link": "https://scholar.google.com/citations?user=IWNYf0UAAAAJ&hl=en&num=20&oi=sra",
-          "author_id": "IWNYf0UAAAAJ",
-          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=IWNYf0UAAAAJ&engine=google_scholar_author&hl=en"
+          "name": "DS Matthies"
         },
         {
-          "name": "NT Chatrudi",
-          "link": "https://scholar.google.com/citations?user=ECT_awsAAAAJ&hl=en&num=20&oi=sra",
-          "author_id": "ECT_awsAAAAJ",
-          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ECT_awsAAAAJ&engine=google_scholar_author&hl=en"
+          "name": "G McGwin",
+          "link": "https://scholar.google.com/citations?user=xU0L9eMAAAAJ&hl=en&num=20&oi=sra",
+          "author_id": "xU0L9eMAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=xU0L9eMAAAAJ&engine=google_scholar_author&hl=en"
         },
         {
-          "name": "E Kim"
+          "name": "JC Edberg"
         }
       ],
       "year": null,
-      "source": "E Farahmand, RR Azghan, NT Chatrudi, E Kim… - arXiv preprint arXiv …, 2025 - arxiv.org",
-      "link": "https://arxiv.org/abs/2502.09919",
-      "citation": "[{'name': 'E Farahmand', 'link': 'https://scholar.google.com/citations?user=9nBF7mwAAAAJ&hl=en&num=20&oi=sra', 'author_id': '9nBF7mwAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=9nBF7mwAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'RR Azghan', 'link': 'https://scholar.google.com/citations?user=IWNYf0UAAAAJ&hl=en&num=20&oi=sra', 'author_id': 'IWNYf0UAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=IWNYf0UAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'NT Chatrudi', 'link': 'https://scholar.google.com/citations?user=ECT_awsAAAAJ&hl=en&num=20&oi=sra', 'author_id': 'ECT_awsAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=ECT_awsAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'E Kim'}] (None). Attengluco: Multimodal transformer-based blood glucose forecasting on ai-readi dataset. E Farahmand, RR Azghan, NT Chatrudi, E Kim… - arXiv preprint arXiv …, 2025 - arxiv.org."
+      "source": "C Owsley, DS Matthies, G McGwin, JC Edberg… - BMJ open, 2025 - bmjopen.bmj.com",
+      "link": "https://bmjopen.bmj.com/content/15/2/e097449.abstract",
+      "citation": "[{'name': 'C Owsley', 'link': 'https://scholar.google.com/citations?user=jnEH-6gAAAAJ&hl=en&num=20&oi=sra', 'author_id': 'jnEH-6gAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=jnEH-6gAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'DS Matthies'}, {'name': 'G McGwin', 'link': 'https://scholar.google.com/citations?user=xU0L9eMAAAAJ&hl=en&num=20&oi=sra', 'author_id': 'xU0L9eMAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=xU0L9eMAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'JC Edberg'}] (None). Cross-sectional design and protocol for artificial intelligence ready and equitable atlas for diabetes insights (AI-READI). C Owsley, DS Matthies, G McGwin, JC Edberg… - BMJ open, 2025 - bmjopen.bmj.com."
     },
     {
       "title": "GluMind: Multimodal Parallel Attention and Knowledge Retention for Robust Cross-Population Blood Glucose Forecasting",
@@ -155,6 +179,54 @@
       "source": "TW Nishihara, FGP Kalaw, A Engmann… - JMIR Medical …, 2025 - mededu.jmir.org",
       "link": "https://mededu.jmir.org/2025/1/e83154",
       "citation": "[{'name': 'TW Nishihara'}, {'name': 'FGP Kalaw', 'link': 'https://scholar.google.com/citations?user=ifY5LeQAAAAJ&hl=en&num=20&oi=sra', 'author_id': 'ifY5LeQAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=ifY5LeQAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'A Engmann'}] (None). Fostering Multidisciplinary Collaboration in Artificial Intelligence and Machine Learning Education: Tutorial Based on the AI-READI Bootcamp. TW Nishihara, FGP Kalaw, A Engmann… - JMIR Medical …, 2025 - mededu.jmir.org."
+    },
+    {
+      "title": "Factors Associated with Machine Learning-Based Predictions of Retinal Aging using Teleretinal Screening Images from Patients with Diabetes",
+      "authors": [
+        {
+          "name": "TT Nguyen",
+          "link": "https://scholar.google.com/citations?user=BZ6sg98AAAAJ&hl=en&num=20&oi=sra",
+          "author_id": "BZ6sg98AAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=BZ6sg98AAAAJ&engine=google_scholar_author&hl=en"
+        },
+        {
+          "name": "MJ Cruz"
+        },
+        {
+          "name": "T Chokshi",
+          "link": "https://scholar.google.com/citations?user=if0rpK8AAAAJ&hl=en&num=20&oi=sra",
+          "author_id": "if0rpK8AAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=if0rpK8AAAAJ&engine=google_scholar_author&hl=en"
+        },
+        {
+          "name": "VL Potter"
+        }
+      ],
+      "year": null,
+      "source": "TT Nguyen, MJ Cruz, T Chokshi, VL Potter… - Ophthalmology …, 2026 - Elsevier",
+      "link": "https://www.sciencedirect.com/science/article/pii/S2666914526000503",
+      "citation": "[{'name': 'TT Nguyen', 'link': 'https://scholar.google.com/citations?user=BZ6sg98AAAAJ&hl=en&num=20&oi=sra', 'author_id': 'BZ6sg98AAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=BZ6sg98AAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'MJ Cruz'}, {'name': 'T Chokshi', 'link': 'https://scholar.google.com/citations?user=if0rpK8AAAAJ&hl=en&num=20&oi=sra', 'author_id': 'if0rpK8AAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=if0rpK8AAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'VL Potter'}] (None). Factors Associated with Machine Learning-Based Predictions of Retinal Aging using Teleretinal Screening Images from Patients with Diabetes. TT Nguyen, MJ Cruz, T Chokshi, VL Potter… - Ophthalmology …, 2026 - Elsevier."
+    },
+    {
+      "title": "Fr\\'echet regression of multivariate distributions with nonparanormal transport",
+      "authors": [
+        {
+          "name": "J Park",
+          "link": "https://scholar.google.com/citations?user=oTGPhyYAAAAJ&hl=en&num=20&oi=sra",
+          "author_id": "oTGPhyYAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=oTGPhyYAAAAJ&engine=google_scholar_author&hl=en"
+        },
+        {
+          "name": "I Gaynanova",
+          "link": "https://scholar.google.com/citations?user=Jx4XlxcAAAAJ&hl=en&num=20&oi=sra",
+          "author_id": "Jx4XlxcAAAAJ",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Jx4XlxcAAAAJ&engine=google_scholar_author&hl=en"
+        }
+      ],
+      "year": null,
+      "source": "J Park, I Gaynanova - arXiv preprint arXiv:2603.07014, 2026 - arxiv.org",
+      "link": "https://arxiv.org/abs/2603.07014",
+      "citation": "[{'name': 'J Park', 'link': 'https://scholar.google.com/citations?user=oTGPhyYAAAAJ&hl=en&num=20&oi=sra', 'author_id': 'oTGPhyYAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=oTGPhyYAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'I Gaynanova', 'link': 'https://scholar.google.com/citations?user=Jx4XlxcAAAAJ&hl=en&num=20&oi=sra', 'author_id': 'Jx4XlxcAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=Jx4XlxcAAAAJ&engine=google_scholar_author&hl=en'}] (None). Fr\\'echet regression of multivariate distributions with nonparanormal transport. J Park, I Gaynanova - arXiv preprint arXiv:2603.07014, 2026 - arxiv.org."
     },
     {
       "title": "Perspective on Harnessing Large Language Models to Uncover Insights in Diabetes Wearable Data",
@@ -271,6 +343,18 @@
       "citation": "[{'name': 'A Alavi', 'link': 'https://scholar.google.com/citations?user=1sxbt3YAAAAJ&hl=en&num=20&oi=sra', 'author_id': '1sxbt3YAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=1sxbt3YAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'K Cha'}, {'name': 'DP Esfarjani'}, {'name': 'B Patel', 'link': 'https://scholar.google.com/citations?user=qcplYooAAAAJ&hl=en&num=20&oi=sra', 'author_id': 'qcplYooAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=qcplYooAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'JLP Than', 'link': 'https://scholar.google.com/citations?user=BsNjfu8AAAAJ&hl=en&num=20&oi=sra', 'author_id': 'BsNjfu8AAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=BsNjfu8AAAAJ&engine=google_scholar_author&hl=en'}] (None). Harnessing Large Language Models to Uncover Insights in Diabetes Wearable Data. A Alavi, K Cha, DP Esfarjani, B Patel, JLP Than… - 2024 - researchsquare.com."
     },
     {
+      "title": "Koneoppimisen hyödyntäminen liikunnan aikaisen verensokerin laskun riskin ennustamisessa jatkuvan glukoosinseurannan (CGM) datan avulla",
+      "authors": [
+        {
+          "name": "H Bui"
+        }
+      ],
+      "year": null,
+      "source": "H Bui - 2025 - oulurepo.oulu.fi",
+      "link": "https://oulurepo.oulu.fi/handle/10024/56133",
+      "citation": "[{'name': 'H Bui'}] (None). Koneoppimisen hyödyntäminen liikunnan aikaisen verensokerin laskun riskin ennustamisessa jatkuvan glukoosinseurannan (CGM) datan avulla. H Bui - 2025 - oulurepo.oulu.fi."
+    },
+    {
       "title": "Predicción multimodal de niveles de glucosa en sangre mediante redes neuronales profundas a partir de sensores mcg, actividad física e imágenes de retina",
       "authors": [
         {
@@ -283,4 +367,5 @@
       "citation": "[{'name': 'G De Pablo Laguna'}] (None). Predicción multimodal de niveles de glucosa en sangre mediante redes neuronales profundas a partir de sensores mcg, actividad física e imágenes de retina. G De Pablo Laguna - 2025 - titula.universidadeuropea.com."
     }
   ]
+
 }
