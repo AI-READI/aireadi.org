@@ -12,11 +12,27 @@ export default async function ModuleMembersFilter(
 ): Promise<ModuleMemberType[]> {
   const AllTeamMembers: ModuleMemberType[] = await Promise.all(
     TEAM_JSON.map(async (member) => {
-      const {
-        base64,
-        // eslint-disable-next-line unused-imports/no-unused-vars
-        img: { width, height, ...img },
-      } = await getPlaiceholder(member.image);
+      let base64 = '';
+      let img = {};
+
+      try {
+        const buffer = await fetch(member.image).then(async (res) =>
+          Buffer.from(await res.arrayBuffer()),
+        );
+
+        const {
+          base64: b64,
+          // eslint-disable-next-line unused-imports/no-unused-vars
+          img: { width, height, ...rest },
+        } = await getPlaiceholder(buffer, { size: 10 });
+
+        base64 = b64;
+        img = rest;
+      } catch (err) {
+        console.warn(
+          `Failed to fetch/process image for ${member.name}: ${err}. Using fallback.`,
+        );
+      }
 
       return {
         ...img,

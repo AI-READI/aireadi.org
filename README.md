@@ -54,21 +54,22 @@ This repository contains the source code of the AI-READI website. The website is
 
 ### ⚠️ Prerequisites
 
-This project uses [`Yarn`](https://yarnpkg.com/) as package manager.
+This project uses [`pnpm`](https://pnpm.io/) as package manager and [`mise`](https://mise.jdx.dev/) to manage tool versions.
 
 #### Requirements
 
-- Node.js >= 12.22.0
-- Yarn 1 (Classic)
+- `mise`
+- Node.js and pnpm (installed via mise)
 
 ```sh
-npm install --global yarn
+mise install
+mise use
 ```
 
-If you already have a `Anaconda` environment on your machine, you can install the dependencies with:
+If you do not want to use `mise`, install Node.js and pnpm manually:
 
 ```sh
-conda install -c conda-forge yarn nodejs
+npm install --global pnpm
 ```
 
 ### Run locally
@@ -88,13 +89,13 @@ cd aireadi.org
 Install dependencies
 
 ```sh
-yarn install
+pnpm install
 ```
 
 Start the server
 
 ```sh
-yarn dev
+pnpm dev
 ```
 
 ### Build locally
@@ -102,16 +103,16 @@ yarn dev
 Use this step to build a local production version of the site. Use `start` to preview the local build.
 
 ```bash
-yarn build
-yarn start
+pnpm build
+pnpm start
 ```
 
 # Deployment
 
 This repository is automatically deployed to [Azure](https://azure.microsoft.com/en-us/) on every push to the repository. If you need to reference a specific branch or pull request, you can do so by using the following URL pattern:
 
-- <https://yellow-mud-0c2b16f10-<BRANCH_NAME>.centralus.2.azurestaticapps.net/>
-- <https://yellow-mud-0c2b16f10-<GITHUB_PR_NUMBER>.centralus.2.azurestaticapps.net/>
+- <<https://yellow-mud-0c2b16f10-><BRANCH_NAME>.centralus.2.azurestaticapps.net/>
+- <<https://yellow-mud-0c2b16f10-><GITHUB_PR_NUMBER>.centralus.2.azurestaticapps.net/>
 
 **Note:** All punctuation in the branch name will be removed when creating the URL.
 
@@ -141,14 +142,14 @@ We recommend to look at the [documentation](https://nextjs.org/docs/getting-star
 
 ### Scripts
 
-- `yarn dev` — Starts the application in development mode at `http://localhost:3000`.
-- `yarn build` — Creates an optimized production build of your application.
-- `yarn start` — Starts the application in production mode.
-- `yarn type-check` — Validate code using TypeScript compiler.
-- `yarn lint` — Runs ESLint for all files in the `src` directory.
-- `yarn format` — Runs Prettier for all files in the `src` directory.
-- `yarn cypress:run` — Runs Cypress tests in headless mode.
-- `yarn cypress:open` — Opens Cypress in interactive mode.
+- `pnpm dev` — Starts the application in development mode at `http://localhost:3000`.
+- `pnpm build` — Creates an optimized production build of your application.
+- `pnpm start` — Starts the application in production mode.
+- `pnpm typecheck` — Validate code using TypeScript compiler.
+- `pnpm lint` — Runs ESLint for all files in the `src` directory.
+- `pnpm format` — Runs Prettier for all files in the `src` directory.
+- `pnpm cypress:run` — Runs Cypress tests in headless mode.
+- `pnpm cypress:open` — Opens Cypress in interactive mode.
 
 ### Path Mapping
 
