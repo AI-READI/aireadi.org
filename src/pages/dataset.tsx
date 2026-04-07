@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { Button, Flex } from '@chakra-ui/react';
 import { SkipNavContent, SkipNavLink } from '@chakra-ui/skip-nav';
-import { Tab, TabList, TabPanel, TabPanels, Tabs } from '@chakra-ui/tabs';
+import { Tab, TabList, TabPanel, TabPanels, Tabs } from '@chakra-ui/react';
 import { useState } from 'react';
 
 import Layout from '@/components/layout/Layout';
@@ -13,41 +13,43 @@ import datasetCitationData from '~/data/dataset_citations.json';
 import markerCitationData from '~/data/marker_paper.json';
 
 const Dataset: React.FC = () => {
-const { mainCitation: markerMainCite, citingPublications: markerSubCite } =
-  markerCitationData;
-const { mainCitation: datasetMainCite, citingPublications: datasetSubCite } =
-  datasetCitationData;
+  const { mainCitation: markerMainCite, citingPublications: markerSubCite } =
+    markerCitationData;
+  const { mainCitation: datasetMainCite, citingPublications: datasetSubCite } =
+    datasetCitationData;
 
-const itemsPerPage = 10;
+  const itemsPerPage = 10;
 
-// Sort by year (newest first)
-const sortedMarkerSubCite = [...markerSubCite].sort((a, b) => {
-  const yearA = Number(a.source?.match(/\b(20\d{2})\b/)?.[0] || 0);
-  const yearB = Number(b.source?.match(/\b(20\d{2})\b/)?.[0] || 0);
-  return yearB - yearA;
-});
+  // Sort by year (newest first)
+  const sortedMarkerSubCite = [...markerSubCite].sort((a, b) => {
+    const yearA = Number(a.source?.match(/\b(20\d{2})\b/)?.[0] || 0);
+    const yearB = Number(b.source?.match(/\b(20\d{2})\b/)?.[0] || 0);
+    return yearB - yearA;
+  });
 
-const sortedDatasetSubCite = [...datasetSubCite].sort((a, b) => {
-  const yearA = Number(a.source?.match(/\b(20\d{2})\b/)?.[0] || 0);
-  const yearB = Number(b.source?.match(/\b(20\d{2})\b/)?.[0] || 0);
-  return yearB - yearA;
-});
+  const sortedDatasetSubCite = [...datasetSubCite].sort((a, b) => {
+    const yearA = Number(a.source?.match(/\b(20\d{2})\b/)?.[0] || 0);
+    const yearB = Number(b.source?.match(/\b(20\d{2})\b/)?.[0] || 0);
+    return yearB - yearA;
+  });
 
-// Marker pagination
-const [markerPage, setMarkerPage] = useState(0);
-const markerTotalPages = Math.ceil(sortedMarkerSubCite.length / itemsPerPage);
-const markerVisible = sortedMarkerSubCite.slice(
-  markerPage * itemsPerPage,
-  markerPage * itemsPerPage + itemsPerPage,
-);
+  // Marker pagination
+  const [markerPage, setMarkerPage] = useState(0);
+  const markerTotalPages = Math.ceil(sortedMarkerSubCite.length / itemsPerPage);
+  const markerVisible = sortedMarkerSubCite.slice(
+    markerPage * itemsPerPage,
+    markerPage * itemsPerPage + itemsPerPage,
+  );
 
-// Dataset pagination
-const [datasetPage, setDatasetPage] = useState(0);
-const datasetTotalPages = Math.ceil(sortedDatasetSubCite.length / itemsPerPage);
-const datasetVisible = sortedDatasetSubCite.slice(
-  datasetPage * itemsPerPage,
-  datasetPage * itemsPerPage + itemsPerPage,
-);
+  // Dataset pagination
+  const [datasetPage, setDatasetPage] = useState(0);
+  const datasetTotalPages = Math.ceil(
+    sortedDatasetSubCite.length / itemsPerPage,
+  );
+  const datasetVisible = sortedDatasetSubCite.slice(
+    datasetPage * itemsPerPage,
+    datasetPage * itemsPerPage + itemsPerPage,
+  );
 
   const datasetVersions = [
     {

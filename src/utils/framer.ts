@@ -4,7 +4,7 @@ export const FramerContainer = {
     opacity: 1,
     transition: {
       staggerChildren: 0.25,
-      ease: 'easeOut',
+      ease: 'easeInOut',
     },
   },
 };
@@ -20,7 +20,7 @@ export const WidthFramerContainer = {
     opacity: 1,
     transition: {
       staggerChildren: 0.5,
-      ease: 'easeOut',
+      ease: 'easeInOut',
     },
   },
 };
