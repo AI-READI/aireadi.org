@@ -162,6 +162,7 @@
   bottom: 85px;
   left: calc(99% - 12px);
   z-index: 4;
+  width: 160px;
 }
 
 .completed-consent-text > span {
@@ -186,9 +187,11 @@
 
 .completed-study-text {
   position: absolute;
-  left: calc(72% - 12px);
+  left: calc(80% - 12px);
   z-index: 4;
   bottom: 85px;
+  width: 160px;
+
 }
 
 .completed-study-text > span {
@@ -213,7 +216,7 @@
 .total-participants {
   position: absolute;
   top: 85px;
-  left: calc(77% - 12px);
+  left: calc(85% - 12px);
   z-index: 4;
   width: 240px;
 }
