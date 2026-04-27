@@ -220,10 +220,10 @@ const VizComponent = () => {
       ref={containerRef}
       className='mx-auto flex max-w-screen-xl flex-col items-center px-8 lg:px-6'
     >
-      <ul className='w-full items-center divide-x rounded-lg border border-gray-200 bg-white py-1 text-sm font-medium text-gray-900 sm:flex'>
+      <ul className='w-full items-center divide-x rounded-lg border border-gray-200 bg-white py-1 px-2 text-sm font-medium text-gray-900 sm:flex'>
         {vizOptions.map((option) => (
           <li className='w-full' key={option.value}>
-            <div className='flex items-center ps-3'>
+            <div className='flex items-center pl-2'>
               <input
                 id={option.value}
                 type='radio'
@@ -233,7 +233,7 @@ const VizComponent = () => {
               />
               <label
                 htmlFor={option.value}
-                className='w-max px-2 py-3 text-sm font-medium text-gray-900'
+                className='w-max py-3 pr-2 pl-2 text-sm font-medium text-gray-900'
               >
                 {option.label}
               </label>
