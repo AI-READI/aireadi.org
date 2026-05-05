@@ -261,13 +261,13 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                     </motion.div>
                     <motion.div
                       variants={WidthFramerItem}
-                      className='absolute inset-0 max-w-[80%] rounded-full bg-blue-600'
+                      className='absolute inset-0 max-w-[82%] rounded-full bg-blue-600'
                     />
                     <motion.div
                       variants={FadeFramerItem}
                       className='completed-study-text'
                     >
-                      <span className='block text-xl font-bold'>3,815+</span>
+                      <span className='block text-xl font-bold'>3,880+</span>
                       <span className='max-w-[200px] text-[16px] font-normal max-md:max-w-[140px]'>
                         participants completed in-person study visit
                       </span>
