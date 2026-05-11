@@ -43,6 +43,36 @@
       "citation": "[{'name': 'S Hallaj', 'link': 'https://scholar.google.com/citations?user=2hk0F-AAAAAJ&hl=en&num=20&oi=sra', 'author_id': '2hk0F-AAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=2hk0F-AAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'A Heinke', 'link': 'https://scholar.google.com/citations?user=T_sRfycAAAAJ&hl=en&num=20&oi=sra', 'author_id': 'T_sRfycAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=T_sRfycAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'FGP Kalaw', 'link': 'https://scholar.google.com/citations?user=ifY5LeQAAAAJ&hl=en&num=20&oi=sra', 'author_id': 'ifY5LeQAAAAJ', 'serpapi_scholar_link': 'https://serpapi.com/search.json?author_id=ifY5LeQAAAAJ&engine=google_scholar_author&hl=en'}, {'name': 'N Gim'}] (None). Open Data Sharing in Clinical Research and Participants Privacy: Challenges and Opportunities in the Era of Artificial Intelligence. S Hallaj, A Heinke, FGP Kalaw, N Gim… - arXiv preprint arXiv …, 2025 - arxiv.org."
     },
     {
+      "title": "A three-dimensional multi-modal foundation model for optical coherence tomography",
+      "authors": [
+        {
+          "name": "Zixuan Liu"
+        },
+        {
+          "name": "Hanwen Xu"
+        },
+        {
+          "name": "Addie Woicik"
+        },
+        {
+          "name": "Linda G. Shapiro"
+        },
+        {
+          "name": "Marian Blazes"
+        },
+        {
+          "name": "Yue Wu"
+        },
+        {
+          "name": "Verena Steffen"
+        }
+      ],
+      "year": null,
+      "source": "Z Liu, H Xu, A Woicik, LG Shapiro, M Blazes, Y Wu, V Steffen…, 2026 - Nature Biomedical Engineering",
+      "link": "https://www.nature.com/articles/s41551-026-01662-2",
+      "citation": "Liu, Zixuan, Hanwen Xu, Addie Woicik, Linda G. Shapiro, Marian Blazes, Yue Wu, Verena Steffen et al. \"A three-dimensional multi-modal foundation model for optical coherence tomography.\" Nature Biomedical Engineering (2026): 1-20."
+    },
+    {
       "title": "Attengluco: Multimodal transformer-based blood glucose forecasting on ai-readi dataset",
       "authors": [
         {
