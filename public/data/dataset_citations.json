@@ -46,31 +46,31 @@
       "title": "A three-dimensional multi-modal foundation model for optical coherence tomography",
       "authors": [
         {
-          "name": "Zixuan Liu"
+          "name": "Z Liu"
         },
         {
-          "name": "Hanwen Xu"
+          "name": "H Xu"
         },
         {
-          "name": "Addie Woicik"
+          "name": "A Woicik"
         },
         {
-          "name": "Linda G. Shapiro"
+          "name": "LG Shapiro"
         },
         {
-          "name": "Marian Blazes"
+          "name": "M Blazes"
         },
         {
-          "name": "Yue Wu"
+          "name": "Y Wu"
         },
         {
-          "name": "Verena Steffen"
+          "name": "V Steffen"
         }
       ],
       "year": null,
       "source": "Z Liu, H Xu, A Woicik, LG Shapiro, M Blazes, Y Wu, V Steffen…, 2026 - Nature Biomedical Engineering",
       "link": "https://www.nature.com/articles/s41551-026-01662-2",
-      "citation": "Liu, Zixuan, Hanwen Xu, Addie Woicik, Linda G. Shapiro, Marian Blazes, Yue Wu, Verena Steffen et al. \"A three-dimensional multi-modal foundation model for optical coherence tomography.\" Nature Biomedical Engineering (2026): 1-20."
+      "citation": "Z Liu, H Xu, A Woicik, LG Shapiro, M Blazes, Y Wu, V Steffen et al. \"A three-dimensional multi-modal foundation model for optical coherence tomography.\" Nature Biomedical Engineering (2026): 1-20."
     },
     {
       "title": "Attengluco: Multimodal transformer-based blood glucose forecasting on ai-readi dataset",
