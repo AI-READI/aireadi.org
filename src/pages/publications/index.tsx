@@ -84,14 +84,14 @@ const PublicationsPage: React.FC<{ pageContent: string }> = ({
         <main className='relative mx-auto flex h-full w-full max-w-screen-xl flex-col overflow-hidden px-5 py-5 sm:px-10 sm:pb-20'>
           <SkipNavContent />
 
-        <div className='prose-a:text-primary prose prose-slate max-w-none lg:prose-base prose-h1:text-slate-700 prose-h2:text-slate-700 prose-h2:mt-0 prose-h3:text-slate-700 prose-img:mx-auto prose-img:rounded-md prose-img:shadow-xl'>
+        <div className='prose-a:text-primary prose prose-slate max-w-none lg:prose-base prose-h1:text-slate-700 prose-h2:text-slate-700 prose-h3:text-slate-700 prose-img:mx-auto prose-img:rounded-md prose-img:shadow-xl'>
           <div dangerouslySetInnerHTML={{ __html: pageContent }} />
-            <section className="bg-slate-50 rounded-2xl">
-            <div className="px-8">
-              <h2 className='text-center pt-8'>
+            <section className=" rounded-2xl">
+              <h2>
                 Dataset Citations
               </h2>
-              <p className='pb-4'>
+              <div className="px-8">
+              <p className='pb-4 pt-2'>
                 {' '}
                 Projects that publish using our datasets are required to cite
                 both our marker paper and dataset. Below, we provide a list of
@@ -100,23 +100,33 @@ const PublicationsPage: React.FC<{ pageContent: string }> = ({
                 our marker paper and dataset. Below, we provide a list of those
                 citations, as tracked by Google Scholar.
               </p>
-              <Tabs variant='enclosed' isFitted>
+                <div className="bg-slate-50 rounded-xl">
+                  <Tabs variant='enclosed' isFitted>
                 <TabList>
                   <Tab
-                    _selected={{
-                      bg: 'white',
-                      borderColor: 'gray.200',
-                      color: 'blue.600',
-                    }}
+                    borderWidth="1px"
+                    rounded="8px"
+                    borderColor="gray.200"
+                     _selected={{
+                    bg: 'blue.50',
+                    borderColor: 'gray.200',
+                    color: 'blue.600',
+                    fontWeight: 'semibold',
+                  }}
                   >
                     Marker Paper
                   </Tab>
                   <Tab
+                    borderWidth="1px"
+                    rounded="8px"
+
+                    borderColor="gray.200"
                     _selected={{
-                      bg: 'white',
-                      borderColor: 'gray.200',
-                      color: 'blue.600',
-                    }}
+                    bg: 'blue.50',
+                    borderColor: 'gray.200',
+                    color: 'blue.600',
+                    fontWeight: 'semibold',
+                  }}
                   >
                     AI-READI Dataset
                   </Tab>
@@ -470,6 +480,8 @@ const PublicationsPage: React.FC<{ pageContent: string }> = ({
                   </TabPanel>
                 </TabPanels>
               </Tabs>
+                </div>
+
             </div>
           </section>
 
