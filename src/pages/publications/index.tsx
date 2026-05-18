@@ -89,7 +89,7 @@ const PublicationsPage: React.FC<{ pageContent: string }> = ({
             <section className="bg-slate-50 rounded-2xl">
             <div className="px-8">
               <h2 className='text-center pt-8'>
-                Citations
+                Dataset Citations
               </h2>
               <p className='pb-4'>
                 {' '}
