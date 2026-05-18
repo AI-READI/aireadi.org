@@ -1149,6 +1149,25 @@
     }
   },
   {
+    "id": "Saron-Tedla",
+    "name": "Saron Tedla",
+    "pronoun": "she/her",
+    "roles": [
+      "Medical Student Researcher"
+    ],
+    "department": "Shiley Eye Institute",
+    "organization": "University of California, San Diego",
+    "location": "San Diego, CA",
+    "caption": "I am a medical student at Oregon Health & Science University with an interest in pursuing ophthalmology. As an AI-READI intern, I've been focused on analyzing retinal images and investigating potential biomarkers in the context of diabetes research.",
+    "image": "https://ai-readi.b-cdn.net/people/Saron-Tedla.png",
+    "moduleImage": "https://ai-readi.b-cdn.net/headshot/Saron-Tedla.png",
+    "modules": [
+      "data-collection",
+      "data-sharing"
+    ],
+    "social": {}
+  },
+  {
     "id": "Shahin-Hallaj",
     "name": "Shahin Hallaj",
     "pronoun": "",
