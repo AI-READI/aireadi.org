@@ -84,10 +84,11 @@ const PublicationsPage: React.FC<{ pageContent: string }> = ({
         <main className='relative mx-auto flex h-full w-full max-w-screen-xl flex-col overflow-hidden px-5 py-5 sm:px-10 sm:pb-20'>
           <SkipNavContent />
 
-        <div className='prose-a:text-primary prose prose-slate max-w-none lg:prose-base prose-h1:text-slate-700 prose-h2:text-slate-700 prose-h2:mt-0 prose-h3:text-slate-700 prose-img:mx-auto prose-img:rounded-md prose-img:shadow-xl'>            <div dangerouslySetInnerHTML={{ __html: pageContent }} />
+        <div className='prose-a:text-primary prose prose-slate max-w-none lg:prose-base prose-h1:text-slate-700 prose-h2:text-slate-700 prose-h2:mt-0 prose-h3:text-slate-700 prose-img:mx-auto prose-img:rounded-md prose-img:shadow-xl'>
+          <div dangerouslySetInnerHTML={{ __html: pageContent }} />
             <section className="bg-slate-50 rounded-2xl">
-            <div className="px-8 pt-8">
-              <h2 className='text-center'>
+            <div className="px-8">
+              <h2 className='text-center pt-8'>
                 Citations
               </h2>
               <p className='pb-4'>
