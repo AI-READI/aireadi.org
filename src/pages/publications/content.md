@@ -6,7 +6,7 @@
 - Owsley, C., Matthies, D. S., McGwin, G., Edberg, J. C., Baxter, S. L., Zangwill, L. M., Owen, J. P., Lee, C. S., & AI-READI Consortium. (2025). Cross-sectional design and protocol for Artificial Intelligence Ready and Equitable Atlas for Diabetes Insights (AI-READI). BMJ Open, 15(2), e097449. [https://doi.org/10.1136/bmjopen-2024-097449](https://doi.org/10.1136/bmjopen-2024-097449)
 - AI-READI Consortium. (2024). AI-READI: rethinking AI data collection, preparation and sharing in diabetes research and beyond. Nature Metabolism. [https://doi.org/10.1038/s42255-024-01165-x](https://doi.org/10.1038/s42255-024-01165-x)
 
-### Preprints
+## Preprints
 
 - Matthies, D. S.; Edberg, J. C.; Baxter, S. L.; Lee, A. Y.; Lee, C. S.; McGwin Jr., G.; Owen, J. P.; Zangwill, L. M.; Owsley, C.; the AI-READI Consortium (2026). A Manual of Procedures for the Generation of the AI-Ready and Exploratory Atlas for Diabetes Insights (AI-READI) Database. medRxiv. [https://doi.org/10.64898/2026.03.30.26349552](https://doi.org/10.64898/2026.03.30.26349552)
 - Heinke, A., Huang, L., Simpkins, K. U., Kalaw, F. G. P., Karsolia, A., Singh, K., Soundarajan, S., Nebeker, C., Baxter, S. L., Lee, C. S., Lee, A. Y., & Patel, B. (2025). Dataset Documentation for Responsible AI: Analysis of Suitability and Usage for Health Datasets. bioRxiv. [https://doi.org/10.1101/2025.11.18.689064](https://doi.org/10.1101/2025.11.18.689064)
