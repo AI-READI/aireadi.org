@@ -240,6 +240,12 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   initial='hidden'
                   whileInView='show'
                   viewport={{ once: true, amount: 1 }}
+                  onViewportEnter={() => {
+                    setTimeout(() => {
+                      setCelebrate(true);
+                      setTimeout(() => setCelebrate(false), 5300);
+                    }, 2000);
+                  }}
                   className='relative h-[40px] w-full'
                 >
 
@@ -247,12 +253,6 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                     <motion.div
                       variants={WidthFramerItem}
                       className='absolute inset-0 max-w-[100%] rounded-full bg-blue-300'
-                       onAnimationComplete={(definition) => {
-                        if (definition === 'show') {
-                          setCelebrate(true);
-                          setTimeout(() => setCelebrate(false), 5300);
-                        }
-                      }}
                     />
                     <motion.div
                       variants={FadeFramerItem}
