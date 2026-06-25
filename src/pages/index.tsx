@@ -21,7 +21,7 @@ import Layout from '@/components/layout/Layout';
 import ButtonLink from '@/components/links/ButtonLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
-import { useState } from 'react';
+import {useRef, useState} from 'react';
 
 import confettiLottie from '~/lotties/success.json';
 
@@ -51,6 +51,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
     type,
   } = frontMatter;
   const [celebrate, setCelebrate] = useState(false);
+  const hasCelebrated = useRef(false);
 
   return (
     <>
@@ -241,6 +242,8 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   whileInView='show'
                   viewport={{ once: true, amount: 1 }}
                   onViewportEnter={() => {
+                    if (hasCelebrated.current) return;
+                    hasCelebrated.current = true;
                     setTimeout(() => {
                       setCelebrate(true);
                       setTimeout(() => setCelebrate(false), 5000);
