@@ -264,6 +264,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                           animationData={confettiLottie}
                           width={300}
                           height={300}
+                          speed={0.8}
                         />
                       </div>
                     )}
