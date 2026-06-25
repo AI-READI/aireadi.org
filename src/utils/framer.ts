@@ -4,6 +4,7 @@ export const FramerContainer = {
     opacity: 1,
     transition: {
       staggerChildren: 0.25,
+      duration: 1.5,
       ease: 'easeInOut',
     },
   },
@@ -21,11 +22,19 @@ export const WidthFramerContainer = {
     transition: {
       staggerChildren: 0.5,
       ease: 'easeInOut',
+      duration: 1.5,
+
     },
   },
 };
 
 export const WidthFramerItem = {
   hidden: { width: 0, opacity: 0 },
-  show: { width: 'auto', opacity: 1 },
-};
+  show: {
+    width: 'auto',
+    opacity: 1,
+    transition: {
+      duration: 3,
+      ease: 'easeInOut',
+    },
+  },};

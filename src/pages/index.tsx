@@ -240,10 +240,6 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   initial='hidden'
                   whileInView='show'
                   viewport={{ once: true, amount: 1 }}
-                  onViewportEnter={() => {
-                    setCelebrate(true);
-                    setTimeout(() => setCelebrate(false), 5300);
-                  }}
                   className='relative h-[40px] w-full'
                 >
 
@@ -251,32 +247,32 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                     <motion.div
                       variants={WidthFramerItem}
                       className='absolute inset-0 max-w-[100%] rounded-full bg-blue-300'
+                       onAnimationComplete={(definition) => {
+                        if (definition === 'show') {
+                          setCelebrate(true);
+                          setTimeout(() => setCelebrate(false), 5300);
+                        }
+                      }}
                     />
                     <motion.div
                       variants={FadeFramerItem}
                       className='total-participants'
                     >
                     {celebrate && (
-                      <div className='pointer-events-none absolute inset-0 z-20 flex items-center justify-center'>
+                      <div className='pointer-events-none absolute inset-0 right-60 bottom-40 z-20 flex items-center justify-center'>
                         <LottieAnimation
                           animationData={confettiLottie}
-                          width={200}
-                          height={200}
+                          width={300}
+                          height={300}
                         />
                       </div>
                     )}
-                      <span className='block text-xs font-bold'>Goal: 4,000 participants</span>
-
-                    </motion.div>
-                    <motion.div
-                      variants={FadeFramerItem}
-                      className='completed-consent-text w-full'
-                    >
-                      <span className='block text-xl font-bold'>5,000+</span>
-                      <span className='max-w-[200px] text-[16px] font-normal max-md:max-w-[130px]'>
-                        participants completed the consent process
+                    <span className='block text-xl font-bold'>Goal</span>
+                      <span className='max-w-[200px] text-[16px] font-normal max-md:max-w-[140px]'>
+                        data collection from 4,000 participants
                       </span>
                     </motion.div>
+
                     <motion.div
                       variants={WidthFramerItem}
                       className='absolute inset-0 max-w-[100%] rounded-full bg-blue-600'
