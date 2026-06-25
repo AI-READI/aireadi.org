@@ -243,7 +243,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                   onViewportEnter={() => {
                     setTimeout(() => {
                       setCelebrate(true);
-                      setTimeout(() => setCelebrate(false), 5300);
+                      setTimeout(() => setCelebrate(false), 5000);
                     }, 2000);
                   }}
                   className='relative h-[40px] w-full'
