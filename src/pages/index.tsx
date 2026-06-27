@@ -248,7 +248,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                     setTimeout(() => {
                       setCelebrate(true);
                       setTimeout(() => setCelebrate(false), 5000);
-                    }, 2500);
+                    }, 2300);
                   }}
                   className='relative h-[40px] w-full'
                 >

@@ -43,7 +43,7 @@ export const FadeFramerItemDelayed = {
     opacity: 1,
     translateY: 0,
     transition: {
-      delay: 2.5,    
+      delay: 2.3,
       duration: 0.5,
       ease: 'easeInOut',
     },
