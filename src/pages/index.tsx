@@ -30,6 +30,7 @@ import {
   FadeFramerItem,
   WidthFramerContainer,
   WidthFramerItem,
+  FadeFramerItemDelayed
 } from '@/utils/framer';
 /**
  * SVGR Supportgray
@@ -247,7 +248,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                     setTimeout(() => {
                       setCelebrate(true);
                       setTimeout(() => setCelebrate(false), 5000);
-                    }, 2000);
+                    }, 2500);
                   }}
                   className='relative h-[40px] w-full'
                 >
@@ -282,7 +283,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                       className='absolute inset-0 max-w-[100%] rounded-full bg-blue-600'
                     />
                     <motion.div
-                      variants={FadeFramerItem}
+                      variants={FadeFramerItemDelayed}
                       className='completed-study-text'
                     >
                       <span className='block text-xl font-bold'>4,040+</span>
