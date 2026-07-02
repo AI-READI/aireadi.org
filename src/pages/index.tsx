@@ -286,7 +286,7 @@ const HomePage: React.FC<EventItem> = ({ slug, frontMatter }) => {
                       variants={FadeFramerItemDelayed}
                       className='completed-study-text'
                     >
-                      <span className='block text-xl font-bold'>4,040+</span>
+                      <span className='block text-xl font-bold'>4,055+</span>
                       <span className='max-w-[200px] text-[16px] font-normal max-md:max-w-[140px]'>
                         participants completed in-person study visit
                       </span>
