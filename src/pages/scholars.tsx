@@ -153,7 +153,12 @@ const ScholarsGrid: React.FC<{
 
 const ScholarsPage: React.FC<
   InferGetStaticPropsType<typeof getStaticProps>
-> = ({ AllScholars, Class23_24Scholars, Class24_25Scholars }) => {
+> = ({
+  AllScholars,
+  Class23_24Scholars,
+  Class24_25Scholars,
+  Class25_26Scholars,
+}) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [selectedScholar, setSelectedScholar] = useState<Scholar | null>(null);
 
@@ -188,20 +193,26 @@ const ScholarsPage: React.FC<
           />
 
           <h2 className='pt-8 text-center text-3xl font-extrabold tracking-tight sm:text-4xl lg:pt-16'>
-            Current Class (2024-2025)
+            Current Class (2025-2026)
           </h2>
 
           <h3 className='hidden pt-1 text-center text-xl font-bold text-slate-700 sm:text-2xl lg:pt-4'>
             Coming soon...
           </h3>
 
-          <ScholarsGrid scholars={Class24_25Scholars} openModal={openModal} />
+          <ScholarsGrid scholars={Class25_26Scholars} openModal={openModal} />
 
           <h2 className='pt-3 text-center text-3xl font-extrabold tracking-tight sm:text-4xl'>
             Alumni
           </h2>
 
           <h3 className='pt-1 text-center text-xl font-bold text-slate-700 sm:text-2xl lg:pt-4'>
+            Class of 2024-2025
+          </h3>
+
+          <ScholarsGrid scholars={Class24_25Scholars} openModal={openModal} />
+
+          <h3 className='pt-3 text-center text-xl font-bold text-slate-700 sm:text-2xl'>
             Class of 2023-2024
           </h3>
 
@@ -386,11 +397,16 @@ export const getStaticProps = async () => {
     (scholar) => scholar.class === '2024-2025',
   );
 
+  const Class25_26Scholars = AllScholars.filter(
+    (scholar) => scholar.class === '2025-2026',
+  );
+
   return {
     props: {
       AllScholars,
       Class23_24Scholars,
       Class24_25Scholars,
+      Class25_26Scholars,
     },
   };
 };

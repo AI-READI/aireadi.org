@@ -327,5 +327,37 @@
     "social": {
       "linkedin": "https://www.linkedin.com/in/taiki-nishihara/"
     }
+  },
+  {
+    "id": "Siddharth-Limaye",
+    "name": "Siddharth Limaye",
+    "class": "2025-2026",
+    "image": "https://ai-readi.b-cdn.net/people/Siddharth-Limaye.jpeg",
+    "moduleImage": "https://ai-readi.b-cdn.net/headshot/Siddharth-Limaye.jpeg",
+    "tag": [
+      "#OpenToWork"
+    ],
+    "education": [
+      {
+        "degree": "MD Candidate",
+        "institution": "Carle Illinois College of Medicine"
+      },
+      {
+        "degree": "Bachelors in Biology w/ Spec. in Bioinformatics",
+        "institution": "UCSD"
+      },
+      {
+        "degree": "Bachelors in Mathematics - Computer Science",
+        "institution": "UCSD"
+      }
+    ],
+    "expertise": [
+      "Data Science",
+      "Computer Science",
+      "Biology"
+    ],
+    "about": "I am a medical student at the Carle Illinois College of Medicine, Class of 2027 who is interested in bringing a mathematical lens to medicine. I have experience in statistical modeling, computer science, and machine learning. As an AI-READI intern, I've built an analysis pipeline for Fluorescence Lifetime Imaging Ophthalmoscopy (an emerging retinal imaging technology) which I presented at ARVO 2026, I've built a machine learning model for predicting presence of diabetes comorbidities using retinal imaging, and I've contributed to RETFound Global. Outside of research, I enjoy photography and climbing!",
+    "after": "After completing the AI-READI internship, I plan to apply for residency programs. I'm interested in a future in academic medicine because I particularly enjoy research and teaching.",
+    "social": {}
   }
 ]
