@@ -26,6 +26,7 @@
 - Hong, S. S., Bangudi, M., Cavallon, J., Mitchell, J., Francis, P. A., Gold, S., Chen, Y., Lucero, A., Matthies, D., Mitchell, J., Chamberlin, S., Contreras, J. L., Baxter, S. L., Cai, C. X., Haribar, M., Chute, C., Lee, C. S., & Lee, A. Y. (2026). Standardizing Survey, Vision Care, and Cognitive Assessment Data: Generalizable Framework for Mapping Research Questionnaires to the OMOP Common Data Model (Poster) (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.21682271
 - Gasimova, A., Soundarajan, S., Gim, N., Shaffer, J., Owen, J., Lee, A., & Patel, B. (2026). Clinical Dataset Structure: A Universal Framework for Structuring Clinical Research Datasets (Poster) (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.21462937
 - Patel, B., Soundarajan, S., Gasimova, A., Gim, N., Shaffer, J., & Lee, A. (2024). Clinical Dataset Structure: A Universal Standard for Structuring Clinical Research Data and Metadata (Poster) (1.0.0). Zenodo. [https://doi.org/10.5281/zenodo.13984769](https://doi.org/10.5281/zenodo.13984769)
+- Additional posters from the AIM-AHEAD scholars are available [here](https://drive.google.com/drive/folders/11_UCAFCBOou9b6frtzbcgc_DoB-rlDGy).
 
 ## Software
 
