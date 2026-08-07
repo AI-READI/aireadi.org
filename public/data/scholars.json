@@ -359,5 +359,34 @@
     "about": "I am a medical student at the Carle Illinois College of Medicine, Class of 2027 who is interested in bringing a mathematical lens to medicine. I have experience in statistical modeling, computer science, and machine learning. As an AI-READI intern, I've built an analysis pipeline for Fluorescence Lifetime Imaging Ophthalmoscopy (an emerging retinal imaging technology) which I presented at ARVO 2026, I've built a machine learning model for predicting presence of diabetes comorbidities using retinal imaging, and I've contributed to RETFound Global. Outside of research, I enjoy photography and climbing!",
     "after": "After completing the AI-READI internship, I plan to apply for residency programs. I'm interested in a future in academic medicine because I particularly enjoy research and teaching.",
     "social": {}
+  },
+  {
+    "id": "Lingsong-Kong",
+    "name": "Lingsong Kong",
+    "class": "2025-2026",
+    "image": "https://ai-readi.b-cdn.net/people/Lingsong-Kong.jpg",
+    "moduleImage": "https://ai-readi.b-cdn.net/headshot/Lingsong-Kong.jpg",
+    "tag": [
+      "#OpenToWork"
+    ],
+    "education": [
+      {
+        "degree": "PhD in Kinesiology",
+        "institution": "University of Massachusetts Amherst, 2025"
+      }
+    ],
+    "expertise": [
+      "Physical Activity Epidemiology",
+      "Wearable Technologies",
+      "Digital Health",
+      "Healthy Aging",
+      "Data Science",
+      "Health Promotion"
+    ],
+    "about": "I am a physical activity epidemiologist with expertise in wearable technology–measured physical activity, its associations with a range of health outcomes, and digital health interventions designed to promote healthy aging. I analyze wearable-device data from large-scale studies, particularly prospective cohort studies, using advanced methods such as machine learning and artificial intelligence. My research aims to better understand daily movement behaviors and develop personalized, scalable interventions that support health and independence among older adults.",
+    "after": "After completing the AI-READI program, I began a postdoctoral research fellowship at the University of Michigan, where I am expanding my research on digital health and technology-supported behavioral interventions. In the future, I plan to pursue opportunities in academia or industry where I can apply my expertise in wearable-device data analysis, digital health, artificial intelligence, and health promotion to develop practical solutions that support healthy aging and improve population health.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/lingsong-ling-kong-6a5859181"
+    }
   }
 ]
