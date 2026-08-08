@@ -971,6 +971,27 @@
     }
   },
   {
+    "id": "Nashrah-Junejo",
+    "name": "Nashrah Junejo",
+    "pronoun": "",
+    "roles": [
+      "AI-READI Intern"
+    ],
+    "department": "",
+    "organization": "University of California, San Diego",
+    "location": "Seattle, WA",
+    "caption": "I am an AI-READI intern researching effects of sleep irregularities on diabetic complications.",
+    "image": "https://ai-readi.b-cdn.net/people/Nashrah-Junejo.jpg",
+    "moduleImage": "https://ai-readi.b-cdn.net/headshot/Nashrah-Junejo.jpg",
+    "modules": [
+      "data-collection",
+      "team-science"
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/nashrah-junejo-61383223a"
+    }
+  },
+  {
     "id": "Nicholas-Evans",
     "name": "Nicholas Evans",
     "pronoun": "he/him",
