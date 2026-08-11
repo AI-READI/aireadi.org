@@ -34,7 +34,8 @@
 - FAIRhub data portal. (started 2022). [https://github.com/AI-READI/fairhub-portal](https://github.com/AI-READI/fairhub-portal) (Development status: Active)
 - pyfairdatatools. (started 2022). [https://github.com/AI-READI/pyfairdatatools](https://github.com/AI-READI/pyfairdatatools) (Development status: Active)
 
-## Webinars/Lectures
+## Webinars/Lectures/Presentations
 
+- Gasimova, A., Soundarajan, S., Gim, N., Shaffer, J., Owen, J., Lee, A., & Patel, B. (2026). Clinical Dataset Structure: A Universal Standard for Structuring Clinical Research Datasets (Presentation). (1.0.0).  Zenodo. [https://doi.org/10.5281/zenodo.21830106](https://doi.org/10.5281/zenodo.21830106)
 - Lee, C., Patel, B., & Baxter, S. (2024). Introduction to AI-READI, Studying Salutogenesis in T2DM (dkNET Presentation) (1.0.0). Zenodo. [https://doi.org/10.5281/zenodo.13984710](https://doi.org/10.5281/zenodo.13984710)
 - Lee, C., Patel, B., & Baxter, S. (2024). Introduction to AI-READI, Studying Salutogenesis in T2DM (Bridge2AI Lecture Series) (1.0.0). Zenodo. [https://doi.org/10.5281/zenodo.13984755](https://doi.org/10.5281/zenodo.13984755)
