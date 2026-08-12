@@ -419,5 +419,35 @@
     "social": {
       "linkedin": "https://www.linkedin.com/in/nashrah-junejo-61383223a"
     }
+  },
+  {
+    "id": "Saron-Tedla",
+    "name": "Saron Tedla",
+    "class": "2025-2026",
+    "image": "https://ai-readi.b-cdn.net/people/Saron-Tedla.png",
+    "moduleImage": "https://ai-readi.b-cdn.net/headshot/Saron-Tedla.png",
+    "tag": [
+      "#OpenToWork"
+    ],
+    "education": [
+      {
+        "degree": "MD Candidate",
+        "institution": "Oregon Health & Science University"
+      },
+      {
+        "degree": "Bachelors of Science in Biology & French Studies",
+        "institution": "University of Portland"
+      }
+    ],
+    "expertise": [
+      "Medicine",
+      "Statistics",
+      "Global Health"
+    ],
+    "about": "I am a medical student at Oregon Health & Science University, Class of 2027. As an AI-READI Intern, I've used Fluorescence Lifetime Imaging Ophthalmoscopy (FLIO) to study how retinal changes vary with diabetes severity. Outside of research, I enjoy hiking and water-color painting!",
+    "after": "I will apply for medical residency, with the goal of working in academic medicine.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/saron-tedla-298aa3170"
+    }
   }
 ]
