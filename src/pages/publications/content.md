@@ -30,6 +30,7 @@
 
 ## Software
 
+- AI-READI Survey Data Element Mapping Artifacts. (started 2023). [https://github.com/AI-READI/DataElementMaps](https://github.com/AI-READI/DataElementMaps) (Development status: Active)
 - FAIRhub study management platform. (started 2022). [https://github.com/AI-READI/fairhub-app](https://github.com/AI-READI/fairhub-app) (Development status: Active)
 - FAIRhub data portal. (started 2022). [https://github.com/AI-READI/fairhub-portal](https://github.com/AI-READI/fairhub-portal) (Development status: Active)
 - pyfairdatatools. (started 2022). [https://github.com/AI-READI/pyfairdatatools](https://github.com/AI-READI/pyfairdatatools) (Development status: Active)
