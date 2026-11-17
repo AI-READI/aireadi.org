@@ -73,6 +73,11 @@ const PublicationsPage: React.FC<{ pageContent: string }> = ({
       year: 2025,
       link: 'https://doi.org/10.60775/fairhub.3',
     },
+    {
+      version: 'v4.0.0',
+      year: 2026,
+      link: 'https://doi.org/10.60775/fairhub.5',
+    }
   ];
   return (
     <>

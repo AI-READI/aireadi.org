@@ -191,7 +191,7 @@ const VizComponent = () => {
           context.font = `${Math.max(14, width * 0.015)}px Arial`;
           context.textAlign = 'center';
           context.textBaseline = 'bottom';
-          context.fillText('(n = 2280)', 0, (-1 * height) / 2 + 75);
+          context.fillText('(n = 4048)', 0, (-1 * height) / 2 + 75);
         }
 
         for (let i = 0; i < nodes.length; ++i) {
