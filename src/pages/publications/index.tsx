@@ -28,14 +28,14 @@ const PublicationsPage: React.FC<{ pageContent: string }> = ({
   const itemsPerPage = 10;
 // Sort by year (newest first)
   const sortedMarkerSubCite = [...markerSubCite].sort((a, b) => {
-    const yearA = Number(a.source?.match(/\b(20\d{2})\b/)?.[0] || 0);
-    const yearB = Number(b.source?.match(/\b(20\d{2})\b/)?.[0] || 0);
+    const yearA = a.year || 0;
+    const yearB = b.year || 0;
     return yearB - yearA;
   });
 
   const sortedDatasetSubCite = [...datasetSubCite].sort((a, b) => {
-    const yearA = Number(a.source?.match(/\b(20\d{2})\b/)?.[0] || 0);
-    const yearB = Number(b.source?.match(/\b(20\d{2})\b/)?.[0] || 0);
+    const yearA = a.year || 0;
+    const yearB = b.year || 0;
     return yearB - yearA;
   });
 
@@ -93,9 +93,6 @@ const PublicationsPage: React.FC<{ pageContent: string }> = ({
               <div className="px-8">
               <p className='pb-4 pt-2'>
                 {' '}
-                Projects that publish using our datasets are required to cite
-                both our marker paper and dataset. Below, we provide a list of
-                those citations.
                 Projects that publish using our datasets are required to cite both
                 our marker paper and dataset. Below, we provide a list of those
                 citations, as tracked by Google Scholar.
@@ -229,9 +226,8 @@ const PublicationsPage: React.FC<{ pageContent: string }> = ({
                                   {(Array.isArray(pub.authors)
                                     ? pub.authors.map((a) => a.name).join(', ')
                                     : pub.authors) || '—'}
-                                  {'. '}
-                                  {pub.source?.match(/\b(19|20)\d{2}\b/)?.[0] ??
-                                    '—'}
+                                  {' '}
+                                  {pub.year ?? '—'}
                                   . <span className='italic'>{pub.title}</span>.{' '}
                                   {pub.source?.split('-').pop()?.trim()}.{' '}
                                   <a
@@ -404,8 +400,7 @@ const PublicationsPage: React.FC<{ pageContent: string }> = ({
                                   ? pub.authors.map((a) => a.name).join(', ')
                                   : pub.authors) || '—'}
                                 {'. '}
-                                {pub.source?.match(/\b(19|20)\d{2}\b/)?.[0] ??
-                                  '—'}
+                                {pub.year ?? '—'}
                                 . <span className='italic'>{pub.title}</span>.{' '}
                                 {pub.source?.split('-').pop()?.trim()}.{' '}
                                 <a
